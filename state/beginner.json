@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-06T12:42:56.454Z",
+   "observedAt": "2026-10-06T13:12:45.781Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
