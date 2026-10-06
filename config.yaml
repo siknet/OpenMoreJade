@@ -10,8 +10,8 @@ site:
     en: When bored, just watch something random.
     zh: 无聊时随便看点什么。
   # 部署配置：repoUrl 填写您的 GitHub 仓库地址；siteUrl 留空时 CI 会自动推导为 https://<用户名>.github.io/<仓库名>/
-  repoUrl: https://github.com/WZZNNE/AI-Resonance     # 页脚链接、设置中的邮件投递、请求头 User-Agent 联系地址
-  siteUrl: https://wzznne.github.io/AI-Resonance/     # 订阅源、邮件内链接、llms.txt 使用；优先级高于环境变量 SITE_URL
+  repoUrl: https://www.liriver.net     # 页脚链接、设置中的邮件投递、请求头 User-Agent 联系地址
+  siteUrl: https://www.liriver.net     # 订阅源、邮件内链接、llms.txt 使用；优先级高于环境变量 SITE_URL
   defaultLang: zh             # 默认语言：en（英文）| zh（中文）— 当浏览器未提供偏好时的首选语言
   theme:
     preset: paper          # 界面主题预设：titanium（钛金）| paper（纸张）| terminal（终端黑）— 详见 docs/CUSTOMIZE.md
