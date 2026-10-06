@@ -1,0 +1,38 @@
+# 摸玉日报
+
+> When bored, just watch something random. Ranked by a transparent heat score, linked across sources, remembered for 183 days. Static JSON, no auth, no server.
+
+Latest edition: 2026-10-05. Boards: Repos · HF Trending · Hacker News · Social · Labs. An edition covers 00:00 to 00:00 the next day in Asia/Shanghai. Site: https://wzznne.github.io/AI-Resonance/
+
+## API (static JSON)
+
+- [manifest.json](api/v1/manifest.json): entry point — available dates and weeks, edition clock, board and signal metadata (weights, caps, curves, help text)
+- [latest.json](api/v1/latest.json): the latest closed edition — five boards (top + runners-up) with score breakdowns, categories, resonance links, trend memory, clusters and an optional LLM brief
+- [live.json](api/v1/live.json): the edition still in progress, ranked so far (absent between editions)
+- [beginner.json](api/v1/beginner.json): 100 beginner resources (30 resident picks and 70 dynamic recommendations), eight searchable types, monthly resident replacement and persistent first-entry / NEW / BACK history
+- [daily/<date>.json](api/v1/daily/): the same for any edition in the window
+- [weekly/<YYYY-Www>.json](api/v1/weekly/): weekly recap — heat (sum of daily scores), streaks, top clusters, brief
+- [entities/<board>/<YYYY-MM>.json](api/v1/entities/): full history per entity (appearances, metric series), sharded by first-seen month
+- [search/index.json](api/v1/search/index.json): compact index of every entity ever ranked
+- [report/<date|week>.<lang>.html](api/v1/report/): self-contained interactive report per edition and week
+- [pricing.json](api/v1/pricing.json): slim LLM price catalogue, USD per 1M tokens
+- [mail-status.json](api/v1/mail-status.json): when the scheduled e-mail last went out (no addresses)
+
+## Digests and feeds
+
+- [digest.md](api/v1/digest.md): the latest edition as Markdown (English)
+- [digest.zh.md](api/v1/digest.zh.md): 最新一期榜单（中文）
+- [feed.xml](api/v1/feed.xml): Atom feed, one entry per edition (English)
+- [feed.zh.xml](api/v1/feed.zh.xml): Atom feed（中文）
+
+## Scoring
+
+norm = min(1, curve(raw) / curve(cap)); points = norm × weight / Σweight × 100; total = Σ points. Signals per board:
+
+- Repos: stars_today (40, cap 1500, log), momentum (15, cap 30, sqrt), hn_echo (15, cap 500, log), echo (10, cap 2, linear), novelty (10, cap 1, linear), relevance (10, cap 1, linear)
+- HF Trending: trending_score (45, cap 1500, log), hf_likes (30, cap 5000, log), novelty (15, cap 1, linear), relevance (10, cap 1, linear)
+- Hacker News: points (40, cap 800, log), comments (15, cap 400, log), velocity (20, cap 60, sqrt), echo (15, cap 2, linear), relevance (10, cap 1, linear)
+- Social: lift (30, cap 5, sqrt), reach (20, cap 5000, log), discussion (10, cap 500, log), velocity (10, cap 500, sqrt), authority (15, cap 1.5, linear), echo (10, cap 2, linear), relevance (5, cap 1, linear)
+- Labs (ranks over the last 7 days): kind (25, cap 1, linear), release (10, cap 0.7, linear), freshness (30, cap 1, linear), echo (20, cap 1.5, linear), company (10, cap 1.5, linear), surface (5, cap 0.2, linear)
+
+Resonance: entities linked across boards in the same edition form a cluster; an item's resonance.level is the number of boards its cluster spans (1–3, 3 = full resonance).

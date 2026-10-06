@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+<title>摸玉日报</title>
+<subtitle>无聊时随便看点什么。</subtitle>
+<id>https://wzznne.github.io/AI-Resonance/</id>
+<updated>2026-10-06T08:25:31.953Z</updated>
+<author><name>摸玉日报</name></author>
+<generator>摸玉日报 pipeline</generator>
+<link rel="alternate" href="https://wzznne.github.io/AI-Resonance/"/>
+<link rel="self" type="application/atom+xml" href="https://wzznne.github.io/AI-Resonance/api/v1/feed.zh.xml"/>
+<entry>
+<title>2026-10-05 · Anthropic因内部日记泄露被警方调查，涉及重罪指控</title>
+<id>https://wzznne.github.io/AI-Resonance/#/d/2026-10-05</id>
+<updated>2026-10-06T08:25:31.953Z</updated>
+<link rel="alternate" href="https://wzznne.github.io/AI-Resonance/#/d/2026-10-05"/>
+<content type="html">&lt;p&gt;&lt;strong&gt;Anthropic因内部日记泄露被警方调查，涉及重罪指控&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Anthropic向警方提交内部日记条目，导致一名女性面临重罪指控，突显AI公司内部治理与合规风险 [news#1]&lt;/li&gt;&lt;li&gt;开源项目ArtCraft Apps推出基于Rust的Adobe兼容套件，为创意软件提供高性能、跨平台选择 [news#2]&lt;/li&gt;&lt;li&gt;市场预测显示，售价低于25,000欧元的电动汽车将实现七倍增长，推动经济适用型绿色出行 [news#3]&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Hacker News 热议&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html&quot;&gt;Anthropic 向警方报告 AI 日记，女子面临重罪指控&lt;/a&gt; · 73.7 · 一名佛罗里达女子使用 Anthropic 的 Claude 生成关于枪击的日记，Anthropic 将记录上报警方，导致她被起诉重罪。&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://getartcraft.com/apps&quot;&gt;ArtCraft Apps：基于 Rust 的开源 Adobe 兼容套件&lt;/a&gt; · 51.2 · ArtCraft 开源了一套用 Rust 编写的设计软件，功能兼容 Adobe 系列，面向开发者和创意工作者。&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold&quot;&gt;低于 2.5 万欧元的电动车销量有望提升七倍&lt;/a&gt; · 47.5 · 根据 Transport Environment 报告，价格在 25,000 欧元以下的电动车型将迎来销量七倍的增长，推动大众市场普及。&lt;/li&gt;&lt;/ol&gt;</content>
+</entry>
+</feed>

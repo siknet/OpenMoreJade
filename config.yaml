@@ -1,0 +1,377 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  AI Resonance（AI共振）— 项目的核心配置文件。
+#  只需修改主题（关键词 / 话题 / 分类），即可为 Rust、生物信息学、机器人等任何领域
+#  构建每日技术雷达。下方的评分公式会原样展示在网站的“评分机制说明”页面。
+# ─────────────────────────────────────────────────────────────────────────────
+
+site:
+  name: 摸玉日报
+  tagline:
+    en: When bored, just watch something random.
+    zh: 无聊时随便看点什么。
+  # 部署配置：repoUrl 填写您的 GitHub 仓库地址；siteUrl 留空时 CI 会自动推导为 https://<用户名>.github.io/<仓库名>/
+  repoUrl: https://github.com/WZZNNE/AI-Resonance     # 页脚链接、设置中的邮件投递、请求头 User-Agent 联系地址
+  siteUrl: https://wzznne.github.io/AI-Resonance/     # 订阅源、邮件内链接、llms.txt 使用；优先级高于环境变量 SITE_URL
+  defaultLang: zh             # 默认语言：en（英文）| zh（中文）— 当浏览器未提供偏好时的首选语言
+  theme:
+    preset: paper          # 界面主题预设：titanium（钛金）| paper（纸张）| terminal（终端黑）— 详见 docs/CUSTOMIZE.md
+    accent: ''                # 主题强调色：支持任意 CSS 颜色（如 '#10a37f'）；留空则使用预设默认色
+
+# 每日刊期的定义。刊期 D = 该时区下的 [D 截止时间, D+1 截止时间)。
+# 带有明确时间戳的条目（HN、X、官方机构博文）按其自身发布时间归档；
+# GitHub Star 增量以两个截止时间之间的变化为准。截止时间经过 settleHours 小时后，
+# 系统会重新读取互动数据完成数据沉淀（settle），确保晚发布的条目得到公正评估。
+edition:
+  timezone: Asia/Shanghai   # 刊期时区：如 Asia/Shanghai（中国标准时间）或 America/Los_Angeles（美西时间）
+  cutoff: '00:00'           # 每日截止交割时间（格式：'HH:mm'）
+  settleHours: 8            # 截止后多少小时内重新拉取互动数据，完成沉淀封存
+
+retention:
+  days: 183                   # 趋势历史记忆天数：保留半年（183天）的历史快照
+  candidatesPerBoard: 60      # 每天各板块保留的原始候选条目上限（控制仓库体积）
+
+# 相关性判定标准：用于开源项目（repos）和科技要闻（news）的分类器。
+# 论文（papers）板块默认直接通过（根据数据源配置的学科类别自动拉取）。
+topic:
+  minRelevance: 0.35          # 最低相关性得分阈值（低于此分数的条目将被过滤淘汰）
+  strongKeywords:             # 强关键词：标题或描述中只要命中任意一个，即明确判定为“高度相关”
+    - llm
+    - large language model
+    - language model
+    - generative ai
+    - genai
+    - machine learning
+    - deep learning
+    - neural network
+    - transformer
+    - diffusion model
+    - reinforcement learning
+    - fine-tuning
+    - finetuning
+    - rag
+    - retrieval-augmented
+    - ai agent
+    - agentic
+    - multi-agent
+    - mcp
+    - model context protocol
+    - prompt engineering
+    - text-to-image
+    - text-to-video
+    - text-to-speech
+    - speech recognition
+    - computer vision
+    - embedding
+    - vector database
+    - inference engine
+    - gpt
+    - chatgpt
+    - openai
+    - anthropic
+    - opensource
+    - open source
+    - claude
+    - gemini
+    - deepseek
+    - qwen
+    - llama                   # 也匹配 llama.cpp
+    - mistral
+    - kimi
+    - glm
+    - grok
+    - codex
+    - gemma
+    - ollama
+    - vllm
+    - hugging face
+    - huggingface
+    - stable diffusion
+    - copilot
+    - agi
+    - 大模型
+    - 智能体
+  weakKeywords:               # 弱关键词：需要命中两个以上，或者命中一个弱关键词外加匹配一个分类/域名
+    - ai
+    - agent
+    - agents
+    - model
+    - models
+    - inference
+    - training
+    - gpu
+    - cuda
+    - nvidia
+    - benchmark
+    - reasoning
+    - chatbot
+    - assistant
+    - alignment
+    - tokens
+    - robotics
+    - autonomous
+  githubTopics:               # GitHub 话题标签匹配列表
+    - ai
+    - artificial-intelligence
+    - machine-learning
+    - deep-learning
+    - llm
+    - llms
+    - large-language-models
+    - generative-ai
+    - agents
+    - ai-agents
+    - rag
+    - mcp
+    - nlp
+    - computer-vision
+    - diffusion
+    - transformers
+    - pytorch
+    - reinforcement-learning
+    - multimodal
+    - text-to-speech
+    - speech-recognition
+    - vector-database
+    - inference
+    - fine-tuning
+  domains:                    # 权威域名白名单：来自这些站点的文章直接判定为相关
+    - openai.com
+    - anthropic.com
+    - deepmind.google
+    - ai.google
+    - huggingface.co
+    - x.ai
+    - stability.ai
+  exclude:                    # 排除名单（一票否决）：命中此名单的条目将被直接过滤丢弃
+    - awesome-list-of-jobs
+
+sources:
+  # GitHub 官方 Trending 趋势榜
+  githubTrending:
+    enabled: true
+    since: daily              # 默认趋势跨度：daily（日）| weekly（周）| monthly（月）
+    languages: ['', python, typescript, rust, go,]   # 抓取的语言分类，'' 表示不限语言
+
+  # GitHub 全局项目搜索（补充 Trending 遗漏的新鲜优质项目）
+  githubSearch:
+    enabled: true
+    # 检索条件组：GitHub API 不支持在限定词间使用 OR（会报 422 错误）。{{d-N}} 表示今天减去 N 天。
+    queries:
+      - 'created:>{{d-7}} stars:>100'                     # 近7天创建且热度>100星的新项目（新项目往往还没贴标签）
+      - 'created:>{{d-30}} pushed:>{{d-2}} stars:>300'    # 近1月创建且近期活跃、热度>300星的项目
+      - 'llm OR agent OR ai in:name,description,topics created:>{{d-30}} stars:>200'
+      - 'topic:llm pushed:>{{d-7}} created:>{{d-365}}'
+      - 'topic:ai-agents pushed:>{{d-7}} created:>{{d-365}}'
+      - 'topic:mcp pushed:>{{d-7}} created:>{{d-365}}'
+      - 'topic:rag pushed:>{{d-7}} created:>{{d-365}}'
+      - 'topic:generative-ai pushed:>{{d-7}} created:>{{d-365}}'
+    perQuery: 50              # 每个搜索表达式拉取的最大结果数
+
+  # Hugging Face 模型流行趋势（Trending Models）
+  hfTrending:
+    enabled: true
+    limit: 10                 # 抓取热门模型数量（默认 10）
+    prior: 1.0                # 先验加权系数
+
+  # Hacker News 科技要闻
+  hackerNews:
+    enabled: true
+    hours: 48                 # 检索时间窗口（小时）；后劲强的热门帖子会在刊期封存前持续追踪其热度
+    minPoints: 10             # 上榜最低点赞得分要求
+
+  # X（Twitter）。2026年官方无免费 API：此监控列表使用官方按量计费 API 每月约需 20–30 美元
+  # （可在 console.x.com 设置支出上限）；twitterapi.io / SocialData 成本更低但属于第三方非官方服务。
+  # syndication 为免费实验性模式：仅对蓝标企业认证的官方机构账号实时有效。详见 docs/VERIFIED.md › v2 › X。
+  # auto 模式：未配置密钥时，免费订阅仅抓取官方实验室账号（跳过个人账号如 @thsottiaux）；
+  # 配置环境变量 X_BEARER_TOKEN 后，下一次运行会在 monthlyUsdCap 额度内调用官方 API 抓取完整列表。
+  # 也可以直接指定模式：xapi | twitterapi_io (TWITTERAPI_IO_KEY) | socialdata | syndication
+  x:
+    enabled: false
+    provider: auto
+    linked: true              # 免费联动：来自 HN / 机构博文中附带链接的 X 推文无论如何都会通过免费 oEmbed 解析展示
+    maxPostsPerRun: 300       # 每次运行拉取推文最大数量
+    monthlyUsdCap: 20         # 每月预估美元花费软上限
+    accounts:
+      - { handle: OpenAI,          id: '4398626122',          group: lab, org: openai }
+      - { handle: OpenAIDevs,      id: '1633874951508721686', group: lab, org: openai }
+      - { handle: AnthropicAI,     id: '1353836358901501952', group: lab, org: anthropic }
+      - { handle: claudeai,        id: '1943306828697550848', group: lab, org: anthropic }
+      - { handle: GoogleDeepMind,  id: '4783690002',          group: lab, org: google }
+      - { handle: GoogleAI,        id: '33838201',            group: lab, org: google }
+      - { handle: GoogleAIStudio,  id: '1742923424056713217', group: lab, org: google }
+      - { handle: GeminiApp,       id: '1806359170830172162', group: lab, org: google }
+      - { handle: deepseek_ai,     id: '1714580962569588736', group: lab, org: deepseek }
+      - { handle: Zai_org,         id: '1726486879456096256', group: lab, org: zhipu }
+      - { handle: Kimi_Moonshot,   id: '1863959670169501696', group: lab, org: kimi }
+      - { handle: SpaceXAI,        id: '1661523610111193088', group: lab, org: xai, note: '2026年7月由 @xai 更名' }
+      - { handle: grok,            id: '1720665183188922368', group: lab, org: xai, weight: 0.6 }
+      - { handle: MistralAI,       id: '1667249535519805451', group: lab, org: mistral }
+      - { handle: Alibaba_Qwen,    id: '1753339277386342400', group: lab, org: qwen }
+      - { handle: AIatMeta,        id: '1034844617261248512', group: lab, org: meta }
+      - { handle: MiniMax_AI,      id: '1875078099538423808', group: lab, org: minimax }
+      - { handle: thsottiaux,      id: '1953337039510003712', group: person, org: openai, weight: 1.0, note: 'Tibo — OpenAI Codex & ChatGPT 负责人' }
+      - { handle: sama,            id: '1605',                group: person, org: openai, weight: 1.0 }
+      - { handle: gdb,             id: '162124540',           group: person, org: openai, weight: 0.9 }
+      - { handle: markchen90,                                 group: person, org: openai, weight: 0.8 }
+      - { handle: polynoamial,                                group: person, org: openai, weight: 0.8 }
+      - { handle: DarioAmodei,     id: '874126509245476864',  group: person, org: anthropic, weight: 1.0 }
+      - { handle: alexalbert__,                               group: person, org: anthropic, weight: 0.8 }
+      - { handle: bcherny,         id: '159337660',           group: person, org: anthropic, weight: 0.9, note: 'Claude Code 核心作者' }
+      - { handle: OfficialLoganK,  id: '284333988',           group: person, org: google, weight: 0.9 }
+      - { handle: demishassabis,                              group: person, org: google, weight: 0.9 }
+      - { handle: karpathy,        id: '33836629',            group: person, weight: 1.0 }
+      - { handle: simonw,          id: '12497',               group: person, weight: 0.9 }
+      - { handle: swyx,                                       group: person, weight: 0.7 }
+      - { handle: _akhaliq,                                   group: person, weight: 0.6, note: '高频论文/开源推主' }
+      - { handle: DrJimFan,                                   group: person, weight: 0.7 }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 板块热度评分机制（透明评分公式）
+# 归一化得分：norm = min(1, curve(原始数值) / curve(上限 cap))
+# 最终维度积分：points = norm × 权重 weight / 权重总和 Σweight × 100
+# ─────────────────────────────────────────────────────────────────────────────
+boards:
+  # 开源项目板块
+  repos:
+    size: 10                  # 每日主榜展示项目数量
+    runnersUp: 10             # 候补项目数量（界面可折叠展开）
+    signals:
+      - { key: stars_today, weight: 40, cap: 1500, curve: log }      # 今日 Star 增量（权重 40，上限 1500，对数衰减）
+      - { key: momentum,    weight: 15, cap: 30,   curve: sqrt }     # 增长动能：今日增量占总 Star 比例（权重 15，上限 30%，平方根曲线）
+      - { key: hn_echo,     weight: 15, cap: 500,  curve: log }      # HN 回响：讨论该项目的 Hacker News 故事热度（权重 15，上限 500）
+      - { key: echo,        weight: 10, cap: 2,    curve: linear }   # 跨板块联动（权重 10，上限 2）
+      - { key: novelty,     weight: 10, cap: 1,    curve: linear }   # 新颖度：首次上榜为 1，在榜期间逐渐衰减（权重 10，线性曲线）
+      - { key: relevance,   weight: 10, cap: 1,    curve: linear }   # 相关度：与 AI 核心主题的契合程度（权重 10，线性曲线）
+
+  # Hugging Face 热门模型板块
+  hf:
+    size: 10                  # 每日主榜展示模型数量
+    runnersUp: 10             # 候补模型数量
+    signals:
+      - { key: trending_score, weight: 45, cap: 1500, curve: log }      # HF 模型趋势分（权重 45，上限 1500，对数衰减）
+      - { key: hf_likes,       weight: 30, cap: 5000, curve: log }      # HF 页面点赞数（权重 30，上限 5000，对数衰减）
+      - { key: novelty,        weight: 15, cap: 1,    curve: linear }   # 新颖度加成（权重 15，线性衰减）
+      - { key: relevance,      weight: 10, cap: 1,    curve: linear }   # AI 主题相关度（权重 10）
+
+  # 科技要闻板块
+  news:
+    size: 10                  # 每日主榜展示新闻数量
+    runnersUp: 10             # 候补新闻数量
+    signals:
+      - { key: points,    weight: 40, cap: 800, curve: log }         # HN 获赞得分（权重 40，上限 800）
+      - { key: comments,  weight: 15, cap: 400, curve: log }         # 评论讨论数（权重 15，上限 400）
+      - { key: velocity,  weight: 20, cap: 60,  curve: sqrt }        # 传播速度：发帖以来的每小时点赞增速（权重 20，上限 60）
+      - { key: echo,      weight: 15, cap: 2,   curve: linear }      # 跨板块联动：指向/关联其他板块项目的数量（权重 15，上限 2）
+      - { key: relevance, weight: 10, cap: 1,   curve: linear }      # AI 主题相关度（权重 10）
+
+  # 社区热议板块
+  social:
+    size: 10                  # 每日主榜展示帖子数量
+    runnersUp: 10             # 候补帖子数量
+    signals:
+      - { key: lift,       weight: 30, cap: 5,    curve: sqrt }      # 爆发率：相比该作者或该社区平常热度的爆发倍数（权重 30，上限 5倍）
+      - { key: reach,      weight: 20, cap: 5000, curve: log }       # 曝光范围：X(点赞+2·转推+3·引用+回复) · Reddit(得分)（权重 20）
+      - { key: discussion, weight: 10, cap: 500,  curve: log }       # 互动热度：回复与评论总数（权重 10，上限 500）
+      - { key: velocity,   weight: 10, cap: 500,  curve: sqrt }      # 扩散速率：发布以来的时均互动量，要求发帖时长≥0.5小时（权重 10）
+      - { key: authority,  weight: 15, cap: 1.5,  curve: linear }    # 账号权威：官方机构号 > 行业知名人物 > 社区子版块（权重 15）
+      - { key: echo,       weight: 10, cap: 2,    curve: linear }    # 跨板块联动：与其他板块的互相引用数（权重 10）
+      - { key: relevance,  weight: 5,  cap: 1,    curve: linear }    # AI 主题契合度（权重 5）
+    caps: { perAuthor: 2, perCommunity: 3, perPlatform: 7 }          # 单个作者最多2条，单个社区最多3条，单个平台最多7条
+
+
+# LLM 翻译与信息处理配置
+# 支持配置多个 LLM 提供商，按列表顺序依次调用：
+# - 优先调用 1 号提供商
+# - 若遇到 429 限流，自动对该提供商启动 60 秒冷却，期间自动切换到 2 号，冷却结束后恢复优先调用
+# - 若遇到超时或错误，自动平滑顺延至 2 号、3 号...
+enrich:
+  enabled: true
+  languages: [zh]                              # 专注于高质量中文
+  batchSize: 10                                # 每次提交 10 条（小批次避免超时）
+  concurrency: 5                               # 并发工作线程数（同时分配给不同可用渠道并发执行）
+  maxItemsPerRun: 120
+  briefs: true                                 # 自动生成每日重点与摘要列表
+
+  # 多个提供商按优先级从上到下排列
+  providers:
+    # 1号提供商：Groq1
+    - name: Groq1
+      baseUrl: https://api.groq.com/openai/v1/chat/completions
+      model: openai/gpt-oss-120b
+      apiKeyEnv: Groq1_apikey
+      timeoutMs: 60000
+
+    # 2号提供商：Groq2
+    - name: Groq2
+      baseUrl: https://api.groq.com/openai/v1/chat/completions
+      model: openai/gpt-oss-120b
+      apiKeyEnv: Groq2_apikey
+      timeoutMs: 60000
+
+    # 3号提供商：Groq3
+    - name: Groq3
+      baseUrl: https://api.groq.com/openai/v1/chat/completions
+      model: openai/gpt-oss-120b
+      apiKeyEnv: Groq3_apikey
+      timeoutMs: 60000
+
+    # 4号提供商：OLLAMA1
+    - name: OLLAMA1
+      baseUrl: https://ollama.com/v1/chat/completions
+      model: gpt-oss:120b
+      apiKeyEnv: OLLAMA1_apikey
+      timeoutMs: 60000
+
+    # 5号提供商：OLLAMA2
+    - name: OLLAMA2
+      baseUrl: https://ollama.com/v1/chat/completions
+      model: gpt-oss:120b
+      apiKeyEnv: OLLAMA2_apikey
+      timeoutMs: 60000
+
+    # 7号提供商：HuggingFace
+    - name: HFACE
+      baseUrl: https://router.huggingface.co/v1/responses
+      model: deepseek-ai/DeepSeek-V4.1-Flash
+      apiKeyEnv: HFACE_apikey
+      timeoutMs: 60000
+
+    # 8号提供商：GitHub Models
+    # 9号提供商：Vercel
+    - name: vercel
+      baseUrl: https://ai-gateway.vercel.sh/v1/responses
+      model: alibaba/qwen3.7-flash
+      apiKeyEnv: vercel_apikey
+      timeoutMs: 60000
+
+    # 10号提供商：AMD1
+    - name: amd1
+      baseUrl: https://developer.amd.com.cn/radeon/api/v1/chat/completions
+      model: DeepSeek-V4-Flash
+      apiKeyEnv: amd1_apikey
+      timeoutMs: 60000
+
+    # 11号提供商：AMD2
+    - name: amd2
+      baseUrl: https://developer.amd.com.cn/radeon/api/v1/chat/completions
+      model: Qwen3.8-Flash-Next
+      apiKeyEnv: amd2_apikey
+      timeoutMs: 60000
+# 模型价格指数配置（抓取各大主流模型的 Token 定价与比价数据）
+pricing:
+  enabled: false
+
+# 定时邮件推送配置。此处为默认设置：在前端网页的“设置 › 邮件投递”中配置的值会直接写入仓库变量 RESONANCE_MAIL，
+# 认证凭据写入仓库 Secrets（MAIL_TO, SMTP_USER, SMTP_PASS 或 RESEND_API_KEY）。
+mail:
+  enabled: false
+  frequency: daily            # 发送频率：daily（每日）| weekly（每周）| both（每日和每周）
+  weekday: 2                  # 周报发送日：2 = 周二（此时美西时间上一周刊期已完全沉淀封存，1~7 对应周一至周日）
+  time: '09:30'               # 定时发送时间（格式：'HH:mm'）
+  timezone: Asia/Shanghai     # 发送时区
+  lang: zh                    # 邮件正文语言：zh（中文）| en（英文）
+  provider: smtp              # 发送通道：smtp（SMTP邮件服务）| resend（Resend 平台）
+  preset: qq                  # SMTP 邮箱预设：qq（QQ邮箱）| 163（网易163）| gmail | custom（自定义主机/端口/加密）
+  attach: true                # 是否在邮件中作为附件附带交互式 HTML 完整报告文件
+  perBoard: 5                 # 邮件正文中每个板块展示的 Top 条目数量

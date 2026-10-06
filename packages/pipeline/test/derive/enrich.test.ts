@@ -1,0 +1,418 @@
+import { BOARDS } from '@resonance/schema'
+import { beforeAll, describe, expect, it } from 'vitest'
+import type { Config } from '../../src/config.ts'
+import {
+  buildEnrichmentStatus,
+  citablesHash,
+  type EnrichmentAttempts,
+  editionCitables,
+  enrich,
+  enrichEditions,
+  extractJson,
+  parseBrief,
+  parseCopy,
+  weekCitables,
+} from '../../src/enrich.ts'
+import { buildWeeklies } from '../../src/publish/weekly.ts'
+import { rankWindow, textHash } from '../../src/score.ts'
+import { boardMeta } from '../../src/signals.ts'
+import type { Http, HttpOptions, RankedDay, RunContext } from '../../src/types.ts'
+import { closedWindow, memoryStore, NOW, OPEN, openSnapshot, silent, TODAY, testConfig } from './fixture.ts'
+
+interface Call {
+  url: string
+  body: { model: string; messages: Array<{ content: string }>; response_format?: unknown }
+}
+
+/** An OpenAI-compatible endpoint that answers from the request itself; `mode` injects failures. */
+function fakeLlm(mode: 'ok' | 'unauthorized' | 'broken' = 'ok'): Http & { calls: Call[] } {
+  const calls: Call[] = []
+  return {
+    calls,
+    async text() {
+      throw new Error('not used')
+    },
+    async json<T>(url: string, opts?: HttpOptions): Promise<T> {
+      const body = JSON.parse(opts?.body ?? '{}') as Call['body']
+      calls.push({ url, body })
+      if (mode === 'unauthorized') throw Object.assign(new Error('HTTP 401'), { status: 401 })
+      if (mode === 'broken') throw new Error('socket hang up')
+      const input = JSON.parse(body.messages[1].content) as { kind?: string; items: Array<Record<string, unknown>> }
+      let answer: unknown
+      if (input.kind) {
+        const refs = input.items.map((i) => i.ref as string)
+        const bullets = [
+          `Top repo [${refs[0]}] and top paper [${refs[1]}].`,
+          `Discussion around [${refs[2]}].`,
+          'An uncited claim that must go.',
+          `An invented item [repos#99] next to a real one [${refs[0]}].`,
+          `Labs and social together [${refs[refs.length - 1]}] [${refs[3]}].`,
+        ]
+        answer = { en: { headline: 'A busy day', bullets }, zh: { headline: '忙碌的一天', bullets } }
+      } else {
+        answer = {
+          items: Object.fromEntries(
+            input.items.map((i) => {
+              const all = ['First takeaway.', 'Second takeaway.', 'Third.', 'Fourth is too many.']
+              const points = i.points ? all : undefined
+              return [
+                i.id,
+                {
+                  en: { blurb: `About ${i.title}`, why: 'It matters.', points },
+                  zh: { title: `中文 ${i.title}`, blurb: `关于 ${i.title}`, why: '很重要。', points },
+                },
+              ]
+            }),
+          ),
+        }
+      }
+      // A reasoning model's scratchpad and a fence around the JSON, as real endpoints send them.
+      const content = `<think>hmm</think>\n\`\`\`json\n${JSON.stringify(answer)}\n\`\`\``
+      return { choices: [{ message: { content } }] } as T
+    },
+  }
+}
+
+let config: Config
+let day: RankedDay
+
+function ctx(
+  http: Http,
+  env: Record<string, string> = { RESONANCE_LLM_API_KEY: 'sk-test' },
+  over?: Partial<Config['enrich']>,
+): RunContext {
+  return {
+    config: { ...config, enrich: { ...config.enrich, ...over } },
+    date: OPEN,
+    now: NOW,
+    http,
+    log: silent,
+    env,
+    state: { get: async () => null, set: async () => {} },
+  }
+}
+
+beforeAll(async () => {
+  config = await testConfig()
+  const days = rankWindow(closedWindow(), config, {})
+  day = days[days.length - 1]
+})
+
+describe('JSON extraction', () => {
+  it('reads raw, fenced, think-prefixed and embedded objects', () => {
+    expect(extractJson('{"a":1}')).toEqual({ a: 1 })
+    expect(extractJson('<think>{"no":1}</think>```json\n{"a":2}\n```')).toEqual({ a: 2 })
+    expect(extractJson('Sure! Here it is: {"a":{"b":"}"}} — enjoy')).toEqual({ a: { b: '}' } })
+    expect(extractJson('no json here')).toBeNull()
+  })
+})
+
+describe('parseCopy', () => {
+  const ok = { blurb: 'b', why: 'w', points: ['one', 'two', 'three', 'four'] }
+
+  it('keeps 2–3 points only where they were asked for, and the zh title', () => {
+    const parsed = { items: { 1: { en: ok, zh: { ...ok, title: '标题' } }, 2: { en: ok, zh: ok } } }
+    const out = parseCopy(parsed, ['en', 'zh'], new Set(['1']))
+    expect(out.get('1')).toEqual({
+      en: { blurb: 'b', why: 'w', points: ['one', 'two', 'three'] },
+      zh: { blurb: 'b', why: 'w', title: '标题', points: ['one', 'two', 'three'] },
+    })
+    expect(out.get('2')!.en).toEqual({ blurb: 'b', why: 'w' })
+  })
+
+  it('drops a single point and entries missing a language', () => {
+    const entries = [
+      { id: 1, en: { ...ok, points: ['only one'] } },
+      { id: 2, en: ok, zh: ok },
+    ]
+    const out = parseCopy(entries, ['en'], new Set(['1']))
+    expect(out.get('1')!.en!.points).toBeUndefined()
+    expect(parseCopy({ items: { 1: { en: ok } } }, ['en', 'zh']).size).toBe(0)
+  })
+})
+
+describe('parseBrief', () => {
+  const refs = new Set(['repos#1', 'news#2', 'labs#1'])
+
+  it('drops bullets without citations or with unknown ones', () => {
+    const brief = parseBrief(
+      {
+        en: {
+          headline: 'Head',
+          bullets: ['a [repos#1]', 'b [news#02]', 'c without refs', 'd [unknown#4]', 'e [labs#1] [repos#1]'],
+        },
+      },
+      ['en'],
+      refs,
+    )
+    expect(brief.en).toEqual({ headline: 'Head', bullets: ['a [repos#1]', 'b [news#02]', 'e [labs#1] [repos#1]'] })
+  })
+
+  it('rejects a language left with too few bullets', () => {
+    expect(parseBrief({ en: { headline: 'H', bullets: ['a [repos#1]', 'x [repos#7]'] } }, ['en'], refs)).toEqual({})
+  })
+})
+
+describe('enrich stage', () => {
+  it('does nothing without a key — not even a request', async () => {
+    const http = fakeLlm()
+    const store = memoryStore(closedWindow())
+    expect(await enrich(day, ctx(http, {}), store)).toBe(0)
+    expect(http.calls).toHaveLength(0)
+    expect(store.copy).toEqual({})
+  })
+
+  it('captions items (points for top lists only) and writes edition and weekly briefs', async () => {
+    const http = fakeLlm()
+    const store = memoryStore(closedWindow())
+    const written = await enrich(day, ctx(http), store)
+    const items = BOARDS.flatMap((b) => [...day.boards[b].top, ...day.boards[b].runnersUp])
+    expect(written).toBe(items.length)
+    expect(http.calls[0].url).toBe('https://api.deepseek.com/chat/completions')
+    expect(http.calls[0].body.response_format).toEqual({ type: 'json_object' })
+
+    const top = day.boards.labs.top[0]
+    expect(store.copy[top.key].hash).toBe(textHash(top))
+    expect(store.copy[top.key].copy.en!.points).toEqual(['First takeaway.', 'Second takeaway.', 'Third.'])
+    expect(store.copy[top.key].copy.zh!.title).toBe(`中文 ${top.title}`)
+
+    const edition = store.briefs[TODAY]
+    expect(edition.hash).toBe(citablesHash(editionCitables(day, store.copy)))
+    const refs = editionCitables(day).map((c) => c.ref)
+    expect(edition.brief.en!.bullets).toEqual([
+      `Top repo [${refs[0]}] and top paper [${refs[1]}].`,
+      `Discussion around [${refs[2]}].`,
+      `Labs and social together [${refs[refs.length - 1]}] [${refs[3]}].`,
+    ])
+    expect(edition.brief.zh!.headline).toBe('忙碌的一天')
+
+    const weekDays = rankWindow(closedWindow(), config, store.copy).filter((d) => d.date >= '2026-09-14')
+    const week = buildWeeklies(weekDays, boardMeta(config))[0]
+    expect(store.briefs['2026-W38'].hash).toBe(citablesHash(weekCitables(week, boardMeta(config))))
+  })
+
+  it('asks for essence points for top-list items only', async () => {
+    const small: Config = { ...config, boards: { ...config.boards, social: { ...config.boards.social, size: 3 } } }
+    const smallDay = rankWindow(closedWindow(), small, {}).at(-1)!
+    expect(smallDay.boards.social.runnersUp.length).toBeGreaterThan(0)
+    const store = memoryStore(closedWindow())
+    await enrich(smallDay, { ...ctx(fakeLlm(), undefined, { briefs: false }), config: small }, store)
+    expect(store.copy[smallDay.boards.social.top[0].key].copy.en!.points).toHaveLength(3)
+    for (const item of smallDay.boards.social.runnersUp) {
+      expect(store.copy[item.key].copy.en).toEqual({ blurb: `About ${item.title}`, why: 'It matters.' })
+    }
+  })
+
+  it('caps items per run and skips everything already cached', async () => {
+    const store = memoryStore(closedWindow())
+    const first = fakeLlm()
+    expect(await enrich(day, ctx(first, undefined, { maxItemsPerRun: 5, briefs: false }), store)).toBe(5)
+    expect(first.calls).toHaveLength(1)
+
+    const warm = memoryStore(closedWindow())
+    await enrich(day, ctx(fakeLlm()), warm)
+    const again = fakeLlm()
+    expect(await enrich(day, ctx(again), warm)).toBe(0)
+    expect(again.calls).toHaveLength(0)
+  })
+
+  it('never throws: a rejected key stops the run, a broken endpoint costs only copy', async () => {
+    const denied = fakeLlm('unauthorized')
+    expect(await enrich(day, ctx(denied), memoryStore(closedWindow()))).toBe(0)
+    expect(denied.calls).toHaveLength(1)
+    // two failures in a row: presumed down, no further calls (briefs included)
+    const broken = fakeLlm('broken')
+    expect(await enrich(day, ctx(broken), memoryStore(closedWindow()))).toBe(0)
+    expect(broken.calls).toHaveLength(2)
+  })
+
+  it('skips the weekly brief while the edition is still open', async () => {
+    const http = fakeLlm()
+    const store = memoryStore(closedWindow())
+    await enrich(day, { ...ctx(http), date: TODAY }, store)
+    expect(Object.keys(store.briefs)).toEqual([TODAY])
+  })
+
+  it('exposes a safe failure reason and retries missing copy when the endpoint recovers', async () => {
+    const store = memoryStore(closedWindow())
+    await enrich(day, ctx(fakeLlm('unauthorized')), store)
+    const failed = await store.state.get<EnrichmentAttempts>('enrichment')
+    expect(failed?.[TODAY].reason).toBe('unauthorized')
+    expect(buildEnrichmentStatus(day, store.copy, store.briefs, config, failed?.[TODAY])).toMatchObject({
+      state: 'failed',
+      covered: { zh: 0 },
+    })
+    await enrich(day, ctx(fakeLlm()), store)
+    const recovered = await store.state.get<EnrichmentAttempts>('enrichment')
+    expect(recovered?.[TODAY].reason).toBeUndefined()
+    expect(buildEnrichmentStatus(day, store.copy, store.briefs, config, recovered?.[TODAY])).toMatchObject({
+      state: 'complete',
+      briefReady: { en: true, zh: true },
+    })
+  })
+
+  it('reports no-key honestly without manufacturing translations', async () => {
+    const store = memoryStore(closedWindow())
+    await enrich(day, ctx(fakeLlm(), {}), store)
+    const attempts = await store.state.get<EnrichmentAttempts>('enrichment')
+    expect(buildEnrichmentStatus(day, store.copy, store.briefs, config, attempts?.[TODAY])).toMatchObject({
+      state: 'missing-key',
+      reason: 'missing-key',
+      covered: { zh: 0 },
+      briefReady: { zh: false },
+    })
+  })
+
+  it('shares one budget across closed and live editions and completes both over later runs', async () => {
+    const snapshots = [...closedWindow(), openSnapshot()]
+    const store = memoryStore(snapshots)
+    const live = rankWindow(snapshots, config, {}).at(-1)!
+    const first = fakeLlm()
+    expect(await enrichEditions([day, live], ctx(first, undefined, { maxItemsPerRun: 5, briefs: false }), store)).toBe(
+      5,
+    )
+    expect(first.calls).toHaveLength(1)
+    expect((await store.state.get<EnrichmentAttempts>('enrichment'))?.[OPEN].reason).toBe('budget')
+    await enrichEditions([day, live], ctx(fakeLlm()), store)
+    expect(store.briefs[TODAY]).toBeDefined()
+    expect(store.briefs[OPEN]).toBeDefined()
+    expect(live.boards.repos.top.every((item) => store.copy[item.key]?.copy.zh?.blurb)).toBe(true)
+  })
+
+  it('refreshes a brief when article evidence improves without changing ranks', () => {
+    const before = editionCitables(day)
+    const after = before.map((item, index) =>
+      index === 0 ? { ...item, blurb: 'Newly fetched attributed source excerpt.' } : item,
+    )
+    expect(citablesHash(before)).not.toBe(citablesHash(after))
+  })
+
+  it('sequentially falls back across multiple providers and respects 429 cooldown', async () => {
+    const store = memoryStore(closedWindow())
+    const calls: string[] = []
+    const http: Http = {
+      async text() {
+        throw new Error('not used')
+      },
+      async json<T>(url: string, opts?: HttpOptions): Promise<T> {
+        calls.push(url)
+        // Provider 1 triggers 429 rate limit
+        if (url.includes('provider1.com')) {
+          throw Object.assign(new Error('rate_limit_exceeded'), { status: 429 })
+        }
+        // Provider 2 succeeds
+        const input = JSON.parse(opts?.body ?? '{}').messages[1].content
+        const parsed = JSON.parse(input)
+        const answer = {
+          items: Object.fromEntries(
+            parsed.items.map((i: any) => [
+              i.id,
+              {
+                en: { blurb: `About ${i.title}`, why: 'why' },
+                zh: { title: `ZH ${i.title}`, blurb: `简介 ${i.title}`, why: '价值' },
+              },
+            ]),
+          ),
+        }
+        return { choices: [{ message: { content: JSON.stringify(answer) } }] } as T
+      },
+    }
+
+    const testCtx: RunContext = {
+      config: {
+        ...config,
+        enrich: {
+          ...config.enrich,
+          batchSize: 5,
+          maxItemsPerRun: 10,
+          briefs: false,
+          providers: [
+            { name: 'P1', baseUrl: 'https://provider1.com/v1', model: 'm1', apiKey: 'k1', timeoutMs: 5000 },
+            { name: 'P2', baseUrl: 'https://provider2.com/v1', model: 'm2', apiKey: 'k2', timeoutMs: 5000 },
+          ],
+        },
+      },
+      date: OPEN,
+      now: NOW,
+      http,
+      log: silent,
+      env: {},
+      state: { get: async () => null, set: async () => {} },
+    }
+
+    const written = await enrich(day, testCtx, store)
+    expect(written).toBe(10)
+    // Batch 1: tried P1 (429), then P2 (success).
+    // Batch 2: P1 is in 60s cooldown, so it went directly to P2!
+    expect(calls).toEqual([
+      'https://provider1.com/v1/chat/completions',
+      'https://provider2.com/v1/chat/completions',
+      'https://provider2.com/v1/chat/completions',
+    ])
+  })
+
+  it('runs multiple batches concurrently across available providers with failover', async () => {
+    const store = memoryStore(closedWindow())
+    const activeProvidersList: string[] = []
+    let concurrentPeak = 0
+    let currentActive = 0
+
+    const http: Http = {
+      async text() {
+        throw new Error('not used')
+      },
+      async json<T>(url: string, opts?: HttpOptions): Promise<T> {
+        currentActive++
+        concurrentPeak = Math.max(concurrentPeak, currentActive)
+        activeProvidersList.push(url)
+        // Simulate async delay
+        await new Promise((r) => setTimeout(r, 20))
+        currentActive--
+
+        const input = JSON.parse(opts?.body ?? '{}').messages[1].content
+        const parsed = JSON.parse(input)
+        const answer = {
+          items: Object.fromEntries(
+            parsed.items.map((i: any) => [
+              i.id,
+              {
+                en: { blurb: `About ${i.title}`, why: 'why' },
+                zh: { title: `ZH ${i.title}`, blurb: `简介 ${i.title}`, why: '价值' },
+              },
+            ]),
+          ),
+        }
+        return { choices: [{ message: { content: JSON.stringify(answer) } }] } as T
+      },
+    }
+
+    const testCtx: RunContext = {
+      config: {
+        ...config,
+        enrich: {
+          ...config.enrich,
+          batchSize: 2,
+          maxItemsPerRun: 6,
+          concurrency: 3,
+          briefs: false,
+          providers: [
+            { name: 'P1', baseUrl: 'https://provider1.com/v1', model: 'm1', apiKey: 'k1', timeoutMs: 5000 },
+            { name: 'P2', baseUrl: 'https://provider2.com/v1', model: 'm2', apiKey: 'k2', timeoutMs: 5000 },
+            { name: 'P3', baseUrl: 'https://provider3.com/v1', model: 'm3', apiKey: 'k3', timeoutMs: 5000 },
+          ],
+        },
+      },
+      date: OPEN,
+      now: NOW,
+      http,
+      log: silent,
+      env: {},
+      state: { get: async () => null, set: async () => {} },
+    }
+
+    const written = await enrich(day, testCtx, store)
+    expect(written).toBe(6)
+    // Concurrency peak should be greater than 1
+    expect(concurrentPeak).toBeGreaterThan(1)
+  })
+})

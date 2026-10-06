@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /AI-Resonance/
+Sitemap: https://wzznne.github.io/AI-Resonance/sitemap.xml

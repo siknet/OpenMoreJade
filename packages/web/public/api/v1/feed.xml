@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>摸玉日报</title>
+<subtitle>When bored, just watch something random.</subtitle>
+<id>https://wzznne.github.io/AI-Resonance/</id>
+<updated>2026-10-06T08:25:31.953Z</updated>
+<author><name>摸玉日报</name></author>
+<generator>摸玉日报 pipeline</generator>
+<link rel="alternate" href="https://wzznne.github.io/AI-Resonance/"/>
+<link rel="self" type="application/atom+xml" href="https://wzznne.github.io/AI-Resonance/api/v1/feed.xml"/>
+<entry>
+<title>2026-10-05 · Daily AI radar</title>
+<id>https://wzznne.github.io/AI-Resonance/#/d/2026-10-05</id>
+<updated>2026-10-06T08:25:31.953Z</updated>
+<link rel="alternate" href="https://wzznne.github.io/AI-Resonance/#/d/2026-10-05"/>
+<content type="html">&lt;h3&gt;Hacker News&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html&quot;&gt;Anthropic reported diary entry to police, woman faces felony charge&lt;/a&gt; · 73.7&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://getartcraft.com/apps&quot;&gt;ArtCraft Apps – open-source Adobe compatible suite written in Rust&lt;/a&gt; · 51.2&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold&quot;&gt;Sales of sub-€25,000 electric car models set to rise sevenfold&lt;/a&gt; · 47.5&lt;/li&gt;&lt;/ol&gt;</content>
+</entry>
+</feed>
