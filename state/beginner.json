@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-06T09:37:13.355Z",
+   "observedAt": "2026-10-06T12:42:56.454Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -24,7 +24,8 @@
      "zh": "OpenMontage：首个开源智能视频制作系统"
     },
     "topics": [
-     "trend:daily"
+     "trend:daily",
+     "trend:weekly"
     ],
     "type": "repo",
     "url": "https://github.com/calesthio/OpenMontage",

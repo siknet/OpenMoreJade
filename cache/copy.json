@@ -1,4 +1,14 @@
 {
+ "gh:0x4m4/hexstrike-ai": {
+  "copy": {
+   "zh": {
+    "blurb": "将 Claude、GPT、Copilot 等 LLM 与 150+ 网络安全工具集成，实现自动化漏洞发现、渗透测试与安全研究。",
+    "title": "0x4m4/hexstrike-ai：AI 驱动的渗透测试平台",
+    "why": "将 LLM 与实际安全工具结合，可显著提升红队效率并降低手动工作负担。"
+   }
+  },
+  "hash": "9f0ca6132b06fc31"
+ },
  "gh:affaan-m/ecc": {
   "copy": {
    "zh": {
@@ -48,6 +58,36 @@
    }
   },
   "hash": "c9e751b5da55c55f"
+ },
+ "gh:cathrynlavery/diagram-design": {
+  "copy": {
+   "zh": {
+    "blurb": "提供 42 种图表的自包含 HTML+SVG 方案，用于展示 Claude Code、Codex、GitHub Copilot 等的工作原理，无阴影、无 Mermaid 依赖。",
+    "points": [
+     "纯 HTML+SVG，无外部库",
+     "支持多种 AI 编码工具的图示",
+     "可直接在浏览器离线查看"
+    ],
+    "title": "cathrynlavery/diagram-design：AI 代码图示编辑器",
+    "why": "可视化代码模型有助于理解和教学，轻量方案易于嵌入文档。"
+   }
+  },
+  "hash": "1a1e9dd85f5d0c0b"
+ },
+ "gh:deepseek-ai/deepgemm": {
+  "copy": {
+   "zh": {
+    "blurb": "提供干净高效的 GPU BLAS 核心库，针对深度学习计算优化，实现更快矩阵运算。",
+    "points": [
+     "纯 CUDA 实现，避免额外依赖",
+     "自动调优内核以适配不同硬件",
+     "开源可直接替代 cuBLAS 在特定场景"
+    ],
+    "title": "deepseek-ai/DeepGEMM：高效 GPU BLAS 库",
+    "why": "GPU 计算是深度学习瓶颈，轻量 BLAS 可降低成本并提升性能。"
+   }
+  },
+  "hash": "aaf779d2a201d67e"
  },
  "gh:deepseek-ai/deepseek-harness": {
   "copy": {
@@ -133,6 +173,51 @@
   },
   "hash": "c7b9d89f64c257dc"
  },
+ "gh:mattpocock/skills": {
+  "copy": {
+   "zh": {
+    "blurb": "提供一系列实用的 .agents 目录下的技能，帮助工程师快速复用常用工具和脚本。",
+    "points": [
+     "收录常用命令行技巧",
+     "兼容多种 AI 代理框架",
+     "易于在项目中直接引用"
+    ],
+    "title": "mattpocock/skills：面向真实工程师的技能库",
+    "why": "工程师常需重复性任务，统一技能库可提升工作效率。"
+   }
+  },
+  "hash": "8ee9f64647f47367"
+ },
+ "gh:morluto/rea": {
+  "copy": {
+   "zh": {
+    "blurb": "使用智能代理逆向任何软件，从应用行为到原生二进制，提供全自动分析。",
+    "points": [
+     "基于 TypeScript 实现的可插件化架构",
+     "支持跨平台二进制与 Web 应用逆向",
+     "结合大模型提供交互式分析提示"
+    ],
+    "title": "morluto/rea：逆向工程代理框架",
+    "why": "逆向工程需求增长，自动化工具可显著提升安全研究效率。"
+   }
+  },
+  "hash": "853862f33b35b946"
+ },
+ "gh:msitarzewski/agency-agents": {
+  "copy": {
+   "zh": {
+    "blurb": "提供从前端向导到 Reddit 社区专家等多角色代理，每个代理具备个性、流程和可交付成果。",
+    "points": [
+     "每个代理都是专精的专家模型",
+     "支持自定义人格与工作流",
+     "开箱即用的多场景示例"
+    ],
+    "title": "msitarzewski/agency-agents：完整 AI 代理公司套件",
+    "why": "多角色协作是构建复杂 AI 应用的关键，统一平台加速落地。"
+   }
+  },
+  "hash": "d1a03dc9eee2d7f8"
+ },
  "gh:ollama/ollama": {
   "copy": {
    "zh": {
@@ -142,6 +227,16 @@
    }
   },
   "hash": "669fe5d4b2ae729d"
+ },
+ "gh:omnigent-ai/omnigent": {
+  "copy": {
+   "zh": {
+    "blurb": "Omnigent是开源的AI代理框架与元套件，可编排Claude Code、Codex、Cursor、Pi等模型；支持无代码切换、策略强制、沙箱安全，并实现跨设备实时协作。",
+    "title": "omnigent-ai/omnigent：开源 AI 代理框架",
+    "why": "统一管理多模型代理，降低集成门槛，加速AI应用落地。"
+   }
+  },
+  "hash": "6cae183d2b883657"
  },
  "gh:p-e-w/heretic": {
   "copy": {
@@ -177,6 +272,26 @@
    }
   },
   "hash": "23057b1f9280e72a"
+ },
+ "gh:rtk-ai/rtk": {
+  "copy": {
+   "zh": {
+    "blurb": "使用单一 Rust 可执行文件，在常用开发命令上将 LLM 令牌消耗降低 60‑90%，无额外依赖。",
+    "title": "rtk-ai/rtk：LLM 令牌消耗削减 CLI 代理",
+    "why": "令牌成本高昂，降低消耗直接节省费用并提升响应速度。"
+   }
+  },
+  "hash": "3b40859652eca17b"
+ },
+ "gh:ruvnet/ruflo": {
+  "copy": {
+   "zh": {
+    "blurb": "支持多智能体群体协同、适应性记忆、自学习、向量 RAG 集成以及原生 Claude Code 等多模型，构建对话式 AI 系统。",
+    "title": "ruvnet/ruflo：原始智能体协作平台",
+    "why": "多智能体协作是实现复杂任务自动化的核心，提供统一框架加速研发。"
+   }
+  },
+  "hash": "4c35fe6b482ece62"
  },
  "gh:skyhook-io/radar": {
   "copy": {
@@ -217,6 +332,16 @@
   },
   "hash": "6330d6e1b5a7d49d"
  },
+ "gh:topoteretes/cognee": {
+  "copy": {
+   "zh": {
+    "blurb": "为 AI 代理提供持久化长期记忆，使用小模型免费实现记忆存储与检索。",
+    "title": "topoteretes/cognee：开源 AI 记忆平台",
+    "why": "记忆是提升代理连续性与上下文理解的关键，开源方案降低使用门槛。"
+   }
+  },
+  "hash": "0b2a6cddb5b2b16b"
+ },
  "gh:victortaelin/optmem": {
   "copy": {
    "zh": {
@@ -231,6 +356,16 @@
    }
   },
   "hash": "6eb008ed678433f8"
+ },
+ "gh:ys-ll/uniterm": {
+  "copy": {
+   "zh": {
+    "blurb": "一个轻量级一体化终端，内置30多种协议（SSH、RDP、SFTP、数据库、Kubernetes等），配备自主AI代理，可规划并执行多轮Shell命令。",
+    "title": "ys-ll/uniterm：轻量全能终端",
+    "why": "在多协议运维场景下降低工具切换成本，AI辅助操作提升效率。"
+   }
+  },
+  "hash": "db6da4252d4ab15a"
  },
  "hf:abenzerps/qwen-image-2.1-uncensored-gguf": {
   "copy": {
@@ -363,6 +498,21 @@
    }
   },
   "hash": "fac82e9232b6e734"
+ },
+ "hf:venastine-research/xing4.0-29b-a4b-gguf": {
+  "copy": {
+   "zh": {
+    "blurb": "29B 参数的中文/英文混合大模型，提供 GGUF 格式以便在边缘设备上高效推理。",
+    "points": [
+     "基于 A4B 结构优化算子",
+     "GGUF 格式体积小、加载快",
+     "支持多语言生成与指令遵循"
+    ],
+    "title": "Xing4.0-29B-A4B-GGUF：Venastine-Research 文本生成模型",
+    "why": "大模型下沉至本地设备可降低云成本并提升隐私。"
+   }
+  },
+  "hash": "34e24e1eb6e8ead8"
  },
  "hn:49958850": {
   "copy": {
