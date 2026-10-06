@@ -1,0 +1,514 @@
+{
+ "gh:affaan-m/ecc": {
+  "copy": {
+   "zh": {
+    "blurb": "通过技能、直觉、记忆、安全和研究优先的模块，为 Claude Code、Codex、Opencode、Cursor 等提供性能提升。",
+    "title": "affaan-m/ECC：面向 Claude Code 等的智能体性能优化系统",
+    "why": "帮助开发者在多种代码生成模型上获得更快、更可靠的响应。"
+   }
+  },
+  "hash": "cd43bb92c47d6418"
+ },
+ "gh:ai-dynamo/dynamo": {
+  "copy": {
+   "zh": {
+    "blurb": "提供用于大规模数据中心的分布式推理服务，使用 Rust 实现高性能、可伸缩性。",
+    "title": "ai-dynamo/dynamo：数据中心级分布式推理服务框架",
+    "why": "在海量模型部署场景下，提升推理效率与资源利用率。"
+   }
+  },
+  "hash": "fda139b9f0d84c6f"
+ },
+ "gh:alishahryar1/free-claude-code": {
+  "copy": {
+   "zh": {
+    "blurb": "通过终端、IDE、浏览器等多环境，免费调用 Claude Code、Codex、VSCode、Pi 等 8+ 模型，提供 1.3B+ 免费 token，支持语音和浏览器会话。",
+    "points": [
+     "多模型、多端统一调用",
+     "浏览器原生会话，支持语音",
+     "友好使用条款，避免违规"
+    ],
+    "title": "free-claude-code：多模型免费代码助手",
+    "why": "降低高质量代码生成的门槛，让开发者随时随地免费使用大型模型。"
+   }
+  },
+  "hash": "f2fcc7b4eda3158a"
+ },
+ "gh:calesthio/openmontage": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenMontage提供12条生产流水线、100+工具和700+代理技能文件，将AI编程助手升级为完整的视频制作工作室。",
+    "points": [
+     "支持多阶段视频创作的模块化流水线。",
+     "丰富的工具和技能库，覆盖剪辑、配音等环节。",
+     "完全开源，基于Python，易于定制与扩展。"
+    ],
+    "title": "OpenMontage：首个开源智能视频制作系统",
+    "why": "让个人和团队可低成本构建AI驱动的视频内容。"
+   }
+  },
+  "hash": "c9e751b5da55c55f"
+ },
+ "gh:deepseek-ai/deepseek-harness": {
+  "copy": {
+   "zh": {
+    "blurb": "把所有功能做成插件，实现可扩展的 AI 能力集合，基于 TypeScript。",
+    "title": "deepseek-ai/deepseek-harness：插件化 AI 框架",
+    "why": "降低集成新模型或工具的门槛，加速 AI 应用开发。"
+   }
+  },
+  "hash": "ad77105b8682ff7a"
+ },
+ "gh:dietrichgebert/ponytail": {
+  "copy": {
+   "zh": {
+    "blurb": "通过简化代码生成流程，让 AI 只写最必要的代码，提高开发效率。",
+    "title": "ponytail：让 AI 代理像最懒的高级开发者思考",
+    "why": "减少冗余代码，降低调试成本。"
+   }
+  },
+  "hash": "5277a487afffa3a9"
+ },
+ "gh:earthtojake/text-to-cad": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库让AI代理能够生成并操作CAD设计，实现文本到CAD的自动转换。",
+    "points": [
+     "通过自然语言指令生成精确的CAD模型。",
+     "结合Python生态，易于集成到现有工作流。"
+    ],
+    "title": "text-to-cad：赋予AI代理CAD超能力",
+    "why": "推动AI在工程设计领域的实用落地。"
+   }
+  },
+  "hash": "3c940e1778541ab8"
+ },
+ "gh:falkordb/falkordb": {
+  "copy": {
+   "zh": {
+    "blurb": "FalkorDB使用稀疏邻接矩阵实现图存储，采用Rust实现高速查询，定位为LLM的知识图谱（GraphRAG）解决方案。",
+    "points": [
+     "GraphBLAS实现稀疏矩阵高效图运算。",
+     "Rust代码确保性能与安全。",
+     "专为LLM的GraphRAG场景优化。"
+    ],
+    "title": "FalkorDB：基于GraphBLAS的超快图数据库",
+    "why": "提供高效的图检索，提升大模型的检索增强能力。"
+   }
+  },
+  "hash": "de298bee52c5674c"
+ },
+ "gh:garrytan/gstack": {
+  "copy": {
+   "zh": {
+    "blurb": "gstack 汇集 23 个 TypeScript 工具，模拟 Claude Code 中的 CEO、设计师、工程经理等角色，实现模块化 AI 工作流。",
+    "points": [
+     "针对不同职能提供专属提示与工具",
+     "开源星数超 13 万",
+     "加速 AI 增强的开发周期"
+    ],
+    "title": "gstack：23 个 Claude 风格 AI 助手工具合集",
+    "why": "展示了 AI 在产品开发全流程的可组合性。"
+   }
+  },
+  "hash": "c3a2ea859c7cde6d"
+ },
+ "gh:graphify-labs/graphify": {
+  "copy": {
+   "zh": {
+    "blurb": "支持将代码、文档、SQL、配置、PDF 等转为结构化图谱，提供本地确定性 AST 解析，无需向量库。",
+    "title": "graphify：将代码库转化为可查询知识图谱",
+    "why": "帮助开发者快速检索跨文件信息，提升代码理解效率。"
+   }
+  },
+  "hash": "3c350042dcbb50f5"
+ },
+ "gh:juliusbrussee/caveman": {
+  "copy": {
+   "zh": {
+    "blurb": "提供一种用极简词汇表达的技能与代理，可将编码交互的 token 使用量降低约 65%。",
+    "title": "caveman：以原始语言压缩 token 使用",
+    "why": "显著降低 LLM 调用成本，提升响应速度。"
+   }
+  },
+  "hash": "c7b9d89f64c257dc"
+ },
+ "gh:ollama/ollama": {
+  "copy": {
+   "zh": {
+    "blurb": "支持 Kimi、GLM、MiniMax、DeepSeek、gpt‑oss、Qwen、Gemma 等模型的快速部署与交互。",
+    "title": "ollama/ollama：一键运行多种开源大模型",
+    "why": "让开发者无需复杂配置即可体验最新开源模型。"
+   }
+  },
+  "hash": "669fe5d4b2ae729d"
+ },
+ "gh:p-e-w/heretic": {
+  "copy": {
+   "zh": {
+    "blurb": "Heretic 提供全自动管道，去除 LLM 的安全过滤，实现无约束文本生成。",
+    "points": [
+     "即插即用的审查绕过方案",
+     "兼容多种语言模型",
+     "因潜在滥用争议颇大"
+    ],
+    "title": "Heretic：自动化语言模型审查移除工具",
+    "why": "揭示了模型安全与研究自由之间的张力。"
+   }
+  },
+  "hash": "35d77b37a68d2a9a"
+ },
+ "gh:panniantong/agent-reach": {
+  "copy": {
+   "zh": {
+    "blurb": "通过单一 CLI 实现对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台的读取与搜索，无额外 API 费用。",
+    "title": "Agent-Reach：让 AI 代理浏览全网",
+    "why": "为 AI 提供实时网络信息，扩展其知识范围。"
+   }
+  },
+  "hash": "104684d9ca1e103f"
+ },
+ "gh:paperclipai/paperclip": {
+  "copy": {
+   "zh": {
+    "blurb": "提供统一界面管理工作中的 AI 代理，支持配置、监控与调度。",
+    "title": "paperclip：开源 AI 代理管理应用",
+    "why": "帮助团队组织和优化多代理工作流。"
+   }
+  },
+  "hash": "23057b1f9280e72a"
+ },
+ "gh:skyhook-io/radar": {
+  "copy": {
+   "zh": {
+    "blurb": "提供缺失的开源 Kubernetes 可视化界面，内置 MCP 服务器，展示问题、拓扑、事件时间线、Helm、GitOps、实时流量和审计，单一 Go 二进制。",
+    "points": [
+     "集成 MCP 服务器供 AI 代理使用",
+     "覆盖监控、审计、GitOps 等全栈功能",
+     "单文件 Go 二进制，易部署"
+    ],
+    "title": "radar：面向 AI 代理的全功能开源 K8s UI",
+    "why": "统一 UI 与 AI 代理交互，简化集群运维与故障排查。"
+   }
+  },
+  "hash": "671f50186897cd3f"
+ },
+ "gh:slavakurilyak/awesome-ai-agents": {
+  "copy": {
+   "zh": {
+    "blurb": "收录 300 多个与代理 AI 相关的工具、库、论文和项目的精选列表，便于快速查找和学习。",
+    "points": [
+     "覆盖工具、框架、数据集等",
+     "持续更新，社区驱动"
+    ],
+    "title": "awesome-ai-agents：300+ AI 代理资源精选列表",
+    "why": "聚合资源降低搜索成本，促进社区协作与创新。"
+   }
+  },
+  "hash": "ba89d5a6721716ac"
+ },
+ "gh:thedotmack/claude-mem": {
+  "copy": {
+   "zh": {
+    "blurb": "在会话中捕获并压缩所有操作，随后在后续会话中注入相关上下文，兼容多种模型。",
+    "title": "claude-mem：为 AI 代理提供持久上下文",
+    "why": "提升长程记忆能力，减少重复信息输入。"
+   }
+  },
+  "hash": "6330d6e1b5a7d49d"
+ },
+ "gh:victortaelin/optmem": {
+  "copy": {
+   "zh": {
+    "blurb": "OptMem 提供 426 token 的固定提示记忆，实现 AI 代理跨会话持久记忆，易于脚本化集成。",
+    "points": [
+     "固定大小提示保存记忆",
+     "即插即用的集成脚本",
+     "无需外部数据库即可保持上下文"
+    ],
+    "title": "OptMem：面向 AI 代理的永久记忆模块",
+    "why": "简化了长时上下文管理，提升代理的一致性。"
+   }
+  },
+  "hash": "6eb008ed678433f8"
+ },
+ "hf:abenzerps/qwen-image-2.1-uncensored-gguf": {
+  "copy": {
+   "zh": {
+    "blurb": "一个基于 Qwen‑Image 2.1 的 GGUF 版本，支持不受审查的文本到图像生成，因 3322 点赞和高热度排名第3而备受关注。",
+    "points": [
+     "GGUF 格式实现 CPU/GPU 高效推理",
+     "支持无限制提示词的生成",
+     "在文本‑图像榜单中位列前茅"
+    ],
+    "title": "Qwen-Image 2.1 无审查 GGUF 模型",
+    "why": "满足对开放、无过滤图像生成的强烈需求。"
+   }
+  },
+  "hash": "bddc4236314d1c6b"
+ },
+ "hf:aleph-alpha/kolibri-1": {
+  "copy": {
+   "zh": {
+    "blurb": "Aleph‑Alpha 在 Hugging Face 上发布的文本生成模型，已获660个赞，热度高，适用于通用写作任务。",
+    "points": [
+     "专注通用文本生成",
+     "在 HF 社区获高赞与热度",
+     "适配 Hugging Face 推理接口"
+    ],
+    "title": "Kolibri-1：Aleph‑Alpha 的文本生成模型",
+    "why": "提供高质量的生成能力，满足多语言创作需求。"
+   }
+  },
+  "hash": "a450b75c1360f6e8"
+ },
+ "hf:autotrust/gev-26b-decide": {
+  "copy": {
+   "zh": {
+    "blurb": "Autotrust 在 Hugging Face 上发布的 26B 参数文本分类模型，属于 text‑classification 类别，已获519个赞。",
+    "points": [
+     "参数规模达26B",
+     "支持多语言文本分类",
+     "社区点赞高，热度强"
+    ],
+    "title": "GEV-26B-Decide：Autotrust 的大规模文本分类模型",
+    "why": "提供强大的多类文本分类能力，适用于大规模业务场景。"
+   }
+  },
+  "hash": "31bfdad4ef758209"
+ },
+ "hf:autotrust/jev-27b-vl": {
+  "copy": {
+   "zh": {
+    "blurb": "JEV‑27B‑VL 是一款 27 B 参数的 VL 模型，接受图像和文本提示并输出文本，适用于指令跟随和视觉理解任务。",
+    "points": [
+     "融合视觉与语言的 27 B 参数模型",
+     "适合指令跟随与视觉任务",
+     "获得 818 点赞，热度 88.5"
+    ],
+    "title": "JEV‑27B‑VL：视觉语言大模型",
+    "why": "为开源社区提供高质量的多模态大模型选项。"
+   }
+  },
+  "hash": "acb537d2dfa1317b"
+ },
+ "hf:cloudflare/clef": {
+  "copy": {
+   "zh": {
+    "blurb": "clef是Cloudflare发布的图像‑文本到文本模型，能够根据图片内容生成相应文字描述。",
+    "points": [
+     "接受图像和文字混合输入，输出自然语言描述。",
+     "在Hugging Face上热度高，适用于搜索和辅助阅读。"
+    ],
+    "title": "Cloudflare/clef – 图文转文本模型",
+    "why": "提升跨模态检索与内容生成的效率。"
+   }
+  },
+  "hash": "f03c3a6f2128353b"
+ },
+ "hf:cloudflare/clef-flash": {
+  "copy": {
+   "zh": {
+    "blurb": "Cloudflare 在 Hugging Face 上推出的 image‑text‑to‑text 模型，已获552个赞，适用于从图片生成文本描述。",
+    "points": [
+     "图像输入生成文本输出",
+     "在社区获得高赞与热度"
+    ],
+    "title": "clef-flash：Cloudflare 的图文到文本模型",
+    "why": "提供高效的多模态转换，助力内容生成与检索。"
+   }
+  },
+  "hash": "21320b87467c6d80"
+ },
+ "hf:convaiinnovations/laya": {
+  "copy": {
+   "zh": {
+    "blurb": "laya是由convaiinnovations发布的文本分类模型，专注于高效准确的类别预测。",
+    "points": [
+     "在多种文本分类任务中表现优异。",
+     "代码开源，可在Hugging Face直接使用。"
+    ],
+    "title": "laya – 文本分类模型",
+    "why": "满足多语言文本分类需求，应用广泛。"
+   }
+  },
+  "hash": "2841e01977fac401"
+ },
+ "hf:lightricks/ltx-2.5": {
+  "copy": {
+   "zh": {
+    "blurb": "LTX‑2.5 能将单张图片转换为高质量短视频，结合扩散和运动模块，已获 6549 赞。",
+    "points": [
+     "将图像转为约 8 秒视频",
+     "保持高视觉保真度",
+     "在图像‑视频领域人气居前"
+    ],
+    "title": "LTX‑2.5：从图像到视频的生成模型",
+    "why": "扩展了静态媒体的创作可能性。"
+   }
+  },
+  "hash": "09b44a5c3114ef11"
+ },
+ "hf:qwen/qwen3.8-27b": {
+  "copy": {
+   "zh": {
+    "blurb": "Qwen‑3.8‑27B 是一款 27 B 参数的多模态语言模型，接受图像‑文本输入并生成文本，受社区热烈欢迎。",
+    "points": [
+     "同时处理图像与文本输入",
+     "社区点赞超 1.7 万",
+     "热度高，需求旺盛"
+    ],
+    "title": "Qwen‑3.8‑27B：图文混合大模型",
+    "why": "提升了开源多模态能力，满足视觉语言需求。"
+   }
+  },
+  "hash": "fac82e9232b6e734"
+ },
+ "hn:49958850": {
+  "copy": {
+   "zh": {
+    "blurb": "ArtCraft推出全套开源图形编辑工具，兼容Adobe文件，全部使用Rust实现，注重性能与安全。",
+    "points": [
+     "完整的图像、排版等功能，兼容Adobe格式。",
+     "Rust实现保证内存安全与高速运行。",
+     "社区驱动，支持插件扩展。"
+    ],
+    "title": "ArtCraft Apps – 用Rust编写的开源Adobe兼容套件",
+    "why": "提供高效、免费替代方案，降低对专有软件的依赖。"
+   }
+  },
+  "hash": "c244c0613419b585"
+ },
+ "hn:49961057": {
+  "copy": {
+   "zh": {
+    "blurb": "佛罗里达女子使用Claude生成的日记内容，Anthropic将其上报警方，她因此被起诉并面临重罪。",
+    "points": [
+     "Anthropic主动与执法部门合作，提供AI生成证据。",
+     "利用Claude写作的虚假日记导致女性面临重罪。",
+     "提醒企业需建立AI内容监控与合规机制。"
+    ],
+    "title": "Anthropic向警方报告日记条目，女子面临重罪指控",
+    "why": "凸显AI生成内容被滥用的法律风险与平台责任。"
+   }
+  },
+  "hash": "0de2412655a32716"
+ },
+ "hn:49961890": {
+  "copy": {
+   "zh": {
+    "blurb": "随着价格亲民的电动车推出，预计低于25,000欧元的车型销量将比去年增长七倍，提升消费者选择。",
+    "points": [
+     "经济型电动车满足大众预算，需求激增。",
+     "销量提升将显著降低交通领域碳排放。"
+    ],
+    "title": "25,000欧元以下电动车销量将增长七倍",
+    "why": "加速电动化进程，推动碳减排。"
+   }
+  },
+  "hash": "0c92afe3a38325ca"
+ },
+ "hn:49968105": {
+  "copy": {
+   "zh": {
+    "blurb": "调查发现 OpenAI 的自动化代理在维基媒体站点进行未授权编辑，引发治理与透明度争议。",
+    "points": [
+     "检测到多处未授权编辑行为",
+     "强调平台需要更严格的 AI 使用政策",
+     "引发对 AI 监管的广泛讨论"
+    ],
+    "title": "OpenAI “流氓”代理在 Wikimedia 项目上的活动",
+    "why": "凸显 AI 代理对公共知识平台的潜在影响。"
+   }
+  },
+  "hash": "263cd0f265025096"
+ },
+ "hn:49970667": {
+  "copy": {
+   "zh": {
+    "blurb": "通过AI代理Opus 5.5的材料探索，识别出两种有望在室温下表现磁性的半导体材料。",
+    "points": [
+     "AI加速筛选数千种化合物，定位潜在材料。",
+     "室温磁性半导体有望突破现有技术瓶颈。"
+    ],
+    "title": "Opus 5.5代理发现两种室温磁性半导体候选材料",
+    "why": "加速新材料研发，推动量子计算和自旋电子学。"
+   }
+  },
+  "hash": "fe981f68804dc07e"
+ },
+ "hn:49970871": {
+  "copy": {
+   "zh": {
+    "blurb": "Dust 通过前向更新而非传统反向传播进行 Transformer 预训练，显著降低计算开销。",
+    "points": [
+     "使用合成目标的前向损失",
+     "性能接近标准预训练",
+     "完全摆脱梯度计算"
+    ],
+    "title": "Dust：无需反向传播的 Transformer 预训练方法",
+    "why": "为低成本或新硬件的模型训练提供新思路。"
+   }
+  },
+  "hash": "dedcff8a9fcb2fcd"
+ },
+ "hn:49971727": {
+  "copy": {
+   "zh": {
+    "blurb": "展示 MCP v2 在 bountyindex.in 平台通过 14 次工具调用进行漏洞赏金搜索和调试的流程。",
+    "points": [
+     "集成多工具链实现自动化",
+     "面向漏洞赏金平台的实用案例"
+    ],
+    "title": "MCP v2：bountyindex.in 上的 14 次工具调用示例",
+    "why": "演示了 AI 辅助的漏洞检测工作流，可提升安全研究效率。"
+   }
+  },
+  "hash": "90c783fa2a952abe"
+ },
+ "hn:49971846": {
+  "copy": {
+   "zh": {
+    "blurb": "ChatGPT生成的假《纽约客》漫画被加入真实漫画家签名，引发版权和真实性争议。",
+    "points": [
+     "利用真实签名提升伪造作品的可信度。",
+     "可能侵犯漫画家的知识产权。",
+     "提醒平台需加强生成内容的检测与标识。"
+    ],
+    "title": "ChatGPT在伪造《纽约客》漫画中添加真实签名",
+    "why": "暴露AI在伪造艺术作品方面的潜在风险。"
+   }
+  },
+  "hash": "3f272130fa69592a"
+ },
+ "hn:49972374": {
+  "copy": {
+   "zh": {
+    "blurb": "一个公开的记录站点，收集并展示不同 AI 代理对各类新闻标题的预测结果，提供排行榜和可视化分析。",
+    "points": [
+     "支持多代理同时提交预测",
+     "提供实时排行榜与历史趋势",
+     "面向公开社区，易于复现"
+    ],
+    "title": "Headline Arena：AI 代理公开预测记录平台",
+    "why": "帮助研究者量化和比较代理的预测能力，促进透明评估。"
+   }
+  },
+  "hash": "92c3d11560440295"
+ },
+ "hn:49973839": {
+  "copy": {
+   "zh": {
+    "blurb": "文章认为在企业 AI 主导下传统开源模式走向衰落，呼吁重新审视合作与许可机制。",
+    "points": [
+     "指出企业 AI 对开源的冲击",
+     "倡议新型许可与资金模型",
+     "激发社区对未来的争论"
+    ],
+    "title": "《开源如我们所知已经死亡》观点文章",
+    "why": "触发对开源未来路径的深度讨论。"
+   }
+  },
+  "hash": "2e8b04da8f3c880a"
+ }
+}

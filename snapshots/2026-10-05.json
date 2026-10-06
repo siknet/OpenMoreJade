@@ -1,0 +1,194 @@
+{
+ "candidates": [
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:49958850",
+   "metrics": {
+    "comments": 154,
+    "frontPage": 0,
+    "points": 106
+   },
+   "news": {
+    "author": "aghuang",
+    "comments": 154,
+    "createdAt": "2026-10-04T23:02:43.000Z",
+    "domain": "getartcraft.com",
+    "hnId": 49958850,
+    "hnUrl": "https://news.ycombinator.com/item?id=49958850",
+    "points": 106,
+    "showRank": 49
+   },
+   "observedAt": "2026-10-06T09:37:13.355Z",
+   "publishedAt": "2026-10-04T23:02:43.000Z",
+   "refs": [
+    "url:getartcraft.com/apps"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:open source",
+     "cat:board"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+   "url": "https://getartcraft.com/apps"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:49961057",
+   "metrics": {
+    "comments": 564,
+    "frontPage": 0,
+    "points": 728
+   },
+   "news": {
+    "author": "emptybits",
+    "comments": 564,
+    "createdAt": "2026-10-05T05:37:40.000Z",
+    "domain": "techspot.com",
+    "hnId": 49961057,
+    "hnUrl": "https://news.ycombinator.com/item?id=49961057",
+    "points": 728,
+    "showRank": 2
+   },
+   "observedAt": "2026-10-06T09:37:13.355Z",
+   "publishedAt": "2026-10-05T05:37:40.000Z",
+   "refs": [
+    "url:techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:anthropic",
+     "cat:board"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Anthropic reported diary entry to police, woman faces felony charge",
+   "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:49961890",
+   "metrics": {
+    "comments": 131,
+    "frontPage": 0,
+    "points": 83
+   },
+   "news": {
+    "author": "geox",
+    "comments": 131,
+    "createdAt": "2026-10-05T07:51:14.000Z",
+    "domain": "transportenvironment.org",
+    "hnId": 49961890,
+    "hnUrl": "https://news.ycombinator.com/item?id=49961890",
+    "points": 83,
+    "showRank": 59
+   },
+   "observedAt": "2026-10-06T09:37:13.355Z",
+   "publishedAt": "2026-10-05T07:51:14.000Z",
+   "refs": [
+    "url:transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:model",
+     "weak:models",
+     "cat:board"
+    ],
+    "score": 0.4
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Sales of sub-€25,000 electric car models set to rise sevenfold",
+   "url": "https://www.transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold"
+  }
+ ],
+ "coverage": {
+  "coldStart": true,
+  "missingBoards": [
+   "repos",
+   "hf",
+   "social"
+  ],
+  "startedAt": "2026-10-06T09:37:13.355Z"
+ },
+ "date": "2026-10-05",
+ "fetchedAt": "2026-10-06T09:37:13.355Z",
+ "runs": [
+  "2026-10-06T09:37:13.355Z"
+ ],
+ "schema": 2,
+ "sources": [
+  {
+   "board": "repos",
+   "count": 307,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "github-search",
+   "settledAt": "2026-10-06T09:37:13.355Z",
+   "state": "ok"
+  },
+  {
+   "board": "repos",
+   "count": 175,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "github-trending",
+   "settledAt": "2026-10-06T09:37:13.355Z",
+   "state": "ok"
+  },
+  {
+   "board": "news",
+   "count": 74,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "hacker-news",
+   "settledAt": "2026-10-06T09:37:13.355Z",
+   "state": "ok"
+  },
+  {
+   "board": "hf",
+   "count": 10,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "hf-trending",
+   "settledAt": "2026-10-06T09:37:13.355Z",
+   "state": "ok"
+  },
+  {
+   "board": "social",
+   "count": 0,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "x",
+   "message": "disabled in config",
+   "state": "skipped"
+  },
+  {
+   "board": "social",
+   "count": 0,
+   "fetchedAt": "2026-10-06T09:37:13.355Z",
+   "id": "x-linked",
+   "message": "no linked X posts queued",
+   "settledAt": "2026-10-06T09:37:13.355Z",
+   "state": "ok"
+  }
+ ],
+ "window": {
+  "from": "2026-10-04T16:00:00.000Z",
+  "settled": true,
+  "timezone": "Asia/Shanghai",
+  "to": "2026-10-05T16:00:00.000Z"
+ }
+}
