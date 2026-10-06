@@ -133,18 +133,9 @@ export function Footer() {
       <div class="footer__inner">
         <p class="footer__tagline">{m ? localized(m.site.tagline) : ''}</p>
         <nav class="footer__links" aria-label={t('footer.label')}>
-          {hasRoute('/subscribe') && <a href="#/subscribe">{t('subscribe.title')}</a>}
-          {hasRoute('/learn') && <a href="#/learn">{t('nav.learn')}</a>}
-          {hasRoute('/resonance') && <a href="#/resonance">{t('nav.resonance')}</a>}
-          {hasRoute('/status') && <a href="#/status">{t('health.title')}</a>}
-          {hasRoute('/scoring') && <a href={href('/scoring')}>{t('footer.scoring')}</a>}
-          <a href="./api/v1/manifest.json">{t('footer.api')}</a>
-          <a href="./api/v1/digest.md">{t('footer.digest')}</a>
-          {m?.site.repoUrl && (
-            <ExtLink href={m.site.repoUrl} arrow>
-              {t('footer.source')}
-            </ExtLink>
-          )}
+          <ExtLink href="https://beian.miit.gov.cn/">
+            桂ICP备17001689号-1
+          </ExtLink>
         </nav>
       </div>
     </footer>
