@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-06T13:12:45.781Z",
+   "observedAt": "2026-10-07T18:56:50.962Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -36,8 +36,49 @@
    },
    "sourceKey": "gh:calesthio/openmontage"
   },
+  "discovery:gh:diegosouzapw/omniroute": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:diegosouzapw/omniroute",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-07T18:56:49.000Z",
+    "summary": {
+     "en": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+     "zh": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…"
+    },
+    "title": {
+     "en": "diegosouzapw/OmniRoute",
+     "zh": "OmniRoute：免费 MIT AI 网关，统一接入 359 家提供商"
+    },
+    "topics": [
+     "a2a",
+     "ai-agents",
+     "ai-gateway",
+     "anthropic",
+     "claude",
+     "claude-code",
+     "cline",
+     "codex"
+    ],
+    "type": "repo",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。在多模型、多供应商环境下统一调用并显著降低 token 消耗，对开发者省时省力。"
+    }
+   },
+   "sourceKey": "gh:diegosouzapw/omniroute"
+  },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-06T09:37:13.355Z",
+   "observedAt": "2026-10-07T18:56:50.962Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -49,7 +90,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-05T19:25:23.000Z",
+    "sourceUpdatedAt": "2026-10-07T17:04:38.000Z",
     "summary": {
      "en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
      "zh": "支持将代码、文档、SQL、配置、PDF 等转为结构化图谱，提供本地确定性 AST 解析，无需向量库。"
@@ -77,10 +118,126 @@
    },
    "sourceKey": "gh:graphify-labs/graphify"
   },
-  "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-06T09:37:13.355Z",
+  "discovery:gh:headroomlabs-ai/headroom": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:headroomlabs-ai/headroom",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-07T18:46:15.000Z",
+    "summary": {
+     "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+     "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
+    },
+    "title": {
+     "en": "headroomlabs-ai/headroom",
+     "zh": "headroom – 在送入 LLM 前压缩输出、日志和 RAG 片段"
+    },
+    "topics": [
+     "agent",
+     "ai",
+     "anthropic",
+     "claude-code",
+     "compression",
+     "context-engineering",
+     "context-window",
+     "cursor"
+    ],
+    "type": "repo",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过显著 token 减少降低成本，同时保持答案质量。"
+    }
+   },
+   "sourceKey": "gh:headroomlabs-ai/headroom"
+  },
+  "discovery:gh:librechat-ai/librechat": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
    "resource": {
     "freshnessBasis": "first-observed",
+    "id": "discovery:gh:librechat-ai/librechat",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-07T18:56:50.962Z",
+    "summary": {
+     "en": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+     "zh": "LibreChat 集成 Agents、MCP、Skills，支持 DeepSeek、Anthropic、OpenAI、Azure、Groq、o1、GPT‑5、Mistral、OpenRouter、Vertex AI、Gemini 等多模型切换；具备消息搜索、代码解释器、LangChain、DALL‑E‑3、OpenAPI 动作、函数调用以及安全多用户认证和预设，完全开源可自托管。"
+    },
+    "title": {
+     "en": "LibreChat-AI/LibreChat",
+     "zh": "LibreChat：功能丰富的自托管 ChatGPT 克隆"
+    },
+    "topics": [
+     "trend:monthly"
+    ],
+    "type": "repo",
+    "url": "https://github.com/LibreChat-AI/LibreChat",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为企业和个人提供全功能、可自行托管的对话平台，兼容多模型和插件生态。"
+    }
+   },
+   "sourceKey": "gh:librechat-ai/librechat"
+  },
+  "discovery:gh:madslorentzen/ai-job-search": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:madslorentzen/ai-job-search",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-05T17:27:43.000Z",
+    "summary": {
+     "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+     "zh": "基于 Claude Code 的 AI 求职框架，可本地运行，自动评估职位信息、定制简历、撰写求职信并进行面试准备，支持自行 fork 与完全所有权。"
+    },
+    "title": {
+     "en": "MadsLorentzen/ai-job-search",
+     "zh": "AI Job Search：本地化的 AI 求职应用框架"
+    },
+    "topics": [
+     "ai",
+     "ai-agents",
+     "career",
+     "claude-code",
+     "cover-letter",
+     "cv",
+     "interview-preparation",
+     "job-application"
+    ],
+    "type": "repo",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。让求职者在本地拥有私密可定制的全自动求职助理，提升效率与隐私。"
+    }
+   },
+   "sourceKey": "gh:madslorentzen/ai-job-search"
+  },
+  "discovery:gh:panniantong/agent-reach": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
     "level": "starter",
     "scores": {
@@ -90,34 +247,113 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+    "sourceUpdatedAt": "2026-10-07T17:17:29.000Z",
     "summary": {
      "en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-     "zh": "通过单一 CLI 实现对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台的读取与搜索，无额外 API 费用。"
+     "zh": "Agent‑Reach 为 AI 代理提供统一命令行接口，可直接在 Twitter、Reddit、YouTube、GitHub、哔哩哔哩、小红书等平台搜索与读取内容，且无需额外 API 费用。"
     },
     "title": {
      "en": "Panniantong/Agent-Reach",
-     "zh": "Agent-Reach：让 AI 代理浏览全网"
+     "zh": "Agent‑Reach – 让 AI 代理全网浏览的 CLI 工具"
     },
     "topics": [
-     "trend:daily",
-     "trend:weekly",
-     "trend:monthly"
+     "agent-infrastructure",
+     "ai-agent",
+     "ai-search",
+     "automation",
+     "bilibili",
+     "claude-code",
+     "cli",
+     "cursor"
     ],
     "type": "repo",
     "url": "https://github.com/Panniantong/Agent-Reach",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为 AI 提供实时网络信息，扩展其知识范围。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。降低获取网络信息的成本，使代理能够实时获取最新公开数据。"
     }
    },
    "sourceKey": "gh:panniantong/agent-reach"
+  },
+  "discovery:gh:zhulinsen/daily_stock_analysis": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:zhulinsen/daily_stock_analysis",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-05T07:52:27.000Z",
+    "summary": {
+     "en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+     "zh": "结合多源行情、实时新闻、决策看板与自动推送，实现零成本定时运行的股票分析平台。"
+    },
+    "title": {
+     "en": "ZhuLinsen/daily_stock_analysis",
+     "zh": "LLM 驱动的多市场股票智能分析系统"
+    },
+    "topics": [
+     "a-stock",
+     "ai-agent",
+     "aigc",
+     "llm",
+     "quant",
+     "quantitative-finance",
+     "quantitative-trading"
+    ],
+    "type": "repo",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过 LLM 自动化信息融合与决策，提升投资者分析效率。"
+    }
+   },
+   "sourceKey": "gh:zhulinsen/daily_stock_analysis"
+  },
+  "discovery:hn:49995804": {
+   "observedAt": "2026-10-07T18:56:50.962Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:49995804",
+    "level": "starter",
+    "publishedAt": "2026-10-07T17:16:36.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "voicegremlin.com",
+    "sourceUpdatedAt": "2026-10-07T17:16:36.000Z",
+    "summary": {
+     "en": "Hi, I'm a former SDET and now solo dev of VoiceGremlin, a tool for automated tests against AI that answer phones. You pass the API a phone number and a test case like \"Verify that the agent does X.\" It calls your voice agent, tests the thing by having the bots talk to each other, and uses LLM-as-judge to provide a pass/fail for your pipeline. State: Fully working, free trial, no card needed. Try it out and please give me feedback, especially if you run in to problems. Goal: I built VoiceGremlin with the explicit goal of being Mailosaur for phone agents. We paid for Mailosaur at work because…",
+     "zh": "VoiceGremlin 通过 API 调用电话号码并执行测试用例，使用 LLM‑as‑judge 为 AI 电话代理提供通过/失败判定。"
+    },
+    "title": {
+     "en": "Show HN: VoiceGremlin, a SaaS tool for automated tests against AI phone agents",
+     "zh": "VoiceGremlin – 自动化 AI 电话代理测试平台"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://voicegremlin.com/",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。填补语音机器人自动化测试空白，提升产品可靠性。"
+    }
+   },
+   "sourceKey": "hn:49995804"
   }
  },
  "dynamicHistory": {
   "https://agent.minimaxi.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -153,7 +389,8 @@
   },
   "https://canva.com/ai": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -188,7 +425,8 @@
   },
   "https://chat.deepseek.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -224,7 +462,8 @@
   },
   "https://chatglm.cn/": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -259,7 +498,8 @@
   },
   "https://code.claude.com/docs/en/quickstart": {
    "days": {
-    "2026-10-06": 95
+    "2026-10-06": 95,
+    "2026-10-08": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -294,7 +534,8 @@
   },
   "https://deepl.com/en/write": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -329,7 +570,8 @@
   },
   "https://descript.com/": {
    "days": {
-    "2026-10-06": 95
+    "2026-10-06": 95,
+    "2026-10-08": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -364,7 +606,8 @@
   },
   "https://developers.llamaindex.ai/python/framework/getting_started/starter_example": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -399,7 +642,8 @@
   },
   "https://docs.anythingllm.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -434,7 +678,8 @@
   },
   "https://docs.firecrawl.dev/introduction": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -469,7 +714,8 @@
   },
   "https://docs.n8n.io/build/integrate-ai": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -504,7 +750,8 @@
   },
   "https://doubao.com/chat": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -540,7 +787,8 @@
   },
   "https://elevenlabs.io/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -575,7 +823,8 @@
   },
   "https://elicit.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -610,7 +859,8 @@
   },
   "https://firefly.adobe.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -645,7 +895,8 @@
   },
   "https://gamma.app/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -680,7 +931,8 @@
   },
   "https://github.com/1panel-dev/maxkb": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -715,7 +967,8 @@
   },
   "https://github.com/aaif-goose/goose": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -750,7 +1003,8 @@
   },
   "https://github.com/acly/krita-ai-diffusion": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -785,7 +1039,8 @@
   },
   "https://github.com/aider-ai/aider": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -820,7 +1075,8 @@
   },
   "https://github.com/anomalyco/opencode": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -855,7 +1111,8 @@
   },
   "https://github.com/cherryhq/cherry-studio": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -890,7 +1147,8 @@
   },
   "https://github.com/cline/cline": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -925,7 +1183,8 @@
   },
   "https://github.com/continuedev/continue": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -960,7 +1219,8 @@
   },
   "https://github.com/danny-avila/librechat": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -995,7 +1255,8 @@
   },
   "https://github.com/datalab-to/marker": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -1030,7 +1291,8 @@
   },
   "https://github.com/deepbeepmeep/wan2gp": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -1065,7 +1327,8 @@
   },
   "https://github.com/docling-project/docling": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -1100,7 +1363,8 @@
   },
   "https://github.com/features/copilot": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -1135,7 +1399,8 @@
   },
   "https://github.com/flowiseai/flowise": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -1170,7 +1435,8 @@
   },
   "https://github.com/ggml-org/llama.cpp": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -1205,7 +1471,8 @@
   },
   "https://github.com/google-gemini/gemini-cli": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -1240,7 +1507,8 @@
   },
   "https://github.com/hexgrad/kokoro": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -1275,7 +1543,8 @@
   },
   "https://github.com/huggingface/diffusers": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -1310,7 +1579,8 @@
   },
   "https://github.com/huggingface/sentence-transformers": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -1345,7 +1615,8 @@
   },
   "https://github.com/infiniflow/ragflow": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "ragflow-repo",
@@ -1380,7 +1651,8 @@
   },
   "https://github.com/invoke-ai/invokeai": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -1415,7 +1687,8 @@
   },
   "https://github.com/janhq/jan": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -1450,7 +1723,8 @@
   },
   "https://github.com/k2-fsa/sherpa-onnx": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -1485,7 +1759,8 @@
   },
   "https://github.com/labring/fastgpt": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -1520,7 +1795,8 @@
   },
   "https://github.com/lfnovo/open-notebook": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -1555,7 +1831,8 @@
   },
   "https://github.com/m-bain/whisperx": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -1590,7 +1867,8 @@
   },
   "https://github.com/modelcontextprotocol/inspector": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -1625,7 +1903,8 @@
   },
   "https://github.com/openai/codex": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -1660,7 +1939,8 @@
   },
   "https://github.com/paddlepaddle/paddleocr": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -1695,7 +1975,8 @@
   },
   "https://github.com/subtitleedit/subtitleedit": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -1730,7 +2011,8 @@
   },
   "https://github.com/unclecode/crawl4ai": {
    "days": {
-    "2026-10-06": 80
+    "2026-10-06": 80,
+    "2026-10-08": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -1765,7 +2047,8 @@
   },
   "https://hailuoai.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -1801,7 +2084,8 @@
   },
   "https://huggingface.co/docs/datasets/quickstart": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -1836,7 +2120,8 @@
   },
   "https://huggingface.co/docs/hub/spaces-overview": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -1871,7 +2156,8 @@
   },
   "https://huggingface.co/learn/audio-course/chapter0/introduction": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -1906,7 +2192,8 @@
   },
   "https://ideogram.ai/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -1941,7 +2228,8 @@
   },
   "https://jimeng.jianying.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -1978,7 +2266,8 @@
   },
   "https://kimi.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -2014,7 +2303,8 @@
   },
   "https://langfuse.com/docs": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -2049,7 +2339,8 @@
   },
   "https://leonardo.ai/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -2084,7 +2375,8 @@
   },
   "https://lmstudio.ai/docs/app": {
    "days": {
-    "2026-10-06": 95
+    "2026-10-06": 95,
+    "2026-10-08": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -2119,7 +2411,8 @@
   },
   "https://napkin.ai/": {
    "days": {
-    "2026-10-06": 95
+    "2026-10-06": 95,
+    "2026-10-08": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -2154,7 +2447,8 @@
   },
   "https://numpy.org/doc/stable/user/absolute_beginners.html": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -2190,7 +2484,8 @@
   },
   "https://openrouter.ai/docs/quickstart": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -2225,7 +2520,8 @@
   },
   "https://pandas.pydata.org/docs/getting_started/intro_tutorials": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -2260,7 +2556,8 @@
   },
   "https://podcast.adobe.com/": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -2295,7 +2592,8 @@
   },
   "https://promptfoo.dev/docs/getting-started": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -2330,7 +2628,8 @@
   },
   "https://pydantic.dev/docs/ai/overview": {
    "days": {
-    "2026-10-06": 90
+    "2026-10-06": 90,
+    "2026-10-08": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -2365,7 +2664,8 @@
   },
   "https://qianwen.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -2401,7 +2701,8 @@
   },
   "https://recraft.ai/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -2436,7 +2737,8 @@
   },
   "https://spark.xfyun.cn/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -2472,7 +2774,8 @@
   },
   "https://suno.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -2507,7 +2810,8 @@
   },
   "https://v0.app/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -2542,7 +2846,8 @@
   },
   "https://yuanbao.tencent.com/": {
    "days": {
-    "2026-10-06": 85
+    "2026-10-06": 85,
+    "2026-10-08": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -3322,6 +3627,7 @@
   "https://github.com/danny-avila/librechat": "2026-10-06T09:37:13.355Z",
   "https://github.com/datalab-to/marker": "2026-10-06T09:37:13.355Z",
   "https://github.com/deepbeepmeep/wan2gp": "2026-10-06T09:37:13.355Z",
+  "https://github.com/diegosouzapw/omniroute": "2026-10-07T18:56:50.962Z",
   "https://github.com/docling-project/docling": "2026-10-06T09:37:13.355Z",
   "https://github.com/features/copilot": "2026-10-06T09:37:13.355Z",
   "https://github.com/flowiseai/flowise": "2026-10-06T09:37:13.355Z",
@@ -3329,6 +3635,7 @@
   "https://github.com/google-gemini/gemini-cli": "2026-10-06T09:37:13.355Z",
   "https://github.com/graphify-labs/graphify": "2026-10-06T09:37:13.355Z",
   "https://github.com/handsonllm/hands-on-large-language-models": "2026-10-06T09:37:13.355Z",
+  "https://github.com/headroomlabs-ai/headroom": "2026-10-07T18:56:50.962Z",
   "https://github.com/hexgrad/kokoro": "2026-10-06T09:37:13.355Z",
   "https://github.com/huggingface/diffusers": "2026-10-06T09:37:13.355Z",
   "https://github.com/huggingface/sentence-transformers": "2026-10-06T09:37:13.355Z",
@@ -3339,15 +3646,19 @@
   "https://github.com/labring/fastgpt": "2026-10-06T09:37:13.355Z",
   "https://github.com/langgenius/dify": "2026-10-06T09:37:13.355Z",
   "https://github.com/lfnovo/open-notebook": "2026-10-06T09:37:13.355Z",
+  "https://github.com/librechat-ai/librechat": "2026-10-07T18:56:50.962Z",
   "https://github.com/m-bain/whisperx": "2026-10-06T09:37:13.355Z",
+  "https://github.com/madslorentzen/ai-job-search": "2026-10-07T18:56:50.962Z",
   "https://github.com/modelcontextprotocol/inspector": "2026-10-06T09:37:13.355Z",
   "https://github.com/open-webui/open-webui": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/codex": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/whisper": "2026-10-06T09:37:13.355Z",
   "https://github.com/paddlepaddle/paddleocr": "2026-10-06T09:37:13.355Z",
   "https://github.com/panniantong/agent-reach": "2026-10-06T09:37:13.355Z",
+  "https://github.com/stablyai/orca": "2026-10-07T18:56:50.962Z",
   "https://github.com/subtitleedit/subtitleedit": "2026-10-06T09:37:13.355Z",
   "https://github.com/unclecode/crawl4ai": "2026-10-06T09:37:13.355Z",
+  "https://github.com/zhulinsen/daily_stock_analysis": "2026-10-07T18:56:50.962Z",
   "https://gradio.app/guides/quickstart": "2026-10-06T09:37:13.355Z",
   "https://hailuoai.com/": "2026-10-06T09:37:13.355Z",
   "https://huggingface.co/docs/datasets/quickstart": "2026-10-06T09:37:13.355Z",
@@ -3382,6 +3693,7 @@
   "https://spark.xfyun.cn/": "2026-10-06T09:37:13.355Z",
   "https://suno.com/": "2026-10-06T09:37:13.355Z",
   "https://v0.app/": "2026-10-06T09:37:13.355Z",
+  "https://voicegremlin.com/": "2026-10-07T18:56:50.962Z",
   "https://yuanbao.tencent.com/": "2026-10-06T09:37:13.355Z"
  },
  "initializedAt": "2026-10-06T09:37:13.355Z",

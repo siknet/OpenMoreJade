@@ -12,9 +12,14 @@
  "gh:affaan-m/ecc": {
   "copy": {
    "zh": {
-    "blurb": "通过技能、直觉、记忆、安全和研究优先的模块，为 Claude Code、Codex、Opencode、Cursor 等提供性能提升。",
-    "title": "affaan-m/ECC：面向 Claude Code 等的智能体性能优化系统",
-    "why": "帮助开发者在多种代码生成模型上获得更快、更可靠的响应。"
+    "blurb": "ECC 为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全和以研究为先的开发框架，旨在提升代理的执行效率和可靠性。",
+    "points": [
+     "整合技能、记忆与安全模块，提升代理综合能力。",
+     "面向多模型设计，兼容 Claude Code、Codex 等。",
+     "注重研究优先，实现前沿技术快速落地。"
+    ],
+    "title": "ECC：面向多模型的代理性能优化系统",
+    "why": "统一的性能调优平台帮助开发者在不同大模型间快速迁移和优化。"
    }
   },
   "hash": "cd43bb92c47d6418"
@@ -28,6 +33,16 @@
    }
   },
   "hash": "fda139b9f0d84c6f"
+ },
+ "gh:alibaba/open-code-review": {
+  "copy": {
+   "zh": {
+    "blurb": "安全、快速、经阿里巴巴规模实战的代码审查系统，采用确定性流水线 + LLM Agent，实现精准行级评论，内置多语言规则（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
+    "title": "Open Code Review：阿里巴巴级别的混合架构代码审查工具",
+    "why": "在大规模企业环境提供可靠自动化审查，显著提升代码质量与安全性。"
+   }
+  },
+  "hash": "bcca43d64ff8c145"
  },
  "gh:alishahryar1/free-claude-code": {
   "copy": {
@@ -74,6 +89,41 @@
   },
   "hash": "1a1e9dd85f5d0c0b"
  },
+ "gh:code-yeongyu/oh-my-openagent": {
+  "copy": {
+   "zh": {
+    "blurb": "OmO 通过输入关键词 “mass ulw” 加上提示，即可在图结构工程中快速创建和操控代理，实现图谱工程的即点即用。",
+    "points": [
+     "仅键入关键词即可生成图谱工程代理。",
+     "支持自定义提示，实现灵活的图结构编排。",
+     "轻量化实现，适合快速原型开发。"
+    ],
+    "title": "oh‑my‑openagent：图谱工程一键指令",
+    "why": "降低图谱工程学习门槛，加速 AI 代理的构建与实验。"
+   }
+  },
+  "hash": "768aa0cc86f61457"
+ },
+ "gh:coreyhaines31/marketingskills": {
+  "copy": {
+   "zh": {
+    "blurb": "涵盖转化率优化、文案写作、SEO、数据分析和增长工程，帮助 AI 代理提升营销效果。",
+    "title": "marketingskills：Claude Code 与 AI 代理的营销技能库",
+    "why": "提供可直接用于 AI 代理的营销技巧，提升自动化营销质量。"
+   }
+  },
+  "hash": "47c626d1cf47b66f"
+ },
+ "gh:debpalash/voicestudio": {
+  "copy": {
+   "zh": {
+    "blurb": "提供语音克隆、声音设计、视频配音、转录与有声书生成，支持 646 种语言，全部在本地运行，无需云服务。",
+    "title": "VoiceStudio：本地化开源 ElevenLabs 替代品",
+    "why": "本地化解决方案保护隐私并降低成本，适用于多语言音频应用。"
+   }
+  },
+  "hash": "3ac56c54009f8954"
+ },
  "gh:deepseek-ai/deepgemm": {
   "copy": {
    "zh": {
@@ -99,12 +149,42 @@
   },
   "hash": "ad77105b8682ff7a"
  },
+ "gh:deusdata/codebase-memory-mcp": {
+  "copy": {
+   "zh": {
+    "blurb": "该 MCP 服务器对代码库进行持久化知识图谱索引，毫秒级完成仓库导入，覆盖 158 种语言，查询亚毫秒，令 token 用量降低 99%，单一静态二进制文件、零依赖。",
+    "title": "Codebase Memory MCP：高性能代码情报图谱服务器",
+    "why": "大幅加速代码检索与分析，降低资源消耗，适配大规模代码库。"
+   }
+  },
+  "hash": "9245cc163ad34b32"
+ },
+ "gh:diegosouzapw/omniroute": {
+  "copy": {
+   "zh": {
+    "blurb": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…",
+    "points": [
+     "单端点覆盖 359 家供应商，150+ 免费，可即插即用。",
+     "RTK+Caveman 压缩技术可节省 15‑95% token，降低成本。",
+     "内置配额感知回退与 Desktop/PWA 支持，易于本地部署。"
+    ],
+    "title": "OmniRoute：免费 MIT AI 网关，统一接入 359 家提供商",
+    "why": "在多模型、多供应商环境下统一调用并显著降低 token 消耗，对开发者省时省力。"
+   }
+  },
+  "hash": "98e3a5acfb007d10"
+ },
  "gh:dietrichgebert/ponytail": {
   "copy": {
    "zh": {
-    "blurb": "通过简化代码生成流程，让 AI 只写最必要的代码，提高开发效率。",
-    "title": "ponytail：让 AI 代理像最懒的高级开发者思考",
-    "why": "减少冗余代码，降低调试成本。"
+    "blurb": "ponytail 让 AI 代理模仿最懒的资深开发者思考方式，主张‘最好的代码是从未写过的’，提供轻松的代码生成体验。",
+    "points": [
+     "模拟资深开发者的懒散思维模式",
+     "强调最小化手写代码的开发理念",
+     "以轻量脚本实现快速原型生成"
+    ],
+    "title": "ponytail – 懒散资深开发者的 AI 代理",
+    "why": "通过幽默方式探索 AI 辅助编码的边界，降低开发者对自动化代码的心理负担。"
    }
   },
   "hash": "5277a487afffa3a9"
@@ -163,15 +243,95 @@
   },
   "hash": "3c350042dcbb50f5"
  },
+ "gh:headroomlabs-ai/headroom": {
+  "copy": {
+   "zh": {
+    "blurb": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。",
+    "points": [
+     "多种压缩模式适配代码、日志、JSON。",
+     "在保持答案一致性的前提下降 token。",
+     "提供库、代理和 MCP 服务器三种使用方式。"
+    ],
+    "title": "headroom – 在送入 LLM 前压缩输出、日志和 RAG 片段",
+    "why": "通过显著 token 减少降低成本，同时保持答案质量。"
+   }
+  },
+  "hash": "f2b076df939dfbd3"
+ },
+ "gh:heygen-com/hyperframes": {
+  "copy": {
+   "zh": {
+    "blurb": "hyperframes 让开发者用 HTML 编写场景描述，自动渲染成视频，专为 AI 代理设计，支持 TypeScript 开发。",
+    "points": [
+     "HTML 即可描述视频内容，降低创作复杂度",
+     "与 AI 代理深度集成，支持实时渲染",
+     "基于 TypeScript，易于在前端项目中使用"
+    ],
+    "title": "hyperframes – 为 AI 代理写 HTML 渲染视频",
+    "why": "降低生成式视频的创作门槛，使代理能够直接输出视觉内容。"
+   }
+  },
+  "hash": "8aee81a4e360b83a"
+ },
+ "gh:hkuds/nanobot": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 Python 的开源框架，提供 WebUI、工具、记忆、MCP、多代理工作流、自动化和聊天集成。",
+    "title": "nanobot：轻量级自托管个人 AI 代理框架",
+    "why": "低资源占用且高度可定制，适合个人化 AI 助手部署。"
+   }
+  },
+  "hash": "07c88bcd7d518c71"
+ },
  "gh:juliusbrussee/caveman": {
   "copy": {
    "zh": {
-    "blurb": "提供一种用极简词汇表达的技能与代理，可将编码交互的 token 使用量降低约 65%。",
-    "title": "caveman：以原始语言压缩 token 使用",
-    "why": "显著降低 LLM 调用成本，提升响应速度。"
+    "blurb": "caveman 通过让 LLM 以“原始人”式简短提示，减少约 65% 的 token，用作编码代理的高效代理层。",
+    "points": [
+     "采用简化提示实现 65% token 节省。",
+     "作为代理层无缝接入各类编码代理。",
+     "使用 Go 实现，易于部署与集成。"
+    ],
+    "title": "caveman – 用原始语言削减 Token 消耗",
+    "why": "大幅降低 token 成本，对高频调用的编码代理尤为关键。"
    }
   },
   "hash": "c7b9d89f64c257dc"
+ },
+ "gh:koala73/worldmonitor": {
+  "copy": {
+   "zh": {
+    "blurb": "worldmonitor 是基于 AI 的实时新闻、地缘政治与基础设施监控平台，提供统一的情境感知界面。",
+    "points": [
+     "多源新闻聚合并使用 LLM 自动摘要。",
+     "地缘政治事件实时可视化展示。",
+     "基础设施状态统一监控，信息一站式呈现。"
+    ],
+    "title": "worldmonitor – 实时全球情报仪表盘",
+    "why": "为决策者提供全局洞察，帮助快速响应全球事件。"
+   }
+  },
+  "hash": "73040f51f5554a53"
+ },
+ "gh:librechat-ai/librechat": {
+  "copy": {
+   "zh": {
+    "blurb": "LibreChat 集成 Agents、MCP、Skills，支持 DeepSeek、Anthropic、OpenAI、Azure、Groq、o1、GPT‑5、Mistral、OpenRouter、Vertex AI、Gemini 等多模型切换；具备消息搜索、代码解释器、LangChain、DALL‑E‑3、OpenAPI 动作、函数调用以及安全多用户认证和预设，完全开源可自托管。",
+    "title": "LibreChat：功能丰富的自托管 ChatGPT 克隆",
+    "why": "为企业和个人提供全功能、可自行托管的对话平台，兼容多模型和插件生态。"
+   }
+  },
+  "hash": "bb30c01c8f622516"
+ },
+ "gh:madslorentzen/ai-job-search": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 Claude Code 的 AI 求职框架，可本地运行，自动评估职位信息、定制简历、撰写求职信并进行面试准备，支持自行 fork 与完全所有权。",
+    "title": "AI Job Search：本地化的 AI 求职应用框架",
+    "why": "让求职者在本地拥有私密可定制的全自动求职助理，提升效率与隐私。"
+   }
+  },
+  "hash": "daa4fc853d2a9c45"
  },
  "gh:mattpocock/skills": {
   "copy": {
@@ -187,6 +347,16 @@
    }
   },
   "hash": "8ee9f64647f47367"
+ },
+ "gh:mempalace/mempalace": {
+  "copy": {
+   "zh": {
+    "blurb": "提供高性能的 AI 长期记忆库，开源且免费，已通过多项基准测试验证。",
+    "title": "MemPalace：最佳基准开源 AI 记忆系统",
+    "why": "解决 LLM 记忆瓶颈，提升上下文持续性与任务表现。"
+   }
+  },
+  "hash": "5e2fdb9a7bba3219"
  },
  "gh:morluto/rea": {
   "copy": {
@@ -217,6 +387,21 @@
    }
   },
   "hash": "d1a03dc9eee2d7f8"
+ },
+ "gh:nandhakishorm/laya": {
+  "copy": {
+   "zh": {
+    "blurb": "Laya 是一个非自回归系统 1 决策引擎，能够在一次前向传播中对任意文本完成类型化选择、打分和是/否判断，支持 100 多种语言，并通过路由器为每个请求挑选最合适的检查点模型。",
+    "points": [
+     "一次前向完成选择、打分和二元判断，提升吞吐量。",
+     "内置语言路由器，自动匹配最佳 checkpoint。",
+     "支持 100+ 语言，适配全球化应用。"
+    ],
+    "title": "Laya：单次前向多语言非自回归决策引擎",
+    "why": "在高并发、多语言场景下提供即时决策，显著降低推理时延和成本。"
+   }
+  },
+  "hash": "5e76d82b4e2fb4f2"
  },
  "gh:ollama/ollama": {
   "copy": {
@@ -256,9 +441,14 @@
  "gh:panniantong/agent-reach": {
   "copy": {
    "zh": {
-    "blurb": "通过单一 CLI 实现对 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台的读取与搜索，无额外 API 费用。",
-    "title": "Agent-Reach：让 AI 代理浏览全网",
-    "why": "为 AI 提供实时网络信息，扩展其知识范围。"
+    "blurb": "Agent‑Reach 为 AI 代理提供统一命令行接口，可直接在 Twitter、Reddit、YouTube、GitHub、哔哩哔哩、小红书等平台搜索与读取内容，且无需额外 API 费用。",
+    "points": [
+     "支持多平台信息抓取，覆盖主流社交媒体",
+     "零 API 费用，完全基于公开网页解析",
+     "一条 CLI 命令即可为代理提供全网视野"
+    ],
+    "title": "Agent‑Reach – 让 AI 代理全网浏览的 CLI 工具",
+    "why": "降低获取网络信息的成本，使代理能够实时获取最新公开数据。"
    }
   },
   "hash": "104684d9ca1e103f"
@@ -266,19 +456,39 @@
  "gh:paperclipai/paperclip": {
   "copy": {
    "zh": {
-    "blurb": "提供统一界面管理工作中的 AI 代理，支持配置、监控与调度。",
-    "title": "paperclip：开源 AI 代理管理应用",
-    "why": "帮助团队组织和优化多代理工作流。"
+    "blurb": "paperclip 是业界广泛使用的 TypeScript 应用，用于在企业内部统一管理和调度 AI 代理。",
+    "points": [
+     "可视化创建、监控和调度代理任务。",
+     "支持多模型集成，易于企业部署。",
+     "社区星标高，生态活跃。"
+    ],
+    "title": "paperclip – 管理工作中 AI 代理的开源应用",
+    "why": "统一的代理平台提升团队协作效率，降低运维复杂度。"
    }
   },
   "hash": "23057b1f9280e72a"
  },
+ "gh:rohitg00/ai-engineering-from-scratch": {
+  "copy": {
+   "zh": {
+    "blurb": "提供从基础机器学习概念到完整 AI 系统构建、部署的全流程教程，帮助开发者独立完成项目并面向他人发布。",
+    "title": "AI Engineering From Scratch：学习、构建、发布全套指南",
+    "why": "全栈教学帮助新人快速进入 AI 开发并产出可用产品。"
+   }
+  },
+  "hash": "d08f60d6c34a248f"
+ },
  "gh:rtk-ai/rtk": {
   "copy": {
    "zh": {
-    "blurb": "使用单一 Rust 可执行文件，在常用开发命令上将 LLM 令牌消耗降低 60‑90%，无额外依赖。",
-    "title": "rtk-ai/rtk：LLM 令牌消耗削减 CLI 代理",
-    "why": "令牌成本高昂，降低消耗直接节省费用并提升响应速度。"
+    "blurb": "rtk 是单文件 Rust 二进制代理，可在常见开发命令上削减 60‑90% 的 token 使用，无需额外依赖。",
+    "points": [
+     "拦截并压缩开发命令的 LLM 请求。",
+     "可节省 60‑90% token，降低费用。",
+     "零依赖单二进制，部署极其简便。"
+    ],
+    "title": "rtk – Rust 编写的 LLM 令牌削减 CLI 代理",
+    "why": "显著降低开发过程中的 token 成本，提高效率。"
    }
   },
   "hash": "3b40859652eca17b"
@@ -292,6 +502,31 @@
    }
   },
   "hash": "4c35fe6b482ece62"
+ },
+ "gh:shanraisshan/claude-code-best-practice": {
+  "copy": {
+   "zh": {
+    "blurb": "从氛围编码到代理工程，提供实践案例帮助开发者提升 Claude 在代码生成中的表现，强调最佳提示和工作流。",
+    "points": [
+     "展示从基础提示到复杂代理的完整工作流。",
+     "强调代码风格一致性与可维护性。",
+     "提供实战示例帮助快速上手 Claude 编码。"
+    ],
+    "title": "Claude 代码最佳实践指南",
+    "why": "系统化的实践能让 Claude 在代码任务中更可靠，提高生产率。"
+   }
+  },
+  "hash": "c3cc17d594c7e0b7"
+ },
+ "gh:sickn33/agentic-awesome-skills": {
+  "copy": {
+   "zh": {
+    "blurb": "AAS Core 是本地、以代理为先的控制平台，实现完整技能目录发现、代理自选、堆栈验证与计划调度，背靠 2400+ 代理技能，提供 CLI、本地 MCP、目录、插件与 Workbench。",
+    "title": "AAS Core：本地化、面向代理的技能控制平面",
+    "why": "支持自主代理高效组织和执行技能，提升 AI 工作流的可控性和扩展性。"
+   }
+  },
+  "hash": "d1ad1348ad03f7d2"
  },
  "gh:skyhook-io/radar": {
   "copy": {
@@ -322,12 +557,32 @@
   },
   "hash": "ba89d5a6721716ac"
  },
+ "gh:stablyai/orca": {
+  "copy": {
+   "zh": {
+    "blurb": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。",
+    "points": [
+     "统一管理多代理 fleet 的运行时",
+     "跨平台支持（桌面、移动、远程）",
+     "基于订阅的弹性计费模型"
+    ],
+    "title": "Orca – 并行代理 fleet 的 ADE 平台",
+    "why": "简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
+   }
+  },
+  "hash": "970178b3481b417a"
+ },
  "gh:thedotmack/claude-mem": {
   "copy": {
    "zh": {
-    "blurb": "在会话中捕获并压缩所有操作，随后在后续会话中注入相关上下文，兼容多种模型。",
-    "title": "claude-mem：为 AI 代理提供持久上下文",
-    "why": "提升长程记忆能力，减少重复信息输入。"
+    "blurb": "claude-mem 捕获代理在会话中的所有操作，利用 AI 对其进行压缩，并在后续会话中注入相关上下文，支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot 等多模型。",
+    "points": [
+     "会话全程记录并 AI 压缩，节约存储。",
+     "自动注入相关上下文，提升后续交互质量。",
+     "兼容多主流模型，易于集成。"
+    ],
+    "title": "claude-mem：跨会话持久上下文记忆库",
+    "why": "持久化上下文显著提升长程任务的一致性和效率，降低重复提示成本。"
    }
   },
   "hash": "6330d6e1b5a7d49d"
@@ -357,6 +612,16 @@
   },
   "hash": "6eb008ed678433f8"
  },
+ "gh:xerj-org/xerj": {
+  "copy": {
+   "zh": {
+    "blurb": "XERJ 通过自动索引代码、文档、日志和 PDF，实现数据搜索、RAG 与安全审计，使用比 grep 少 40 倍 token，兼容 Elasticsearch 接口。",
+    "title": "XERJ：高效 AI 数据搜索引擎",
+    "why": "大幅降低 token 成本并提供即插即用的搜索能力，提升 RAG 效率。"
+   }
+  },
+  "hash": "4f6629a89b930509"
+ },
  "gh:ys-ll/uniterm": {
   "copy": {
    "zh": {
@@ -366,6 +631,16 @@
    }
   },
   "hash": "db6da4252d4ab15a"
+ },
+ "gh:zhulinsen/daily_stock_analysis": {
+  "copy": {
+   "zh": {
+    "blurb": "结合多源行情、实时新闻、决策看板与自动推送，实现零成本定时运行的股票分析平台。",
+    "title": "LLM 驱动的多市场股票智能分析系统",
+    "why": "通过 LLM 自动化信息融合与决策，提升投资者分析效率。"
+   }
+  },
+  "hash": "02f3f2ac0502d2e2"
  },
  "hf:abenzerps/qwen-image-2.1-uncensored-gguf": {
   "copy": {
@@ -468,6 +743,21 @@
    }
   },
   "hash": "2841e01977fac401"
+ },
+ "hf:google/embeddinggemma-2": {
+  "copy": {
+   "zh": {
+    "blurb": "EmbeddingGemma 2 是 Google 发布的轻量级多模态嵌入模型，支持文本、图像、音频和视频，同步映射到统一向量空间，适合在移动设备上本地运行。",
+    "points": [
+     "多模态统一嵌入，覆盖文字、图像、音频、视频",
+     "轻量化设计，可在消费级硬件上离线推理",
+     "开源发布，快速集成到搜索与 RAG 系统"
+    ],
+    "title": "EmbeddingGemma 2（Google）模型",
+    "why": "满足隐私优先和本地计算需求，降低云端依赖。"
+   }
+  },
+  "hash": "3d539cc4dde1d930"
  },
  "hf:lightricks/ltx-2.5": {
   "copy": {
@@ -660,5 +950,185 @@
    }
   },
   "hash": "2e8b04da8f3c880a"
+ },
+ "hn:49980487": {
+  "copy": {
+   "zh": {
+    "blurb": "EmbeddingGemma 2 是 Google 推出的最新多模态嵌入模型，能够在设备端统一处理文本、图像、音频和视频，已被超过 2000 万次下载用于本地搜索和隐私优先的检索增强生成（RAG）流水线。",
+    "points": [
+     "统一多模态嵌入空间，覆盖四类媒体",
+     "在移动端实现高精度、低延迟推理",
+     "已被数百万开发者用于本地搜索与 RAG"
+    ],
+    "title": "EmbeddingGemma 2：最强本地多模态嵌入模型",
+    "why": "在隐私敏感场景下提供高质量嵌入，免除云端依赖，推动边缘 AI 发展。"
+   }
+  },
+  "hash": "d61c30580e8d0530"
+ },
+ "hn:49980715": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenTPU 是由社区开发的开源 AI 硬件加速器，代码托管于 GitHub，旨在提供可定制、低成本的张量运算平台。",
+    "points": [
+     "全栈开源硬件设计，支持自定义扩展",
+     "兼容主流深度学习框架",
+     "社区驱动的持续优化与文档支持"
+    ],
+    "title": "OpenTPU – 开源 AI 加速器",
+    "why": "为研究者和初创企业提供可访问的硬件加速方案，降低 AI 计算门槛。"
+   }
+  },
+  "hash": "bfa42c5ce27eb54d"
+ },
+ "hn:49981905": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出 Claude Code 的‘建议消息’功能把模型本身视为真实客户，强调让模型主动生成提示以提升交互效率和安全性。",
+    "points": [
+     "模型生成自身的提示，减少人工编写负担。",
+     "提升对话流畅度和上下文一致性。",
+     "为安全审查提供更可靠的自动化依据。"
+    ],
+    "title": "Claude Code 建议消息功能：模型才是终极用户",
+    "why": "突显大模型自我引导的重要性，可能改变开发者与 AI 的交互方式。"
+   }
+  },
+  "hash": "964ecb99910cce93"
+ },
+ "hn:49984025": {
+  "copy": {
+   "zh": {
+    "blurb": "Decisions API 通过专用 /v1/decisions 接口，以约 10 倍于 Responses API 的速度返回文本或图像的概率、选项或评分，当前仅支持 gpt‑6‑luna 模型。",
+    "points": [
+     "10 × 更快的响应速度",
+     "支持文本、图像或二者混合输入",
+     "返回概率、选项或评分等结构化答案"
+    ],
+    "title": "OpenAI Decisions API 公测",
+    "why": "提供更快的结构化决策输出，帮助应用实现实时内容分类与路由。"
+   }
+  },
+  "hash": "d14bea652089fd7c"
+ },
+ "hn:49984716": {
+  "copy": {
+   "zh": {
+    "blurb": "Penguin Mail 是一款面向 Linux 的 Rust 编写邮件客户端，内置 AI 辅助功能，提供本地化、安全的邮件撰写与管理体验。",
+    "points": [
+     "使用 Rust 实现高性能、零安全漏洞。",
+     "内置 AI 助手，可自动生成或回复邮件。",
+     "专注 Linux，提供原生 UI 与本地同步。"
+    ],
+    "title": "Penguin Mail：基于 Rust 的开源 AI 邮件客户端",
+    "why": "结合 Rust 的安全性和 AI 助手，提升 Linux 用户的邮件工作流效率。"
+   }
+  },
+  "hash": "22b07a4e9eca386b"
+ },
+ "hn:49984923": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 在 GitHub 开源了 math 项目，收录多篇 AI 在数学领域的预印本与代码，实现模型对数学问题的自动求解与验证。",
+    "points": [
+     "提供完整代码和预印本，便于复现",
+     "展示大模型在数学推理上的最新能力",
+     "鼓励社区共享与合作，提升整体进展"
+    ],
+    "title": "OpenAI 发布数学进展共享项目",
+    "why": "推动 AI 在严谨学科的可复现研究，加速数学自动化工具的普及。"
+   }
+  },
+  "hash": "3ca2bd42fc703f24"
+ },
+ "hn:49987076": {
+  "copy": {
+   "zh": {
+    "blurb": "Strands Decider 2B 是 Strands Agents 发布的 20 亿参数开源决策模型，专注于快速、结构化的二分类与评分任务，可直接部署在本地或云端环境。",
+    "points": [
+     "约 2 B 参数，兼顾性能与体积",
+     "开源可自行微调，适配多种业务需求",
+     "专注快速结构化决策输出"
+    ],
+    "title": "Strands Decider 2B – 小型开源决策模型",
+    "why": "提供轻量级、可自定义的决策引擎，适合资源受限的应用场景。"
+   }
+  },
+  "hash": "ad924d916437e13d"
+ },
+ "hn:49995778": {
+  "copy": {
+   "zh": {
+    "blurb": "Pinrail 提供桌面收件箱，让编码代理生成的代码或建议在用户审核后再执行。",
+    "points": [
+     "集中展示待审查的代理输出。",
+     "支持手动批准或拒绝后才执行。",
+     "开源实现，可自行定制工作流。"
+    ],
+    "title": "Pinrail – 桌面收件箱，审查编码代理的输出",
+    "why": "为 AI 生成代码提供人工把关，提升安全性与质量。"
+   }
+  },
+  "hash": "07c670c7bc0f0ad6"
+ },
+ "hn:49995804": {
+  "copy": {
+   "zh": {
+    "blurb": "VoiceGremlin 通过 API 调用电话号码并执行测试用例，使用 LLM‑as‑judge 为 AI 电话代理提供通过/失败判定。",
+    "points": [
+     "API 自动拨打并执行指定测试场景。",
+     "LLM 判定结果，便于 CI/CD 集成。",
+     "提供免费试用，无需信用卡。"
+    ],
+    "title": "VoiceGremlin – 自动化 AI 电话代理测试平台",
+    "why": "填补语音机器人自动化测试空白，提升产品可靠性。"
+   }
+  },
+  "hash": "3a7fd8203ff529cc"
+ },
+ "hn:49995809": {
+  "copy": {
+   "zh": {
+    "blurb": "Terse 插件通过去除 Claude 的填充性语言，将回复长度削减约 50%，提升开发者阅读效率。",
+    "points": [
+     "自动剔除冗余句式、比喻及重复表述。",
+     "回复长度约减一半，节省 token。",
+     "兼容 Claude Code，安装使用简便。"
+    ],
+    "title": "Terse – Claude Code 插件，削减回复冗余",
+    "why": "降低 token 消耗并提高答案可读性，适合编码场景。"
+   }
+  },
+  "hash": "ea38847543303aa0"
+ },
+ "hn:49995929": {
+  "copy": {
+   "zh": {
+    "blurb": "Manifestack 为编码代理内部的依赖栈进行自动审计，检测潜在漏洞和许可证风险。",
+    "points": [
+     "自动扫描代码依赖树。",
+     "生成漏洞与许可证合规报告。",
+     "可直接嵌入代理工作流，实现持续审计。"
+    ],
+    "title": "Manifestack – 为编码代理提供开源堆栈审计",
+    "why": "提升供应链安全，防止代码依赖引入风险。"
+   }
+  },
+  "hash": "acd225fa4de35816"
+ },
+ "hn:49996425": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 宣布全新 GPT‑6 大模型并推出通用智能 UI，旨在让最前沿的 AI 能力惠及所有用户。",
+    "points": [
+     "GPT‑6 提供更大上下文、多模态能力和更高性能。",
+     "智能 UI 以即插即用方式嵌入任意应用。",
+     "OpenAI 明确面向大众用户，推动大规模采用。"
+    ],
+    "title": "GPT‑6 与面向所有人的智能 UI",
+    "why": "将下一代大模型普及化，加速 AI 在日常应用中的落地。"
+   }
+  },
+  "hash": "6e863a62737d7c1b"
  }
 }
