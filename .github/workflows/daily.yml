@@ -15,7 +15,7 @@ name: Daily
 on:
   schedule:
     # 每天更新2次：北京时间 09:00 和 20:00（对应 UTC 01:00 和 12:00）
-    - cron: '0 1,12 * * *'
+    - cron: '15 1,12 * * *'
   workflow_dispatch:
 
 # Two runs writing the same snapshot would race on the data branch; queue them instead.
