@@ -79,6 +79,21 @@
   },
   "hash": "f2fcc7b4eda3158a"
  },
+ "gh:bilawalsidhu/gods-eye-view": {
+  "copy": {
+   "zh": {
+    "blurb": "在浏览器中运行的间谍卫星模拟器，使用真实卫星影像在逼真的 3D 地球上展示开放空间情报。",
+    "points": [
+     "实时真实卫星影像数据",
+     "photorealistic 3D 球体可交互浏览",
+     "基于 JavaScript，零安装"
+    ],
+    "title": "God's Eye View：真实数据的卫星模拟器",
+    "why": "让公众免费获取高精度地理情报，促进空间数据创新。"
+   }
+  },
+  "hash": "5e1b718ee0350ad0"
+ },
  "gh:calesthio/openmontage": {
   "copy": {
    "zh": {
@@ -127,19 +142,44 @@
  "gh:coreyhaines31/marketingskills": {
   "copy": {
    "zh": {
-    "blurb": "涵盖转化率优化、文案写作、SEO、数据分析和增长工程，帮助 AI 代理提升营销效果。",
-    "title": "marketingskills：Claude Code 与 AI 代理的营销技能库",
-    "why": "提供可直接用于 AI 代理的营销技巧，提升自动化营销质量。"
+    "blurb": "收录 CRO、文案写作、SEO、分析与增长工程等实用技能，帮助 AI 代理在营销任务中表现更佳。",
+    "points": [
+     "覆盖转化率优化、文案、SEO 等核心营销技能",
+     "专为 Claude Code 与 AI 代理设计",
+     "JavaScript 实现，易于集成"
+    ],
+    "title": "MarketingSkills：为 Claude Code 与 AI 代理提供营销技巧",
+    "why": "让 AI 代理具备商业化能力，拓宽应用场景。"
    }
   },
   "hash": "47c626d1cf47b66f"
  },
+ "gh:cursortouch/windows-mcp": {
+  "copy": {
+   "zh": {
+    "blurb": "CursorTouch 开源的 Windows-MCP 项目提供 Windows 上的多客户端计算协议服务器，使用 Python，累计 8301 星，热度 55。",
+    "points": [
+     "Python 实现，易于扩展",
+     "作为 Windows 的多客户端协议服务器",
+     "获得 8.3k 星标，社区活跃"
+    ],
+    "title": "Windows-MCP 服务器",
+    "why": "提升 Windows 环境下的自动化与远程计算能力，受开发者关注。"
+   }
+  },
+  "hash": "048d4eaa67126563"
+ },
  "gh:debpalash/voicestudio": {
   "copy": {
    "zh": {
-    "blurb": "提供语音克隆、声音设计、视频配音、转录与有声书生成，支持 646 种语言，全部在本地运行，无需云服务。",
-    "title": "VoiceStudio：本地化开源 ElevenLabs 替代品",
-    "why": "本地化解决方案保护隐私并降低成本，适用于多语言音频应用。"
+    "blurb": "VoiceStudio 是开源、完全本地运行的语音克隆与设计平台，支持 646 种语言，可用于配音、转写、听写和有声书生成。",
+    "points": [
+     "支持 646 语言的语音克隆与合成",
+     "集成配音、转写、听写及有声书全流程",
+     "纯 Python 实现，完全本地运行"
+    ],
+    "title": "VoiceStudio：本地化的 ElevenLabs 替代方案",
+    "why": "提供离线高质量语音合成，降低云成本并保护隐私。"
    }
   },
   "hash": "3ac56c54009f8954"
@@ -177,9 +217,14 @@
  "gh:deusdata/codebase-memory-mcp": {
   "copy": {
    "zh": {
-    "blurb": "该 MCP 服务器对代码库进行持久化知识图谱索引，毫秒级完成仓库导入，覆盖 158 种语言，查询亚毫秒，令 token 用量降低 99%，单一静态二进制文件、零依赖。",
-    "title": "Codebase Memory MCP：高性能代码情报图谱服务器",
-    "why": "大幅加速代码检索与分析，降低资源消耗，适配大规模代码库。"
+    "blurb": "将代码库索引为持久知识图谱，支持 158 种语言，索引毫秒级、查询子毫秒，令 token 使用量降低 99%。单一静态二进制，无依赖。",
+    "points": [
+     "持久化知识图谱，支持 158 语言",
+     "毫秒级索引、子毫秒查询",
+     "单文件二进制，零运行时依赖"
+    ],
+    "title": "Codebase Memory MCP：高性能代码情报服务器",
+    "why": "显著提升 AI 代码助手检索效率，降低成本。"
    }
   },
   "hash": "9245cc163ad34b32"
@@ -213,6 +258,21 @@
    }
   },
   "hash": "5277a487afffa3a9"
+ },
+ "gh:docker/docker-agent": {
+  "copy": {
+   "zh": {
+    "blurb": "Docker Engineering 开源的 AI Agent Builder 与 Runtime，使用 Go 实现，累计 4208 星，排名第 3，热度 65.8。",
+    "points": [
+     "Go 实现，易于部署",
+     "支持构建与运行 AI 代理",
+     "官方团队维护，社区活跃"
+    ],
+    "title": "Docker AI Agent 构建与运行时",
+    "why": "提供容器化 AI 代理的标准化平台，便于部署与管理。"
+   }
+  },
+  "hash": "2ce6c90fb07ce463"
  },
  "gh:earthtojake/text-to-cad": {
   "copy": {
@@ -282,6 +342,21 @@
    }
   },
   "hash": "f2b076df939dfbd3"
+ },
+ "gh:herdrdev/herdr": {
+  "copy": {
+   "zh": {
+    "blurb": "用 Rust 编写的轻量运行时，专为 AI 编码代理设计，实现高效、可靠的任务执行环境。",
+    "points": [
+     "Rust 实现，安全高效",
+     "专为 AI 编码代理打造的运行时",
+     "支持快速部署与资源管理"
+    ],
+    "title": "herdr：为代码代理提供专属运行时",
+    "why": "提供统一平台提升代理性能与可移植性。"
+   }
+  },
+  "hash": "f40c4239d9018570"
  },
  "gh:heygen-com/hyperframes": {
   "copy": {
@@ -463,6 +538,21 @@
   },
   "hash": "6cae183d2b883657"
  },
+ "gh:openai/math": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 在 GitHub 上的数学项目，使用 Lean 形式化证明，累计 11860 星，热度 90，近期因撤回三篇数学成果受到讨论。",
+    "points": [
+     "使用 Lean 进行形式化数学证明",
+     "超 1.1 万星，社区活跃",
+     "因撤回三篇成果引发广泛讨论"
+    ],
+    "title": "OpenAI Math 仓库",
+    "why": "涉及数学可验证性与开源社区关注，影响 AI 生成证明的可信度。"
+   }
+  },
+  "hash": "b212e94006153007"
+ },
  "gh:p-e-w/heretic": {
   "copy": {
    "zh": {
@@ -511,9 +601,14 @@
  "gh:rohitg00/ai-engineering-from-scratch": {
   "copy": {
    "zh": {
-    "blurb": "提供从基础机器学习概念到完整 AI 系统构建、部署的全流程教程，帮助开发者独立完成项目并面向他人发布。",
-    "title": "AI Engineering From Scratch：学习、构建、发布全套指南",
-    "why": "全栈教学帮助新人快速进入 AI 开发并产出可用产品。"
+    "blurb": "该仓库提供从学习、构建到部署 AI 项目的全套教材，帮助开发者一步步实践并发布自己的 AI 产品。",
+    "points": [
+     "系统化的学习、构建、发布路线图",
+     "全 Python 示例，易于上手",
+     "社区活跃，持续更新"
+    ],
+    "title": "AI Engineering From Scratch：完整实战指南",
+    "why": "填补 AI 实践教程空缺，降低入门门槛。"
    }
   },
   "hash": "d08f60d6c34a248f"
@@ -627,6 +722,21 @@
   },
   "hash": "6330d6e1b5a7d49d"
  },
+ "gh:tinyhumansai/openhuman": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 Rust 的高效代理框架，提供极低成本、极高速度的 AI 代理调度与执行环境。",
+    "points": [
+     "Rust 高性能实现",
+     "成本与延迟均为业界最低",
+     "易于扩展多种 AI 代理"
+    ],
+    "title": "OpenHuman：最快、最省钱的开源代理平台",
+    "why": "降低大规模代理部署成本，加速研发迭代。"
+   }
+  },
+  "hash": "09a103f16e036f64"
+ },
  "gh:topoteretes/cognee": {
   "copy": {
    "zh": {
@@ -652,6 +762,16 @@
   },
   "hash": "ec1e4f8589762344"
  },
+ "gh:usememos/memos": {
+  "copy": {
+   "zh": {
+    "blurb": "个人时间线用于快速笔记，支持写短备忘录并通过搜索、标签或日期检索。完全开源，可自托管。",
+    "title": "usememos/memos：个人快速笔记时间线",
+    "why": "帮助用户高效管理碎片化信息，且支持自托管，保障数据隐私。"
+   }
+  },
+  "hash": "043895fbd54f596c"
+ },
  "gh:victortaelin/optmem": {
   "copy": {
    "zh": {
@@ -666,6 +786,21 @@
    }
   },
   "hash": "6eb008ed678433f8"
+ },
+ "gh:vincentwei1021/video-shotcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "Vincentwei1021 开源的 video-shotcraft 为 Claude Code & Codex 提供 AI 视频技能，支持 152 条镜头配方卡、209 条运动预览及可直接使用的 Remotion 模板，累计 10863 星。",
+    "points": [
+     "提供 152 条镜头配方卡",
+     "209 条运动预览",
+     "Remotion 模板可直接生产视频"
+    ],
+    "title": "Video Shotcraft – AI 视频制作",
+    "why": "降低高质量产品视频制作门槛，促进 AI 在创意媒体中的应用。"
+   }
+  },
+  "hash": "2757d9e31a7e1ed1"
  },
  "gh:xerj-org/xerj": {
   "copy": {
@@ -1263,5 +1398,93 @@
    }
   },
   "hash": "1fac507c4f32aebb"
+ },
+ "hn:50000676": {
+  "copy": {
+   "zh": {
+    "blurb": "pingdotgg 的项目将 TypeScript 编译器、检查器和 LSP 移植至 Rust，采用 LLM 辅助生成代码，热度 53.6。",
+    "points": [
+     "用 Rust 重写核心 TS 组件",
+     "通过 LLM 自动生成移植代码",
+     "旨在提升编译速度与安全性"
+    ],
+    "title": "TypeScript 编译器移植到 Rust",
+    "why": "利用 Rust 的安全与性能优势提升 TypeScript 工具链。"
+   }
+  },
+  "hash": "b8d2339774fa54c9"
+ },
+ "hn:50002650": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 在其 math 仓库的 history.md 中记录撤回三篇数学结果，引发 Hacker News 热议。",
+    "points": [
+     "在 math 仓库撤回三篇成果",
+     "引发社区对 AI 生成数学证明的审查"
+    ],
+    "title": "OpenAI 撤回三项数学成果",
+    "why": "影响学术可信度与开源透明度，促使社区审视 AI 生成的数学证明。"
+   }
+  },
+  "hash": "5693059683e5adb2"
+ },
+ "hn:50003107": {
+  "copy": {
+   "zh": {
+    "blurb": "Hacker News 报道 OpenAI 在 GitHub 上的 math 项目撤回三篇论文，关联仓库 openai/math。",
+    "points": [
+     "在 GitHub 上公开撤回记录",
+     "强调数学结果的可验证性"
+    ],
+    "title": "OpenAI Withdraws 3 Math Papers",
+    "why": "凸显 AI 研究成果的可复现性问题，推动更严格的验证流程。"
+   }
+  },
+  "hash": "8ada6f34efa9b81f"
+ },
+ "hn:50004683": {
+  "copy": {
+   "zh": {
+    "blurb": "记录并重用代码变更工作流，代理可直接获取上次会话的编辑位置与检查步骤，省去重新读取代码的成本。",
+    "title": "Singularity：让编码代理在重复工作中更省钱的记忆系统",
+    "why": "显著降低 AI 代理的 token 消耗与重复计算开销。"
+   }
+  },
+  "hash": "589b297f6df8bfa3"
+ },
+ "hn:50005089": {
+  "copy": {
+   "zh": {
+    "blurb": "一套可模块化定制的媒体平台，支持灵活扩展与集成多种媒体功能。",
+    "title": "Kahawai：开源模块化媒体系统",
+    "why": "提供可定制的媒体解决方案，适配多场景需求。"
+   }
+  },
+  "hash": "1c2faa2eada9f744"
+ },
+ "hn:50005095": {
+  "copy": {
+   "zh": {
+    "blurb": "原生 macOS 客户端，支持可视化管理 SQLite 等数据库，提供流畅的用户体验。",
+    "title": "BerryDB：用 Swift 与 AppKit 编写的 macOS 开源数据库客户端",
+    "why": "填补 macOS 本地数据库管理工具的空白。"
+   }
+  },
+  "hash": "16dc95c944571fb7"
+ },
+ "hn:50006114": {
+  "copy": {
+   "zh": {
+    "blurb": "Show HN 项目将 AI 代理部署到老式手机 Nokia 110，展示在极端受限硬件上运行 AI 的可行性。",
+    "points": [
+     "适配极低硬件资源",
+     "通过简化模型实现 AI 功能",
+     "展示边缘 AI 创新案例"
+    ],
+    "title": "在 Nokia 110 上运行 AI 代理",
+    "why": "验证边缘 AI 在极低资源设备上的潜力，激发创新思路。"
+   }
+  },
+  "hash": "fb78205ce8f44e9e"
  }
 }
