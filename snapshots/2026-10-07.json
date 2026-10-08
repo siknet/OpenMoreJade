@@ -3978,21 +3978,21 @@
    "category": "discussion",
    "key": "hn:49980487",
    "metrics": {
-    "comments": 45,
+    "comments": 46,
     "frontPage": 0,
-    "points": 410
+    "points": 420
    },
    "news": {
     "author": "ilreb",
-    "comments": 45,
+    "comments": 46,
     "createdAt": "2026-10-06T16:03:49.000Z",
     "domain": "blog.google",
     "hnId": 49980487,
     "hnUrl": "https://news.ycombinator.com/item?id=49980487",
-    "points": 410,
-    "showRank": 10
+    "points": 420,
+    "showRank": 13
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T16:03:49.000Z",
    "refs": [
     "url:blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2"
@@ -4018,21 +4018,21 @@
    "category": "discussion",
    "key": "hn:49980715",
    "metrics": {
-    "comments": 384,
+    "comments": 395,
     "frontPage": 0,
-    "points": 332
+    "points": 339
    },
    "news": {
     "author": "fsbonetto",
-    "comments": 384,
+    "comments": 395,
     "createdAt": "2026-10-06T16:23:25.000Z",
     "domain": "github.com",
     "hnId": 49980715,
     "hnUrl": "https://news.ycombinator.com/item?id=49980715",
-    "points": 332,
-    "showRank": 18
+    "points": 339,
+    "showRank": 20
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T16:23:25.000Z",
    "refs": [
     "gh:fesens/opentpu"
@@ -4058,21 +4058,21 @@
    "category": "product",
    "key": "hn:49981905",
    "metrics": {
-    "comments": 149,
+    "comments": 152,
     "frontPage": 0,
-    "points": 260
+    "points": 265
    },
    "news": {
     "author": "zed_labs_dev",
-    "comments": 149,
+    "comments": 152,
     "createdAt": "2026-10-06T18:00:34.000Z",
     "domain": "zohaib.cc",
     "hnId": 49981905,
     "hnUrl": "https://news.ycombinator.com/item?id=49981905",
-    "points": 260,
+    "points": 265,
     "showRank": 28
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T18:00:34.000Z",
    "refs": [
     "url:zohaib.cc/blog/smartest-claude-code-feature"
@@ -4098,21 +4098,21 @@
    "category": "product",
    "key": "hn:49984025",
    "metrics": {
-    "comments": 220,
+    "comments": 223,
     "frontPage": 0,
-    "points": 376
+    "points": 386
    },
    "news": {
     "author": "chiefstorm",
-    "comments": 220,
+    "comments": 223,
     "createdAt": "2026-10-06T20:57:25.000Z",
     "domain": "developers.openai.com",
     "hnId": 49984025,
     "hnUrl": "https://news.ycombinator.com/item?id=49984025",
-    "points": 376,
-    "showRank": 13
+    "points": 386,
+    "showRank": 16
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T20:57:25.000Z",
    "refs": [
     "url:developers.openai.com/api/docs/guides/decisions"
@@ -4137,21 +4137,21 @@
    "category": "discussion",
    "key": "hn:49984716",
    "metrics": {
-    "comments": 166,
+    "comments": 179,
     "frontPage": 0,
-    "points": 229
+    "points": 233
    },
    "news": {
     "author": "kavourias",
-    "comments": 166,
+    "comments": 179,
     "createdAt": "2026-10-06T21:59:43.000Z",
     "domain": "penguin-mail.com",
     "hnId": 49984716,
     "hnUrl": "https://news.ycombinator.com/item?id=49984716",
-    "points": 229,
-    "showRank": 32
+    "points": 233,
+    "showRank": 31
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T21:59:43.000Z",
    "refs": [
     "url:penguin-mail.com"
@@ -4177,21 +4177,21 @@
    "category": "discussion",
    "key": "hn:49984923",
    "metrics": {
-    "comments": 1316,
+    "comments": 1442,
     "frontPage": 0,
-    "points": 1171
+    "points": 1273
    },
    "news": {
     "author": "OfficialTurkey",
-    "comments": 1316,
+    "comments": 1442,
     "createdAt": "2026-10-06T22:17:21.000Z",
     "domain": "openai.com",
     "hnId": 49984923,
     "hnUrl": "https://news.ycombinator.com/item?id=49984923",
-    "points": 1171,
-    "showRank": 1
+    "points": 1273,
+    "showRank": 2
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-06T22:17:21.000Z",
    "refs": [
     "gh:openai/math",
@@ -4218,21 +4218,21 @@
    "category": "discussion",
    "key": "hn:49987076",
    "metrics": {
-    "comments": 77,
+    "comments": 78,
     "frontPage": 0,
-    "points": 271
+    "points": 277
    },
    "news": {
     "author": "gmays",
-    "comments": 77,
+    "comments": 78,
     "createdAt": "2026-10-07T02:02:11.000Z",
     "domain": "strandsagents.com",
     "hnId": 49987076,
     "hnUrl": "https://news.ycombinator.com/item?id=49987076",
-    "points": 271,
+    "points": 277,
     "showRank": 26
    },
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "publishedAt": "2026-10-07T02:02:11.000Z",
    "refs": [
     "url:strandsagents.com/blog/introducing-strands-decider"
@@ -4252,47 +4252,94 @@
    "tags": [],
    "title": "Strands Decider 2B: a small, open-source, decision model",
    "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+  },
+  {
+   "board": "news",
+   "category": "tool",
+   "key": "hn:49987765",
+   "metrics": {
+    "comments": 20,
+    "frontPage": 0,
+    "points": 57
+   },
+   "news": {
+    "author": "ilreb",
+    "comments": 20,
+    "createdAt": "2026-10-07T03:30:44.000Z",
+    "domain": "github.com",
+    "hnId": 49987765,
+    "hnUrl": "https://news.ycombinator.com/item?id=49987765",
+    "points": 57,
+    "showRank": 9
+   },
+   "observedAt": "2026-10-08T07:22:43.107Z",
+   "publishedAt": "2026-10-07T03:30:44.000Z",
+   "refs": [
+    "gh:nano-muse/nanomuse"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:ai agent",
+     "kw:open source",
+     "weak:ai",
+     "weak:agent",
+     "cat:show hn"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+   "url": "https://github.com/nano-muse/nanoMuse"
   }
  ],
  "date": "2026-10-07",
- "fetchedAt": "2026-10-07T18:56:50.962Z",
+ "fetchedAt": "2026-10-08T07:22:43.107Z",
  "runs": [
-  "2026-10-07T18:56:50.962Z"
+  "2026-10-07T18:56:50.962Z",
+  "2026-10-08T07:22:43.107Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "repos",
-   "count": 314,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "count": 316,
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "github-search",
+   "settledAt": "2026-10-08T07:22:43.107Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 177,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "count": 179,
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "github-trending",
+   "settledAt": "2026-10-08T07:22:43.107Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 74,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "count": 73,
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-08T07:22:43.107Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-08T07:22:43.107Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -4300,15 +4347,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-07T18:56:50.962Z",
+   "fetchedAt": "2026-10-08T07:22:43.107Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-08T07:22:43.107Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-06T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-07T16:00:00.000Z"
  }

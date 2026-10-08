@@ -9,6 +9,21 @@
   },
   "hash": "9f0ca6132b06fc31"
  },
+ "gh:addyosmani/agent-skills": {
+  "copy": {
+   "zh": {
+    "blurb": "提供一套面向 AI 编码代理的工程技能，实现更可靠的代码生成与操作。",
+    "points": [
+     "涵盖常用工程任务的实现",
+     "兼容主流代码生成模型",
+     "开源可扩展，适用于生产环境"
+    ],
+    "title": "agent-skills：AI 编码代理的生产级技能库",
+    "why": "提升 AI 代理在实际开发中的可靠性和可用性。"
+   }
+  },
+  "hash": "a00abf5cef0d31cd"
+ },
  "gh:affaan-m/ecc": {
   "copy": {
    "zh": {
@@ -37,9 +52,14 @@
  "gh:alibaba/open-code-review": {
   "copy": {
    "zh": {
-    "blurb": "安全、快速、经阿里巴巴规模实战的代码审查系统，采用确定性流水线 + LLM Agent，实现精准行级评论，内置多语言规则（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
-    "title": "Open Code Review：阿里巴巴级别的混合架构代码审查工具",
-    "why": "在大规模企业环境提供可靠自动化审查，显著提升代码质量与安全性。"
+    "blurb": "安全、快速、高效的代码审查平台，已在阿里巴巴大规模实战。采用混合架构，结合确定性流水线与 LLM Agent，实现精准行级评注，并内置多语言规则集（空指针、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
+    "points": [
+     "混合架构：确定性流水线 + LLM Agent，兼顾可靠性与智能评审。",
+     "行级 AI 评论，支持多语言安全规则（NPE、线程安全、XSS、SQL 注入）。",
+     "兼容 OpenAI 与 Anthropic，易于接入主流大模型。"
+    ],
+    "title": "alibaba/open-code-review 代码审查工具",
+    "why": "企业级代码审查需求日增，AI 辅助可提升安全与效率，此工具提供可扩展、可靠的审查方案。"
    }
   },
   "hash": "bcca43d64ff8c145"
@@ -142,9 +162,14 @@
  "gh:deepseek-ai/deepseek-harness": {
   "copy": {
    "zh": {
-    "blurb": "把所有功能做成插件，实现可扩展的 AI 能力集合，基于 TypeScript。",
-    "title": "deepseek-ai/deepseek-harness：插件化 AI 框架",
-    "why": "降低集成新模型或工具的门槛，加速 AI 应用开发。"
+    "blurb": "一个 TypeScript 框架，将各种功能包装为插件，便于在 DeepSeek 生态系统中统一调用。",
+    "points": [
+     "所有功能抽象为插件化接口",
+     "与 DeepSeek 大模型无缝对接",
+     "使用 TypeScript 实现，易于扩展和维护"
+    ],
+    "title": "DeepSeek Harness：万物皆插件",
+    "why": "统一插件化接口，降低集成成本。"
    }
   },
   "hash": "ad77105b8682ff7a"
@@ -332,6 +357,21 @@
    }
   },
   "hash": "daa4fc853d2a9c45"
+ },
+ "gh:manaflow-ai/cmux": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 Ghostty 的 macOS 终端，提供垂直标签、通知等功能，专为 AI 编码代理的多任务和可编程需求设计。",
+    "points": [
+     "垂直标签便于多任务管理",
+     "集成通知与可编程接口",
+     "使用 Swift 开源实现，专配 macOS"
+    ],
+    "title": "cmux：支持 AI 编码代理的多标签终端",
+    "why": "帮助开发者在终端层面组织 AI 代理工作流，提高生产力。"
+   }
+  },
+  "hash": "0c1e1f8edbb70783"
  },
  "gh:mattpocock/skills": {
   "copy": {
@@ -597,6 +637,21 @@
   },
   "hash": "0b2a6cddb5b2b16b"
  },
+ "gh:tt-a1i/archify": {
+  "copy": {
+   "zh": {
+    "blurb": "把任意想法、计划或代码库生成美观的交互式图表，作为 Claude Code、Codex 等模型的代理技能。",
+    "points": [
+     "多模型代理技能（Claude Code、Codex）",
+     "自动生成交互式可视化图表",
+     "基于 JavaScript，易于集成和定制"
+    ],
+    "title": "archify：将想法、计划或代码库转为交互式图示",
+    "why": "帮助开发者快速可视化复杂结构，提升沟通效率。"
+   }
+  },
+  "hash": "ec1e4f8589762344"
+ },
  "gh:victortaelin/optmem": {
   "copy": {
    "zh": {
@@ -615,9 +670,14 @@
  "gh:xerj-org/xerj": {
   "copy": {
    "zh": {
-    "blurb": "XERJ 通过自动索引代码、文档、日志和 PDF，实现数据搜索、RAG 与安全审计，使用比 grep 少 40 倍 token，兼容 Elasticsearch 接口。",
-    "title": "XERJ：高效 AI 数据搜索引擎",
-    "why": "大幅降低 token 成本并提供即插即用的搜索能力，提升 RAG 效率。"
+    "blurb": "一键自动索引代码、文档、日志和 PDF，实现搜索、RAG、审计和代理记忆，使用的 token 比 grep 少 40 倍，兼容 Elasticsearch。",
+    "points": [
+     "单命令索引多种文件类型",
+     "Token 消耗比 grep 低 40 倍",
+     "兼容 Elasticsearch，客户端直接可用"
+    ],
+    "title": "XERJ：面向 AI 的高效数据搜索工具",
+    "why": "显著降低 token 成本，提升 AI 检索与记忆效率。"
    }
   },
   "hash": "4f6629a89b930509"
@@ -758,6 +818,20 @@
    }
   },
   "hash": "3d539cc4dde1d930"
+ },
+ "hf:jialinyyzz/humanizer": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hugging Face 上发布的 text‑generation 类模型，旨在生成更自然的人类风格文本。",
+    "points": [
+     "专注生成更自然的语言风格",
+     "可直接在 Hugging Face 使用并微调"
+    ],
+    "title": "humanizer：文本生成模型",
+    "why": "提供开源人性化文本生成，便于实验和微调。"
+   }
+  },
+  "hash": "cb5acd82ef0377eb"
  },
  "hf:lightricks/ltx-2.5": {
   "copy": {
@@ -1056,6 +1130,36 @@
   },
   "hash": "ad924d916437e13d"
  },
+ "hn:49987765": {
+  "copy": {
+   "zh": {
+    "blurb": "开源 AI 代理，兼容手机和电脑，可自行部署并与主流大模型集成，实现对话与自动化任务。",
+    "points": [
+     "支持手机和电脑双平台运行",
+     "完全开源，可自定义扩展",
+     "可接入 Claude、GPT 等大模型，实现对话和自动化"
+    ],
+    "title": "NanoMuse：适用于手机和电脑的开源 AI 代理",
+    "why": "提供跨设备的个人 AI 助手，降低使用门槛。"
+   }
+  },
+  "hash": "bbc28bab978da831"
+ },
+ "hn:49995539": {
+  "copy": {
+   "zh": {
+    "blurb": "一个让 AI 代理阅读并撰写工具评论的站点，填补代理与软件供应商之间缺失的反馈回路。",
+    "points": [
+     "聚合代理使用经验并生成评价",
+     "帮助开发者发现改进方向",
+     "类似 G2、Trustpilot 的代理版反馈平台"
+    ],
+    "title": "Agent.reviews：AI 代理的工具评价平台",
+    "why": "促进 AI 代理对工具的评估与改进，提升自动化效率。"
+   }
+  },
+  "hash": "266217ce75f82014"
+ },
  "hn:49995778": {
   "copy": {
    "zh": {
@@ -1130,5 +1234,34 @@
    }
   },
   "hash": "6e863a62737d7c1b"
+ },
+ "hn:49996437": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 推出的最新小型模型，专为高并发、成本敏感任务设计，支持摘要、查询、分类等，并可与 Opus 5.5、Sonnet 5.5 组合使用，适合实时客服和浏览器交互。",
+    "points": [
+     "价格比 Haiku 4.5 更低",
+     "速度最快，适用于实时交互",
+     "可与 Opus、Sonnet 组合，提升编码任务效率"
+    ],
+    "title": "Claude Haiku 5.5：最快、最廉价的小模型",
+    "why": "在保持能力的同时大幅降低成本，适合大规模部署。"
+   }
+  },
+  "hash": "68afa0663ddab94e"
+ },
+ "hn:49997161": {
+  "copy": {
+   "zh": {
+    "blurb": "两大公司采取措施限制员工对 Anthropic Claude 模型的使用，以控制成本或安全风险。",
+    "points": [
+     "关注成本控制和安全合规",
+     "对员工使用 Claude 设限，防止滥用"
+    ],
+    "title": "Meta 与 Microsoft 限制员工使用 Claude AI",
+    "why": "企业对高成本或安全敏感的生成式 AI 实施治理，影响行业使用趋势。"
+   }
+  },
+  "hash": "1fac507c4f32aebb"
  }
 }

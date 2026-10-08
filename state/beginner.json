@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -37,7 +37,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:diegosouzapw/omniroute": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:diegosouzapw/omniroute",
@@ -49,7 +49,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-07T18:56:49.000Z",
+    "sourceUpdatedAt": "2026-10-08T07:06:15.000Z",
     "summary": {
      "en": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
      "zh": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…"
@@ -78,7 +78,7 @@
    "sourceKey": "gh:diegosouzapw/omniroute"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -234,8 +234,42 @@
    },
    "sourceKey": "gh:madslorentzen/ai-job-search"
   },
+  "discovery:gh:manaflow-ai/cmux": {
+   "observedAt": "2026-10-08T07:22:43.107Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:manaflow-ai/cmux",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-08T07:22:43.107Z",
+    "summary": {
+     "en": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+     "zh": "基于 Ghostty 的 macOS 终端，提供垂直标签、通知等功能，专为 AI 编码代理的多任务和可编程需求设计。"
+    },
+    "title": {
+     "en": "manaflow-ai/cmux",
+     "zh": "cmux：支持 AI 编码代理的多标签终端"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/manaflow-ai/cmux",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。帮助开发者在终端层面组织 AI 代理工作流，提高生产力。"
+    }
+   },
+   "sourceKey": "gh:manaflow-ai/cmux"
+  },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -274,6 +308,47 @@
     }
    },
    "sourceKey": "gh:panniantong/agent-reach"
+  },
+  "discovery:gh:stablyai/orca": {
+   "observedAt": "2026-10-08T07:22:43.107Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:stablyai/orca",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-07T18:56:55.000Z",
+    "summary": {
+     "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+     "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
+    },
+    "title": {
+     "en": "stablyai/orca",
+     "zh": "Orca – 并行代理 fleet 的 ADE 平台"
+    },
+    "topics": [
+     "ade",
+     "agent-ide",
+     "ai-agents",
+     "claude-code",
+     "cli",
+     "codex",
+     "cursor-agent",
+     "devtools"
+    ],
+    "type": "repo",
+    "url": "https://github.com/stablyai/orca",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
+    }
+   },
+   "sourceKey": "gh:stablyai/orca"
   },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
    "observedAt": "2026-10-07T18:56:50.962Z",
@@ -316,7 +391,7 @@
    "sourceKey": "gh:zhulinsen/daily_stock_analysis"
   },
   "discovery:hn:49995804": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-08T07:22:43.107Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:49995804",
@@ -3649,6 +3724,7 @@
   "https://github.com/librechat-ai/librechat": "2026-10-07T18:56:50.962Z",
   "https://github.com/m-bain/whisperx": "2026-10-06T09:37:13.355Z",
   "https://github.com/madslorentzen/ai-job-search": "2026-10-07T18:56:50.962Z",
+  "https://github.com/manaflow-ai/cmux": "2026-10-08T07:22:43.107Z",
   "https://github.com/modelcontextprotocol/inspector": "2026-10-06T09:37:13.355Z",
   "https://github.com/open-webui/open-webui": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/codex": "2026-10-06T09:37:13.355Z",
