@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-09T07:22:50.064Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -36,7 +36,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:diegosouzapw/omniroute": {
-   "observedAt": "2026-10-09T07:22:50.064Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:diegosouzapw/omniroute",
@@ -48,7 +48,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-08T22:36:01.000Z",
+    "sourceUpdatedAt": "2026-10-09T17:44:08.000Z",
     "summary": {
      "en": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
      "zh": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…"
@@ -76,8 +76,42 @@
    },
    "sourceKey": "gh:diegosouzapw/omniroute"
   },
+  "discovery:gh:farion1231/cc-switch": {
+   "observedAt": "2026-10-09T18:21:05.907Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:farion1231/cc-switch",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-09T18:21:05.907Z",
+    "summary": {
+     "en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+     "zh": "CC‑Switch 是一款跨平台桌面应用，统一接入 Claude Code、Codex、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等多种 LLM 助手，官方站点 ccswitch.io。"
+    },
+    "title": {
+     "en": "farion1231/cc-switch",
+     "zh": "CC‑Switch：跨平台多模型桌面助手"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/farion1231/cc-switch",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为开发者提供“一站式”切换多种 AI 编码助手的体验，提升工作流效率。"
+    }
+   },
+   "sourceKey": "gh:farion1231/cc-switch"
+  },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-09T07:22:50.064Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -92,11 +126,11 @@
     "sourceUpdatedAt": "2026-10-09T02:11:46.000Z",
     "summary": {
      "en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-     "zh": "支持将代码、文档、SQL、配置、PDF 等转为结构化图谱，提供本地确定性 AST 解析，无需向量库。"
+     "zh": "Graphify 项目将任意代码库连同文档、SQL 模式、配置和 PDF 转化为结构化知识图谱，提供本地确定性 AST 解析，无需向量库，支持多种 LLM。"
     },
     "title": {
      "en": "Graphify-Labs/graphify",
-     "zh": "graphify：将代码库转化为可查询知识图谱"
+     "zh": "Graphify：将代码库转为可查询知识图谱"
     },
     "topics": [
      "ai-agents",
@@ -112,7 +146,7 @@
     "url": "https://github.com/Graphify-Labs/graphify",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。帮助开发者快速检索跨文件信息，提升代码理解效率。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。实现对大型代码基的精准、可解释查询，提升开发者调试与文档检索效率。"
     }
    },
    "sourceKey": "gh:graphify-labs/graphify"
@@ -157,6 +191,40 @@
     }
    },
    "sourceKey": "gh:headroomlabs-ai/headroom"
+  },
+  "discovery:gh:infiniflow/ragflow": {
+   "observedAt": "2026-10-09T18:21:05.907Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:infiniflow/ragflow",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+    "summary": {
+     "en": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+     "zh": "RAGFlow 是领先的开源检索增强生成（RAG）引擎，融合最新 RAG 技术与 Agent 能力，为大模型提供高效的上下文层。"
+    },
+    "title": {
+     "en": "infiniflow/ragflow",
+     "zh": "RAGFlow：融合 RAG 与 Agent 的开源上下文层"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/infiniflow/ragflow",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过结合检索与代理，实现更精准的 LLM 推理与知识调用。"
+    }
+   },
+   "sourceKey": "gh:infiniflow/ragflow"
   },
   "discovery:gh:librechat-ai/librechat": {
    "observedAt": "2026-10-08T18:50:34.015Z",
@@ -268,7 +336,7 @@
    "sourceKey": "gh:manaflow-ai/cmux"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-09T07:22:50.064Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -309,7 +377,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-09T07:22:50.064Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -321,7 +389,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-09T07:22:22.000Z",
+    "sourceUpdatedAt": "2026-10-09T18:19:11.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -349,8 +417,42 @@
    },
    "sourceKey": "gh:stablyai/orca"
   },
+  "discovery:gh:unslothai/unsloth": {
+   "observedAt": "2026-10-09T18:21:05.907Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:unslothai/unsloth",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-09T18:21:05.907Z",
+    "summary": {
+     "en": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+     "zh": "Unsloth 提供本地 UI，用于运行和训练大型语言模型及扩散模型，支持 GGUF、MLX、Qwen3.8、DeepSeek‑V4、MiniMax‑H3、Gemma 4、FLUX 等多种模型。"
+    },
+    "title": {
+     "en": "unslothai/unsloth",
+     "zh": "Unsloth：本地 UI 运行与训练 LLM 与扩散模型"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/unslothai/unsloth",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。让用户在本地即可使用最新模型，降低硬件门槛并加速实验。"
+    }
+   },
+   "sourceKey": "gh:unslothai/unsloth"
+  },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-09T18:21:05.907Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:zhulinsen/daily_stock_analysis",
@@ -365,11 +467,11 @@
     "sourceUpdatedAt": "2026-10-05T07:52:27.000Z",
     "summary": {
      "en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-     "zh": "结合多源行情、实时新闻、决策看板与自动推送，实现零成本定时运行的股票分析平台。"
+     "zh": "该项目实现基于 LLM 的股票分析平台，聚合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
     },
     "title": {
      "en": "ZhuLinsen/daily_stock_analysis",
-     "zh": "LLM 驱动的多市场股票智能分析系统"
+     "zh": "LLM 驱动的多市场股票分析系统"
     },
     "topics": [
      "a-stock",
@@ -384,7 +486,7 @@
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过 LLM 自动化信息融合与决策，提升投资者分析效率。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。结合语言模型的分析能力与实时数据，为投资者提供低成本、自动化的多市场情报。"
     }
    },
    "sourceKey": "gh:zhulinsen/daily_stock_analysis"
@@ -428,7 +530,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -466,7 +569,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -503,7 +607,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -541,7 +646,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -578,7 +684,8 @@
    "days": {
     "2026-10-06": 95,
     "2026-10-08": 95,
-    "2026-10-09": 95
+    "2026-10-09": 95,
+    "2026-10-10": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -615,7 +722,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -652,7 +760,8 @@
    "days": {
     "2026-10-06": 95,
     "2026-10-08": 95,
-    "2026-10-09": 95
+    "2026-10-09": 95,
+    "2026-10-10": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -689,7 +798,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -726,7 +836,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -763,7 +874,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -800,7 +912,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -837,7 +950,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -875,7 +989,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -912,7 +1027,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -949,7 +1065,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -986,7 +1103,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -1023,7 +1141,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -1060,7 +1179,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -1097,7 +1217,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -1134,7 +1255,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -1171,7 +1293,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -1208,7 +1331,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -1245,7 +1369,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -1282,7 +1407,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -1319,7 +1445,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -1356,7 +1483,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -1393,7 +1521,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -1430,7 +1559,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -1463,11 +1593,47 @@
     }
    }
   },
+  "https://github.com/farion1231/cc-switch": {
+   "days": {
+    "2026-10-10": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:farion1231/cc-switch",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-09T18:21:05.907Z",
+    "summary": {
+     "en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+     "zh": "CC‑Switch 是一款跨平台桌面应用，统一接入 Claude Code、Codex、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等多种 LLM 助手，官方站点 ccswitch.io。"
+    },
+    "title": {
+     "en": "farion1231/cc-switch",
+     "zh": "CC‑Switch：跨平台多模型桌面助手"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/farion1231/cc-switch",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为开发者提供“一站式”切换多种 AI 编码助手的体验，提升工作流效率。"
+    }
+   }
+  },
   "https://github.com/features/copilot": {
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -1504,7 +1670,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -1541,7 +1708,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -1578,7 +1746,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -1615,7 +1784,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -1652,7 +1822,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -1689,7 +1860,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -1763,7 +1935,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -1800,7 +1973,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -1837,7 +2011,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -1874,7 +2049,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -1911,7 +2087,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -1948,7 +2125,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -1985,7 +2163,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -2022,7 +2201,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -2059,7 +2239,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -2096,7 +2277,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -2133,7 +2315,8 @@
    "days": {
     "2026-10-06": 80,
     "2026-10-08": 80,
-    "2026-10-09": 80
+    "2026-10-09": 80,
+    "2026-10-10": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -2170,7 +2353,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -2208,7 +2392,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -2245,7 +2430,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -2282,7 +2468,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -2319,7 +2506,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -2356,7 +2544,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -2395,7 +2584,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -2433,7 +2623,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -2470,7 +2661,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -2507,7 +2699,8 @@
    "days": {
     "2026-10-06": 95,
     "2026-10-08": 95,
-    "2026-10-09": 95
+    "2026-10-09": 95,
+    "2026-10-10": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -2544,7 +2737,8 @@
    "days": {
     "2026-10-06": 95,
     "2026-10-08": 95,
-    "2026-10-09": 95
+    "2026-10-09": 95,
+    "2026-10-10": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -2581,7 +2775,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -2619,7 +2814,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -2656,7 +2852,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -2693,7 +2890,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -2730,7 +2928,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -2767,7 +2966,8 @@
    "days": {
     "2026-10-06": 90,
     "2026-10-08": 90,
-    "2026-10-09": 90
+    "2026-10-09": 90,
+    "2026-10-10": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -2804,7 +3004,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -2842,7 +3043,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -2879,7 +3081,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -2917,7 +3120,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -2954,7 +3158,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -2991,7 +3196,8 @@
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
-    "2026-10-09": 85
+    "2026-10-09": 85,
+    "2026-10-10": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -3321,6 +3527,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/farion1231/cc-switch": {
+   "active": true,
+   "currentEnteredAt": "2026-10-09T18:21:05.907Z",
+   "firstEnteredAt": "2026-10-09T18:21:05.907Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/features/copilot": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -3378,7 +3591,7 @@
    "returns": 0
   },
   "https://github.com/infiniflow/ragflow": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
    "firstEnteredAt": "2026-10-06T09:37:13.355Z",
    "initial": true,
@@ -3773,6 +3986,7 @@
   "https://github.com/deepbeepmeep/wan2gp": "2026-10-06T09:37:13.355Z",
   "https://github.com/diegosouzapw/omniroute": "2026-10-07T18:56:50.962Z",
   "https://github.com/docling-project/docling": "2026-10-06T09:37:13.355Z",
+  "https://github.com/farion1231/cc-switch": "2026-10-09T18:21:05.907Z",
   "https://github.com/features/copilot": "2026-10-06T09:37:13.355Z",
   "https://github.com/flowiseai/flowise": "2026-10-06T09:37:13.355Z",
   "https://github.com/ggml-org/llama.cpp": "2026-10-06T09:37:13.355Z",
@@ -3803,6 +4017,7 @@
   "https://github.com/stablyai/orca": "2026-10-07T18:56:50.962Z",
   "https://github.com/subtitleedit/subtitleedit": "2026-10-06T09:37:13.355Z",
   "https://github.com/unclecode/crawl4ai": "2026-10-06T09:37:13.355Z",
+  "https://github.com/unslothai/unsloth": "2026-10-09T18:21:05.907Z",
   "https://github.com/zhulinsen/daily_stock_analysis": "2026-10-07T18:56:50.962Z",
   "https://gradio.app/guides/quickstart": "2026-10-06T09:37:13.355Z",
   "https://hailuoai.com/": "2026-10-06T09:37:13.355Z",

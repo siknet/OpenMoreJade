@@ -79,6 +79,21 @@
   },
   "hash": "f2fcc7b4eda3158a"
  },
+ "gh:asgeirtj/system_prompts_leaks": {
+  "copy": {
+   "zh": {
+    "blurb": "收录 Anthropic、OpenAI、Google、xAI 等模型的系统提示，涵盖 Claude、ChatGPT、Gemini、Grok 等，定期更新，为提示工程提供参考。",
+    "points": [
+     "覆盖多家主流大模型的系统提示",
+     "按模型版本详细分类",
+     "持续更新保持最新信息"
+    ],
+    "title": "系统提示泄漏合集",
+    "why": "帮助开发者了解不同模型的系统指令，提升 Prompt 设计效率与效果。"
+   }
+  },
+  "hash": "02e7bdb1145aa673"
+ },
  "gh:bilawalsidhu/gods-eye-view": {
   "copy": {
    "zh": {
@@ -93,6 +108,21 @@
    }
   },
   "hash": "5e1b718ee0350ad0"
+ },
+ "gh:bojieli/ai-agent-book": {
+  "copy": {
+   "zh": {
+    "blurb": "《深入理解 AI Agent：设计原理与工程实践》全文、PDF 编译版及配套代码在 GitHub 开源，作者李博杰提供完整章节资源。",
+    "points": [
+     "提供全书正文与 PDF 下载",
+     "配套代码按章节组织可直接运行",
+     "开源促进教学与实践的闭环"
+    ],
+    "title": "AI Agent 书籍开源仓库",
+    "why": "为学习和实现 AI Agent 的研究者提供权威教材与可运行示例，促进社区共建。"
+   }
+  },
+  "hash": "ac91bb8ddbb3f458"
  },
  "gh:calesthio/openmontage": {
   "copy": {
@@ -168,6 +198,16 @@
    }
   },
   "hash": "048d4eaa67126563"
+ },
+ "gh:datawhalechina/hello-agents": {
+  "copy": {
+   "zh": {
+    "blurb": "《从零开始构建智能体》是面向零基础读者的智能体原理与实践教程，涵盖概念、技术栈与实战案例。",
+    "title": "Hello‑Agents：从零开始构建智能体教程",
+    "why": "提供系统化学习路径，帮助新人快速掌握智能体开发。"
+   }
+  },
+  "hash": "1a3b68079a34c5cf"
  },
  "gh:debpalash/voicestudio": {
   "copy": {
@@ -303,6 +343,21 @@
   },
   "hash": "de298bee52c5674c"
  },
+ "gh:farion1231/cc-switch": {
+  "copy": {
+   "zh": {
+    "blurb": "CC‑Switch 是一款跨平台桌面应用，统一接入 Claude Code、Codex、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等多种 LLM 助手，官方站点 ccswitch.io。",
+    "points": [
+     "整合多家代码生成模型",
+     "跨 Windows、macOS、Linux 运行",
+     "统一 UI 实现快速模型切换"
+    ],
+    "title": "CC‑Switch：跨平台多模型桌面助手",
+    "why": "为开发者提供“一站式”切换多种 AI 编码助手的体验，提升工作流效率。"
+   }
+  },
+  "hash": "1dc014079f51c09c"
+ },
  "gh:garrytan/gstack": {
   "copy": {
    "zh": {
@@ -321,9 +376,14 @@
  "gh:graphify-labs/graphify": {
   "copy": {
    "zh": {
-    "blurb": "支持将代码、文档、SQL、配置、PDF 等转为结构化图谱，提供本地确定性 AST 解析，无需向量库。",
-    "title": "graphify：将代码库转化为可查询知识图谱",
-    "why": "帮助开发者快速检索跨文件信息，提升代码理解效率。"
+    "blurb": "Graphify 项目将任意代码库连同文档、SQL 模式、配置和 PDF 转化为结构化知识图谱，提供本地确定性 AST 解析，无需向量库，支持多种 LLM。",
+    "points": [
+     "全栈解析代码、文档和数据资产",
+     "本地确定性 AST，不依赖向量检索",
+     "兼容 Claude、Cursor、Codex、Gemini 等模型"
+    ],
+    "title": "Graphify：将代码库转为可查询知识图谱",
+    "why": "实现对大型代码基的精准、可解释查询，提升开发者调试与文档检索效率。"
    }
   },
   "hash": "3c350042dcbb50f5"
@@ -376,12 +436,27 @@
  "gh:hkuds/nanobot": {
   "copy": {
    "zh": {
-    "blurb": "基于 Python 的开源框架，提供 WebUI、工具、记忆、MCP、多代理工作流、自动化和聊天集成。",
-    "title": "nanobot：轻量级自托管个人 AI 代理框架",
-    "why": "低资源占用且高度可定制，适合个人化 AI 助手部署。"
+    "blurb": "Nanobot 是超轻量的开源自托管个人 AI 代理框架，使用 Python 编写，配备 WebUI、工具库、记忆模块、MCP、多代理工作流、自动化与聊天应用。",
+    "points": [
+     "WebUI 与多代理工作流，轻松搭建本地 AI 助手",
+     "内置记忆、工具库与 MCP，实现任务自动化",
+     "支持聊天应用集成，扩展性强"
+    ],
+    "title": "Nanobot：超轻量个人 AI 代理框架",
+    "why": "让用户无需云服务即可在本地搭建可定制的 AI 助手，降低成本并提升数据安全。"
    }
   },
   "hash": "07c88bcd7d518c71"
+ },
+ "gh:infiniflow/ragflow": {
+  "copy": {
+   "zh": {
+    "blurb": "RAGFlow 是领先的开源检索增强生成（RAG）引擎，融合最新 RAG 技术与 Agent 能力，为大模型提供高效的上下文层。",
+    "title": "RAGFlow：融合 RAG 与 Agent 的开源上下文层",
+    "why": "通过结合检索与代理，实现更精准的 LLM 推理与知识调用。"
+   }
+  },
+  "hash": "4ebffdaf4936a144"
  },
  "gh:juliusbrussee/caveman": {
   "copy": {
@@ -538,6 +613,16 @@
   },
   "hash": "6cae183d2b883657"
  },
+ "gh:openai/codex": {
+  "copy": {
+   "zh": {
+    "blurb": "Codex 是一款轻量级的编码代理，可直接在终端运行，提供即时代码生成与补全。",
+    "title": "Codex：终端轻量编码代理",
+    "why": "在命令行环境中即刻获得编程助理，提高开发效率。"
+   }
+  },
+  "hash": "81d281e0fba85873"
+ },
  "gh:openai/math": {
   "copy": {
    "zh": {
@@ -656,9 +741,14 @@
  "gh:sickn33/agentic-awesome-skills": {
   "copy": {
    "zh": {
-    "blurb": "AAS Core 是本地、以代理为先的控制平台，实现完整技能目录发现、代理自选、堆栈验证与计划调度，背靠 2400+ 代理技能，提供 CLI、本地 MCP、目录、插件与 Workbench。",
-    "title": "AAS Core：本地化、面向代理的技能控制平面",
-    "why": "支持自主代理高效组织和执行技能，提升 AI 工作流的可控性和扩展性。"
+    "blurb": "AAS Core 是本地化、以代理为先的控制平面，实现完整的技能目录发现、代理自主选择、堆栈验证与规划，支撑 2400+ 代理技能，提供 CLI、本地 MCP、目录、插件及 Workbench。",
+    "points": [
+     "整合 2400+ 代理技能，统一目录与发现",
+     "提供 CLI、本地 MCP、插件与 Workbench，实现端到端规划",
+     "支持代理自有的技能选择与堆栈验证，提升可靠性"
+    ],
+    "title": "AAS Core：本地化代理优先控制平面",
+    "why": "帮助开发者在本地高效管理和组合代理技能，提升 AI 工作流的可控性与可扩展性。"
    }
   },
   "hash": "d1ad1348ad03f7d2"
@@ -762,6 +852,16 @@
   },
   "hash": "ec1e4f8589762344"
  },
+ "gh:unslothai/unsloth": {
+  "copy": {
+   "zh": {
+    "blurb": "Unsloth 提供本地 UI，用于运行和训练大型语言模型及扩散模型，支持 GGUF、MLX、Qwen3.8、DeepSeek‑V4、MiniMax‑H3、Gemma 4、FLUX 等多种模型。",
+    "title": "Unsloth：本地 UI 运行与训练 LLM 与扩散模型",
+    "why": "让用户在本地即可使用最新模型，降低硬件门槛并加速实验。"
+   }
+  },
+  "hash": "0c1ef1bf7bdb2df7"
+ },
  "gh:usememos/memos": {
   "copy": {
    "zh": {
@@ -830,9 +930,14 @@
  "gh:zhulinsen/daily_stock_analysis": {
   "copy": {
    "zh": {
-    "blurb": "结合多源行情、实时新闻、决策看板与自动推送，实现零成本定时运行的股票分析平台。",
-    "title": "LLM 驱动的多市场股票智能分析系统",
-    "why": "通过 LLM 自动化信息融合与决策，提升投资者分析效率。"
+    "blurb": "该项目实现基于 LLM 的股票分析平台，聚合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
+    "points": [
+     "多源行情与实时新闻自动抓取",
+     "LLM 生成投资决策与可视化看板",
+     "零成本定时任务与自动通知功能"
+    ],
+    "title": "LLM 驱动的多市场股票分析系统",
+    "why": "结合语言模型的分析能力与实时数据，为投资者提供低成本、自动化的多市场情报。"
    }
   },
   "hash": "02f3f2ac0502d2e2"
@@ -1562,6 +1667,21 @@
   },
   "hash": "cf6281efadcc75f1"
  },
+ "hn:50013902": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇探讨 OpenAI 与分割原理（Partition Principle）在数学及 AI 对齐中的关系的技术随笔，阐述理论框架与潜在影响。",
+    "points": [
+     "解释分割原理的数学概念",
+     "关联 OpenAI 技术路线与该原理",
+     "讨论对 AI 对齐安全的意义"
+    ],
+    "title": "OpenAI、分割原理与数学思考",
+    "why": "为 AI 对齐提供数学视角，帮助理解模型行为的结构性约束。"
+   }
+  },
+  "hash": "8fab57e4346b2bd3"
+ },
  "hn:50014150": {
   "copy": {
    "zh": {
@@ -1576,5 +1696,65 @@
    }
   },
   "hash": "448748d42ee195a2"
+ },
+ "hn:50018350": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 因“错误处理研究信息”而解雇了三名安全团队成员，此事在 TechCrunch 报道，引发对科研自由和安全团队独立性的担忧。",
+    "points": [
+     "解雇原因涉及内部信息管理",
+     "引发业界对安全研究环境的质疑",
+     "可能产生寒蝉效应抑制风险研究"
+    ],
+    "title": "OpenAI 解雇三名安全研究员",
+    "why": "可能导致安全研究者自我审查，影响 AI 安全方向的前沿探索。"
+   }
+  },
+  "hash": "983069d66c579128"
+ },
+ "hn:50018817": {
+  "copy": {
+   "zh": {
+    "blurb": "在 GitHub 上的 big‑arrow‑on‑the‑screen 项目让 AI 代理能够在用户屏幕上绘制大尺寸箭头、矩形框和文字注释，便于实时可视化交互。",
+    "points": [
+     "支持 AI 代理直接在屏幕绘制可视化元素",
+     "提供简单 API 可嵌入任意应用",
+     "适用于调试、教学和演示场景"
+    ],
+    "title": "AI 代理在屏幕上绘制大箭头与框选",
+    "why": "帮助开发者快速展示 AI 决策路径和界面提示，提升交互可解释性。"
+   }
+  },
+  "hash": "4d4ca28cc1ea652e"
+ },
+ "hn:50019455": {
+  "copy": {
+   "zh": {
+    "blurb": "调查显示，伊朗势力利用 ChatGPT 生成虚假内容，成功植入美国真实出版物，引发信息安全与假新闻风险的关注。",
+    "points": [
+     "使用 ChatGPT 生成逼真新闻稿件",
+     "假文章混入正规美国媒体",
+     "凸显 AI 生成内容的监管挑战"
+    ],
+    "title": "伊朗利用 ChatGPT 在美媒体投放假文章",
+    "why": "展示大型语言模型被用于跨国信息操控的潜在危害，警示监管需求。"
+   }
+  },
+  "hash": "4a7d7950643d77ab"
+ },
+ "hn:50021354": {
+  "copy": {
+   "zh": {
+    "blurb": "Liquid Inference 打造开放的 LLM 推理市场，模型提供商竞争报价，系统自动路由以最低成本满足预设质量，支持地域、数据安全等自定义设置。",
+    "points": [
+     "模型供应商在平台上竞价",
+     "智能路由实时选择最便宜的提供商",
+     "可自定义区域、零数据泄露等路由约束"
+    ],
+    "title": "Liquid Inference：自动路由的 LLM 市场平台",
+    "why": "通过竞争定价降低推理成本，提升企业在多模型环境下的成本效益。"
+   }
+  },
+  "hash": "7e09099b646a7b26"
  }
 }
