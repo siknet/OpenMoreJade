@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-10T15:36:30.213Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -153,7 +153,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-07T18:56:50.962Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -165,7 +165,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-07T18:46:15.000Z",
+    "sourceUpdatedAt": "2026-10-10T17:07:38.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -193,8 +193,42 @@
    },
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
+  "discovery:gh:huggingface/transformers": {
+   "observedAt": "2026-10-10T17:20:22.825Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:huggingface/transformers",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-10T17:20:22.825Z",
+    "summary": {
+     "en": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+     "zh": "Python 库，统一支持文本、视觉、音频及多模态模型的定义、训练与推理，收录最前沿的预训练模型，兼容多硬件后端。"
+    },
+    "title": {
+     "en": "huggingface/transformers",
+     "zh": "🤗 Transformers：全栈模型定义与训练框架"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/huggingface/transformers",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。行业标准化的工具链，加速模型研发与部署的全流程。"
+    }
+   },
+   "sourceKey": "gh:huggingface/transformers"
+  },
   "discovery:gh:infiniflow/ragflow": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:infiniflow/ragflow",
@@ -209,11 +243,11 @@
     "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
     "summary": {
      "en": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-     "zh": "RAGFlow 是领先的开源检索增强生成（RAG）引擎，融合最新 RAG 技术与 Agent 能力，为大模型提供高效的上下文层。"
+     "zh": "基于 Go 的 RAG 系统，将最新的检索增强生成技术与 Agent 框架结合，为 LLM 提供高效上下文层，支持高并发、可扩展部署。"
     },
     "title": {
      "en": "infiniflow/ragflow",
-     "zh": "RAGFlow：融合 RAG 与 Agent 的开源上下文层"
+     "zh": "RAGFlow：开源检索增强生成引擎，融合 Agent 能力"
     },
     "topics": [
      "trend:daily"
@@ -222,13 +256,13 @@
     "url": "https://github.com/infiniflow/ragflow",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过结合检索与代理，实现更精准的 LLM 推理与知识调用。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为企业级 LLM 应用提供可定制、性能强大的检索与推理平台。"
     }
    },
    "sourceKey": "gh:infiniflow/ragflow"
   },
   "discovery:gh:librechat-ai/librechat": {
-   "observedAt": "2026-10-08T18:50:34.015Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:librechat-ai/librechat",
@@ -262,7 +296,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-08T18:50:34.015Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -274,7 +308,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-05T17:27:43.000Z",
+    "sourceUpdatedAt": "2026-10-08T19:23:59.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
      "zh": "基于 Claude Code 的 AI 求职框架，可本地运行，自动评估职位信息、定制简历、撰写求职信并进行面试准备，支持自行 fork 与完全所有权。"
@@ -337,7 +371,7 @@
    "sourceKey": "gh:manaflow-ai/cmux"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-10T15:36:30.213Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -378,7 +412,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-10T15:36:30.213Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -390,7 +424,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-10T15:32:21.000Z",
+    "sourceUpdatedAt": "2026-10-10T17:20:20.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -453,7 +487,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:zhulinsen/daily_stock_analysis",
@@ -524,6 +558,39 @@
     }
    },
    "sourceKey": "hn:49995804"
+  },
+  "discovery:hn:50033878": {
+   "observedAt": "2026-10-10T17:20:22.825Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50033878",
+    "level": "starter",
+    "publishedAt": "2026-10-10T15:27:19.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-10T15:27:19.000Z",
+    "summary": {
+     "en": "Hi HN, We are building an open source web application firewall Sibuna to have more control over automated traffic from AI bots and crawlers. Sibuna runs as a reverse proxy or alongside an existing ingress through forward-auth. It includes application inspection, OWASP CRS support and a wasm based management console. Please try it, and give us feedback for improvements. Github Project: https://github.com/insanai/sibuna",
+     "zh": "Sibuna 是一款开源 Web 应用防火墙，可作为反向代理或与现有入口配合使用，支持前置认证、OWASP CRS 规则、基于 wasm 的管理控制台，并加入工作量证明机制以抑制 AI 机器人流量。"
+    },
+    "title": {
+     "en": "Show HN: Sibuna an open source web application firewall with proof of work",
+     "zh": "Sibuna：支持工作量证明的开源Web应用防火墙"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://github.com/insanai/sibuna",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。帮助开发者在 AI 时代控制自动化流量，提升安全性。"
+    }
+   },
+   "sourceKey": "hn:50033878"
   }
  },
  "dynamicHistory": {
@@ -532,7 +599,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -571,7 +639,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -609,7 +678,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -648,7 +718,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -686,7 +757,8 @@
     "2026-10-06": 95,
     "2026-10-08": 95,
     "2026-10-09": 95,
-    "2026-10-10": 95
+    "2026-10-10": 95,
+    "2026-10-11": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -724,7 +796,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -762,7 +835,8 @@
     "2026-10-06": 95,
     "2026-10-08": 95,
     "2026-10-09": 95,
-    "2026-10-10": 95
+    "2026-10-10": 95,
+    "2026-10-11": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -800,7 +874,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -838,7 +913,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -876,7 +952,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -914,7 +991,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -952,7 +1030,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -991,7 +1070,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -1029,7 +1109,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -1067,7 +1148,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -1105,7 +1187,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -1143,7 +1226,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -1181,7 +1265,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -1219,7 +1304,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -1257,7 +1343,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -1295,7 +1382,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -1333,7 +1421,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -1371,7 +1460,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -1409,7 +1499,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -1447,7 +1538,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -1485,7 +1577,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -1523,7 +1616,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -1561,7 +1655,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -1599,7 +1694,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -1637,7 +1733,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -1675,7 +1772,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -1713,7 +1811,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -1751,7 +1850,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -1789,7 +1889,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -1827,7 +1928,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -1857,6 +1959,41 @@
     "why": {
      "en": "Understand embeddings by building with them.",
      "zh": "动手理解 embedding，而不只记住这个术语。"
+    }
+   }
+  },
+  "https://github.com/huggingface/transformers": {
+   "days": {
+    "2026-10-11": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:huggingface/transformers",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-10T17:20:22.825Z",
+    "summary": {
+     "en": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+     "zh": "Python 库，统一支持文本、视觉、音频及多模态模型的定义、训练与推理，收录最前沿的预训练模型，兼容多硬件后端。"
+    },
+    "title": {
+     "en": "huggingface/transformers",
+     "zh": "🤗 Transformers：全栈模型定义与训练框架"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/huggingface/transformers",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。行业标准化的工具链，加速模型研发与部署的全流程。"
     }
    }
   },
@@ -1902,7 +2039,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -1940,7 +2078,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -1978,7 +2117,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -2016,7 +2156,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -2054,7 +2195,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -2092,7 +2234,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -2130,7 +2273,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -2168,7 +2312,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -2206,7 +2351,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -2286,7 +2432,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -2324,7 +2471,8 @@
     "2026-10-06": 80,
     "2026-10-08": 80,
     "2026-10-09": 80,
-    "2026-10-10": 80
+    "2026-10-10": 80,
+    "2026-10-11": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -2362,7 +2510,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -2401,7 +2550,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -2439,7 +2589,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -2477,7 +2628,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -2515,7 +2667,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -2553,7 +2706,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -2593,7 +2747,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -2632,7 +2787,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -2670,7 +2826,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -2708,7 +2865,8 @@
     "2026-10-06": 95,
     "2026-10-08": 95,
     "2026-10-09": 95,
-    "2026-10-10": 95
+    "2026-10-10": 95,
+    "2026-10-11": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -2746,7 +2904,8 @@
     "2026-10-06": 95,
     "2026-10-08": 95,
     "2026-10-09": 95,
-    "2026-10-10": 95
+    "2026-10-10": 95,
+    "2026-10-11": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -2784,7 +2943,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -2823,7 +2983,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -2861,7 +3022,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -2899,7 +3061,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -2937,7 +3100,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -2975,7 +3139,8 @@
     "2026-10-06": 90,
     "2026-10-08": 90,
     "2026-10-09": 90,
-    "2026-10-10": 90
+    "2026-10-10": 90,
+    "2026-10-11": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -3013,7 +3178,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -3052,7 +3218,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -3090,7 +3257,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -3129,7 +3297,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -3167,7 +3336,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -3205,7 +3375,8 @@
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
-    "2026-10-10": 85
+    "2026-10-10": 85,
+    "2026-10-11": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -3605,6 +3776,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/huggingface/transformers": {
+   "active": true,
+   "currentEnteredAt": "2026-10-10T17:20:22.825Z",
+   "firstEnteredAt": "2026-10-10T17:20:22.825Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/infiniflow/ragflow": {
    "active": false,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -3697,7 +3875,7 @@
    "returns": 0
   },
   "https://github.com/stablyai/orca": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-10T15:36:30.213Z",
    "firstEnteredAt": "2026-10-10T07:04:56.138Z",
    "initial": false,
@@ -4019,7 +4197,9 @@
   "https://github.com/hexgrad/kokoro": "2026-10-06T09:37:13.355Z",
   "https://github.com/huggingface/diffusers": "2026-10-06T09:37:13.355Z",
   "https://github.com/huggingface/sentence-transformers": "2026-10-06T09:37:13.355Z",
+  "https://github.com/huggingface/transformers": "2026-10-10T17:20:22.825Z",
   "https://github.com/infiniflow/ragflow": "2026-10-06T09:37:13.355Z",
+  "https://github.com/insanai/sibuna": "2026-10-10T17:20:22.825Z",
   "https://github.com/invoke-ai/invokeai": "2026-10-06T09:37:13.355Z",
   "https://github.com/janhq/jan": "2026-10-06T09:37:13.355Z",
   "https://github.com/k2-fsa/sherpa-onnx": "2026-10-06T09:37:13.355Z",

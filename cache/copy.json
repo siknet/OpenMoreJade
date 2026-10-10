@@ -1,4 +1,19 @@
 {
+ "devto:4819360": {
+  "copy": {
+   "zh": {
+    "blurb": "前端工程师 @nyaomaru 开源 AI 辅助的 CHANGELOG 生成工具 Jev，自动解析 PR 描述提取动机（Why），生成结构化日志。",
+    "points": [
+     "AI 解析 PR 元数据并抽取动机描述",
+     "一键生成符合规范的 CHANGELOG 条目",
+     "可集成至 Git 工作流，实现自动化提交记录"
+    ],
+    "title": "使用 Jev 将 PR 的 “Why” 提取到 CHANGELOG",
+    "why": "降低手工编写 CHANGELOG 的成本，提升文档一致性与团队协作效率。"
+   }
+  },
+  "hash": "6e54e2e9cd6d9f52"
+ },
  "devto:4824129": {
   "copy": {
    "zh": {
@@ -65,6 +80,16 @@
   },
   "hash": "314aca854d3d08ab"
  },
+ "devto:4828174": {
+  "copy": {
+   "zh": {
+    "blurb": "作者的 Anaglyphohol 4.0.0 扩展因未使用声明的权限被 Chrome Web Store 两次拒绝，且审查过程缺乏透明度。",
+    "title": "Chrome Web Store 对 WebAssembly 的壁垒",
+    "why": "限制 WebAssembly 扩展发布，阻碍创新与开源生态发展。"
+   }
+  },
+  "hash": "161a702c07acd7a6"
+ },
  "devto:4828205": {
   "copy": {
    "zh": {
@@ -130,6 +155,31 @@
   },
   "hash": "94c8a876e894ff9f"
  },
+ "devto:4828666": {
+  "copy": {
+   "zh": {
+    "blurb": "作者将 Qwen3.5‑4B LoRA 在 Tinker 上微调，以读取 627 条美国国家公园实时警报，模型以 1.60 美元成本蒸馏自 397 B 大模型，每周生成一次徒步通行卡，可捕获 33 条警报中的 28 条。",
+    "title": "将397B模型蒸馏至4B，仅耗1.60美元，可捕获28/33国家公园警报",
+    "why": "展示了极低成本小模型在实际安全预警中的可行性，降低部署门槛。"
+   }
+  },
+  "hash": "e2278a07306320e0"
+ },
+ "devto:4828716": {
+  "copy": {
+   "zh": {
+    "blurb": "Frostline 使用开源 TabPFN 表格模型预测当地霜冻日期，再调用 Gemma 生成本周适合播种的作物建议。",
+    "points": [
+     "通过 TabPFN 获取精确霜冻日期预测。",
+     "利用 Gemma 自动生成个性化种植计划。",
+     "支持多地区自定义输入。"
+    ],
+    "title": "Frostline：基于 TabPFN 与 Gemma 的本地种植规划器",
+    "why": "结合气候预测与大语言模型，帮助园艺者精准安排种植时机。"
+   }
+  },
+  "hash": "7540a4922139fda0"
+ },
  "devto:4828760": {
   "copy": {
    "zh": {
@@ -159,6 +209,184 @@
    }
   },
   "hash": "1c0feac3f079769b"
+ },
+ "devto:4829163": {
+  "copy": {
+   "zh": {
+    "blurb": "Hacktoberfest 开源 AI 挑战作品，利用 Gemma 大模型生成线索，构建本地化的宝藏寻踪游戏，鼓励用户走到户外。",
+    "points": [
+     "LLM 生成动态线索并适配本地地图",
+     "结合 GPS/位置服务实现真实世界交互",
+     "通过游戏化提升用户的户外活动时间"
+    ],
+    "title": "GrassQuest：本地 Gemma 寻宝游戏，让你走出室内",
+    "why": "创新地将 LLM 与实体活动结合，展示 AI 在生活方式激励上的潜力。"
+   }
+  },
+  "hash": "af61f45320f5104d"
+ },
+ "devto:4829189": {
+  "copy": {
+   "zh": {
+    "blurb": "RepoDNA v1.3.1 让用户在浏览器中离线分析代码库，无需上传文件，即可获取结构、依赖和复杂度报告。",
+    "title": "RepoDNA v1.3.1：浏览器内本地代码库分析",
+    "why": "保护代码隐私的同时提供快速审计，适合安全敏感项目。"
+   }
+  },
+  "hash": "3eb62312d3e4fb20"
+ },
+ "devto:4829215": {
+  "copy": {
+   "zh": {
+    "blurb": "文章对比两大 Twitter API Python 库在功能完整性、速率限制、授权方式和资源消耗上的差异，为开发者提供选型依据。",
+    "points": [
+     "Telethon 支持完整 API 与更高并发",
+     "Tweepy 使用简便但受限于速率配额",
+     "成本体现在速率上限与维护复杂度"
+    ],
+    "title": "Telethon 与 Tweepy：Python 客户端采集公开数据的成本对比",
+    "why": "帮助数据采集项目在成本、性能与实现复杂度之间做出最优选择。"
+   }
+  },
+  "hash": "41136b12ca5c48f3"
+ },
+ "devto:4829262": {
+  "copy": {
+   "zh": {
+    "blurb": "Python 3.15 于 2026 年 10 月 9 日上线，新增 lazy 关键字、改进错误信息、提升性能等多项改进。",
+    "points": [
+     "引入 lazy 关键字实现惰性求值，减少不必要计算。",
+     "改进异常信息展示，提升调试效率。",
+     "多项性能优化，平均提升约 5%。"
+    ],
+    "title": "Python 3.15 正式发布：新特性速览",
+    "why": "新特性简化代码编写并提升运行效率，对日常开发影响显著。"
+   }
+  },
+  "hash": "83a5b669b530d914"
+ },
+ "devto:4829265": {
+  "copy": {
+   "zh": {
+    "blurb": "开源桥接工具，为 ChatGPT 网页版提供安全的本地代码库、终端和桌面工具访问，使 AI 对话可直接操作真实项目。",
+    "points": [
+     "本地代理实现安全隔离，防止未经授权访问",
+     "支持文件读取/写入以及终端指令执行",
+     "可配置白名单，限定可操作的本地资源"
+    ],
+    "title": "RepoTunnel：让 ChatGPT Web 与本地仓库、终端实时交互",
+    "why": "打通 AI 对话与本地开发环境，显著提升编程助理的实用性。"
+   }
+  },
+  "hash": "6ba5c3231b3cc5e5"
+ },
+ "devto:4829287": {
+  "copy": {
+   "zh": {
+    "blurb": "FrostFlow AI 是一款面向开发者的工具，鼓励在编程间隙走出室内、种植种子，并提供任务提醒与社区分享功能。",
+    "points": [
+     "提供简易的种植计划生成工具，帮助开发者在工作间隙规划种子播种。",
+     "集成提醒与社区分享功能，鼓励“Touch Grass”挑战。"
+    ],
+    "title": "FrostFlow AI：帮助开发者亲近自然与种植",
+    "why": "关注开发者身心健康，提升工作效率。"
+   }
+  },
+  "hash": "7995d7caf9dd155a"
+ },
+ "devto:4829318": {
+  "copy": {
+   "zh": {
+    "blurb": "Mind Music Walks 是 Hacktoberfest 开源 AI 挑战的作品，提供在步行时生成舒缓音乐的功能，为用户创造呼吸空间。",
+    "points": [
+     "实时生成与步伐同步的轻音乐。",
+     "可自定义音景风格与时长。",
+     "开源代码便于二次创作。"
+    ],
+    "title": "Mind Music Walks：AI 驱动的放松步行音乐",
+    "why": "将 AI 与健康体验结合，促进用户在日常活动中获得心理放松。"
+   }
+  },
+  "hash": "023060f92e2ec464"
+ },
+ "devto:4829375": {
+  "copy": {
+   "zh": {
+    "blurb": "轻量级 AI 助手，基于 LLM 为用户生成户外活动建议并实时提醒，鼓励离开电脑、进行实际运动。",
+    "points": [
+     "LLM 生成个性化户外活动方案",
+     "实时弹窗提醒功能，帮助建立新习惯",
+     "仅需网页演示，无需额外安装"
+    ],
+    "title": "TouchGrass AI：帮助你“触草”减屏幕时间的开源伙伴",
+    "why": "利用 AI 引导健康数字生活，降低久坐和屏幕沉迷。"
+   }
+  },
+  "hash": "91a18ba8d7f7afa2"
+ },
+ "devto:4829390": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目为 Hacktoberfest 开源 AI 挑战提交的作品，训练本地 AI 执行“让我远离屏幕”任务，提供提醒与休息建议。",
+    "points": [
+     "本地运行，无需联网保护隐私。",
+     "可配置提醒间隔与休息活动。",
+     "集成简洁 UI，易于日常使用。"
+    ],
+    "title": "本地 AI 任务：帮我离开屏幕 🌿",
+    "why": "通过本地 AI 自动化提醒，帮助用户养成健康的屏幕使用习惯。"
+   }
+  },
+  "hash": "0d223861afd53d86"
+ },
+ "devto:4829405": {
+  "copy": {
+   "zh": {
+    "blurb": "tracehub‑mcp v0.12.3 与 cost‑guard‑mcp v0.3.3 同日上架 PyPI，提供统一的元数据服务并加入真实性校验机制。",
+    "points": [
+     "两个 MCP 服务器仅相差 12 分钟发布，保证生态同步。",
+     "新增元数据真相层，自动纠正错误信息。",
+     "支持插件化扩展，兼容多种监控场景。"
+    ],
+    "title": "tracehub‑mcp 与 cost‑guard‑mcp 同时发布：元数据真实性层",
+    "why": "解决元数据不一致问题，提升监控与计费系统的可信度。"
+   }
+  },
+  "hash": "0d74f563a405c685"
+ },
+ "devto:4829410": {
+  "copy": {
+   "zh": {
+    "blurb": "Archery Tracker 为 Hacktoberfest 开源 AI 挑战提交的项目，旨在利用 AI 监测并记录弓箭射击数据。",
+    "points": [
+     "自动检测箭矢轨迹并实时显示命中位置。",
+     "支持可视化统计与进度分享。"
+    ],
+    "title": "Archery Tracker：开源 AI 弓箭追踪器",
+    "why": "为射箭爱好者提供数据洞察，展示 AI 在运动跟踪中的潜力。"
+   }
+  },
+  "hash": "3f338ad96f019a26"
+ },
+ "devto:4829424": {
+  "copy": {
+   "zh": {
+    "blurb": "作者尝试让聊天记录更易管理，却发现即使应用声称‘忘记’，实际数据仍可能保留，探讨了软件实现可删除性的技术与信任挑战。",
+    "title": "应用声称‘忘记’，我们该如何信任它？",
+    "why": "涉及数据隐私与合规，提醒用户审视‘忘记’功能的可靠性。"
+   }
+  },
+  "hash": "1a65af29ae812130"
+ },
+ "devto:4829460": {
+  "copy": {
+   "zh": {
+    "blurb": "WalkCast 为户外步行提供免屏幕音频摘要，利用 AI 将步行信息转化为语音内容，作为 Hacktoberfest 开源 AI 挑战的参赛作品。",
+    "title": "WalkCast：户外步行的免屏幕音频摘要",
+    "why": "为户外活动提供无视觉干扰的 AI 辅助信息，提升体验。"
+   }
+  },
+  "hash": "c4beafb9a9d16300"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -240,6 +468,16 @@
   },
   "hash": "f2fcc7b4eda3158a"
  },
+ "gh:appwrite/appwrite": {
+  "copy": {
+   "zh": {
+    "blurb": "Appwrite 是一个用 TypeScript 编写的开源云平台，提供身份认证、数据库、存储、函数、消息、托管、实时和 WAF 等完整后端服务，适合快速构建现代应用。",
+    "title": "Appwrite：面向开发者的开源云平台",
+    "why": "提供企业级功能的免费可自托管后端即服务，降低开发成本。"
+   }
+  },
+  "hash": "74cb94f8164de615"
+ },
  "gh:asgeirtj/system_prompts_leaks": {
   "copy": {
    "zh": {
@@ -318,17 +556,17 @@
  "gh:cathrynlavery/diagram-design": {
   "copy": {
    "zh": {
-    "blurb": "提供 42 种编辑式图表模板，适配 Claude Code、Codex、GitHub Copilot、Factory Droid 与 Pi，输出自包含 HTML+SVG，无阴影、无需 Mermaid。",
+    "blurb": "HTML+SVG 的自包含图示集合，提供 44 种针对 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等 AI 编码助手的可视化示例，无需 Mermaid。",
     "points": [
-     "42 种可视化模板，覆盖常见编码场景",
-     "纯 HTML+SVG，零依赖、即插即用",
-     "兼容多款 AI 编码助理，统一输出格式"
+     "离线 HTML+SVG，零依赖即用",
+     "专为多模型编辑场景设计的图形模板",
+     "支持直接嵌入文档或网页，提升可读性"
     ],
-    "title": "Claude Code 等工具的编辑式图表设计库",
-    "why": "帮助开发者快速生成高质量架构图，提升文档可读性与可维护性。"
+    "title": "diagram‑design：Claude Code 等模型的编辑式图示库",
+    "why": "统一、清晰的视觉说明帮助开发者快速理解模型功能和工作流。"
    }
   },
-  "hash": "1a1e9dd85f5d0c0b"
+  "hash": "1173630aadb0b42d"
  },
  "gh:code-yeongyu/oh-my-openagent": {
   "copy": {
@@ -378,9 +616,14 @@
  "gh:datawhalechina/hello-agents": {
   "copy": {
    "zh": {
-    "blurb": "《从零开始构建智能体》是面向零基础读者的智能体原理与实践教程，涵盖概念、技术栈与实战案例。",
-    "title": "Hello‑Agents：从零开始构建智能体教程",
-    "why": "提供系统化学习路径，帮助新人快速掌握智能体开发。"
+    "blurb": "该仓库提供《从零开始构建智能体》教材，系统讲解智能体原理、框架实现及实战案例，适合 Python 开发者入门。",
+    "points": [
+     "详细讲解智能体架构与关键组件。",
+     "提供完整代码示例，支持一步步实践。",
+     "包含实验任务与社区讨论。"
+    ],
+    "title": "datawhalechina/hello‑agents：从零开始构建智能体教程",
+    "why": "填补中文智能体学习资源空白，降低入门门槛。"
    }
   },
   "hash": "1a3b68079a34c5cf"
@@ -624,12 +867,32 @@
   },
   "hash": "07c88bcd7d518c71"
  },
+ "gh:huggingface/transformers": {
+  "copy": {
+   "zh": {
+    "blurb": "Python 库，统一支持文本、视觉、音频及多模态模型的定义、训练与推理，收录最前沿的预训练模型，兼容多硬件后端。",
+    "points": [
+     "模块化模型实现，便于自定义和复用",
+     "丰富的预训练模型库覆盖多模态任务",
+     "兼容 PyTorch、TensorFlow、JAX 等后端"
+    ],
+    "title": "🤗 Transformers：全栈模型定义与训练框架",
+    "why": "行业标准化的工具链，加速模型研发与部署的全流程。"
+   }
+  },
+  "hash": "5a558fb81dd0f934"
+ },
  "gh:infiniflow/ragflow": {
   "copy": {
    "zh": {
-    "blurb": "RAGFlow 是领先的开源检索增强生成（RAG）引擎，融合最新 RAG 技术与 Agent 能力，为大模型提供高效的上下文层。",
-    "title": "RAGFlow：融合 RAG 与 Agent 的开源上下文层",
-    "why": "通过结合检索与代理，实现更精准的 LLM 推理与知识调用。"
+    "blurb": "基于 Go 的 RAG 系统，将最新的检索增强生成技术与 Agent 框架结合，为 LLM 提供高效上下文层，支持高并发、可扩展部署。",
+    "points": [
+     "向量检索与文档管理一体化",
+     "Agent 框架实现自定义工作流和决策逻辑",
+     "云原生设计，易于横向扩展"
+    ],
+    "title": "RAGFlow：开源检索增强生成引擎，融合 Agent 能力",
+    "why": "为企业级 LLM 应用提供可定制、性能强大的检索与推理平台。"
    }
   },
   "hash": "4ebffdaf4936a144"
@@ -782,9 +1045,14 @@
  "gh:ollama/ollama": {
   "copy": {
    "zh": {
-    "blurb": "支持 Kimi、GLM、MiniMax、DeepSeek、gpt‑oss、Qwen、Gemma 等模型的快速部署与交互。",
-    "title": "ollama/ollama：一键运行多种开源大模型",
-    "why": "让开发者无需复杂配置即可体验最新开源模型。"
+    "blurb": "用 Go 实现的 Ollama 项目，可一键拉取并本地运行 Kimi、GLM、MiniMax、DeepSeek、gpt‑oss、Qwen、Gemma 等多种大模型，提供统一 CLI 与 API。",
+    "points": [
+     "一键下载并启动多种开源大模型",
+     "统一的命令行和 HTTP 接口，易于集成",
+     "跨平台支持，适配本地 CPU/GPU 环境"
+    ],
+    "title": "Ollama：本地运行多模型的统一接口",
+    "why": "降低本地部署大模型的技术门槛，支持隐私安全和离线推理。"
    }
   },
   "hash": "669fe5d4b2ae729d"
@@ -882,17 +1150,17 @@
  "gh:rohitg00/ai-engineering-from-scratch": {
   "copy": {
    "zh": {
-    "blurb": "该仓库提供从学习、构建到部署 AI 项目的全套教材，帮助开发者一步步实践并发布自己的 AI 产品。",
+    "blurb": "该仓库提供完整的 AI 工程学习路径，涵盖从概念、代码实现到部署上线的全流程，全部基于 Python 示例。",
     "points": [
-     "系统化的学习、构建、发布路线图",
-     "全 Python 示例，易于上手",
-     "社区活跃，持续更新"
+     "覆盖数据管道、模型训练、部署全链路",
+     "配套代码可直接运行，便于实践学习",
+     "强调从学习到交付的完整工程化思维"
     ],
-    "title": "AI Engineering From Scratch：完整实战指南",
-    "why": "填补 AI 实践教程空缺，降低入门门槛。"
+    "title": "AI 工程实战教程（从零开始）",
+    "why": "为想要快速上手 AI 项目开发的学习者提供一站式实战资源。"
    }
   },
-  "hash": "d08f60d6c34a248f"
+  "hash": "bc0cc1916bb85776"
  },
  "gh:rtk-ai/rtk": {
   "copy": {
@@ -2072,6 +2340,26 @@
    }
   },
   "hash": "c1219852c454f925"
+ },
+ "hn:50033878": {
+  "copy": {
+   "zh": {
+    "blurb": "Sibuna 是一款开源 Web 应用防火墙，可作为反向代理或与现有入口配合使用，支持前置认证、OWASP CRS 规则、基于 wasm 的管理控制台，并加入工作量证明机制以抑制 AI 机器人流量。",
+    "title": "Sibuna：支持工作量证明的开源Web应用防火墙",
+    "why": "帮助开发者在 AI 时代控制自动化流量，提升安全性。"
+   }
+  },
+  "hash": "9783db6a75891f47"
+ },
+ "lobsters:gqaqgq": {
+  "copy": {
+   "zh": {
+    "blurb": "Voxlocal 是用 Rust 实现的极简语音代理，专注于本地语音交互，代码体积小、性能高，适合作为嵌入式或隐私敏感的语音应用基础。",
+    "title": "Voxlocal：用Rust编写的极简语音代理",
+    "why": "展示了 Rust 在语音 AI 领域的高效实现潜力。"
+   }
+  },
+  "hash": "61d04afde88f156a"
  },
  "lobsters:rpiwtb": {
   "copy": {
