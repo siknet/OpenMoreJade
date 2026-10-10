@@ -78,7 +78,8 @@ export function ItemCard({ item, date, meta, showBoard, stale }: ItemCardProps) 
           </p>
         )}
         <ItemMeta item={item} />
-
+        <ResonanceMark own={item.board} links={item.resonance.links} level={item.resonance.level} names={names} />
+        <ItemActions item={item} placement="card" date={date} />
       </div>
     </article>
   )

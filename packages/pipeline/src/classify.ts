@@ -152,6 +152,12 @@ function byConstruction(cand: RawCandidate): { score: number; reasons: string[] 
   if (cand.board === 'social' && cand.social.platform === 'x' && cand.social.authorKind === 'lab') {
     return { score: 1, reasons: ['watch:lab'] }
   }
+  if (cand.sources.includes('lobsters') || cand.tags.includes('source:lobsters')) {
+    return { score: 1, reasons: ['channel:lobsters'] }
+  }
+  if (cand.sources.includes('dev-to') || cand.tags.includes('source:dev-to')) {
+    return { score: 1, reasons: ['channel:dev-to'] }
+  }
   return null
 }
 

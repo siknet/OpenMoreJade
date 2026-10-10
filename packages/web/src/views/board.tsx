@@ -139,20 +139,23 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
 
   // News board: Hacker News, Dev.to, Lobste.rs
   if (board === 'news') {
-    const rawNewsList = allRepos.filter((item) => item.board === 'news')
+    const rawNewsList = allRepos.filter((item): item is NewsItem => item.board === 'news')
+    const toTime = (s?: string) => (s ? Date.parse(s) || 0 : 0)
+    const isDevTo = (it: NewsItem) => it.key.startsWith('devto:') || it.tags.includes('source:dev-to')
+    const isLobsters = (it: NewsItem) => it.key.startsWith('lobsters:') || it.tags.includes('source:lobsters')
+    const isHn = (it: NewsItem) => it.key.startsWith('hn:') || (!isDevTo(it) && !isLobsters(it))
 
     if (newsSource === 'devto') {
-      const devtoItems = rawNewsList.filter(
-        (it) => it.sources.includes('dev-to') || it.key.startsWith('devto:') || it.tags.includes('source:dev-to'),
-      )
+      const devtoItems = rawNewsList.filter(isDevTo)
       if (devtoChannel === 'opensource') {
         // TAG=opensource: top 15 items without score filtering, direct translated
         const opensourceItems = devtoItems.filter(
           (it) => it.tags.includes('tab:opensource') || it.tags.some((t) => t.toLowerCase() === 'tag:opensource'),
         )
-        // Sort latest first
         opensourceItems.sort(
-          (a, b) => Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
+          (a, b) =>
+            toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt) ||
+            (b.news.points ?? 0) - (a.news.points ?? 0),
         )
         allRepos = opensourceItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
       } else {
@@ -161,33 +164,26 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
           (a, b) =>
             b.score.total - a.score.total ||
             b.relevance.score - a.relevance.score ||
-            b.news.points - a.news.points ||
-            Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
+            (b.news.points ?? 0) - (a.news.points ?? 0) ||
+            toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt),
         )
         allRepos = devtoItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
       }
     } else if (newsSource === 'lobsters') {
-      const lobstersItems = rawNewsList.filter(
-        (it) => it.sources.includes('lobsters') || it.key.startsWith('lobsters:') || it.tags.includes('source:lobsters'),
-      )
+      const lobstersItems = rawNewsList.filter(isLobsters)
       // Channels in order: release (default), ai, show
       const targetTag = `tag:${lobstersChannel}`
       const filtered = lobstersItems.filter((it) => it.tags.includes(targetTag))
       filtered.sort(
         (a, b) =>
-          b.news.points - a.news.points ||
-          b.news.comments - a.news.comments ||
-          Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
+          (b.news.points ?? 0) - (a.news.points ?? 0) ||
+          (b.news.comments ?? 0) - (a.news.comments ?? 0) ||
+          toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt),
       )
       allRepos = filtered.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
     } else {
       // Default: Hacker News
-      const hnItems = rawNewsList.filter(
-        (it) =>
-          it.sources.includes('hacker-news') ||
-          it.key.startsWith('hn:') ||
-          (!it.sources.includes('dev-to') && !it.sources.includes('lobsters') && !it.key.startsWith('devto:') && !it.key.startsWith('lobsters:')),
-      )
+      const hnItems = rawNewsList.filter(isHn)
       if (hnChannel === 'show') {
         hnItems.sort(
           (a, b) =>
@@ -199,9 +195,9 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
           (a, b) =>
             b.score.total - a.score.total ||
             b.relevance.score - a.relevance.score ||
-            b.news.points - a.news.points ||
-            b.news.comments - a.news.comments ||
-            Date.parse(b.publishedAt ?? '') - Date.parse(a.publishedAt ?? ''),
+            (b.news.points ?? 0) - (a.news.points ?? 0) ||
+            (b.news.comments ?? 0) - (a.news.comments ?? 0) ||
+            toTime(b.publishedAt) - toTime(a.publishedAt),
         )
       }
       allRepos = hnItems.map((item, idx) => ({ ...item, rank: idx + 1 }))
