@@ -3721,21 +3721,21 @@
    "category": "tool",
    "key": "hn:50007993",
    "metrics": {
-    "comments": 21,
+    "comments": 22,
     "frontPage": 0,
-    "points": 69
+    "points": 73
    },
    "news": {
     "author": "felix089",
-    "comments": 21,
+    "comments": 22,
     "createdAt": "2026-10-08T16:34:13.000Z",
     "domain": "opper.ai",
     "hnId": 50007993,
     "hnUrl": "https://news.ycombinator.com/item?id=50007993",
-    "points": 69,
+    "points": 73,
     "showRank": 12
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-08T16:34:13.000Z",
    "refs": [
     "gh:opper-ai/jevman-benchmark",
@@ -3763,21 +3763,21 @@
    "category": "discussion",
    "key": "hn:50008187",
    "metrics": {
-    "comments": 293,
+    "comments": 300,
     "frontPage": 0,
-    "points": 414
+    "points": 424
    },
    "news": {
     "author": "mfiguiere",
-    "comments": 293,
+    "comments": 300,
     "createdAt": "2026-10-08T16:45:58.000Z",
     "domain": "cnbc.com",
     "hnId": 50008187,
     "hnUrl": "https://news.ycombinator.com/item?id=50008187",
-    "points": 414,
+    "points": 424,
     "showRank": 12
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-08T16:45:58.000Z",
    "refs": [
     "url:ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a",
@@ -3845,21 +3845,21 @@
    "category": "discussion",
    "key": "hn:50013902",
    "metrics": {
-    "comments": 275,
+    "comments": 302,
     "frontPage": 0,
-    "points": 183
+    "points": 201
    },
    "news": {
     "author": "md224",
-    "comments": 275,
+    "comments": 302,
     "createdAt": "2026-10-08T23:29:43.000Z",
     "domain": "karagila.org",
     "hnId": 50013902,
     "hnUrl": "https://news.ycombinator.com/item?id=50013902",
-    "points": 183,
-    "showRank": 42
+    "points": 201,
+    "showRank": 34
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-08T23:29:43.000Z",
    "refs": [
     "url:karagila.org/2026/openai-pp"
@@ -3924,21 +3924,21 @@
    "category": "research",
    "key": "hn:50018350",
    "metrics": {
-    "comments": 144,
+    "comments": 207,
     "frontPage": 0,
-    "points": 232
+    "points": 329
    },
    "news": {
     "author": "trakkstar",
-    "comments": 144,
+    "comments": 207,
     "createdAt": "2026-10-09T10:00:26.000Z",
     "domain": "techcrunch.com",
     "hnId": 50018350,
     "hnUrl": "https://news.ycombinator.com/item?id=50018350",
-    "points": 232,
-    "showRank": 30
+    "points": 329,
+    "showRank": 21
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-09T10:00:26.000Z",
    "refs": [
     "url:techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect"
@@ -3953,7 +3953,7 @@
    "sources": [
     "hacker-news"
    ],
-   "summary": "",
+   "summary": "Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...",
    "tags": [],
    "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
    "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
@@ -3963,21 +3963,21 @@
    "category": "tool",
    "key": "hn:50018817",
    "metrics": {
-    "comments": 131,
+    "comments": 175,
     "frontPage": 0,
-    "points": 312
+    "points": 392
    },
    "news": {
     "author": "franze",
-    "comments": 131,
+    "comments": 175,
     "createdAt": "2026-10-09T11:03:48.000Z",
     "domain": "github.com",
     "hnId": 50018817,
     "hnUrl": "https://news.ycombinator.com/item?id=50018817",
-    "points": 312,
-    "showRank": 1
+    "points": 392,
+    "showRank": 8
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-09T11:03:48.000Z",
    "refs": [
     "gh:franzenzenhofer/big-arrow-on-the-screen"
@@ -4005,21 +4005,21 @@
    "category": "discussion",
    "key": "hn:50019455",
    "metrics": {
-    "comments": 137,
+    "comments": 164,
     "frontPage": 0,
-    "points": 160
+    "points": 184
    },
    "news": {
     "author": "cainxinth",
-    "comments": 137,
+    "comments": 164,
     "createdAt": "2026-10-09T12:21:24.000Z",
     "domain": "washingtonpost.com",
     "hnId": 50019455,
     "hnUrl": "https://news.ycombinator.com/item?id=50019455",
-    "points": 160,
-    "showRank": 44
+    "points": 184,
+    "showRank": 41
    },
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "publishedAt": "2026-10-09T12:21:24.000Z",
    "refs": [
     "url:washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media"
@@ -4081,46 +4081,51 @@
   }
  ],
  "date": "2026-10-09",
- "fetchedAt": "2026-10-09T18:21:05.907Z",
+ "fetchedAt": "2026-10-10T07:04:56.138Z",
  "runs": [
   "2026-10-08T18:50:34.015Z",
   "2026-10-09T07:22:50.064Z",
-  "2026-10-09T18:21:05.907Z"
+  "2026-10-09T18:21:05.907Z",
+  "2026-10-10T07:04:56.138Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "repos",
    "count": 313,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "github-search",
+   "settledAt": "2026-10-10T07:04:56.138Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 172,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "count": 173,
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "github-trending",
+   "settledAt": "2026-10-10T07:04:56.138Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 72,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "count": 71,
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-10T07:04:56.138Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-10T07:04:56.138Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -4128,15 +4133,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-09T18:21:05.907Z",
+   "fetchedAt": "2026-10-10T07:04:56.138Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-10T07:04:56.138Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-08T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-09T16:00:00.000Z"
  }

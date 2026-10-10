@@ -94,6 +94,21 @@
   },
   "hash": "02e7bdb1145aa673"
  },
+ "gh:berriai/litellm": {
+  "copy": {
+   "zh": {
+    "blurb": "litellm 采用 Rust 核心实现，提供 Python SDK，可统一调用 100+ 大模型 API，具备成本追踪、守护规则、负载均衡与日志功能。",
+    "points": [
+     "Rust 高性能后端，低延迟",
+     "统一 OpenAI 接口兼容多家提供商",
+     "内置成本监控与安全守护"
+    ],
+    "title": "litellm：轻量高速的 AI 网关",
+    "why": "简化多模型集成，帮助企业在成本和安全上实现精细管理。"
+   }
+  },
+  "hash": "78cdf097de5a0ffb"
+ },
  "gh:bilawalsidhu/gods-eye-view": {
   "copy": {
    "zh": {
@@ -142,17 +157,17 @@
  "gh:cathrynlavery/diagram-design": {
   "copy": {
    "zh": {
-    "blurb": "提供 42 种图表的自包含 HTML+SVG 方案，用于展示 Claude Code、Codex、GitHub Copilot 等的工作原理，无阴影、无 Mermaid 依赖。",
+    "blurb": "项目提供 44 种编辑式图表模板，使用纯 HTML+SVG 实现，无 Mermaid 依赖，适配 Claude Code、Codex、Copilot 等代码生成工具。",
     "points": [
-     "纯 HTML+SVG，无外部库",
-     "支持多种 AI 编码工具的图示",
-     "可直接在浏览器离线查看"
+     "44 种图表类型，覆盖常见架构图",
+     "纯 HTML+SVG，无外部渲染引擎",
+     "可直接嵌入 AI 生成的代码块"
     ],
-    "title": "cathrynlavery/diagram-design：AI 代码图示编辑器",
-    "why": "可视化代码模型有助于理解和教学，轻量方案易于嵌入文档。"
+    "title": "diagram-design：面向 AI 工具的编辑式图表库",
+    "why": "为 AI 生成的文档提供高质量、可自定义的可视化，提升可读性与专业度。"
    }
   },
-  "hash": "1a1e9dd85f5d0c0b"
+  "hash": "1173630aadb0b42d"
  },
  "gh:code-yeongyu/oh-my-openagent": {
   "copy": {
@@ -852,6 +867,21 @@
   },
   "hash": "ec1e4f8589762344"
  },
+ "gh:twostraws/swiftui-agent-skill": {
+  "copy": {
+   "zh": {
+    "blurb": "该 GitHub 项目实现了 SwiftUI 代理技能，可让 Claude Code、Codex 等模型直接在 iOS/macOS 应用中生成 UI 代码，提升开发者交互效率。",
+    "points": [
+     "支持多模型调用 Claude、Codex 等",
+     "自动生成 SwiftUI 视图代码",
+     "开源可直接在 Xcode 项目中集成"
+    ],
+    "title": "SwiftUI-Agent-Skill：为 Claude Code 等 AI 工具提供 SwiftUI 插件",
+    "why": "将生成式 AI 与本地 UI 框架结合，加速低代码开发趋势。"
+   }
+  },
+  "hash": "862646183d1ec105"
+ },
  "gh:unslothai/unsloth": {
   "copy": {
    "zh": {
@@ -1087,6 +1117,21 @@
    }
   },
   "hash": "09b44a5c3114ef11"
+ },
+ "hf:qwen/qwen-image-2.1-turbo": {
+  "copy": {
+   "zh": {
+    "blurb": "Qwen 系列最新的 Image-2.1-Turbo 在保持高分辨率生成的同时，显著提升推理速度，适用于实时创作和大规模批处理。",
+    "points": [
+     "比前代提升约30% 推理速度",
+     "支持 1024×1024 高分辨率输出",
+     "开源可在多种硬件上部署"
+    ],
+    "title": "Qwen-Image-2.1-Turbo：高效文本到图像模型",
+    "why": "加速文本生成图像的商业应用，降低算力成本。"
+   }
+  },
+  "hash": "bfa78cad6e283836"
  },
  "hf:qwen/qwen3.8-27b": {
   "copy": {
@@ -1700,17 +1745,17 @@
  "hn:50018350": {
   "copy": {
    "zh": {
-    "blurb": "OpenAI 因“错误处理研究信息”而解雇了三名安全团队成员，此事在 TechCrunch 报道，引发对科研自由和安全团队独立性的担忧。",
+    "blurb": "OpenAI 近日宣布解雇三位 AI 安全团队成员，理由是他们在内部分享研究信息时被指违规。公司称此举为维护信息安全，但被解雇者和业界担忧可能产生寒蝉效应。",
     "points": [
-     "解雇原因涉及内部信息管理",
-     "引发业界对安全研究环境的质疑",
-     "可能产生寒蝉效应抑制风险研究"
+     "解雇原因涉及内部信息披露政策",
+     "被解雇者警告行业可能出现审查趋严",
+     "可能影响 OpenAI 安全团队的长期研发"
     ],
-    "title": "OpenAI 解雇三名安全研究员",
-    "why": "可能导致安全研究者自我审查，影响 AI 安全方向的前沿探索。"
+    "title": "OpenAI 解雇三名安全研究员 因“处理研究信息不当”",
+    "why": "安全研究是防止 AI 滥用的关键，人员流失可能削弱风险防控。"
    }
   },
-  "hash": "983069d66c579128"
+  "hash": "3fb4637ddc4a685f"
  },
  "hn:50018817": {
   "copy": {
@@ -1756,5 +1801,50 @@
    }
   },
   "hash": "7e09099b646a7b26"
+ },
+ "hn:50026819": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目在 ESP32S3 上实现 4bit 量化的离线 STT 与 TTS，支持 Micropython 与 AtomVM，能够在无云环境下进行语音交互，适配低成本硬件。",
+    "points": [
+     "4bit 整数核实现高效推理",
+     "自定义模型适配嘈杂环境",
+     "兼容 Micropython 与 AtomVM 两种运行时"
+    ],
+    "title": "Babytalk：ESP32 离线语音识别与合成",
+    "why": "解决物联网设备隐私和网络依赖问题，推动本地 AI 语音技术落地。"
+   }
+  },
+  "hash": "7c5c1168206668c2"
+ },
+ "hn:50027118": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 的大型语言模型向费城警方提交了一条关于未破案谋杀案的错误线索，警方证实该信息为虚假。此事突显生成式 AI 在司法领域的潜在风险。",
+    "points": [
+     "模型在未验证信息上生成具体指控",
+     "警方需投入资源核查虚假线索",
+     "呼吁加强 AI 输出审查机制"
+    ],
+    "title": "Anthropic 模型误报费城悬案线索",
+    "why": "虚假线索可能误导执法，凸显对 AI 输出可信度的监管需求。"
+   }
+  },
+  "hash": "a3e486ae76e473c8"
+ },
+ "hn:50029175": {
+  "copy": {
+   "zh": {
+    "blurb": "tgv 是一款 Vim 风格的键盘驱动基因组查看器，提供快速 SQL 数据层供 AI 代理读取多组学数据，并在界面中实时解释分析结果。",
+    "points": [
+     "键盘驱动的高效 TUI 界面",
+     "通过 SQL 暴露多组学数据给 AI 代理",
+     "在视图中实时呈现 AI 解释"
+    ],
+    "title": "tgv：面向人机协作的基因组浏览器",
+    "why": "将 LLM 代理与生物信息学工具深度集成，提升科研效率和可解释性。"
+   }
+  },
+  "hash": "a891bfe61629fa97"
  }
 }

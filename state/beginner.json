@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -36,7 +36,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:diegosouzapw/omniroute": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:diegosouzapw/omniroute",
@@ -77,7 +77,7 @@
    "sourceKey": "gh:diegosouzapw/omniroute"
   },
   "discovery:gh:farion1231/cc-switch": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:farion1231/cc-switch",
@@ -111,7 +111,7 @@
    "sourceKey": "gh:farion1231/cc-switch"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -336,7 +336,7 @@
    "sourceKey": "gh:manaflow-ai/cmux"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -377,7 +377,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -389,7 +389,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-09T18:19:11.000Z",
+    "sourceUpdatedAt": "2026-10-10T07:03:30.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -418,7 +418,7 @@
    "sourceKey": "gh:stablyai/orca"
   },
   "discovery:gh:unslothai/unsloth": {
-   "observedAt": "2026-10-09T18:21:05.907Z",
+   "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:unslothai/unsloth",
@@ -1593,41 +1593,6 @@
     }
    }
   },
-  "https://github.com/farion1231/cc-switch": {
-   "days": {
-    "2026-10-10": 75
-   },
-   "resource": {
-    "freshnessBasis": "first-observed",
-    "id": "discovery:gh:farion1231/cc-switch",
-    "level": "starter",
-    "scores": {
-     "authority": 5,
-     "clarity": 3,
-     "foundation": 3,
-     "practice": 4
-    },
-    "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-09T18:21:05.907Z",
-    "summary": {
-     "en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-     "zh": "CC‑Switch 是一款跨平台桌面应用，统一接入 Claude Code、Codex、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等多种 LLM 助手，官方站点 ccswitch.io。"
-    },
-    "title": {
-     "en": "farion1231/cc-switch",
-     "zh": "CC‑Switch：跨平台多模型桌面助手"
-    },
-    "topics": [
-     "trend:daily"
-    ],
-    "type": "repo",
-    "url": "https://github.com/farion1231/cc-switch",
-    "why": {
-     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。为开发者提供“一站式”切换多种 AI 编码助手的体验，提升工作流效率。"
-    }
-   }
-  },
   "https://github.com/features/copilot": {
    "days": {
     "2026-10-06": 90,
@@ -2270,6 +2235,48 @@
     "why": {
      "en": "Create searchable text from scanned material.",
      "zh": "给扫描资料建立可搜索的文字底稿。"
+    }
+   }
+  },
+  "https://github.com/stablyai/orca": {
+   "days": {
+    "2026-10-10": 75
+   },
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:stablyai/orca",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-10T07:03:30.000Z",
+    "summary": {
+     "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+     "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
+    },
+    "title": {
+     "en": "stablyai/orca",
+     "zh": "Orca – 并行代理 fleet 的 ADE 平台"
+    },
+    "topics": [
+     "ade",
+     "agent-ide",
+     "ai-agents",
+     "claude-code",
+     "cli",
+     "codex",
+     "cursor-agent",
+     "devtools"
+    ],
+    "type": "repo",
+    "url": "https://github.com/stablyai/orca",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
     }
    }
   },
@@ -3528,7 +3535,7 @@
    "returns": 0
   },
   "https://github.com/farion1231/cc-switch": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-09T18:21:05.907Z",
    "firstEnteredAt": "2026-10-09T18:21:05.907Z",
    "initial": false,
@@ -3679,6 +3686,13 @@
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
    "firstEnteredAt": "2026-10-06T09:37:13.355Z",
    "initial": true,
+   "returns": 0
+  },
+  "https://github.com/stablyai/orca": {
+   "active": true,
+   "currentEnteredAt": "2026-10-10T07:04:56.138Z",
+   "firstEnteredAt": "2026-10-10T07:04:56.138Z",
+   "initial": false,
    "returns": 0
   },
   "https://github.com/subtitleedit/subtitleedit": {
