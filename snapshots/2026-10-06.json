@@ -4272,6 +4272,90 @@
    "tags": [],
    "title": "Mistral Large 4: \"Le Chonk\"",
    "url": "https://mistral.ai/news/mistral-large-4/"
+  },
+  {
+   "board": "news",
+   "category": "release",
+   "key": "lobsters:ppzbqo",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 29
+   },
+   "news": {
+    "author": "rajtilakjee",
+    "comments": 0,
+    "createdAt": "2026-10-06T09:30:40.552-05:00",
+    "domain": "pola.rs",
+    "hnId": 1555292976,
+    "hnUrl": "https://lobste.rs/s/ppzbqo/release_polars_2_0",
+    "points": 29
+   },
+   "observedAt": "2026-10-10T15:36:30.213Z",
+   "publishedAt": "2026-10-06T09:30:40.552-05:00",
+   "refs": [
+    "url:pola.rs/posts/release-polars-2"
+   ],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:release"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:release"
+   ],
+   "title": "Release of Polars 2.0",
+   "url": "https://pola.rs/posts/release-polars-2/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "lobsters:vqm1fy",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 6
+   },
+   "news": {
+    "author": "abhin4v",
+    "comments": 1,
+    "createdAt": "2026-10-06T00:39:57.482-05:00",
+    "domain": "kitallis.in",
+    "hnId": 1919149774,
+    "hnUrl": "https://lobste.rs/s/vqm1fy/hutch_local_code_reviews_emacs_for_mildly",
+    "points": 6
+   },
+   "observedAt": "2026-10-10T15:36:30.213Z",
+   "publishedAt": "2026-10-06T00:39:57.482-05:00",
+   "refs": [
+    "url:kitallis.in/p/hutch-a-local-code-review-interface-for-magit"
+   ],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:release",
+    "tag:emacs",
+    "tag:vibecoding"
+   ],
+   "title": "hutch: local code reviews in emacs for the mildly disenfranchised",
+   "url": "https://kitallis.in/p/hutch-a-local-code-review-interface-for-magit/"
   }
  ],
  "coverage": {
@@ -4282,7 +4366,7 @@
   "startedAt": "2026-10-06T09:37:13.355Z"
  },
  "date": "2026-10-06",
- "fetchedAt": "2026-10-10T15:06:36.105Z",
+ "fetchedAt": "2026-10-10T15:36:30.213Z",
  "runs": [
   "2026-10-06T09:37:13.355Z",
   "2026-10-06T12:42:56.454Z",
@@ -4293,7 +4377,8 @@
   "2026-10-09T07:22:50.064Z",
   "2026-10-09T18:21:05.907Z",
   "2026-10-10T07:04:56.138Z",
-  "2026-10-10T15:06:36.105Z"
+  "2026-10-10T15:06:36.105Z",
+  "2026-10-10T15:36:30.213Z"
  ],
  "schema": 2,
  "sources": [
@@ -4308,14 +4393,14 @@
   {
    "board": "repos",
    "count": 312,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "github-search",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 180,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "count": 179,
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "github-trending",
    "state": "ok"
   },
@@ -4330,21 +4415,22 @@
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "hf-trending",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 75,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "lobsters",
+   "settledAt": "2026-10-10T15:36:30.213Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -4352,7 +4438,7 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "fetchedAt": "2026-10-10T15:36:30.213Z",
    "id": "x-linked",
    "mode": "syndication",
    "state": "ok"

@@ -1,4 +1,60 @@
 {
+ "devto:4824129": {
+  "copy": {
+   "zh": {
+    "blurb": "宣布首届 MLH x DEV 写作挑战的获奖者，该活动旨在鼓励技术写作并分享高质量内容。",
+    "points": [
+     "首次跨平台写作挑战，提升技术分享热情",
+     "获奖者提供高质量技术内容，丰富社区资源"
+    ],
+    "title": "首届 MLH x DEV 写作挑战获奖者公布",
+    "why": "通过写作挑战鼓励技术分享，丰富社区知识库。"
+   }
+  },
+  "hash": "2c4c1612d8f6c77e"
+ },
+ "devto:4825130": {
+  "copy": {
+   "zh": {
+    "blurb": "公布 Hacktoberfest 周末挑战 “Build for a Friend” 的获奖作品，表彰在限定时间内为朋友开发创意项目的开发者。",
+    "points": [
+     "通过为朋友构建项目促进协作与学习",
+     "获奖作品展示创意实现，激励社区参与"
+    ],
+    "title": "Hacktoberfest 周末挑战：Build for a Friend 获奖作品",
+    "why": "激励开发者在限定时间内合作创新，提升开源社区活跃度。"
+   }
+  },
+  "hash": "5e7f888bda2341c1"
+ },
+ "devto:4826975": {
+  "copy": {
+   "zh": {
+    "blurb": "WildProof 是一项 Hacktoberfest AI 挑战作品，鼓励用户走出户外提出问题并返回实证数据，结合 AI 进行分析。",
+    "points": [
+     "结合 AI 与实地调查，收集真实证据",
+     "鼓励走出室内，提升对自然的认知"
+    ],
+    "title": "WildProof：带着问题上户外，返回证据",
+    "why": "推动 AI 与真实世界交互，鼓励户外实践与数据收集。"
+   }
+  },
+  "hash": "fc7122f2c22f5cfd"
+ },
+ "devto:4827552": {
+  "copy": {
+   "zh": {
+    "blurb": "基于本地 AI，用户只需 10 秒即可生成一小时的免费步行计划，适用于 Hacktoberfest AI 挑战的实用示例。",
+    "points": [
+     "本地 AI 推理，零网络依赖",
+     "秒级生成完整步行计划，提高使用便利性"
+    ],
+    "title": "本地 AI 10 秒生成 1 小时免费步行计划",
+    "why": "展示本地 AI 的即时生成能力，提升离线应用可行性。"
+   }
+  },
+  "hash": "0ee84364a55dc216"
+ },
  "devto:4827735": {
   "copy": {
    "zh": {
@@ -43,6 +99,16 @@
    }
   },
   "hash": "da2e9b52964e1543"
+ },
+ "devto:4828441": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 dev.to 记录了让 Claude Code 通过修改测试用例来‘作弊’的实验，展示了它在何种情况下会直接改动测试以通过。",
+    "title": "我尝试让 Claude Code 在测试中作弊：它何时成功",
+    "why": "揭示 LLM 编码助手可能的安全风险，提醒用户审慎使用自动化测试修复功能。"
+   }
+  },
+  "hash": "a045dbf9ecad29fb"
  },
  "devto:4828569": {
   "copy": {
@@ -687,6 +753,16 @@
    }
   },
   "hash": "d1a03dc9eee2d7f8"
+ },
+ "gh:multica-ai/andrej-karpathy-skills": {
+  "copy": {
+   "zh": {
+    "blurb": "一个 CLAUDE.md 文件，汇总了 Andrej Karpathy 对 LLM 编码陷阱的观察，用以提升 Claude Code 的代码生成行为。",
+    "title": "multica-ai/andrej-karpathy-skills",
+    "why": "帮助开发者降低 Claude Code 的编码错误，提升代码质量。"
+   }
+  },
+  "hash": "047a33bf2d30e3fc"
  },
  "gh:nandhakishorm/laya": {
   "copy": {
@@ -1967,6 +2043,21 @@
   },
   "hash": "18b1260842c14ef7"
  },
+ "hn:50031614": {
+  "copy": {
+   "zh": {
+    "blurb": "Talorys 是一款可自托管的个人 AI 代理，部署在 Cloudflare 的免费层上，代码开源，可通过 Workers 运行，实现低成本的 AI 助手。",
+    "points": [
+     "利用 Cloudflare Workers 部署，无需额外服务器费用",
+     "支持自定义指令和记忆，灵活适配个人需求",
+     "轻量化设计，易于快速上手"
+    ],
+    "title": "Talorys：在 Cloudflare 免费层自托管的个人 AI 代理",
+    "why": "让个人无需额外服务器费用即可运行 AI 代理，降低入门门槛。"
+   }
+  },
+  "hash": "7e1fee2cee261e4b"
+ },
  "hn:50032374": {
   "copy": {
    "zh": {
@@ -1981,5 +2072,19 @@
    }
   },
   "hash": "c1219852c454f925"
+ },
+ "lobsters:rpiwtb": {
+  "copy": {
+   "zh": {
+    "blurb": "Python 官方发布 3.15.0 版本，带来一系列性能、语法和安全性的改进，建议用户升级到最新版。",
+    "points": [
+     "最新稳定版，包含性能与安全改进",
+     "保持向后兼容，建议用户尽快升级"
+    ],
+    "title": "Python 3.15.0 正式发布",
+    "why": "新版本带来性能与安全提升，保持 Python 的竞争力。"
+   }
+  },
+  "hash": "8d4f04b10a8a6c0c"
  }
 }
