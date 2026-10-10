@@ -129,6 +129,16 @@ export const configSchema = z.object({
       hours: z.number().int().min(6).max(96).default(48),
       minPoints: z.number().int().min(0).default(10),
     }),
+    devTo: z
+      .object({
+        enabled: z.boolean().default(true),
+      })
+      .default({ enabled: true }),
+    lobsters: z
+      .object({
+        enabled: z.boolean().default(true),
+      })
+      .default({ enabled: true }),
     x: z.object({
       enabled: z.boolean().default(true),
       /**

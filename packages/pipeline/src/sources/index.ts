@@ -10,6 +10,9 @@ import { companySource, companyWeight, labCompanies } from './labs/index.ts'
 import { SITES } from './labs/sites.ts'
 import { xLinked, xSource } from './x/index.ts'
 
+import { devTo } from './dev-to.ts'
+import { lobsters } from './lobsters.ts'
+
 export { noteOf, type SourceNote, statusOf, withNote } from './status.ts'
 export { enqueueLinkedX, LINKED_QUEUE } from './x/linked.ts'
 
@@ -36,6 +39,8 @@ export const SOURCES: readonly SourceSpec[] = [
   { id: 'github-search', board: 'repos', enabled: (c) => c.sources.githubSearch.enabled, create: githubSearch },
   { id: 'hf-trending', board: 'hf', enabled: (c) => c.sources.hfTrending.enabled, create: hfTrending },
   { id: 'hacker-news', board: 'news', enabled: (c) => c.sources.hackerNews.enabled, create: hackerNews },
+  { id: 'dev-to', board: 'news', enabled: (c) => c.sources.devTo.enabled, create: devTo },
+  { id: 'lobsters', board: 'news', enabled: (c) => c.sources.lobsters.enabled, create: lobsters },
   // Paid providers stay unconstructed (no network, no cost) unless X is explicitly enabled.
   { id: 'x', board: 'social', enabled: (c) => c.sources.x.enabled, create: xSource },
   { id: 'x-linked', board: 'social', enabled: (c) => c.sources.x.linked, create: xLinked },

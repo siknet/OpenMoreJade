@@ -251,10 +251,15 @@ const zh: Record<keyof Messages, string> = {
   // ── boards ──
   'board.repos': '开源项目',
   'board.hf': 'HF 趋势',
-  'board.news': 'Hacker News',
-  'board.newsChannels': 'Hacker News 频道',
+  'board.news': '资讯',
+  'board.newsChannels': '资讯频道',
   'board.newsShow': 'SHOW 自秀',
   'board.newsBest': 'BEST 精选',
+  'board.newsDevToLatest': '最新精选',
+  'board.newsDevToOpensource': '开源精选',
+  'board.newsLobstersRelease': 'Release',
+  'board.newsLobstersAi': 'AI',
+  'board.newsLobstersShow': 'Show',
   'board.social': '社区',
   'board.labs': '官方动态',
   'board.switcher': '榜单',
@@ -354,7 +359,7 @@ const zh: Record<keyof Messages, string> = {
 
   // ── item detail ──
   'detail.label': '条目详情',
-  'detail.why': '',
+  'detail.why': '入选理由：',
   'detail.points': '要点',
   'detail.showOriginal': '查看原文',
   'detail.showTranslation': '查看译文',

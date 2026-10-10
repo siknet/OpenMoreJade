@@ -177,7 +177,7 @@ jobs:
             echo "Not Monday (UTC) - nothing to do."
             exit 0
           fi
-          for workflow in daily.yml mail.yml; do
+          for workflow in daily.yml; do
             if gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable" --silent; then
               echo "$workflow: enabled"
             else

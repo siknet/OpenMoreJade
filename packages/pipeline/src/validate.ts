@@ -169,7 +169,7 @@ const newsItem = z.object({
     points: z.number(),
     comments: z.number(),
     createdAt: z.string(),
-    showRank: z.number().int().positive().optional(),
+    showRank: z.number().int().nonnegative().optional(),
   }),
 })
 

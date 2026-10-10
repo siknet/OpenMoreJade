@@ -101,6 +101,8 @@ const SOURCE_NAMES: Record<string, string> = {
   arxiv: 'arXiv',
   journals: 'Journals',
   'hacker-news': 'Hacker News',
+  'dev-to': 'Dev.to',
+  lobsters: 'Lobste.rs',
   reddit: 'Reddit',
   x: 'X',
   xapi: 'X API',

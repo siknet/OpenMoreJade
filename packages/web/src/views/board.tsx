@@ -92,7 +92,10 @@ function EmptyBoard({
 /** A board's column (wide grid) or panel (narrow). */
 export function BoardColumn({ board, day, date, meta, category, span, panelProps, total }: BoardColumnProps) {
   const [trendRange, setTrendRange] = useState<'daily' | 'weekly' | 'monthly'>('daily')
-  const [newsChannel, setNewsChannel] = useState<'show' | 'best'>('show')
+  const [newsSource, setNewsSource] = useState<'hn' | 'devto' | 'lobsters'>('hn')
+  const [hnChannel, setHnChannel] = useState<'show' | 'best'>('show')
+  const [devtoChannel, setDevtoChannel] = useState<'latest' | 'opensource'>('latest')
+  const [lobstersChannel, setLobstersChannel] = useState<'release' | 'ai' | 'show'>('release')
   const data = day.boards[board] ?? { top: [], runnersUp: [] }
 
   // When viewing repos, filter and rank by the official GitHub Trending scope
@@ -134,27 +137,75 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
     allRepos = [...tagged, ...rest].map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
-  // HN uses one Algolia pool for both views. SHOW is the newest 15 stories;
-  // BEST uses the pipeline's transparent score and engagement signals.
+  // News board: Hacker News, Dev.to, Lobste.rs
   if (board === 'news') {
-    const newsItems = allRepos.filter((item) => item.board === 'news')
-    if (newsChannel === 'show') {
-      newsItems.sort(
-        (a, b) =>
-          (a.news.showRank ?? Number.MAX_SAFE_INTEGER) - (b.news.showRank ?? Number.MAX_SAFE_INTEGER) ||
-          b.rank - a.rank,
+    const rawNewsList = allRepos.filter((item) => item.board === 'news')
+
+    if (newsSource === 'devto') {
+      const devtoItems = rawNewsList.filter(
+        (it) => it.sources.includes('dev-to') || it.key.startsWith('devto:') || it.tags.includes('source:dev-to'),
       )
-    } else {
-      newsItems.sort(
+      if (devtoChannel === 'opensource') {
+        // TAG=opensource: top 15 items without score filtering, direct translated
+        const opensourceItems = devtoItems.filter(
+          (it) => it.tags.includes('tab:opensource') || it.tags.some((t) => t.toLowerCase() === 'tag:opensource'),
+        )
+        // Sort latest first
+        opensourceItems.sort(
+          (a, b) => Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
+        )
+        allRepos = opensourceItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+      } else {
+        // Default tab: 15 latest items screened/ranked by transparent score/relevance
+        devtoItems.sort(
+          (a, b) =>
+            b.score.total - a.score.total ||
+            b.relevance.score - a.relevance.score ||
+            b.news.points - a.news.points ||
+            Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
+        )
+        allRepos = devtoItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+      }
+    } else if (newsSource === 'lobsters') {
+      const lobstersItems = rawNewsList.filter(
+        (it) => it.sources.includes('lobsters') || it.key.startsWith('lobsters:') || it.tags.includes('source:lobsters'),
+      )
+      // Channels in order: release (default), ai, show
+      const targetTag = `tag:${lobstersChannel}`
+      const filtered = lobstersItems.filter((it) => it.tags.includes(targetTag))
+      filtered.sort(
         (a, b) =>
-          b.score.total - a.score.total ||
-          b.relevance.score - a.relevance.score ||
           b.news.points - a.news.points ||
           b.news.comments - a.news.comments ||
-          Date.parse(b.publishedAt ?? '') - Date.parse(a.publishedAt ?? ''),
+          Date.parse(b.publishedAt ?? b.news.createdAt ?? '') - Date.parse(a.publishedAt ?? a.news.createdAt ?? ''),
       )
+      allRepos = filtered.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+    } else {
+      // Default: Hacker News
+      const hnItems = rawNewsList.filter(
+        (it) =>
+          it.sources.includes('hacker-news') ||
+          it.key.startsWith('hn:') ||
+          (!it.sources.includes('dev-to') && !it.sources.includes('lobsters') && !it.key.startsWith('devto:') && !it.key.startsWith('lobsters:')),
+      )
+      if (hnChannel === 'show') {
+        hnItems.sort(
+          (a, b) =>
+            (a.news.showRank ?? Number.MAX_SAFE_INTEGER) - (b.news.showRank ?? Number.MAX_SAFE_INTEGER) ||
+            b.rank - a.rank,
+        )
+      } else {
+        hnItems.sort(
+          (a, b) =>
+            b.score.total - a.score.total ||
+            b.relevance.score - a.relevance.score ||
+            b.news.points - a.news.points ||
+            b.news.comments - a.news.comments ||
+            Date.parse(b.publishedAt ?? '') - Date.parse(a.publishedAt ?? ''),
+        )
+      }
+      allRepos = hnItems.map((item, idx) => ({ ...item, rank: idx + 1 }))
     }
-    allRepos = newsItems.map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
   const topSize = board === 'news' ? Math.min(15, allRepos.length) : data.top.length || 10
@@ -222,25 +273,111 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
             </div>
           )}
           {board === 'news' && (
-            <div class="board__tabs" role="tablist" aria-label={t('board.newsChannels')}>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={newsChannel === 'show'}
-                class={`board__tab ${newsChannel === 'show' ? 'is-active' : ''}`}
-                onClick={() => setNewsChannel('show')}
-              >
-                {t('board.newsShow')}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={newsChannel === 'best'}
-                class={`board__tab ${newsChannel === 'best' ? 'is-active' : ''}`}
-                onClick={() => setNewsChannel('best')}
-              >
-                {t('board.newsBest')}
-              </button>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+              <div class="board__tabs" role="tablist" aria-label="News Source Channel">
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={newsSource === 'hn'}
+                  class={`board__tab ${newsSource === 'hn' ? 'is-active' : ''}`}
+                  onClick={() => setNewsSource('hn')}
+                >
+                  Hacker News
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={newsSource === 'devto'}
+                  class={`board__tab ${newsSource === 'devto' ? 'is-active' : ''}`}
+                  onClick={() => setNewsSource('devto')}
+                >
+                  Dev.to
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={newsSource === 'lobsters'}
+                  class={`board__tab ${newsSource === 'lobsters' ? 'is-active' : ''}`}
+                  onClick={() => setNewsSource('lobsters')}
+                >
+                  Lobste.rs
+                </button>
+              </div>
+              {newsSource === 'hn' && (
+                <div class="board__tabs" role="tablist" aria-label={t('board.newsChannels')}>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={hnChannel === 'show'}
+                    class={`board__tab ${hnChannel === 'show' ? 'is-active' : ''}`}
+                    onClick={() => setHnChannel('show')}
+                  >
+                    {t('board.newsShow')}
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={hnChannel === 'best'}
+                    class={`board__tab ${hnChannel === 'best' ? 'is-active' : ''}`}
+                    onClick={() => setHnChannel('best')}
+                  >
+                    {t('board.newsBest')}
+                  </button>
+                </div>
+              )}
+              {newsSource === 'devto' && (
+                <div class="board__tabs" role="tablist" aria-label="Dev.to Tabs">
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={devtoChannel === 'latest'}
+                    class={`board__tab ${devtoChannel === 'latest' ? 'is-active' : ''}`}
+                    onClick={() => setDevtoChannel('latest')}
+                  >
+                    {t('board.newsDevToLatest')}
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={devtoChannel === 'opensource'}
+                    class={`board__tab ${devtoChannel === 'opensource' ? 'is-active' : ''}`}
+                    onClick={() => setDevtoChannel('opensource')}
+                  >
+                    {t('board.newsDevToOpensource')}
+                  </button>
+                </div>
+              )}
+              {newsSource === 'lobsters' && (
+                <div class="board__tabs" role="tablist" aria-label="Lobste.rs Tabs">
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={lobstersChannel === 'release'}
+                    class={`board__tab ${lobstersChannel === 'release' ? 'is-active' : ''}`}
+                    onClick={() => setLobstersChannel('release')}
+                  >
+                    {t('board.newsLobstersRelease')}
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={lobstersChannel === 'ai'}
+                    class={`board__tab ${lobstersChannel === 'ai' ? 'is-active' : ''}`}
+                    onClick={() => setLobstersChannel('ai')}
+                  >
+                    {t('board.newsLobstersAi')}
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={lobstersChannel === 'show'}
+                    class={`board__tab ${lobstersChannel === 'show' ? 'is-active' : ''}`}
+                    onClick={() => setLobstersChannel('show')}
+                  >
+                    {t('board.newsLobstersShow')}
+                  </button>
+                </div>
+              )}
             </div>
           )}
           {notable.length > 0 && (

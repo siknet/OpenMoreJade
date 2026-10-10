@@ -179,6 +179,14 @@ sources:
     hours: 48                 # 检索时间窗口（小时）；后劲强的热门帖子会在刊期封存前持续追踪其热度
     minPoints: 10             # 上榜最低点赞得分要求
 
+  # Dev.to 开发者社区资讯
+  devTo:
+    enabled: true
+
+  # Lobste.rs 极客资讯社区
+  lobsters:
+    enabled: true
+
   # X（Twitter）。2026年官方无免费 API：此监控列表使用官方按量计费 API 每月约需 20–30 美元
   # （可在 console.x.com 设置支出上限）；twitterapi.io / SocialData 成本更低但属于第三方非官方服务。
   # syndication 为免费实验性模式：仅对蓝标企业认证的官方机构账号实时有效。详见 docs/VERIFIED.md › v2 › X。
