@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-10T07:04:56.138Z",
+   "observedAt": "2026-10-10T15:06:36.105Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -24,6 +24,7 @@
      "zh": "OpenMontage：首个开源智能视频制作系统"
     },
     "topics": [
+     "trend:daily",
      "trend:weekly"
     ],
     "type": "repo",
@@ -36,7 +37,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:diegosouzapw/omniroute": {
-   "observedAt": "2026-10-10T07:04:56.138Z",
+   "observedAt": "2026-10-10T15:06:36.105Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:diegosouzapw/omniroute",
@@ -48,7 +49,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-09T17:44:08.000Z",
+    "sourceUpdatedAt": "2026-10-10T15:05:44.000Z",
     "summary": {
      "en": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
      "zh": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…"
@@ -336,7 +337,7 @@
    "sourceKey": "gh:manaflow-ai/cmux"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-10T07:04:56.138Z",
+   "observedAt": "2026-10-10T15:06:36.105Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -377,7 +378,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-10T07:04:56.138Z",
+   "observedAt": "2026-10-10T15:06:36.105Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -389,7 +390,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-10T07:03:30.000Z",
+    "sourceUpdatedAt": "2026-10-10T15:05:16.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -1555,6 +1556,48 @@
     }
    }
   },
+  "https://github.com/diegosouzapw/omniroute": {
+   "days": {
+    "2026-10-10": 75
+   },
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:diegosouzapw/omniroute",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-10T15:05:44.000Z",
+    "summary": {
+     "en": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+     "zh": "提供单一端点，支持 359 家供应商（其中 150+ 免费）和 1200+ 模型，如 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，实现配额感知自动回退、RTK+Caveman 压缩节省 15‑95% token，支持 MCP/A2A、桌面版和 PW…"
+    },
+    "title": {
+     "en": "diegosouzapw/OmniRoute",
+     "zh": "OmniRoute：免费 MIT AI 网关，统一接入 359 家提供商"
+    },
+    "topics": [
+     "a2a",
+     "ai-agents",
+     "ai-gateway",
+     "anthropic",
+     "claude",
+     "claude-code",
+     "cline",
+     "codex"
+    ],
+    "type": "repo",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。在多模型、多供应商环境下统一调用并显著降低 token 消耗，对开发者省时省力。"
+    }
+   }
+  },
   "https://github.com/docling-project/docling": {
    "days": {
     "2026-10-06": 90,
@@ -2235,48 +2278,6 @@
     "why": {
      "en": "Create searchable text from scanned material.",
      "zh": "给扫描资料建立可搜索的文字底稿。"
-    }
-   }
-  },
-  "https://github.com/stablyai/orca": {
-   "days": {
-    "2026-10-10": 75
-   },
-   "resource": {
-    "freshnessBasis": "repo-updated",
-    "id": "discovery:gh:stablyai/orca",
-    "level": "starter",
-    "scores": {
-     "authority": 5,
-     "clarity": 3,
-     "foundation": 3,
-     "practice": 4
-    },
-    "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-10T07:03:30.000Z",
-    "summary": {
-     "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
-    },
-    "title": {
-     "en": "stablyai/orca",
-     "zh": "Orca – 并行代理 fleet 的 ADE 平台"
-    },
-    "topics": [
-     "ade",
-     "agent-ide",
-     "ai-agents",
-     "claude-code",
-     "cli",
-     "codex",
-     "cursor-agent",
-     "devtools"
-    ],
-    "type": "repo",
-    "url": "https://github.com/stablyai/orca",
-    "why": {
-     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
     }
    }
   },
@@ -3527,6 +3528,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/diegosouzapw/omniroute": {
+   "active": true,
+   "currentEnteredAt": "2026-10-10T15:06:36.105Z",
+   "firstEnteredAt": "2026-10-10T15:06:36.105Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/docling-project/docling": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -3689,7 +3697,7 @@
    "returns": 0
   },
   "https://github.com/stablyai/orca": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-10T07:04:56.138Z",
    "firstEnteredAt": "2026-10-10T07:04:56.138Z",
    "initial": false,

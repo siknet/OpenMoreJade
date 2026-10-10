@@ -12,9 +12,11 @@
   "attemptedAt": "2026-10-09T07:22:50.064Z"
  },
  "2026-10-09": {
-  "attemptedAt": "2026-10-10T07:04:56.138Z"
+  "attemptedAt": "2026-10-10T15:06:36.105Z",
+  "reason": "invalid-response"
  },
  "2026-10-10": {
-  "attemptedAt": "2026-10-10T07:04:56.138Z"
+  "attemptedAt": "2026-10-10T15:06:36.105Z",
+  "reason": "invalid-response"
  }
 }

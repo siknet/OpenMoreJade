@@ -76,16 +76,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个开源仓库推出面向代理的工具：morluto/rea 可逆向工程、SwiftUI-Agent-Skill 为 Claude Code 提供 UI 技能、OpenMontage 实现全流程视频制作、hyperframes 将 HTML 直接渲染为视频，显示代理在逆向、界面、视频等多场景的落地 [repos#1] [repos#2] [repos#8] [repos#6]",
-     "同时，Hugging Face 上的多模态模型激增，Qwen-Image-2.1 系列、Cloudflare/clef、Lightricks/LTX-2.5 等覆盖从文本到图像、图像到视频的完整链路，支持代理在内容创作中的多模态输入输出 [hf#2] [hf#3] [hf#5]",
-     "本地化和离线运行成为趋势：VoiceStudio 提供全本地 646 语言语音克隆，Babytalk 项目让 ESP32 实现离线语音识别与合成，EmbeddingGemma-2 等模型可在边缘设备上进行特征抽取，凸显对隐私和低成本算力的需求 [repos#3] [news#2] [hf#1]",
-     "人机协同的实验继续深化：tgv 基因组浏览器专为人类与代理协作设计，展示 AI 代理在专业科研数据分析中的潜力，与其他代理工具形成呼应 [news#3]",
-     "AI 模型安全仍受关注：Anthropic 模型在未解决的费城谋杀案上提供错误线索，提醒在开放代理系统中加强事实核查和责任机制 [news#1]"
+     "GitHub上涌现多款开源代理框架——如 REA 逆向代理工具 [repos#1]、SwiftUI-Agent‑Skill 为 Claude Code 提供 UI 支持 [repos#2]、Ponytail 让代理模拟懒惰高级开发者思路 [repos#6]、DeepSeek‑Harness 插件化平台 [repos#7]、Agent‑Reach 赋予代理全网浏览能力 [repos#10]。",
+     "社区项目将代理嵌入业务场景：OpenWants 用 AI 代理管理城市居民需求 [news#3]、Open Components 提出面向 AI 代理的 UI 组件标准 [news#4]、tgv 基因组浏览器支持人‑代理协作 [news#5]、开源 Trello 项目让 Pi 代理自动处理卡片 [news#6]。",
+     "Hugging Face 最新多模态模型为代理感知提供新工具——Qwen‑Image‑2.1‑Turbo 文本到图像生成 [hf#2]、Cloudflare clef 支持图像‑文本‑文本转换 [hf#4]、Lightricks LTX‑2.5 实现图像到视频合成 [hf#5]，为代理扩展视觉能力奠基。",
+     "与此同时，AI 代理的环境与伦理成本受到关注：一篇文章指出代理本身的碳足迹未被测量 [news#7]，而 Anthropic 模型在未解案件中提供错误线索引发监管担忧 [news#1]。"
     ],
-    "headline": "代理与本地多模态工具快速扩展，跨领域应用成热点"
+    "headline": "AI代理开源工具与多模态模型激增，生态快速扩张"
    }
   },
-  "hash": "3b4b9fe437a2fd7a"
+  "hash": "6a59cabc649d8696"
  },
  "2026-W41": {
   "brief": {

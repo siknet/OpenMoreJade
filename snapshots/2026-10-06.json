@@ -3834,6 +3834,53 @@
   {
    "board": "news",
    "category": "discussion",
+   "key": "devto:4807580",
+   "metrics": {
+    "comments": 2,
+    "frontPage": 0,
+    "points": 16
+   },
+   "news": {
+    "author": "xbill",
+    "comments": 2,
+    "createdAt": "2026-10-06T15:09:17Z",
+    "domain": "dev.to",
+    "hnId": 4807580,
+    "hnUrl": "https://dev.to/gde/gemma-4-inference-on-aws-bedrock-sagemaker-gpus-inferentia-and-trainium-behind-one-strands-agent-2lnm",
+    "points": 16
+   },
+   "observedAt": "2026-10-10T15:06:36.105Z",
+   "publishedAt": "2026-10-06T15:09:17Z",
+   "refs": [
+    "url:dev.to/gde/gemma-4-inference-on-aws-bedrock-sagemaker-gpus-inferentia-and-trainium-behind-one-strands-agent-2lnm"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:gemma",
+     "weak:agent",
+     "weak:inference",
+     "weak:gpu",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "A step by step survey of six ways to serve a model on AWS, from a managed API to your own Neuron chip, driven by one Strands agent and measured on the same day with the same prompts.",
+   "tags": [
+    "source:dev-to",
+    "tag:aws",
+    "tag:ai",
+    "tag:machinelearning",
+    "tag:gemma"
+   ],
+   "title": "Gemma 4 Inference on AWS: Bedrock, SageMaker, GPUs, Inferentia and Trainium Behind One Strands Agent",
+   "url": "https://dev.to/gde/gemma-4-inference-on-aws-bedrock-sagemaker-gpus-inferentia-and-trainium-behind-one-strands-agent-2lnm"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
    "key": "hn:49968105",
    "metrics": {
     "comments": 186,
@@ -4235,7 +4282,7 @@
   "startedAt": "2026-10-06T09:37:13.355Z"
  },
  "date": "2026-10-06",
- "fetchedAt": "2026-10-10T07:04:56.138Z",
+ "fetchedAt": "2026-10-10T15:06:36.105Z",
  "runs": [
   "2026-10-06T09:37:13.355Z",
   "2026-10-06T12:42:56.454Z",
@@ -4245,21 +4292,30 @@
   "2026-10-08T18:50:34.015Z",
   "2026-10-09T07:22:50.064Z",
   "2026-10-09T18:21:05.907Z",
-  "2026-10-10T07:04:56.138Z"
+  "2026-10-10T07:04:56.138Z",
+  "2026-10-10T15:06:36.105Z"
  ],
  "schema": 2,
  "sources": [
   {
+   "board": "news",
+   "count": 60,
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "id": "dev-to",
+   "settledAt": "2026-10-10T15:06:36.105Z",
+   "state": "ok"
+  },
+  {
    "board": "repos",
-   "count": 313,
-   "fetchedAt": "2026-10-10T07:04:56.138Z",
+   "count": 312,
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
    "id": "github-search",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 173,
-   "fetchedAt": "2026-10-10T07:04:56.138Z",
+   "count": 180,
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
    "id": "github-trending",
    "state": "ok"
   },
@@ -4274,14 +4330,21 @@
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-10T07:04:56.138Z",
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
    "id": "hf-trending",
+   "state": "ok"
+  },
+  {
+   "board": "news",
+   "count": 75,
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
+   "id": "lobsters",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-10T07:04:56.138Z",
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -4289,7 +4352,7 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-10T07:04:56.138Z",
+   "fetchedAt": "2026-10-10T15:06:36.105Z",
    "id": "x-linked",
    "mode": "syndication",
    "state": "ok"
