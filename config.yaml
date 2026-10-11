@@ -320,7 +320,7 @@ enrich:
   languages: [zh]                              # 专注于高质量中文
   batchSize: 6                                 # 降低单批次大小以减少瞬时 Token 量，避免触发 TPM 限制
   concurrency: 1                               # 顺序单线程执行（避免并发脉冲请求引发 429）
-  maxItemsPerRun: 60                           # 单次优先润色 Top 60 条核心精选
+  maxItemsPerRun: 50                           # 单次优先润色 5 个板块各 Top 10（共 50 条核心精选）
   briefs: true                                 # 自动生成每日重点与摘要列表
 
   # 多个提供商按优先级从上到下排列

@@ -228,9 +228,7 @@ function Detail({ located }: { located: LocatedItem }) {
       {(why || points.length > 0) && (
         <div class="detail__plate detail__essence">
           {why && (
-            <p class="detail__why">
-              <strong>{t('detail.why')}</strong> {why}
-            </p>
+            <p class="detail__why">{why}</p>
           )}
           {points.length > 0 && (
             <ul class="detail__points" aria-label={t('detail.points')}>

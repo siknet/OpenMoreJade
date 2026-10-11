@@ -149,7 +149,6 @@ describe('ItemCard', () => {
     expect(el.querySelector('.card__title a')?.getAttribute('href')).toBe(item.url)
     expect(el.querySelector('[data-part="rank"]')?.textContent).toBe('1')
     expect(el.querySelector('.card__score')).toBeNull()
-    expect(el.querySelector('[aria-label="Open source page"]')?.getAttribute('href')).toBe(item.url)
   })
 
   it('shows board-specific facts', () => {

@@ -377,7 +377,7 @@ const en = {
 
   // ── item detail ──
   'detail.label': 'Item details',
-  'detail.why': 'Why it matters:',
+  'detail.why': 'Why it matters',
   'detail.points': 'Key points',
   'detail.showOriginal': 'Show original text',
   'detail.showTranslation': 'Show translation',

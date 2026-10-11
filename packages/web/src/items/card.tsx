@@ -73,13 +73,10 @@ export function ItemCard({ item, date, meta, showBoard, stale }: ItemCardProps) 
         </h3>
         {blurb && blurb !== title && <p class="card__blurb">{blurb}</p>}
         {why && (
-          <p class="card__why">
-            <strong>{t('detail.why')}</strong> {why}
-          </p>
+          <p class="card__why">{why}</p>
         )}
         <ItemMeta item={item} />
         <ResonanceMark own={item.board} links={item.resonance.links} level={item.resonance.level} names={names} />
-        <ItemActions item={item} placement="card" date={date} />
       </div>
     </article>
   )
@@ -132,9 +129,7 @@ export function RunnerRow({ item, date, showBoard }: RunnerRowProps) {
         <span class="runner__peek-title">{title}</span>
         {blurb && blurb !== title && <span class="runner__peek-blurb">{blurb}</span>}
         {why && (
-          <span class="runner__peek-why">
-            <strong>{t('detail.why')}</strong> {why}
-          </span>
+          <span class="runner__peek-why">{why}</span>
         )}
         <span class="runner__peek-meta">
           {item.category && (

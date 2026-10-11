@@ -156,7 +156,7 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
           toTime(b.publishedAt) - toTime(a.publishedAt),
       )
     }
-    allRepos = hnItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+    allRepos = hnItems.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
   // 2. Dev.to (D.T) 独立板块
@@ -167,7 +167,7 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
     const getCreatedAt = (it: DevToItem) => it.devto?.createdAt ?? (it as any).news?.createdAt ?? it.publishedAt
 
     if (devtoChannel === 'opensource') {
-      // TAG=opensource: top 15 items without score filtering, direct translated
+      // TAG=opensource: top 10 items without score filtering, direct translated
       const opensourceItems = devtoItems.filter(
         (it) => it.tags.includes('tab:opensource') || it.tags.some((t) => t.toLowerCase() === 'tag:opensource'),
       )
@@ -176,9 +176,9 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
           toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)) ||
           getPoints(b) - getPoints(a),
       )
-      allRepos = opensourceItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+      allRepos = opensourceItems.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
     } else {
-      // Default tab: 15 latest items screened/ranked by transparent score/relevance
+      // Default tab: 10 latest items screened/ranked by transparent score/relevance
       devtoItems.sort(
         (a, b) =>
           b.score.total - a.score.total ||
@@ -186,7 +186,7 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
           getPoints(b) - getPoints(a) ||
           toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)),
       )
-      allRepos = devtoItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+      allRepos = devtoItems.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
     }
   }
 
@@ -207,10 +207,10 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
         getComments(b) - getComments(a) ||
         toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)),
     )
-    allRepos = filtered.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+    allRepos = filtered.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
-  const topSize = ['news', 'devto', 'lobsters'].includes(board) ? Math.min(15, allRepos.length) : data.top.length || 10
+  const topSize = ['news', 'devto', 'lobsters'].includes(board) ? Math.min(10, allRepos.length) : Math.min(10, data.top.length || 10)
   const baseTop = allRepos.slice(0, topSize)
   const baseRunners = allRepos.slice(topSize)
 

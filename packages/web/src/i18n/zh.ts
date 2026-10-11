@@ -361,7 +361,7 @@ const zh: Record<keyof Messages, string> = {
 
   // ── item detail ──
   'detail.label': '条目详情',
-  'detail.why': '入选理由：',
+  'detail.why': '入选理由',
   'detail.points': '要点',
   'detail.showOriginal': '查看原文',
   'detail.showTranslation': '查看译文',
