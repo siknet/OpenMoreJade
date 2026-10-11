@@ -211,6 +211,14 @@ function signalLine(item: Item): string {
       facts.push(`${item.news.points} HN points, ${item.news.comments} comments`)
       if (item.news.domain) facts.push(item.news.domain)
       break
+    case 'devto':
+      facts.push(`${item.devto.points} reactions, ${item.devto.comments} comments on Dev.to`)
+      if (item.devto.domain) facts.push(item.devto.domain)
+      break
+    case 'lobsters':
+      facts.push(`${item.lobsters.points} points, ${item.lobsters.comments} comments on Lobsters`)
+      if (item.lobsters.domain) facts.push(item.lobsters.domain)
+      break
     case 'social': {
       const s = item.social
       if (s.platform === 'x') facts.push(`X post by @${s.handle ?? s.author}: ${s.likes} likes, ${s.comments} replies`)
@@ -236,6 +244,8 @@ const KIND: Record<Board, string> = {
   repos: 'repository',
   hf: 'Hugging Face model',
   news: 'Hacker News story',
+  devto: 'Dev.to article',
+  lobsters: 'Lobsters story',
   social: 'social post',
   labs: 'official AI-lab update',
 }

@@ -183,6 +183,80 @@ const SIGNALS: Record<Board, Record<string, SignalText>> = {
       },
     },
   },
+  devto: {
+    points: {
+      label: { en: 'Reactions', zh: '点赞互动' },
+      help: {
+        en: 'Dev.to reactions and heart count at our latest reading (highest value seen).',
+        zh: '最近一次读取时的 Dev.to 点赞与互动数（取观测到的最高值）。',
+      },
+    },
+    comments: {
+      label: { en: 'Comments', zh: '评论数' },
+      help: {
+        en: 'Number of Dev.to comments at our latest reading (highest value seen).',
+        zh: '最近一次读取时的 Dev.to 评论数（取观测到的最高值）。',
+      },
+    },
+    velocity: {
+      label: { en: 'Velocity', zh: '升温速度' },
+      help: {
+        en: 'Reactions per hour since publishing: reactions / max(2, age in hours at reading).',
+        zh: '发布以来每小时获得的互动数：互动数 / max(2, 最近一次读取时的小时数)。',
+      },
+    },
+    echo: {
+      label: { en: 'Echo', zh: '跨榜回响' },
+      help: {
+        en: "Number of other boards this article's resonance cluster reaches in this edition: 0–4.",
+        zh: '该条目所在的共振簇在本期触及的其他榜单数量：0–4。',
+      },
+    },
+    relevance: {
+      label: { en: 'Relevance', zh: '主题相关度' },
+      help: {
+        en: "The classifier's 0–1 on-topic score, from matched keywords and domains in config.yaml.",
+        zh: '分类器给出的 0–1 主题相关度，依据 config.yaml 中命中的关键词与域名计算。',
+      },
+    },
+  },
+  lobsters: {
+    points: {
+      label: { en: 'Score', zh: '得分' },
+      help: {
+        en: 'Lobste.rs score and upvotes at our latest reading (highest value seen).',
+        zh: '最近一次读取时的 Lobste.rs 社区得分（取观测到的最高值）。',
+      },
+    },
+    comments: {
+      label: { en: 'Comments', zh: '评论数' },
+      help: {
+        en: 'Number of Lobste.rs comments at our latest reading (highest value seen).',
+        zh: '最近一次读取时的 Lobste.rs 评论数（取观测到的最高值）。',
+      },
+    },
+    velocity: {
+      label: { en: 'Velocity', zh: '升温速度' },
+      help: {
+        en: 'Score per hour since submission: points / max(2, age in hours at reading).',
+        zh: '发帖以来每小时获得的分数：得分 / max(2, 最近一次读取时的小时数)。',
+      },
+    },
+    echo: {
+      label: { en: 'Echo', zh: '跨榜回响' },
+      help: {
+        en: "Number of other boards this story's resonance cluster reaches in this edition: 0–4.",
+        zh: '该帖子所在的共振簇在本期触及的其他榜单数量：0–4。',
+      },
+    },
+    relevance: {
+      label: { en: 'Relevance', zh: '主题相关度' },
+      help: {
+        en: "The classifier's 0–1 on-topic score, from matched keywords and domains in config.yaml.",
+        zh: '分类器给出的 0–1 主题相关度，依据 config.yaml 中命中的关键词与域名计算。',
+      },
+    },
+  },
   social: {
     lift: {
       label: { en: 'Lift', zh: '超常表现' },
@@ -292,6 +366,14 @@ function titles(config: Config): Record<Board, { title: Localized; subtitle: Loc
       title: { en: 'Hacker News', zh: 'Hacker News 热议' },
       subtitle: { en: 'What hackers are arguing about today', zh: '今天极客们都在讨论什么' },
     },
+    devto: {
+      title: { en: 'Dev.to', zh: 'Dev.to 实战' },
+      subtitle: { en: 'Practical developer insights and projects', zh: '开发者实战心得与开源分享' },
+    },
+    lobsters: {
+      title: { en: 'Lobste.rs', zh: 'Lobste.rs 极客' },
+      subtitle: { en: 'Computing, releases and serious discussions', zh: '严肃计算机技术、框架发布与深度探讨' },
+    },
     social: {
       title: { en: 'Social', zh: '社区动态' },
       subtitle: {
@@ -329,6 +411,8 @@ export const CAP_KEYS: Record<Board, readonly string[]> = {
   repos: [],
   hf: [],
   news: [],
+  devto: [],
+  lobsters: [],
   social: ['perAuthor', 'perCommunity', 'perPlatform'],
   labs: ['perCompany'],
 }

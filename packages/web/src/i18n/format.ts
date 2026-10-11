@@ -66,6 +66,7 @@ function tzPart(timeZone: string, at: Date, locale: string, style: Intl.DateTime
  * The same code is used in both UI languages — it is an identifier, not prose.
  */
 export function tzAbbr(timeZone: string, at: Date = new Date()): string {
+  if (timeZone === 'UTC' || timeZone === 'Etc/UTC') return 'UTC'
   const generic = tzPart(timeZone, at, 'en-US', 'shortGeneric')
   if (/^[A-Z]{1,5}$/.test(generic)) return generic
   return tzPart(timeZone, at, 'en-US', 'short') || timeZone

@@ -29,7 +29,7 @@ const isoTime = z.string().refine((s) => !Number.isNaN(Date.parse(s)), 'not a ti
 const weekId = z.string().regex(/^\d{4}-W\d{2}$/)
 /** Every published link becomes an `href` (site, reports, feeds, digests): web pages only, never `javascript:`. */
 const webUrl = z.string().regex(/^https?:\/\/\S/i, 'not an http(s) URL')
-const board = z.enum(['repos', 'hf', 'news', 'social', 'labs'])
+const board = z.enum(['repos', 'hf', 'news', 'devto', 'lobsters', 'social', 'labs'])
 const category = z.enum(['release', 'product', 'research', 'tool', 'engineering', 'discussion', 'industry', 'policy'])
 const lang = z.enum(['en', 'zh'])
 const count = z.number().int().nonnegative()
@@ -213,13 +213,41 @@ const labItem = z.object({
   }),
 })
 
+const devtoItem = z.object({
+  ...itemBase,
+  board: z.literal('devto'),
+  devto: z.object({
+    id: z.number().int(),
+    url: webUrl,
+    domain: z.string().optional(),
+    author: z.string().optional(),
+    points: z.number(),
+    comments: z.number(),
+    createdAt: z.string(),
+  }),
+})
+
+const lobstersItem = z.object({
+  ...itemBase,
+  board: z.literal('lobsters'),
+  lobsters: z.object({
+    shortId: z.string().min(1),
+    url: webUrl,
+    domain: z.string().optional(),
+    author: z.string().optional(),
+    points: z.number(),
+    comments: z.number(),
+    createdAt: z.string(),
+  }),
+})
+
 const boardItems = <T extends z.ZodType>(item: T) => z.object({ top: z.array(item), runnersUp: z.array(item) })
 
 const brief = z.object({ headline: z.string().min(1), bullets: z.array(z.string().min(1)).min(1).max(6) })
 
 const sourceStatus = z.object({
   id: z.string().min(1),
-  board: z.enum(['repos', 'hf', 'news', 'social', 'labs', 'pricing']),
+  board: z.enum(['repos', 'hf', 'news', 'devto', 'lobsters', 'social', 'labs', 'pricing']),
   state: z.enum(['ok', 'degraded', 'failed', 'skipped']),
   count,
   message: z.string().optional(),
@@ -240,6 +268,8 @@ export const dailyFileSchema = z.object({
     repos: boardItems(repoItem),
     hf: boardItems(hfItem),
     news: boardItems(newsItem),
+    devto: boardItems(devtoItem),
+    lobsters: boardItems(lobstersItem),
     social: boardItems(socialItem),
     labs: boardItems(labItem),
   }),
@@ -283,7 +313,7 @@ export const manifestSchema = z.object({
   dates: z.array(dateStr),
   weeks: z.array(weekId),
   retentionDays: count,
-  boards: z.array(boardMeta).length(5),
+  boards: z.array(boardMeta).min(5),
   pricingUpdatedAt: z.string().optional(),
 }) satisfies z.ZodType<Manifest>
 
@@ -310,6 +340,8 @@ export const weeklyFileSchema = z.object({
     repos: z.array(weeklyEntry),
     hf: z.array(weeklyEntry),
     news: z.array(weeklyEntry),
+    devto: z.array(weeklyEntry),
+    lobsters: z.array(weeklyEntry),
     social: z.array(weeklyEntry),
     labs: z.array(weeklyEntry),
   }),

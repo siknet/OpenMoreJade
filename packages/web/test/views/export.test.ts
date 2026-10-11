@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto'
 import { renderReport } from '@resonance/channels/report'
+import { BOARDS } from '@resonance/schema'
 import { describe, expect, it } from 'vitest'
 import indexHtml from '../../index.html?raw'
 import { allowController } from '../../scripts/csp.ts'
@@ -162,7 +163,7 @@ describe('board filter and summaries', () => {
     expect(news.sections.map((s) => s.board)).toEqual(['news'])
     expect(news.clusters).toHaveLength(1)
     expect(onlyBoards(input, ['labs']).clusters).toHaveLength(0)
-    expect(onlyBoards(input, ['repos', 'hf', 'news', 'social', 'labs'])).toBe(input)
+    expect(onlyBoards(input, BOARDS)).toBe(input)
   })
 
   it('lists the item keys a summary lookup needs', () => {

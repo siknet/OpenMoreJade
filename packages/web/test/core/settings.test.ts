@@ -123,22 +123,22 @@ describe('slices', () => {
     expect(endpoint.value).toEqual({ url: 'https://evil', key: '' })
   })
 
-  it('gives the general slice three boards by default', () => {
-    expect(general.value.boards).toEqual(['repos', 'hf', 'news'])
+  it('gives the general slice five boards by default', () => {
+    expect(general.value.boards).toEqual(['repos', 'hf', 'news', 'devto', 'lobsters'])
     expect(general.value.lang).toBeNull()
   })
 })
 
 describe('boardOrder', () => {
   it('drops unknown ids and duplicates, appends boards the saved order lacks', () => {
-    expect(boardOrder(['news', 'bogus', 'news', 'repos']).order).toEqual(['news', 'repos', 'hf'])
+    expect(boardOrder(['news', 'bogus', 'news', 'repos']).order).toEqual(['news', 'repos', 'hf', 'devto', 'lobsters'])
   })
 
   it('filters hidden boards from the visible list only', () => {
-    const { order, visible } = boardOrder(['news', 'repos'], ['repos', 'hf'])
-    expect(order).toEqual(['news', 'repos', 'hf'])
+    const { order, visible } = boardOrder(['news', 'repos'], ['repos', 'hf', 'devto', 'lobsters'])
+    expect(order).toEqual(['news', 'repos', 'hf', 'devto', 'lobsters'])
     expect(visible).toEqual(['news'])
-    expect(boardOrder(undefined).order).toHaveLength(3)
+    expect(boardOrder(undefined).order).toHaveLength(5)
   })
 })
 

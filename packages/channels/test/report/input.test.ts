@@ -20,7 +20,7 @@ describe('buildDailyInput', () => {
       },
       generatedAt: today.generatedAt,
     })
-    expect(input.sections.map((s) => s.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs'])
+    expect(input.sections.map((s) => s.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters'])
     // Runners-up stay on the site.
     expect(input.sections[0].items.map((i) => i.key)).toEqual(['gh:acme/agent-kit', 'gh:octo/tiny-llm'])
     expect(buildDailyInput(today, manifest, { now: '2026-09-21T00:00:00Z' }).generatedAt).toBe('2026-09-21T00:00:00Z')
@@ -34,6 +34,8 @@ describe('buildDailyInput', () => {
       'hf',
       'social',
       'labs',
+      'devto',
+      'lobsters',
     ])
   })
 })

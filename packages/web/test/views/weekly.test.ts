@@ -32,6 +32,8 @@ const week: WeeklyFile = {
     ],
     hf: [],
     news: [entry('hn:1', 'news', 'Show HN: it works', { days: 1 })],
+    devto: [],
+    lobsters: [],
     social: [],
     labs: [],
   },
@@ -65,6 +67,8 @@ const names: Record<Board, string> = {
   repos: 'Repos',
   hf: 'HF Trending',
   news: 'Hacker News',
+  devto: 'Dev.to',
+  lobsters: 'Lobsters',
   social: 'Social',
   labs: 'Labs',
 }

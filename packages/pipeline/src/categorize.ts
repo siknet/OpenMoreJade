@@ -144,6 +144,10 @@ export function categoryOf(cand: RawCandidate): Verdict {
       if (tag) return { category: tag[1], cue: tag[0] }
       return firstCue(HEADLINE_CUES, cand.title) ?? { category: 'discussion', cue: 'board' }
     }
+    case 'devto':
+      return firstCue(HEADLINE_CUES, `${cand.title} ${cand.summary}`) ?? { category: 'engineering', cue: 'board' }
+    case 'lobsters':
+      return firstCue(HEADLINE_CUES, cand.title) ?? { category: 'discussion', cue: 'board' }
     case 'social': {
       const text = cand.social.platform === 'x' ? cand.social.text || cand.title : cand.title
       const found = socialHint(cand) ?? firstCue(HEADLINE_CUES, text)

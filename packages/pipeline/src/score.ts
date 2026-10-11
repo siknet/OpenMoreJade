@@ -15,10 +15,12 @@ import type {
   DateStr,
   EntityAppearance,
   EntityKey,
+  DevToItem,
   HfItem,
   Item,
   ItemBase,
   LabItem,
+  LobstersItem,
   NewsItem,
   RepoItem,
   Score,
@@ -26,7 +28,7 @@ import type {
   SignalReading,
   SocialItem,
 } from '@resonance/schema'
-import { BOARDS, computeScore, diffDays, normalizeUrl, round, SCHEMA_VERSION } from '@resonance/schema'
+import { ALL_BOARDS, BOARDS, computeScore, diffDays, normalizeUrl, round, SCHEMA_VERSION } from '@resonance/schema'
 import type { Config } from './config.ts'
 import { isPublished } from './edition.ts'
 import type { Graph, Member } from './resonance.ts'
@@ -38,8 +40,10 @@ import type {
   RankDay,
   RankedDay,
   RawCandidate,
+  RawDevTo,
   RawHf,
   RawLab,
+  RawLobsters,
   RawNews,
   RawRepo,
   RawSocial,
@@ -415,7 +419,9 @@ function readingsOf(c: RawCandidate, day: Day): Readings {
     case 'hf':
       return hfReadings(c, day)
     case 'news':
-      return newsReadings(c, day)
+    case 'devto':
+    case 'lobsters':
+      return newsReadings(c as RawNews, day)
     case 'social':
       return socialReadings(c, day)
     case 'labs':
@@ -498,6 +504,8 @@ function linkMetric(c: RawCandidate, day: Day): Member['metric'] {
     case 'hf':
       return { label: 'likes', value: m.hf_likes ?? m.hfUpvotes ?? c.hf.likes ?? 0 }
     case 'news':
+    case 'devto':
+    case 'lobsters':
       return { label: 'points', value: m.points ?? 0 }
     case 'social':
       if (c.social.platform === 'x') return { label: 'likes', value: m.likes ?? 0 }
@@ -536,6 +544,32 @@ function toItem(c: RawCandidate, base: Omit<ItemBase, 'board'>, day: Day): Item 
       if (c.news.showRank !== undefined) news.showRank = c.news.showRank
       return { ...base, board: 'news', news }
     }
+    case 'devto': {
+      const raw = c as RawDevTo
+      const devto: DevToItem['devto'] = {
+        id: raw.devto?.id ?? raw.news?.hnId ?? 0,
+        url: raw.devto?.url ?? raw.url,
+        domain: raw.devto?.domain ?? 'dev.to',
+        author: raw.devto?.author,
+        points: m.points ?? raw.devto?.points ?? 0,
+        comments: m.comments ?? raw.devto?.comments ?? 0,
+        createdAt: raw.devto?.createdAt ?? raw.publishedAt ?? new Date().toISOString(),
+      }
+      return { ...base, board: 'devto', devto }
+    }
+    case 'lobsters': {
+      const raw = c as RawLobsters
+      const lobsters: LobstersItem['lobsters'] = {
+        shortId: raw.lobsters?.shortId ?? String(raw.news?.hnId ?? ''),
+        url: raw.lobsters?.url ?? raw.url,
+        domain: raw.lobsters?.domain ?? 'lobste.rs',
+        author: raw.lobsters?.author,
+        points: m.points ?? raw.lobsters?.points ?? 0,
+        comments: m.comments ?? raw.lobsters?.comments ?? 0,
+        createdAt: raw.lobsters?.createdAt ?? raw.publishedAt ?? new Date().toISOString(),
+      }
+      return { ...base, board: 'lobsters', lobsters }
+    }
     case 'social': {
       const social: SocialItem['social'] = { ...c.social, likes: m.likes ?? 0, comments: m.comments ?? 0 }
       if (m.reposts !== undefined) social.reposts = m.reposts
@@ -558,10 +592,12 @@ function rankOne(snapshot: Snapshot, memory: Memory, meta: BoardMeta[], config: 
   // Paper `repo_echo` reads repo star gains, so those are measured before anything is scored.
   for (const c of candidates) if (c.board === 'repos') day.starsToday.set(c.key, starsToday(c, day))
 
-  const scored = new Map<Board, Scored[]>(BOARDS.map((b) => [b, []]))
+  const scored = new Map<Board, Scored[]>(ALL_BOARDS.map((b) => [b, []]))
   for (const c of candidates) {
-    const signals = meta.find((b) => b.board === c.board)!.signals
-    scored.get(c.board)!.push({ c, score: computeScore(signals, readingsOf(c, day)), primary: primaryOf(c) })
+    const m = meta.find((b) => b.board === c.board)
+    if (!m) continue
+    const signals = m.signals
+    scored.get(c.board)?.push({ c, score: computeScore(signals, readingsOf(c, day)), primary: primaryOf(c) })
   }
 
   const members = new Map<EntityKey, Member>()
@@ -597,7 +633,7 @@ function rankOne(snapshot: Snapshot, memory: Memory, meta: BoardMeta[], config: 
     if (stars !== undefined) memory.lastStars.set(c.key, { date: snapshot.date, stars })
   }
 
-  const boards = Object.fromEntries(BOARDS.map((b) => [b, { top: [] as Item[], runnersUp: [] as Item[] }])) as Record<
+  const boards = Object.fromEntries(ALL_BOARDS.map((b) => [b, { top: [] as Item[], runnersUp: [] as Item[] }])) as Record<
     Board,
     { top: Item[]; runnersUp: Item[] }
   >

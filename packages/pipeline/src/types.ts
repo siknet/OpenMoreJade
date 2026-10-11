@@ -16,10 +16,12 @@ import type {
   DateStr,
   EditionWindow,
   EntityKey,
+  DevToItem,
   HfItem,
   ItemCopy,
   LabItem,
   Lang,
+  LobstersItem,
   NewsItem,
   RepoItem,
   SocialItem,
@@ -68,6 +70,16 @@ export interface RawNews extends RawBase {
   board: 'news'
   news: NewsItem['news']
 }
+export interface RawDevTo extends RawBase {
+  board: 'devto'
+  devto: DevToItem['devto']
+  news?: NewsItem['news']
+}
+export interface RawLobsters extends RawBase {
+  board: 'lobsters'
+  lobsters: LobstersItem['lobsters']
+  news?: NewsItem['news']
+}
 export interface RawSocial extends RawBase {
   board: 'social'
   social: SocialItem['social']
@@ -76,7 +88,7 @@ export interface RawLab extends RawBase {
   board: 'labs'
   lab: Omit<LabItem['lab'], 'fresh'>
 }
-export type RawCandidate = RawRepo | RawHf | RawNews | RawSocial | RawLab
+export type RawCandidate = RawRepo | RawHf | RawNews | RawDevTo | RawLobsters | RawSocial | RawLab
 
 /** `data/snapshots/<date>.json` */
 export interface Snapshot {

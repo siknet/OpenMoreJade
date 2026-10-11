@@ -133,7 +133,7 @@ describe('renderReport', () => {
     const payload = reportPayload(daily, opts)
     expect(embeddedJson(html)).toEqual(JSON.parse(JSON.stringify(payload)))
     expect(payload.lang).toBe('zh')
-    expect(payload.report.sections.map((s) => s.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs'])
+    expect(payload.report.sections.map((s) => s.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters'])
     // Slimmed: no sparkline series, no heavy per-board text.
     const text = JSON.stringify(payload)
     expect(text).not.toContain('"spark"')
@@ -207,7 +207,7 @@ describe('renderReport', () => {
     expect(html).not.toContain('id="repos-2"')
     const input: ReportInput = { ...daily, sections: daily.sections.map((s) => ({ ...s, items: [] })) }
     const empty = renderReport(input, { lang: 'en' })
-    expect(empty.match(/data-s="empty"/g)).toHaveLength(5)
+    expect(empty.match(/data-s="empty"/g)).toHaveLength(7)
     expect(checkHtml(empty).problems).toEqual([])
   })
 

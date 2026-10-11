@@ -813,6 +813,20 @@ const SIGNALS: Record<BoardMeta['board'], SignalSeed[]> = {
       '帖子与主题的贴合程度。',
     ],
   ],
+  devto: [
+    ['reactions', 45, 200, 'log', 'Reactions', '互动数', 'Dev.to reactions.', 'Dev.to 互动数。'],
+    ['comments', 25, 50, 'log', 'Comments', '评论数', 'Number of comments.', '评论数量。'],
+    ['velocity', 15, 30, 'sqrt', 'Velocity', '升温速度', 'Reactions per hour.', '每小时互动数。'],
+    ['novelty', 10, 1, 'linear', 'Novelty', '新鲜度', 'Decaying over time.', '新鲜度。'],
+    ['relevance', 5, 1, 'linear', 'Relevance', '相关度', 'AI relevance.', 'AI 相关度。'],
+  ],
+  lobsters: [
+    ['points', 45, 100, 'log', 'Points', '得分', 'Lobsters points.', 'Lobsters 得分。'],
+    ['comments', 25, 50, 'log', 'Comments', '评论数', 'Number of comments.', '评论数量。'],
+    ['velocity', 15, 20, 'sqrt', 'Velocity', '升温速度', 'Points per hour.', '每小时得分。'],
+    ['novelty', 10, 1, 'linear', 'Novelty', '新鲜度', 'Decaying over time.', '新鲜度。'],
+    ['relevance', 5, 1, 'linear', 'Relevance', '相关度', 'AI relevance.', 'AI 相关度。'],
+  ],
   social: [
     [
       'lift',
@@ -953,6 +967,8 @@ const BOARD_TEXT: Record<BoardMeta['board'], [string, string, string, string]> =
   repos: ['Repos', '开源项目', 'What builders are starring on GitHub', '开发者正在 GitHub 上点星的项目'],
   hf: ['HF Trending', 'HF 趋势', 'Trending models on Hugging Face', 'Hugging Face 上的热门模型'],
   news: ['Hacker News', 'Hacker News 热议', 'What hackers are arguing about', '极客们正在争论的话题'],
+  devto: ['D.T', 'D.T', 'Trending articles on Dev.to', 'Dev.to 热门技术文章'],
+  lobsters: ['L.S', 'L.S', 'Computing-focused discussions on Lobsters', 'Lobsters 极客社区讨论'],
   social: [
     'Social',
     '社区热议',

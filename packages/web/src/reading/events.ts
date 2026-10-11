@@ -53,7 +53,7 @@ export function completeEvent(event: NewsEvent, fullEvents: NewsEvent[]): NewsEv
   }
   return match
 }
-const priority: Record<Board, number> = { labs: 0, hf: 1, repos: 2, news: 3, social: 4 }
+const priority: Record<Board, number> = { labs: 0, hf: 1, repos: 2, news: 3, devto: 4, lobsters: 5, social: 6 }
 
 /** Small deterministic content fingerprint, not a security or authenticity check. */
 export function hashEventContent(content: string): string {

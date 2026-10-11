@@ -15,7 +15,7 @@ import type {
   WeeklyEntry,
   WeeklyFile,
 } from '@resonance/schema'
-import { BOARDS, isoWeek, LANGS, SCHEMA_VERSION, weekRange } from '@resonance/schema'
+import { ALL_BOARDS, BOARDS, isoWeek, LANGS, SCHEMA_VERSION, weekRange } from '@resonance/schema'
 import { clip } from './text.ts'
 
 const STREAKS = 5
@@ -37,7 +37,7 @@ function byKeyAsc(a: { key: string }, b: { key: string }): number {
 /** Rank the top-list appearances of `days` (any order) by heat. `from`/`to` bound what counts as new. */
 export function rankSpan(days: DailyFile[], meta: BoardMeta[], from: DateStr, to: DateStr): SpanRanking {
   const ordered = [...days].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0))
-  const boards = Object.fromEntries(BOARDS.map((b) => [b, [] as WeeklyEntry[]])) as Record<Board, WeeklyEntry[]>
+  const boards = Object.fromEntries(ALL_BOARDS.map((b) => [b, [] as WeeklyEntry[]])) as Record<Board, WeeklyEntry[]>
   const streaks = new Map<EntityKey, WeeklyFile['longestStreaks'][number]>()
 
   for (const board of BOARDS) {

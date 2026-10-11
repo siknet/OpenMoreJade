@@ -262,7 +262,7 @@ boards:
       - { key: novelty,        weight: 15, cap: 1,    curve: linear }   # 新颖度加成（权重 15，线性衰减）
       - { key: relevance,      weight: 10, cap: 1,    curve: linear }   # AI 主题相关度（权重 10）
 
-  # 科技要闻板块
+  # 科技要闻板块（Hacker News）
   news:
     size: 10                  # 每日主榜展示新闻数量
     runnersUp: 10             # 候补新闻数量
@@ -272,6 +272,28 @@ boards:
       - { key: velocity,  weight: 20, cap: 60,  curve: sqrt }        # 传播速度：发帖以来的每小时点赞增速（权重 20，上限 60）
       - { key: echo,      weight: 15, cap: 2,   curve: linear }      # 跨板块联动：指向/关联其他板块项目的数量（权重 15，上限 2）
       - { key: relevance, weight: 10, cap: 1,   curve: linear }      # AI 主题相关度（权重 10）
+
+  # Dev.to 开发者实战精选
+  devto:
+    size: 10
+    runnersUp: 10
+    signals:
+      - { key: points,    weight: 40, cap: 500, curve: log }         # Dev.to 点赞/互动数
+      - { key: comments,  weight: 20, cap: 200, curve: log }         # 评论数
+      - { key: velocity,  weight: 15, cap: 50,  curve: sqrt }        # 升温速度
+      - { key: echo,      weight: 15, cap: 2,   curve: linear }      # 跨板块联动
+      - { key: relevance, weight: 10, cap: 1,   curve: linear }      # AI 主题相关度
+
+  # Lobste.rs 极客资讯社区
+  lobsters:
+    size: 10
+    runnersUp: 10
+    signals:
+      - { key: points,    weight: 45, cap: 100, curve: log }         # Lobste.rs 社区得分
+      - { key: comments,  weight: 25, cap: 100, curve: log }         # 评论数
+      - { key: velocity,  weight: 10, cap: 20,  curve: sqrt }        # 升温速度
+      - { key: echo,      weight: 10, cap: 2,   curve: linear }      # 跨板块联动
+      - { key: relevance, weight: 10, cap: 1,   curve: linear }      # AI 主题相关度
 
   # 社区热议板块
   social:
@@ -296,9 +318,9 @@ boards:
 enrich:
   enabled: true
   languages: [zh]                              # 专注于高质量中文
-  batchSize: 10                                # 每次提交 10 条（小批次避免超时）
-  concurrency: 5                               # 并发工作线程数（同时分配给不同可用渠道并发执行）
-  maxItemsPerRun: 120
+  batchSize: 6                                 # 降低单批次大小以减少瞬时 Token 量，避免触发 TPM 限制
+  concurrency: 1                               # 顺序单线程执行（避免并发脉冲请求引发 429）
+  maxItemsPerRun: 60                           # 单次优先润色 Top 60 条核心精选
   briefs: true                                 # 自动生成每日重点与摘要列表
 
   # 多个提供商按优先级从上到下排列

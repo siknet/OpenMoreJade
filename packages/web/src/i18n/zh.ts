@@ -249,9 +249,11 @@ const zh: Record<keyof Messages, string> = {
   'cat.policy': '政策',
 
   // ── boards ──
-  'board.repos': '开源项目',
-  'board.hf': 'HF 趋势',
-  'board.news': '资讯',
+  'board.repos': 'GitHub',
+  'board.hf': 'HF',
+  'board.news': 'HN',
+  'board.devto': 'D.T',
+  'board.lobsters': 'L.S',
   'board.newsChannels': '资讯频道',
   'board.newsShow': 'SHOW 自秀',
   'board.newsBest': 'BEST 精选',

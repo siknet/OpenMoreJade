@@ -46,6 +46,8 @@ const BOARD_HEX: Record<Board, string> = {
   repos: '#1f7a37',
   hf: '#8944ab',
   news: '#c93400',
+  devto: '#0284c7',
+  lobsters: '#e11d48',
   social: '#0066cc',
   labs: '#d30f45',
 }

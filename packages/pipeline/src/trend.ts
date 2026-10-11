@@ -18,6 +18,8 @@ export const PRIMARY_METRIC: Record<Board, string | null> = {
   repos: 'stars',
   hf: 'hf_likes',
   news: 'points',
+  devto: 'points',
+  lobsters: 'points',
   social: 'likes',
   labs: null,
 }
@@ -36,6 +38,8 @@ export function metricsOf(c: RawCandidate): Record<string, number> {
   else if (c.board === 'hf') {
     typed = { hf_likes: c.hf.likes, trending_score: c.hf.trendingScore }
   } else if (c.board === 'news') typed = { points: c.news.points, comments: c.news.comments }
+  else if (c.board === 'devto') typed = { points: c.devto.points, comments: c.devto.comments }
+  else if (c.board === 'lobsters') typed = { points: c.lobsters.points, comments: c.lobsters.comments }
   else if (c.board === 'social') {
     const s = c.social
     typed = { likes: s.likes, comments: s.comments, reposts: s.reposts, views: s.views, ratio: s.ratio }

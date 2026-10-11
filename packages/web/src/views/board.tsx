@@ -2,7 +2,7 @@
  * One board column: header (title, subtitle, look-back, source chips), the top N cards, and collapsible runners-up.
  * An empty board is never hidden: it explains itself with its source status (DESIGN §3a).
  */
-import type { Board, BoardMeta, Category, DailyFile, DateStr, Item, RepoItem, SourceStatus } from '@resonance/schema'
+import type { Board, BoardMeta, Category, DailyFile, DateStr, DevToItem, Item, LobstersItem, NewsItem, RepoItem, SourceStatus } from '@resonance/schema'
 import { useState } from 'preact/hooks'
 import { fmt, localized, t } from '../i18n/index.ts'
 import { ItemCard, RunnerRow } from '../items/card.tsx'
@@ -92,7 +92,6 @@ function EmptyBoard({
 /** A board's column (wide grid) or panel (narrow). */
 export function BoardColumn({ board, day, date, meta, category, span, panelProps, total }: BoardColumnProps) {
   const [trendRange, setTrendRange] = useState<'daily' | 'weekly' | 'monthly'>('daily')
-  const [newsSource, setNewsSource] = useState<'hn' | 'devto' | 'lobsters'>('hn')
   const [hnChannel, setHnChannel] = useState<'show' | 'best'>('show')
   const [devtoChannel, setDevtoChannel] = useState<'latest' | 'opensource'>('latest')
   const [lobstersChannel, setLobstersChannel] = useState<'release' | 'ai' | 'show'>('release')
@@ -137,74 +136,81 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
     allRepos = [...tagged, ...rest].map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
-  // News board: Hacker News, Dev.to, Lobste.rs
+  // 1. Hacker News (HN) 独立板块
   if (board === 'news') {
-    const rawNewsList = allRepos.filter((item): item is NewsItem => item.board === 'news')
+    const hnItems = allRepos.filter((item): item is NewsItem => item.board === 'news')
     const toTime = (s?: string) => (s ? Date.parse(s) || 0 : 0)
-    const isDevTo = (it: NewsItem) => it.key.startsWith('devto:') || it.tags.includes('source:dev-to')
-    const isLobsters = (it: NewsItem) => it.key.startsWith('lobsters:') || it.tags.includes('source:lobsters')
-    const isHn = (it: NewsItem) => it.key.startsWith('hn:') || (!isDevTo(it) && !isLobsters(it))
-
-    if (newsSource === 'devto') {
-      const devtoItems = rawNewsList.filter(isDevTo)
-      if (devtoChannel === 'opensource') {
-        // TAG=opensource: top 15 items without score filtering, direct translated
-        const opensourceItems = devtoItems.filter(
-          (it) => it.tags.includes('tab:opensource') || it.tags.some((t) => t.toLowerCase() === 'tag:opensource'),
-        )
-        opensourceItems.sort(
-          (a, b) =>
-            toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt) ||
-            (b.news.points ?? 0) - (a.news.points ?? 0),
-        )
-        allRepos = opensourceItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
-      } else {
-        // Default tab: 15 latest items screened/ranked by transparent score/relevance
-        devtoItems.sort(
-          (a, b) =>
-            b.score.total - a.score.total ||
-            b.relevance.score - a.relevance.score ||
-            (b.news.points ?? 0) - (a.news.points ?? 0) ||
-            toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt),
-        )
-        allRepos = devtoItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
-      }
-    } else if (newsSource === 'lobsters') {
-      const lobstersItems = rawNewsList.filter(isLobsters)
-      // Channels in order: release (default), ai, show
-      const targetTag = `tag:${lobstersChannel}`
-      const filtered = lobstersItems.filter((it) => it.tags.includes(targetTag))
-      filtered.sort(
+    if (hnChannel === 'show') {
+      hnItems.sort(
         (a, b) =>
-          (b.news.points ?? 0) - (a.news.points ?? 0) ||
-          (b.news.comments ?? 0) - (a.news.comments ?? 0) ||
-          toTime(b.publishedAt ?? b.news.createdAt) - toTime(a.publishedAt ?? a.news.createdAt),
+          (a.news?.showRank ?? Number.MAX_SAFE_INTEGER) - (b.news?.showRank ?? Number.MAX_SAFE_INTEGER) ||
+          b.rank - a.rank,
       )
-      allRepos = filtered.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
     } else {
-      // Default: Hacker News
-      const hnItems = rawNewsList.filter(isHn)
-      if (hnChannel === 'show') {
-        hnItems.sort(
-          (a, b) =>
-            (a.news.showRank ?? Number.MAX_SAFE_INTEGER) - (b.news.showRank ?? Number.MAX_SAFE_INTEGER) ||
-            b.rank - a.rank,
-        )
-      } else {
-        hnItems.sort(
-          (a, b) =>
-            b.score.total - a.score.total ||
-            b.relevance.score - a.relevance.score ||
-            (b.news.points ?? 0) - (a.news.points ?? 0) ||
-            (b.news.comments ?? 0) - (a.news.comments ?? 0) ||
-            toTime(b.publishedAt) - toTime(a.publishedAt),
-        )
-      }
-      allRepos = hnItems.map((item, idx) => ({ ...item, rank: idx + 1 }))
+      hnItems.sort(
+        (a, b) =>
+          b.score.total - a.score.total ||
+          b.relevance.score - a.relevance.score ||
+          (b.news?.points ?? 0) - (a.news?.points ?? 0) ||
+          (b.news?.comments ?? 0) - (a.news?.comments ?? 0) ||
+          toTime(b.publishedAt) - toTime(a.publishedAt),
+      )
+    }
+    allRepos = hnItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+  }
+
+  // 2. Dev.to (D.T) 独立板块
+  if (board === 'devto') {
+    const devtoItems = allRepos.filter((item): item is DevToItem => item.board === 'devto')
+    const toTime = (s?: string) => (s ? Date.parse(s) || 0 : 0)
+    const getPoints = (it: DevToItem) => it.devto?.points ?? (it as any).news?.points ?? 0
+    const getCreatedAt = (it: DevToItem) => it.devto?.createdAt ?? (it as any).news?.createdAt ?? it.publishedAt
+
+    if (devtoChannel === 'opensource') {
+      // TAG=opensource: top 15 items without score filtering, direct translated
+      const opensourceItems = devtoItems.filter(
+        (it) => it.tags.includes('tab:opensource') || it.tags.some((t) => t.toLowerCase() === 'tag:opensource'),
+      )
+      opensourceItems.sort(
+        (a, b) =>
+          toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)) ||
+          getPoints(b) - getPoints(a),
+      )
+      allRepos = opensourceItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+    } else {
+      // Default tab: 15 latest items screened/ranked by transparent score/relevance
+      devtoItems.sort(
+        (a, b) =>
+          b.score.total - a.score.total ||
+          b.relevance.score - a.relevance.score ||
+          getPoints(b) - getPoints(a) ||
+          toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)),
+      )
+      allRepos = devtoItems.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
     }
   }
 
-  const topSize = board === 'news' ? Math.min(15, allRepos.length) : data.top.length || 10
+  // 3. Lobste.rs (L.S) 独立板块
+  if (board === 'lobsters') {
+    const lobstersItems = allRepos.filter((item): item is LobstersItem => item.board === 'lobsters')
+    const toTime = (s?: string) => (s ? Date.parse(s) || 0 : 0)
+    const getPoints = (it: LobstersItem) => it.lobsters?.points ?? (it as any).news?.points ?? 0
+    const getComments = (it: LobstersItem) => it.lobsters?.comments ?? (it as any).news?.comments ?? 0
+    const getCreatedAt = (it: LobstersItem) => it.lobsters?.createdAt ?? (it as any).news?.createdAt ?? it.publishedAt
+
+    // Channels in order: release (default), ai, show
+    const targetTag = `tag:${lobstersChannel}`
+    const filtered = lobstersItems.filter((it) => it.tags.includes(targetTag))
+    filtered.sort(
+      (a, b) =>
+        getPoints(b) - getPoints(a) ||
+        getComments(b) - getComments(a) ||
+        toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)),
+    )
+    allRepos = filtered.slice(0, 15).map((item, idx) => ({ ...item, rank: idx + 1 }))
+  }
+
+  const topSize = ['news', 'devto', 'lobsters'].includes(board) ? Math.min(15, allRepos.length) : data.top.length || 10
   const baseTop = allRepos.slice(0, topSize)
   const baseRunners = allRepos.slice(topSize)
 
@@ -269,111 +275,78 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
             </div>
           )}
           {board === 'news' && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-              <div class="board__tabs" role="tablist" aria-label="News Source Channel">
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={newsSource === 'hn'}
-                  class={`board__tab ${newsSource === 'hn' ? 'is-active' : ''}`}
-                  onClick={() => setNewsSource('hn')}
-                >
-                  Hacker News
-                </button>
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={newsSource === 'devto'}
-                  class={`board__tab ${newsSource === 'devto' ? 'is-active' : ''}`}
-                  onClick={() => setNewsSource('devto')}
-                >
-                  Dev.to
-                </button>
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={newsSource === 'lobsters'}
-                  class={`board__tab ${newsSource === 'lobsters' ? 'is-active' : ''}`}
-                  onClick={() => setNewsSource('lobsters')}
-                >
-                  Lobste.rs
-                </button>
-              </div>
-              {newsSource === 'hn' && (
-                <div class="board__tabs" role="tablist" aria-label={t('board.newsChannels')}>
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={hnChannel === 'show'}
-                    class={`board__tab ${hnChannel === 'show' ? 'is-active' : ''}`}
-                    onClick={() => setHnChannel('show')}
-                  >
-                    {t('board.newsShow')}
-                  </button>
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={hnChannel === 'best'}
-                    class={`board__tab ${hnChannel === 'best' ? 'is-active' : ''}`}
-                    onClick={() => setHnChannel('best')}
-                  >
-                    {t('board.newsBest')}
-                  </button>
-                </div>
-              )}
-              {newsSource === 'devto' && (
-                <div class="board__tabs" role="tablist" aria-label="Dev.to Tabs">
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={devtoChannel === 'latest'}
-                    class={`board__tab ${devtoChannel === 'latest' ? 'is-active' : ''}`}
-                    onClick={() => setDevtoChannel('latest')}
-                  >
-                    {t('board.newsDevToLatest')}
-                  </button>
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={devtoChannel === 'opensource'}
-                    class={`board__tab ${devtoChannel === 'opensource' ? 'is-active' : ''}`}
-                    onClick={() => setDevtoChannel('opensource')}
-                  >
-                    {t('board.newsDevToOpensource')}
-                  </button>
-                </div>
-              )}
-              {newsSource === 'lobsters' && (
-                <div class="board__tabs" role="tablist" aria-label="Lobste.rs Tabs">
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={lobstersChannel === 'release'}
-                    class={`board__tab ${lobstersChannel === 'release' ? 'is-active' : ''}`}
-                    onClick={() => setLobstersChannel('release')}
-                  >
-                    {t('board.newsLobstersRelease')}
-                  </button>
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={lobstersChannel === 'ai'}
-                    class={`board__tab ${lobstersChannel === 'ai' ? 'is-active' : ''}`}
-                    onClick={() => setLobstersChannel('ai')}
-                  >
-                    {t('board.newsLobstersAi')}
-                  </button>
-                  <button
-                    type="button"
-                    role="tab"
-                    aria-selected={lobstersChannel === 'show'}
-                    class={`board__tab ${lobstersChannel === 'show' ? 'is-active' : ''}`}
-                    onClick={() => setLobstersChannel('show')}
-                  >
-                    {t('board.newsLobstersShow')}
-                  </button>
-                </div>
-              )}
+            <div class="board__tabs" role="tablist" aria-label={t('board.newsChannels')}>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={hnChannel === 'show'}
+                class={`board__tab ${hnChannel === 'show' ? 'is-active' : ''}`}
+                onClick={() => setHnChannel('show')}
+              >
+                {t('board.newsShow')}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={hnChannel === 'best'}
+                class={`board__tab ${hnChannel === 'best' ? 'is-active' : ''}`}
+                onClick={() => setHnChannel('best')}
+              >
+                {t('board.newsBest')}
+              </button>
+            </div>
+          )}
+          {board === 'devto' && (
+            <div class="board__tabs" role="tablist" aria-label="Dev.to Tabs">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={devtoChannel === 'latest'}
+                class={`board__tab ${devtoChannel === 'latest' ? 'is-active' : ''}`}
+                onClick={() => setDevtoChannel('latest')}
+              >
+                {t('board.newsDevToLatest')}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={devtoChannel === 'opensource'}
+                class={`board__tab ${devtoChannel === 'opensource' ? 'is-active' : ''}`}
+                onClick={() => setDevtoChannel('opensource')}
+              >
+                {t('board.newsDevToOpensource')}
+              </button>
+            </div>
+          )}
+          {board === 'lobsters' && (
+            <div class="board__tabs" role="tablist" aria-label="Lobste.rs Tabs">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={lobstersChannel === 'release'}
+                class={`board__tab ${lobstersChannel === 'release' ? 'is-active' : ''}`}
+                onClick={() => setLobstersChannel('release')}
+              >
+                {t('board.newsLobstersRelease')}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={lobstersChannel === 'ai'}
+                class={`board__tab ${lobstersChannel === 'ai' ? 'is-active' : ''}`}
+                onClick={() => setLobstersChannel('ai')}
+              >
+                {t('board.newsLobstersAi')}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={lobstersChannel === 'show'}
+                class={`board__tab ${lobstersChannel === 'show' ? 'is-active' : ''}`}
+                onClick={() => setLobstersChannel('show')}
+              >
+                {t('board.newsLobstersShow')}
+              </button>
             </div>
           )}
           {notable.length > 0 && (

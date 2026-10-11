@@ -1,6 +1,6 @@
 /** dev.to articles source: latest articles and tag=opensource articles */
 import type { Config } from '../config.ts'
-import type { RawNews, Source } from '../types.ts'
+import type { RawDevTo, Source } from '../types.ts'
 import { clip, hostOf, plain, refsOf } from './util.ts'
 
 export interface DevToArticle {
@@ -21,7 +21,7 @@ export interface DevToArticle {
   }
 }
 
-export function mapDevToArticle(article: DevToArticle, isOpensourceTab = false): RawNews {
+export function mapDevToArticle(article: DevToArticle, isOpensourceTab = false): RawDevTo {
   const key = `devto:${article.id}`
   const title = plain(article.title)
   const url = article.url
@@ -44,9 +44,12 @@ export function mapDevToArticle(article: DevToArticle, isOpensourceTab = false):
     tags.push('tab:opensource')
   }
 
+  const domain = hostOf(url) || 'dev.to'
+  const author = article.user?.name || article.user?.username
+
   return {
     key,
-    board: 'news',
+    board: 'devto',
     title,
     url,
     summary,
@@ -55,11 +58,20 @@ export function mapDevToArticle(article: DevToArticle, isOpensourceTab = false):
     sources: ['dev-to'],
     refs: refsOf(key, url, summary),
     metrics: { points, comments, frontPage: 0 },
+    devto: {
+      id: article.id,
+      url,
+      domain,
+      author,
+      points,
+      comments,
+      createdAt,
+    },
     news: {
       hnId: article.id,
       hnUrl: url,
-      domain: hostOf(url) || 'dev.to',
-      author: article.user?.name || article.user?.username,
+      domain,
+      author,
       points,
       comments,
       createdAt,
@@ -71,7 +83,7 @@ export function devTo(config: Config): Source {
   void config
   return {
     id: 'dev-to',
-    board: 'news',
+    board: 'devto',
     async fetch(ctx) {
       // 1. Fetch latest articles (default feed)
       // 2. Fetch tag=opensource articles
@@ -83,7 +95,7 @@ export function devTo(config: Config): Source {
       const latestArticles = Array.isArray(latestRes) ? latestRes : []
       const opensourceArticles = Array.isArray(opensourceRes) ? opensourceRes : []
 
-      const items = new Map<string, RawNews>()
+      const items = new Map<string, RawDevTo>()
 
       for (const item of latestArticles) {
         if (!item || !item.id || !item.title) continue

@@ -166,8 +166,8 @@ describe('publishAll', () => {
     expect(manifest.latest).toBe(TODAY)
     expect(manifest.dates).toEqual([...DATES].reverse())
     expect(manifest.weeks).toEqual(['2026-W38', '2026-W37'])
-    expect(manifest.boards.map((b) => b.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs'])
-    expect(manifest.boards.at(-1)!.lookbackDays).toBe(7)
+    expect(manifest.boards.map((b) => b.board)).toEqual(['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters'])
+    expect(manifest.boards.find((b) => b.board === 'labs')!.lookbackDays).toBe(7)
     expect(manifest.pricingUpdatedAt).toBe(PRICING.updatedAt)
   })
 

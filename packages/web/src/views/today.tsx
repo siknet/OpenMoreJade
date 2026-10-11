@@ -162,7 +162,7 @@ export default function Today({ path, query }: RouteProps) {
     g.boards.length === BOARDS.length &&
     g.boards.every((b, i) => b === BOARDS[i])
   ) {
-    visible = ['repos', 'hf', 'news', ...visible.filter((b) => b !== 'repos' && b !== 'news' && b !== 'hf')]
+    visible = ['repos', 'hf', 'news', 'devto', 'lobsters']
   }
   const wide = isWide.value
   const panel = useRef<HTMLDivElement>(null)

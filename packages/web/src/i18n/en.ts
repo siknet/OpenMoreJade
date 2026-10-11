@@ -264,9 +264,11 @@ const en = {
   'cat.policy': 'Policy',
 
   // ── boards ──
-  'board.repos': 'Repos',
-  'board.hf': 'HF Trending',
-  'board.news': 'News',
+  'board.repos': 'GitHub',
+  'board.hf': 'HF',
+  'board.news': 'HN',
+  'board.devto': 'D.T',
+  'board.lobsters': 'L.S',
   'board.newsChannels': 'News channels',
   'board.newsShow': 'SHOW',
   'board.newsBest': 'BEST',

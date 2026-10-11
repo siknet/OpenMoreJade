@@ -13,8 +13,9 @@ export const SCHEMA_VERSION = 2
  * The five daily boards, in display order.
  * repos = GitHub · hf = Hugging Face Trending Models · news = Hacker News · social = X + Reddit · labs = AI company sites.
  */
-export type Board = 'repos' | 'hf' | 'news' | 'social' | 'labs'
-export const BOARDS: readonly Board[] = ['repos', 'hf', 'news', 'social', 'labs']
+export type Board = 'repos' | 'hf' | 'news' | 'social' | 'labs' | 'devto' | 'lobsters'
+export const BOARDS: readonly Board[] = ['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters']
+export const ALL_BOARDS: readonly Board[] = BOARDS
 
 /**
  * One rule-based category taxonomy shared by every board, so the UI can filter any board the same way.
@@ -321,13 +322,41 @@ export interface LabItem extends ItemBase {
   }
 }
 
-export type Item = RepoItem | HfItem | NewsItem | SocialItem | LabItem
+export interface DevToItem extends ItemBase {
+  board: 'devto'
+  devto: {
+    id: number
+    url: string
+    domain?: string
+    author?: string
+    points: number
+    comments: number
+    createdAt: string
+  }
+}
+
+export interface LobstersItem extends ItemBase {
+  board: 'lobsters'
+  lobsters: {
+    shortId: string
+    url: string
+    domain?: string
+    author?: string
+    points: number
+    comments: number
+    createdAt: string
+  }
+}
+
+export type Item = RepoItem | HfItem | NewsItem | DevToItem | LobstersItem | SocialItem | LabItem
 
 /** Board id → item type. Adding a board = one line here + one in `BOARDS`. */
 export interface BoardItemMap {
   repos: RepoItem
   hf: HfItem
   news: NewsItem
+  devto: DevToItem
+  lobsters: LobstersItem
   social: SocialItem
   labs: LabItem
 }

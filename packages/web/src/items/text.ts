@@ -69,6 +69,8 @@ const BOARD_KEYS: Record<Board, MessageKey> = {
   repos: 'board.repos',
   hf: 'board.hf',
   news: 'board.news',
+  devto: 'board.devto',
+  lobsters: 'board.lobsters',
   social: 'board.social',
   labs: 'board.labs',
 }

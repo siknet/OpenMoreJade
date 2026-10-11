@@ -200,6 +200,8 @@ export const configSchema = z.object({
     repos: board,
     hf: board,
     news: board,
+    devto: board,
+    lobsters: board,
     social: board,
     labs: board.default({
       size: 10,

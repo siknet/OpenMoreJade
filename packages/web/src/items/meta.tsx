@@ -112,6 +112,32 @@ function parts(item: Item): ComponentChildren[] {
         <span key="t">{fmt.relative(n.createdAt)}</span>,
       ]
     }
+    case 'devto': {
+      const d = item.devto
+      return [
+        <Stat key="p" icon="heart" value={fmt.compact(d.points)} label={t('meta.likes')} />,
+        <Stat key="c" icon="comment" value={fmt.compact(d.comments)} label={t('meta.comments')} />,
+        d.author && (
+          <span key="w" class="meta__who">
+            {d.author}
+          </span>
+        ),
+        <span key="t">{fmt.relative(d.createdAt)}</span>,
+      ]
+    }
+    case 'lobsters': {
+      const l = item.lobsters
+      return [
+        <Stat key="p" icon="arrow-up" value={fmt.compact(l.points)} label={t('meta.points')} />,
+        <Stat key="c" icon="comment" value={fmt.compact(l.comments)} label={t('meta.comments')} />,
+        l.author && (
+          <span key="w" class="meta__who">
+            {l.author}
+          </span>
+        ),
+        <span key="t">{fmt.relative(l.createdAt)}</span>,
+      ]
+    }
     case 'social': {
       const s = item.social
       const who = (

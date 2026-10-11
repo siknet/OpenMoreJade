@@ -259,7 +259,7 @@ export interface GeneralSettings {
   newTab: boolean
 }
 
-export const DEFAULT_BOARDS: readonly Board[] = ['repos', 'hf', 'news']
+export const DEFAULT_BOARDS: readonly Board[] = ['repos', 'hf', 'news', 'devto', 'lobsters']
 
 /** The shell's own slice. */
 export const general = defineSlice<GeneralSettings>('general', {

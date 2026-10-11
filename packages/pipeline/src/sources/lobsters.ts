@@ -1,6 +1,5 @@
-/** Lobste.rs stories source: release, ai, show tags */
 import type { Config } from '../config.ts'
-import type { RawNews, Source } from '../types.ts'
+import type { RawLobsters, Source } from '../types.ts'
 import { clip, hostOf, plain, refsOf } from './util.ts'
 
 export interface LobstersStory {
@@ -18,7 +17,7 @@ export interface LobstersStory {
   comments_url?: string
 }
 
-export function mapLobstersStory(story: LobstersStory, sourceTag: string): RawNews {
+export function mapLobstersStory(story: LobstersStory, sourceTag: string): RawLobsters {
   const key = `lobsters:${story.short_id}`
   const title = plain(story.title)
   const url = story.url || story.comments_url || `https://lobste.rs/s/${story.short_id}`
@@ -29,9 +28,12 @@ export function mapLobstersStory(story: LobstersStory, sourceTag: string): RawNe
   const tagsList = (story.tags ?? []).map((t) => `tag:${t.toLowerCase()}`)
   const tags = ['source:lobsters', `tag:${sourceTag}`, ...tagsList]
 
+  const domain = hostOf(url) || 'lobste.rs'
+  const author = story.submitter_user
+
   return {
     key,
-    board: 'news',
+    board: 'lobsters',
     title,
     url,
     summary,
@@ -40,11 +42,20 @@ export function mapLobstersStory(story: LobstersStory, sourceTag: string): RawNe
     sources: ['lobsters'],
     refs: refsOf(key, url, summary),
     metrics: { points, comments, frontPage: 0 },
+    lobsters: {
+      shortId: story.short_id,
+      url,
+      domain,
+      author,
+      points,
+      comments,
+      createdAt,
+    },
     news: {
       hnId: parseInt(story.short_id, 36) || 0,
       hnUrl: story.comments_url || `https://lobste.rs/s/${story.short_id}`,
-      domain: hostOf(url) || 'lobste.rs',
-      author: story.submitter_user,
+      domain,
+      author,
       points,
       comments,
       createdAt,
@@ -56,7 +67,7 @@ export function lobsters(config: Config): Source {
   void config
   return {
     id: 'lobsters',
-    board: 'news',
+    board: 'lobsters',
     async fetch(ctx) {
       // 3 channels in order: release (default), ai, show
       const [releaseRes, aiRes, showRes] = await Promise.all([
@@ -69,7 +80,7 @@ export function lobsters(config: Config): Source {
       const aiStories = Array.isArray(aiRes) ? aiRes : []
       const showStories = Array.isArray(showRes) ? showRes : []
 
-      const items = new Map<string, RawNews>()
+      const items = new Map<string, RawLobsters>()
 
       const addStories = (list: LobstersStory[], tag: string) => {
         for (const story of list) {

@@ -24,7 +24,7 @@ function site(manifest: Manifest): ReportInput['site'] {
 
 /** Boards in manifest order, then any board the data has but the manifest does not describe. */
 function boardOrder(manifest: Manifest): Board[] {
-  const listed = manifest.boards.map((b) => b.board).filter((b) => BOARDS.includes(b))
+  const listed = manifest.boards.map((b) => b.board)
   return [...listed, ...BOARDS.filter((b) => !listed.includes(b))]
 }
 

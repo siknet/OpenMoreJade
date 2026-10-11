@@ -5,7 +5,7 @@ import type { Output } from './files.ts'
 import { blurbOf, clip, escapeXml, titleOf } from './text.ts'
 
 const ROOT = '../../'
-const BOARD = { repos: '开源项目', hf: '热门模型', news: '行业新闻', social: '社区动态', labs: '官方发布' }
+const BOARD = { repos: '开源项目', hf: '热门模型', news: '行业新闻', devto: 'D.T', lobsters: 'L.S', social: '社区动态', labs: '官方发布' }
 const TYPE = {
   paper: '论文',
   article: '文章',

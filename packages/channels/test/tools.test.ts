@@ -56,7 +56,7 @@ describe('resonance_today', () => {
       headline: 'Planning agents everywhere',
       bullets: ['Agent Kit tops repos#1 and hf#1.'],
     })
-    expect(Object.keys(out.boards)).toEqual(['repos', 'hf', 'news', 'social', 'labs'])
+    expect(Object.keys(out.boards)).toEqual(['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters'])
     const [first, second] = out.boards.repos
     expect(first).toMatchObject({
       rank: 1,
@@ -246,7 +246,7 @@ describe('resonance_clusters / weekly / digest', () => {
   it('returns the weekly recap and lists available weeks when one is missing', async () => {
     const out = await run('resonance_weekly')
     expect(out).toMatchObject({ week: WEEK, from: '2026-09-14', to: '2026-09-20', lang: 'en' })
-    expect(Object.keys(out.boards)).toEqual(['repos', 'hf', 'news', 'social', 'labs'])
+    expect(Object.keys(out.boards)).toEqual(['repos', 'hf', 'news', 'social', 'labs', 'devto', 'lobsters'])
     expect(out.boards.repos[0].key).toBe('gh:acme/agent-kit')
     expect(out.boards.hf[0]).toMatchObject({
       category: 'research',

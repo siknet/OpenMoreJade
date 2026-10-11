@@ -112,6 +112,20 @@ function boardMetrics(item: Item): Record<string, unknown> {
         domain: item.news.domain,
         hnUrl: item.news.hnUrl,
       }
+    case 'devto':
+      return {
+        points: item.devto.points,
+        comments: item.devto.comments,
+        domain: item.devto.domain,
+        author: item.devto.author,
+      }
+    case 'lobsters':
+      return {
+        points: item.lobsters.points,
+        comments: item.lobsters.comments,
+        domain: item.lobsters.domain,
+        author: item.lobsters.author,
+      }
     case 'social': {
       const s = item.social
       // Reddit RSS mode has no counts; zeros would read as "nobody cared", so they are left out.

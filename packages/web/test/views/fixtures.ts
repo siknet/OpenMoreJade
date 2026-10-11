@@ -73,6 +73,8 @@ const emptyBoards = (): DailyFile['boards'] => ({
   repos: { top: [], runnersUp: [] },
   hf: { top: [], runnersUp: [] },
   news: { top: [], runnersUp: [] },
+  devto: { top: [], runnersUp: [] },
+  lobsters: { top: [], runnersUp: [] },
   social: { top: [], runnersUp: [] },
   labs: { top: [], runnersUp: [] },
 })

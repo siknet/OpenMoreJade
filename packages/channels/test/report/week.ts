@@ -51,11 +51,15 @@ const SIGNALS: Record<Board, SignalMeta[]> = {
   repos: ['stars_today', 'momentum', 'hn_echo', 'paper_echo', 'novelty', 'relevance'].map((k) => signal(k, 10)),
   hf: ['trending_score', 'hf_likes', 'novelty', 'relevance'].map((k) => signal(k, 10)),
   news: ['points', 'comments', 'velocity', 'echo', 'relevance'].map((k) => signal(k, 10)),
+  devto: ['reactions', 'comments', 'velocity', 'novelty', 'relevance'].map((k) => signal(k, 10)),
+  lobsters: ['points', 'comments', 'velocity', 'novelty', 'relevance'].map((k) => signal(k, 10)),
   social: ['lift', 'reach', 'discussion', 'velocity', 'authority', 'echo', 'relevance'].map((k) => signal(k, 10)),
   labs: ['kind', 'release', 'freshness', 'echo', 'company', 'surface'].map((k) => signal(k, 10)),
 }
 
-export const BOARD_META: BoardMeta[] = BOARDS.map((board) => ({
+export const WEEK_BOARDS: readonly Board[] = ['repos', 'hf', 'news', 'social', 'labs']
+
+export const BOARD_META: BoardMeta[] = WEEK_BOARDS.map((board) => ({
   board,
   title: { en: board[0].toUpperCase() + board.slice(1), zh: `${board}榜` },
   subtitle: { en: `${board} subtitle`, zh: `${board} 副标题` },
@@ -176,6 +180,34 @@ export function makeItem(board: Board, n: number, rank: number, date: string): I
           createdAt: `${date}T12:00:00Z`,
         },
       }
+    case 'devto':
+      return {
+        ...base,
+        board,
+        devto: {
+          id: n,
+          url: `https://dev.to/article/${n}`,
+          domain: 'dev.to',
+          author: 'devuser',
+          points: 100 + n,
+          comments: 20 + n,
+          createdAt: `${date}T12:00:00Z`,
+        },
+      }
+    case 'lobsters':
+      return {
+        ...base,
+        board,
+        lobsters: {
+          shortId: `lob_${n}`,
+          url: `https://lobste.rs/s/${n}`,
+          domain: 'lobste.rs',
+          author: 'lobuser',
+          points: 80 + n,
+          comments: 15 + n,
+          createdAt: `${date}T12:00:00Z`,
+        },
+      }
     case 'social':
       return {
         ...base,
@@ -218,7 +250,9 @@ export function makeWeek(perBoard = 20): { dailies: DailyFile[]; weekly: WeeklyF
     const date = addDays(WEEK_FROM, d)
     const boards = Object.fromEntries(
       BOARDS.map((board) => {
-        const top = Array.from({ length: 15 }, (_, i) => makeItem(board, (i + d * 2) % perBoard, i + 1, date))
+        const top = WEEK_BOARDS.includes(board)
+          ? Array.from({ length: 15 }, (_, i) => makeItem(board, (i + d * 2) % perBoard, i + 1, date))
+          : []
         return [board, { top, runnersUp: [] }]
       }),
     ) as unknown as DailyFile['boards']
@@ -241,19 +275,21 @@ export function makeWeek(perBoard = 20): { dailies: DailyFile[]; weekly: WeeklyF
     boards: Object.fromEntries(
       BOARDS.map((board) => [
         board,
-        Array.from(
-          { length: perBoard },
-          (_, n): WeeklyEntry => ({
-            key: makeItem(board, n, 1, WEEK_FROM).key,
-            board,
-            title: `${board} item ${n}`,
-            url: `https://example.com/${board}/${n}`,
-            days: 7 - (n % 7),
-            bestRank: 1 + (n % 5),
-            heat: 500 - n * 10,
-            isNew: n % 3 === 0,
-          }),
-        ),
+        WEEK_BOARDS.includes(board)
+          ? Array.from(
+              { length: perBoard },
+              (_, n): WeeklyEntry => ({
+                key: makeItem(board, n, 1, WEEK_FROM).key,
+                board,
+                title: `${board} item ${n}`,
+                url: `https://example.com/${board}/${n}`,
+                days: 7 - (n % 7),
+                bestRank: 1 + (n % 5),
+                heat: 500 - n * 10,
+                isNew: n % 3 === 0,
+              }),
+            )
+          : [],
       ]),
     ) as Record<Board, WeeklyEntry[]>,
     longestStreaks: [],

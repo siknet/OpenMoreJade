@@ -141,6 +141,8 @@ export function boardOfKey(key: EntityKey): Board | null {
   if (key.startsWith('gh:')) return 'repos'
   if (key.startsWith('hf:')) return 'hf'
   if (key.startsWith('hn:')) return 'news'
+  if (key.startsWith('devto:')) return 'devto'
+  if (key.startsWith('lobsters:')) return 'lobsters'
   if (key.startsWith('rd:') || key.startsWith('x:')) return 'social'
   return null
 }

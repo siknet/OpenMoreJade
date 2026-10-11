@@ -11,7 +11,7 @@
 import { type EntityKey, keyFromUrl, keysInText, normalizeUrl } from '@resonance/schema'
 import { hydratePublicLinks } from './article.ts'
 import { githubHeaders } from './sources/util.ts'
-import type { Link, RawCandidate, RawHf, RawLab, RawNews, RawRepo, RawSocial, RunContext } from './types.ts'
+import type { Link, RawCandidate, RawDevTo, RawHf, RawLab, RawLobsters, RawNews, RawRepo, RawSocial, RunContext } from './types.ts'
 
 /** READMEs are only read for the hottest repos: that is where paper and HN links pay off. */
 const README_TOP = 25
@@ -26,6 +26,10 @@ function detailOf(c: RawCandidate): object {
       return c.hf
     case 'news':
       return c.news
+    case 'devto':
+      return c.devto
+    case 'lobsters':
+      return c.lobsters
     case 'social':
       return c.social
     case 'labs':
@@ -83,6 +87,10 @@ function mergeTwo(a: RawCandidate, b: RawCandidate): RawCandidate {
       return { ...common, board: 'hf', hf: mergeDetail(base.hf, (other as RawHf).hf) }
     case 'news':
       return { ...common, board: 'news', news: mergeDetail(base.news, (other as RawNews).news) }
+    case 'devto':
+      return { ...common, board: 'devto', devto: mergeDetail(base.devto, (other as RawDevTo).devto) }
+    case 'lobsters':
+      return { ...common, board: 'lobsters', lobsters: mergeDetail(base.lobsters, (other as RawLobsters).lobsters) }
     case 'social':
       return { ...common, board: 'social', social: mergeDetail(base.social, (other as RawSocial).social) }
     case 'labs':
@@ -107,6 +115,10 @@ function copy(c: RawCandidate): RawCandidate {
       return { ...shared, board: 'hf', hf: { ...c.hf, tags: [...c.hf.tags] } }
     case 'news':
       return { ...shared, board: 'news', news: { ...c.news } }
+    case 'devto':
+      return { ...shared, board: 'devto', devto: { ...c.devto } }
+    case 'lobsters':
+      return { ...shared, board: 'lobsters', lobsters: { ...c.lobsters } }
     case 'social':
       return { ...shared, board: 'social', social: { ...c.social } }
     case 'labs':

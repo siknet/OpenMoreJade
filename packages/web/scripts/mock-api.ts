@@ -991,11 +991,13 @@ function readingsFor(
 }
 
 const REL: Record<Board, Record<Board, ResonanceRel>> = {
-  repos: { repos: 'mention', hf: 'model', news: 'discussion', social: 'discussion', labs: 'mention' },
-  hf: { repos: 'code', hf: 'mention', news: 'discussion', social: 'discussion', labs: 'mention' },
-  news: { repos: 'mention', hf: 'model', news: 'mention', social: 'discussion', labs: 'mention' },
-  social: { repos: 'mention', hf: 'model', news: 'discussion', social: 'mention', labs: 'mention' },
-  labs: { repos: 'code', hf: 'model', news: 'discussion', social: 'discussion', labs: 'mention' },
+  repos: { repos: 'mention', hf: 'model', news: 'discussion', devto: 'discussion', lobsters: 'discussion', social: 'discussion', labs: 'mention' },
+  hf: { repos: 'code', hf: 'mention', news: 'discussion', devto: 'discussion', lobsters: 'discussion', social: 'discussion', labs: 'mention' },
+  news: { repos: 'mention', hf: 'model', news: 'mention', devto: 'discussion', lobsters: 'discussion', social: 'discussion', labs: 'mention' },
+  devto: { repos: 'mention', hf: 'model', news: 'discussion', devto: 'mention', lobsters: 'discussion', social: 'discussion', labs: 'mention' },
+  lobsters: { repos: 'mention', hf: 'model', news: 'discussion', devto: 'discussion', lobsters: 'mention', social: 'discussion', labs: 'mention' },
+  social: { repos: 'mention', hf: 'model', news: 'discussion', devto: 'discussion', lobsters: 'discussion', social: 'mention', labs: 'mention' },
+  labs: { repos: 'code', hf: 'model', news: 'discussion', devto: 'discussion', lobsters: 'discussion', social: 'discussion', labs: 'mention' },
 }
 
 function metricOf(e: Ent, m: Metrics): ResonanceLink['metric'] {
@@ -1049,6 +1051,8 @@ const PRIMARY: Record<Board, string> = {
   repos: 'stars',
   hf: 'likes',
   news: 'points',
+  devto: 'reactions',
+  lobsters: 'points',
   social: 'reach',
   labs: 'echo',
 }
@@ -1056,6 +1060,8 @@ const PRIMARY_RAW: Record<Board, (m: Metrics, r: Record<string, { raw: number }>
   repos: (m) => m.starsToday,
   hf: (m) => m.likes,
   news: (m) => m.points,
+  devto: (m) => m.reactions ?? m.points ?? 0,
+  lobsters: (m) => m.points,
   social: (m) => m.reach,
   labs: (_, r) => r.freshness.raw,
 }
@@ -1181,6 +1187,14 @@ function copyFor(e: Ent, m: Metrics, boards: number, inTop: boolean): Partial<Re
     news: {
       en: `${m.points} points and ${m.comments} comments on Hacker News.${echo.en}`,
       zh: `Hacker News 上 ${m.points} 分、${m.comments} 条评论${echo.zh}。`,
+    },
+    devto: {
+      en: `${m.reactions ?? m.points ?? 0} reactions on Dev.to.${echo.en}`,
+      zh: `Dev.to 上获得 ${m.reactions ?? m.points ?? 0} 次互动${echo.zh}。`,
+    },
+    lobsters: {
+      en: `${m.points} points on Lobsters.${echo.en}`,
+      zh: `Lobsters 上 ${m.points} 分${echo.zh}。`,
     },
     social: {
       en: `One of the most-discussed posts in its community today.${echo.en}`,

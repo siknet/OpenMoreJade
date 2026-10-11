@@ -403,6 +403,8 @@ const emptyBoards: DailyFile['boards'] = {
   repos: { top: [], runnersUp: [] },
   hf: { top: [], runnersUp: [] },
   news: { top: [], runnersUp: [] },
+  devto: { top: [], runnersUp: [] },
+  lobsters: { top: [], runnersUp: [] },
   social: { top: [], runnersUp: [] },
   labs: { top: [], runnersUp: [] },
 }
@@ -416,6 +418,8 @@ export const today: DailyFile = {
     repos: { top: [agentKit, tinyLlm], runnersUp: [vectorDb] },
     hf: { top: [planHf], runnersUp: [] },
     news: { top: [showHn], runnersUp: [] },
+    devto: { top: [], runnersUp: [] },
+    lobsters: { top: [], runnersUp: [] },
     social: { top: [redditPost], runnersUp: [] },
     labs: { top: [labPost], runnersUp: [] },
   },
@@ -681,6 +685,8 @@ export const weekly: WeeklyFile = {
       },
     ],
     news: [],
+    devto: [],
+    lobsters: [],
     social: [],
     labs: [
       {

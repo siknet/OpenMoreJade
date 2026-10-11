@@ -10,7 +10,7 @@
 import { mkdir, readdir, readFile, rename, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import type { Board, DateStr, SourceStatus } from '@resonance/schema'
-import { BOARDS, diffDays, isDateStr } from '@resonance/schema'
+import { ALL_BOARDS, BOARDS, diffDays, isDateStr } from '@resonance/schema'
 import type { BriefCache, CopyCache, CreateStore, DataStore, RawCandidate, Snapshot, StateStore } from './types.ts'
 
 /** Readings where a later run may see less than an earlier one (fell off trending, HN points dipped). */
@@ -101,7 +101,7 @@ export function mergeCandidate(prev: RawCandidate, next: RawCandidate): RawCandi
 }
 
 function byBoardThenKey(a: RawCandidate, b: RawCandidate): number {
-  return BOARDS.indexOf(a.board) - BOARDS.indexOf(b.board) || byString(a.key, b.key)
+  return ALL_BOARDS.indexOf(a.board) - ALL_BOARDS.indexOf(b.board) || byString(a.key, b.key)
 }
 
 /**
@@ -146,6 +146,8 @@ const HEADLINE: Record<Board, (c: RawCandidate, pool: Pool) => number[]> = {
   repos: (c) => [c.metrics.starsToday ?? 0, c.metrics.stars ?? 0],
   hf: (c) => [c.metrics.hf_likes ?? c.metrics.hfUpvotes ?? 0, c.metrics.trending_score ?? 0],
   news: (c) => [c.metrics.points ?? 0, c.metrics.comments ?? 0],
+  devto: (c) => [c.metrics.reactions ?? 0, c.metrics.comments ?? 0],
+  lobsters: (c) => [c.metrics.points ?? 0, c.metrics.comments ?? 0],
   social: (c, pool) => [-(pool.streamRank.get(c.key) ?? Number.MAX_SAFE_INTEGER)],
   labs: () => [],
 }
@@ -185,7 +187,8 @@ export function preRank(a: RawCandidate, b: RawCandidate, pool: Pool): number {
 /** Keeps the best `perBoard` candidates of each board (see `preRank`), in stable board-then-key order. */
 export function capPerBoard(candidates: RawCandidate[], perBoard: number): RawCandidate[] {
   const pool = poolOf(candidates)
-  return BOARDS.flatMap((board) =>
+  const boards = [...new Set([...BOARDS, ...candidates.map((c) => c.board)])]
+  return boards.flatMap((board) =>
     candidates
       .filter((c) => c.board === board)
       .sort((a, b) => preRank(a, b, pool))

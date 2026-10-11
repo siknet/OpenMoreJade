@@ -39,8 +39,8 @@ export const SOURCES: readonly SourceSpec[] = [
   { id: 'github-search', board: 'repos', enabled: (c) => c.sources.githubSearch.enabled, create: githubSearch },
   { id: 'hf-trending', board: 'hf', enabled: (c) => c.sources.hfTrending.enabled, create: hfTrending },
   { id: 'hacker-news', board: 'news', enabled: (c) => c.sources.hackerNews.enabled, create: hackerNews },
-  { id: 'dev-to', board: 'news', enabled: (c) => c.sources.devTo.enabled, create: devTo },
-  { id: 'lobsters', board: 'news', enabled: (c) => c.sources.lobsters.enabled, create: lobsters },
+  { id: 'dev-to', board: 'devto', enabled: (c) => c.sources.devTo.enabled, create: devTo },
+  { id: 'lobsters', board: 'lobsters', enabled: (c) => c.sources.lobsters.enabled, create: lobsters },
   // Paid providers stay unconstructed (no network, no cost) unless X is explicitly enabled.
   { id: 'x', board: 'social', enabled: (c) => c.sources.x.enabled, create: xSource },
   { id: 'x-linked', board: 'social', enabled: (c) => c.sources.x.linked, create: xLinked },
