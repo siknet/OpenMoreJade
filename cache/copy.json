@@ -670,6 +670,120 @@
   },
   "hash": "ce3f7980bcaa9427"
  },
+ "devto:4831033": {
+  "copy": {
+   "zh": {
+    "blurb": "LORE WALK 是一款旨在让用户主动放下手机的应用，采用 AI 生成沉浸式故事或任务，引导用户在不使用设备的情况下进行探索。",
+    "title": "LORE WALK：我打造了一款让你想收起的应用"
+   }
+  },
+  "hash": "625e762bd829a45b"
+ },
+ "devto:4831320": {
+  "copy": {
+   "zh": {
+    "blurb": "IRL Quest 是 Hacktoberfest 开源 AI 挑战的另一个项目，提供基于 AI 的现实任务，引导用户走出室内，体验线下活动。",
+    "points": [
+     "AI 生成每日户外任务，鼓励用户探索真实世界。",
+     "完全无屏交互，使用语音或可穿戴设备提醒。",
+     "开源实现，社区可自定义任务库与奖励机制。"
+    ],
+    "title": "IRL Quest — 让你放下手机的 AI 任务"
+   }
+  },
+  "hash": "b68fe6ab6014d26f"
+ },
+ "devto:4831363": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了一个基于 Sphinx 的互动谜题，将社区的元素转化为文字谜语，用户通过解谜探索邻里信息。",
+    "title": "Sphinx：将你的社区变成谜题"
+   }
+  },
+  "hash": "ddfb72530f025965"
+ },
+ "devto:4831376": {
+  "copy": {
+   "zh": {
+    "blurb": "GrassQuest 将一次短途散步转化为浏览器驱动的发现任务，通过任务指引鼓励用户在现实世界中进行探索和收集。",
+    "title": "GrassQuest：把短途散步变成发现任务"
+   }
+  },
+  "hash": "6024a9339be68339"
+ },
+ "devto:4831407": {
+  "copy": {
+   "zh": {
+    "blurb": "本项目是 Hacktoberfest 开源 AI 挑战第一周的作品，旨在鼓励用户走出户外。应用通过 AI 生成冒险情节，只有在用户实际外出后情节才会推进。",
+    "title": "Outward：只有走出户外才会前进的冒险故事"
+   }
+  },
+  "hash": "84ed01b4e07a4e4b"
+ },
+ "devto:4831450": {
+  "copy": {
+   "zh": {
+    "blurb": "TerraPulse 是在 Hacktoberfest 开源 AI 挑战第一周推出的无屏户外助理，利用语音交互为徒步者提供路径、天气和安全提示，完全脱离手机屏幕。",
+    "points": [
+     "通过语音指令实现全程无屏交互，提升户外安全。",
+     "集成实时天气与地图数据，提供动态路线建议。",
+     "完全开源，支持社区扩展与自定义插件。"
+    ],
+    "title": "TerraPulse 🌿 — 无屏户外与徒步 AI 代理"
+   }
+  },
+  "hash": "a5b99ae381405c13"
+ },
+ "devto:4831463": {
+  "copy": {
+   "zh": {
+    "blurb": "TrailMate 旨在打造无需网络的 AI 同行助手，帮助用户规划路线、识别地形并提供实时建议，推动低屏使用。",
+    "points": [
+     "完全离线运行，适合无网络环境的徒步。",
+     "集成路径规划与地形识别，提供智能语音提示。",
+     "低功耗设计，延长移动设备电池续航。"
+    ],
+    "title": "TrailMate — 离线 AI 伴侣让你走向户外"
+   }
+  },
+  "hash": "b0746fd6fe0b870f"
+ },
+ "devto:4831514": {
+  "copy": {
+   "zh": {
+    "blurb": "QuoteThought 为引用、诗歌和创意写作提供专属空间，结合 AI 推荐和社交功能，让作者发现灵感并与读者互动。",
+    "points": [
+     "AI 驱动的内容推荐，帮助创作者快速找到相关句子和灵感。",
+     "支持多种写作形式，涵盖短句、诗歌、长篇创作。",
+     "开放式社区，用户可投稿、评论并收藏精选作品。"
+    ],
+    "title": "QuoteThought — 构建句子、诗歌与创作写作的社区平台"
+   }
+  },
+  "hash": "61467f3da52f4776"
+ },
+ "devto:4831663": {
+  "copy": {
+   "zh": {
+    "blurb": "Goblin Mode 是一款离线优先的 AI 自然寻宝游戏，作为 Hacktoberfest 开源 AI 挑战的作品，利用 AI 生成线索，让用户在无需网络的情况下进行自然探索。",
+    "points": [
+     "结合 AI 与离线功能，实现无需网络的自然探索",
+     "通过 Bingo 玩法激励玩家发现并记录自然元素"
+    ],
+    "title": "Goblin Mode：离线优先的AI自然寻宝游戏"
+   }
+  },
+  "hash": "b38ceb5f787c2166"
+ },
+ "devto:4831668": {
+  "copy": {
+   "zh": {
+    "blurb": "Side Quest 是一款利用 AI 根据用户所在真实地点生成户外探险任务的应用，并要求上传照片进行验证，旨在将数字游戏与现实户外活动结合。",
+    "title": "Side Quest — 基于真实地点生成户外冒险并验证照片的应用"
+   }
+  },
+  "hash": "a018cf561c33ddf7"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -1237,8 +1351,12 @@
  "gh:lexmount/moli": {
   "copy": {
    "zh": {
-    "blurb": "用 Rust 构建的轻量高速无头浏览器，兼容性高，专为 AI 代理设计。",
-    "title": "Moli：面向 AI 代理的轻量高速无头浏览器",
+    "blurb": "lexmount/moli 是用 Rust 编写的轻量级无头浏览器，专为 AI 代理设计，兼具高速和高兼容性，可在资源受限环境下高效抓取网页。",
+    "points": [
+     "基于 Rust 实现，拥有极低的内存和 CPU 开销",
+     "完整支持主流 Web 标准，确保 AI 代理的高兼容性"
+    ],
+    "title": "lexmount/moli：面向AI代理的轻量高速无头浏览器（Rust 实现）",
     "why": "为 AI 代理提供高效网页交互，降低资源占用。"
    }
   },
@@ -1667,6 +1785,15 @@
   },
   "hash": "213d17eedd74b252"
  },
+ "gh:t8y2/dbx": {
+  "copy": {
+   "zh": {
+    "blurb": "dbx 是一个 25 MB 的轻量级跨平台数据库客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面、Docker、CLI 以及内置 AI 助手和 MCP 服务器。",
+    "title": "t8y2/dbx"
+   }
+  },
+  "hash": "8320eeef873e99fe"
+ },
  "gh:tashfeenahmed/freellmapi": {
   "copy": {
    "zh": {
@@ -1911,6 +2038,20 @@
    }
   },
   "hash": "acb537d2dfa1317b"
+ },
+ "hf:canberkkkkkk/ema-lightning": {
+  "copy": {
+   "zh": {
+    "blurb": "ema-lightning 是 Hugging Face 上的轻量级 TTS 模型，基于 PyTorch Lightning 实现快速训练与推理，适用于移动端实时语音合成。",
+    "points": [
+     "采用 EMA 技术提升模型稳定性与音质。",
+     "基于 Lightning 框架，训练效率高，易于部署。",
+     "参数量小，适合资源受限的设备实时合成。"
+    ],
+    "title": "ema-lightning — 轻量级文本转语音模型"
+   }
+  },
+  "hash": "db265e82dfe69c12"
  },
  "hf:cloudflare/clef": {
   "copy": {
@@ -2882,6 +3023,28 @@
   },
   "hash": "38317c7e9f496bee"
  },
+ "lobsters:6vjx1k": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍 Logfire 通过动态切分 JSON（shredding）技术，将嵌套的 JSON 数据拆解为列式结构，实现查询速度提升约 1000 倍，显著加速日志分析。",
+    "points": [
+     "将半结构化 JSON 自动切分为列，提升查询效率",
+     "在关系型数据库上实现对 JSON 日志的即时高速分析"
+    ],
+    "title": "通过JSON切片实现Logfire查询速度提升1000倍"
+   }
+  },
+  "hash": "6ba2aae8b1faf132"
+ },
+ "lobsters:7mllxi": {
+  "copy": {
+   "zh": {
+    "blurb": "JSON Tiles 论文提出一种自动检测关键键并透明提取的技术，使关系数据库在保持 JSON 灵活性的同时，以原生速度对半结构化数据进行分析。",
+    "title": "JSON Tiles：半结构化数据的高速分析"
+   }
+  },
+  "hash": "7d5329190890b6ed"
+ },
  "lobsters:9ros7d": {
   "copy": {
    "zh": {
@@ -2894,6 +3057,20 @@
    }
   },
   "hash": "303313a3acd83a1a"
+ },
+ "lobsters:ecxril": {
+  "copy": {
+   "zh": {
+    "blurb": "LineageOS 24.0 基于 Android 14，带来最新系统功能与安全更新，继续提供高度可定制的开源 Android 发行版。",
+    "points": [
+     "基于 Android 14，加入隐私与安全新特性。",
+     "支持广泛设备，提供系统级自定义选项。",
+     "持续社区维护，快速推送安全补丁。"
+    ],
+    "title": "LineageOS 24.0 正式发布"
+   }
+  },
+  "hash": "0b054b019e3f6cb9"
  },
  "lobsters:fbs3k7": {
   "copy": {

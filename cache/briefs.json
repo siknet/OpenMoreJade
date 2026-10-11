@@ -91,15 +91,16 @@
   "brief": {
    "zh": {
     "bullets": [
-     "storytold 团队在 Rust 中发布了一系列 Adobe 软件的干净房间实现，包括 Photoshop、Premiere、Acrobat、Lightroom，分别在 repos#1、#3、#4、#5 中出现，展示了 Rust 在高性能图形工具的潜力。",
-     "在 Hacker News 上展示的 Littleguys 项目把 Claude Code、Codex 和 OpenClaw 代理集成到菜单栏，呼应了 yetone 的 magpie 项目提供的统一模型入口（news#2、repos#8）。",
-     "Nvidia 正在与美国开源模型初创公司 Reflection AI 谈判收购，表明芯片巨头正加速布局开源大模型生态（news#1）。",
-     "Hugging Face 上多模态模型热度攀升，Qwen‑Image‑2.1、Cloudflare clef、Lightricks LTX‑2.5 等模型在 hf#2、#3、#4 获得高分，显示文本‑图像、图像‑文本到文本任务的快速发展。"
+     "Storytold系列在GitHub发布四个纯Rust实现的Adobe Photoshop、Acrobat、Premiere Pro和Lightroom替代品，展示Rust在高性能图形软件的可行性。[repos#1] [repos#3] [repos#4] [repos#5]",
+     "Rust生态下AI基础设施项目崭露头角：Strata提供Qwen3.8本地推理引擎，Moli是高兼容性Rust浏览器供AI代理使用，Magpie聚合各大模型的Agent实现。[repos#6] [repos#8] [repos#9]",
+     "Hugging Face上多模态模型持续走高，如Google/embeddinggemma-2、Cloudflare/clef、Qwen-Image-2.1等，强化开源社区在图像、文本、语音等领域的竞争力。[hf#1] [hf#4] [hf#8]",
+     "“Touch Grass”主题在新闻和DevTo上热度上升，多款开源AI伴侣（TouchGrass AI、TerraPulse、IRL Quest、TrailMate等）旨在鼓励用户走出屏幕，结合本地模型实现离线功能。[news#5] [devto#1] [devto#6] [devto#7]",
+     "Nvidia正洽谈收购开源模型创业公司Reflection AI，显示大型芯片厂商仍在寻求整合开源模型资源的途径。[news#1]"
     ],
-    "headline": "开源AI与多模态模型热潮：Rust 重写 Adobe、Nvidia 觊觎开源模型、户外AI应用激增"
+    "headline": "Rust驱动的开源AI与创意工具激增，跨领域项目从Adobe套件重写到户外AI伴侣"
    }
   },
-  "hash": "968fd5a37c24ca16"
+  "hash": "9fe55b09b937a560"
  },
  "2026-W41": {
   "brief": {
