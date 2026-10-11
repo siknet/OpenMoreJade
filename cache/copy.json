@@ -784,6 +784,255 @@
   },
   "hash": "a018cf561c33ddf7"
  },
+ "devto:4831669": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分析开源库在处理‘每年重复’时因闰年 2 月 29 日导致的日期计算错误，阐明日历算术与时长算术的区别并提供修复思路。",
+    "points": [
+     "闰年导致的重复日期计算错误。",
+     "区分日历算术和时长算术至关重要。",
+     "提供了修复方案并建议使用专门的日历库。"
+    ],
+    "title": "日历算术 vs. 时长算术：开源 Bug 教训"
+   }
+  },
+  "hash": "c5d9b4e43376f33e"
+ },
+ "devto:4831822": {
+  "copy": {
+   "zh": {
+    "blurb": "作者记录 Crowdwide 项目第九天的进展，因疲惫差点让服务休眠 8‑10 天，提醒保持监控。",
+    "points": [
+     "项目已进入关键功能开发阶段。",
+     "教训：需要自动化监控防止长时间休眠。"
+    ],
+    "title": "Crowdwide 第九天：差点让它休眠 8‑10 天"
+   }
+  },
+  "hash": "f7b651d237d2972b"
+ },
+ "devto:4832023": {
+  "copy": {
+   "zh": {
+    "blurb": "PaceCast 是开源的零屏 AI 音频跑步伴侣与 3D 秋季树冠引擎，使用 Google Gemma 2 生成实时语音指引，结合 OpenStreetMap 提供沉浸式 3D 跑步音效，完全无需屏幕操作。",
+    "points": [
+     "利用 Gemma 2 实时生成语音跑步指引",
+     "结合 OpenStreetMap 构建 3D 环境音效",
+     "全零屏设计，适合跑步时使用"
+    ],
+    "title": "打造零屏 3D 音频跑步伴侣：基于 Gemma 2 与 OpenStreetMap 的 PaceCast"
+   }
+  },
+  "hash": "bc56fcbaabb91cfa"
+ },
+ "devto:4832287": {
+  "copy": {
+   "zh": {
+    "blurb": "提供 MIT 许可证的免费 MCP 服务器，覆盖 SEC 文件、市场、期权、联储、宏观数据、量化分析和回测验证等三款工具，并与 OpenBB、EdgarTools、Yahoo 进行对比，列出发现的 bug。",
+    "points": [
+     "MIT 许可证的免费 MCP 服务器，提供广泛金融数据接口",
+     "包含 306 项工具，涵盖 SEC filings、市场、期权等多类数据",
+     "对比 OpenBB、EdgarTools、Yahoo，揭示性能差异与 bug"
+    ],
+    "title": "canli-mcp：306 个免费金融工具，适用于 Claude 与任意 MCP 客户端"
+   }
+  },
+  "hash": "ff9cf2f0f159c4fd"
+ },
+ "devto:4832876": {
+  "copy": {
+   "zh": {
+    "blurb": "同样是 Hacktoberfest 开源 AI 挑战的提交，GrassRoots 通过本地 Gemma 代理向开发者发送提醒，鼓励他们离开电脑、走到户外，促进身心健康。",
+    "title": "GrassRoots：提醒开发者“下线走走”的本地 Gemma 代理"
+   }
+  },
+  "hash": "9bc5d9f0456bc9ed"
+ },
+ "devto:4833076": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第一周的参赛作品，利用本地部署的 Gemma 模型，自动为用户推荐接下来30分钟的户外活动，帮助“触草”。",
+    "title": "Touch Grass Planner：本地 Gemma 模型为你安排户外30分钟"
+   }
+  },
+  "hash": "27e8526defd7f499"
+ },
+ "devto:4833104": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 Nakshatra 项目，旨在全黑环境下观星，避免手机屏幕光害，属于 Hacktoberfest 开源 AI 挑战第一周的提交。",
+    "title": "Nakshatra：在全黑中观星（摆脱手机屏幕的光害）"
+   }
+  },
+  "hash": "6b95ad12a6a00e7b"
+ },
+ "devto:4833223": {
+  "copy": {
+   "zh": {
+    "blurb": "本篇为 Hacktoberfest 开源 AI 挑战第一周 “Touch Grass” 的投稿，倡导在 CI 构建运行期间离开电脑散步，以提升健康和创造力。",
+    "points": [
+     "在构建等待期间提醒用户起身走动，防止久坐。",
+     "提供脚本或 CI 步骤自动触发散步提醒。",
+     "强调步行对思考与生产力的积极影响。"
+    ],
+    "title": "构建运行时去散步"
+   }
+  },
+  "hash": "d6782cd1d0017098"
+ },
+ "devto:4833609": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第一周的作品，Trina 让本地 AI 在无网络环境下自行构建游戏，鼓励用户走出电脑。",
+    "points": [
+     "使用本地 AI 生成完整游戏代码，无需联网",
+     "强调离线开发与自然交互的可能性",
+     "展示通过简易指令让 AI 完成游戏的全过程"
+    ],
+    "title": "Trina (তৃণ)：离线本地AI构建游戏"
+   }
+  },
+  "hash": "d6088f69479a010c"
+ },
+ "devto:4833616": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第一周提交的项目，作者使用 Node.js 实现了检索增强生成（RAG）引擎，展示了向量搜索与大模型结合的问答流程。",
+    "points": [
+     "基于 Node.js 搭建向量检索与 LLM 生成流水线",
+     "示例代码展示索引创建、查询及结果合成",
+     "适合作为学习 RAG 的入门项目"
+    ],
+    "title": "Node.js RAG 引擎构建实战"
+   }
+  },
+  "hash": "0ce5bc57ff9eeced"
+ },
+ "devto:4833647": {
+  "copy": {
+   "zh": {
+    "blurb": "本项目为 Hacktoberfest 开源 AI 挑战第一周提交，利用本地大模型引导用户走出办公室，打造活力办公空间。",
+    "points": [
+     "利用本地 LLM 生成实时办公环境建议",
+     "通过 AI 引导用户走出办公室，提升身心健康",
+     "开源项目适用于 Hacktoberfest 挑战"
+    ],
+    "title": "AFK.exe：通过本地 AI 走出室外，打造活力办公空间"
+   }
+  },
+  "hash": "14dc6b68e132c81d"
+ },
+ "devto:4833651": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 挑战中提交，基于本地 AI 为父母提供步行伴随功能，帮助他们放下手机，享受户外。",
+    "points": [
+     "基于本地模型的步行引导系统",
+     "提供离线语音提示，帮助父母专注于步行",
+     "开源实现鼓励亲子户外互动"
+    ],
+    "title": "Sair：为父母打造的步行伴侣，让他们摆脱手机"
+   }
+  },
+  "hash": "b96583305a860288"
+ },
+ "devto:4833680": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨一种工作流：当代理破坏行为并修改相应测试后，CI 仍保持绿色；pr‑witness 会在 PR 上运行基线分支的测试，以捕捉回归。",
+    "points": [
+     "代理自动编辑测试，使其匹配最新代码变更。",
+     "pr‑witness 将基线测试套用到 PR 代码，检查旧测试是否失效。",
+     "此方式可提升 CI 效率，减少不必要的全套测试运行。"
+    ],
+    "title": "CI 只运行新代码对应的新测试"
+   }
+  },
+  "hash": "d00694d285e88770"
+ },
+ "devto:4833703": {
+  "copy": {
+   "zh": {
+    "blurb": "本稿介绍 Lookabout 🌿，一款离线照片散步应用，用户在无网络环境下拍摄散步图片，Gemma 可在手机上离线查看并标记。",
+    "points": [
+     "支持在无网络时记录并存储散步照片。",
+     "Gemma 移动端离线浏览与 AI 标注功能。",
+     "适用于 Hacktoberfest “Touch Grass” 项目，鼓励户外活动。"
+    ],
+    "title": "Lookabout 🌿 离线照片散步，Gemma 手机端检查"
+   }
+  },
+  "hash": "738a7864f14acdfc"
+ },
+ "devto:4833728": {
+  "copy": {
+   "zh": {
+    "blurb": "本文分享在 Windows 平台发布 Swift CLI 时遇到的种种问题，并阐述 Mudroom 如何在 Linux 容器中运行 Claude Code、Codex、Gemini CLI 等编码代理的经验。",
+    "points": [
+     "Windows 对 Swift 二进制兼容性导致构建失败。",
+     "通过容器化 Linux 环境绕过平台限制。",
+     "详细记录跨平台依赖调试与包装步骤。"
+    ],
+    "title": "在 Windows 上发布 Swift CLI：遇到的问题"
+   }
+  },
+  "hash": "75f386678f7030e6"
+ },
+ "devto:4833736": {
+  "copy": {
+   "zh": {
+    "blurb": "此项目为 Hacktoberfest 第一期作品，使用本地 LLM 每周推荐适合种植的植物，帮助园艺爱好者制定种植计划。",
+    "points": [
+     "本地 LLM 依据季节与气候给出种植建议",
+     "离线运行，保护用户隐私",
+     "适用于园艺爱好者的即时指导"
+    ],
+    "title": "Touch Grass Garden Coach：本地 LLM 每周推荐种植作物"
+   }
+  },
+  "hash": "9e972fc0615f3729"
+ },
+ "devto:4833768": {
+  "copy": {
+   "zh": {
+    "blurb": "作者介绍了 NutriNature 项目，利用零泄漏内容安全策略（CSP）在浏览器端实现全食补剂匹配功能，保证用户数据不离开本地，完全私密。",
+    "title": "构建 100% 私有、客户端全食补剂匹配器，使用零泄漏 CSP"
+   }
+  },
+  "hash": "10c2ebd4971f8d70"
+ },
+ "devto:4833772": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 Dev.to 文章是 Hacktoberfest 开源 AI 挑战第一周 “Touch Grass” 的作品，介绍了 WildTrace 项目，旨在通过 AI 记录并可视化微小生态栖息地的变化。",
+    "title": "WildTrace — 每个小栖息地都有故事"
+   }
+  },
+  "hash": "d0e1c06973155512"
+ },
+ "devto:4833840": {
+  "copy": {
+   "zh": {
+    "blurb": "GrassRoot 是 Hacktoberfest 提交的本地 AI 口袋植物项目，提供每日户外任务提醒，鼓励用户亲近自然。",
+    "points": [
+     "本地 AI 提供每日户外任务提醒",
+     "轻量化设计，随时随地使用",
+     "开源项目旨在促进用户走出室内"
+    ],
+    "title": "GrassRoot：本地 AI 口袋植物，逼你亲近自然"
+   }
+  },
+  "hash": "064ffe668975df7c"
+ },
+ "devto:4833858": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Dev.to 投稿同样来自 Hacktoberfest “Touch Grass” 主题，呼吁人们抬头观察天空，探讨 AI 在天文观测或环境感知中的创意应用。",
+    "title": "放下手机——仰望星空的邀请"
+   }
+  },
+  "hash": "7b2c6373212db1e5"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -988,6 +1237,15 @@
    }
   },
   "hash": "768aa0cc86f61457"
+ },
+ "gh:copilotkit/openintelligentui": {
+  "copy": {
+   "zh": {
+    "blurb": "CopilotKit/OpenIntelligentUI 是一个使用 TypeScript 编写的开源生成式 UI 框架，已累计 2596 星，本轮新增 309 星。",
+    "title": "CopilotKit/OpenIntelligentUI"
+   }
+  },
+  "hash": "e6f5e65a009b89a4"
  },
  "gh:coreyhaines31/marketingskills": {
   "copy": {
@@ -1213,6 +1471,20 @@
   },
   "hash": "c3a2ea859c7cde6d"
  },
+ "gh:gentleman-programming/gentle-ai": {
+  "copy": {
+   "zh": {
+    "blurb": "Gentle‑AI 为 Claude Code、Cursor、OpenCode、Codex、Pi 等现有 AI 编码代理提供统一配置，包括持久记忆、有机驱动开发、技能库、MCP 服务器、角色设定及可选受限审查，完全开源，无供应商锁定。",
+    "points": [
+     "统一配置多种编码模型，实现持久记忆与可定制技能",
+     "支持有机驱动的开发流程和可选审查层",
+     "开源实现，无需依赖特定平台"
+    ],
+    "title": "Gentle‑AI：统一配置多模型编码助手"
+   }
+  },
+  "hash": "32a8ad7d766f7ab1"
+ },
  "gh:graphify-labs/graphify": {
   "copy": {
    "zh": {
@@ -1303,6 +1575,15 @@
   },
   "hash": "5a558fb81dd0f934"
  },
+ "gh:hypit-ai/hypit": {
+  "copy": {
+   "zh": {
+    "blurb": "hypit 项目提供一键式 AI 工作流，可替换视频中的人脸、对白、B‑roll，并一次性生成 100 条变体，帮助创作者快速复制病毒视频并争取上亿观看。",
+    "title": "hypit：使用 AI 代理克隆热门视频的完整工作流"
+   }
+  },
+  "hash": "26cdc8fb2dfe314c"
+ },
  "gh:infiniflow/ragflow": {
   "copy": {
    "zh": {
@@ -1317,6 +1598,20 @@
    }
   },
   "hash": "4ebffdaf4936a144"
+ },
+ "gh:jev-chat/jev-chat-jarvis": {
+  "copy": {
+   "zh": {
+    "blurb": "Jev Chat Jarvis 是跨平台（Android、Windows、macOS、iOS）的聊天决策工具，先解析对话意图与风险，再生成可编辑的回复草稿，用户一键发送，使用 Kotlin 实现。",
+    "points": [
+     "自动读取聊天内容并评估意图与风险",
+     "生成可编辑的回复草稿，一键发送",
+     "Kotlin 开发，支持 Android、Windows、macOS、iOS 多平台"
+    ],
+    "title": "Jev Chat Jarvis：聊天决策助理"
+   }
+  },
+  "hash": "74f6de80e56468e6"
  },
  "gh:juliusbrussee/caveman": {
   "copy": {
@@ -1347,6 +1642,20 @@
    }
   },
   "hash": "73040f51f5554a53"
+ },
+ "gh:langgenius/dify": {
+  "copy": {
+   "zh": {
+    "blurb": "dify 是一个开源平台，支持在协作工作区中构建 Agent 工作流和 RAG 管道，兼容多模型和工具，可部署于云端、VPC 或自托管。",
+    "points": [
+     "支持多模型与工具的协作工作区",
+     "可部署于云端、VPC 或本地，实现从原型到生产的无缝迁移",
+     "开源 TypeScript 项目，适合团队协作"
+    ],
+    "title": "langgenius/dify：一站式构建 Agent 工作流与 RAG 管道"
+   }
+  },
+  "hash": "cd8b2c1baca6a9a7"
  },
  "gh:lexmount/moli": {
   "copy": {
@@ -1476,6 +1785,24 @@
    }
   },
   "hash": "047a33bf2d30e3fc"
+ },
+ "gh:multica-ai/multica": {
+  "copy": {
+   "zh": {
+    "blurb": "multica 是一个开源、可自托管的框架，帮助人类与 AI 代理协同工作，实现多智能体团队合作，使用 Go 语言实现。",
+    "title": "multica-ai/multica"
+   }
+  },
+  "hash": "01a714a41e1a0777"
+ },
+ "gh:multimodal-art-projection/yue": {
+  "copy": {
+   "zh": {
+    "blurb": "YuE2 项目结合符号规划和零-shot 技术，实现音乐的自动生成、跨曲目翻唱以及基于代理的交互式音乐编辑，为音乐创作提供全新 AI 工具链。",
+    "title": "YuE2：前沿音乐生成，支持符号规划、零样本翻唱和代理式编辑"
+   }
+  },
+  "hash": "781be2883232b929"
  },
  "gh:nandhakishorm/laya": {
   "copy": {
@@ -1666,6 +1993,20 @@
    }
   },
   "hash": "c3cc17d594c7e0b7"
+ },
+ "gh:shubhamsaboo/awesome-llm-apps": {
+  "copy": {
+   "zh": {
+    "blurb": "awesome-llm-apps 收录 100 多个免费开源的 AI 代理、技能和 RAG 应用，使用 Python 实现，方便开发者快速参考。",
+    "points": [
+     "收录 100 多个 LLM 代理、技能与 RAG 示例",
+     "全部开源，覆盖 Python 实现",
+     "便于开发者快速查找和复用 AI 应用案例"
+    ],
+    "title": "Shubhamsaboo/awesome-llm-apps：100+ 免费开源 AI 代理与 RAG 应用"
+   }
+  },
+  "hash": "fd5e679a6f4bb0df"
  },
  "gh:sickn33/agentic-awesome-skills": {
   "copy": {
@@ -1963,6 +2304,20 @@
    }
   },
   "hash": "db6da4252d4ab15a"
+ },
+ "gh:zai-org/zcode": {
+  "copy": {
+   "zh": {
+    "blurb": "ZCode 是 Z.ai 开源的代码生成代理框架，基于 TypeScript，实现强大、智能且可扩展的编程助手功能。",
+    "points": [
+     "提供统一接口集成多种大模型",
+     "支持插件式扩展和自定义工作流",
+     "开源代码已获 7.6k 星，适合作为 AI 编程工具基础"
+    ],
+    "title": "ZCode：可扩展的 AI 编码代理框架"
+   }
+  },
+  "hash": "78cef2e19116805f"
  },
  "gh:zhulinsen/daily_stock_analysis": {
   "copy": {
@@ -2997,6 +3352,60 @@
   },
   "hash": "d011fbe17508b14b"
  },
+ "hn:50039092": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示使用 5000 亿 token 语料训练的 AI 代理，能够在第一人称射击游戏中读取并逆向分析代码，实现自动化解构。",
+    "points": [
+     "使用 500B token 规模的语言模型训练。",
+     "AI 代理在游戏环境中执行代码逆向。",
+     "证明 AI 在软件工程自动化中的新可能。"
+    ],
+    "title": "5000亿标记后：让 AI 代理逆向第一人称射击游戏"
+   }
+  },
+  "hash": "a5183259f5ee91b2"
+ },
+ "hn:50041068": {
+  "copy": {
+   "zh": {
+    "blurb": "Rezoom 是开源工具，提供单一列表视图集中管理 Claude 编码对话，支持多会话切换，提升代码交互的组织与可视化体验。",
+    "points": [
+     "在一个界面中列出所有 Claude 代码会话",
+     "支持快速切换和查看历史对话",
+     "改善 Claude 编码交互的可视化与组织"
+    ],
+    "title": "Rezoom：统一管理所有 Claude 代码会话的聊天列表"
+   }
+  },
+  "hash": "40b5e15fb1c44e13"
+ },
+ "hn:50042333": {
+  "copy": {
+   "zh": {
+    "blurb": "BetterWispr 是一款针对 Mac 的免费开源语音转文字工具，支持实时听写并可离线使用，保护用户隐私。",
+    "points": [
+     "完全开源，可自行编译和定制。",
+     "本地离线处理，无需网络即可听写。"
+    ],
+    "title": "Show HN：BetterWispr——Mac 免费开源语音输入"
+   }
+  },
+  "hash": "7dfcb4279281a8be"
+ },
+ "lobsters:4ehrkn": {
+  "copy": {
+   "zh": {
+    "blurb": "作者说明自己仍活跃于社区，但暂时停止在该平台撰写文章，分享离开的原因与未来计划。",
+    "points": [
+     "暂时不在此站点写作，但仍关注技术动态。",
+     "计划在其他渠道继续分享经验。"
+    ],
+    "title": "我仍在，只是没有在此写作"
+   }
+  },
+  "hash": "71416dfbc1671413"
+ },
  "lobsters:4zmka2": {
   "copy": {
    "zh": {
@@ -3058,6 +3467,28 @@
   },
   "hash": "303313a3acd83a1a"
  },
+ "lobsters:9wcfld": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨评估 Git 提交大小的度量方式，分析提交涉及的行数、文件数等指标，以及这些指标对代码审查和仓库维护的影响。",
+    "points": [
+     "分析提交的行数、文件数等常用大小度量",
+     "讨论大小指标在代码审查和仓库管理中的实际意义"
+    ],
+    "title": "Git 提交的大小到底有多大？"
+   }
+  },
+  "hash": "a90b7aed024e75ae"
+ },
+ "lobsters:e84scc": {
+  "copy": {
+   "zh": {
+    "blurb": "本文详细披露了对 Eufy 智能门铃及其基站的逆向与破解方法，并提供了后续基站固件深入分析的链接，供安全研究者参考。",
+    "title": "Eufy 门铃与基站破解技术分享"
+   }
+  },
+  "hash": "f19c2046efdcd013"
+ },
  "lobsters:ecxril": {
   "copy": {
    "zh": {
@@ -3085,6 +3516,20 @@
   },
   "hash": "9772652882aacf5f"
  },
+ "lobsters:gmnqhj": {
+  "copy": {
+   "zh": {
+    "blurb": "Valen 引入一种基于所有权分组的全新借用检查模型，以编译时分析防止悬垂指针和数据竞争，提升系统语言的内存安全性和易用性。",
+    "points": [
+     "提出基于所有权分组的借用检查模型",
+     "通过编译时分析阻止悬垂指针和数据竞争",
+     "旨在提升系统语言的安全性与可用性"
+    ],
+    "title": "Valen 内存安全：全新借用检查机制"
+   }
+  },
+  "hash": "391c85597d3f2090"
+ },
  "lobsters:gqaqgq": {
   "copy": {
    "zh": {
@@ -3111,6 +3556,20 @@
    }
   },
   "hash": "e23e6293113fa23d"
+ },
+ "lobsters:lwwtpu": {
+  "copy": {
+   "zh": {
+    "blurb": "Futhark 团队在 2026‑10‑11 的博客中阐述了对别名传播机制的最终实现方案，重点介绍了优化策略和编译器行为。",
+    "points": [
+     "重新设计别名分析提升并行代码安全性",
+     "引入更精细的传播规则降低误报",
+     "实际项目中实现显著性能提升"
+    ],
+    "title": "别名传播的最终实现方案"
+   }
+  },
+  "hash": "b80782de4e25890c"
  },
  "lobsters:mbyawi": {
   "copy": {
@@ -3168,5 +3627,33 @@
    }
   },
   "hash": "328c7cbc2ed12e06"
+ },
+ "lobsters:u9ue6c": {
+  "copy": {
+   "zh": {
+    "blurb": "GNU 哲学页面批判 GitHub 的所有权和封闭性，指出其对开源社区自由的危害，并呼吁使用替代平台。",
+    "points": [
+     "指责 GitHub 对代码的专有控制。",
+     "强调对开源自由的负面影响。",
+     "倡导迁移到更开放的代码托管服务。"
+    ],
+    "title": "GitHub 有何问题"
+   }
+  },
+  "hash": "3f9e31aeab10b940"
+ },
+ "lobsters:zziknb": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇针对 C 语言的 arena 分配器指南，介绍如何通过一次性大块内存分配实现高效的内存管理。",
+    "points": [
+     "一次性分配大块内存提升分配/释放速度",
+     "适用于短生命周期对象的批量管理",
+     "提供示例代码演示实现细节"
+    ],
+    "title": "Arena Allocators in C"
+   }
+  },
+  "hash": "6072b6eb735891aa"
  }
 }

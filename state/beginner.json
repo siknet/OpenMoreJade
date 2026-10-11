@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-11T07:11:06.834Z",
+   "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -110,6 +110,47 @@
    },
    "sourceKey": "gh:farion1231/cc-switch"
   },
+  "discovery:gh:gentleman-programming/gentle-ai": {
+   "observedAt": "2026-10-11T17:41:07.692Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:gentleman-programming/gentle-ai",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-11T10:35:44.000Z",
+    "summary": {
+     "en": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+     "zh": "Gentle‑AI 为 Claude Code、Cursor、OpenCode、Codex、Pi 等现有 AI 编码代理提供统一配置，包括持久记忆、有机驱动开发、技能库、MCP 服务器、角色设定及可选受限审查，完全开源，无供应商锁定。"
+    },
+    "title": {
+     "en": "Gentleman-Programming/gentle-ai",
+     "zh": "Gentle‑AI：统一配置多模型编码助手"
+    },
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-coding",
+     "claude-code",
+     "code-review",
+     "codex",
+     "coding-agents",
+     "copilot"
+    ],
+    "type": "repo",
+    "url": "https://github.com/Gentleman-Programming/gentle-ai",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:gentleman-programming/gentle-ai"
+  },
   "discovery:gh:graphify-labs/graphify": {
    "observedAt": "2026-10-10T07:04:56.138Z",
    "resource": {
@@ -152,7 +193,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -164,7 +205,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-10T17:07:38.000Z",
+    "sourceUpdatedAt": "2026-10-11T03:16:58.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -193,7 +234,7 @@
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
   "discovery:gh:huggingface/transformers": {
-   "observedAt": "2026-10-11T07:11:06.834Z",
+   "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:huggingface/transformers",
@@ -260,6 +301,40 @@
    },
    "sourceKey": "gh:infiniflow/ragflow"
   },
+  "discovery:gh:langgenius/dify": {
+   "observedAt": "2026-10-11T17:41:07.692Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:langgenius/dify",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+    "summary": {
+     "en": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+     "zh": "dify 是一个开源平台，支持在协作工作区中构建 Agent 工作流和 RAG 管道，兼容多模型和工具，可部署于云端、VPC 或自托管。"
+    },
+    "title": {
+     "en": "langgenius/dify",
+     "zh": "langgenius/dify：一站式构建 Agent 工作流与 RAG 管道"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/langgenius/dify",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:langgenius/dify"
+  },
   "discovery:gh:librechat-ai/librechat": {
    "observedAt": "2026-10-10T17:20:22.825Z",
    "resource": {
@@ -295,7 +370,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-11T07:11:06.834Z",
+   "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -486,7 +561,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:zhulinsen/daily_stock_analysis",
@@ -498,7 +573,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-05T07:52:27.000Z",
+    "sourceUpdatedAt": "2026-10-11T11:10:45.000Z",
     "summary": {
      "en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
      "zh": "该项目实现基于 LLM 的股票分析平台，聚合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
@@ -599,7 +674,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -639,7 +715,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -678,7 +755,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -718,7 +796,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -757,7 +836,8 @@
     "2026-10-08": 95,
     "2026-10-09": 95,
     "2026-10-10": 95,
-    "2026-10-11": 95
+    "2026-10-11": 95,
+    "2026-10-12": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -796,7 +876,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -835,7 +916,8 @@
     "2026-10-08": 95,
     "2026-10-09": 95,
     "2026-10-10": 95,
-    "2026-10-11": 95
+    "2026-10-11": 95,
+    "2026-10-12": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -874,7 +956,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -913,7 +996,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -952,7 +1036,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -991,7 +1076,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -1030,7 +1116,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -1070,7 +1157,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -1109,7 +1197,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -1148,7 +1237,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -1187,7 +1277,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -1226,7 +1317,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -1265,7 +1357,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -1304,7 +1397,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -1343,7 +1437,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -1382,7 +1477,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -1421,7 +1517,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -1460,7 +1557,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -1499,7 +1597,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -1538,7 +1637,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -1577,7 +1677,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -1616,7 +1717,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -1655,7 +1757,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -1694,7 +1797,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -1733,7 +1837,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -1772,7 +1877,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -1811,7 +1917,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -1850,7 +1957,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -1889,7 +1997,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -1928,7 +2037,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -2039,7 +2149,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -2078,7 +2189,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -2117,7 +2229,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -2156,7 +2269,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -2195,7 +2309,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -2234,7 +2349,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -2273,7 +2389,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -2312,7 +2429,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -2351,7 +2469,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -2432,7 +2551,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -2471,7 +2591,8 @@
     "2026-10-08": 80,
     "2026-10-09": 80,
     "2026-10-10": 80,
-    "2026-10-11": 80
+    "2026-10-11": 80,
+    "2026-10-12": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -2504,13 +2625,55 @@
     }
    }
   },
+  "https://github.com/zhulinsen/daily_stock_analysis": {
+   "days": {
+    "2026-10-12": 75
+   },
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:zhulinsen/daily_stock_analysis",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-11T11:10:45.000Z",
+    "summary": {
+     "en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+     "zh": "该项目实现基于 LLM 的股票分析平台，聚合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
+    },
+    "title": {
+     "en": "ZhuLinsen/daily_stock_analysis",
+     "zh": "LLM 驱动的多市场股票分析系统"
+    },
+    "topics": [
+     "a-stock",
+     "ai-agent",
+     "aigc",
+     "llm",
+     "quant",
+     "quantitative-finance",
+     "quantitative-trading"
+    ],
+    "type": "repo",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。结合语言模型的分析能力与实时数据，为投资者提供低成本、自动化的多市场情报。"
+    }
+   }
+  },
   "https://hailuoai.com/": {
    "days": {
     "2026-10-06": 85,
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -2550,7 +2713,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -2589,7 +2753,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -2628,7 +2793,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -2667,7 +2833,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -2706,7 +2873,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -2747,7 +2915,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -2787,7 +2956,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -2826,7 +2996,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -2865,7 +3036,8 @@
     "2026-10-08": 95,
     "2026-10-09": 95,
     "2026-10-10": 95,
-    "2026-10-11": 95
+    "2026-10-11": 95,
+    "2026-10-12": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -2904,7 +3076,8 @@
     "2026-10-08": 95,
     "2026-10-09": 95,
     "2026-10-10": 95,
-    "2026-10-11": 95
+    "2026-10-11": 95,
+    "2026-10-12": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -2943,7 +3116,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -2983,7 +3157,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -3022,7 +3197,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -3061,7 +3237,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -3100,7 +3277,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -3139,7 +3317,8 @@
     "2026-10-08": 90,
     "2026-10-09": 90,
     "2026-10-10": 90,
-    "2026-10-11": 90
+    "2026-10-11": 90,
+    "2026-10-12": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -3178,7 +3357,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -3218,7 +3398,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -3257,7 +3438,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -3297,7 +3479,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -3336,7 +3519,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -3375,7 +3559,8 @@
     "2026-10-08": 85,
     "2026-10-09": 85,
     "2026-10-10": 85,
-    "2026-10-11": 85
+    "2026-10-11": 85,
+    "2026-10-12": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -3776,7 +3961,7 @@
    "returns": 0
   },
   "https://github.com/huggingface/transformers": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-10T17:20:22.825Z",
    "firstEnteredAt": "2026-10-10T17:20:22.825Z",
    "initial": false,
@@ -3892,6 +4077,13 @@
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
    "firstEnteredAt": "2026-10-06T09:37:13.355Z",
    "initial": true,
+   "returns": 0
+  },
+  "https://github.com/zhulinsen/daily_stock_analysis": {
+   "active": true,
+   "currentEnteredAt": "2026-10-11T17:41:07.692Z",
+   "firstEnteredAt": "2026-10-11T17:41:07.692Z",
+   "initial": false,
    "returns": 0
   },
   "https://gradio.app/guides/quickstart": {
@@ -4188,6 +4380,7 @@
   "https://github.com/farion1231/cc-switch": "2026-10-09T18:21:05.907Z",
   "https://github.com/features/copilot": "2026-10-06T09:37:13.355Z",
   "https://github.com/flowiseai/flowise": "2026-10-06T09:37:13.355Z",
+  "https://github.com/gentleman-programming/gentle-ai": "2026-10-11T17:41:07.692Z",
   "https://github.com/ggml-org/llama.cpp": "2026-10-06T09:37:13.355Z",
   "https://github.com/google-gemini/gemini-cli": "2026-10-06T09:37:13.355Z",
   "https://github.com/graphify-labs/graphify": "2026-10-06T09:37:13.355Z",
@@ -4558,37 +4751,6 @@
    "why": {
     "en": "Learn when a simpler workflow is sufficient.",
     "zh": "理解什么时候简单工作流已经足够。"
-   }
-  },
-  {
-   "id": "dify-repo",
-   "level": "starter",
-   "reviewedAt": "2026-09-21",
-   "scores": {
-    "authority": 5,
-    "clarity": 4,
-    "foundation": 4,
-    "practice": 5
-   },
-   "sourceName": "github.com",
-   "summary": {
-    "en": "Organize models, knowledge and tools through visual workflows.",
-    "zh": "通过可视化工作流组织模型、知识与工具。"
-   },
-   "title": {
-    "en": "Dify",
-    "zh": "Dify AI 应用平台"
-   },
-   "topics": [
-    "apps",
-    "workflow",
-    "rag"
-   ],
-   "type": "repo",
-   "url": "https://github.com/langgenius/dify",
-   "why": {
-    "en": "Prototype an app and then inspect its underlying stages.",
-    "zh": "适合先构建应用原型，再理解背后的各个环节。"
    }
   },
   {
@@ -5160,6 +5322,36 @@
    "why": {
     "en": "Practice composition, style and reference constraints while checking deviations.",
     "zh": "练习构图、风格与参考约束，同时检查结果偏差。"
+   }
+  },
+  {
+   "freshnessBasis": "first-observed",
+   "id": "discovery:gh:langgenius/dify",
+   "level": "starter",
+   "scores": {
+    "authority": 5,
+    "clarity": 3,
+    "foundation": 3,
+    "practice": 4
+   },
+   "sourceName": "github.com",
+   "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+   "summary": {
+    "en": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "zh": "dify 是一个开源平台，支持在协作工作区中构建 Agent 工作流和 RAG 管道，兼容多模型和工具，可部署于云端、VPC 或自托管。"
+   },
+   "title": {
+    "en": "langgenius/dify",
+    "zh": "langgenius/dify：一站式构建 Agent 工作流与 RAG 管道"
+   },
+   "topics": [
+    "trend:daily"
+   ],
+   "type": "repo",
+   "url": "https://github.com/langgenius/dify",
+   "why": {
+    "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+    "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
    }
   }
  ],
