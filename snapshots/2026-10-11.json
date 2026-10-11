@@ -8,7 +8,7 @@
     "forks": 2374,
     "stars": 20390
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -32,7 +32,7 @@
     "license": "MIT",
     "name": "jcode",
     "owner": "1jehuang",
-    "pushedAt": "2026-10-11T03:18:00Z",
+    "pushedAt": "2026-10-11T03:41:03Z",
     "stars": 20390,
     "starsToday": 0,
     "topics": [
@@ -74,12 +74,12 @@
    "category": "tool",
    "key": "gh:addyosmani/agent-skills",
    "metrics": {
-    "forks": 10913,
-    "stars": 104556,
+    "forks": 10912,
+    "stars": 104558,
     "starsMonthly": 11706,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -92,11 +92,11 @@
    },
    "repo": {
     "avatar": "https://github.com/addyosmani.png?size=64",
-    "forks": 10913,
+    "forks": 10912,
     "language": "JavaScript",
     "name": "agent-skills",
     "owner": "addyosmani",
-    "stars": 104556,
+    "stars": 104558,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -118,11 +118,11 @@
    "key": "gh:affaan-m/ecc",
    "metrics": {
     "forks": 41245,
-    "stars": 276586,
+    "stars": 276590,
     "starsMonthly": 22474,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -147,7 +147,7 @@
     "name": "ECC",
     "owner": "affaan-m",
     "pushedAt": "2026-10-11T01:15:29Z",
-    "stars": 276586,
+    "stars": 276590,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -185,9 +185,9 @@
    "key": "gh:agentscope-ai/qwenpaw",
    "metrics": {
     "forks": 3168,
-    "stars": 35573
+    "stars": 35574
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -212,7 +212,7 @@
     "name": "QwenPaw",
     "owner": "agentscope-ai",
     "pushedAt": "2026-10-10T09:02:21Z",
-    "stars": 35573,
+    "stars": 35574,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -257,10 +257,10 @@
    "category": "tool",
    "key": "gh:aipentest/cyberstrikeai",
    "metrics": {
-    "forks": 1434,
-    "stars": 7537
+    "forks": 1436,
+    "stars": 7542
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -279,13 +279,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/325912931?v=4",
     "createdAt": "2025-11-08T10:41:23Z",
-    "forks": 1434,
+    "forks": 1436,
     "language": "Go",
     "license": "Apache-2.0",
     "name": "CyberStrikeAI",
     "owner": "AIPentest",
     "pushedAt": "2026-10-10T13:02:48Z",
-    "stars": 7537,
+    "stars": 7542,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -327,7 +327,7 @@
     "starsMonthly": 2712,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -367,7 +367,7 @@
     "forks": 2425,
     "stars": 37787
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -420,11 +420,11 @@
    "key": "gh:alibaba/open-code-review",
    "metrics": {
     "forks": 3323,
-    "stars": 45906,
+    "stars": 45908,
     "starsMonthly": 23947,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -442,7 +442,7 @@
     "language": "Go",
     "name": "open-code-review",
     "owner": "alibaba",
-    "stars": 45906,
+    "stars": 45908,
     "starsToday": 970,
     "topics": [
      "trend:daily",
@@ -468,7 +468,7 @@
     "forks": 1011,
     "stars": 16092
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -540,7 +540,7 @@
     "starsMonthly": 6178,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -580,7 +580,7 @@
     "forks": 1786,
     "stars": 15731
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -644,7 +644,7 @@
     "starsMonthly": 6240,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -684,10 +684,10 @@
    "category": "tool",
    "key": "gh:anthropics/claude-plugins-official",
    "metrics": {
-    "forks": 4238,
+    "forks": 4237,
     "stars": 37641
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -702,7 +702,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
     "createdAt": "2025-11-20T18:36:20Z",
-    "forks": 4238,
+    "forks": 4237,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "claude-plugins-official",
@@ -733,12 +733,12 @@
    "category": "tool",
    "key": "gh:anthropics/financial-services",
    "metrics": {
-    "forks": 5575,
-    "stars": 39307,
+    "forks": 5576,
+    "stars": 39308,
     "starsMonthly": 4607,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -749,11 +749,11 @@
    },
    "repo": {
     "avatar": "https://github.com/anthropics.png?size=64",
-    "forks": 5575,
+    "forks": 5576,
     "language": "Python",
     "name": "financial-services",
     "owner": "anthropics",
-    "stars": 39307,
+    "stars": 39308,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -775,12 +775,12 @@
    "key": "gh:anthropics/knowledge-work-plugins",
    "metrics": {
     "forks": 3283,
-    "stars": 28861,
+    "stars": 28867,
     "starsMonthly": 4750,
     "starsToday": 0,
     "starsWeekly": 2644
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -797,7 +797,7 @@
     "language": "Python",
     "name": "knowledge-work-plugins",
     "owner": "anthropics",
-    "stars": 28861,
+    "stars": 28867,
     "starsToday": 626,
     "topics": [
      "trend:daily",
@@ -822,11 +822,11 @@
    "category": "tool",
    "key": "gh:appwrite/appwrite",
    "metrics": {
-    "forks": 5776,
+    "forks": 5777,
     "stars": 57628,
     "starsToday": 11
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -839,7 +839,7 @@
    },
    "repo": {
     "avatar": "https://github.com/appwrite.png?size=64",
-    "forks": 5776,
+    "forks": 5777,
     "language": "TypeScript",
     "name": "appwrite",
     "owner": "appwrite",
@@ -864,12 +864,12 @@
    "category": "tool",
    "key": "gh:asgeirtj/system_prompts_leaks",
    "metrics": {
-    "forks": 11277,
+    "forks": 11278,
     "stars": 69352,
     "starsMonthly": 5091,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -887,7 +887,7 @@
    },
    "repo": {
     "avatar": "https://github.com/asgeirtj.png?size=64",
-    "forks": 11277,
+    "forks": 11278,
     "language": "Python",
     "name": "system_prompts_leaks",
     "owner": "asgeirtj",
@@ -915,7 +915,7 @@
     "forks": 142,
     "stars": 10280
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -979,12 +979,12 @@
    "category": "tool",
    "key": "gh:berriai/litellm",
    "metrics": {
-    "forks": 12216,
-    "stars": 60930,
+    "forks": 12217,
+    "stars": 60932,
     "starsMonthly": 2613,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -1002,11 +1002,11 @@
    },
    "repo": {
     "avatar": "https://github.com/BerriAI.png?size=64",
-    "forks": 12216,
+    "forks": 12217,
     "language": "Python",
     "name": "litellm",
     "owner": "BerriAI",
-    "stars": 60930,
+    "stars": 60932,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -1028,11 +1028,11 @@
    "key": "gh:bilawalsidhu/gods-eye-view",
    "metrics": {
     "forks": 10194,
-    "stars": 50436,
+    "stars": 50441,
     "starsMonthly": 27862,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1047,7 +1047,7 @@
     "language": "JavaScript",
     "name": "gods-eye-view",
     "owner": "bilawalsidhu",
-    "stars": 50436,
+    "stars": 50441,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -1068,11 +1068,11 @@
    "category": "tool",
    "key": "gh:bittersecurity/decepticon",
    "metrics": {
-    "forks": 1109,
-    "stars": 5859,
+    "forks": 1111,
+    "stars": 5861,
     "starsToday": 81
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1084,11 +1084,11 @@
    },
    "repo": {
     "avatar": "https://github.com/BitterSecurity.png?size=64",
-    "forks": 1109,
+    "forks": 1111,
     "language": "Python",
     "name": "Decepticon",
     "owner": "BitterSecurity",
-    "stars": 5859,
+    "stars": 5861,
     "starsToday": 81,
     "topics": [
      "trend:daily"
@@ -1112,7 +1112,7 @@
     "forks": 1798,
     "stars": 18379
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1178,9 +1178,9 @@
    "key": "gh:cactus-compute/needle",
    "metrics": {
     "forks": 934,
-    "stars": 13814
+    "stars": 13816
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1202,7 +1202,7 @@
     "name": "needle",
     "owner": "cactus-compute",
     "pushedAt": "2026-10-10T18:33:59Z",
-    "stars": 13814,
+    "stars": 13816,
     "starsToday": 0,
     "topics": [
      "cactus",
@@ -1237,12 +1237,12 @@
    "category": "tool",
    "key": "gh:calesthio/openmontage",
    "metrics": {
-    "forks": 8447,
-    "stars": 66297,
+    "forks": 8448,
+    "stars": 66313,
     "starsToday": 0,
     "starsWeekly": 3502
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1257,11 +1257,11 @@
    },
    "repo": {
     "avatar": "https://github.com/calesthio.png?size=64",
-    "forks": 8447,
+    "forks": 8448,
     "language": "Python",
     "name": "OpenMontage",
     "owner": "calesthio",
-    "stars": 66297,
+    "stars": 66313,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -1282,10 +1282,10 @@
    "category": "tool",
    "key": "gh:can1357/oh-my-pi",
    "metrics": {
-    "forks": 3800,
-    "stars": 34946
+    "forks": 3801,
+    "stars": 34947
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1304,13 +1304,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
     "createdAt": "2025-12-31T14:01:28Z",
-    "forks": 3800,
+    "forks": 3801,
     "language": "TypeScript",
     "license": "MIT",
     "name": "oh-my-pi",
     "owner": "can1357",
     "pushedAt": "2026-10-11T03:01:51Z",
-    "stars": 34946,
+    "stars": 34947,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -1358,7 +1358,7 @@
     "stars": 14546,
     "starsToday": 13
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1397,11 +1397,11 @@
    "category": "tool",
    "key": "gh:cathrynlavery/diagram-design",
    "metrics": {
-    "forks": 3103,
-    "stars": 49078,
+    "forks": 3104,
+    "stars": 49093,
     "starsToday": 1190
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1414,11 +1414,11 @@
    },
    "repo": {
     "avatar": "https://github.com/cathrynlavery.png?size=64",
-    "forks": 3103,
+    "forks": 3104,
     "language": "HTML",
     "name": "diagram-design",
     "owner": "cathrynlavery",
-    "stars": 49078,
+    "stars": 49093,
     "starsToday": 1190,
     "topics": [
      "trend:daily"
@@ -1444,7 +1444,7 @@
     "starsToday": 0,
     "starsWeekly": 729
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1485,7 +1485,7 @@
     "starsMonthly": 2759,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -1528,7 +1528,7 @@
     "forks": 2659,
     "stars": 32026
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1604,7 +1604,7 @@
     "starsToday": 0,
     "starsWeekly": 862
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1644,7 +1644,7 @@
     "forks": 1542,
     "stars": 11482
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1718,7 +1718,7 @@
     "forks": 5746,
     "stars": 69943
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1741,7 +1741,7 @@
     "language": "TypeScript",
     "name": "oh-my-openagent",
     "owner": "code-yeongyu",
-    "pushedAt": "2026-10-11T03:24:59Z",
+    "pushedAt": "2026-10-11T03:38:53Z",
     "stars": 69943,
     "starsToday": 0,
     "topics": [
@@ -1791,7 +1791,7 @@
     "starsMonthly": 2680,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1831,7 +1831,7 @@
     "forks": 3568,
     "stars": 41080
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1902,7 +1902,7 @@
     "forks": 1537,
     "stars": 12816
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1957,9 +1957,9 @@
    "key": "gh:coreyhaines31/marketingskills",
    "metrics": {
     "forks": 8034,
-    "stars": 54090
+    "stars": 54094
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1983,7 +1983,7 @@
     "name": "marketingskills",
     "owner": "coreyhaines31",
     "pushedAt": "2026-10-08T21:51:51Z",
-    "stars": 54090,
+    "stars": 54094,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -2035,7 +2035,7 @@
     "forks": 693,
     "stars": 13651
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2106,11 +2106,11 @@
    "category": "tool",
    "key": "gh:datawhalechina/hello-agents",
    "metrics": {
-    "forks": 10229,
-    "stars": 82466,
+    "forks": 10230,
+    "stars": 82467,
     "starsToday": 211
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2123,11 +2123,11 @@
    },
    "repo": {
     "avatar": "https://github.com/datawhalechina.png?size=64",
-    "forks": 10229,
+    "forks": 10230,
     "language": "Python",
     "name": "hello-agents",
     "owner": "datawhalechina",
-    "stars": 82466,
+    "stars": 82467,
     "starsToday": 211,
     "topics": [
      "trend:daily"
@@ -2153,7 +2153,7 @@
     "starsMonthly": 2082,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2189,12 +2189,12 @@
    "category": "tool",
    "key": "gh:debpalash/voicestudio",
    "metrics": {
-    "forks": 6436,
-    "stars": 57465,
+    "forks": 6437,
+    "stars": 57476,
     "starsMonthly": 35194,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2205,11 +2205,11 @@
    },
    "repo": {
     "avatar": "https://github.com/debpalash.png?size=64",
-    "forks": 6436,
+    "forks": 6437,
     "language": "Python",
     "name": "VoiceStudio",
     "owner": "debpalash",
-    "stars": 57465,
+    "stars": 57476,
     "starsToday": 1066,
     "topics": [
      "trend:daily",
@@ -2235,7 +2235,7 @@
     "forks": 5834,
     "stars": 30581
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2314,7 +2314,7 @@
     "starsMonthly": 6028,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2337,7 +2337,7 @@
     "license": "Apache-2.0",
     "name": "utopia",
     "owner": "deeplethe",
-    "pushedAt": "2026-10-11T03:25:55Z",
+    "pushedAt": "2026-10-11T03:39:49Z",
     "stars": 8240,
     "starsToday": 0,
     "topics": [
@@ -2385,9 +2385,9 @@
    "key": "gh:deepseek-ai/deepseek-harness",
    "metrics": {
     "forks": 29678,
-    "stars": 247068
+    "stars": 247077
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2410,7 +2410,7 @@
     "name": "deepseek-harness",
     "owner": "deepseek-ai",
     "pushedAt": "2026-10-09T10:04:06Z",
-    "stars": 247068,
+    "stars": 247077,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2437,10 +2437,10 @@
    "category": "tool",
    "key": "gh:deusdata/codebase-memory-mcp",
    "metrics": {
-    "forks": 3807,
+    "forks": 3808,
     "stars": 46320
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2459,7 +2459,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
     "createdAt": "2026-02-24T22:01:00Z",
-    "forks": 3807,
+    "forks": 3808,
     "language": "C",
     "license": "MIT",
     "name": "codebase-memory-mcp",
@@ -2517,7 +2517,7 @@
     "forks": 10838,
     "stars": 75005
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2541,7 +2541,7 @@
     "license": "MIT",
     "name": "OmniRoute",
     "owner": "diegosouzapw",
-    "pushedAt": "2026-10-11T03:09:57Z",
+    "pushedAt": "2026-10-11T03:40:28Z",
     "stars": 75005,
     "starsToday": 0,
     "topics": [
@@ -2591,12 +2591,12 @@
    "category": "tool",
    "key": "gh:dietrichgebert/ponytail",
    "metrics": {
-    "forks": 8633,
-    "stars": 160532,
+    "forks": 8634,
+    "stars": 160542,
     "starsMonthly": 26935,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2615,13 +2615,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/137048761?v=4",
     "createdAt": "2026-06-12T00:52:37Z",
-    "forks": 8633,
+    "forks": 8634,
     "language": "JavaScript",
     "license": "MIT",
     "name": "ponytail",
     "owner": "DietrichGebert",
     "pushedAt": "2026-10-10T04:19:53Z",
-    "stars": 160532,
+    "stars": 160542,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -2663,9 +2663,9 @@
    "key": "gh:donchitos/claude-code-game-studios",
    "metrics": {
     "forks": 3700,
-    "stars": 26089
+    "stars": 26090
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2689,7 +2689,7 @@
     "name": "Claude-Code-Game-Studios",
     "owner": "Donchitos",
     "pushedAt": "2026-10-08T08:21:47Z",
-    "stars": 26089,
+    "stars": 26090,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2735,7 +2735,7 @@
     "starsMonthly": 8331,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2775,11 +2775,11 @@
    "key": "gh:duartesantos8/opengym",
    "metrics": {
     "forks": 1151,
-    "stars": 9283,
+    "stars": 9286,
     "starsToday": 0,
     "starsWeekly": 7369
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2798,7 +2798,7 @@
     "name": "openGym",
     "owner": "DuarteSantos8",
     "pushedAt": "2026-10-11T00:34:13Z",
-    "stars": 9283,
+    "stars": 9286,
     "starsToday": 0,
     "topics": [
      "bodyweight",
@@ -2848,11 +2848,11 @@
    "key": "gh:earthtojake/text-to-cad",
    "metrics": {
     "forks": 1875,
-    "stars": 19010,
+    "stars": 19013,
     "starsToday": 0,
     "starsWeekly": 2369
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2875,8 +2875,8 @@
     "license": "MIT",
     "name": "text-to-cad",
     "owner": "earthtojake",
-    "pushedAt": "2026-10-11T01:27:34Z",
-    "stars": 19010,
+    "pushedAt": "2026-10-11T03:40:10Z",
+    "stars": 19013,
     "starsToday": 0,
     "topics": [
      "agents",
@@ -2916,9 +2916,9 @@
    "key": "gh:ebony-vinyl/dsh-our-free-model",
    "metrics": {
     "forks": 144,
-    "stars": 7041
+    "stars": 7059
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2942,8 +2942,8 @@
     "license": "MIT",
     "name": "dsh-our-free-model",
     "owner": "Ebony-Vinyl",
-    "pushedAt": "2026-10-10T14:50:18Z",
-    "stars": 7041,
+    "pushedAt": "2026-10-11T03:38:03Z",
+    "stars": 7059,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2985,7 +2985,7 @@
     "forks": 1395,
     "stars": 11352
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3060,7 +3060,7 @@
     "forks": 2438,
     "stars": 35760
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3082,7 +3082,7 @@
     "license": "MIT",
     "name": "DeepSeek-Reasonix",
     "owner": "esengine",
-    "pushedAt": "2026-10-11T03:24:46Z",
+    "pushedAt": "2026-10-11T03:37:42Z",
     "stars": 35760,
     "starsToday": 0,
     "topics": [
@@ -3131,9 +3131,9 @@
    "key": "gh:evermind-ai/everos",
    "metrics": {
     "forks": 928,
-    "stars": 13397
+    "stars": 13398
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3158,7 +3158,7 @@
     "name": "EverOS",
     "owner": "EverMind-AI",
     "pushedAt": "2026-10-10T10:38:37Z",
-    "stars": 13397,
+    "stars": 13398,
     "starsToday": 0,
     "topics": [
      "agent-memory",
@@ -3207,7 +3207,7 @@
     "forks": 3007,
     "stars": 22995
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3273,7 +3273,7 @@
     "starsMonthly": 669,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3317,7 +3317,7 @@
     "starsMonthly": 1135,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3391,9 +3391,9 @@
    "key": "gh:graphify-labs/graphify",
    "metrics": {
     "forks": 12100,
-    "stars": 125334
+    "stars": 125336
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3418,7 +3418,7 @@
     "name": "graphify",
     "owner": "Graphify-Labs",
     "pushedAt": "2026-10-10T21:32:30Z",
-    "stars": 125334,
+    "stars": 125336,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -3470,7 +3470,7 @@
     "forks": 1177,
     "stars": 8646
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3547,7 +3547,7 @@
     "forks": 3042,
     "stars": 17127
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3624,7 +3624,7 @@
     "forks": 5813,
     "stars": 74961
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3699,9 +3699,9 @@
    "key": "gh:herdrdev/herdr",
    "metrics": {
     "forks": 3416,
-    "stars": 43283
+    "stars": 43284
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3726,7 +3726,7 @@
     "name": "herdr",
     "owner": "herdrdev",
     "pushedAt": "2026-10-11T02:20:37Z",
-    "stars": 43283,
+    "stars": 43284,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -3779,7 +3779,7 @@
     "starsToday": 0,
     "starsWeekly": 4081
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3845,10 +3845,10 @@
    "category": "tool",
    "key": "gh:hkuds/deeptutor",
    "metrics": {
-    "forks": 5186,
-    "stars": 41101
+    "forks": 5188,
+    "stars": 41103
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "arxiv:2604.26962"
    ],
@@ -3869,13 +3869,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
     "createdAt": "2025-12-28T15:35:54Z",
-    "forks": 5186,
+    "forks": 5188,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "DeepTutor",
     "owner": "HKUDS",
     "pushedAt": "2026-10-08T03:35:15Z",
-    "stars": 41101,
+    "stars": 41103,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -3915,7 +3915,7 @@
     "forks": 8617,
     "stars": 48937
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3990,9 +3990,9 @@
    "key": "gh:hkuds/vibe-trading",
    "metrics": {
     "forks": 5708,
-    "stars": 35151
+    "stars": 35153
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4017,7 +4017,7 @@
     "name": "Vibe-Trading",
     "owner": "HKUDS",
     "pushedAt": "2026-10-10T15:53:23Z",
-    "stars": 35151,
+    "stars": 35153,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -4061,7 +4061,7 @@
     "starsMonthly": 1150,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4101,10 +4101,10 @@
    "key": "gh:huggingface/transformers",
    "metrics": {
     "forks": 34803,
-    "stars": 167314,
+    "stars": 167319,
     "starsToday": 96
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4126,7 +4126,7 @@
     "language": "Python",
     "name": "transformers",
     "owner": "huggingface",
-    "stars": 167314,
+    "stars": 167319,
     "starsToday": 96,
     "topics": [
      "trend:daily"
@@ -4150,7 +4150,7 @@
     "forks": 701,
     "stars": 7517
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4211,9 +4211,9 @@
    "key": "gh:hypit-ai/hypit",
    "metrics": {
     "forks": 2294,
-    "stars": 20830
+    "stars": 20834
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4237,7 +4237,7 @@
     "name": "hypit",
     "owner": "hypit-ai",
     "pushedAt": "2026-10-09T18:03:34Z",
-    "stars": 20830,
+    "stars": 20834,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -4289,7 +4289,7 @@
     "forks": 1508,
     "stars": 17890
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4353,10 +4353,10 @@
    "key": "gh:infiniflow/ragflow",
    "metrics": {
     "forks": 10949,
-    "stars": 91976,
+    "stars": 91977,
     "starsToday": 58
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -4377,7 +4377,7 @@
     "language": "Go",
     "name": "ragflow",
     "owner": "infiniflow",
-    "stars": 91976,
+    "stars": 91977,
     "starsToday": 58,
     "topics": [
      "trend:daily"
@@ -4401,7 +4401,7 @@
     "forks": 2928,
     "stars": 30024
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4459,7 +4459,7 @@
     "forks": 586,
     "stars": 8906
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4507,7 +4507,7 @@
     "forks": 5342,
     "stars": 36446
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4582,7 +4582,7 @@
     "forks": 1243,
     "stars": 7559
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4644,7 +4644,7 @@
     "forks": 3403,
     "stars": 21168
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4720,7 +4720,7 @@
     "forks": 768,
     "stars": 8291
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4790,12 +4790,12 @@
    "category": "tool",
    "key": "gh:juliusbrussee/caveman",
    "metrics": {
-    "forks": 6425,
-    "stars": 110940,
+    "forks": 6427,
+    "stars": 110942,
     "starsToday": 0,
     "starsWeekly": 1642
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4814,13 +4814,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/104168679?v=4",
     "createdAt": "2026-04-04T10:03:00Z",
-    "forks": 6425,
+    "forks": 6427,
     "language": "Go",
     "license": "Apache-2.0",
     "name": "caveman",
     "owner": "JuliusBrussee",
     "pushedAt": "2026-10-10T16:01:18Z",
-    "stars": 110940,
+    "stars": 110942,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -4864,7 +4864,7 @@
     "forks": 2001,
     "stars": 22696
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4917,11 +4917,11 @@
    "key": "gh:justvugg/colibri",
    "metrics": {
     "forks": 4505,
-    "stars": 41046,
+    "stars": 41050,
     "starsMonthly": 13894,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4937,7 +4937,7 @@
     "language": "C",
     "name": "colibri",
     "owner": "JustVugg",
-    "stars": 41046,
+    "stars": 41050,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -4958,10 +4958,10 @@
    "category": "tool",
    "key": "gh:kkkkhazix/aihot",
    "metrics": {
-    "forks": 1731,
-    "stars": 7090
+    "forks": 1732,
+    "stars": 7093
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4978,13 +4978,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
     "createdAt": "2026-09-28T23:40:05Z",
-    "forks": 1731,
+    "forks": 1732,
     "language": "TypeScript",
     "license": "MIT",
     "name": "AIHOT",
     "owner": "KKKKhazix",
     "pushedAt": "2026-10-10T13:32:08Z",
-    "stars": 7090,
+    "stars": 7093,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -5026,9 +5026,9 @@
    "key": "gh:koala73/worldmonitor",
    "metrics": {
     "forks": 13469,
-    "stars": 88192
+    "stars": 88193
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5052,7 +5052,7 @@
     "name": "worldmonitor",
     "owner": "koala73",
     "pushedAt": "2026-10-10T19:41:53Z",
-    "stars": 88192,
+    "stars": 88193,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -5097,7 +5097,7 @@
     "stars": 17611,
     "starsToday": 28
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5137,12 +5137,12 @@
    "key": "gh:lexmount/moli",
    "metrics": {
     "forks": 381,
-    "stars": 15707,
+    "stars": 15712,
     "starsMonthly": 13847,
     "starsToday": 0,
     "starsWeekly": 9973
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5164,7 +5164,7 @@
     "name": "moli",
     "owner": "lexmount",
     "pushedAt": "2026-10-11T03:18:05Z",
-    "stars": 15707,
+    "stars": 15712,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -5211,11 +5211,11 @@
    "key": "gh:librechat-ai/librechat",
    "metrics": {
     "forks": 9346,
-    "stars": 45495,
+    "stars": 45496,
     "starsMonthly": 2906,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5237,7 +5237,7 @@
     "language": "TypeScript",
     "name": "LibreChat",
     "owner": "LibreChat-AI",
-    "stars": 45495,
+    "stars": 45496,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -5259,9 +5259,9 @@
    "key": "gh:lidge-jun/opencodex",
    "metrics": {
     "forks": 1309,
-    "stars": 17235
+    "stars": 17236
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5286,7 +5286,7 @@
     "name": "opencodex",
     "owner": "lidge-jun",
     "pushedAt": "2026-10-11T02:13:03Z",
-    "stars": 17235,
+    "stars": 17236,
     "starsToday": 0,
     "topics": [
      "ai-gateway",
@@ -5336,9 +5336,9 @@
    "key": "gh:madslorentzen/ai-job-search",
    "metrics": {
     "forks": 15868,
-    "stars": 45817
+    "stars": 45820
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5362,7 +5362,7 @@
     "name": "ai-job-search",
     "owner": "MadsLorentzen",
     "pushedAt": "2026-10-08T19:23:59Z",
-    "stars": 45817,
+    "stars": 45820,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -5404,9 +5404,9 @@
    "key": "gh:makazhanalpamys/soup",
    "metrics": {
     "forks": 1369,
-    "stars": 8508
+    "stars": 8510
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5431,7 +5431,7 @@
     "name": "Soup",
     "owner": "MakazhanAlpamys",
     "pushedAt": "2026-10-09T19:53:10Z",
-    "stars": 8508,
+    "stars": 8510,
     "starsToday": 0,
     "topics": [
      "cli",
@@ -5480,12 +5480,12 @@
    "category": "tool",
    "key": "gh:mattpocock/skills",
    "metrics": {
-    "forks": 23819,
-    "stars": 284669,
+    "forks": 23821,
+    "stars": 284686,
     "starsToday": 0,
     "starsWeekly": 9179
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5497,11 +5497,11 @@
    },
    "repo": {
     "avatar": "https://github.com/mattpocock.png?size=64",
-    "forks": 23819,
+    "forks": 23821,
     "language": "Shell",
     "name": "skills",
     "owner": "mattpocock",
-    "stars": 284668,
+    "stars": 284686,
     "starsToday": 1737,
     "topics": [
      "trend:daily",
@@ -5529,7 +5529,7 @@
     "starsMonthly": 2364,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5570,7 +5570,7 @@
     "forks": 7562,
     "stars": 59500
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5626,11 +5626,11 @@
    "key": "gh:miuuyy/codex-chatgpt-web",
    "metrics": {
     "forks": 1094,
-    "stars": 13915,
+    "stars": 13916,
     "starsMonthly": 7879,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5654,7 +5654,7 @@
     "name": "codex-chatgpt-web",
     "owner": "miuuyy",
     "pushedAt": "2026-10-10T22:35:23Z",
-    "stars": 13915,
+    "stars": 13916,
     "starsToday": 0,
     "topics": [
      "chatgpt",
@@ -5698,7 +5698,7 @@
     "forks": 553,
     "stars": 6865
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5762,11 +5762,11 @@
    "key": "gh:mksglu/context-mode",
    "metrics": {
     "forks": 1899,
-    "stars": 26372,
+    "stars": 26379,
     "starsMonthly": 4285,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5790,7 +5790,7 @@
     "name": "context-mode",
     "owner": "mksglu",
     "pushedAt": "2026-10-11T00:15:03Z",
-    "stars": 26372,
+    "stars": 26379,
     "starsToday": 178,
     "topics": [
      "antigravity",
@@ -5845,7 +5845,7 @@
     "forks": 1042,
     "stars": 9784
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5912,11 +5912,11 @@
    "category": "tool",
    "key": "gh:morluto/rea",
    "metrics": {
-    "forks": 16066,
-    "stars": 75504,
+    "forks": 16151,
+    "stars": 75830,
     "starsToday": 25793
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5935,13 +5935,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
     "createdAt": "2026-04-14T00:51:32Z",
-    "forks": 16066,
+    "forks": 16151,
     "language": "TypeScript",
     "license": "MIT",
     "name": "rea",
     "owner": "morluto",
-    "pushedAt": "2026-10-11T03:24:30Z",
-    "stars": 75504,
+    "pushedAt": "2026-10-11T03:40:50Z",
+    "stars": 75830,
     "starsToday": 25793,
     "topics": [
      "agent-skills",
@@ -5992,11 +5992,11 @@
    "category": "tool",
    "key": "gh:multica-ai/andrej-karpathy-skills",
    "metrics": {
-    "forks": 21987,
-    "stars": 218356,
+    "forks": 21986,
+    "stars": 218363,
     "starsToday": 279
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6009,10 +6009,10 @@
    },
    "repo": {
     "avatar": "https://github.com/multica-ai.png?size=64",
-    "forks": 21987,
+    "forks": 21986,
     "name": "andrej-karpathy-skills",
     "owner": "multica-ai",
-    "stars": 218356,
+    "stars": 218363,
     "starsToday": 279,
     "topics": [
      "trend:daily"
@@ -6034,11 +6034,11 @@
    "key": "gh:multimodal-art-projection/yue",
    "metrics": {
     "forks": 1273,
-    "stars": 11178,
+    "stars": 11182,
     "starsMonthly": 4740,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6053,7 +6053,7 @@
     "language": "Python",
     "name": "YuE",
     "owner": "multimodal-art-projection",
-    "stars": 11178,
+    "stars": 11182,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -6074,10 +6074,10 @@
    "category": "release",
    "key": "gh:nandhakishorm/laya",
    "metrics": {
-    "forks": 2856,
-    "stars": 32177
+    "forks": 2857,
+    "stars": 32179
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "hf:convaiinnovations/laya"
    ],
@@ -6095,13 +6095,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/48623612?v=4",
     "createdAt": "2026-09-18T04:46:33Z",
-    "forks": 2856,
+    "forks": 2857,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "laya",
     "owner": "NandhaKishorM",
     "pushedAt": "2026-10-10T16:25:32Z",
-    "stars": 32177,
+    "stars": 32179,
     "starsToday": 0,
     "topics": [
      "calibration",
@@ -6146,7 +6146,7 @@
     "forks": 8603,
     "stars": 14953
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6219,7 +6219,7 @@
     "starsToday": 0,
     "starsWeekly": 173
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6263,7 +6263,7 @@
     "forks": 12757,
     "stars": 30915
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6320,7 +6320,7 @@
     "forks": 1889,
     "stars": 10234
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6386,7 +6386,7 @@
     "forks": 2066,
     "stars": 9508
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6450,10 +6450,10 @@
    "category": "tool",
    "key": "gh:nesquena/hermes-webui",
    "metrics": {
-    "forks": 2705,
+    "forks": 2706,
     "stars": 18852
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6469,7 +6469,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/6511?v=4",
     "createdAt": "2026-03-30T21:50:12Z",
-    "forks": 2705,
+    "forks": 2706,
     "language": "Python",
     "license": "MIT",
     "name": "hermes-webui",
@@ -6504,10 +6504,10 @@
    "category": "tool",
    "key": "gh:niko1221/strata",
    "metrics": {
-    "forks": 1940,
-    "stars": 20795
+    "forks": 1943,
+    "stars": 20810
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6523,13 +6523,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/86886444?v=4",
     "createdAt": "2026-09-24T16:40:20Z",
-    "forks": 1940,
+    "forks": 1943,
     "language": "C++",
     "license": "MIT",
     "name": "Strata",
     "owner": "Niko1221",
     "pushedAt": "2026-10-10T16:10:01Z",
-    "stars": 20795,
+    "stars": 20810,
     "starsToday": 0,
     "topics": []
    },
@@ -6549,7 +6549,7 @@
     "forks": 3135,
     "stars": 22705
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6572,7 +6572,7 @@
     "license": "Apache-2.0",
     "name": "NemoClaw",
     "owner": "NVIDIA",
-    "pushedAt": "2026-10-11T03:22:11Z",
+    "pushedAt": "2026-10-11T03:38:45Z",
     "stars": 22705,
     "starsToday": 0,
     "topics": [
@@ -6613,7 +6613,7 @@
     "starsMonthly": 7234,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6659,7 +6659,7 @@
     "starsMonthly": 3070,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6727,12 +6727,12 @@
    "key": "gh:ollama/ollama",
    "metrics": {
     "forks": 18195,
-    "stars": 182674,
+    "stars": 182676,
     "starsMonthly": 2869,
     "starsToday": 0,
     "starsWeekly": 848
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "gh:cline/cline",
     "gh:berriai/litellm",
@@ -6758,7 +6758,7 @@
     "language": "Go",
     "name": "ollama",
     "owner": "ollama",
-    "stars": 182674,
+    "stars": 182676,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -6784,7 +6784,7 @@
     "forks": 1734,
     "stars": 10736
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6859,7 +6859,7 @@
     "starsMonthly": 5876,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6898,7 +6898,7 @@
     "forks": 2437,
     "stars": 6993
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6972,9 +6972,9 @@
    "key": "gh:openai/math",
    "metrics": {
     "forks": 1512,
-    "stars": 13719
+    "stars": 13721
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6992,7 +6992,7 @@
     "name": "math",
     "owner": "openai",
     "pushedAt": "2026-10-08T05:20:00Z",
-    "stars": 13719,
+    "stars": 13721,
     "starsToday": 0,
     "topics": []
    },
@@ -7014,7 +7014,7 @@
     "starsToday": 0,
     "starsWeekly": 2074
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7053,7 +7053,7 @@
     "forks": 1029,
     "stars": 7264
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7128,7 +7128,7 @@
     "starsToday": 0,
     "starsWeekly": 1495
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7171,7 +7171,7 @@
     "starsMonthly": 6589,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7245,7 +7245,7 @@
     "forks": 1138,
     "stars": 14546
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7305,7 +7305,7 @@
     "starsToday": 0,
     "starsWeekly": 6056
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7329,7 +7329,7 @@
     "name": "Agent-Reach",
     "owner": "Panniantong",
     "pushedAt": "2026-10-08T08:31:08Z",
-    "stars": 95517,
+    "stars": 95518,
     "starsToday": 0,
     "topics": [
      "agent-infrastructure",
@@ -7378,12 +7378,12 @@
    "category": "tool",
    "key": "gh:paperclipai/paperclip",
    "metrics": {
-    "forks": 16830,
-    "stars": 99812,
+    "forks": 16831,
+    "stars": 99820,
     "starsMonthly": 19499,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7396,11 +7396,11 @@
    },
    "repo": {
     "avatar": "https://github.com/paperclipai.png?size=64",
-    "forks": 16830,
+    "forks": 16831,
     "language": "TypeScript",
     "name": "paperclip",
     "owner": "paperclipai",
-    "stars": 99812,
+    "stars": 99820,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -7424,7 +7424,7 @@
     "forks": 3070,
     "stars": 24779
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7497,11 +7497,11 @@
    "key": "gh:pytorch/pytorch",
    "metrics": {
     "forks": 31959,
-    "stars": 104168,
+    "stars": 104169,
     "starsMonthly": 1336,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7517,7 +7517,7 @@
     "language": "Python",
     "name": "pytorch",
     "owner": "pytorch",
-    "stars": 104168,
+    "stars": 104169,
     "starsToday": 84,
     "topics": [
      "trend:daily",
@@ -7544,7 +7544,7 @@
     "stars": 49678,
     "starsToday": 136
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7588,7 +7588,7 @@
     "forks": 833,
     "stars": 7467
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7609,7 +7609,7 @@
     "license": "AGPL-3.0",
     "name": "repowise",
     "owner": "repowise-dev",
-    "pushedAt": "2026-10-11T00:00:48Z",
+    "pushedAt": "2026-10-11T03:38:55Z",
     "stars": 7467,
     "starsToday": 0,
     "topics": [
@@ -7654,12 +7654,12 @@
    "category": "research",
    "key": "gh:robbyant/lingbot-map",
    "metrics": {
-    "forks": 1967,
-    "stars": 17961,
+    "forks": 1968,
+    "stars": 17962,
     "starsToday": 0,
     "starsWeekly": 725
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7670,11 +7670,11 @@
    },
    "repo": {
     "avatar": "https://github.com/Robbyant.png?size=64",
-    "forks": 1967,
+    "forks": 1968,
     "language": "Python",
     "name": "lingbot-map",
     "owner": "Robbyant",
-    "stars": 17961,
+    "stars": 17962,
     "starsToday": 392,
     "topics": [
      "trend:daily",
@@ -7697,10 +7697,10 @@
    "category": "tool",
    "key": "gh:rocketride-org/rocketride-server",
    "metrics": {
-    "forks": 7583,
+    "forks": 7582,
     "stars": 17815
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7719,7 +7719,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/258325502?v=4",
     "createdAt": "2026-02-11T17:02:53Z",
-    "forks": 7583,
+    "forks": 7582,
     "language": "Python",
     "license": "MIT",
     "name": "rocketride-server",
@@ -7765,12 +7765,12 @@
    "key": "gh:rohitg00/ai-engineering-from-scratch",
    "metrics": {
     "forks": 11703,
-    "stars": 66830,
+    "stars": 66837,
     "starsMonthly": 12671,
     "starsToday": 0,
     "starsWeekly": 3656
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7795,7 +7795,7 @@
     "name": "ai-engineering-from-scratch",
     "owner": "rohitg00",
     "pushedAt": "2026-10-10T17:36:32Z",
-    "stars": 66829,
+    "stars": 66837,
     "starsToday": 0,
     "topics": [
      "agents",
@@ -7848,9 +7848,9 @@
    "key": "gh:rtk-ai/rtk",
    "metrics": {
     "forks": 5259,
-    "stars": 82888
+    "stars": 82890
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7874,7 +7874,7 @@
     "name": "rtk",
     "owner": "rtk-ai",
     "pushedAt": "2026-10-09T23:52:19Z",
-    "stars": 82888,
+    "stars": 82890,
     "starsToday": 0,
     "topics": [
      "agentic-coding",
@@ -7917,11 +7917,11 @@
    "key": "gh:rustdesk/rustdesk",
    "metrics": {
     "forks": 19593,
-    "stars": 125448,
+    "stars": 125450,
     "starsMonthly": 3027,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7936,7 +7936,7 @@
     "language": "Rust",
     "name": "rustdesk",
     "owner": "rustdesk",
-    "stars": 125448,
+    "stars": 125450,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -7962,7 +7962,7 @@
     "starsMonthly": 3064,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8001,7 +8001,7 @@
     "forks": 1489,
     "stars": 17372
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8069,7 +8069,7 @@
     "stars": 36970,
     "starsToday": 47
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8111,7 +8111,7 @@
     "forks": 6729,
     "stars": 67361
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8185,10 +8185,10 @@
    "category": "tool",
    "key": "gh:sickn33/agentic-awesome-skills",
    "metrics": {
-    "forks": 6916,
+    "forks": 6917,
     "stars": 47436
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8207,7 +8207,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/184072420?v=4",
     "createdAt": "2026-01-14T17:48:09Z",
-    "forks": 6916,
+    "forks": 6917,
     "language": "Python",
     "license": "MIT",
     "name": "agentic-awesome-skills",
@@ -8267,7 +8267,7 @@
     "starsToday": 0,
     "starsWeekly": 98
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8306,7 +8306,7 @@
     "forks": 70,
     "stars": 11317
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8381,9 +8381,9 @@
    "key": "gh:stablyai/orca",
    "metrics": {
     "forks": 5705,
-    "stars": 89250
+    "stars": 89253
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8406,8 +8406,8 @@
     "license": "MIT",
     "name": "orca",
     "owner": "stablyai",
-    "pushedAt": "2026-10-11T03:16:33Z",
-    "stars": 89250,
+    "pushedAt": "2026-10-11T03:36:37Z",
+    "stars": 89253,
     "starsToday": 0,
     "topics": [
      "ade",
@@ -8457,7 +8457,7 @@
     "forks": 897,
     "stars": 10245
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [
     "arxiv:2606.28344"
    ],
@@ -8519,10 +8519,10 @@
    "category": "tool",
    "key": "gh:storytold/filmcraft",
    "metrics": {
-    "forks": 3219,
-    "stars": 8786
+    "forks": 3225,
+    "stars": 8796
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8534,13 +8534,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:41:20Z",
-    "forks": 3219,
+    "forks": 3225,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "filmcraft",
     "owner": "storytold",
     "pushedAt": "2026-10-11T01:46:53Z",
-    "stars": 8786,
+    "stars": 8796,
     "starsToday": 0,
     "topics": [
      "adobe",
@@ -8573,10 +8573,10 @@
    "category": "tool",
    "key": "gh:storytold/lightcraft",
    "metrics": {
-    "forks": 2908,
-    "stars": 9134
+    "forks": 2912,
+    "stars": 9142
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8588,13 +8588,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T14:09:27Z",
-    "forks": 2908,
+    "forks": 2912,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "lightcraft",
     "owner": "storytold",
     "pushedAt": "2026-10-11T01:57:59Z",
-    "stars": 9134,
+    "stars": 9142,
     "starsToday": 0,
     "topics": [
      "art",
@@ -8627,10 +8627,10 @@
    "category": "tool",
    "key": "gh:storytold/pdfcraft",
    "metrics": {
-    "forks": 2892,
-    "stars": 8096
+    "forks": 2899,
+    "stars": 8113
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8642,13 +8642,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:39:37Z",
-    "forks": 2892,
+    "forks": 2899,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "pdfcraft",
     "owner": "storytold",
     "pushedAt": "2026-10-11T02:03:37Z",
-    "stars": 8096,
+    "stars": 8113,
     "starsToday": 0,
     "topics": [
      "acrobat",
@@ -8690,10 +8690,10 @@
    "category": "tool",
    "key": "gh:storytold/photocraft",
    "metrics": {
-    "forks": 6430,
-    "stars": 42657
+    "forks": 6447,
+    "stars": 42723
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8706,13 +8706,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:37:48Z",
-    "forks": 6430,
+    "forks": 6447,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "photocraft",
     "owner": "storytold",
-    "pushedAt": "2026-10-11T02:12:30Z",
-    "stars": 42657,
+    "pushedAt": "2026-10-11T03:40:27Z",
+    "stars": 42723,
     "starsToday": 0,
     "topics": [
      "adobe",
@@ -8756,7 +8756,7 @@
     "forks": 1344,
     "stars": 15058
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8779,7 +8779,7 @@
     "language": "TypeScript",
     "name": "superset",
     "owner": "superset-sh",
-    "pushedAt": "2026-10-11T03:24:03Z",
+    "pushedAt": "2026-10-11T03:36:48Z",
     "stars": 15058,
     "starsToday": 0,
     "topics": [
@@ -8829,12 +8829,12 @@
    "category": "tool",
    "key": "gh:t8y2/dbx",
    "metrics": {
-    "forks": 2329,
-    "stars": 25659,
+    "forks": 2330,
+    "stars": 25662,
     "starsMonthly": 6850,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8849,13 +8849,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
     "createdAt": "2026-04-29T03:00:36Z",
-    "forks": 2329,
+    "forks": 2330,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "dbx",
     "owner": "t8y2",
     "pushedAt": "2026-10-11T02:30:22Z",
-    "stars": 25659,
+    "stars": 25662,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -8904,13 +8904,13 @@
    "category": "tool",
    "key": "gh:tashfeenahmed/freellmapi",
    "metrics": {
-    "forks": 4556,
-    "stars": 32974,
+    "forks": 4558,
+    "stars": 32977,
     "starsMonthly": 7700,
     "starsToday": 0,
     "starsWeekly": 2591
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8924,11 +8924,11 @@
    },
    "repo": {
     "avatar": "https://github.com/tashfeenahmed.png?size=64",
-    "forks": 4556,
+    "forks": 4558,
     "language": "TypeScript",
     "name": "freellmapi",
     "owner": "tashfeenahmed",
-    "stars": 32974,
+    "stars": 32977,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -8952,11 +8952,11 @@
    "key": "gh:tencent/weknora",
    "metrics": {
     "forks": 4396,
-    "stars": 33048,
+    "stars": 33049,
     "starsMonthly": 11234,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8976,7 +8976,7 @@
     "language": "Go",
     "name": "WeKnora",
     "owner": "Tencent",
-    "stars": 33048,
+    "stars": 33049,
     "starsToday": 216,
     "topics": [
      "trend:daily",
@@ -9000,11 +9000,11 @@
    "key": "gh:tencentcloud/octop",
    "metrics": {
     "forks": 1040,
-    "stars": 8535,
+    "stars": 8537,
     "starsMonthly": 7002,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9022,7 +9022,7 @@
     "language": "Python",
     "name": "Octop",
     "owner": "TencentCloud",
-    "stars": 8535,
+    "stars": 8537,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9044,9 +9044,9 @@
    "key": "gh:tencentcloud/tencentdb-agent-memory",
    "metrics": {
     "forks": 2711,
-    "stars": 27902
+    "stars": 27903
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9069,7 +9069,7 @@
     "name": "TencentDB-Agent-Memory",
     "owner": "TencentCloud",
     "pushedAt": "2026-10-10T02:31:39Z",
-    "stars": 27902,
+    "stars": 27903,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -9110,7 +9110,7 @@
     "stars": 200755,
     "starsToday": 26
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9148,12 +9148,12 @@
    "key": "gh:thedotmack/claude-mem",
    "metrics": {
     "forks": 8701,
-    "stars": 99311,
+    "stars": 99313,
     "starsMonthly": 6034,
     "starsToday": 0,
     "starsWeekly": 4035
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9173,7 +9173,7 @@
     "language": "TypeScript",
     "name": "claude-mem",
     "owner": "thedotmack",
-    "stars": 99311,
+    "stars": 99313,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -9199,7 +9199,7 @@
     "forks": 1487,
     "stars": 9601
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9257,11 +9257,11 @@
    "key": "gh:tile-ai/tilelang",
    "metrics": {
     "forks": 876,
-    "stars": 8561,
+    "stars": 8560,
     "starsMonthly": 1190,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9277,7 +9277,7 @@
     "language": "Python",
     "name": "tilelang",
     "owner": "tile-ai",
-    "stars": 8561,
+    "stars": 8560,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9303,7 +9303,7 @@
     "starsToday": 0,
     "starsWeekly": 1342
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9374,7 +9374,7 @@
     "forks": 2936,
     "stars": 32028
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9441,7 +9441,7 @@
     "forks": 580,
     "stars": 7095
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9509,7 +9509,7 @@
     "forks": 1120,
     "stars": 25485
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9561,7 +9561,7 @@
     "starsToday": 0,
     "starsWeekly": 387
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9600,10 +9600,10 @@
    "category": "tool",
    "key": "gh:tradecatlabs/vibe-coding-cn",
    "metrics": {
-    "forks": 1758,
+    "forks": 1757,
     "stars": 17421
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9622,7 +9622,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/288998340?v=4",
     "createdAt": "2025-11-23T01:52:29Z",
-    "forks": 1758,
+    "forks": 1757,
     "language": "Python",
     "license": "MIT",
     "name": "vibe-coding-cn",
@@ -9675,10 +9675,10 @@
    "category": "tool",
    "key": "gh:trailhq/graft",
    "metrics": {
-    "forks": 870,
-    "stars": 9826
+    "forks": 871,
+    "stars": 9827
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9697,13 +9697,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/320742148?v=4",
     "createdAt": "2026-07-03T13:44:21Z",
-    "forks": 870,
+    "forks": 871,
     "language": "TypeScript",
     "license": "MIT",
     "name": "Graft",
     "owner": "trailhq",
     "pushedAt": "2026-10-10T23:32:27Z",
-    "stars": 9826,
+    "stars": 9827,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -9749,12 +9749,12 @@
    "category": "tool",
    "key": "gh:trycua/cua",
    "metrics": {
-    "forks": 2077,
+    "forks": 2078,
     "stars": 29302,
     "starsMonthly": 6950,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9767,7 +9767,7 @@
    },
    "repo": {
     "avatar": "https://github.com/trycua.png?size=64",
-    "forks": 2077,
+    "forks": 2078,
     "language": "Rust",
     "name": "cua",
     "owner": "trycua",
@@ -9793,9 +9793,9 @@
    "key": "gh:tt-a1i/archify",
    "metrics": {
     "forks": 5518,
-    "stars": 81710
+    "stars": 81713
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9820,7 +9820,7 @@
     "name": "archify",
     "owner": "tt-a1i",
     "pushedAt": "2026-10-11T01:08:35Z",
-    "stars": 81710,
+    "stars": 81713,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -9872,7 +9872,7 @@
     "forks": 55,
     "stars": 9721
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9921,7 +9921,7 @@
     "starsMonthly": 925,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9962,7 +9962,7 @@
     "starsMonthly": 3567,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10003,7 +10003,7 @@
     "stars": 11195,
     "starsToday": 143
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10075,7 +10075,7 @@
     "forks": 3624,
     "stars": 34449
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10145,7 +10145,7 @@
     "forks": 3827,
     "stars": 35483
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10217,7 +10217,7 @@
     "starsMonthly": 2915,
     "starsToday": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10262,7 +10262,7 @@
     "forks": 1446,
     "stars": 17243
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10337,10 +10337,10 @@
    "key": "gh:wei-shaw/sub2api",
    "metrics": {
     "forks": 9371,
-    "stars": 43666,
+    "stars": 43668,
     "starsToday": 90
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10357,7 +10357,7 @@
     "language": "Go",
     "name": "sub2api",
     "owner": "Wei-Shaw",
-    "stars": 43666,
+    "stars": 43668,
     "starsToday": 90,
     "topics": [
      "trend:daily"
@@ -10381,7 +10381,7 @@
     "forks": 992,
     "stars": 7456
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10455,9 +10455,9 @@
    "key": "gh:xbtlin/ai-berkshire",
    "metrics": {
     "forks": 2482,
-    "stars": 16695
+    "stars": 16696
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10482,7 +10482,7 @@
     "name": "ai-berkshire",
     "owner": "xbtlin",
     "pushedAt": "2026-10-08T18:04:43Z",
-    "stars": 16695,
+    "stars": 16696,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -10534,7 +10534,7 @@
     "forks": 1427,
     "stars": 13620
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10592,7 +10592,7 @@
     "stars": 39777,
     "starsToday": 44
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10658,10 +10658,10 @@
    "category": "tool",
    "key": "gh:yetone/magpie",
    "metrics": {
-    "forks": 572,
-    "stars": 8662
+    "forks": 573,
+    "stars": 8669
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10680,13 +10680,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4",
     "createdAt": "2026-09-23T16:22:35Z",
-    "forks": 572,
+    "forks": 573,
     "language": "Go",
     "license": "MIT",
     "name": "magpie",
     "owner": "yetone",
     "pushedAt": "2026-10-11T03:23:51Z",
-    "stars": 8662,
+    "stars": 8669,
     "starsToday": 0,
     "topics": [
      "claude-code",
@@ -10717,10 +10717,10 @@
    "category": "tool",
    "key": "gh:zai-org/zcode",
    "metrics": {
-    "forks": 2333,
+    "forks": 2334,
     "stars": 7655
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10733,7 +10733,7 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
     "createdAt": "2026-09-20T12:01:16Z",
-    "forks": 2333,
+    "forks": 2334,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "name": "ZCode",
@@ -10759,7 +10759,7 @@
     "forks": 55089,
     "stars": 66151
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10816,7 +10816,7 @@
     "author": "abenzerps",
     "category": "text-to-image",
     "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-    "likes": 3890,
+    "likes": 3891,
     "modelCreatedAt": "2026-09-20",
     "tags": [
      "text-to-image",
@@ -10828,18 +10828,18 @@
      "text-to-image",
      "base_model:Qwen/Qwen-Image-2.1"
     ],
-    "trendingScore": 672,
+    "trendingScore": 673,
     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
    },
    "key": "hf:abenzerps/qwen-image-2.1-uncensored-gguf",
    "metrics": {
-    "hfUpvotes": 3890,
-    "hf_likes": 3890,
+    "hfUpvotes": 3891,
+    "hf_likes": 3891,
     "prior": 1,
-    "trendingScore": 672,
-    "trending_score": 672
+    "trendingScore": 673,
+    "trending_score": 673
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10894,7 +10894,7 @@
     "trendingScore": 546,
     "trending_score": 546
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10938,7 +10938,7 @@
      "cloudflare",
      "systemone"
     ],
-    "trendingScore": 826,
+    "trendingScore": 824,
     "url": "https://huggingface.co/Cloudflare/clef"
    },
    "key": "hf:cloudflare/clef",
@@ -10946,10 +10946,10 @@
     "hfUpvotes": 2001,
     "hf_likes": 2001,
     "prior": 1,
-    "trendingScore": 826,
-    "trending_score": 826
+    "trendingScore": 824,
+    "trending_score": 824
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10993,7 +10993,7 @@
      "cloudflare",
      "systemone"
     ],
-    "trendingScore": 317,
+    "trendingScore": 316,
     "url": "https://huggingface.co/Cloudflare/clef-flash"
    },
    "key": "hf:cloudflare/clef-flash",
@@ -11001,10 +11001,10 @@
     "hfUpvotes": 742,
     "hf_likes": 742,
     "prior": 1,
-    "trendingScore": 317,
-    "trending_score": 317
+    "trendingScore": 316,
+    "trending_score": 316
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11059,7 +11059,7 @@
     "trendingScore": 1427,
     "trending_score": 1427
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11091,7 +11091,7 @@
     "author": "jialinyyzz",
     "category": "text-generation",
     "id": "jialinyyzz/humanizer",
-    "likes": 977,
+    "likes": 978,
     "modelCreatedAt": "2026-09-11",
     "tags": [
      "text-generation",
@@ -11103,18 +11103,18 @@
      "transformers",
      "text-rewriting"
     ],
-    "trendingScore": 854,
+    "trendingScore": 855,
     "url": "https://huggingface.co/jialinyyzz/humanizer"
    },
    "key": "hf:jialinyyzz/humanizer",
    "metrics": {
-    "hfUpvotes": 977,
-    "hf_likes": 977,
+    "hfUpvotes": 978,
+    "hf_likes": 978,
     "prior": 1,
-    "trendingScore": 854,
-    "trending_score": 854
+    "trendingScore": 855,
+    "trending_score": 855
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11147,7 +11147,7 @@
     "author": "Lightricks",
     "category": "image-to-video",
     "id": "Lightricks/LTX-2.5",
-    "likes": 7192,
+    "likes": 7195,
     "modelCreatedAt": "2026-07-23",
     "tags": [
      "image-to-video",
@@ -11159,18 +11159,18 @@
      "audio-to-video",
      "text-to-audio"
     ],
-    "trendingScore": 468,
+    "trendingScore": 469,
     "url": "https://huggingface.co/Lightricks/LTX-2.5"
    },
    "key": "hf:lightricks/ltx-2.5",
    "metrics": {
-    "hfUpvotes": 7192,
-    "hf_likes": 7192,
+    "hfUpvotes": 7195,
+    "hf_likes": 7195,
     "prior": 1,
-    "trendingScore": 468,
-    "trending_score": 468
+    "trendingScore": 469,
+    "trending_score": 469
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11225,7 +11225,7 @@
     "trendingScore": 457,
     "trending_score": 457
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11257,7 +11257,7 @@
     "author": "Qwen",
     "category": "image-text-to-text",
     "id": "Qwen/Qwen3.8-27B",
-    "likes": 17436,
+    "likes": 17437,
     "modelCreatedAt": "2026-08-05",
     "tags": [
      "image-text-to-text",
@@ -11274,13 +11274,13 @@
    },
    "key": "hf:qwen/qwen3.8-27b",
    "metrics": {
-    "hfUpvotes": 17436,
-    "hf_likes": 17436,
+    "hfUpvotes": 17437,
+    "hf_likes": 17437,
     "prior": 1,
     "trendingScore": 340,
     "trending_score": 340
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11324,7 +11324,7 @@
      "conversational",
      "custom_code"
     ],
-    "trendingScore": 453,
+    "trendingScore": 450,
     "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF"
    },
    "key": "hf:venastine-research/xing4.0-29b-a4b-gguf",
@@ -11332,10 +11332,10 @@
     "hfUpvotes": 686,
     "hf_likes": 686,
     "prior": 1,
-    "trendingScore": 453,
-    "trending_score": 453
+    "trendingScore": 450,
+    "trending_score": 450
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11906,7 +11906,7 @@
    "metrics": {
     "comments": 91,
     "frontPage": 0,
-    "points": 133
+    "points": 136
    },
    "news": {
     "author": "arkj",
@@ -11915,10 +11915,10 @@
     "domain": "ft.com",
     "hnId": 50035886,
     "hnUrl": "https://news.ycombinator.com/item?id=50035886",
-    "points": 133,
-    "showRank": 53
+    "points": 136,
+    "showRank": 51
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T18:48:35.000Z",
    "refs": [
     "url:ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
@@ -11959,7 +11959,7 @@
     "points": 3,
     "showRank": 5
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T23:57:01.000Z",
    "refs": [
     "gh:boredpolymath/truth-beacon"
@@ -11998,7 +11998,7 @@
     "points": 5,
     "showRank": 4
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T00:26:53.000Z",
    "refs": [
     "url:boardsy.co.uk/free-exhibition-display-tools"
@@ -12037,7 +12037,7 @@
     "points": 14,
     "showRank": 3
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T01:19:18.000Z",
    "refs": [
     "url:littleguys.hervalicio.us"
@@ -12087,7 +12087,7 @@
     "hnUrl": "https://dev.to/ibrahimiqbal/touch-grass-voice-dares-that-get-you-off-the-screen-running-on-device-with-gemma-3-270m-fi5",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T18:20:41Z",
    "refs": [],
    "relevance": {
@@ -12139,7 +12139,7 @@
     "hnUrl": "https://dev.to/attila_reterics_a1db906f7/moss-a-tiny-ai-desk-companion-that-makes-you-go-outside-and-touch-grass-d2f",
     "points": 1
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T17:34:01Z",
    "refs": [],
    "relevance": {
@@ -12191,7 +12191,7 @@
     "hnUrl": "https://dev.to/slabb/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works-2hm5",
     "points": 6
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T17:30:37Z",
    "refs": [],
    "relevance": {
@@ -12243,7 +12243,7 @@
     "hnUrl": "https://dev.to/adibanaushad0/turn-your-neighborhood-into-a-daily-adventures-map-with-a-cozy-ai-companion-2j2e",
     "points": 1
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T19:21:01Z",
    "refs": [],
    "relevance": {
@@ -12295,7 +12295,7 @@
     "hnUrl": "https://dev.to/alexgeorgiev17/car-meets-in-sofia-get-planned-in-chaos-so-i-made-an-open-model-read-the-chat-for-us-24nm",
     "points": 12
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T19:29:45Z",
    "refs": [],
    "relevance": {
@@ -12347,7 +12347,7 @@
     "hnUrl": "https://dev.to/ayush_gupta_17/trailwhisper-keep-eyes-on-the-canopy-phone-in-the-pocket-1pc7",
     "points": 10
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T19:43:14Z",
    "refs": [],
    "relevance": {
@@ -12399,7 +12399,7 @@
     "hnUrl": "https://dev.to/lillygrace_213530f21c9600/touchwood-my-feeds-only-unlock-after-an-open-weight-model-sees-me-outside-37eo",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T20:01:56Z",
    "refs": [],
    "relevance": {
@@ -12451,7 +12451,7 @@
     "hnUrl": "https://dev.to/ahitagni07/i-built-escape-touch-grass-to-unlock-social-media-powered-by-offline-ai-2kn1",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T20:18:25Z",
    "refs": [],
    "relevance": {
@@ -12503,7 +12503,7 @@
     "hnUrl": "https://dev.to/minchinweb/roadbean-say-it-in-the-car-get-it-in-the-ledger-pf5",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T20:19:13Z",
    "refs": [],
    "relevance": {
@@ -12555,7 +12555,7 @@
     "hnUrl": "https://dev.to/edyvision/foliage-hunter-a-colorado-leaf-guide-on-a-fine-tuned-gemma-3-built-to-keep-the-screen-short-4iko",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T22:33:21Z",
    "refs": [],
    "relevance": {
@@ -12607,7 +12607,7 @@
     "hnUrl": "https://dev.to/genx0gravitas/terraquest-ai-touch-grass-not-screens-1n6n",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T21:11:47Z",
    "refs": [],
    "relevance": {
@@ -12659,7 +12659,7 @@
     "hnUrl": "https://dev.to/priyank_dev/outside-the-screen-free-outdoor-exploration-40od",
     "points": 2
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T21:16:16Z",
    "refs": [],
    "relevance": {
@@ -12711,7 +12711,7 @@
     "hnUrl": "https://dev.to/vaidehisnk/smritipath-turning-family-memories-of-a-place-into-a-walk-with-local-ai-5acf",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T21:51:37Z",
    "refs": [],
    "relevance": {
@@ -12763,7 +12763,7 @@
     "hnUrl": "https://dev.to/thisisamirv/one-loess-to-rule-them-all-rebuilding-a-classic-smoother-in-rust-31ie",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T22:36:48Z",
    "refs": [],
    "relevance": {
@@ -12815,7 +12815,7 @@
     "hnUrl": "https://dev.to/open-madscience/klipplug-4ko3",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T22:58:16Z",
    "refs": [],
    "relevance": {
@@ -12867,7 +12867,7 @@
     "hnUrl": "https://dev.to/ashish_sinha_5241c7673d93/four-supply-chain-badges-for-a-one-person-open-source-project-in-a-day-mn4",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T23:43:25Z",
    "refs": [],
    "relevance": {
@@ -12919,7 +12919,7 @@
     "hnUrl": "https://dev.to/martinhicks/dynoxide-130-security-fixes-and-fussier-pagination-1n18",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T23:32:04Z",
    "refs": [],
    "relevance": {
@@ -12971,7 +12971,7 @@
     "hnUrl": "https://dev.to/suleigolden/i-open-sourced-thelastcodebender-claim-a-developer-rank-turn-your-github-into-a-claude-code-skill-15g6",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T00:03:31Z",
    "refs": [],
    "relevance": {
@@ -13023,7 +13023,7 @@
     "hnUrl": "https://dev.to/haiderfarooq3/claude-code-skills-for-content-how-i-make-khan-academy-style-videos-for-free-52e2",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T00:27:42Z",
    "refs": [],
    "relevance": {
@@ -13075,7 +13075,7 @@
     "hnUrl": "https://dev.to/devkumar2313/trailmind-i-built-an-ai-that-identifies-wildlife-offline-so-your-phone-stays-in-your-pocket-3bak",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T00:54:09Z",
    "refs": [],
    "relevance": {
@@ -13127,7 +13127,7 @@
     "hnUrl": "https://dev.to/xxy12341/i-built-a-daily-verified-radar-for-free-ai-apis-and-gpu-credits-4n0m",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T01:03:19Z",
    "refs": [],
    "relevance": {
@@ -13179,7 +13179,7 @@
     "hnUrl": "https://dev.to/spark-prairie/building-a-local-first-markdown-cv-editor-what-i-learned-a98",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T01:39:34Z",
    "refs": [],
    "relevance": {
@@ -13231,7 +13231,7 @@
     "hnUrl": "https://dev.to/fds2003/building-a-high-precision-chinese-metaphysics-engine-in-the-browser-solar-terms-midnight-1bc",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T02:03:59Z",
    "refs": [],
    "relevance": {
@@ -13283,7 +13283,7 @@
     "hnUrl": "https://dev.to/openamer/driving-a-real-desktop-without-a-vm-a-sandbox-or-stealing-your-cursor-4e7o",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T02:13:30Z",
    "refs": [],
    "relevance": {
@@ -13335,7 +13335,7 @@
     "hnUrl": "https://dev.to/im_surya_prakash/cheat-sheet-for-your-first-open-source-contribution-3gl1",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T02:24:56Z",
    "refs": [],
    "relevance": {
@@ -13387,7 +13387,7 @@
     "hnUrl": "https://dev.to/shashank03dev/paper-trail-gemma-writes-my-neighbourhood-into-a-paper-zine-so-my-phone-can-stay-home-3jhj",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T02:37:56Z",
    "refs": [],
    "relevance": {
@@ -13439,7 +13439,7 @@
     "hnUrl": "https://dev.to/_4a402f2d2e1b4119fd0db/open-source-top-10-this-week-sep-28-oct-4-ranked-by-verified-github-star-growth-35la",
     "points": 0
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-11T02:46:08Z",
    "refs": [],
    "relevance": {
@@ -13466,6 +13466,304 @@
   },
   {
    "board": "lobsters",
+   "category": "release",
+   "key": "lobsters:4zmka2",
+   "lobsters": {
+    "author": "FedericoSchonborn",
+    "comments": 1,
+    "createdAt": "2026-10-10T12:55:46.216-05:00",
+    "domain": "linus.dev",
+    "points": 9,
+    "shortId": "4zmka2",
+    "url": "https://linus.dev/posts/kiesel-devlog-15/"
+   },
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 9
+   },
+   "news": {
+    "author": "FedericoSchonborn",
+    "comments": 1,
+    "createdAt": "2026-10-10T12:55:46.216-05:00",
+    "domain": "linus.dev",
+    "hnId": 301703978,
+    "hnUrl": "https://lobste.rs/s/4zmka2/kiesel_devlog_15_release_0_4_0",
+    "points": 9
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T12:55:46.216-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:release"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:javascript",
+    "tag:zig"
+   ],
+   "title": "Kiesel Devlog #15: Release 0.4.0",
+   "url": "https://linus.dev/posts/kiesel-devlog-15/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:5zbbd0",
+   "lobsters": {
+    "author": "Levitating",
+    "comments": 0,
+    "createdAt": "2026-10-10T12:05:41.253-05:00",
+    "domain": "pings.utwente.io",
+    "points": 9,
+    "shortId": "5zbbd0",
+    "url": "https://pings.utwente.io/"
+   },
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 9
+   },
+   "news": {
+    "author": "Levitating",
+    "comments": 0,
+    "createdAt": "2026-10-10T12:05:41.253-05:00",
+    "domain": "pings.utwente.io",
+    "hnId": 361645380,
+    "hnUrl": "https://lobste.rs/s/5zbbd0/sntpings_draw_on_canvas_using_icmpv6",
+    "points": 9
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T12:05:41.253-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:education",
+    "tag:networking"
+   ],
+   "title": "SNTPings, draw on a canvas using ICMPv6",
+   "url": "https://pings.utwente.io/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:9ros7d",
+   "lobsters": {
+    "author": "linkdd",
+    "comments": 0,
+    "createdAt": "2026-10-10T16:06:15.264-05:00",
+    "domain": "patkerr.co.uk",
+    "points": 2,
+    "shortId": "9ros7d",
+    "url": "https://patkerr.co.uk/2d-vehicles/"
+   },
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 2
+   },
+   "news": {
+    "author": "linkdd",
+    "comments": 0,
+    "createdAt": "2026-10-10T16:06:15.264-05:00",
+    "domain": "patkerr.co.uk",
+    "hnId": 590701513,
+    "hnUrl": "https://lobste.rs/s/9ros7d/2d_physics_prototype_behind_gta_s",
+    "points": 2
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T16:06:15.264-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:games"
+   ],
+   "title": "The 2D physics prototype behind GTA’s vehicles",
+   "url": "https://patkerr.co.uk/2d-vehicles/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:fbs3k7",
+   "lobsters": {
+    "author": "itamarst",
+    "comments": 3,
+    "createdAt": "2026-10-10T18:25:51.517-05:00",
+    "domain": "blog.scientific-python.org",
+    "points": 2,
+    "shortId": "fbs3k7",
+    "url": "https://blog.scientific-python.org/numpy/searchsorted/"
+   },
+   "metrics": {
+    "comments": 3,
+    "frontPage": 0,
+    "points": 2
+   },
+   "news": {
+    "author": "itamarst",
+    "comments": 3,
+    "createdAt": "2026-10-10T18:25:51.517-05:00",
+    "domain": "blog.scientific-python.org",
+    "hnId": 926779399,
+    "hnUrl": "https://lobste.rs/s/fbs3k7/making_np_searchsorted_up_25x_faster",
+    "points": 2
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T18:25:51.517-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:performance"
+   ],
+   "title": "Making np.searchsorted up to 25× Faster in NumPy 2.5",
+   "url": "https://blog.scientific-python.org/numpy/searchsorted/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:gytcvn",
+   "lobsters": {
+    "author": "fanf",
+    "comments": 0,
+    "createdAt": "2026-10-10T11:56:48.129-05:00",
+    "domain": "smallcultfollowing.com",
+    "points": 8,
+    "shortId": "gytcvn",
+    "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/"
+   },
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 8
+   },
+   "news": {
+    "author": "fanf",
+    "comments": 0,
+    "createdAt": "2026-10-10T11:56:48.129-05:00",
+    "domain": "smallcultfollowing.com",
+    "hnId": 1025935475,
+    "hnUrl": "https://lobste.rs/s/gytcvn/why_externalized_proofs_cyclic_trait",
+    "points": 8
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T11:56:48.129-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:why"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:rust"
+   ],
+   "title": "Why 'externalized' proofs of cyclic trait impls does not work",
+   "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:mbyawi",
+   "lobsters": {
+    "author": "calvin",
+    "comments": 0,
+    "createdAt": "2026-10-10T16:28:51.816-05:00",
+    "domain": "righto.com",
+    "points": 5,
+    "shortId": "mbyawi",
+    "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html"
+   },
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 5
+   },
+   "news": {
+    "author": "calvin",
+    "comments": 0,
+    "createdAt": "2026-10-10T16:28:51.816-05:00",
+    "domain": "righto.com",
+    "hnId": 1350332082,
+    "hnUrl": "https://lobste.rs/s/mbyawi/inside_1980s_filter_chip_uses_switched",
+    "points": 5
+   },
+   "observedAt": "2026-10-11T03:41:12.172Z",
+   "publishedAt": "2026-10-10T16:28:51.816-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:hottest",
+    "tag:hardware",
+    "tag:historical",
+    "tag:reversing"
+   ],
+   "title": "Inside a 1980s filter chip that uses switched capacitors",
+   "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html"
+  },
+  {
+   "board": "lobsters",
    "category": "discussion",
    "key": "lobsters:rhy5zp",
    "lobsters": {
@@ -13473,7 +13771,7 @@
     "comments": 2,
     "createdAt": "2026-10-10T19:51:28.569-05:00",
     "domain": "n-the-loop.com",
-    "points": 4,
+    "points": 3,
     "shortId": "rhy5zp",
     "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/"
    },
@@ -13489,9 +13787,9 @@
     "domain": "n-the-loop.com",
     "hnId": 1662734293,
     "hnUrl": "https://lobste.rs/s/rhy5zp/consistency_is_not_localized_property",
-    "points": 4
+    "points": 3
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T19:51:28.569-05:00",
    "refs": [],
    "relevance": {
@@ -13509,7 +13807,8 @@
     "source:lobsters",
     "tag:ai",
     "tag:databases",
-    "tag:programming"
+    "tag:programming",
+    "tag:hottest"
    ],
    "title": "Consistency is not a localized property",
    "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/"
@@ -13541,7 +13840,7 @@
     "hnUrl": "https://lobste.rs/s/t2fxpt/byte_language_models_scaling_emergent",
     "points": 3
    },
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "publishedAt": "2026-10-10T17:25:14.935-05:00",
    "refs": [
     "arxiv:2610.05978"
@@ -13559,67 +13858,69 @@
    "summary": "The paper challenges the assumption that language models need explicit tokenizers to be efficient demonstrating that standard flat Transformers can process raw byte sequences and actually outperform traditional subword models as parameter sizes scale. The prevailing thought in the field has been that processing raw bytes is computationally inefficient because the sequences are substantially longer. A typical subword contains around four bytes. The authors argue that this extra sequence length is actually a feature that provides useful additional computation under the same parameter budget.…",
    "tags": [
     "source:lobsters",
-    "tag:ai"
+    "tag:ai",
+    "tag:hottest"
    ],
    "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
    "url": "https://arxiv.org/html/2610.05978v1"
   }
  ],
  "date": "2026-10-11",
- "fetchedAt": "2026-10-11T03:25:55.122Z",
+ "fetchedAt": "2026-10-11T03:41:12.172Z",
  "runs": [
   "2026-10-10T17:20:22.825Z",
   "2026-10-11T02:50:04.564Z",
-  "2026-10-11T03:25:55.122Z"
+  "2026-10-11T03:25:55.122Z",
+  "2026-10-11T03:41:12.172Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "dev-to",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 310,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "github-search",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 181,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "github-trending",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 72,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "count": 71,
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "hacker-news",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "hf-trending",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 75,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "count": 95,
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "lobsters",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -13627,7 +13928,7 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-11T03:25:55.122Z",
+   "fetchedAt": "2026-10-11T03:41:12.172Z",
    "id": "x-linked",
    "mode": "syndication",
    "state": "ok"
@@ -13637,6 +13938,6 @@
   "from": "2026-10-10T16:00:00.000Z",
   "settled": false,
   "timezone": "Asia/Shanghai",
-  "to": "2026-10-11T03:25:55.122Z"
+  "to": "2026-10-11T03:41:12.172Z"
  }
 }

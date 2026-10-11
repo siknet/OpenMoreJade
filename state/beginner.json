@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -193,7 +193,7 @@
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
   "discovery:gh:huggingface/transformers": {
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:huggingface/transformers",
@@ -295,7 +295,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-11T03:25:55.122Z",
+   "observedAt": "2026-10-11T03:41:12.172Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",

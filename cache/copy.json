@@ -2856,6 +2856,58 @@
   },
   "hash": "d011fbe17508b14b"
  },
+ "lobsters:4zmka2": {
+  "copy": {
+   "zh": {
+    "blurb": "Kiesel 项目在第15篇开发日志中宣布 0.4.0 正式发布，带来若干新特性与性能提升，详情可在 linus.dev 查看。",
+    "points": [
+     "0.4.0 版加入新功能并优化性能",
+     "完整更新日志可在项目博客阅读"
+    ],
+    "title": "Kiesel 第15篇开发日志：0.4.0 版发布"
+   }
+  },
+  "hash": "df664b687c1275da"
+ },
+ "lobsters:5zbbd0": {
+  "copy": {
+   "zh": {
+    "blurb": "SNTPings 项目展示了如何利用 ICMPv6 数据报的载荷在网页画布上实时绘图，实现网络层面的可视化交互。",
+    "points": [
+     "借助 ICMPv6 包的负载进行绘图指令传输",
+     "在浏览器中实时渲染画布效果"
+    ],
+    "title": "SNTPings：使用 ICMPv6 在画布上绘图"
+   }
+  },
+  "hash": "38317c7e9f496bee"
+ },
+ "lobsters:9ros7d": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目介绍了 GTA 系列游戏中车辆行为的 2D 物理原型，利用简化的二维模型实现逼真的车辆运动与碰撞。",
+    "points": [
+     "使用 2D 物理模型模拟车辆动力学",
+     "在游戏中提供实时响应的驾驶体验"
+    ],
+    "title": "GTA 车辆背后的 2D 物理原型"
+   }
+  },
+  "hash": "303313a3acd83a1a"
+ },
+ "lobsters:fbs3k7": {
+  "copy": {
+   "zh": {
+    "blurb": "NumPy 2.5 通过算法和 SIMD 优化，将 np.searchsorted 的执行速度提升最高可达 25 倍，显著加快大规模排序搜索。",
+    "points": [
+     "采用 SIMD 与分支预测技术优化搜索",
+     "在大数据集上实现数十倍的性能提升"
+    ],
+    "title": "NumPy 2.5 中 np.searchsorted 提速至 25 倍"
+   }
+  },
+  "hash": "9772652882aacf5f"
+ },
  "lobsters:gqaqgq": {
   "copy": {
    "zh": {
@@ -2869,6 +2921,32 @@
    }
   },
   "hash": "61d04afde88f156a"
+ },
+ "lobsters:gytcvn": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分析了 Rust 中对循环 trait 实现进行外部化证明的难点，指出编译器无法接受此类循环依赖的证明方式。",
+    "points": [
+     "循环 trait 导致证明过程产生依赖循环",
+     "Rust 编译器对外部化证明存在限制"
+    ],
+    "title": "为何循环 trait 实现的‘外部化’证明失效"
+   }
+  },
+  "hash": "e23e6293113fa23d"
+ },
+ "lobsters:mbyawi": {
+  "copy": {
+   "zh": {
+    "blurb": "文章剖析了上世纪 80 年代的滤波芯片，阐释其使用开关电容技术实现模拟滤波的工作原理及电路布局。",
+    "points": [
+     "开关电容实现高精度模拟滤波",
+     "展示经典芯片的电路设计与时序控制"
+    ],
+    "title": "1980 年代开关电容滤波芯片内部结构"
+   }
+  },
+  "hash": "4de049ad41f26e42"
  },
  "lobsters:rhy5zp": {
   "copy": {
