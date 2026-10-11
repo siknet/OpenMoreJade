@@ -69,13 +69,17 @@ export function lobsters(config: Config): Source {
     id: 'lobsters',
     board: 'lobsters',
     async fetch(ctx) {
-      // 3 channels in order: release (default), ai, show
-      const [releaseRes, aiRes, showRes] = await Promise.all([
+      // Primary feed: hottest stories, followed by recent and topic tags
+      const [hottestRes, recentRes, releaseRes, aiRes, showRes] = await Promise.all([
+        ctx.http.json<LobstersStory[]>('https://lobste.rs/hottest.json').catch(() => []),
+        ctx.http.json<LobstersStory[]>('https://lobste.rs/recent.json').catch(() => []),
         ctx.http.json<LobstersStory[]>('https://lobste.rs/t/release.json').catch(() => []),
         ctx.http.json<LobstersStory[]>('https://lobste.rs/t/ai.json').catch(() => []),
         ctx.http.json<LobstersStory[]>('https://lobste.rs/t/show.json').catch(() => []),
       ])
 
+      const hottestStories = Array.isArray(hottestRes) ? hottestRes : []
+      const recentStories = Array.isArray(recentRes) ? recentRes : []
       const releaseStories = Array.isArray(releaseRes) ? releaseRes : []
       const aiStories = Array.isArray(aiRes) ? aiRes : []
       const showStories = Array.isArray(showRes) ? showRes : []
@@ -87,7 +91,7 @@ export function lobsters(config: Config): Source {
           if (!story || !story.short_id || !story.title) continue
           const existing = items.get(`lobsters:${story.short_id}`)
           if (existing) {
-            if (!existing.tags.includes(`tag:${tag}`)) {
+            if (tag && !existing.tags.includes(`tag:${tag}`)) {
               existing.tags.push(`tag:${tag}`)
             }
           } else {
@@ -97,6 +101,8 @@ export function lobsters(config: Config): Source {
         }
       }
 
+      addStories(hottestStories, 'hottest')
+      addStories(recentStories, 'recent')
       addStories(releaseStories, 'release')
       addStories(aiStories, 'ai')
       addStories(showStories, 'show')

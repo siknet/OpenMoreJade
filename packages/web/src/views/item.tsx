@@ -225,18 +225,13 @@ function Detail({ located }: { located: LocatedItem }) {
       </header>
 
       {blurb && blurb !== title && <p class="detail__blurb">{blurb}</p>}
-      {(why || points.length > 0) && (
+      {points.length > 0 && (
         <div class="detail__plate detail__essence">
-          {why && (
-            <p class="detail__why">{why}</p>
-          )}
-          {points.length > 0 && (
-            <ul class="detail__points" aria-label={t('detail.points')}>
-              {points.map((p) => (
-                <li key={p}>{p}</li>
-              ))}
-            </ul>
-          )}
+          <ul class="detail__points" aria-label={t('detail.points')}>
+            {points.map((p) => (
+              <li key={p}>{p}</li>
+            ))}
+          </ul>
         </div>
       )}
       {translated && (

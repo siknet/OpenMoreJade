@@ -94,7 +94,6 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
   const [trendRange, setTrendRange] = useState<'daily' | 'weekly' | 'monthly'>('daily')
   const [hnChannel, setHnChannel] = useState<'show' | 'best'>('show')
   const [devtoChannel, setDevtoChannel] = useState<'latest' | 'opensource'>('latest')
-  const [lobstersChannel, setLobstersChannel] = useState<'release' | 'ai' | 'show'>('release')
   const data = day.boards[board] ?? { top: [], runnersUp: [] }
 
   // When viewing repos, filter and rank by the official GitHub Trending scope
@@ -190,7 +189,7 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
     }
   }
 
-  // 3. Lobste.rs (L.S) 独立板块
+  // 3. Lobste.rs (L.S) 独立板块：直接按热度/得分排序显示前 10 条
   if (board === 'lobsters') {
     const lobstersItems = allRepos.filter((item): item is LobstersItem => item.board === 'lobsters')
     const toTime = (s?: string) => (s ? Date.parse(s) || 0 : 0)
@@ -198,16 +197,14 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
     const getComments = (it: LobstersItem) => it.lobsters?.comments ?? (it as any).news?.comments ?? 0
     const getCreatedAt = (it: LobstersItem) => it.lobsters?.createdAt ?? (it as any).news?.createdAt ?? it.publishedAt
 
-    // Channels in order: release (default), ai, show
-    const targetTag = `tag:${lobstersChannel}`
-    const filtered = lobstersItems.filter((it) => it.tags.includes(targetTag))
-    filtered.sort(
+    lobstersItems.sort(
       (a, b) =>
+        b.score.total - a.score.total ||
         getPoints(b) - getPoints(a) ||
         getComments(b) - getComments(a) ||
         toTime(b.publishedAt ?? getCreatedAt(b)) - toTime(a.publishedAt ?? getCreatedAt(a)),
     )
-    allRepos = filtered.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
+    allRepos = lobstersItems.slice(0, 10).map((item, idx) => ({ ...item, rank: idx + 1 }))
   }
 
   const topSize = ['news', 'devto', 'lobsters'].includes(board) ? Math.min(10, allRepos.length) : Math.min(10, data.top.length || 10)
@@ -318,37 +315,7 @@ export function BoardColumn({ board, day, date, meta, category, span, panelProps
               </button>
             </div>
           )}
-          {board === 'lobsters' && (
-            <div class="board__tabs" role="tablist" aria-label="Lobste.rs Tabs">
-              <button
-                type="button"
-                role="tab"
-                aria-selected={lobstersChannel === 'release'}
-                class={`board__tab ${lobstersChannel === 'release' ? 'is-active' : ''}`}
-                onClick={() => setLobstersChannel('release')}
-              >
-                {t('board.newsLobstersRelease')}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={lobstersChannel === 'ai'}
-                class={`board__tab ${lobstersChannel === 'ai' ? 'is-active' : ''}`}
-                onClick={() => setLobstersChannel('ai')}
-              >
-                {t('board.newsLobstersAi')}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={lobstersChannel === 'show'}
-                class={`board__tab ${lobstersChannel === 'show' ? 'is-active' : ''}`}
-                onClick={() => setLobstersChannel('show')}
-              >
-                {t('board.newsLobstersShow')}
-              </button>
-            </div>
-          )}
+
           {notable.length > 0 && (
             <div class="board__status">
               {notable.map((s) => (

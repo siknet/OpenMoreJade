@@ -36,7 +36,6 @@ export function ItemCard({ item, date, meta, showBoard, stale }: ItemCardProps) 
   const metas = boardMetas.value
   const title = itemTitle(item, l)
   const blurb = itemBlurb(item, l)
-  const why = itemWhy(item, l)
   const names = (b: Board) => boardTitle(b, metas.get(b))
   const targetUrl = safeHref(item.url) || itemHref(item, date)
   const isExternal = !!safeHref(item.url)
@@ -72,9 +71,6 @@ export function ItemCard({ item, date, meta, showBoard, stale }: ItemCardProps) 
           </a>
         </h3>
         {blurb && blurb !== title && <p class="card__blurb">{blurb}</p>}
-        {why && (
-          <p class="card__why">{why}</p>
-        )}
         <ItemMeta item={item} />
         <ResonanceMark own={item.board} links={item.resonance.links} level={item.resonance.level} names={names} />
       </div>
@@ -105,7 +101,6 @@ export function RunnerRow({ item, date, showBoard }: RunnerRowProps) {
   const l = lang.value
   const title = itemTitle(item, l)
   const blurb = itemBlurb(item, l)
-  const why = itemWhy(item, l)
   const host = hostOf(item.url)
   const targetUrl = safeHref(item.url) || itemHref(item, date)
   const isExternal = !!safeHref(item.url)
@@ -128,9 +123,6 @@ export function RunnerRow({ item, date, showBoard }: RunnerRowProps) {
       <span class="runner__peek" aria-hidden="true">
         <span class="runner__peek-title">{title}</span>
         {blurb && blurb !== title && <span class="runner__peek-blurb">{blurb}</span>}
-        {why && (
-          <span class="runner__peek-why">{why}</span>
-        )}
         <span class="runner__peek-meta">
           {item.category && (
             <span class="runner__peek-cat" style={{ '--chip-hue': categoryHue(item.category) }}>
