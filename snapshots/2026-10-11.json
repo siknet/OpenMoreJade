@@ -5,10 +5,10 @@
    "category": "tool",
    "key": "gh:1jehuang/jcode",
    "metrics": {
-    "forks": 2375,
-    "stars": 20380
+    "forks": 2374,
+    "stars": 20389
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -27,13 +27,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
     "createdAt": "2026-01-05T09:43:36Z",
-    "forks": 2375,
+    "forks": 2374,
     "language": "Rust",
     "license": "MIT",
     "name": "jcode",
     "owner": "1jehuang",
-    "pushedAt": "2026-10-10T15:36:27Z",
-    "stars": 20380,
+    "pushedAt": "2026-10-11T02:38:10Z",
+    "stars": 20389,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -74,12 +74,12 @@
    "category": "tool",
    "key": "gh:addyosmani/agent-skills",
    "metrics": {
-    "forks": 10897,
-    "stars": 104397,
-    "starsMonthly": 11155,
+    "forks": 10912,
+    "stars": 104551,
+    "starsMonthly": 11706,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -92,11 +92,11 @@
    },
    "repo": {
     "avatar": "https://github.com/addyosmani.png?size=64",
-    "forks": 10897,
+    "forks": 10912,
     "language": "JavaScript",
     "name": "agent-skills",
     "owner": "addyosmani",
-    "stars": 104397,
+    "stars": 104551,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -117,12 +117,12 @@
    "category": "tool",
    "key": "gh:affaan-m/ecc",
    "metrics": {
-    "forks": 41222,
-    "stars": 276344,
-    "starsMonthly": 22710,
+    "forks": 41244,
+    "stars": 276576,
+    "starsMonthly": 22474,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -141,13 +141,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/124439313?v=4",
     "createdAt": "2026-01-18T00:51:51Z",
-    "forks": 41222,
+    "forks": 41244,
     "language": "JavaScript",
     "license": "MIT",
     "name": "ECC",
     "owner": "affaan-m",
-    "pushedAt": "2026-10-10T01:41:12Z",
-    "stars": 276344,
+    "pushedAt": "2026-10-11T01:15:29Z",
+    "stars": 276576,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -185,9 +185,9 @@
    "key": "gh:agentscope-ai/qwenpaw",
    "metrics": {
     "forks": 3168,
-    "stars": 35565
+    "stars": 35573
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -212,7 +212,7 @@
     "name": "QwenPaw",
     "owner": "agentscope-ai",
     "pushedAt": "2026-10-10T09:02:21Z",
-    "stars": 35565,
+    "stars": 35573,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -257,10 +257,10 @@
    "category": "tool",
    "key": "gh:aipentest/cyberstrikeai",
    "metrics": {
-    "forks": 1390,
-    "stars": 7475
+    "forks": 1431,
+    "stars": 7530
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -279,13 +279,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/325912931?v=4",
     "createdAt": "2025-11-08T10:41:23Z",
-    "forks": 1390,
+    "forks": 1431,
     "language": "Go",
     "license": "Apache-2.0",
     "name": "CyberStrikeAI",
     "owner": "AIPentest",
     "pushedAt": "2026-10-10T13:02:48Z",
-    "stars": 7475,
+    "stars": 7530,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -320,12 +320,54 @@
   {
    "board": "repos",
    "category": "tool",
+   "key": "gh:akitaonrails/ai-memory",
+   "metrics": {
+    "forks": 641,
+    "stars": 9125,
+    "starsMonthly": 2712,
+    "starsToday": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "weak:ai",
+     "weak:agent",
+     "cat:board"
+    ],
+    "score": 0.4
+   },
+   "repo": {
+    "avatar": "https://github.com/akitaonrails.png?size=64",
+    "forks": 641,
+    "language": "Rust",
+    "name": "ai-memory",
+    "owner": "akitaonrails",
+    "stars": 9125,
+    "starsToday": 0,
+    "topics": [
+     "trend:monthly"
+    ]
+   },
+   "sources": [
+    "github-trending"
+   ],
+   "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "tags": [
+    "trend:monthly"
+   ],
+   "title": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory"
+  },
+  {
+   "board": "repos",
+   "category": "tool",
    "key": "gh:alexsjones/llmfit",
    "metrics": {
-    "forks": 2426,
-    "stars": 37779
+    "forks": 2425,
+    "stars": 37787
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -340,13 +382,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/1235925?v=4",
     "createdAt": "2026-02-15T16:11:31Z",
-    "forks": 2426,
+    "forks": 2425,
     "language": "Rust",
     "license": "MIT",
     "name": "llmfit",
     "owner": "AlexsJones",
     "pushedAt": "2026-10-10T08:35:39Z",
-    "stars": 37779,
+    "stars": 37787,
     "starsToday": 0,
     "topics": [
      "gguf",
@@ -377,12 +419,12 @@
    "category": "tool",
    "key": "gh:alibaba/open-code-review",
    "metrics": {
-    "forks": 3307,
-    "stars": 45806,
-    "starsMonthly": 23028,
+    "forks": 3322,
+    "stars": 45898,
+    "starsMonthly": 23947,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -396,11 +438,11 @@
    },
    "repo": {
     "avatar": "https://github.com/alibaba.png?size=64",
-    "forks": 3307,
+    "forks": 3322,
     "language": "Go",
     "name": "open-code-review",
     "owner": "alibaba",
-    "stars": 45806,
+    "stars": 45898,
     "starsToday": 970,
     "topics": [
      "trend:daily",
@@ -426,7 +468,7 @@
     "forks": 1010,
     "stars": 16092
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -494,11 +536,11 @@
    "key": "gh:alphaxiv/openresearch",
    "metrics": {
     "forks": 442,
-    "stars": 6844,
-    "starsMonthly": 6349,
+    "stars": 6856,
+    "starsMonthly": 6178,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -514,7 +556,7 @@
     "language": "Rust",
     "name": "OpenResearch",
     "owner": "alphaXiv",
-    "stars": 6844,
+    "stars": 6856,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -535,10 +577,10 @@
    "category": "tool",
    "key": "gh:anionex/banana-slides",
    "metrics": {
-    "forks": 1785,
-    "stars": 15730
+    "forks": 1786,
+    "stars": 15732
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -552,13 +594,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/123177548?v=4",
     "createdAt": "2025-11-29T17:37:26Z",
-    "forks": 1785,
+    "forks": 1786,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "name": "banana-slides",
     "owner": "Anionex",
     "pushedAt": "2026-10-08T02:46:03Z",
-    "stars": 15730,
+    "stars": 15732,
     "starsToday": 0,
     "topics": [
      "ai-ppt-maker",
@@ -597,12 +639,12 @@
    "category": "tool",
    "key": "gh:anthropics/claude-code",
    "metrics": {
-    "forks": 26047,
-    "stars": 150019,
-    "starsMonthly": 6173,
+    "forks": 26101,
+    "stars": 150079,
+    "starsMonthly": 6240,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -615,11 +657,11 @@
    },
    "repo": {
     "avatar": "https://github.com/anthropics.png?size=64",
-    "forks": 26047,
+    "forks": 26101,
     "language": "TypeScript",
     "name": "claude-code",
     "owner": "anthropics",
-    "stars": 150019,
+    "stars": 150079,
     "starsToday": 195,
     "topics": [
      "trend:daily",
@@ -642,10 +684,10 @@
    "category": "tool",
    "key": "gh:anthropics/claude-plugins-official",
    "metrics": {
-    "forks": 4236,
-    "stars": 37617
+    "forks": 4237,
+    "stars": 37640
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -660,13 +702,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
     "createdAt": "2025-11-20T18:36:20Z",
-    "forks": 4236,
+    "forks": 4237,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "claude-plugins-official",
     "owner": "anthropics",
-    "pushedAt": "2026-10-09T20:54:10Z",
-    "stars": 37617,
+    "pushedAt": "2026-10-11T02:41:22Z",
+    "stars": 37640,
     "starsToday": 0,
     "topics": [
      "claude-code",
@@ -691,12 +733,12 @@
    "category": "tool",
    "key": "gh:anthropics/financial-services",
    "metrics": {
-    "forks": 5573,
-    "stars": 39261,
-    "starsMonthly": 4495,
+    "forks": 5575,
+    "stars": 39304,
+    "starsMonthly": 4607,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -707,11 +749,11 @@
    },
    "repo": {
     "avatar": "https://github.com/anthropics.png?size=64",
-    "forks": 5573,
+    "forks": 5575,
     "language": "Python",
     "name": "financial-services",
     "owner": "anthropics",
-    "stars": 39261,
+    "stars": 39304,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -732,13 +774,13 @@
    "category": "tool",
    "key": "gh:anthropics/knowledge-work-plugins",
    "metrics": {
-    "forks": 3268,
-    "stars": 28675,
-    "starsMonthly": 4131,
+    "forks": 3282,
+    "stars": 28849,
+    "starsMonthly": 4750,
     "starsToday": 0,
-    "starsWeekly": 2601
+    "starsWeekly": 2644
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -751,11 +793,11 @@
    },
    "repo": {
     "avatar": "https://github.com/anthropics.png?size=64",
-    "forks": 3268,
+    "forks": 3282,
     "language": "Python",
     "name": "knowledge-work-plugins",
     "owner": "anthropics",
-    "stars": 28675,
+    "stars": 28849,
     "starsToday": 626,
     "topics": [
      "trend:daily",
@@ -780,11 +822,11 @@
    "category": "tool",
    "key": "gh:appwrite/appwrite",
    "metrics": {
-    "forks": 5777,
-    "stars": 57623,
+    "forks": 5776,
+    "stars": 57626,
     "starsToday": 11
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -797,11 +839,11 @@
    },
    "repo": {
     "avatar": "https://github.com/appwrite.png?size=64",
-    "forks": 5777,
+    "forks": 5776,
     "language": "TypeScript",
     "name": "appwrite",
     "owner": "appwrite",
-    "stars": 57623,
+    "stars": 57626,
     "starsToday": 11,
     "topics": [
      "trend:daily"
@@ -822,12 +864,12 @@
    "category": "tool",
    "key": "gh:asgeirtj/system_prompts_leaks",
    "metrics": {
-    "forks": 11268,
-    "stars": 69328,
-    "starsMonthly": 5092,
+    "forks": 11277,
+    "stars": 69352,
+    "starsMonthly": 5091,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -845,11 +887,11 @@
    },
    "repo": {
     "avatar": "https://github.com/asgeirtj.png?size=64",
-    "forks": 11268,
+    "forks": 11277,
     "language": "Python",
     "name": "system_prompts_leaks",
     "owner": "asgeirtj",
-    "stars": 69328,
+    "stars": 69352,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -871,9 +913,9 @@
    "key": "gh:astrid-runtime/astrid",
    "metrics": {
     "forks": 142,
-    "stars": 10279
+    "stars": 10280
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -898,7 +940,7 @@
     "name": "astrid",
     "owner": "astrid-runtime",
     "pushedAt": "2026-10-10T00:14:08Z",
-    "stars": 10279,
+    "stars": 10280,
     "starsToday": 0,
     "topics": [
      "agent-runtime",
@@ -937,12 +979,12 @@
    "category": "tool",
    "key": "gh:berriai/litellm",
    "metrics": {
-    "forks": 12211,
-    "stars": 60886,
-    "starsMonthly": 2615,
+    "forks": 12216,
+    "stars": 60927,
+    "starsMonthly": 2613,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -960,11 +1002,11 @@
    },
    "repo": {
     "avatar": "https://github.com/BerriAI.png?size=64",
-    "forks": 12211,
+    "forks": 12216,
     "language": "Python",
     "name": "litellm",
     "owner": "BerriAI",
-    "stars": 60886,
+    "stars": 60927,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -985,12 +1027,12 @@
    "category": "tool",
    "key": "gh:bilawalsidhu/gods-eye-view",
    "metrics": {
-    "forks": 10092,
-    "stars": 49954,
-    "starsMonthly": 29212,
+    "forks": 10192,
+    "stars": 50414,
+    "starsMonthly": 27862,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1001,11 +1043,11 @@
    },
    "repo": {
     "avatar": "https://github.com/bilawalsidhu.png?size=64",
-    "forks": 10092,
+    "forks": 10192,
     "language": "JavaScript",
     "name": "gods-eye-view",
     "owner": "bilawalsidhu",
-    "stars": 49954,
+    "stars": 50414,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -1026,11 +1068,11 @@
    "category": "tool",
    "key": "gh:bittersecurity/decepticon",
    "metrics": {
-    "forks": 1099,
-    "stars": 5809,
-    "starsToday": 80
+    "forks": 1108,
+    "stars": 5857,
+    "starsToday": 81
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1042,12 +1084,12 @@
    },
    "repo": {
     "avatar": "https://github.com/BitterSecurity.png?size=64",
-    "forks": 1099,
+    "forks": 1108,
     "language": "Python",
     "name": "Decepticon",
     "owner": "BitterSecurity",
-    "stars": 5809,
-    "starsToday": 80,
+    "stars": 5857,
+    "starsToday": 81,
     "topics": [
      "trend:daily"
     ]
@@ -1067,10 +1109,10 @@
    "category": "tool",
    "key": "gh:browser-use/browser-harness",
    "metrics": {
-    "forks": 1795,
-    "stars": 18376
+    "forks": 1798,
+    "stars": 18379
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1086,13 +1128,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
     "createdAt": "2026-04-17T01:56:15Z",
-    "forks": 1795,
+    "forks": 1798,
     "language": "Python",
     "license": "MIT",
     "name": "browser-harness",
     "owner": "browser-use",
     "pushedAt": "2026-10-09T06:16:16Z",
-    "stars": 18376,
+    "stars": 18379,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -1135,10 +1177,10 @@
    "category": "tool",
    "key": "gh:cactus-compute/needle",
    "metrics": {
-    "forks": 930,
-    "stars": 13786
+    "forks": 934,
+    "stars": 13812
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1154,13 +1196,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
     "createdAt": "2026-02-24T04:50:47Z",
-    "forks": 930,
+    "forks": 934,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "needle",
     "owner": "cactus-compute",
-    "pushedAt": "2026-10-10T06:54:07Z",
-    "stars": 13786,
+    "pushedAt": "2026-10-10T18:33:59Z",
+    "stars": 13812,
     "starsToday": 0,
     "topics": [
      "cactus",
@@ -1195,12 +1237,12 @@
    "category": "tool",
    "key": "gh:calesthio/openmontage",
    "metrics": {
-    "forks": 8404,
-    "stars": 66046,
+    "forks": 8439,
+    "stars": 66267,
     "starsToday": 0,
-    "starsWeekly": 3479
+    "starsWeekly": 3502
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1215,11 +1257,11 @@
    },
    "repo": {
     "avatar": "https://github.com/calesthio.png?size=64",
-    "forks": 8404,
+    "forks": 8439,
     "language": "Python",
     "name": "OpenMontage",
     "owner": "calesthio",
-    "stars": 66046,
+    "stars": 66267,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -1240,10 +1282,10 @@
    "category": "tool",
    "key": "gh:can1357/oh-my-pi",
    "metrics": {
-    "forks": 3792,
-    "stars": 34910
+    "forks": 3798,
+    "stars": 34943
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1262,13 +1304,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
     "createdAt": "2025-12-31T14:01:28Z",
-    "forks": 3792,
+    "forks": 3798,
     "language": "TypeScript",
     "license": "MIT",
     "name": "oh-my-pi",
     "owner": "can1357",
-    "pushedAt": "2026-10-10T17:04:38Z",
-    "stars": 34910,
+    "pushedAt": "2026-10-11T02:40:04Z",
+    "stars": 34943,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -1312,11 +1354,11 @@
    "category": "tool",
    "key": "gh:casdoor/casdoor",
    "metrics": {
-    "forks": 1839,
-    "stars": 14545,
-    "starsToday": 10
+    "forks": 1841,
+    "stars": 14546,
+    "starsToday": 13
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1330,12 +1372,12 @@
    },
    "repo": {
     "avatar": "https://github.com/casdoor.png?size=64",
-    "forks": 1839,
+    "forks": 1841,
     "language": "Go",
     "name": "casdoor",
     "owner": "casdoor",
-    "stars": 14545,
-    "starsToday": 10,
+    "stars": 14546,
+    "starsToday": 13,
     "topics": [
      "trend:daily"
     ]
@@ -1355,11 +1397,11 @@
    "category": "tool",
    "key": "gh:cathrynlavery/diagram-design",
    "metrics": {
-    "forks": 3073,
-    "stars": 48680,
-    "starsToday": 1189
+    "forks": 3100,
+    "stars": 49053,
+    "starsToday": 1190
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1372,12 +1414,12 @@
    },
    "repo": {
     "avatar": "https://github.com/cathrynlavery.png?size=64",
-    "forks": 3073,
+    "forks": 3100,
     "language": "HTML",
     "name": "diagram-design",
     "owner": "cathrynlavery",
-    "stars": 48680,
-    "starsToday": 1189,
+    "stars": 49053,
+    "starsToday": 1190,
     "topics": [
      "trend:daily"
     ]
@@ -1385,7 +1427,7 @@
    "sources": [
     "github-trending"
    ],
-   "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
    "tags": [
     "trend:daily"
    ],
@@ -1397,12 +1439,12 @@
    "category": "tool",
    "key": "gh:cjpais/handy",
    "metrics": {
-    "forks": 3113,
-    "stars": 33432,
+    "forks": 3115,
+    "stars": 33461,
     "starsToday": 0,
-    "starsWeekly": 739
+    "starsWeekly": 729
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1413,11 +1455,11 @@
    },
    "repo": {
     "avatar": "https://github.com/cjpais.png?size=64",
-    "forks": 3113,
+    "forks": 3115,
     "language": "Rust",
     "name": "Handy",
     "owner": "cjpais",
-    "stars": 33432,
+    "stars": 33461,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -1438,12 +1480,12 @@
    "category": "tool",
    "key": "gh:cline/cline",
    "metrics": {
-    "forks": 7632,
-    "stars": 70114,
-    "starsMonthly": 2782,
+    "forks": 7633,
+    "stars": 70132,
+    "starsMonthly": 2759,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -1458,11 +1500,11 @@
    },
    "repo": {
     "avatar": "https://github.com/cline.png?size=64",
-    "forks": 7632,
+    "forks": 7633,
     "language": "TypeScript",
     "name": "cline",
     "owner": "cline",
-    "stars": 70114,
+    "stars": 70132,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -1483,10 +1525,10 @@
    "category": "tool",
    "key": "gh:cloakhq/cloakbrowser",
    "metrics": {
-    "forks": 2658,
-    "stars": 32020
+    "forks": 2659,
+    "stars": 32025
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1502,13 +1544,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/263128610?v=4",
     "createdAt": "2026-02-22T08:09:57Z",
-    "forks": 2658,
+    "forks": 2659,
     "language": "Python",
     "license": "MIT",
     "name": "CloakBrowser",
     "owner": "CloakHQ",
-    "pushedAt": "2026-10-08T18:57:11Z",
-    "stars": 32020,
+    "pushedAt": "2026-10-11T02:22:03Z",
+    "stars": 32025,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -1557,12 +1599,12 @@
    "category": "tool",
    "key": "gh:cloudflare/cloudflare-os",
    "metrics": {
-    "forks": 1352,
-    "stars": 11333,
+    "forks": 1351,
+    "stars": 11336,
     "starsToday": 0,
-    "starsWeekly": 1027
+    "starsWeekly": 862
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1574,11 +1616,11 @@
    },
    "repo": {
     "avatar": "https://github.com/cloudflare.png?size=64",
-    "forks": 1352,
+    "forks": 1351,
     "language": "TypeScript",
     "name": "cloudflare-os",
     "owner": "cloudflare",
-    "stars": 11333,
+    "stars": 11336,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -1599,10 +1641,10 @@
    "category": "tool",
    "key": "gh:cobusgreyling/loop-engineering",
    "metrics": {
-    "forks": 1537,
-    "stars": 11467
+    "forks": 1542,
+    "stars": 11481
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1621,13 +1663,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/7868717?v=4",
     "createdAt": "2026-06-09T06:28:20Z",
-    "forks": 1537,
+    "forks": 1542,
     "language": "TypeScript",
     "license": "MIT",
     "name": "loop-engineering",
     "owner": "cobusgreyling",
-    "pushedAt": "2026-10-10T14:19:20Z",
-    "stars": 11467,
+    "pushedAt": "2026-10-11T02:45:43Z",
+    "stars": 11481,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -1674,9 +1716,9 @@
    "key": "gh:code-yeongyu/oh-my-openagent",
    "metrics": {
     "forks": 5746,
-    "stars": 69936
+    "stars": 69943
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1699,8 +1741,8 @@
     "language": "TypeScript",
     "name": "oh-my-openagent",
     "owner": "code-yeongyu",
-    "pushedAt": "2026-10-10T17:15:29Z",
-    "stars": 69936,
+    "pushedAt": "2026-10-11T02:48:45Z",
+    "stars": 69943,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -1745,11 +1787,11 @@
    "key": "gh:coder/coder",
    "metrics": {
     "forks": 1618,
-    "stars": 16933,
-    "starsMonthly": 2676,
+    "stars": 16944,
+    "starsMonthly": 2680,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1765,7 +1807,7 @@
     "language": "Go",
     "name": "coder",
     "owner": "coder",
-    "stars": 16933,
+    "stars": 16944,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -1787,9 +1829,9 @@
    "key": "gh:codewhale-hq/codewhale",
    "metrics": {
     "forks": 3568,
-    "stars": 41078
+    "stars": 41080
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1813,8 +1855,8 @@
     "license": "MIT",
     "name": "Codewhale",
     "owner": "codewhale-hq",
-    "pushedAt": "2026-10-10T16:01:42Z",
-    "stars": 41078,
+    "pushedAt": "2026-10-10T23:54:27Z",
+    "stars": 41080,
     "starsToday": 0,
     "topics": [
      "agent-orchestration",
@@ -1855,12 +1897,69 @@
   {
    "board": "repos",
    "category": "tool",
+   "key": "gh:conardli/garden-skills",
+   "metrics": {
+    "forks": 1537,
+    "stars": 12816
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "kw:rag",
+     "kw:gpt",
+     "kw:open source",
+     "kw:claude",
+     "topic:rag",
+     "weak:agent",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "repo": {
+    "avatar": "https://avatars.githubusercontent.com/u/30708545?v=4",
+    "createdAt": "2026-04-21T11:56:17Z",
+    "forks": 1537,
+    "language": "CSS",
+    "license": "MIT",
+    "name": "garden-skills",
+    "owner": "ConardLi",
+    "pushedAt": "2026-10-11T02:28:13Z",
+    "stars": 12816,
+    "starsToday": 0,
+    "topics": [
+     "agent",
+     "claude",
+     "gpt-image-2",
+     "rag",
+     "skills",
+     "web-design"
+    ]
+   },
+   "sources": [
+    "github-search"
+   ],
+   "summary": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+   "tags": [
+    "agent",
+    "claude",
+    "gpt-image-2",
+    "rag",
+    "skills",
+    "web-design"
+   ],
+   "title": "ConardLi/garden-skills",
+   "url": "https://github.com/ConardLi/garden-skills"
+  },
+  {
+   "board": "repos",
+   "category": "tool",
    "key": "gh:coreyhaines31/marketingskills",
    "metrics": {
-    "forks": 8026,
-    "stars": 54030
+    "forks": 8034,
+    "stars": 54085
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1878,13 +1977,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/34802794?v=4",
     "createdAt": "2026-01-15T19:45:23Z",
-    "forks": 8026,
+    "forks": 8034,
     "language": "JavaScript",
     "license": "MIT",
     "name": "marketingskills",
     "owner": "coreyhaines31",
     "pushedAt": "2026-10-08T21:51:51Z",
-    "stars": 54030,
+    "stars": 54085,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -1934,9 +2033,9 @@
    "key": "gh:corsairdev/corsair",
    "metrics": {
     "forks": 693,
-    "stars": 13634
+    "stars": 13651
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -1959,8 +2058,8 @@
     "language": "TypeScript",
     "name": "corsair",
     "owner": "corsairdev",
-    "pushedAt": "2026-10-10T13:31:02Z",
-    "stars": 13634,
+    "pushedAt": "2026-10-10T22:11:51Z",
+    "stars": 13651,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -2007,11 +2106,11 @@
    "category": "tool",
    "key": "gh:datawhalechina/hello-agents",
    "metrics": {
-    "forks": 10226,
-    "stars": 82440,
-    "starsToday": 202
+    "forks": 10230,
+    "stars": 82466,
+    "starsToday": 211
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2024,12 +2123,12 @@
    },
    "repo": {
     "avatar": "https://github.com/datawhalechina.png?size=64",
-    "forks": 10226,
+    "forks": 10230,
     "language": "Python",
     "name": "hello-agents",
     "owner": "datawhalechina",
-    "stars": 82440,
-    "starsToday": 202,
+    "stars": 82466,
+    "starsToday": 211,
     "topics": [
      "trend:daily"
     ]
@@ -2049,12 +2148,12 @@
    "category": "tool",
    "key": "gh:davila7/claude-code-templates",
    "metrics": {
-    "forks": 3742,
-    "stars": 32537,
-    "starsMonthly": 2065,
+    "forks": 3743,
+    "stars": 32549,
+    "starsMonthly": 2082,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2065,11 +2164,11 @@
    },
    "repo": {
     "avatar": "https://github.com/davila7.png?size=64",
-    "forks": 3742,
+    "forks": 3743,
     "language": "Python",
     "name": "claude-code-templates",
     "owner": "davila7",
-    "stars": 32537,
+    "stars": 32549,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -2090,12 +2189,12 @@
    "category": "tool",
    "key": "gh:debpalash/voicestudio",
    "metrics": {
-    "forks": 6394,
-    "stars": 56992,
-    "starsMonthly": 34560,
+    "forks": 6432,
+    "stars": 57435,
+    "starsMonthly": 35194,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2106,11 +2205,11 @@
    },
    "repo": {
     "avatar": "https://github.com/debpalash.png?size=64",
-    "forks": 6394,
+    "forks": 6432,
     "language": "Python",
     "name": "VoiceStudio",
     "owner": "debpalash",
-    "stars": 56992,
+    "stars": 57435,
     "starsToday": 1066,
     "topics": [
      "trend:daily",
@@ -2134,9 +2233,9 @@
    "key": "gh:decolua/9router",
    "metrics": {
     "forks": 5833,
-    "stars": 30561
+    "stars": 30579
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2161,7 +2260,7 @@
     "name": "9router",
     "owner": "decolua",
     "pushedAt": "2026-10-08T12:49:04Z",
-    "stars": 30561,
+    "stars": 30579,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2211,11 +2310,11 @@
    "key": "gh:deeplethe/utopia",
    "metrics": {
     "forks": 1146,
-    "stars": 8227,
-    "starsMonthly": 6572,
+    "stars": 8240,
+    "starsMonthly": 6028,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2238,8 +2337,8 @@
     "license": "Apache-2.0",
     "name": "utopia",
     "owner": "deeplethe",
-    "pushedAt": "2026-10-10T17:18:13Z",
-    "stars": 8227,
+    "pushedAt": "2026-10-11T01:22:53Z",
+    "stars": 8240,
     "starsToday": 0,
     "topics": [
      "agent-memory",
@@ -2285,10 +2384,10 @@
    "category": "tool",
    "key": "gh:deepseek-ai/deepseek-harness",
    "metrics": {
-    "forks": 29643,
-    "stars": 246900
+    "forks": 29678,
+    "stars": 247050
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2305,13 +2404,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
     "createdAt": "2026-08-13T11:56:32Z",
-    "forks": 29643,
+    "forks": 29678,
     "language": "TypeScript",
     "license": "MIT",
     "name": "deepseek-harness",
     "owner": "deepseek-ai",
     "pushedAt": "2026-10-09T10:04:06Z",
-    "stars": 246900,
+    "stars": 247050,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2338,10 +2437,10 @@
    "category": "tool",
    "key": "gh:deusdata/codebase-memory-mcp",
    "metrics": {
-    "forks": 3806,
-    "stars": 46286
+    "forks": 3807,
+    "stars": 46319
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2360,13 +2459,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
     "createdAt": "2026-02-24T22:01:00Z",
-    "forks": 3806,
+    "forks": 3807,
     "language": "C",
     "license": "MIT",
     "name": "codebase-memory-mcp",
     "owner": "DeusData",
-    "pushedAt": "2026-10-10T11:31:48Z",
-    "stars": 46286,
+    "pushedAt": "2026-10-10T23:43:33Z",
+    "stars": 46319,
     "starsToday": 0,
     "topics": [
      "aider",
@@ -2415,10 +2514,10 @@
    "category": "tool",
    "key": "gh:diegosouzapw/omniroute",
    "metrics": {
-    "forks": 10819,
-    "stars": 74906
+    "forks": 10838,
+    "stars": 75002
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2437,13 +2536,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/8016841?v=4",
     "createdAt": "2026-02-13T12:38:31Z",
-    "forks": 10819,
+    "forks": 10838,
     "language": "TypeScript",
     "license": "MIT",
     "name": "OmniRoute",
     "owner": "diegosouzapw",
-    "pushedAt": "2026-10-10T16:49:09Z",
-    "stars": 74906,
+    "pushedAt": "2026-10-11T02:09:01Z",
+    "stars": 75002,
     "starsToday": 0,
     "topics": [
      "a2a",
@@ -2492,12 +2591,12 @@
    "category": "tool",
    "key": "gh:dietrichgebert/ponytail",
    "metrics": {
-    "forks": 8619,
-    "stars": 160272,
-    "starsMonthly": 27290,
+    "forks": 8632,
+    "stars": 160515,
+    "starsMonthly": 26935,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2516,13 +2615,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/137048761?v=4",
     "createdAt": "2026-06-12T00:52:37Z",
-    "forks": 8619,
+    "forks": 8632,
     "language": "JavaScript",
     "license": "MIT",
     "name": "ponytail",
     "owner": "DietrichGebert",
     "pushedAt": "2026-10-10T04:19:53Z",
-    "stars": 160272,
+    "stars": 160515,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -2563,10 +2662,10 @@
    "category": "tool",
    "key": "gh:donchitos/claude-code-game-studios",
    "metrics": {
-    "forks": 3698,
-    "stars": 26073
+    "forks": 3700,
+    "stars": 26088
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2584,13 +2683,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/150119193?v=4",
     "createdAt": "2026-02-12T05:21:38Z",
-    "forks": 3698,
+    "forks": 3700,
     "language": "Shell",
     "license": "MIT",
     "name": "Claude-Code-Game-Studios",
     "owner": "Donchitos",
     "pushedAt": "2026-10-08T08:21:47Z",
-    "stars": 26073,
+    "stars": 26088,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2629,87 +2728,14 @@
   {
    "board": "repos",
    "category": "tool",
-   "key": "gh:dramaclaw/dramaclaw",
-   "metrics": {
-    "forks": 848,
-    "stars": 6838
-   },
-   "observedAt": "2026-10-10T17:20:22.825Z",
-   "refs": [],
-   "relevance": {
-    "reasons": [
-     "kw:generative ai",
-     "kw:ai agent",
-     "kw:text-to-video",
-     "topic:generative-ai",
-     "weak:ai",
-     "weak:agent",
-     "cat:board"
-    ],
-    "score": 1
-   },
-   "repo": {
-    "avatar": "https://avatars.githubusercontent.com/u/271427583?v=4",
-    "createdAt": "2026-03-27T04:34:30Z",
-    "forks": 848,
-    "language": "Python",
-    "name": "dramaclaw",
-    "owner": "dramaclaw",
-    "pushedAt": "2026-10-10T10:10:47Z",
-    "stars": 6838,
-    "starsToday": 0,
-    "topics": [
-     "ai-agent",
-     "ai-filmmaking",
-     "ai-video",
-     "aigc",
-     "aigc-pipeline",
-     "content-creation",
-     "dramaclaw",
-     "fastapi",
-     "generative-ai",
-     "image-to-video",
-     "python",
-     "react",
-     "self-hosted",
-     "storyboard",
-     "text-to-video",
-     "tts",
-     "video-engine",
-     "video-generation",
-     "voice-synthesis"
-    ]
-   },
-   "sources": [
-    "github-search"
-   ],
-   "summary": "A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可",
-   "tags": [
-    "ai-agent",
-    "ai-filmmaking",
-    "ai-video",
-    "aigc",
-    "aigc-pipeline",
-    "content-creation",
-    "dramaclaw",
-    "fastapi",
-    "generative-ai",
-    "image-to-video"
-   ],
-   "title": "dramaclaw/dramaclaw",
-   "url": "https://github.com/dramaclaw/dramaclaw"
-  },
-  {
-   "board": "repos",
-   "category": "tool",
    "key": "gh:dream-num/univer",
    "metrics": {
-    "forks": 1881,
-    "stars": 22527,
-    "starsMonthly": 8316,
+    "forks": 1882,
+    "stars": 22529,
+    "starsMonthly": 8331,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2723,11 +2749,11 @@
    },
    "repo": {
     "avatar": "https://github.com/dream-num.png?size=64",
-    "forks": 1881,
+    "forks": 1882,
     "language": "TypeScript",
     "name": "univer",
     "owner": "dream-num",
-    "stars": 22527,
+    "stars": 22529,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -2748,12 +2774,12 @@
    "category": "tool",
    "key": "gh:duartesantos8/opengym",
    "metrics": {
-    "forks": 1129,
-    "stars": 9091,
+    "forks": 1148,
+    "stars": 9274,
     "starsToday": 0,
-    "starsWeekly": 6749
+    "starsWeekly": 7369
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2766,13 +2792,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/171949022?v=4",
     "createdAt": "2026-07-18T20:41:24Z",
-    "forks": 1129,
+    "forks": 1148,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "name": "openGym",
     "owner": "DuarteSantos8",
-    "pushedAt": "2026-10-10T16:22:23Z",
-    "stars": 9091,
+    "pushedAt": "2026-10-11T00:34:13Z",
+    "stars": 9274,
     "starsToday": 0,
     "topics": [
      "bodyweight",
@@ -2821,12 +2847,12 @@
    "category": "tool",
    "key": "gh:earthtojake/text-to-cad",
    "metrics": {
-    "forks": 1869,
-    "stars": 18943,
+    "forks": 1875,
+    "stars": 19007,
     "starsToday": 0,
-    "starsWeekly": 2125
+    "starsWeekly": 2369
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2844,13 +2870,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
     "createdAt": "2026-04-22T01:09:45Z",
-    "forks": 1869,
+    "forks": 1875,
     "language": "Python",
     "license": "MIT",
     "name": "text-to-cad",
     "owner": "earthtojake",
-    "pushedAt": "2026-10-10T16:22:48Z",
-    "stars": 18943,
+    "pushedAt": "2026-10-11T01:27:34Z",
+    "stars": 19007,
     "starsToday": 0,
     "topics": [
      "agents",
@@ -2889,10 +2915,10 @@
    "category": "tool",
    "key": "gh:ebony-vinyl/dsh-our-free-model",
    "metrics": {
-    "forks": 136,
-    "stars": 6710
+    "forks": 144,
+    "stars": 6982
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2911,13 +2937,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/245557608?v=4",
     "createdAt": "2026-09-24T16:17:19Z",
-    "forks": 136,
+    "forks": 144,
     "language": "JavaScript",
     "license": "MIT",
     "name": "dsh-our-free-model",
     "owner": "Ebony-Vinyl",
     "pushedAt": "2026-10-10T14:50:18Z",
-    "stars": 6710,
+    "stars": 6982,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -2956,10 +2982,10 @@
    "category": "tool",
    "key": "gh:ekkolearnai/ekko-studio",
    "metrics": {
-    "forks": 1392,
-    "stars": 11347
+    "forks": 1395,
+    "stars": 11352
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -2978,12 +3004,12 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/152005280?v=4",
     "createdAt": "2026-04-11T07:38:18Z",
-    "forks": 1392,
+    "forks": 1395,
     "language": "TypeScript",
     "name": "ekko-studio",
     "owner": "EKKOLearnAI",
-    "pushedAt": "2026-10-10T13:53:58Z",
-    "stars": 11347,
+    "pushedAt": "2026-10-11T01:27:10Z",
+    "stars": 11352,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -3032,9 +3058,9 @@
    "key": "gh:esengine/deepseek-reasonix",
    "metrics": {
     "forks": 2438,
-    "stars": 35758
+    "stars": 35761
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3056,8 +3082,8 @@
     "license": "MIT",
     "name": "DeepSeek-Reasonix",
     "owner": "esengine",
-    "pushedAt": "2026-10-10T17:12:42Z",
-    "stars": 35758,
+    "pushedAt": "2026-10-11T02:49:04Z",
+    "stars": 35761,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -3107,7 +3133,7 @@
     "forks": 928,
     "stars": 13397
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3178,10 +3204,10 @@
    "category": "tool",
    "key": "gh:every-app/open-seo",
    "metrics": {
-    "forks": 3002,
-    "stars": 22960
+    "forks": 3006,
+    "stars": 22993
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3196,13 +3222,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
     "createdAt": "2026-02-27T18:57:41Z",
-    "forks": 3002,
+    "forks": 3006,
     "language": "TypeScript",
     "license": "MIT",
     "name": "open-seo",
     "owner": "every-app",
     "pushedAt": "2026-10-08T23:02:21Z",
-    "stars": 22960,
+    "stars": 22993,
     "starsToday": 0,
     "topics": [
      "backlink-analysis",
@@ -3243,11 +3269,11 @@
    "key": "gh:gentleman-programming/engram",
    "metrics": {
     "forks": 740,
-    "stars": 7123,
-    "starsMonthly": 682,
+    "stars": 7128,
+    "starsMonthly": 669,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3265,7 +3291,7 @@
     "language": "Go",
     "name": "engram",
     "owner": "Gentleman-Programming",
-    "stars": 7123,
+    "stars": 7128,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -3287,11 +3313,11 @@
    "key": "gh:gentleman-programming/gentle-ai",
    "metrics": {
     "forks": 832,
-    "stars": 7651,
-    "starsMonthly": 1224,
+    "stars": 7667,
+    "starsMonthly": 1135,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3316,7 +3342,7 @@
     "name": "gentle-ai",
     "owner": "Gentleman-Programming",
     "pushedAt": "2026-10-10T17:08:38Z",
-    "stars": 7651,
+    "stars": 7667,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -3364,10 +3390,10 @@
    "category": "tool",
    "key": "gh:graphify-labs/graphify",
    "metrics": {
-    "forks": 12091,
-    "stars": 125222
+    "forks": 12100,
+    "stars": 125328
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3386,13 +3412,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
     "createdAt": "2026-04-03T15:49:07Z",
-    "forks": 12091,
+    "forks": 12100,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "graphify",
     "owner": "Graphify-Labs",
-    "pushedAt": "2026-10-10T13:57:16Z",
-    "stars": 125222,
+    "pushedAt": "2026-10-10T21:32:30Z",
+    "stars": 125328,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -3441,10 +3467,10 @@
    "category": "tool",
    "key": "gh:harnessmd/munder-difflin",
    "metrics": {
-    "forks": 1176,
-    "stars": 8639
+    "forks": 1177,
+    "stars": 8646
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3463,13 +3489,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/336822423?v=4",
     "createdAt": "2026-05-31T15:25:05Z",
-    "forks": 1176,
+    "forks": 1177,
     "language": "TypeScript",
     "license": "MIT",
     "name": "munder-difflin",
     "owner": "HarnessMD",
-    "pushedAt": "2026-10-10T16:16:31Z",
-    "stars": 8639,
+    "pushedAt": "2026-10-10T19:44:51Z",
+    "stars": 8646,
     "starsToday": 0,
     "topics": [
      "agent-harness",
@@ -3518,10 +3544,10 @@
    "category": "tool",
    "key": "gh:hbai-ltd/toonflow-app",
    "metrics": {
-    "forks": 3040,
-    "stars": 17104
+    "forks": 3041,
+    "stars": 17124
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3540,13 +3566,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/257465404?v=4",
     "createdAt": "2026-01-29T10:25:45Z",
-    "forks": 3040,
+    "forks": 3041,
     "language": "TypeScript",
     "license": "MIT",
     "name": "Toonflow-app",
     "owner": "HBAI-Ltd",
     "pushedAt": "2026-10-10T07:42:23Z",
-    "stars": 17104,
+    "stars": 17124,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -3595,10 +3621,10 @@
    "category": "tool",
    "key": "gh:headroomlabs-ai/headroom",
    "metrics": {
-    "forks": 5809,
-    "stars": 74895
+    "forks": 5812,
+    "stars": 74956
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3617,13 +3643,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/294291659?v=4",
     "createdAt": "2026-01-07T19:58:51Z",
-    "forks": 5809,
+    "forks": 5812,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "headroom",
     "owner": "headroomlabs-ai",
-    "pushedAt": "2026-10-10T17:07:38Z",
-    "stars": 74895,
+    "pushedAt": "2026-10-11T00:03:10Z",
+    "stars": 74956,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -3672,10 +3698,10 @@
    "category": "tool",
    "key": "gh:herdrdev/herdr",
    "metrics": {
-    "forks": 3405,
-    "stars": 43219
+    "forks": 3414,
+    "stars": 43279
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3694,13 +3720,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/309108654?v=4",
     "createdAt": "2026-03-27T17:54:33Z",
-    "forks": 3405,
+    "forks": 3414,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "herdr",
     "owner": "herdrdev",
-    "pushedAt": "2026-10-08T20:13:57Z",
-    "stars": 43219,
+    "pushedAt": "2026-10-11T02:20:37Z",
+    "stars": 43279,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -3747,13 +3773,13 @@
    "category": "tool",
    "key": "gh:heygen-com/hyperframes",
    "metrics": {
-    "forks": 5378,
-    "stars": 60248,
-    "starsMonthly": 11576,
+    "forks": 5392,
+    "stars": 60399,
+    "starsMonthly": 11826,
     "starsToday": 0,
-    "starsWeekly": 4003
+    "starsWeekly": 4081
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3770,13 +3796,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
     "createdAt": "2026-03-10T01:51:06Z",
-    "forks": 5378,
+    "forks": 5392,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "name": "hyperframes",
     "owner": "heygen-com",
-    "pushedAt": "2026-10-10T17:02:50Z",
-    "stars": 60248,
+    "pushedAt": "2026-10-11T02:35:30Z",
+    "stars": 60399,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -3820,9 +3846,9 @@
    "key": "gh:hkuds/deeptutor",
    "metrics": {
     "forks": 5186,
-    "stars": 41090
+    "stars": 41100
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "arxiv:2604.26962"
    ],
@@ -3849,7 +3875,7 @@
     "name": "DeepTutor",
     "owner": "HKUDS",
     "pushedAt": "2026-10-08T03:35:15Z",
-    "stars": 41090,
+    "stars": 41100,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -3887,9 +3913,9 @@
    "key": "gh:hkuds/nanobot",
    "metrics": {
     "forks": 8617,
-    "stars": 48928
+    "stars": 48937
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3913,8 +3939,8 @@
     "license": "MIT",
     "name": "nanobot",
     "owner": "HKUDS",
-    "pushedAt": "2026-10-10T16:38:03Z",
-    "stars": 48928,
+    "pushedAt": "2026-10-10T20:39:32Z",
+    "stars": 48937,
     "starsToday": 0,
     "topics": [
      "agent-framework",
@@ -3963,10 +3989,10 @@
    "category": "tool",
    "key": "gh:hkuds/vibe-trading",
    "metrics": {
-    "forks": 5704,
-    "stars": 35128
+    "forks": 5707,
+    "stars": 35151
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -3985,13 +4011,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
     "createdAt": "2026-04-01T09:52:20Z",
-    "forks": 5704,
+    "forks": 5707,
     "language": "Python",
     "license": "MIT",
     "name": "Vibe-Trading",
     "owner": "HKUDS",
     "pushedAt": "2026-10-10T15:53:23Z",
-    "stars": 35128,
+    "stars": 35151,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -4030,12 +4056,12 @@
    "category": "tool",
    "key": "gh:home-assistant/core",
    "metrics": {
-    "forks": 38860,
-    "stars": 91355,
-    "starsMonthly": 1154,
+    "forks": 38867,
+    "stars": 91363,
+    "starsMonthly": 1150,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4047,11 +4073,11 @@
    },
    "repo": {
     "avatar": "https://github.com/home-assistant.png?size=64",
-    "forks": 38860,
+    "forks": 38867,
     "language": "Python",
     "name": "core",
     "owner": "home-assistant",
-    "stars": 91355,
+    "stars": 91363,
     "starsToday": 18,
     "topics": [
      "trend:daily",
@@ -4074,11 +4100,11 @@
    "category": "tool",
    "key": "gh:huggingface/transformers",
    "metrics": {
-    "forks": 34794,
-    "stars": 167111,
-    "starsToday": 94
+    "forks": 34802,
+    "stars": 167301,
+    "starsToday": 96
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4096,12 +4122,12 @@
    },
    "repo": {
     "avatar": "https://github.com/huggingface.png?size=64",
-    "forks": 34794,
+    "forks": 34802,
     "language": "Python",
     "name": "transformers",
     "owner": "huggingface",
-    "stars": 167111,
-    "starsToday": 94,
+    "stars": 167301,
+    "starsToday": 96,
     "topics": [
      "trend:daily"
     ]
@@ -4121,10 +4147,10 @@
    "category": "tool",
    "key": "gh:human-agent-society/reef",
    "metrics": {
-    "forks": 700,
-    "stars": 7515
+    "forks": 701,
+    "stars": 7517
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4143,13 +4169,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/268553699?v=4",
     "createdAt": "2026-08-31T01:39:18Z",
-    "forks": 700,
+    "forks": 701,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "reef",
     "owner": "Human-Agent-Society",
-    "pushedAt": "2026-10-09T16:10:54Z",
-    "stars": 7515,
+    "pushedAt": "2026-10-10T18:42:13Z",
+    "stars": 7517,
     "starsToday": 0,
     "topics": [
      "agent-infrastructure",
@@ -4184,10 +4210,10 @@
    "category": "tool",
    "key": "gh:hypit-ai/hypit",
    "metrics": {
-    "forks": 2285,
-    "stars": 20786
+    "forks": 2292,
+    "stars": 20823
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4206,12 +4232,12 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/274059971?v=4",
     "createdAt": "2026-07-29T18:49:19Z",
-    "forks": 2285,
+    "forks": 2292,
     "language": "TypeScript",
     "name": "hypit",
     "owner": "hypit-ai",
     "pushedAt": "2026-10-09T18:03:34Z",
-    "stars": 20786,
+    "stars": 20823,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -4260,10 +4286,10 @@
    "category": "tool",
    "key": "gh:img2threejs/img2threejs",
    "metrics": {
-    "forks": 1507,
-    "stars": 17861
+    "forks": 1508,
+    "stars": 17887
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4281,13 +4307,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/309001690?v=4",
     "createdAt": "2026-07-15T02:58:39Z",
-    "forks": 1507,
+    "forks": 1508,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "img2threejs",
     "owner": "img2threejs",
     "pushedAt": "2026-10-08T04:50:41Z",
-    "stars": 17861,
+    "stars": 17887,
     "starsToday": 0,
     "topics": [
      "3d",
@@ -4326,11 +4352,11 @@
    "category": "tool",
    "key": "gh:infiniflow/ragflow",
    "metrics": {
-    "forks": 10947,
-    "stars": 91958,
+    "forks": 10949,
+    "stars": 91976,
     "starsToday": 58
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "gh:ollama/ollama"
    ],
@@ -4347,11 +4373,11 @@
    },
    "repo": {
     "avatar": "https://github.com/infiniflow.png?size=64",
-    "forks": 10947,
+    "forks": 10949,
     "language": "Go",
     "name": "ragflow",
     "owner": "infiniflow",
-    "stars": 91958,
+    "stars": 91976,
     "starsToday": 58,
     "topics": [
      "trend:daily"
@@ -4372,10 +4398,10 @@
    "category": "tool",
    "key": "gh:jackwener/opencli",
    "metrics": {
-    "forks": 2930,
-    "stars": 30017
+    "forks": 2928,
+    "stars": 30022
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4391,13 +4417,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/30525741?v=4",
     "createdAt": "2026-03-14T22:10:23Z",
-    "forks": 2930,
+    "forks": 2928,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "name": "OpenCLI",
     "owner": "jackwener",
     "pushedAt": "2026-10-10T06:12:09Z",
-    "stars": 30017,
+    "stars": 30022,
     "starsToday": 0,
     "topics": [
      "ai-agent",
@@ -4430,10 +4456,10 @@
    "category": "tool",
    "key": "gh:jaredpalmer/kev",
    "metrics": {
-    "forks": 585,
-    "stars": 8889
+    "forks": 586,
+    "stars": 8905
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4447,13 +4473,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/4060187?v=4",
     "createdAt": "2026-09-17T20:49:39Z",
-    "forks": 585,
+    "forks": 586,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "kev",
     "owner": "jaredpalmer",
     "pushedAt": "2026-10-10T17:17:56Z",
-    "stars": 8889,
+    "stars": 8905,
     "starsToday": 0,
     "topics": [
      "decision-model",
@@ -4478,10 +4504,10 @@
    "category": "tool",
    "key": "gh:jcodesmore/ai-website-cloner-template",
    "metrics": {
-    "forks": 5338,
-    "stars": 36419
+    "forks": 5342,
+    "stars": 36445
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4499,13 +4525,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/182581310?v=4",
     "createdAt": "2026-03-13T11:14:39Z",
-    "forks": 5338,
+    "forks": 5342,
     "language": "TypeScript",
     "license": "MIT",
     "name": "ai-website-cloner-template",
     "owner": "JCodesMore",
     "pushedAt": "2026-10-05T08:07:48Z",
-    "stars": 36419,
+    "stars": 36445,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -4554,9 +4580,9 @@
    "key": "gh:jev-chat/jev-chat-jarvis",
    "metrics": {
     "forks": 1243,
-    "stars": 7550
+    "stars": 7557
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4578,7 +4604,7 @@
     "name": "jev-chat-jarvis",
     "owner": "jev-chat",
     "pushedAt": "2026-10-08T08:08:04Z",
-    "stars": 7550,
+    "stars": 7557,
     "starsToday": 0,
     "topics": [
      "accessibility-service",
@@ -4615,10 +4641,10 @@
    "category": "tool",
    "key": "gh:jnmetacode/agency-agents-zh",
    "metrics": {
-    "forks": 3402,
-    "stars": 21166
+    "forks": 3403,
+    "stars": 21168
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4637,13 +4663,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/12096460?v=4",
     "createdAt": "2026-03-06T11:11:51Z",
-    "forks": 3402,
+    "forks": 3403,
     "language": "Shell",
     "license": "MIT",
     "name": "agency-agents-zh",
     "owner": "jnMetaCode",
     "pushedAt": "2026-10-08T06:25:19Z",
-    "stars": 21166,
+    "stars": 21168,
     "starsToday": 0,
     "topics": [
      "agency-orchestrator",
@@ -4691,10 +4717,10 @@
    "category": "tool",
    "key": "gh:jnmetacode/superpowers-zh",
    "metrics": {
-    "forks": 769,
-    "stars": 8290
+    "forks": 768,
+    "stars": 8291
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4713,13 +4739,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/12096460?v=4",
     "createdAt": "2026-03-20T00:12:39Z",
-    "forks": 769,
+    "forks": 768,
     "language": "JavaScript",
     "license": "MIT",
     "name": "superpowers-zh",
     "owner": "jnMetaCode",
     "pushedAt": "2026-10-08T06:45:46Z",
-    "stars": 8290,
+    "stars": 8291,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -4764,12 +4790,12 @@
    "category": "tool",
    "key": "gh:juliusbrussee/caveman",
    "metrics": {
-    "forks": 6424,
-    "stars": 110896,
+    "forks": 6425,
+    "stars": 110939,
     "starsToday": 0,
-    "starsWeekly": 1941
+    "starsWeekly": 1642
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4788,13 +4814,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/104168679?v=4",
     "createdAt": "2026-04-04T10:03:00Z",
-    "forks": 6424,
+    "forks": 6425,
     "language": "Go",
     "license": "Apache-2.0",
     "name": "caveman",
     "owner": "JuliusBrussee",
     "pushedAt": "2026-10-10T16:01:18Z",
-    "stars": 110896,
+    "stars": 110939,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -4835,10 +4861,10 @@
    "category": "tool",
    "key": "gh:jundot/omlx",
    "metrics": {
-    "forks": 1997,
-    "stars": 22689
+    "forks": 2001,
+    "stars": 22695
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4853,13 +4879,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/64250138?v=4",
     "createdAt": "2026-02-13T14:13:27Z",
-    "forks": 1997,
+    "forks": 2001,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "omlx",
     "owner": "jundot",
     "pushedAt": "2026-10-10T11:38:13Z",
-    "stars": 22689,
+    "stars": 22695,
     "starsToday": 0,
     "topics": [
      "apple-silicon",
@@ -4890,12 +4916,12 @@
    "category": "tool",
    "key": "gh:justvugg/colibri",
    "metrics": {
-    "forks": 4496,
-    "stars": 40956,
-    "starsMonthly": 13755,
+    "forks": 4506,
+    "stars": 41041,
+    "starsMonthly": 13894,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4907,11 +4933,11 @@
    },
    "repo": {
     "avatar": "https://github.com/JustVugg.png?size=64",
-    "forks": 4496,
+    "forks": 4506,
     "language": "C",
     "name": "colibri",
     "owner": "JustVugg",
-    "stars": 40956,
+    "stars": 41041,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -4932,10 +4958,10 @@
    "category": "tool",
    "key": "gh:kkkkhazix/aihot",
    "metrics": {
-    "forks": 1726,
-    "stars": 7063
+    "forks": 1730,
+    "stars": 7087
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -4952,13 +4978,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
     "createdAt": "2026-09-28T23:40:05Z",
-    "forks": 1726,
+    "forks": 1730,
     "language": "TypeScript",
     "license": "MIT",
     "name": "AIHOT",
     "owner": "KKKKhazix",
     "pushedAt": "2026-10-10T13:32:08Z",
-    "stars": 7063,
+    "stars": 7087,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -4999,10 +5025,10 @@
    "category": "tool",
    "key": "gh:koala73/worldmonitor",
    "metrics": {
-    "forks": 13462,
-    "stars": 88177
+    "forks": 13467,
+    "stars": 88192
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5020,13 +5046,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
     "createdAt": "2026-01-08T17:26:06Z",
-    "forks": 13462,
+    "forks": 13467,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "name": "worldmonitor",
     "owner": "koala73",
-    "pushedAt": "2026-10-10T17:20:12Z",
-    "stars": 88177,
+    "pushedAt": "2026-10-10T19:41:53Z",
+    "stars": 88192,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -5068,10 +5094,10 @@
    "key": "gh:larksuite/cli",
    "metrics": {
     "forks": 1390,
-    "stars": 17610,
+    "stars": 17611,
     "starsToday": 28
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5089,7 +5115,7 @@
     "language": "Go",
     "name": "cli",
     "owner": "larksuite",
-    "stars": 17610,
+    "stars": 17611,
     "starsToday": 28,
     "topics": [
      "trend:daily"
@@ -5110,13 +5136,13 @@
    "category": "tool",
    "key": "gh:lexmount/moli",
    "metrics": {
-    "forks": 374,
-    "stars": 15520,
-    "starsMonthly": 13735,
+    "forks": 381,
+    "stars": 15685,
+    "starsMonthly": 13847,
     "starsToday": 0,
-    "starsWeekly": 10105
+    "starsWeekly": 9973
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5132,13 +5158,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/231927209?v=4",
     "createdAt": "2026-08-10T13:20:30Z",
-    "forks": 374,
+    "forks": 381,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "moli",
     "owner": "lexmount",
-    "pushedAt": "2026-10-10T16:45:51Z",
-    "stars": 15520,
+    "pushedAt": "2026-10-11T02:24:52Z",
+    "stars": 15685,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -5184,12 +5210,12 @@
    "category": "tool",
    "key": "gh:librechat-ai/librechat",
    "metrics": {
-    "forks": 9341,
-    "stars": 45483,
-    "starsMonthly": 2900,
+    "forks": 9346,
+    "stars": 45494,
+    "starsMonthly": 2906,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5207,11 +5233,11 @@
    },
    "repo": {
     "avatar": "https://github.com/LibreChat-AI.png?size=64",
-    "forks": 9341,
+    "forks": 9346,
     "language": "TypeScript",
     "name": "LibreChat",
     "owner": "LibreChat-AI",
-    "stars": 45483,
+    "stars": 45494,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -5232,10 +5258,10 @@
    "category": "tool",
    "key": "gh:lidge-jun/opencodex",
    "metrics": {
-    "forks": 1305,
-    "stars": 17229
+    "forks": 1309,
+    "stars": 17234
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5254,13 +5280,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/243035832?v=4",
     "createdAt": "2026-06-18T23:03:18Z",
-    "forks": 1305,
+    "forks": 1309,
     "language": "TypeScript",
     "license": "MIT",
     "name": "opencodex",
     "owner": "lidge-jun",
-    "pushedAt": "2026-10-10T16:37:22Z",
-    "stars": 17229,
+    "pushedAt": "2026-10-11T02:13:03Z",
+    "stars": 17234,
     "starsToday": 0,
     "topics": [
      "ai-gateway",
@@ -5309,10 +5335,10 @@
    "category": "tool",
    "key": "gh:madslorentzen/ai-job-search",
    "metrics": {
-    "forks": 15819,
-    "stars": 45613
+    "forks": 15862,
+    "stars": 45803
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5330,13 +5356,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/50207393?v=4",
     "createdAt": "2026-03-18T14:33:04Z",
-    "forks": 15819,
+    "forks": 15862,
     "language": "Python",
     "license": "MIT",
     "name": "ai-job-search",
     "owner": "MadsLorentzen",
     "pushedAt": "2026-10-08T19:23:59Z",
-    "stars": 45613,
+    "stars": 45803,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -5377,10 +5403,10 @@
    "category": "tool",
    "key": "gh:makazhanalpamys/soup",
    "metrics": {
-    "forks": 1365,
-    "stars": 8486
+    "forks": 1369,
+    "stars": 8508
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5399,13 +5425,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
     "createdAt": "2026-02-20T11:05:01Z",
-    "forks": 1365,
+    "forks": 1369,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "Soup",
     "owner": "MakazhanAlpamys",
     "pushedAt": "2026-10-09T19:53:10Z",
-    "stars": 8486,
+    "stars": 8508,
     "starsToday": 0,
     "topics": [
      "cli",
@@ -5454,12 +5480,12 @@
    "category": "tool",
    "key": "gh:mattpocock/skills",
    "metrics": {
-    "forks": 23787,
-    "stars": 284033,
+    "forks": 23817,
+    "stars": 284628,
     "starsToday": 0,
-    "starsWeekly": 8156
+    "starsWeekly": 9179
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5471,11 +5497,11 @@
    },
    "repo": {
     "avatar": "https://github.com/mattpocock.png?size=64",
-    "forks": 23787,
+    "forks": 23817,
     "language": "Shell",
     "name": "skills",
     "owner": "mattpocock",
-    "stars": 284033,
+    "stars": 284628,
     "starsToday": 1737,
     "topics": [
      "trend:daily",
@@ -5499,11 +5525,11 @@
    "key": "gh:max-sixty/worktrunk",
    "metrics": {
     "forks": 328,
-    "stars": 9171,
-    "starsMonthly": 2301,
+    "stars": 9175,
+    "starsMonthly": 2364,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5520,7 +5546,7 @@
     "language": "Rust",
     "name": "worktrunk",
     "owner": "max-sixty",
-    "stars": 9171,
+    "stars": 9175,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -5541,10 +5567,10 @@
    "category": "tool",
    "key": "gh:mempalace/mempalace",
    "metrics": {
-    "forks": 7564,
-    "stars": 59491
+    "forks": 7562,
+    "stars": 59499
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5562,13 +5588,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/275135684?v=4",
     "createdAt": "2026-04-05T01:12:07Z",
-    "forks": 7564,
+    "forks": 7562,
     "language": "Python",
     "license": "MIT",
     "name": "mempalace",
     "owner": "MemPalace",
-    "pushedAt": "2026-10-10T07:34:55Z",
-    "stars": 59491,
+    "pushedAt": "2026-10-10T22:43:52Z",
+    "stars": 59499,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -5599,12 +5625,12 @@
    "category": "tool",
    "key": "gh:miuuyy/codex-chatgpt-web",
    "metrics": {
-    "forks": 1093,
-    "stars": 13898,
-    "starsMonthly": 8044,
+    "forks": 1094,
+    "stars": 13915,
+    "starsMonthly": 7879,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5622,13 +5648,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/147659719?v=4",
     "createdAt": "2026-07-26T13:04:44Z",
-    "forks": 1093,
+    "forks": 1094,
     "language": "TypeScript",
     "license": "MIT",
     "name": "codex-chatgpt-web",
     "owner": "miuuyy",
-    "pushedAt": "2026-10-09T04:45:40Z",
-    "stars": 13898,
+    "pushedAt": "2026-10-10T22:35:23Z",
+    "stars": 13915,
     "starsToday": 0,
     "topics": [
      "chatgpt",
@@ -5672,7 +5698,7 @@
     "forks": 553,
     "stars": 6864
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5735,12 +5761,12 @@
    "category": "tool",
    "key": "gh:mksglu/context-mode",
    "metrics": {
-    "forks": 1882,
-    "stars": 26169,
-    "starsMonthly": 4398,
+    "forks": 1899,
+    "stars": 26356,
+    "starsMonthly": 4285,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5759,12 +5785,12 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/6067714?v=4",
     "createdAt": "2026-02-23T05:56:28Z",
-    "forks": 1882,
+    "forks": 1899,
     "language": "TypeScript",
     "name": "context-mode",
     "owner": "mksglu",
-    "pushedAt": "2026-10-10T12:06:33Z",
-    "stars": 26169,
+    "pushedAt": "2026-10-11T00:15:03Z",
+    "stars": 26356,
     "starsToday": 178,
     "topics": [
      "antigravity",
@@ -5816,10 +5842,10 @@
    "category": "tool",
    "key": "gh:mnfst/awesome-free-llm-apis",
    "metrics": {
-    "forks": 1040,
-    "stars": 9719
+    "forks": 1041,
+    "stars": 9782
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5838,13 +5864,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/8403534?v=4",
     "createdAt": "2026-03-21T18:14:07Z",
-    "forks": 1040,
+    "forks": 1041,
     "language": "JavaScript",
     "license": "CC0-1.0",
     "name": "awesome-free-llm-apis",
     "owner": "mnfst",
     "pushedAt": "2026-10-10T14:01:47Z",
-    "stars": 9719,
+    "stars": 9782,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -5886,11 +5912,11 @@
    "category": "tool",
    "key": "gh:morluto/rea",
    "metrics": {
-    "forks": 13948,
-    "stars": 66469,
-    "starsToday": 25784
+    "forks": 15872,
+    "stars": 74854,
+    "starsToday": 25793
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5909,14 +5935,14 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
     "createdAt": "2026-04-14T00:51:32Z",
-    "forks": 13948,
+    "forks": 15872,
     "language": "TypeScript",
     "license": "MIT",
     "name": "rea",
     "owner": "morluto",
-    "pushedAt": "2026-10-10T17:13:54Z",
-    "stars": 66469,
-    "starsToday": 25784,
+    "pushedAt": "2026-10-11T02:47:43Z",
+    "stars": 74854,
+    "starsToday": 25793,
     "topics": [
      "agent-skills",
      "ai-agents",
@@ -5966,11 +5992,11 @@
    "category": "tool",
    "key": "gh:multica-ai/andrej-karpathy-skills",
    "metrics": {
-    "forks": 21970,
-    "stars": 218031,
+    "forks": 21985,
+    "stars": 218339,
     "starsToday": 279
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -5983,10 +6009,10 @@
    },
    "repo": {
     "avatar": "https://github.com/multica-ai.png?size=64",
-    "forks": 21970,
+    "forks": 21985,
     "name": "andrej-karpathy-skills",
     "owner": "multica-ai",
-    "stars": 218031,
+    "stars": 218339,
     "starsToday": 279,
     "topics": [
      "trend:daily"
@@ -6007,12 +6033,12 @@
    "category": "tool",
    "key": "gh:multimodal-art-projection/yue",
    "metrics": {
-    "forks": 1268,
-    "stars": 11124,
-    "starsMonthly": 4788,
+    "forks": 1272,
+    "stars": 11169,
+    "starsMonthly": 4740,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6023,11 +6049,11 @@
    },
    "repo": {
     "avatar": "https://github.com/multimodal-art-projection.png?size=64",
-    "forks": 1268,
+    "forks": 1272,
     "language": "Python",
     "name": "YuE",
     "owner": "multimodal-art-projection",
-    "stars": 11124,
+    "stars": 11169,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -6045,57 +6071,13 @@
   },
   {
    "board": "repos",
-   "category": "tool",
-   "key": "gh:mvschwarz/openrig",
-   "metrics": {
-    "forks": 490,
-    "stars": 6670,
-    "starsToday": 0,
-    "starsWeekly": 2338
-   },
-   "observedAt": "2026-10-10T17:20:22.825Z",
-   "refs": [],
-   "relevance": {
-    "reasons": [
-     "kw:claude",
-     "kw:codex",
-     "weak:agent",
-     "weak:agents",
-     "cat:board"
-    ],
-    "score": 1
-   },
-   "repo": {
-    "avatar": "https://github.com/mvschwarz.png?size=64",
-    "forks": 490,
-    "language": "TypeScript",
-    "name": "openrig",
-    "owner": "mvschwarz",
-    "stars": 6670,
-    "starsToday": 0,
-    "topics": [
-     "trend:weekly"
-    ]
-   },
-   "sources": [
-    "github-trending"
-   ],
-   "summary": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-   "tags": [
-    "trend:weekly"
-   ],
-   "title": "mvschwarz/openrig",
-   "url": "https://github.com/mvschwarz/openrig"
-  },
-  {
-   "board": "repos",
    "category": "release",
    "key": "gh:nandhakishorm/laya",
    "metrics": {
-    "forks": 2852,
-    "stars": 32124
+    "forks": 2856,
+    "stars": 32176
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "hf:convaiinnovations/laya"
    ],
@@ -6113,13 +6095,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/48623612?v=4",
     "createdAt": "2026-09-18T04:46:33Z",
-    "forks": 2852,
+    "forks": 2856,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "laya",
     "owner": "NandhaKishorM",
     "pushedAt": "2026-10-10T16:25:32Z",
-    "stars": 32124,
+    "stars": 32176,
     "starsToday": 0,
     "topics": [
      "calibration",
@@ -6161,10 +6143,10 @@
    "category": "tool",
    "key": "gh:nanmicoder/cc-haha",
    "metrics": {
-    "forks": 8602,
-    "stars": 14950
+    "forks": 8603,
+    "stars": 14952
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6183,13 +6165,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/47178017?v=4",
     "createdAt": "2026-03-31T17:30:14Z",
-    "forks": 8602,
+    "forks": 8603,
     "language": "TypeScript",
     "license": "MIT",
     "name": "cc-haha",
     "owner": "NanmiCoder",
-    "pushedAt": "2026-10-10T15:32:20Z",
-    "stars": 14950,
+    "pushedAt": "2026-10-11T02:22:53Z",
+    "stars": 14952,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -6233,11 +6215,11 @@
    "key": "gh:nanobrowser/nanobrowser",
    "metrics": {
     "forks": 1483,
-    "stars": 14048,
+    "stars": 14056,
     "starsToday": 0,
-    "starsWeekly": 179
+    "starsWeekly": 173
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6257,7 +6239,7 @@
     "language": "TypeScript",
     "name": "nanobrowser",
     "owner": "nanobrowser",
-    "stars": 14048,
+    "stars": 14056,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -6279,9 +6261,9 @@
    "key": "gh:nanocoai/nanoclaw",
    "metrics": {
     "forks": 12757,
-    "stars": 30911
+    "stars": 30915
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6306,7 +6288,7 @@
     "name": "nanoclaw",
     "owner": "nanocoai",
     "pushedAt": "2026-10-10T13:19:38Z",
-    "stars": 30911,
+    "stars": 30915,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -6336,9 +6318,9 @@
    "key": "gh:narcooo/inkos",
    "metrics": {
     "forks": 1889,
-    "stars": 10230
+    "stars": 10233
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6360,8 +6342,8 @@
     "license": "AGPL-3.0",
     "name": "inkos",
     "owner": "Narcooo",
-    "pushedAt": "2026-10-10T16:03:56Z",
-    "stars": 10230,
+    "pushedAt": "2026-10-10T19:53:09Z",
+    "stars": 10233,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -6402,9 +6384,9 @@
    "key": "gh:nasiko-labs/nasiko",
    "metrics": {
     "forks": 2066,
-    "stars": 9509
+    "stars": 9508
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6428,7 +6410,7 @@
     "name": "nasiko",
     "owner": "Nasiko-Labs",
     "pushedAt": "2026-10-07T18:38:36Z",
-    "stars": 9509,
+    "stars": 9508,
     "starsToday": 0,
     "topics": [
      "agent-security",
@@ -6468,10 +6450,10 @@
    "category": "tool",
    "key": "gh:nesquena/hermes-webui",
    "metrics": {
-    "forks": 2704,
-    "stars": 18847
+    "forks": 2706,
+    "stars": 18852
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6487,13 +6469,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/6511?v=4",
     "createdAt": "2026-03-30T21:50:12Z",
-    "forks": 2704,
+    "forks": 2706,
     "language": "Python",
     "license": "MIT",
     "name": "hermes-webui",
     "owner": "nesquena",
-    "pushedAt": "2026-10-10T15:09:04Z",
-    "stars": 18847,
+    "pushedAt": "2026-10-10T22:17:11Z",
+    "stars": 18852,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -6522,10 +6504,10 @@
    "category": "tool",
    "key": "gh:niko1221/strata",
    "metrics": {
-    "forks": 1891,
-    "stars": 20476
+    "forks": 1937,
+    "stars": 20777
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6541,13 +6523,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/86886444?v=4",
     "createdAt": "2026-09-24T16:40:20Z",
-    "forks": 1891,
+    "forks": 1937,
     "language": "C++",
     "license": "MIT",
     "name": "Strata",
     "owner": "Niko1221",
     "pushedAt": "2026-10-10T16:10:01Z",
-    "stars": 20476,
+    "stars": 20777,
     "starsToday": 0,
     "topics": []
    },
@@ -6564,10 +6546,10 @@
    "category": "tool",
    "key": "gh:nvidia/nemoclaw",
    "metrics": {
-    "forks": 3133,
-    "stars": 22699
+    "forks": 3135,
+    "stars": 22705
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6585,13 +6567,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
     "createdAt": "2026-03-15T17:04:09Z",
-    "forks": 3133,
+    "forks": 3135,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "name": "NemoClaw",
     "owner": "NVIDIA",
-    "pushedAt": "2026-10-10T17:01:32Z",
-    "stars": 22699,
+    "pushedAt": "2026-10-11T02:47:24Z",
+    "stars": 22705,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -6626,12 +6608,12 @@
    "category": "tool",
    "key": "gh:nvidia/openshell",
    "metrics": {
-    "forks": 1754,
-    "stars": 15699,
-    "starsMonthly": 7118,
+    "forks": 1757,
+    "stars": 15740,
+    "starsMonthly": 7234,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6647,11 +6629,11 @@
    },
    "repo": {
     "avatar": "https://github.com/NVIDIA.png?size=64",
-    "forks": 1754,
+    "forks": 1757,
     "language": "Rust",
     "name": "OpenShell",
     "owner": "NVIDIA",
-    "stars": 15699,
+    "stars": 15740,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -6672,12 +6654,12 @@
    "category": "tool",
    "key": "gh:nvidia/skillspector",
    "metrics": {
-    "forks": 1738,
-    "stars": 19857,
-    "starsMonthly": 3074,
+    "forks": 1741,
+    "stars": 19886,
+    "starsMonthly": 3070,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6696,13 +6678,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
     "createdAt": "2026-03-21T00:28:43Z",
-    "forks": 1738,
+    "forks": 1741,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "SkillSpector",
     "owner": "NVIDIA",
     "pushedAt": "2026-10-10T15:13:26Z",
-    "stars": 19857,
+    "stars": 19886,
     "starsToday": 0,
     "topics": [
      "agent-security",
@@ -6744,13 +6726,13 @@
    "category": "tool",
    "key": "gh:ollama/ollama",
    "metrics": {
-    "forks": 18187,
-    "stars": 182625,
-    "starsMonthly": 2804,
+    "forks": 18195,
+    "stars": 182673,
+    "starsMonthly": 2869,
     "starsToday": 0,
-    "starsWeekly": 762
+    "starsWeekly": 848
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "gh:cline/cline",
     "gh:berriai/litellm",
@@ -6772,11 +6754,11 @@
    },
    "repo": {
     "avatar": "https://github.com/ollama.png?size=64",
-    "forks": 18187,
+    "forks": 18195,
     "language": "Go",
     "name": "ollama",
     "owner": "ollama",
-    "stars": 182625,
+    "stars": 182672,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -6799,10 +6781,10 @@
    "category": "tool",
    "key": "gh:omnigent-ai/omnigent",
    "metrics": {
-    "forks": 1731,
-    "stars": 10722
+    "forks": 1734,
+    "stars": 10736
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6821,13 +6803,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/292215228?v=4",
     "createdAt": "2026-06-11T12:18:13Z",
-    "forks": 1731,
+    "forks": 1734,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "omnigent",
     "owner": "omnigent-ai",
-    "pushedAt": "2026-10-10T17:16:01Z",
-    "stars": 10722,
+    "pushedAt": "2026-10-11T02:49:09Z",
+    "stars": 10736,
     "starsToday": 0,
     "topics": [
      "agent-framework",
@@ -6872,12 +6854,12 @@
    "category": "tool",
    "key": "gh:open-dev-society/openstock",
    "metrics": {
-    "forks": 2449,
-    "stars": 19991,
-    "starsMonthly": 5821,
+    "forks": 2452,
+    "stars": 20002,
+    "starsMonthly": 5876,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6888,11 +6870,11 @@
    },
    "repo": {
     "avatar": "https://github.com/Open-Dev-Society.png?size=64",
-    "forks": 2449,
+    "forks": 2452,
     "language": "TypeScript",
     "name": "OpenStock",
     "owner": "Open-Dev-Society",
-    "stars": 19991,
+    "stars": 20002,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -6913,10 +6895,10 @@
    "category": "tool",
    "key": "gh:open-multi-agent/open-multi-agent",
    "metrics": {
-    "forks": 2436,
-    "stars": 6992
+    "forks": 2437,
+    "stars": 6993
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -6935,13 +6917,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/279300633?v=4",
     "createdAt": "2026-03-31T19:07:34Z",
-    "forks": 2436,
+    "forks": 2437,
     "language": "TypeScript",
     "license": "MIT",
     "name": "open-multi-agent",
     "owner": "open-multi-agent",
-    "pushedAt": "2026-10-09T19:28:40Z",
-    "stars": 6992,
+    "pushedAt": "2026-10-11T02:07:16Z",
+    "stars": 6993,
     "starsToday": 0,
     "topics": [
      "agent-framework",
@@ -6989,10 +6971,10 @@
    "category": "tool",
    "key": "gh:openai/math",
    "metrics": {
-    "forks": 1497,
-    "stars": 13590
+    "forks": 1511,
+    "stars": 13710
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7004,13 +6986,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
     "createdAt": "2026-10-06T21:47:02Z",
-    "forks": 1497,
+    "forks": 1511,
     "language": "Lean",
     "license": "Apache-2.0",
     "name": "math",
     "owner": "openai",
     "pushedAt": "2026-10-08T05:20:00Z",
-    "stars": 13590,
+    "stars": 13710,
     "starsToday": 0,
     "topics": []
    },
@@ -7027,12 +7009,12 @@
    "category": "tool",
    "key": "gh:opencut-app/opencut",
    "metrics": {
-    "forks": 9173,
-    "stars": 93442,
+    "forks": 9179,
+    "stars": 93494,
     "starsToday": 0,
-    "starsWeekly": 2264
+    "starsWeekly": 2074
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7043,11 +7025,11 @@
    },
    "repo": {
     "avatar": "https://github.com/OpenCut-app.png?size=64",
-    "forks": 9173,
+    "forks": 9179,
     "language": "TypeScript",
     "name": "OpenCut",
     "owner": "OpenCut-app",
-    "stars": 93442,
+    "stars": 93494,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -7068,10 +7050,10 @@
    "category": "tool",
    "key": "gh:osmantic/ods",
    "metrics": {
-    "forks": 1027,
-    "stars": 7219
+    "forks": 1029,
+    "stars": 7264
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7090,13 +7072,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/262014141?v=4",
     "createdAt": "2026-02-09T13:14:58Z",
-    "forks": 1027,
+    "forks": 1029,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "ODS",
     "owner": "Osmantic",
-    "pushedAt": "2026-10-10T17:04:09Z",
-    "stars": 7219,
+    "pushedAt": "2026-10-10T23:04:00Z",
+    "stars": 7264,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -7141,12 +7123,12 @@
    "category": "tool",
    "key": "gh:p-e-w/heretic",
    "metrics": {
-    "forks": 3860,
-    "stars": 34462,
+    "forks": 3862,
+    "stars": 34513,
     "starsToday": 0,
-    "starsWeekly": 1546
+    "starsWeekly": 1495
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7159,11 +7141,11 @@
    },
    "repo": {
     "avatar": "https://github.com/p-e-w.png?size=64",
-    "forks": 3860,
+    "forks": 3862,
     "language": "Python",
     "name": "heretic",
     "owner": "p-e-w",
-    "stars": 34462,
+    "stars": 34513,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -7185,11 +7167,11 @@
    "key": "gh:pacifio/atlas",
    "metrics": {
     "forks": 370,
-    "stars": 9582,
-    "starsMonthly": 6560,
+    "stars": 9585,
+    "starsMonthly": 6589,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7214,7 +7196,7 @@
     "name": "atlas",
     "owner": "pacifio",
     "pushedAt": "2026-10-10T07:09:14Z",
-    "stars": 9582,
+    "stars": 9585,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -7261,9 +7243,9 @@
    "key": "gh:palmier-io/palmier-pro",
    "metrics": {
     "forks": 1138,
-    "stars": 14543
+    "stars": 14546
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7284,7 +7266,7 @@
     "name": "palmier-pro",
     "owner": "palmier-io",
     "pushedAt": "2026-10-05T06:09:38Z",
-    "stars": 14543,
+    "stars": 14546,
     "starsToday": 0,
     "topics": [
      "ai-video",
@@ -7317,13 +7299,13 @@
    "category": "tool",
    "key": "gh:panniantong/agent-reach",
    "metrics": {
-    "forks": 8347,
-    "stars": 95401,
-    "starsMonthly": 16294,
+    "forks": 8362,
+    "stars": 95510,
+    "starsMonthly": 16725,
     "starsToday": 0,
-    "starsWeekly": 7084
+    "starsWeekly": 6056
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7341,13 +7323,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
     "createdAt": "2026-02-24T02:10:24Z",
-    "forks": 8347,
+    "forks": 8362,
     "language": "Python",
     "license": "MIT",
     "name": "Agent-Reach",
     "owner": "Panniantong",
     "pushedAt": "2026-10-08T08:31:08Z",
-    "stars": 95401,
+    "stars": 95510,
     "starsToday": 0,
     "topics": [
      "agent-infrastructure",
@@ -7396,12 +7378,12 @@
    "category": "tool",
    "key": "gh:paperclipai/paperclip",
    "metrics": {
-    "forks": 16801,
-    "stars": 99572,
-    "starsMonthly": 19137,
+    "forks": 16828,
+    "stars": 99791,
+    "starsMonthly": 19499,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7414,11 +7396,11 @@
    },
    "repo": {
     "avatar": "https://github.com/paperclipai.png?size=64",
-    "forks": 16801,
+    "forks": 16828,
     "language": "TypeScript",
     "name": "paperclip",
     "owner": "paperclipai",
-    "stars": 99572,
+    "stars": 99791,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -7439,10 +7421,10 @@
    "category": "tool",
    "key": "gh:pascalorg/editor",
    "metrics": {
-    "forks": 3069,
-    "stars": 24765
+    "forks": 3070,
+    "stars": 24778
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7461,13 +7443,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/214160140?v=4",
     "createdAt": "2025-10-16T19:35:06Z",
-    "forks": 3069,
+    "forks": 3070,
     "language": "TypeScript",
     "license": "MIT",
     "name": "editor",
     "owner": "pascalorg",
-    "pushedAt": "2026-10-10T02:26:04Z",
-    "stars": 24765,
+    "pushedAt": "2026-10-11T02:02:39Z",
+    "stars": 24778,
     "starsToday": 0,
     "topics": [
      "3d",
@@ -7514,12 +7496,12 @@
    "category": "tool",
    "key": "gh:pytorch/pytorch",
    "metrics": {
-    "forks": 31909,
-    "stars": 104079,
-    "starsMonthly": 1290,
+    "forks": 31960,
+    "stars": 104160,
+    "starsMonthly": 1336,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7531,12 +7513,12 @@
    },
    "repo": {
     "avatar": "https://github.com/pytorch.png?size=64",
-    "forks": 31909,
+    "forks": 31960,
     "language": "Python",
     "name": "pytorch",
     "owner": "pytorch",
-    "stars": 104079,
-    "starsToday": 81,
+    "stars": 104160,
+    "starsToday": 84,
     "topics": [
      "trend:daily",
      "trend:monthly"
@@ -7558,11 +7540,11 @@
    "category": "tool",
    "key": "gh:quantumnous/new-api",
    "metrics": {
-    "forks": 11933,
-    "stars": 49658,
+    "forks": 11937,
+    "stars": 49676,
     "starsToday": 136
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7578,11 +7560,11 @@
    },
    "repo": {
     "avatar": "https://github.com/QuantumNous.png?size=64",
-    "forks": 11933,
+    "forks": 11937,
     "language": "Go",
     "name": "new-api",
     "owner": "QuantumNous",
-    "stars": 49658,
+    "stars": 49676,
     "starsToday": 136,
     "topics": [
      "trend:daily"
@@ -7603,10 +7585,10 @@
    "category": "tool",
    "key": "gh:repowise-dev/repowise",
    "metrics": {
-    "forks": 831,
-    "stars": 7442
+    "forks": 833,
+    "stars": 7465
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7622,13 +7604,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/271941743?v=4",
     "createdAt": "2026-03-23T09:12:28Z",
-    "forks": 831,
+    "forks": 833,
     "language": "Python",
     "license": "AGPL-3.0",
     "name": "repowise",
     "owner": "repowise-dev",
-    "pushedAt": "2026-10-10T17:18:14Z",
-    "stars": 7442,
+    "pushedAt": "2026-10-11T00:00:48Z",
+    "stars": 7465,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -7672,12 +7654,12 @@
    "category": "research",
    "key": "gh:robbyant/lingbot-map",
    "metrics": {
-    "forks": 1965,
-    "stars": 17932,
+    "forks": 1967,
+    "stars": 17961,
     "starsToday": 0,
-    "starsWeekly": 446
+    "starsWeekly": 725
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7688,11 +7670,11 @@
    },
    "repo": {
     "avatar": "https://github.com/Robbyant.png?size=64",
-    "forks": 1965,
+    "forks": 1967,
     "language": "Python",
     "name": "lingbot-map",
     "owner": "Robbyant",
-    "stars": 17931,
+    "stars": 17961,
     "starsToday": 392,
     "topics": [
      "trend:daily",
@@ -7715,10 +7697,10 @@
    "category": "tool",
    "key": "gh:rocketride-org/rocketride-server",
    "metrics": {
-    "forks": 7584,
-    "stars": 17809
+    "forks": 7583,
+    "stars": 17814
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7737,13 +7719,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/258325502?v=4",
     "createdAt": "2026-02-11T17:02:53Z",
-    "forks": 7584,
+    "forks": 7583,
     "language": "Python",
     "license": "MIT",
     "name": "rocketride-server",
     "owner": "rocketride-org",
     "pushedAt": "2026-10-10T04:09:00Z",
-    "stars": 17809,
+    "stars": 17814,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -7782,13 +7764,13 @@
    "category": "tool",
    "key": "gh:rohitg00/ai-engineering-from-scratch",
    "metrics": {
-    "forks": 11673,
-    "stars": 66644,
-    "starsMonthly": 12969,
+    "forks": 11699,
+    "stars": 66816,
+    "starsMonthly": 12671,
     "starsToday": 0,
-    "starsWeekly": 3627
+    "starsWeekly": 3656
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7807,13 +7789,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/48523873?v=4",
     "createdAt": "2026-03-18T18:38:02Z",
-    "forks": 11673,
+    "forks": 11699,
     "language": "Python",
     "license": "MIT",
     "name": "ai-engineering-from-scratch",
     "owner": "rohitg00",
-    "pushedAt": "2026-10-10T17:08:16Z",
-    "stars": 66644,
+    "pushedAt": "2026-10-10T17:36:32Z",
+    "stars": 66816,
     "starsToday": 0,
     "topics": [
      "agents",
@@ -7865,10 +7847,10 @@
    "category": "tool",
    "key": "gh:rtk-ai/rtk",
    "metrics": {
-    "forks": 5259,
-    "stars": 82849
+    "forks": 5258,
+    "stars": 82884
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7886,13 +7868,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
     "createdAt": "2026-01-22T16:54:16Z",
-    "forks": 5259,
+    "forks": 5258,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "rtk",
     "owner": "rtk-ai",
     "pushedAt": "2026-10-09T23:52:19Z",
-    "stars": 82849,
+    "stars": 82884,
     "starsToday": 0,
     "topics": [
      "agentic-coding",
@@ -7934,12 +7916,12 @@
    "category": "tool",
    "key": "gh:rustdesk/rustdesk",
    "metrics": {
-    "forks": 19584,
-    "stars": 125408,
-    "starsMonthly": 3022,
+    "forks": 19593,
+    "stars": 125445,
+    "starsMonthly": 3027,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7950,11 +7932,11 @@
    },
    "repo": {
     "avatar": "https://github.com/rustdesk.png?size=64",
-    "forks": 19584,
+    "forks": 19593,
     "language": "Rust",
     "name": "rustdesk",
     "owner": "rustdesk",
-    "stars": 125408,
+    "stars": 125445,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -7975,12 +7957,12 @@
    "category": "tool",
    "key": "gh:rustfs/rustfs",
    "metrics": {
-    "forks": 1572,
-    "stars": 34677,
-    "starsMonthly": 3057,
+    "forks": 1574,
+    "stars": 34697,
+    "starsMonthly": 3064,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -7991,11 +7973,11 @@
    },
    "repo": {
     "avatar": "https://github.com/rustfs.png?size=64",
-    "forks": 1572,
+    "forks": 1574,
     "language": "Rust",
     "name": "rustfs",
     "owner": "rustfs",
-    "stars": 34677,
+    "stars": 34697,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -8016,10 +7998,10 @@
    "category": "tool",
    "key": "gh:ryancodrai/turbovec",
    "metrics": {
-    "forks": 1487,
-    "stars": 17370
+    "forks": 1489,
+    "stars": 17372
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8033,13 +8015,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/10856497?v=4",
     "createdAt": "2026-03-26T10:32:44Z",
-    "forks": 1487,
+    "forks": 1489,
     "language": "Rust",
     "license": "MIT",
     "name": "turbovec",
     "owner": "RyanCodrai",
     "pushedAt": "2026-10-07T06:55:09Z",
-    "stars": 17370,
+    "stars": 17372,
     "starsToday": 0,
     "topics": [
      "ann",
@@ -8083,11 +8065,11 @@
    "category": "tool",
    "key": "gh:sgl-project/sglang",
    "metrics": {
-    "forks": 9433,
-    "stars": 36964,
+    "forks": 9442,
+    "stars": 36969,
     "starsToday": 47
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8101,11 +8083,11 @@
    },
    "repo": {
     "avatar": "https://github.com/sgl-project.png?size=64",
-    "forks": 9433,
+    "forks": 9442,
     "language": "Python",
     "name": "sglang",
     "owner": "sgl-project",
-    "stars": 36964,
+    "stars": 36969,
     "starsToday": 47,
     "topics": [
      "trend:daily"
@@ -8126,10 +8108,10 @@
    "category": "tool",
    "key": "gh:shanraisshan/claude-code-best-practice",
    "metrics": {
-    "forks": 6729,
-    "stars": 67349
+    "forks": 6728,
+    "stars": 67361
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8148,13 +8130,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/11731897?v=4",
     "createdAt": "2025-10-31T14:15:28Z",
-    "forks": 6729,
+    "forks": 6728,
     "language": "HTML",
     "license": "MIT",
     "name": "claude-code-best-practice",
     "owner": "shanraisshan",
     "pushedAt": "2026-10-10T06:46:46Z",
-    "stars": 67349,
+    "stars": 67361,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -8204,9 +8186,9 @@
    "key": "gh:sickn33/agentic-awesome-skills",
    "metrics": {
     "forks": 6916,
-    "stars": 47418
+    "stars": 47435
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8231,7 +8213,7 @@
     "name": "agentic-awesome-skills",
     "owner": "sickn33",
     "pushedAt": "2026-10-10T09:21:55Z",
-    "stars": 47418,
+    "stars": 47435,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -8280,12 +8262,12 @@
    "category": "tool",
    "key": "gh:spacedriveapp/spacedrive",
    "metrics": {
-    "forks": 1355,
-    "stars": 39089,
+    "forks": 1354,
+    "stars": 39093,
     "starsToday": 0,
-    "starsWeekly": 95
+    "starsWeekly": 98
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8296,11 +8278,11 @@
    },
    "repo": {
     "avatar": "https://github.com/spacedriveapp.png?size=64",
-    "forks": 1355,
+    "forks": 1354,
     "language": "Rust",
     "name": "spacedrive",
     "owner": "spacedriveapp",
-    "stars": 39089,
+    "stars": 39093,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -8322,9 +8304,9 @@
    "key": "gh:spinabot/brigade",
    "metrics": {
     "forks": 70,
-    "stars": 11314
+    "stars": 11317
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8349,7 +8331,7 @@
     "name": "brigade",
     "owner": "spinabot",
     "pushedAt": "2026-10-09T12:51:39Z",
-    "stars": 11314,
+    "stars": 11317,
     "starsToday": 0,
     "topics": [
      "agent-runtime",
@@ -8398,10 +8380,10 @@
    "category": "tool",
    "key": "gh:stablyai/orca",
    "metrics": {
-    "forks": 5697,
-    "stars": 89046
+    "forks": 5705,
+    "stars": 89231
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8419,13 +8401,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
     "createdAt": "2026-03-17T03:28:57Z",
-    "forks": 5697,
+    "forks": 5705,
     "language": "TypeScript",
     "license": "MIT",
     "name": "orca",
     "owner": "stablyai",
-    "pushedAt": "2026-10-10T17:20:20Z",
-    "stars": 89046,
+    "pushedAt": "2026-10-11T02:49:26Z",
+    "stars": 89231,
     "starsToday": 0,
     "topics": [
      "ade",
@@ -8472,10 +8454,10 @@
    "category": "tool",
    "key": "gh:startrail-org/pixelrag",
    "metrics": {
-    "forks": 894,
-    "stars": 10240
+    "forks": 897,
+    "stars": 10245
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [
     "arxiv:2606.28344"
    ],
@@ -8494,13 +8476,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/288858980?v=4",
     "createdAt": "2026-05-29T07:25:40Z",
-    "forks": 894,
+    "forks": 897,
     "language": "Python",
     "license": "Apache-2.0",
     "name": "PixelRAG",
     "owner": "StarTrail-org",
     "pushedAt": "2026-10-08T17:35:42Z",
-    "stars": 10240,
+    "stars": 10245,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -8537,10 +8519,10 @@
    "category": "tool",
    "key": "gh:storytold/filmcraft",
    "metrics": {
-    "forks": 2941,
-    "stars": 8210
+    "forks": 3199,
+    "stars": 8757
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8552,13 +8534,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:41:20Z",
-    "forks": 2941,
+    "forks": 3199,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "filmcraft",
     "owner": "storytold",
-    "pushedAt": "2026-10-10T17:15:35Z",
-    "stars": 8210,
+    "pushedAt": "2026-10-11T01:46:53Z",
+    "stars": 8757,
     "starsToday": 0,
     "topics": [
      "adobe",
@@ -8591,10 +8573,10 @@
    "category": "tool",
    "key": "gh:storytold/lightcraft",
    "metrics": {
-    "forks": 2684,
-    "stars": 8675
+    "forks": 2892,
+    "stars": 9102
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8606,13 +8588,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T14:09:27Z",
-    "forks": 2684,
+    "forks": 2892,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "lightcraft",
     "owner": "storytold",
-    "pushedAt": "2026-10-10T17:15:00Z",
-    "stars": 8675,
+    "pushedAt": "2026-10-11T01:57:59Z",
+    "stars": 9102,
     "starsToday": 0,
     "topics": [
      "art",
@@ -8645,10 +8627,10 @@
    "category": "tool",
    "key": "gh:storytold/pdfcraft",
    "metrics": {
-    "forks": 2649,
-    "stars": 7557
+    "forks": 2880,
+    "stars": 8067
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8660,13 +8642,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:39:37Z",
-    "forks": 2649,
+    "forks": 2880,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "pdfcraft",
     "owner": "storytold",
-    "pushedAt": "2026-10-10T17:16:15Z",
-    "stars": 7557,
+    "pushedAt": "2026-10-11T02:03:37Z",
+    "stars": 8067,
     "starsToday": 0,
     "topics": [
      "acrobat",
@@ -8708,10 +8690,10 @@
    "category": "tool",
    "key": "gh:storytold/photocraft",
    "metrics": {
-    "forks": 5949,
-    "stars": 40368
+    "forks": 6405,
+    "stars": 42530
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8724,13 +8706,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
     "createdAt": "2026-09-30T13:37:48Z",
-    "forks": 5949,
+    "forks": 6405,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "photocraft",
     "owner": "storytold",
-    "pushedAt": "2026-10-10T17:20:13Z",
-    "stars": 40368,
+    "pushedAt": "2026-10-11T02:12:30Z",
+    "stars": 42530,
     "starsToday": 0,
     "topics": [
      "adobe",
@@ -8772,9 +8754,9 @@
    "key": "gh:superset-sh/superset",
    "metrics": {
     "forks": 1344,
-    "stars": 15050
+    "stars": 15057
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8797,8 +8779,8 @@
     "language": "TypeScript",
     "name": "superset",
     "owner": "superset-sh",
-    "pushedAt": "2026-10-10T12:43:43Z",
-    "stars": 15050,
+    "pushedAt": "2026-10-11T02:49:16Z",
+    "stars": 15057,
     "starsToday": 0,
     "topics": [
      "ade",
@@ -8847,12 +8829,12 @@
    "category": "tool",
    "key": "gh:t8y2/dbx",
    "metrics": {
-    "forks": 2320,
-    "stars": 25589,
-    "starsMonthly": 6879,
+    "forks": 2327,
+    "stars": 25653,
+    "starsMonthly": 6850,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8867,13 +8849,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
     "createdAt": "2026-04-29T03:00:36Z",
-    "forks": 2320,
+    "forks": 2327,
     "language": "Rust",
     "license": "Apache-2.0",
     "name": "dbx",
     "owner": "t8y2",
-    "pushedAt": "2026-10-10T13:10:59Z",
-    "stars": 25589,
+    "pushedAt": "2026-10-11T02:30:22Z",
+    "stars": 25653,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -8922,13 +8904,13 @@
    "category": "tool",
    "key": "gh:tashfeenahmed/freellmapi",
    "metrics": {
-    "forks": 4541,
-    "stars": 32836,
-    "starsMonthly": 7455,
+    "forks": 4554,
+    "stars": 32962,
+    "starsMonthly": 7700,
     "starsToday": 0,
-    "starsWeekly": 2397
+    "starsWeekly": 2591
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8942,11 +8924,11 @@
    },
    "repo": {
     "avatar": "https://github.com/tashfeenahmed.png?size=64",
-    "forks": 4541,
+    "forks": 4554,
     "language": "TypeScript",
     "name": "freellmapi",
     "owner": "tashfeenahmed",
-    "stars": 32836,
+    "stars": 32962,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -8969,12 +8951,12 @@
    "category": "tool",
    "key": "gh:tencent/weknora",
    "metrics": {
-    "forks": 4392,
-    "stars": 33019,
-    "starsMonthly": 11118,
+    "forks": 4396,
+    "stars": 33043,
+    "starsMonthly": 11234,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -8990,12 +8972,12 @@
    },
    "repo": {
     "avatar": "https://github.com/Tencent.png?size=64",
-    "forks": 4392,
+    "forks": 4396,
     "language": "Go",
     "name": "WeKnora",
     "owner": "Tencent",
-    "stars": 33019,
-    "starsToday": 215,
+    "stars": 33043,
+    "starsToday": 216,
     "topics": [
      "trend:daily",
      "trend:monthly"
@@ -9017,12 +8999,12 @@
    "category": "tool",
    "key": "gh:tencentcloud/octop",
    "metrics": {
-    "forks": 1035,
-    "stars": 8488,
-    "starsMonthly": 6720,
+    "forks": 1039,
+    "stars": 8528,
+    "starsMonthly": 7002,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9036,11 +9018,11 @@
    },
    "repo": {
     "avatar": "https://github.com/TencentCloud.png?size=64",
-    "forks": 1035,
+    "forks": 1039,
     "language": "Python",
     "name": "Octop",
     "owner": "TencentCloud",
-    "stars": 8488,
+    "stars": 8528,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9062,9 +9044,9 @@
    "key": "gh:tencentcloud/tencentdb-agent-memory",
    "metrics": {
     "forks": 2711,
-    "stars": 27893
+    "stars": 27902
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9087,7 +9069,7 @@
     "name": "TencentDB-Agent-Memory",
     "owner": "TencentCloud",
     "pushedAt": "2026-10-10T02:31:39Z",
-    "stars": 27893,
+    "stars": 27902,
     "starsToday": 0,
     "topics": [
      "agent",
@@ -9124,11 +9106,11 @@
    "category": "tool",
    "key": "gh:tensorflow/tensorflow",
    "metrics": {
-    "forks": 78909,
-    "stars": 200651,
-    "starsToday": 24
+    "forks": 78969,
+    "stars": 200745,
+    "starsToday": 26
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9140,12 +9122,12 @@
    },
    "repo": {
     "avatar": "https://github.com/tensorflow.png?size=64",
-    "forks": 78909,
+    "forks": 78969,
     "language": "C++",
     "name": "tensorflow",
     "owner": "tensorflow",
-    "stars": 200651,
-    "starsToday": 24,
+    "stars": 200745,
+    "starsToday": 26,
     "topics": [
      "trend:daily"
     ]
@@ -9165,13 +9147,13 @@
    "category": "tool",
    "key": "gh:thedotmack/claude-mem",
    "metrics": {
-    "forks": 8682,
-    "stars": 99160,
-    "starsMonthly": 5830,
+    "forks": 8700,
+    "stars": 99297,
+    "starsMonthly": 6034,
     "starsToday": 0,
-    "starsWeekly": 3850
+    "starsWeekly": 4035
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9187,11 +9169,11 @@
    },
    "repo": {
     "avatar": "https://github.com/thedotmack.png?size=64",
-    "forks": 8682,
+    "forks": 8700,
     "language": "TypeScript",
     "name": "claude-mem",
     "owner": "thedotmack",
-    "stars": 99160,
+    "stars": 99297,
     "starsToday": 0,
     "topics": [
      "trend:weekly",
@@ -9214,10 +9196,10 @@
    "category": "tool",
    "key": "gh:thysrael/horizon",
    "metrics": {
-    "forks": 1486,
-    "stars": 9599
+    "forks": 1487,
+    "stars": 9601
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9233,13 +9215,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/72613958?v=4",
     "createdAt": "2026-02-20T08:22:45Z",
-    "forks": 1486,
+    "forks": 1487,
     "language": "Python",
     "license": "MIT",
     "name": "Horizon",
     "owner": "Thysrael",
-    "pushedAt": "2026-10-10T00:04:04Z",
-    "stars": 9599,
+    "pushedAt": "2026-10-11T00:02:47Z",
+    "stars": 9601,
     "starsToday": 0,
     "topics": [
      "aggregator",
@@ -9275,11 +9257,11 @@
    "key": "gh:tile-ai/tilelang",
    "metrics": {
     "forks": 876,
-    "stars": 8557,
-    "starsMonthly": 1182,
+    "stars": 8561,
+    "starsMonthly": 1190,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9295,7 +9277,7 @@
     "language": "Python",
     "name": "tilelang",
     "owner": "tile-ai",
-    "stars": 8557,
+    "stars": 8561,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9316,12 +9298,12 @@
    "category": "tool",
    "key": "gh:tinyhumansai/openhuman",
    "metrics": {
-    "forks": 4112,
-    "stars": 41780,
+    "forks": 4113,
+    "stars": 41795,
     "starsToday": 0,
-    "starsWeekly": 1350
+    "starsWeekly": 1342
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9340,13 +9322,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
     "createdAt": "2026-02-18T20:01:27Z",
-    "forks": 4112,
+    "forks": 4113,
     "language": "Rust",
     "license": "GPL-3.0",
     "name": "openhuman",
     "owner": "tinyhumansai",
-    "pushedAt": "2026-10-10T17:09:05Z",
-    "stars": 41780,
+    "pushedAt": "2026-10-10T20:12:32Z",
+    "stars": 41795,
     "starsToday": 0,
     "topics": [
      "agent-orchestration",
@@ -9389,10 +9371,10 @@
    "category": "tool",
    "key": "gh:tirth8205/code-review-graph",
    "metrics": {
-    "forks": 2934,
-    "stars": 32024
+    "forks": 2936,
+    "stars": 32028
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9409,13 +9391,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/68604113?v=4",
     "createdAt": "2026-02-26T17:25:13Z",
-    "forks": 2934,
+    "forks": 2936,
     "language": "Python",
     "license": "MIT",
     "name": "code-review-graph",
     "owner": "tirth8205",
     "pushedAt": "2026-10-06T19:33:08Z",
-    "stars": 32024,
+    "stars": 32028,
     "starsToday": 0,
     "topics": [
      "ai-coding",
@@ -9459,7 +9441,7 @@
     "forks": 580,
     "stars": 7095
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9483,7 +9465,7 @@
     "license": "Apache-2.0",
     "name": "opensquilla",
     "owner": "TokenRhythm",
-    "pushedAt": "2026-10-10T15:22:06Z",
+    "pushedAt": "2026-10-10T23:04:05Z",
     "stars": 7095,
     "starsToday": 0,
     "topics": [
@@ -9525,9 +9507,9 @@
    "key": "gh:toon-format/toon",
    "metrics": {
     "forks": 1120,
-    "stars": 25480
+    "stars": 25485
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9547,7 +9529,7 @@
     "name": "toon",
     "owner": "toon-format",
     "pushedAt": "2026-10-09T07:07:33Z",
-    "stars": 25480,
+    "stars": 25485,
     "starsToday": 0,
     "topics": [
      "data-format",
@@ -9574,12 +9556,12 @@
    "category": "tool",
    "key": "gh:tracer-cloud/opensre",
    "metrics": {
-    "forks": 1716,
-    "stars": 11731,
+    "forks": 1721,
+    "stars": 11744,
     "starsToday": 0,
-    "starsWeekly": 356
+    "starsWeekly": 387
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9593,11 +9575,11 @@
    },
    "repo": {
     "avatar": "https://github.com/Tracer-Cloud.png?size=64",
-    "forks": 1716,
+    "forks": 1721,
     "language": "Python",
     "name": "opensre",
     "owner": "Tracer-Cloud",
-    "stars": 11731,
+    "stars": 11744,
     "starsToday": 0,
     "topics": [
      "trend:weekly"
@@ -9619,9 +9601,9 @@
    "key": "gh:tradecatlabs/vibe-coding-cn",
    "metrics": {
     "forks": 1757,
-    "stars": 17417
+    "stars": 17420
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9646,7 +9628,7 @@
     "name": "vibe-coding-cn",
     "owner": "tradecatlabs",
     "pushedAt": "2026-10-10T04:45:12Z",
-    "stars": 17417,
+    "stars": 17420,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -9693,10 +9675,10 @@
    "category": "tool",
    "key": "gh:trailhq/graft",
    "metrics": {
-    "forks": 866,
-    "stars": 9807
+    "forks": 870,
+    "stars": 9824
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9715,13 +9697,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/320742148?v=4",
     "createdAt": "2026-07-03T13:44:21Z",
-    "forks": 866,
+    "forks": 870,
     "language": "TypeScript",
     "license": "MIT",
     "name": "Graft",
     "owner": "trailhq",
-    "pushedAt": "2026-10-10T04:32:49Z",
-    "stars": 9807,
+    "pushedAt": "2026-10-10T23:32:27Z",
+    "stars": 9824,
     "starsToday": 0,
     "topics": [
      "ai-agents",
@@ -9767,12 +9749,12 @@
    "category": "tool",
    "key": "gh:trycua/cua",
    "metrics": {
-    "forks": 2071,
-    "stars": 29270,
-    "starsMonthly": 6877,
+    "forks": 2077,
+    "stars": 29301,
+    "starsMonthly": 6950,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9785,11 +9767,11 @@
    },
    "repo": {
     "avatar": "https://github.com/trycua.png?size=64",
-    "forks": 2071,
+    "forks": 2077,
     "language": "Rust",
     "name": "cua",
     "owner": "trycua",
-    "stars": 29270,
+    "stars": 29301,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9810,10 +9792,10 @@
    "category": "tool",
    "key": "gh:tt-a1i/archify",
    "metrics": {
-    "forks": 5514,
-    "stars": 81586
+    "forks": 5516,
+    "stars": 81699
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9832,13 +9814,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
     "createdAt": "2026-04-15T05:27:37Z",
-    "forks": 5514,
+    "forks": 5516,
     "language": "JavaScript",
     "license": "MIT",
     "name": "archify",
     "owner": "tt-a1i",
-    "pushedAt": "2026-10-10T16:54:42Z",
-    "stars": 81586,
+    "pushedAt": "2026-10-11T01:08:35Z",
+    "stars": 81699,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -9890,7 +9872,7 @@
     "forks": 55,
     "stars": 9721
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9934,12 +9916,12 @@
    "category": "tool",
    "key": "gh:usememos/memos",
    "metrics": {
-    "forks": 4840,
-    "stars": 63667,
-    "starsMonthly": 928,
+    "forks": 4842,
+    "stars": 63681,
+    "starsMonthly": 925,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9950,11 +9932,11 @@
    },
    "repo": {
     "avatar": "https://github.com/usememos.png?size=64",
-    "forks": 4840,
+    "forks": 4842,
     "language": "Go",
     "name": "memos",
     "owner": "usememos",
-    "stars": 63667,
+    "stars": 63681,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -9976,11 +9958,11 @@
    "key": "gh:vectifyai/pageindex",
    "metrics": {
     "forks": 3385,
-    "stars": 39045,
-    "starsMonthly": 3566,
+    "stars": 39048,
+    "starsMonthly": 3567,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -9996,7 +9978,7 @@
     "language": "Python",
     "name": "PageIndex",
     "owner": "VectifyAI",
-    "stars": 39045,
+    "stars": 39048,
     "starsToday": 0,
     "topics": [
      "trend:monthly"
@@ -10017,11 +9999,11 @@
    "category": "tool",
    "key": "gh:vincentwei1021/video-shotcraft",
    "metrics": {
-    "forks": 995,
-    "stars": 11154,
+    "forks": 997,
+    "stars": 11193,
     "starsToday": 143
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10039,13 +10021,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
     "createdAt": "2026-07-19T11:44:41Z",
-    "forks": 995,
+    "forks": 997,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "name": "video-shotcraft",
     "owner": "Vincentwei1021",
     "pushedAt": "2026-10-05T09:12:26Z",
-    "stars": 11154,
+    "stars": 11193,
     "starsToday": 143,
     "topics": [
      "agent-skills",
@@ -10090,10 +10072,10 @@
    "category": "tool",
    "key": "gh:virgiliojr94/book-to-skill",
    "metrics": {
-    "forks": 3620,
-    "stars": 34419
+    "forks": 3623,
+    "stars": 34445
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10112,13 +10094,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/23645449?v=4",
     "createdAt": "2026-05-01T02:09:39Z",
-    "forks": 3620,
+    "forks": 3623,
     "language": "Python",
     "license": "MIT",
     "name": "book-to-skill",
     "owner": "virgiliojr94",
     "pushedAt": "2026-10-05T22:51:12Z",
-    "stars": 34419,
+    "stars": 34445,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -10160,10 +10142,10 @@
    "category": "tool",
    "key": "gh:voltagent/awesome-agent-skills",
    "metrics": {
-    "forks": 3825,
-    "stars": 35465
+    "forks": 3827,
+    "stars": 35482
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10182,12 +10164,12 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/201282378?v=4",
     "createdAt": "2025-10-28T08:55:32Z",
-    "forks": 3825,
+    "forks": 3827,
     "license": "MIT",
     "name": "awesome-agent-skills",
     "owner": "VoltAgent",
     "pushedAt": "2026-10-08T12:33:23Z",
-    "stars": 35465,
+    "stars": 35482,
     "starsToday": 0,
     "topics": [
      "agent-skills",
@@ -10231,11 +10213,11 @@
    "key": "gh:vxcontrol/pentagi",
    "metrics": {
     "forks": 3276,
-    "stars": 25431,
-    "starsMonthly": 2923,
+    "stars": 25438,
+    "starsMonthly": 2915,
     "starsToday": 0
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10254,7 +10236,7 @@
     "language": "Go",
     "name": "pentagi",
     "owner": "vxcontrol",
-    "stars": 25431,
+    "stars": 25438,
     "starsToday": 47,
     "topics": [
      "trend:daily",
@@ -10278,9 +10260,9 @@
    "key": "gh:wanshuiyin/auto-claude-code-research-in-sleep",
    "metrics": {
     "forks": 1446,
-    "stars": 17239
+    "stars": 17242
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10305,7 +10287,7 @@
     "name": "Auto-claude-code-research-in-sleep",
     "owner": "wanshuiyin",
     "pushedAt": "2026-10-07T07:46:15Z",
-    "stars": 17239,
+    "stars": 17242,
     "starsToday": 0,
     "topics": [
      "ai-research",
@@ -10354,11 +10336,11 @@
    "category": "tool",
    "key": "gh:wei-shaw/sub2api",
    "metrics": {
-    "forks": 9367,
-    "stars": 43650,
+    "forks": 9371,
+    "stars": 43663,
     "starsToday": 90
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10371,11 +10353,11 @@
    },
    "repo": {
     "avatar": "https://github.com/Wei-Shaw.png?size=64",
-    "forks": 9367,
+    "forks": 9371,
     "language": "Go",
     "name": "sub2api",
     "owner": "Wei-Shaw",
-    "stars": 43650,
+    "stars": 43663,
     "starsToday": 90,
     "topics": [
      "trend:daily"
@@ -10397,9 +10379,9 @@
    "key": "gh:wenyuchiou/awesome-agentic-ai-zh",
    "metrics": {
     "forks": 992,
-    "stars": 7452
+    "stars": 7456
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10424,7 +10406,7 @@
     "name": "awesome-agentic-ai-zh",
     "owner": "WenyuChiou",
     "pushedAt": "2026-10-10T16:21:17Z",
-    "stars": 7452,
+    "stars": 7456,
     "starsToday": 0,
     "topics": [
      "agentic-ai",
@@ -10472,10 +10454,10 @@
    "category": "tool",
    "key": "gh:xbtlin/ai-berkshire",
    "metrics": {
-    "forks": 2481,
-    "stars": 16690
+    "forks": 2482,
+    "stars": 16693
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10494,13 +10476,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/6993203?v=4",
     "createdAt": "2026-04-07T11:19:51Z",
-    "forks": 2481,
+    "forks": 2482,
     "language": "HTML",
     "license": "MIT",
     "name": "ai-berkshire",
     "owner": "xbtlin",
     "pushedAt": "2026-10-08T18:04:43Z",
-    "stars": 16690,
+    "stars": 16693,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -10549,10 +10531,10 @@
    "category": "tool",
    "key": "gh:xiaomimimo/mimo-code",
    "metrics": {
-    "forks": 1428,
-    "stars": 13617
+    "forks": 1427,
+    "stars": 13620
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10571,13 +10553,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/208276378?v=4",
     "createdAt": "2026-06-10T11:52:41Z",
-    "forks": 1428,
+    "forks": 1427,
     "language": "TypeScript",
     "license": "MIT",
     "name": "MiMo-Code",
     "owner": "XiaomiMiMo",
     "pushedAt": "2026-10-09T08:50:06Z",
-    "stars": 13617,
+    "stars": 13620,
     "starsToday": 0,
     "topics": [
      "ai",
@@ -10606,11 +10588,11 @@
    "category": "tool",
    "key": "gh:yeachan-heo/oh-my-claudecode",
    "metrics": {
-    "forks": 3560,
-    "stars": 39767,
+    "forks": 3563,
+    "stars": 39777,
     "starsToday": 44
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10629,13 +10611,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/54757707?v=4",
     "createdAt": "2026-01-09T03:36:29Z",
-    "forks": 3560,
+    "forks": 3563,
     "language": "TypeScript",
     "license": "MIT",
     "name": "oh-my-claudecode",
     "owner": "Yeachan-Heo",
-    "pushedAt": "2026-10-10T17:09:04Z",
-    "stars": 39767,
+    "pushedAt": "2026-10-11T01:55:31Z",
+    "stars": 39777,
     "starsToday": 44,
     "topics": [
      "agentic-coding",
@@ -10676,10 +10658,10 @@
    "category": "tool",
    "key": "gh:yetone/magpie",
    "metrics": {
-    "forks": 559,
-    "stars": 8481
+    "forks": 571,
+    "stars": 8642
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10698,13 +10680,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/1206493?v=4",
     "createdAt": "2026-09-23T16:22:35Z",
-    "forks": 559,
+    "forks": 571,
     "language": "Go",
     "license": "MIT",
     "name": "magpie",
     "owner": "yetone",
-    "pushedAt": "2026-10-10T17:20:22Z",
-    "stars": 8481,
+    "pushedAt": "2026-10-11T02:44:35Z",
+    "stars": 8642,
     "starsToday": 0,
     "topics": [
      "claude-code",
@@ -10735,10 +10717,10 @@
    "category": "tool",
    "key": "gh:zai-org/zcode",
    "metrics": {
-    "forks": 2330,
-    "stars": 7645
+    "forks": 2333,
+    "stars": 7653
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10751,13 +10733,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
     "createdAt": "2026-09-20T12:01:16Z",
-    "forks": 2330,
+    "forks": 2333,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "name": "ZCode",
     "owner": "zai-org",
     "pushedAt": "2026-10-10T11:02:50Z",
-    "stars": 7645,
+    "stars": 7653,
     "starsToday": 0,
     "topics": []
    },
@@ -10774,10 +10756,10 @@
    "category": "tool",
    "key": "gh:zhulinsen/daily_stock_analysis",
    "metrics": {
-    "forks": 55088,
-    "stars": 66145
+    "forks": 55089,
+    "stars": 66151
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10793,13 +10775,13 @@
    "repo": {
     "avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
     "createdAt": "2026-01-10T06:43:20Z",
-    "forks": 55088,
+    "forks": 55089,
     "language": "Python",
     "license": "MIT",
     "name": "daily_stock_analysis",
     "owner": "ZhuLinsen",
     "pushedAt": "2026-10-05T07:52:27Z",
-    "stars": 66145,
+    "stars": 66151,
     "starsToday": 0,
     "topics": [
      "a-stock",
@@ -10834,7 +10816,7 @@
     "author": "abenzerps",
     "category": "text-to-image",
     "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-    "likes": 3843,
+    "likes": 3888,
     "modelCreatedAt": "2026-09-20",
     "tags": [
      "text-to-image",
@@ -10846,18 +10828,18 @@
      "text-to-image",
      "base_model:Qwen/Qwen-Image-2.1"
     ],
-    "trendingScore": 667,
+    "trendingScore": 674,
     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
    },
    "key": "hf:abenzerps/qwen-image-2.1-uncensored-gguf",
    "metrics": {
-    "hfUpvotes": 3843,
-    "hf_likes": 3843,
+    "hfUpvotes": 3888,
+    "hf_likes": 3888,
     "prior": 1,
-    "trendingScore": 667,
-    "trending_score": 667
+    "trendingScore": 674,
+    "trending_score": 674
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10877,7 +10859,6 @@
     "image-generation",
     "comfyui",
     "comfyui-gguf",
-    "text-to-image",
     "base_model:Qwen/Qwen-Image-2.1"
    ],
    "title": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
@@ -10890,7 +10871,7 @@
     "author": "Aleph-Alpha",
     "category": "text-generation",
     "id": "Aleph-Alpha/Kolibri-1",
-    "likes": 857,
+    "likes": 870,
     "modelCreatedAt": "2026-10-02",
     "tags": [
      "text-generation",
@@ -10902,18 +10883,18 @@
      "text-generation",
      "conversational"
     ],
-    "trendingScore": 628,
+    "trendingScore": 547,
     "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
    },
    "key": "hf:aleph-alpha/kolibri-1",
    "metrics": {
-    "hfUpvotes": 857,
-    "hf_likes": 857,
+    "hfUpvotes": 870,
+    "hf_likes": 870,
     "prior": 1,
-    "trendingScore": 628,
-    "trending_score": 628
+    "trendingScore": 547,
+    "trending_score": 547
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10933,7 +10914,6 @@
     "kolibri1",
     "reasoning",
     "moe",
-    "text-generation",
     "conversational"
    ],
    "title": "Aleph-Alpha/Kolibri-1",
@@ -10946,7 +10926,7 @@
     "author": "Cloudflare",
     "category": "image-text-to-text",
     "id": "Cloudflare/clef",
-    "likes": 1977,
+    "likes": 2000,
     "modelCreatedAt": "2026-09-30",
     "tags": [
      "image-text-to-text",
@@ -10958,18 +10938,18 @@
      "cloudflare",
      "systemone"
     ],
-    "trendingScore": 872,
+    "trendingScore": 834,
     "url": "https://huggingface.co/Cloudflare/clef"
    },
    "key": "hf:cloudflare/clef",
    "metrics": {
-    "hfUpvotes": 1977,
-    "hf_likes": 1977,
+    "hfUpvotes": 2000,
+    "hf_likes": 2000,
     "prior": 1,
-    "trendingScore": 872,
-    "trending_score": 872
+    "trendingScore": 834,
+    "trending_score": 834
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -10987,7 +10967,6 @@
     "transformers",
     "safetensors",
     "qwen3_5",
-    "image-text-to-text",
     "clef",
     "cloudflare",
     "systemone"
@@ -11002,7 +10981,7 @@
     "author": "Cloudflare",
     "category": "image-text-to-text",
     "id": "Cloudflare/clef-flash",
-    "likes": 725,
+    "likes": 741,
     "modelCreatedAt": "2026-09-30",
     "tags": [
      "image-text-to-text",
@@ -11014,18 +10993,18 @@
      "cloudflare",
      "systemone"
     ],
-    "trendingScore": 336,
+    "trendingScore": 320,
     "url": "https://huggingface.co/Cloudflare/clef-flash"
    },
    "key": "hf:cloudflare/clef-flash",
    "metrics": {
-    "hfUpvotes": 725,
-    "hf_likes": 725,
+    "hfUpvotes": 741,
+    "hf_likes": 741,
     "prior": 1,
-    "trendingScore": 336,
-    "trending_score": 336
+    "trendingScore": 320,
+    "trending_score": 320
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11043,7 +11022,6 @@
     "transformers",
     "safetensors",
     "qwen3_5",
-    "image-text-to-text",
     "clef",
     "cloudflare",
     "systemone"
@@ -11058,7 +11036,7 @@
     "author": "google",
     "category": "feature-extraction",
     "id": "google/embeddinggemma-2",
-    "likes": 1461,
+    "likes": 1526,
     "modelCreatedAt": "2026-09-14",
     "tags": [
      "feature-extraction",
@@ -11070,18 +11048,18 @@
      "sentence-transformers",
      "multimodal-embedding"
     ],
-    "trendingScore": 1391,
+    "trendingScore": 1425,
     "url": "https://huggingface.co/google/embeddinggemma-2"
    },
    "key": "hf:google/embeddinggemma-2",
    "metrics": {
-    "hfUpvotes": 1461,
-    "hf_likes": 1461,
+    "hfUpvotes": 1526,
+    "hf_likes": 1526,
     "prior": 1,
-    "trendingScore": 1391,
-    "trending_score": 1391
+    "trendingScore": 1425,
+    "trending_score": 1425
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11099,7 +11077,6 @@
     "transformers",
     "safetensors",
     "embedding_gemma2",
-    "feature-extraction",
     "embedding",
     "sentence-transformers",
     "multimodal-embedding"
@@ -11114,7 +11091,7 @@
     "author": "jialinyyzz",
     "category": "text-generation",
     "id": "jialinyyzz/humanizer",
-    "likes": 912,
+    "likes": 976,
     "modelCreatedAt": "2026-09-11",
     "tags": [
      "text-generation",
@@ -11126,18 +11103,18 @@
      "transformers",
      "text-rewriting"
     ],
-    "trendingScore": 824,
+    "trendingScore": 853,
     "url": "https://huggingface.co/jialinyyzz/humanizer"
    },
    "key": "hf:jialinyyzz/humanizer",
    "metrics": {
-    "hfUpvotes": 912,
-    "hf_likes": 912,
+    "hfUpvotes": 976,
+    "hf_likes": 976,
     "prior": 1,
-    "trendingScore": 824,
-    "trending_score": 824
+    "trendingScore": 853,
+    "trending_score": 853
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11170,7 +11147,7 @@
     "author": "Lightricks",
     "category": "image-to-video",
     "id": "Lightricks/LTX-2.5",
-    "likes": 7140,
+    "likes": 7189,
     "modelCreatedAt": "2026-07-23",
     "tags": [
      "image-to-video",
@@ -11182,18 +11159,18 @@
      "audio-to-video",
      "text-to-audio"
     ],
-    "trendingScore": 482,
+    "trendingScore": 467,
     "url": "https://huggingface.co/Lightricks/LTX-2.5"
    },
    "key": "hf:lightricks/ltx-2.5",
    "metrics": {
-    "hfUpvotes": 7140,
-    "hf_likes": 7140,
+    "hfUpvotes": 7189,
+    "hf_likes": 7189,
     "prior": 1,
-    "trendingScore": 482,
-    "trending_score": 482
+    "trendingScore": 467,
+    "trending_score": 467
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11209,7 +11186,6 @@
    "tags": [
     "image-to-video",
     "diffusion-single-file",
-    "image-to-video",
     "text-to-video",
     "video-to-video",
     "image-text-to-video",
@@ -11226,7 +11202,7 @@
     "author": "Qwen",
     "category": "text-to-image",
     "id": "Qwen/Qwen-Image-2.1-Turbo",
-    "likes": 417,
+    "likes": 463,
     "modelCreatedAt": "2026-10-09",
     "tags": [
      "text-to-image",
@@ -11238,18 +11214,18 @@
      "text-to-image",
      "base_model:Qwen/Qwen-Image-2.1"
     ],
-    "trendingScore": 411,
+    "trendingScore": 456,
     "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
    },
    "key": "hf:qwen/qwen-image-2.1-turbo",
    "metrics": {
-    "hfUpvotes": 417,
-    "hf_likes": 417,
+    "hfUpvotes": 463,
+    "hf_likes": 463,
     "prior": 1,
-    "trendingScore": 411,
-    "trending_score": 411
+    "trendingScore": 456,
+    "trending_score": 456
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11269,7 +11245,6 @@
     "qwen",
     "image-generation",
     "image-editing",
-    "text-to-image",
     "base_model:Qwen/Qwen-Image-2.1"
    ],
    "title": "Qwen/Qwen-Image-2.1-Turbo",
@@ -11282,7 +11257,7 @@
     "author": "Qwen",
     "category": "image-text-to-text",
     "id": "Qwen/Qwen3.8-27B",
-    "likes": 17401,
+    "likes": 17436,
     "modelCreatedAt": "2026-08-05",
     "tags": [
      "image-text-to-text",
@@ -11294,18 +11269,18 @@
      "license:apache-2.0",
      "eval-results"
     ],
-    "trendingScore": 334,
+    "trendingScore": 342,
     "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
    },
    "key": "hf:qwen/qwen3.8-27b",
    "metrics": {
-    "hfUpvotes": 17401,
-    "hf_likes": 17401,
+    "hfUpvotes": 17436,
+    "hf_likes": 17436,
     "prior": 1,
-    "trendingScore": 334,
-    "trending_score": 334
+    "trendingScore": 342,
+    "trending_score": 342
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11323,7 +11298,6 @@
     "transformers",
     "safetensors",
     "qwen3_5",
-    "image-text-to-text",
     "conversational",
     "license:apache-2.0",
     "eval-results"
@@ -11338,7 +11312,7 @@
     "author": "Venastine-Research",
     "category": "text-generation",
     "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-    "likes": 679,
+    "likes": 686,
     "modelCreatedAt": "2026-09-17",
     "tags": [
      "text-generation",
@@ -11350,18 +11324,18 @@
      "conversational",
      "custom_code"
     ],
-    "trendingScore": 503,
+    "trendingScore": 457,
     "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF"
    },
    "key": "hf:venastine-research/xing4.0-29b-a4b-gguf",
    "metrics": {
-    "hfUpvotes": 679,
-    "hf_likes": 679,
+    "hfUpvotes": 686,
+    "hf_likes": 686,
     "prior": 1,
-    "trendingScore": 503,
-    "trending_score": 503
+    "trendingScore": 457,
+    "trending_score": 457
    },
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "refs": [],
    "relevance": {
     "reasons": [
@@ -11380,7 +11354,6 @@
     "safetensors",
     "gguf",
     "xing4_0",
-    "text-generation",
     "conversational",
     "custom_code"
    ],
@@ -11925,61 +11898,1727 @@
    ],
    "title": "WalkCast — Screen-Free Audio Digest for Outdoor Walks",
    "url": "https://dev.to/ruhichaudhari6/walkcast-screen-free-audio-digest-for-outdoor-walks-f23"
+  },
+  {
+   "board": "news",
+   "category": "industry",
+   "key": "hn:50035886",
+   "metrics": {
+    "comments": 85,
+    "frontPage": 0,
+    "points": 127
+   },
+   "news": {
+    "author": "arkj",
+    "comments": 85,
+    "createdAt": "2026-10-10T18:48:35.000Z",
+    "domain": "ft.com",
+    "hnId": 50035886,
+    "hnUrl": "https://news.ycombinator.com/item?id=50035886",
+    "points": 127,
+    "showRank": 54
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T18:48:35.000Z",
+   "refs": [
+    "url:ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:ai",
+     "weak:model",
+     "weak:nvidia",
+     "cat:acquire"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+  },
+  {
+   "board": "news",
+   "category": "tool",
+   "key": "hn:50038332",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 3
+   },
+   "news": {
+    "author": "boredpolymath",
+    "comments": 0,
+    "createdAt": "2026-10-10T23:57:01.000Z",
+    "domain": "github.com",
+    "hnId": 50038332,
+    "hnUrl": "https://news.ycombinator.com/item?id=50038332",
+    "points": 3,
+    "showRank": 5
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T23:57:01.000Z",
+   "refs": [
+    "gh:boredpolymath/truth-beacon"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:open source",
+     "cat:show hn"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Show HN: TruthBeacon – Open-source Discord moderation app in Tauri and Rust",
+   "url": "https://github.com/boredpolymath/truth-beacon"
+  },
+  {
+   "board": "news",
+   "category": "tool",
+   "key": "hn:50038499",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 5
+   },
+   "news": {
+    "author": "Boardsy",
+    "comments": 1,
+    "createdAt": "2026-10-11T00:26:53.000Z",
+    "domain": "boardsy.co.uk",
+    "hnId": 50038499,
+    "hnUrl": "https://news.ycombinator.com/item?id=50038499",
+    "points": 5,
+    "showRank": 4
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T00:26:53.000Z",
+   "refs": [
+    "url:boardsy.co.uk/free-exhibition-display-tools"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:open source",
+     "cat:show hn"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Show HN: Free LED pixel-pitch and display-size calculators (open source)",
+   "url": "https://boardsy.co.uk/free-exhibition-display-tools/"
+  },
+  {
+   "board": "news",
+   "category": "tool",
+   "key": "hn:50038883",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 14
+   },
+   "news": {
+    "author": "herval",
+    "comments": 0,
+    "createdAt": "2026-10-11T01:19:18.000Z",
+    "domain": "littleguys.hervalicio.us",
+    "hnId": 50038883,
+    "hnUrl": "https://news.ycombinator.com/item?id=50038883",
+    "points": 14,
+    "showRank": 3
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T01:19:18.000Z",
+   "refs": [
+    "url:littleguys.hervalicio.us"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:claude",
+     "kw:codex",
+     "weak:agent",
+     "weak:agents",
+     "cat:show hn"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
+   "url": "https://littleguys.hervalicio.us"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Mohd. Ibrahim Iqbal",
+    "comments": 1,
+    "createdAt": "2026-10-10T18:20:41Z",
+    "domain": "dev.to",
+    "id": 4821100,
+    "points": 0,
+    "url": "https://dev.to/ibrahimiqbal/touch-grass-voice-dares-that-get-you-off-the-screen-running-on-device-with-gemma-3-270m-fi5"
+   },
+   "key": "devto:4821100",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Mohd. Ibrahim Iqbal",
+    "comments": 1,
+    "createdAt": "2026-10-10T18:20:41Z",
+    "domain": "dev.to",
+    "hnId": 4821100,
+    "hnUrl": "https://dev.to/ibrahimiqbal/touch-grass-voice-dares-that-get-you-off-the-screen-running-on-device-with-gemma-3-270m-fi5",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T18:20:41Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Touch Grass: voice dares that get you off the screen, running on-device with Gemma 3 270M",
+   "url": "https://dev.to/ibrahimiqbal/touch-grass-voice-dares-that-get-you-off-the-screen-running-on-device-with-gemma-3-270m-fi5"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Attila Reterics",
+    "comments": 1,
+    "createdAt": "2026-10-10T17:34:01Z",
+    "domain": "dev.to",
+    "id": 4829126,
+    "points": 1,
+    "url": "https://dev.to/attila_reterics_a1db906f7/moss-a-tiny-ai-desk-companion-that-makes-you-go-outside-and-touch-grass-d2f"
+   },
+   "key": "devto:4829126",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 1
+   },
+   "news": {
+    "author": "Attila Reterics",
+    "comments": 1,
+    "createdAt": "2026-10-10T17:34:01Z",
+    "domain": "dev.to",
+    "hnId": 4829126,
+    "hnUrl": "https://dev.to/attila_reterics_a1db906f7/moss-a-tiny-ai-desk-companion-that-makes-you-go-outside-and-touch-grass-d2f",
+    "points": 1
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T17:34:01Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Moss: a tiny AI desk companion that makes you go outside and touch grass",
+   "url": "https://dev.to/attila_reterics_a1db906f7/moss-a-tiny-ai-desk-companion-that-makes-you-go-outside-and-touch-grass-d2f"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Sam LABBE",
+    "comments": 1,
+    "createdAt": "2026-10-10T17:30:37Z",
+    "domain": "dev.to",
+    "id": 4829560,
+    "points": 6,
+    "url": "https://dev.to/slabb/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works-2hm5"
+   },
+   "key": "devto:4829560",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 6
+   },
+   "news": {
+    "author": "Sam LABBE",
+    "comments": 1,
+    "createdAt": "2026-10-10T17:30:37Z",
+    "domain": "dev.to",
+    "hnId": 4829560,
+    "hnUrl": "https://dev.to/slabb/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works-2hm5",
+    "points": 6
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T17:30:37Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Project Timestamper stamped Wikipedia, Sci-Hub, 86M audio tracks and the entire Common Crawl index with OpenTimestamps. Flat hash lists, one anchor, microseconds to verify. The anatomy.",
+   "tags": [
+    "source:dev-to",
+    "tag:security",
+    "tag:opensource",
+    "tag:data",
+    "tag:bitcoin",
+    "tab:opensource"
+   ],
+   "title": "Someone anchored 339 billion web pages to Bitcoin. Here's how it works.",
+   "url": "https://dev.to/slabb/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works-2hm5"
+  },
+  {
+   "board": "devto",
+   "category": "product",
+   "devto": {
+    "author": "ABIBA NAUSHAD",
+    "comments": 0,
+    "createdAt": "2026-10-10T19:21:01Z",
+    "domain": "dev.to",
+    "id": 4829948,
+    "points": 1,
+    "url": "https://dev.to/adibanaushad0/turn-your-neighborhood-into-a-daily-adventures-map-with-a-cozy-ai-companion-2j2e"
+   },
+   "key": "devto:4829948",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 1
+   },
+   "news": {
+    "author": "ABIBA NAUSHAD",
+    "comments": 0,
+    "createdAt": "2026-10-10T19:21:01Z",
+    "domain": "dev.to",
+    "hnId": 4829948,
+    "hnUrl": "https://dev.to/adibanaushad0/turn-your-neighborhood-into-a-daily-adventures-map-with-a-cozy-ai-companion-2j2e",
+    "points": 1
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T19:21:01Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:app"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Meet Outside.exe: an offline-first app that intercepts your screen time, uses Gemma to...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:gemma",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Turn your neighborhood into a daily adventures map with a cozy AI companion 🌸",
+   "url": "https://dev.to/adibanaushad0/turn-your-neighborhood-into-a-daily-adventures-map-with-a-cozy-ai-companion-2j2e"
+  },
+  {
+   "board": "devto",
+   "category": "product",
+   "devto": {
+    "author": "Alex Georgiev",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:29:45Z",
+    "domain": "dev.to",
+    "id": 4829981,
+    "points": 12,
+    "url": "https://dev.to/alexgeorgiev17/car-meets-in-sofia-get-planned-in-chaos-so-i-made-an-open-model-read-the-chat-for-us-24nm"
+   },
+   "key": "devto:4829981",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 12
+   },
+   "news": {
+    "author": "Alex Georgiev",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:29:45Z",
+    "domain": "dev.to",
+    "hnId": 4829981,
+    "hnUrl": "https://dev.to/alexgeorgiev17/car-meets-in-sofia-get-planned-in-chaos-so-i-made-an-open-model-read-the-chat-for-us-24nm",
+    "points": 12
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T19:29:45Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:app"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "RevSofia, a Car Meetup app that people will love to use",
+   "url": "https://dev.to/alexgeorgiev17/car-meets-in-sofia-get-planned-in-chaos-so-i-made-an-open-model-read-the-chat-for-us-24nm"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Ayush Gupta",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:43:14Z",
+    "domain": "dev.to",
+    "id": 4830022,
+    "points": 10,
+    "url": "https://dev.to/ayush_gupta_17/trailwhisper-keep-eyes-on-the-canopy-phone-in-the-pocket-1pc7"
+   },
+   "key": "devto:4830022",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 10
+   },
+   "news": {
+    "author": "Ayush Gupta",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:43:14Z",
+    "domain": "dev.to",
+    "hnId": 4830022,
+    "hnUrl": "https://dev.to/ayush_gupta_17/trailwhisper-keep-eyes-on-the-canopy-phone-in-the-pocket-1pc7",
+    "points": 10
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T19:43:14Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "An offline-first, zero-screen nature trail audio AI companion built for Hacktoberfest 2026 Week 1 Touch Grass Challenge.",
+   "tags": [
+    "source:dev-to",
+    "tag:hacktoberfest",
+    "tag:opensource",
+    "tag:ai",
+    "tag:webdev",
+    "tab:opensource"
+   ],
+   "title": "TrailWhisper: Keep Eyes on the Canopy. Phone in the Pocket.",
+   "url": "https://dev.to/ayush_gupta_17/trailwhisper-keep-eyes-on-the-canopy-phone-in-the-pocket-1pc7"
+  },
+  {
+   "board": "devto",
+   "category": "release",
+   "devto": {
+    "author": "Lillygrace",
+    "comments": 1,
+    "createdAt": "2026-10-10T20:01:56Z",
+    "domain": "dev.to",
+    "id": 4830078,
+    "points": 0,
+    "url": "https://dev.to/lillygrace_213530f21c9600/touchwood-my-feeds-only-unlock-after-an-open-weight-model-sees-me-outside-37eo"
+   },
+   "key": "devto:4830078",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Lillygrace",
+    "comments": 1,
+    "createdAt": "2026-10-10T20:01:56Z",
+    "domain": "dev.to",
+    "hnId": 4830078,
+    "hnUrl": "https://dev.to/lillygrace_213530f21c9600/touchwood-my-feeds-only-unlock-after-an-open-weight-model-sees-me-outside-37eo",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T20:01:56Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:open-weight"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "A doomscroll lock that opens only after you walk to a real place nearby and photograph it. CLIP checks the photo on your phone. No server, no upload.",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:opensource",
+    "tag:ai",
+    "tab:opensource"
+   ],
+   "title": "Touchwood: my feeds only unlock after an open-weight model sees me outside",
+   "url": "https://dev.to/lillygrace_213530f21c9600/touchwood-my-feeds-only-unlock-after-an-open-weight-model-sees-me-outside-37eo"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "Ahitagni Saha",
+    "comments": 0,
+    "createdAt": "2026-10-10T20:18:25Z",
+    "domain": "dev.to",
+    "id": 4830119,
+    "points": 0,
+    "url": "https://dev.to/ahitagni07/i-built-escape-touch-grass-to-unlock-social-media-powered-by-offline-ai-2kn1"
+   },
+   "key": "devto:4830119",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Ahitagni Saha",
+    "comments": 0,
+    "createdAt": "2026-10-10T20:18:25Z",
+    "domain": "dev.to",
+    "hnId": 4830119,
+    "hnUrl": "https://dev.to/ahitagni07/i-built-escape-touch-grass-to-unlock-social-media-powered-by-offline-ai-2kn1",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T20:18:25Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:i built"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is my submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass. ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:opensource",
+    "tag:ai",
+    "tab:opensource"
+   ],
+   "title": "🌱 I Built ESCAPE: Touch Grass to Unlock Social Media — Powered by Offline AI",
+   "url": "https://dev.to/ahitagni07/i-built-escape-touch-grass-to-unlock-social-media-powered-by-offline-ai-2kn1"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "MinchinWeb",
+    "comments": 1,
+    "createdAt": "2026-10-10T20:19:13Z",
+    "domain": "dev.to",
+    "id": 4830122,
+    "points": 0,
+    "url": "https://dev.to/minchinweb/roadbean-say-it-in-the-car-get-it-in-the-ledger-pf5"
+   },
+   "key": "devto:4830122",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "MinchinWeb",
+    "comments": 1,
+    "createdAt": "2026-10-10T20:19:13Z",
+    "domain": "dev.to",
+    "hnId": 4830122,
+    "hnUrl": "https://dev.to/minchinweb/roadbean-say-it-in-the-car-get-it-in-the-ledger-pf5",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T20:19:13Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Voice memos from my phone become pending Beancount entries. A local model reads; plain Python checks.",
+   "tags": [
+    "source:dev-to",
+    "tag:hf26challenge",
+    "tag:gemma",
+    "tag:python",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "roadbean: say it in the car, get it in the ledger",
+   "url": "https://dev.to/minchinweb/roadbean-say-it-in-the-car-get-it-in-the-ledger-pf5"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Eidan Rosado",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:33:21Z",
+    "domain": "dev.to",
+    "id": 4830202,
+    "points": 0,
+    "url": "https://dev.to/edyvision/foliage-hunter-a-colorado-leaf-guide-on-a-fine-tuned-gemma-3-built-to-keep-the-screen-short-4iko"
+   },
+   "key": "devto:4830202",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Eidan Rosado",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:33:21Z",
+    "domain": "dev.to",
+    "hnId": 4830202,
+    "hnUrl": "https://dev.to/edyvision/foliage-hunter-a-colorado-leaf-guide-on-a-fine-tuned-gemma-3-built-to-keep-the-screen-short-4iko",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T22:33:21Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:gemma",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Foliage Hunter: a Colorado leaf guide on a fine-tuned Gemma 3, built to keep the screen short",
+   "url": "https://dev.to/edyvision/foliage-hunter-a-colorado-leaf-guide-on-a-fine-tuned-gemma-3-built-to-keep-the-screen-short-4iko"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "RISHAV ROY",
+    "comments": 1,
+    "createdAt": "2026-10-10T21:11:47Z",
+    "domain": "dev.to",
+    "id": 4830273,
+    "points": 0,
+    "url": "https://dev.to/genx0gravitas/terraquest-ai-touch-grass-not-screens-1n6n"
+   },
+   "key": "devto:4830273",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "RISHAV ROY",
+    "comments": 1,
+    "createdAt": "2026-10-10T21:11:47Z",
+    "domain": "dev.to",
+    "hnId": 4830273,
+    "hnUrl": "https://dev.to/genx0gravitas/terraquest-ai-touch-grass-not-screens-1n6n",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T21:11:47Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge — Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "🌿 TerraQuest AI — Touch Grass, Not Screens",
+   "url": "https://dev.to/genx0gravitas/terraquest-ai-touch-grass-not-screens-1n6n"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Priyank Saxena",
+    "comments": 1,
+    "createdAt": "2026-10-10T21:16:16Z",
+    "domain": "dev.to",
+    "id": 4830281,
+    "points": 2,
+    "url": "https://dev.to/priyank_dev/outside-the-screen-free-outdoor-exploration-40od"
+   },
+   "key": "devto:4830281",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 2
+   },
+   "news": {
+    "author": "Priyank Saxena",
+    "comments": 1,
+    "createdAt": "2026-10-10T21:16:16Z",
+    "domain": "dev.to",
+    "hnId": 4830281,
+    "hnUrl": "https://dev.to/priyank_dev/outside-the-screen-free-outdoor-exploration-40od",
+    "points": 2
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T21:16:16Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass What if AI...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "🌲 OUTSIDE: The Screen-Free Outdoor Exploration",
+   "url": "https://dev.to/priyank_dev/outside-the-screen-free-outdoor-exploration-40od"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Vaidehi Kakad",
+    "comments": 0,
+    "createdAt": "2026-10-10T21:51:37Z",
+    "domain": "dev.to",
+    "id": 4830344,
+    "points": 0,
+    "url": "https://dev.to/vaidehisnk/smritipath-turning-family-memories-of-a-place-into-a-walk-with-local-ai-5acf"
+   },
+   "key": "devto:4830344",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Vaidehi Kakad",
+    "comments": 0,
+    "createdAt": "2026-10-10T21:51:37Z",
+    "domain": "dev.to",
+    "hnId": 4830344,
+    "hnUrl": "https://dev.to/vaidehisnk/smritipath-turning-family-memories-of-a-place-into-a-walk-with-local-ai-5acf",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T21:51:37Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:opensource",
+    "tag:hackathon",
+    "tab:opensource"
+   ],
+   "title": "SmritiPath: Turning Family Memories of a Place into a Walk, with Local AI",
+   "url": "https://dev.to/vaidehisnk/smritipath-turning-family-memories-of-a-place-into-a-walk-with-local-ai-5acf"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Amir Valizadeh",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:36:48Z",
+    "domain": "dev.to",
+    "id": 4830455,
+    "points": 0,
+    "url": "https://dev.to/thisisamirv/one-loess-to-rule-them-all-rebuilding-a-classic-smoother-in-rust-31ie"
+   },
+   "key": "devto:4830455",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Amir Valizadeh",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:36:48Z",
+    "domain": "dev.to",
+    "hnId": 4830455,
+    "hnUrl": "https://dev.to/thisisamirv/one-loess-to-rule-them-all-rebuilding-a-classic-smoother-in-rust-31ie",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T22:36:48Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "LOESS (locally estimated scatterplot smoothing) is one of those algorithms almost everyone has used...",
+   "tags": [
+    "source:dev-to",
+    "tag:rust",
+    "tag:datascience",
+    "tag:opensource",
+    "tag:performance",
+    "tab:opensource"
+   ],
+   "title": "One LOESS to Rule Them All: Rebuilding a Classic Smoother in Rust",
+   "url": "https://dev.to/thisisamirv/one-loess-to-rule-them-all-rebuilding-a-classic-smoother-in-rust-31ie"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "Matthew Armstrong",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:58:16Z",
+    "domain": "dev.to",
+    "id": 4830514,
+    "points": 0,
+    "url": "https://dev.to/open-madscience/klipplug-4ko3"
+   },
+   "key": "devto:4830514",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Matthew Armstrong",
+    "comments": 1,
+    "createdAt": "2026-10-10T22:58:16Z",
+    "domain": "dev.to",
+    "hnId": 4830514,
+    "hnUrl": "https://dev.to/open-madscience/klipplug-4ko3",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T22:58:16Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:plugin"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "KlipPlug is a plugin host for Klipper printers. It sits next to Mainsail or Fluidd, talks to kinda like octoprint, i want plugin HW and Software integration for klipper.",
+   "tags": [
+    "source:dev-to",
+    "tag:github",
+    "tag:opensource",
+    "tag:plugin",
+    "tag:software",
+    "tab:opensource"
+   ],
+   "title": "KlipPlug",
+   "url": "https://dev.to/open-madscience/klipplug-4ko3"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "Ashish sinha",
+    "comments": 1,
+    "createdAt": "2026-10-10T23:43:25Z",
+    "domain": "dev.to",
+    "id": 4830524,
+    "points": 0,
+    "url": "https://dev.to/ashish_sinha_5241c7673d93/four-supply-chain-badges-for-a-one-person-open-source-project-in-a-day-mn4"
+   },
+   "key": "devto:4830524",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Ashish sinha",
+    "comments": 1,
+    "createdAt": "2026-10-10T23:43:25Z",
+    "domain": "dev.to",
+    "hnId": 4830524,
+    "hnUrl": "https://dev.to/ashish_sinha_5241c7673d93/four-supply-chain-badges-for-a-one-person-open-source-project-in-a-day-mn4",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T23:43:25Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:open-source library"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "I maintain schemagate, an open-source library and MCP server that stops an AI agent from seeing...",
+   "tags": [
+    "source:dev-to",
+    "tag:opensource",
+    "tag:security",
+    "tag:python",
+    "tag:devops",
+    "tab:opensource"
+   ],
+   "title": "Four supply-chain badges for a one-person open-source project, in a day",
+   "url": "https://dev.to/ashish_sinha_5241c7673d93/four-supply-chain-badges-for-a-one-person-open-source-project-in-a-day-mn4"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Martin Hicks",
+    "comments": 1,
+    "createdAt": "2026-10-10T23:32:04Z",
+    "domain": "dev.to",
+    "id": 4830605,
+    "points": 0,
+    "url": "https://dev.to/martinhicks/dynoxide-130-security-fixes-and-fussier-pagination-1n18"
+   },
+   "key": "devto:4830605",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Martin Hicks",
+    "comments": 1,
+    "createdAt": "2026-10-10T23:32:04Z",
+    "domain": "dev.to",
+    "hnId": 4830605,
+    "hnUrl": "https://dev.to/martinhicks/dynoxide-130-security-fixes-and-fussier-pagination-1n18",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T23:32:04Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Dynoxide 1.3.0 fixes two security issues, matches more of DynamoDB's query quirks, and corrects vector capacity accounting. What caught my attention, and what to check before upgrading.",
+   "tags": [
+    "source:dev-to",
+    "tag:dynamodb",
+    "tag:rust",
+    "tag:opensource",
+    "tag:security",
+    "tab:opensource"
+   ],
+   "title": "Dynoxide 1.3.0: security fixes and fussier pagination",
+   "url": "https://dev.to/martinhicks/dynoxide-130-security-fixes-and-fussier-pagination-1n18"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "Suleiman Mamman Ahamed",
+    "comments": 1,
+    "createdAt": "2026-10-11T00:03:31Z",
+    "domain": "dev.to",
+    "id": 4830667,
+    "points": 0,
+    "url": "https://dev.to/suleigolden/i-open-sourced-thelastcodebender-claim-a-developer-rank-turn-your-github-into-a-claude-code-skill-15g6"
+   },
+   "key": "devto:4830667",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Suleiman Mamman Ahamed",
+    "comments": 1,
+    "createdAt": "2026-10-11T00:03:31Z",
+    "domain": "dev.to",
+    "hnId": 4830667,
+    "hnUrl": "https://dev.to/suleigolden/i-open-sourced-thelastcodebender-claim-a-developer-rank-turn-your-github-into-a-claude-code-skill-15g6",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T00:03:31Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:i open-sourced"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "What I built TheLastCodeBender is an open-source developer legacy project. Two ideas drive...",
+   "tags": [
+    "source:dev-to",
+    "tag:ai",
+    "tag:github",
+    "tag:opensource",
+    "tag:showdev",
+    "tab:opensource"
+   ],
+   "title": "I Open-Sourced TheLastCodeBender: Claim a Developer Rank, Turn Your GitHub into a Claude Code Skill",
+   "url": "https://dev.to/suleigolden/i-open-sourced-thelastcodebender-claim-a-developer-rank-turn-your-github-into-a-claude-code-skill-15g6"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Haider Farooq",
+    "comments": 1,
+    "createdAt": "2026-10-11T00:27:42Z",
+    "domain": "dev.to",
+    "id": 4830727,
+    "points": 0,
+    "url": "https://dev.to/haiderfarooq3/claude-code-skills-for-content-how-i-make-khan-academy-style-videos-for-free-52e2"
+   },
+   "key": "devto:4830727",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Haider Farooq",
+    "comments": 1,
+    "createdAt": "2026-10-11T00:27:42Z",
+    "domain": "dev.to",
+    "hnId": 4830727,
+    "hnUrl": "https://dev.to/haiderfarooq3/claude-code-skills-for-content-how-i-make-khan-academy-style-videos-for-free-52e2",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T00:27:42Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "I opened a LinkedIn post last week with \"I think Claude Code skills are mostly useless.\" It got about...",
+   "tags": [
+    "source:dev-to",
+    "tag:claude",
+    "tag:ai",
+    "tag:opensource",
+    "tag:video",
+    "tab:opensource"
+   ],
+   "title": "Claude Code Skills for Content: How I Make Khan Academy Style Videos for Free",
+   "url": "https://dev.to/haiderfarooq3/claude-code-skills-for-content-how-i-make-khan-academy-style-videos-for-free-52e2"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "devkumar2313",
+    "comments": 0,
+    "createdAt": "2026-10-11T00:54:09Z",
+    "domain": "dev.to",
+    "id": 4830769,
+    "points": 0,
+    "url": "https://dev.to/devkumar2313/trailmind-i-built-an-ai-that-identifies-wildlife-offline-so-your-phone-stays-in-your-pocket-3bak"
+   },
+   "key": "devto:4830769",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "devkumar2313",
+    "comments": 0,
+    "createdAt": "2026-10-11T00:54:09Z",
+    "domain": "dev.to",
+    "hnId": 4830769,
+    "hnUrl": "https://dev.to/devkumar2313/trailmind-i-built-an-ai-that-identifies-wildlife-offline-so-your-phone-stays-in-your-pocket-3bak",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T00:54:09Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:i built"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:opensource",
+    "tag:ollama",
+    "tab:opensource"
+   ],
+   "title": "TrailMind: I Built an AI That Identifies Wildlife Offline So Your Phone Stays in Your Pocket",
+   "url": "https://dev.to/devkumar2313/trailmind-i-built-an-ai-that-identifies-wildlife-offline-so-your-phone-stays-in-your-pocket-3bak"
+  },
+  {
+   "board": "devto",
+   "category": "tool",
+   "devto": {
+    "author": "AI Resource Radar",
+    "comments": 0,
+    "createdAt": "2026-10-11T01:03:19Z",
+    "domain": "dev.to",
+    "id": 4830789,
+    "points": 0,
+    "url": "https://dev.to/xxy12341/i-built-a-daily-verified-radar-for-free-ai-apis-and-gpu-credits-4n0m"
+   },
+   "key": "devto:4830789",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "AI Resource Radar",
+    "comments": 0,
+    "createdAt": "2026-10-11T01:03:19Z",
+    "domain": "dev.to",
+    "hnId": 4830789,
+    "hnUrl": "https://dev.to/xxy12341/i-built-a-daily-verified-radar-for-free-ai-apis-and-gpu-credits-4n0m",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T01:03:19Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:i built"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Free AI tiers and GPU credits change faster than a bookmark list can keep up. I kept running into...",
+   "tags": [
+    "source:dev-to",
+    "tag:ai",
+    "tag:opensource",
+    "tag:python",
+    "tag:showdev",
+    "tab:opensource"
+   ],
+   "title": "I built a daily-verified radar for free AI APIs and GPU credits",
+   "url": "https://dev.to/xxy12341/i-built-a-daily-verified-radar-for-free-ai-apis-and-gpu-credits-4n0m"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "spark-prairie",
+    "comments": 0,
+    "createdAt": "2026-10-11T01:39:34Z",
+    "domain": "dev.to",
+    "id": 4830875,
+    "points": 0,
+    "url": "https://dev.to/spark-prairie/building-a-local-first-markdown-cv-editor-what-i-learned-a98"
+   },
+   "key": "devto:4830875",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "spark-prairie",
+    "comments": 0,
+    "createdAt": "2026-10-11T01:39:34Z",
+    "domain": "dev.to",
+    "hnId": 4830875,
+    "hnUrl": "https://dev.to/spark-prairie/building-a-local-first-markdown-cv-editor-what-i-learned-a98",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T01:39:34Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Creating a CV should be about presenting your experience clearly, not spending hours adjusting...",
+   "tags": [
+    "source:dev-to",
+    "tag:showdev",
+    "tag:webdev",
+    "tag:opensource",
+    "tag:javascript",
+    "tab:opensource"
+   ],
+   "title": "Building a Local-First Markdown CV Editor: What I Learned",
+   "url": "https://dev.to/spark-prairie/building-a-local-first-markdown-cv-editor-what-i-learned-a98"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Fedora",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:03:59Z",
+    "domain": "dev.to",
+    "id": 4830914,
+    "points": 0,
+    "url": "https://dev.to/fds2003/building-a-high-precision-chinese-metaphysics-engine-in-the-browser-solar-terms-midnight-1bc"
+   },
+   "key": "devto:4830914",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Fedora",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:03:59Z",
+    "domain": "dev.to",
+    "hnId": 4830914,
+    "hnUrl": "https://dev.to/fds2003/building-a-high-precision-chinese-metaphysics-engine-in-the-browser-solar-terms-midnight-1bc",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T02:03:59Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "If you have ever built calendar algorithms or localized software for East Asian markets, you know...",
+   "tags": [
+    "source:dev-to",
+    "tag:javascript",
+    "tag:webdev",
+    "tag:opensource",
+    "tag:astronomy",
+    "tab:opensource"
+   ],
+   "title": "Building a High-Precision Chinese Metaphysics Engine in the Browser: Solar Terms, Midnight Rollovers, and 266 Edge Cases",
+   "url": "https://dev.to/fds2003/building-a-high-precision-chinese-metaphysics-engine-in-the-browser-solar-terms-midnight-1bc"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "openamer",
+    "comments": 1,
+    "createdAt": "2026-10-11T02:13:30Z",
+    "domain": "dev.to",
+    "id": 4830939,
+    "points": 0,
+    "url": "https://dev.to/openamer/driving-a-real-desktop-without-a-vm-a-sandbox-or-stealing-your-cursor-4e7o"
+   },
+   "key": "devto:4830939",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "openamer",
+    "comments": 1,
+    "createdAt": "2026-10-11T02:13:30Z",
+    "domain": "dev.to",
+    "hnId": 4830939,
+    "hnUrl": "https://dev.to/openamer/driving-a-real-desktop-without-a-vm-a-sandbox-or-stealing-your-cursor-4e7o",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T02:13:30Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Driving a real desktop without a VM, a sandbox, or stealing your cursor Every \"computer...",
+   "tags": [
+    "source:dev-to",
+    "tag:agents",
+    "tag:ai",
+    "tag:automation",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Driving a real desktop without a VM, a sandbox, or stealing your cursor",
+   "url": "https://dev.to/openamer/driving-a-real-desktop-without-a-vm-a-sandbox-or-stealing-your-cursor-4e7o"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Surya prakash Sharma",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:24:56Z",
+    "domain": "dev.to",
+    "id": 4830953,
+    "points": 0,
+    "url": "https://dev.to/im_surya_prakash/cheat-sheet-for-your-first-open-source-contribution-3gl1"
+   },
+   "key": "devto:4830953",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Surya prakash Sharma",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:24:56Z",
+    "domain": "dev.to",
+    "hnId": 4830953,
+    "hnUrl": "https://dev.to/im_surya_prakash/cheat-sheet-for-your-first-open-source-contribution-3gl1",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T02:24:56Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Making your first open source contribution is intimidating. Honestly, it’s rarely the code that holds...",
+   "tags": [
+    "source:dev-to",
+    "tag:opensource",
+    "tag:github",
+    "tag:vscode",
+    "tag:beginners",
+    "tab:opensource"
+   ],
+   "title": "Cheat Sheet for Your First Open Source Contribution",
+   "url": "https://dev.to/im_surya_prakash/cheat-sheet-for-your-first-open-source-contribution-3gl1"
+  },
+  {
+   "board": "devto",
+   "category": "research",
+   "devto": {
+    "author": "Dev3 ^~^",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:37:56Z",
+    "domain": "dev.to",
+    "id": 4830986,
+    "points": 0,
+    "url": "https://dev.to/shashank03dev/paper-trail-gemma-writes-my-neighbourhood-into-a-paper-zine-so-my-phone-can-stay-home-3jhj"
+   },
+   "key": "devto:4830986",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "Dev3 ^~^",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:37:56Z",
+    "domain": "dev.to",
+    "hnId": 4830986,
+    "hnUrl": "https://dev.to/shashank03dev/paper-trail-gemma-writes-my-neighbourhood-into-a-paper-zine-so-my-phone-can-stay-home-3jhj",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T02:37:56Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:paper"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass Most \"go...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:opensource",
+    "tag:ai",
+    "tab:opensource"
+   ],
+   "title": "Paper Trail: Gemma writes my neighbourhood into a paper zine, so my phone can stay home",
+   "url": "https://dev.to/shashank03dev/paper-trail-gemma-writes-my-neighbourhood-into-a-paper-zine-so-my-phone-can-stay-home-3jhj"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "闫品权",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:46:08Z",
+    "domain": "dev.to",
+    "id": 4831008,
+    "points": 0,
+    "url": "https://dev.to/_4a402f2d2e1b4119fd0db/open-source-top-10-this-week-sep-28-oct-4-ranked-by-verified-github-star-growth-35la"
+   },
+   "key": "devto:4831008",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 0
+   },
+   "news": {
+    "author": "闫品权",
+    "comments": 0,
+    "createdAt": "2026-10-11T02:46:08Z",
+    "domain": "dev.to",
+    "hnId": 4831008,
+    "hnUrl": "https://dev.to/_4a402f2d2e1b4119fd0db/open-source-top-10-this-week-sep-28-oct-4-ranked-by-verified-github-star-growth-35la",
+    "points": 0
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-11T02:46:08Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "GitHub Trending is a great discovery surface, but it doesn't tell you how much a project actually...",
+   "tags": [
+    "source:dev-to",
+    "tag:opensource",
+    "tag:github",
+    "tag:data",
+    "tag:programming",
+    "tab:opensource"
+   ],
+   "title": "Open Source Top 10 this week (Sep 28 – Oct 4): ranked by verified GitHub star growth",
+   "url": "https://dev.to/_4a402f2d2e1b4119fd0db/open-source-top-10-this-week-sep-28-oct-4-ranked-by-verified-github-star-growth-35la"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:rhy5zp",
+   "lobsters": {
+    "author": "b--man",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:51:28.569-05:00",
+    "domain": "n-the-loop.com",
+    "points": 4,
+    "shortId": "rhy5zp",
+    "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/"
+   },
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 4
+   },
+   "news": {
+    "author": "b--man",
+    "comments": 1,
+    "createdAt": "2026-10-10T19:51:28.569-05:00",
+    "domain": "n-the-loop.com",
+    "hnId": 1662734293,
+    "hnUrl": "https://lobste.rs/s/rhy5zp/consistency_is_not_localized_property",
+    "points": 4
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T19:51:28.569-05:00",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "",
+   "tags": [
+    "source:lobsters",
+    "tag:ai",
+    "tag:databases",
+    "tag:programming"
+   ],
+   "title": "Consistency is not a localized property",
+   "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/"
+  },
+  {
+   "board": "lobsters",
+   "category": "discussion",
+   "key": "lobsters:t2fxpt",
+   "lobsters": {
+    "author": "Yogthos",
+    "comments": 0,
+    "createdAt": "2026-10-10T17:25:14.935-05:00",
+    "domain": "arxiv.org",
+    "points": 3,
+    "shortId": "t2fxpt",
+    "url": "https://arxiv.org/html/2610.05978v1"
+   },
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 3
+   },
+   "news": {
+    "author": "Yogthos",
+    "comments": 0,
+    "createdAt": "2026-10-10T17:25:14.935-05:00",
+    "domain": "arxiv.org",
+    "hnId": 1757621873,
+    "hnUrl": "https://lobste.rs/s/t2fxpt/byte_language_models_scaling_emergent",
+    "points": 3
+   },
+   "observedAt": "2026-10-11T02:50:04.564Z",
+   "publishedAt": "2026-10-10T17:25:14.935-05:00",
+   "refs": [
+    "arxiv:2610.05978"
+   ],
+   "relevance": {
+    "reasons": [
+     "channel:lobsters",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "lobsters"
+   ],
+   "summary": "The paper challenges the assumption that language models need explicit tokenizers to be efficient demonstrating that standard flat Transformers can process raw byte sequences and actually outperform traditional subword models as parameter sizes scale. The prevailing thought in the field has been that processing raw bytes is computationally inefficient because the sequences are substantially longer. A typical subword contains around four bytes. The authors argue that this extra sequence length is actually a feature that provides useful additional computation under the same parameter budget.…",
+   "tags": [
+    "source:lobsters",
+    "tag:ai"
+   ],
+   "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+   "url": "https://arxiv.org/html/2610.05978v1"
   }
  ],
  "date": "2026-10-11",
- "fetchedAt": "2026-10-10T17:20:22.825Z",
+ "fetchedAt": "2026-10-11T02:50:04.564Z",
  "runs": [
-  "2026-10-10T17:20:22.825Z"
+  "2026-10-10T17:20:22.825Z",
+  "2026-10-11T02:50:04.564Z"
  ],
  "schema": 2,
  "sources": [
   {
-   "board": "news",
+   "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "dev-to",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 310,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "github-search",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 179,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "count": 181,
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "github-trending",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 71,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "count": 72,
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "hacker-news",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "hf-trending",
    "state": "ok"
   },
   {
-   "board": "news",
+   "board": "lobsters",
    "count": 75,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "lobsters",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -11987,7 +13626,7 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-10T17:20:22.825Z",
+   "fetchedAt": "2026-10-11T02:50:04.564Z",
    "id": "x-linked",
    "mode": "syndication",
    "state": "ok"
@@ -11997,6 +13636,6 @@
   "from": "2026-10-10T16:00:00.000Z",
   "settled": false,
   "timezone": "Asia/Shanghai",
-  "to": "2026-10-10T17:20:22.825Z"
+  "to": "2026-10-11T02:50:04.564Z"
  }
 }

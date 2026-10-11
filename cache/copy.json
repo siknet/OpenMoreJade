@@ -14,6 +14,21 @@
   },
   "hash": "6e54e2e9cd6d9f52"
  },
+ "devto:4821100": {
+  "copy": {
+   "zh": {
+    "blurb": "Touch Grass 是一款基于本地运行的 Gemma 3 270M 模型的语音挑战应用，通过语音指令向用户发出离开屏幕、外出活动的挑战，属于 Hacktoberfest “Touch Grass” 开源项目。",
+    "points": [
+     "在设备本地运行 Gemma 3 270M，无需网络。",
+     "通过语音挑战促使用户离开电脑，进行户外活动。",
+     "开源代码，适合作为 Hacktoberfest 贡献项目。"
+    ],
+    "title": "Touch Grass：基于 Gemma 3 270M 的离线语音挑战，帮助你摆脱屏幕",
+    "why": "利用离线大模型提供实时互动，引导用户实现短暂的户外休息，提升健康。"
+   }
+  },
+  "hash": "63dcda890031cbef"
+ },
  "devto:4824129": {
   "copy": {
    "zh": {
@@ -69,6 +84,20 @@
    }
   },
   "hash": "0ee84364a55dc216"
+ },
+ "devto:4827698": {
+  "copy": {
+   "zh": {
+    "blurb": "Walkworth 是一个基于本地开源模型的语音日记工具，支持徒步路线的语音记录与自动转写，参与 Hacktoberfest 开源挑战。",
+    "points": [
+     "结合本地 LLM 生成语音日记",
+     "Hacktoberfest 项目，鼓励社区贡献"
+    ],
+    "title": "Walkworth：口述徒步日志的本地开源 AI 方案",
+    "why": "把 AI 生成的语音交互带入户外记录，提升徒步体验。"
+   }
+  },
+  "hash": "9fc0c7a6c403ca9d"
  },
  "devto:4827735": {
   "copy": {
@@ -158,12 +187,26 @@
  "devto:4828666": {
   "copy": {
    "zh": {
-    "blurb": "作者将 Qwen3.5‑4B LoRA 在 Tinker 上微调，以读取 627 条美国国家公园实时警报，模型以 1.60 美元成本蒸馏自 397 B 大模型，每周生成一次徒步通行卡，可捕获 33 条警报中的 28 条。",
-    "title": "将397B模型蒸馏至4B，仅耗1.60美元，可捕获28/33国家公园警报",
-    "why": "展示了极低成本小模型在实际安全预警中的可行性，降低部署门槛。"
+    "blurb": "利用 Qwen3.5‑4B LoRA 在 Tinker 数据上微调，模型读取 627 条国家公园实时警报，准确率达 85%，每周生成一次行程安全卡。",
+    "points": [
+     "使用 Qwen3.5‑4B LoRA 在 627 条警报上达 85% 召回率",
+     "成本仅 $1.60，证明蒸馏经济性"
+    ],
+    "title": "将 397B 模型蒸馏至 4B，仅耗 $1.60，捕获 28/33 国家公园警报",
+    "why": "展示低成本模型蒸馏在实际安全监控中的可行性。"
    }
   },
   "hash": "e2278a07306320e0"
+ },
+ "devto:4828714": {
+  "copy": {
+   "zh": {
+    "blurb": "阐释大多数Mac清理工具显示的高内存数字其实是缓存，实际无需清空，作者的应用因此不主动释放RAM。",
+    "title": "为什么我的Mac内存清理软件不尝试清空RAM",
+    "why": "帮助用户正确认识Mac内存管理，避免误用清理工具导致性能下降。"
+   }
+  },
+  "hash": "e3adf22531c83c8b"
  },
  "devto:4828716": {
   "copy": {
@@ -210,6 +253,21 @@
   },
   "hash": "1c0feac3f079769b"
  },
+ "devto:4829126": {
+  "copy": {
+   "zh": {
+    "blurb": "Moss 是一个超小型 AI 桌面助理，旨在通过对话或提醒让用户暂停工作、走到户外、触摸草地，属于 Hacktoberfest 第一期“Touch Grass”开源挑战。",
+    "points": [
+     "基于轻量模型，可在普通电脑上实时运行。",
+     "通过对话或弹窗提示，引导用户离开屏幕。",
+     "完整开源，适合作为 Hacktoberfest 项目贡献。"
+    ],
+    "title": "Moss：让你走出屋外、亲近自然的微型 AI 桌面助手",
+    "why": "帮助缓解久坐和屏幕疲劳，推广健康的工作方式。"
+   }
+  },
+  "hash": "784a7d283afba9da"
+ },
  "devto:4829163": {
   "copy": {
    "zh": {
@@ -228,9 +286,13 @@
  "devto:4829189": {
   "copy": {
    "zh": {
-    "blurb": "RepoDNA v1.3.1 让用户在浏览器中离线分析代码库，无需上传文件，即可获取结构、依赖和复杂度报告。",
-    "title": "RepoDNA v1.3.1：浏览器内本地代码库分析",
-    "why": "保护代码隐私的同时提供快速审计，适合安全敏感项目。"
+    "blurb": "RepoDNA 1.3.1 让用户在浏览器里直接加载本地仓库进行语法高亮、依赖图和代码搜索，全部在本地执行，保护隐私。",
+    "points": [
+     "在浏览器中本地解析仓库，无需上传代码",
+     "支持多语言高亮和依赖图谱"
+    ],
+    "title": "RepoDNA v1.3.1：在浏览器中本地分析代码库，无需上传",
+    "why": "提供安全、无需网络的代码审查与学习工具。"
    }
   },
   "hash": "3eb62312d3e4fb20"
@@ -388,6 +450,226 @@
   },
   "hash": "c4beafb9a9d16300"
  },
+ "devto:4829560": {
+  "copy": {
+   "zh": {
+    "blurb": "Project Timestamper 使用 OpenTimestamps 将 Wikipedia、Sci‑Hub、8600 万音轨以及整个 Common Crawl 索引的哈希一次性锚定至比特币区块链，实现微秒级验证。",
+    "points": [
+     "一次性将海量网页哈希锚定至比特币区块链",
+     "平坦哈希列表实现微秒级验证",
+     "展示去中心化时间戳在数字存证中的潜力"
+    ],
+    "title": "3390 亿网页锚定比特币：Project Timestamper 工作原理",
+    "why": "展示区块链时间戳在海量数据存证中的可行性。"
+   }
+  },
+  "hash": "b811ec2c773bd985"
+ },
+ "devto:4829948": {
+  "copy": {
+   "zh": {
+    "blurb": "Outside.exe 是一款离线优先的 AI 应用，拦截用户的屏幕使用时间，利用 Gemma 生成每日探索任务，将周边街区转化为冒险地图，鼓励用户走出门外。",
+    "points": [
+     "离线运行，无需持续网络连接。",
+     "拦截屏幕时间并用 Gemma 生成每日探险提示。",
+     "将本地街区映射为可执行的每日任务。"
+    ],
+    "title": "Outside.exe：将邻里转化为每日探险地图的离线 AI 小伴侣",
+    "why": "结合 AI 与本地地图，提供个性化的户外活动建议，帮助用户摆脱屏幕成瘾。"
+   }
+  },
+  "hash": "79718d485058a066"
+ },
+ "devto:4829981": {
+  "copy": {
+   "zh": {
+    "blurb": "RevSofia 是一款面向索菲亚汽车爱好者的聚会组织工具，旨在解决活动计划混乱，通过开源模型提供智能推荐与日程管理。",
+    "points": [
+     "利用开源模型自动生成活动路线和时间表",
+     "简化车友之间的沟通与报名流程",
+     "专为 Hacktoberfest AI 挑战打造的开源项目"
+    ],
+    "title": "RevSofia：让人爱用的汽车聚会应用",
+    "why": "帮助本地车友高效规划聚会，展示 AI 在社区组织中的实用价值。"
+   }
+  },
+  "hash": "2734c1b9fba67a5d"
+ },
+ "devto:4830022": {
+  "copy": {
+   "zh": {
+    "blurb": "TrailWhisper 是一款离线优先、零屏幕的自然步道音频 AI 伴侣，旨在为 Hacktoberfest 2026 Touch Grass 挑战提供沉浸式导航。",
+    "points": [
+     "离线运行，完全不依赖网络连接",
+     "通过音频交互实现零屏幕操作",
+     "专为自然步道设计的 AI 导航伴侣"
+    ],
+    "title": "TrailWhisper：随时关注林冠，口袋中的手机",
+    "why": "在无网络环境下提供 AI 导航，提升户外体验并推广离线 AI 应用。"
+   }
+  },
+  "hash": "ca2115cc2ded14b8"
+ },
+ "devto:4830078": {
+  "copy": {
+   "zh": {
+    "blurb": "一种防止doomscroll的锁，仅在用户走到附近实地并拍照后，使用本地CLIP模型验证图像后解锁，无需服务器或上传。",
+    "points": [
+     "使用本地CLIP模型离线验证照片。",
+     "必须实际走到现场拍照才能解锁信息流，促进健康使用。",
+     "无需服务器或数据上传，保护用户数据安全。"
+    ],
+    "title": "Touchwood：仅在开放权重模型在户外看到我后解锁我的信息流",
+    "why": "在鼓励用户离线活动的同时，完全本地处理保障隐私。"
+   }
+  },
+  "hash": "c03154864d00cd65"
+ },
+ "devto:4830119": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第一周的提交，旨在让用户在使用社交媒体前先“触草”休息，并通过离线 AI 实现解锁流程。",
+    "title": "ESCAPE：触草解锁社交媒体——离线 AI 驱动",
+    "why": "鼓励数字健康、展示离线 AI 可在无需联网的情况下提供交互功能。"
+   }
+  },
+  "hash": "9b35fedbfac6cc70"
+ },
+ "devto:4830122": {
+  "copy": {
+   "zh": {
+    "blurb": "将手机语音备忘转换为待处理的Beancount记账条目，本地模型解析文本，使用纯Python进行校验。",
+    "points": [
+     "本地模型将语音转为Beancount条目。",
+     "使用纯Python进行校验，易于集成。",
+     "减少手动记账输入，提高记录准确性。"
+    ],
+    "title": "roadbean：在车内说话，自动生成记账条目",
+    "why": "利用本地AI自动化个人财务记账，提升效率且数据不离开设备。"
+   }
+  },
+  "hash": "18c987b4e044d99f"
+ },
+ "devto:4830202": {
+  "copy": {
+   "zh": {
+    "blurb": "使用微调的Gemma 3模型构建的轻量级树叶识别应用，界面简洁，适合移动端快速查询，作为Hacktoberfest开源AI挑战作品。",
+    "points": [
+     "微调Gemma 3实现高效树叶识别。",
+     "界面设计简洁，适合移动端快速使用。",
+     "作为Hacktoberfest项目，促进开源社区合作。"
+    ],
+    "title": "Foliage Hunter：基于微调Gemma 3的科罗拉多树叶指南",
+    "why": "展示小模型在特定领域的实用性，推动开源AI生态与社区协作。"
+   }
+  },
+  "hash": "709b57480b4f71ef"
+ },
+ "devto:4830273": {
+  "copy": {
+   "zh": {
+    "blurb": "本文是 Hacktoberfest 开源 AI 挑战第一周的提交，旨在通过 AI 提示鼓励用户“Touch Grass”。",
+    "title": "TerraQuest AI：让 AI 引导你走出屏幕，亲近自然",
+    "why": "凸显 AI 在生活方式改变中的潜力，呼应可持续发展主题。"
+   }
+  },
+  "hash": "87e065c4ec275d9a"
+ },
+ "devto:4830281": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇文章是 Hacktoberfest 开源 AI 挑战第一周的作品，探讨在 AI 场景下的无屏户外体验，鼓励人们‘触摸草地’。",
+    "points": [
+     "鼓励在 Hacktoberfest 期间开展 AI 与户外活动的结合",
+     "倡导‘触摸草地’，减少屏幕使用",
+     "提供开源 AI 挑战素材与思路"
+    ],
+    "title": "🌲 OUTSIDE：无屏户外探索",
+    "why": "将 AI 与自然活动结合，倡导数字健康。"
+   }
+  },
+  "hash": "1f2c8d9f634d9cb9"
+ },
+ "devto:4830344": {
+  "copy": {
+   "zh": {
+    "blurb": "此项目同样是 Hacktoberfest 开源 AI 挑战第一周的参赛作品，利用本地 AI 将用户对某地点的家庭记忆生成个性化步行路线。",
+    "title": "SmritiPath：用本地 AI 将家庭记忆转化为步行路线",
+    "why": "展示 AI 在个人记忆保存与本地计算中的潜力，提升隐私友好型创意体验。"
+   }
+  },
+  "hash": "14640b915d000839"
+ },
+ "devto:4830455": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 LOESS（局部回归平滑）算法的实现细节，展示如何用 Rust 重建高性能平滑器。",
+    "title": "在 Rust 中重写经典 LOESS 平滑算法",
+    "why": "展示 Rust 在数值算法实现中的优势，提升性能与可靠性。"
+   }
+  },
+  "hash": "02110b917aad7f26"
+ },
+ "devto:4830514": {
+  "copy": {
+   "zh": {
+    "blurb": "为 Klipper 打印机提供插件宿主，兼容 Mainsail、Fluidd，类似 OctoPrint，实现硬件与软件插件集成。",
+    "title": "KlipPlug：Klipper 打印机的插件托管平台",
+    "why": "促进 3D 打印生态模块化扩展，提升用户自定义能力。"
+   }
+  },
+  "hash": "7ae4c28b72c5765b"
+ },
+ "devto:4830524": {
+  "copy": {
+   "zh": {
+    "blurb": "作者维护 schemagate，一个阻止 AI 代理访问的开源库和 MCP 服务器，短时间内获得四个供应链安全徽章。",
+    "title": "单人开源项目一天内获四个供应链徽章",
+    "why": "展示供应链安全工具在小型项目中的可行性与重要性。"
+   }
+  },
+  "hash": "31c8d9cdd1029436"
+ },
+ "devto:4830605": {
+  "copy": {
+   "zh": {
+    "blurb": "Dynoxide 1.3.0 解决两个安全问题，改进对 DynamoDB 查询细节的兼容，并修正向量容量计数错误，作者提供升级注意事项。",
+    "title": "Dynoxide 1.3.0：安全修复与更严谨的分页",
+    "why": "安全漏洞和分页错误会导致数据不一致，及时更新可保障系统可靠性。"
+   }
+  },
+  "hash": "feff24eebd138848"
+ },
+ "devto:4830667": {
+  "copy": {
+   "zh": {
+    "blurb": "作者发布 TheLastCodeBender 项目，旨在通过 Claude 的代码技能将个人 GitHub 项目转化为可展示的开发者排名，实现代码展示与 AI 辅助。",
+    "title": "开源 TheLastCodeBender：将 GitHub 转化为 Claude 代码技能并获取开发者排名",
+    "why": "将代码贡献与 AI 能力结合，可提升个人品牌并激励开源贡献。"
+   }
+  },
+  "hash": "86fefa49bff8b850"
+ },
+ "devto:4830727": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享使用 Claude 代码技能自动生成教学视频的流程，展示如何免费制作高质量的可汗学院风格教学内容。",
+    "title": "Claude 代码技能用于内容创作：免费制作可汗学院风格视频",
+    "why": "降低了高质量教育视频的制作成本，扩大了 AI 在内容创作中的应用。"
+   }
+  },
+  "hash": "367917bf90df89f3"
+ },
+ "devto:4830939": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍一种在不使用虚拟机、沙箱或抢夺光标的情况下，直接驱动真实桌面的技术方案，讨论其实现细节与潜在应用。",
+    "title": "无需虚拟机、沙箱或劫持光标的真实桌面驱动",
+    "why": "提供更轻量、低延迟的远程桌面或自动化方案，提升用户体验和安全性。"
+   }
+  },
+  "hash": "ce3f7980bcaa9427"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -467,6 +749,16 @@
    }
   },
   "hash": "f2fcc7b4eda3158a"
+ },
+ "gh:anthropics/knowledge-work-plugins": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一个开源插件库，面向知识工作者，供Claude Cowork使用，提供多种功能提升工作效率。",
+    "title": "anthropics/knowledge-work-plugins：为Claude Cowork的知识工作者插件",
+    "why": "在AI助理日益融入工作流时，提供可定制插件可快速提升Claude的实用性。"
+   }
+  },
+  "hash": "b56a1c37467f6f03"
  },
  "gh:appwrite/appwrite": {
   "copy": {
@@ -733,6 +1025,21 @@
   },
   "hash": "2ce6c90fb07ce463"
  },
+ "gh:duartesantos8/opengym": {
+  "copy": {
+   "zh": {
+    "blurb": "openGym 是一套自托管的健身与体重追踪系统，支持制定训练计划、记录超组、热身和有氧等多种动作，能够导入 FitNotes、Strong、Hevy 等数据，并使用 Passkey 登录，数据完全保存在用户服务器。",
+    "points": [
+     "本地服务器存储，数据自主掌控。",
+     "支持多种训练类型的计划与日志功能。",
+     "可从主流健身 App 导入历史记录并使用 Passkey 登录。"
+    ],
+    "title": "openGym：自托管的体能训练与体重追踪平台",
+    "why": "提供隐私友好的本地化健身管理，避免第三方数据泄露。"
+   }
+  },
+  "hash": "b9e3ae1c1f9e6424"
+ },
  "gh:earthtojake/text-to-cad": {
   "copy": {
    "zh": {
@@ -927,6 +1234,16 @@
   },
   "hash": "73040f51f5554a53"
  },
+ "gh:lexmount/moli": {
+  "copy": {
+   "zh": {
+    "blurb": "用 Rust 构建的轻量高速无头浏览器，兼容性高，专为 AI 代理设计。",
+    "title": "Moli：面向 AI 代理的轻量高速无头浏览器",
+    "why": "为 AI 代理提供高效网页交互，降低资源占用。"
+   }
+  },
+  "hash": "9b6450b5440bd62f"
+ },
  "gh:librechat-ai/librechat": {
   "copy": {
    "zh": {
@@ -987,6 +1304,16 @@
   },
   "hash": "5e2fdb9a7bba3219"
  },
+ "gh:mksglu/context-mode": {
+  "copy": {
+   "zh": {
+    "blurb": "通过沙盒化工具输出实现 98% 减少，持久化会话记忆，并通过 MCP 与钩子在 17 平台实现路由。",
+    "title": "Context Mode：AI 编码代理的上下文窗口优化",
+    "why": "提升 AI 编码效率，降低资源消耗，跨平台兼容重要。"
+   }
+  },
+  "hash": "44ca3a4a470a0826"
+ },
  "gh:morluto/rea": {
   "copy": {
    "zh": {
@@ -1020,9 +1347,14 @@
  "gh:multica-ai/andrej-karpathy-skills": {
   "copy": {
    "zh": {
-    "blurb": "一个 CLAUDE.md 文件，汇总了 Andrej Karpathy 对 LLM 编码陷阱的观察，用以提升 Claude Code 的代码生成行为。",
-    "title": "multica-ai/andrej-karpathy-skills",
-    "why": "帮助开发者降低 Claude Code 的编码错误，提升代码质量。"
+    "blurb": "提供一个CLAUDE.md文件，汇总Andrej Karpathy对LLM编码陷阱的观察，以改进Claude Code的行为表现。",
+    "points": [
+     "汇聚Karpathy对LLM编码缺陷的洞见。",
+     "通过CLAUDE.md直接影响Claude Code行为。",
+     "易于在项目中加入，提升代码生成质量。"
+    ],
+    "title": "andrej-karpathy-skills：提升Claude Code的单文件技巧集",
+    "why": "帮助开发者规避常见LLM编码错误，提升Claude Code在实际编码中的可靠性。"
    }
   },
   "hash": "047a33bf2d30e3fc"
@@ -1041,6 +1373,21 @@
    }
   },
   "hash": "5e76d82b4e2fb4f2"
+ },
+ "gh:niko1221/strata": {
+  "copy": {
+   "zh": {
+    "blurb": "Strata 是一个一键式推理引擎，能够在 Windows 与 Linux 的消费级硬件上运行 Qwen3.8‑Flash‑Next，提供本地 OpenAI/Anthropic API 替代并支持图像输入。",
+    "points": [
+     "一键安装脚本，快速部署于 Windows 与 Linux。",
+     "本地提供兼容 OpenAI/Anthropic 的 API 接口。",
+     "支持图像输入，实现多模态推理功能。"
+    ],
+    "title": "Strata：在消费级硬件上运行 Qwen3.8‑Flash‑Next 的一键推理引擎",
+    "why": "让普通用户也能本地体验大模型推理，降低云算力依赖。"
+   }
+  },
+  "hash": "becf337a0451cb7a"
  },
  "gh:ollama/ollama": {
   "copy": {
@@ -1261,6 +1608,75 @@
   },
   "hash": "970178b3481b417a"
  },
+ "gh:storytold/filmcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "filmcraft 是一个用纯 Rust 重写的开源视频编辑器，旨在提供与 Adobe Premiere Pro 类似的功能，同时保持干净的代码基座，已获 8757 星。",
+    "points": [
+     "纯 Rust 编写，避免依赖 C++ 库",
+     "提供 Premiere Pro 核心编辑功能，兼容常见格式",
+     "开源清洁实现，可供二次开发和学习"
+    ],
+    "title": "filmcraft：Rust 实现的开源 Premiere Pro 替代品",
+    "why": "Rust 的安全和高性能让视频编辑更可靠，开源替代降低了对专有软件的依赖。"
+   }
+  },
+  "hash": "0859c58d3d128886"
+ },
+ "gh:storytold/lightcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "lightcraft 用纯 Rust 重建 Adobe Lightroom 的核心功能，提供开源的照片管理与编辑工具，已获 9102 星。",
+    "points": [
+     "Rust 重写 Lightroom，提供照片管理与编辑核心功能",
+     "无专利依赖，易于自定义工作流",
+     "高效内存管理，适合专业摄影师使用"
+    ],
+    "title": "lightcraft：Rust 实现的开源 Lightroom 替代品",
+    "why": "Rust 的性能和安全提升了摄影工作流的可靠性，降低对专有 Lightroom 的依赖。"
+   }
+  },
+  "hash": "70b3be31899d7a69"
+ },
+ "gh:storytold/pdfcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "pdfcraft 是用纯 Rust 编写的开源 PDF 工具，重新实现 Adobe Acrobat 的核心查看与编辑功能，已获 8067 星。",
+    "points": [
+     "Rust 编写的 Acrobat 替代品，支持 PDF 查看与编辑",
+     "无专利代码，完全开源，可自行构建",
+     "高性能实现，适合嵌入式或跨平台使用"
+    ],
+    "title": "pdfcraft：Rust 实现的开源 Acrobat 替代品",
+    "why": "提供安全、高效的 PDF 处理方案，摆脱专有软件限制。"
+   }
+  },
+  "hash": "250c21e0a23a71fb"
+ },
+ "gh:storytold/photocraft": {
+  "copy": {
+   "zh": {
+    "blurb": "photocraft 是用纯 Rust 从零实现的 Photoshop 功能集合，提供图层、滤镜等核心编辑能力，零依赖、跨平台。",
+    "points": [
+     "完全使用 Rust 重写 Photoshop 核心功能",
+     "零依赖、跨平台，适合安全审计"
+    ],
+    "title": "photocraft：纯 Rust 重写的开源 Photoshop 实现",
+    "why": "展示 Rust 在高性能图形编辑领域的可行性，便于审计与社区维护。"
+   }
+  },
+  "hash": "213d17eedd74b252"
+ },
+ "gh:tashfeenahmed/freellmapi": {
+  "copy": {
+   "zh": {
+    "blurb": "提供每月74 亿 token、34家免费 LLM 提供商、635 个模型端点，统一 /v1 接口，支持智能路由、自动故障转移、密钥加密，适用于个人实验。",
+    "title": "tashfeenahmed/freellmapi：统一免费LLM接入平台",
+    "why": "降低了尝试多模型的门槛，帮助开发者快速比较和使用免费 LLM。"
+   }
+  },
+  "hash": "d6885f9317545d79"
+ },
  "gh:thedotmack/claude-mem": {
   "copy": {
    "zh": {
@@ -1395,6 +1811,21 @@
    }
   },
   "hash": "4f6629a89b930509"
+ },
+ "gh:yetone/magpie": {
+  "copy": {
+   "zh": {
+    "blurb": "提供统一入口，集成DeepSeek的Codex、Kimi的Claude Code等多种代码生成模型，可直接从系统菜单栏调用。",
+    "points": [
+     "集成DeepSeek Codex与Kimi Claude Code等多模型。",
+     "通过系统菜单栏一键调用，使用便捷。",
+     "统一管理所有代码助手，优化工作流。"
+    ],
+    "title": "magpie：一站式聚合多模型代码助手的菜单栏工具",
+    "why": "让开发者无需切换IDE或浏览器，即可快速切换模型，提高编码效率。"
+   }
+  },
+  "hash": "17f6938e07bf5034"
  },
  "gh:ys-ll/uniterm": {
   "copy": {
@@ -2341,6 +2772,20 @@
   },
   "hash": "c1219852c454f925"
  },
+ "hn:50033721": {
+  "copy": {
+   "zh": {
+    "blurb": "PVX-001 是首个开源 Covid‑19 疫苗项目，现已启动第一期人体试验，公开疫苗设计与生产工艺。",
+    "points": [
+     "开源疫苗代码公开，促进全球合作",
+     "已进入 Phase 1 临床试验，验证安全性"
+    ],
+    "title": "PVX-001：开源 Covid‑19 疫苗进入 Phase 1 临床试验",
+    "why": "开放源码加速全球疫苗研发与公平分配。"
+   }
+  },
+  "hash": "32a74b828abb7c22"
+ },
  "hn:50033878": {
   "copy": {
    "zh": {
@@ -2351,15 +2796,94 @@
   },
   "hash": "9783db6a75891f47"
  },
+ "hn:50035886": {
+  "copy": {
+   "zh": {
+    "blurb": "Nvidia 正在与美国的开源大模型初创公司 Reflection AI 商谈收购，旨在将其开放模型技术整合进自家硬件与软件生态。",
+    "points": [
+     "Nvidia 通过收购扩展其 AI 软硬件全栈能力",
+     "Reflection AI 提供开源大模型技术和社区资源",
+     "可能加速开源模型在 Nvidia GPU 上的落地与创新"
+    ],
+    "title": "Nvidia 谈判收购美国开源模型初创公司 Reflection AI",
+    "why": "此举将加强 Nvidia 在开放模型领域的布局，推动生态合作与模型部署效率提升。"
+   }
+  },
+  "hash": "ef43a4fb67da7a50"
+ },
+ "hn:50038332": {
+  "copy": {
+   "zh": {
+    "blurb": "TruthBeacon 是一款基于 Rust 后端和 Tauri 前端的开源 Discord 管理工具，提供轻量跨平台桌面客户端，帮助服务器管理员高效审查内容。",
+    "points": [
+     "核心逻辑采用 Rust，确保高效与安全。",
+     "使用 Tauri 打包，生成跨平台的轻量桌面应用。",
+     "完全开源，可自行托管 Discord 管理服务。"
+    ],
+    "title": "TruthBeacon：基于 Tauri 与 Rust 的开源 Discord 管理应用",
+    "why": "利用 Rust 的高性能和 Tauri 的小体积，实现本地化、低资源的社区治理。"
+   }
+  },
+  "hash": "c34265547414fdde"
+ },
+ "hn:50038499": {
+  "copy": {
+   "zh": {
+    "blurb": "提供免费、开源的 LED 像素间距和显示尺寸计算器，帮助用户快速确定所需屏幕规格，支持离线使用。",
+    "points": [
+     "支持像素间距和显示尺寸的快速计算",
+     "基于浏览器的开源工具，可离线使用",
+     "帮助展览设计师快速评估 LED 屏幕需求"
+    ],
+    "title": "免费 LED 像素间距与显示尺寸计算器（开源）",
+    "why": "降低硬件选型成本，便利展览与媒体设计。"
+   }
+  },
+  "hash": "06c25e95bac7c5e8"
+ },
+ "hn:50038883": {
+  "copy": {
+   "zh": {
+    "blurb": "Littleguys 将 Claude、Codex 与 OpenClaw 等 AI 代理集成到 macOS 菜单栏，提供随手调出的代码和聊天功能。",
+    "points": [
+     "菜单栏快捷入口，随时调用多种 AI 代理",
+     "支持代码生成、对话与任务自动化",
+     "开源实现，易于自定义和扩展"
+    ],
+    "title": "Show HN：Littleguys – 在菜单栏中使用 Claude Code、Codex 与 OpenClaw 代理",
+    "why": "降低 AI 工具使用门槛，让开发者无需切换窗口即可获取智能帮助。"
+   }
+  },
+  "hash": "d011fbe17508b14b"
+ },
  "lobsters:gqaqgq": {
   "copy": {
    "zh": {
-    "blurb": "Voxlocal 是用 Rust 实现的极简语音代理，专注于本地语音交互，代码体积小、性能高，适合作为嵌入式或隐私敏感的语音应用基础。",
-    "title": "Voxlocal：用Rust编写的极简语音代理",
-    "why": "展示了 Rust 在语音 AI 领域的高效实现潜力。"
+    "blurb": "Voxlocal 是一个用 Rust 实现的最小化语音代理，涵盖语音捕获、意图解析与语音合成，代码简洁易嵌入。",
+    "points": [
+     "全栈 Rust 实现语音捕获、意图解析、回复合成",
+     "极简代码库，易于嵌入边缘设备"
+    ],
+    "title": "Voxlocal：用 Rust 编写的极简语音助理",
+    "why": "为资源受限的设备提供低延迟、可审计的本地语音交互方案。"
    }
   },
   "hash": "61d04afde88f156a"
+ },
+ "lobsters:rhy5zp": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客文章指出系统一致性不应仅在局部考虑，强调全局一致性的重要性，尤其在分布式系统和模型训练中。",
+    "points": [
+     "一致性是系统整体属性，需全局视角审视",
+     "局部修复可能无法解决全局一致性问题",
+     "对分布式训练和数据流水线具有指导意义"
+    ],
+    "title": "一致性并非局部属性",
+    "why": "提醒开发者在设计时关注整体一致性，防止局部优化导致全局错误。"
+   }
+  },
+  "hash": "4dc6ecb7d5a7ae9c"
  },
  "lobsters:rpiwtb": {
   "copy": {
@@ -2374,5 +2898,20 @@
    }
   },
   "hash": "8d4f04b10a8a6c0c"
+ },
+ "lobsters:t2fxpt": {
+  "copy": {
+   "zh": {
+    "blurb": "论文展示，使用标准平坦 Transformer 直接处理原始字节序列可在参数规模增大时超越传统子词模型，长序列带来额外计算优势。",
+    "points": [
+     "直接使用字节序列省去分词步骤",
+     "更长的序列提供额外计算，提升大模型性能",
+     "在大规模下表现优于传统子词 Transformer"
+    ],
+    "title": "Byte 语言模型：规模、涌现抽象与信息分配",
+    "why": "颠覆了必须使用分词器的传统观念，简化模型流水线并提升大规模训练效率。"
+   }
+  },
+  "hash": "328c7cbc2ed12e06"
  }
 }

@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -24,7 +24,6 @@
      "zh": "OpenMontage：首个开源智能视频制作系统"
     },
     "topics": [
-     "trend:daily",
      "trend:weekly"
     ],
     "type": "repo",
@@ -194,7 +193,7 @@
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
   "discovery:gh:huggingface/transformers": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:huggingface/transformers",
@@ -296,7 +295,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -371,7 +370,7 @@
    "sourceKey": "gh:manaflow-ai/cmux"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -412,7 +411,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -560,7 +559,7 @@
    "sourceKey": "hn:49995804"
   },
   "discovery:hn:50033878": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50033878",
