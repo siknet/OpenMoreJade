@@ -2,7 +2,7 @@
  "candidateRulesVersion": 5,
  "candidates": {
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -234,7 +234,7 @@
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
   "discovery:gh:huggingface/transformers": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:huggingface/transformers",
@@ -370,7 +370,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -525,6 +525,41 @@
     }
    },
    "sourceKey": "gh:stablyai/orca"
+  },
+  "discovery:gh:tencent/weknora": {
+   "observedAt": "2026-10-12T07:20:22.361Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:tencent/weknora",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-12T07:20:22.361Z",
+    "summary": {
+     "en": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+     "zh": "WeKnora 是腾讯开源的 LLM 知识平台，能够将原始文档转换为可查询的 RAG、自治推理代理及自维护 Wiki，使用 Go 语言实现，累计 33 344 星。"
+    },
+    "title": {
+     "en": "Tencent/WeKnora",
+     "zh": "WeKnora：开源LLM知识平台"
+    },
+    "topics": [
+     "trend:daily",
+     "trend:monthly"
+    ],
+    "type": "repo",
+    "url": "https://github.com/Tencent/WeKnora",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:tencent/weknora"
   },
   "discovery:gh:unslothai/unsloth": {
    "observedAt": "2026-10-10T07:04:56.138Z",
@@ -2585,6 +2620,42 @@
     }
    }
   },
+  "https://github.com/tencent/weknora": {
+   "days": {
+    "2026-10-12": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:tencent/weknora",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-12T07:20:22.361Z",
+    "summary": {
+     "en": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+     "zh": "WeKnora 是腾讯开源的 LLM 知识平台，能够将原始文档转换为可查询的 RAG、自治推理代理及自维护 Wiki，使用 Go 语言实现，累计 33 344 星。"
+    },
+    "title": {
+     "en": "Tencent/WeKnora",
+     "zh": "WeKnora：开源LLM知识平台"
+    },
+    "topics": [
+     "trend:daily",
+     "trend:monthly"
+    ],
+    "type": "repo",
+    "url": "https://github.com/Tencent/WeKnora",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   }
+  },
   "https://github.com/unclecode/crawl4ai": {
    "days": {
     "2026-10-06": 80,
@@ -2622,47 +2693,6 @@
     "why": {
      "en": "Prepare public web sources for reading and retrieval workflows.",
      "zh": "适合为阅读和检索任务准备公开网页资料。"
-    }
-   }
-  },
-  "https://github.com/zhulinsen/daily_stock_analysis": {
-   "days": {
-    "2026-10-12": 75
-   },
-   "resource": {
-    "freshnessBasis": "repo-updated",
-    "id": "discovery:gh:zhulinsen/daily_stock_analysis",
-    "level": "starter",
-    "scores": {
-     "authority": 5,
-     "clarity": 3,
-     "foundation": 3,
-     "practice": 4
-    },
-    "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-11T11:10:45.000Z",
-    "summary": {
-     "en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-     "zh": "该项目实现基于 LLM 的股票分析平台，聚合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。"
-    },
-    "title": {
-     "en": "ZhuLinsen/daily_stock_analysis",
-     "zh": "LLM 驱动的多市场股票分析系统"
-    },
-    "topics": [
-     "a-stock",
-     "ai-agent",
-     "aigc",
-     "llm",
-     "quant",
-     "quantitative-finance",
-     "quantitative-trading"
-    ],
-    "type": "repo",
-    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-    "why": {
-     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。结合语言模型的分析能力与实时数据，为投资者提供低成本、自动化的多市场情报。"
     }
    }
   },
@@ -4072,6 +4102,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/tencent/weknora": {
+   "active": true,
+   "currentEnteredAt": "2026-10-12T07:20:22.361Z",
+   "firstEnteredAt": "2026-10-12T07:20:22.361Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/unclecode/crawl4ai": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -4080,7 +4117,7 @@
    "returns": 0
   },
   "https://github.com/zhulinsen/daily_stock_analysis": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-11T17:41:07.692Z",
    "firstEnteredAt": "2026-10-11T17:41:07.692Z",
    "initial": false,
@@ -4410,6 +4447,7 @@
   "https://github.com/panniantong/agent-reach": "2026-10-06T09:37:13.355Z",
   "https://github.com/stablyai/orca": "2026-10-07T18:56:50.962Z",
   "https://github.com/subtitleedit/subtitleedit": "2026-10-06T09:37:13.355Z",
+  "https://github.com/tencent/weknora": "2026-10-12T07:20:22.361Z",
   "https://github.com/unclecode/crawl4ai": "2026-10-06T09:37:13.355Z",
   "https://github.com/unslothai/unsloth": "2026-10-09T18:21:05.907Z",
   "https://github.com/zhulinsen/daily_stock_analysis": "2026-10-07T18:56:50.962Z",

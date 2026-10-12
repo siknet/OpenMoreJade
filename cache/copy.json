@@ -14,6 +14,20 @@
   },
   "hash": "6e54e2e9cd6d9f52"
  },
+ "devto:4820647": {
+  "copy": {
+   "zh": {
+    "blurb": "AI Engineer New York 本周安排 137 场议程，最多同时进行五场，覆盖模型训练、部署、伦理等主题，适合开发者深度沉浸学习。",
+    "points": [
+     "每日多场并行议程，灵活选择感兴趣的主题",
+     "现场工作坊提供实战代码和模型调优技巧",
+     "社交环节聚集业界专家，便于拓展人脉"
+    ],
+    "title": "在 AI Engineer New York 度过一周的建议"
+   }
+  },
+  "hash": "74790e6b2603c204"
+ },
  "devto:4821100": {
   "copy": {
    "zh": {
@@ -28,6 +42,20 @@
    }
   },
   "hash": "63dcda890031cbef"
+ },
+ "devto:4824002": {
+  "copy": {
+   "zh": {
+    "blurb": "回顾过去十二年每年十月的 Hacktoberfest，累计约 3000 项开源 AI 项目，展示社区的规模与多样性。",
+    "points": [
+     "涵盖模型、工具、数据集等多种类型",
+     "社区协作推动技术创新",
+     "为新手提供快速上手的项目入口"
+    ],
+    "title": "一个周末：3000 个开源 AI 项目概览"
+   }
+  },
+  "hash": "b956b3c160869218"
  },
  "devto:4824129": {
   "copy": {
@@ -660,6 +688,20 @@
   },
   "hash": "367917bf90df89f3"
  },
+ "devto:4830780": {
+  "copy": {
+   "zh": {
+    "blurb": "作者指出，1976 年的 Makefile 与 1983 年的 init.d 示例凭借模型内部累计的 50 年 Unix 知识，胜过 2000 行人工提示规则，凸显了 LLM 的计算机科学常识。",
+    "points": [
+     "LLM 内部已蕴含 50 年 Unix 系统知识，超越手写提示规则。",
+     "1976 Makefile 与 1983 init.d 示例能直接驱动任务，比 2000 行提示更有效。",
+     "强调利用模型的“计算机科学常识”进行工程而非繁琐 DSL。"
+    ],
+    "title": "LLM 知道的你未意识到的 Unix 预训练知识"
+   }
+  },
+  "hash": "acdafa7053b3d19f"
+ },
  "devto:4830939": {
   "copy": {
    "zh": {
@@ -1033,6 +1075,171 @@
   },
   "hash": "7b2c6373212db1e5"
  },
+ "devto:4834296": {
+  "copy": {
+   "zh": {
+    "blurb": "本文为 2026 年在纽约举办的 AI Engineer 大会提供指南，聚焦华尔街、银行、对冲基金及金融科技等领域的 AI 应用。",
+    "points": [
+     "针对金融行业的 AI Engineer 2026 会议指南",
+     "在 Dev.to 获 9 条反应，热度 31.9/100"
+    ],
+    "title": "Your Guide to AI Engineer New York 2026"
+   }
+  },
+  "hash": "7df9b6f483b9b950"
+ },
+ "devto:4834297": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出多数银行租用外部 AI 代理，然而两位创始人自行构建了专属代理，探讨其技术与商业意义。",
+    "points": [
+     "阐述银行租赁 AI 代理的行业现状",
+     "介绍自主构建代理的技术实现路径",
+     "分析自研对合规、成本的潜在优势"
+    ],
+    "title": "银行租用 AI 代理：两位创始人自研案例"
+   }
+  },
+  "hash": "ea4203726d148fa7"
+ },
+ "devto:4834298": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨 AI 代理的身份识别问题，举例丹麦一位代理预订并支付咖啡品鉴，讨论银行与监管对 AI 交易的追踪需求。",
+    "title": "你的 AI 代理有身份吗？"
+   }
+  },
+  "hash": "b189c359e4a7ff18"
+ },
+ "devto:4834729": {
+  "copy": {
+   "zh": {
+    "blurb": "这是 Hacktoberfest 开源 AI 挑战的项目，提供基于 AI 的番茄钟教练，鼓励用户离开电脑、亲近自然草地，以 Stoic 思想提升自律。",
+    "points": [
+     "AI 驱动的番茄钟教练，强制用户离开屏幕去户外。",
+     "结合 Stoic 思想和 GigaChad 形象，提升自律与健康。",
+     "作为 Hacktoberfest 开源项目，代码可自由修改与贡献。"
+    ],
+    "title": "Chadodoro：强迫你触草的 Stoic GigaChad 番茄钟教练"
+   }
+  },
+  "hash": "117f43bc41d391cb"
+ },
+ "devto:4834895": {
+  "copy": {
+   "zh": {
+    "blurb": "Gemma 发起的垃圾步行活动，参与者每走一小时可获得 30 美分奖励，收集的垃圾可直接投放到回收机，倡导环保与健康兼得。",
+    "points": [
+     "步行收集垃圾即能获得微奖励，激励公众参与",
+     "回收机自动计量并返现，降低回收成本",
+     "活动结合 Hacktoberfest 开源 AI 挑战，提升可视化宣传"
+    ],
+    "title": "Gemma 计划垃圾步行：步行一小时赚 30 美分，终点为回收机"
+   }
+  },
+  "hash": "e1c0a3628f530e38"
+ },
+ "devto:4835759": {
+  "copy": {
+   "zh": {
+    "blurb": "TerraGemma 是一款离线运行的边缘 AI 越野助理，利用本地模型提醒徒步者放下手机，帮助专注自然，适合无网络环境。",
+    "title": "TerraGemma：离线边缘 AI 越野伴侣，提醒你放下手机"
+   }
+  },
+  "hash": "e9cdddcaeccb3a35"
+ },
+ "devto:4835905": {
+  "copy": {
+   "zh": {
+    "blurb": "文章列出六个可在周末完成并交付的 DevOps 项目，均使用开源 AI 模型，面向 Hacktoberfest DEV 挑战。",
+    "points": [
+     "项目均可在单个周末完成并部署",
+     "集成开源 AI 如 GPT、Stable Diffusion 等",
+     "鼓励贡献并参与 Hacktoberfest 社区"
+    ],
+    "title": "周末 DevOps 项目：6 个可用开源 AI 的交付方案"
+   }
+  },
+  "hash": "21adc2014f8ff13b"
+ },
+ "devto:4836015": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Hacktoberfest “Touch Grass” 挑战第一周使用 AI 向垃圾邮件提问，探索其价值与交互可能性。",
+    "points": [
+     "通过 AI 生成问题检验邮件过滤效果",
+     "实验性展示 AI 与日常邮件的互动",
+     "呼应 “Touch Grass” 主题，鼓励离线思考"
+    ],
+    "title": "我问垃圾邮件：值得走过去吗？"
+   }
+  },
+  "hash": "bba6d959a9d1e455"
+ },
+ "devto:4836096": {
+  "copy": {
+   "zh": {
+    "blurb": "《Wildmon: Find More Outside》是 Hacktoberfest 第一期“Touch Grass” AI 挑战的提交作品，鼓励用户走出户外并通过 AI 体验自然。",
+    "title": "Wildmon：走出户外的 AI 项目"
+   }
+  },
+  "hash": "930606b34f8005cb"
+ },
+ "devto:4836138": {
+  "copy": {
+   "zh": {
+    "blurb": "《NaturalDex》是 Hacktoberfest 2026 的离线优先自然收集游戏项目，旨在让玩家在无需网络的情况下探索自然并收集物种。",
+    "title": "NaturalDex：离线自然收集游戏"
+   }
+  },
+  "hash": "bacbe24dcf28096b"
+ },
+ "devto:4836187": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是一款离线边缘 AI “触摸草地”应用，不假设用户能行走，而是询问今日可行走的距离，以鼓励适度活动。",
+    "title": "每个“触摸草地”应用默认你能步行——我的应用询问你今天能走多远"
+   }
+  },
+  "hash": "9b7ae468b833727d"
+ },
+ "devto:4836246": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章是 DEV Hacktoberfest 开源 AI 挑战 Week 1 “Touch Grass” 的作品，利用 TabPFN 预测今日最佳出行时段，并由 Gemma 以自然语言呈现。",
+    "points": [
+     "TabPFN 进行天气/时段预测，Gemma 生成流畅文本",
+     "展示 AI 与日常生活决策的结合示例",
+     "作为 Hacktoberfest 开源 AI 挑战作品发布"
+    ],
+    "title": "Bahar：由 TabPFN 预测、Gemma 讲述的今日最佳出行时段"
+   }
+  },
+  "hash": "ca3633520dfe3ed3"
+ },
+ "devto:4836497": {
+  "copy": {
+   "zh": {
+    "blurb": "ShadeLoop 是一次 DEV Hacktoberfest 2026 “Touch Grass” 挑战的提交，提供一个基于开源模型的田野日志，鼓励用户每次外出 20 分钟并记录。",
+    "title": "ShadeLoop：让你户外 20 分钟的开源模型田野日志"
+   }
+  },
+  "hash": "d2c645e2304eb2fa"
+ },
+ "devto:4836498": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenTrips 项目提供一个数值化的周末外出建议，帮助用户判断本周末是否适合外出。",
+    "points": [
+     "基于 AI 模型预测天气与人流趋势",
+     "返回 0‑100 的出行分数供用户参考",
+     "开源实现，可自行部署和二次开发"
+    ],
+    "title": "OpenTrips：周末出行指数"
+   }
+  },
+  "hash": "b1e3f21c6e3d7a93"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -1211,17 +1418,11 @@
  "gh:cathrynlavery/diagram-design": {
   "copy": {
    "zh": {
-    "blurb": "HTML+SVG 的自包含图示集合，提供 44 种针对 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等 AI 编码助手的可视化示例，无需 Mermaid。",
-    "points": [
-     "离线 HTML+SVG，零依赖即用",
-     "专为多模型编辑场景设计的图形模板",
-     "支持直接嵌入文档或网页，提升可读性"
-    ],
-    "title": "diagram‑design：Claude Code 等模型的编辑式图示库",
-    "why": "统一、清晰的视觉说明帮助开发者快速理解模型功能和工作流。"
+    "blurb": "提供 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Pi 等工具的编辑图示，共 44 种图形，使用自包含的 HTML+SVG，去除阴影和 Mermaid 依赖。",
+    "title": "diagram-design：Claude Code 等工具的编辑图示集合"
    }
   },
-  "hash": "1173630aadb0b42d"
+  "hash": "34e52d9b486ab67f"
  },
  "gh:code-yeongyu/oh-my-openagent": {
   "copy": {
@@ -1425,6 +1626,20 @@
    }
   },
   "hash": "3c940e1778541ab8"
+ },
+ "gh:ebony-vinyl/dsh-our-free-model": {
+  "copy": {
+   "zh": {
+    "blurb": "通过在 dsh 中安装该插件，无需登录、注册或 API Key，即可免费无限制使用 DeepSeek V4.1 Flash、Kimi K3 等前沿大模型，简化本地部署。",
+    "points": [
+     "只需在 dsh 安装插件，即可免登录使用前沿大模型。",
+     "支持 DeepSeek V4.1 Flash、Kimi K3 等，完全免费且无限制。",
+     "采用 JavaScript 插件形式，易于在本地环境快速部署。"
+    ],
+    "title": "dsh 免费前沿模型插件"
+   }
+  },
+  "hash": "d2e912af28504677"
  },
  "gh:falkordb/falkordb": {
   "copy": {
@@ -1680,6 +1895,15 @@
    }
   },
   "hash": "bb30c01c8f622516"
+ },
+ "gh:lyogavin/airllm": {
+  "copy": {
+   "zh": {
+    "blurb": "AirLLM 是一个 GitHub 项目，实现了在单块 4 GB GPU 上推理 70 B 参数大模型，提供 Jupyter Notebook 示例，累计 36 787 星，热度 51.3。",
+    "title": "AirLLM：在单块4GB GPU上运行70B模型"
+   }
+  },
+  "hash": "9b1603390efb6475"
  },
  "gh:madslorentzen/ai-job-search": {
   "copy": {
@@ -2070,61 +2294,58 @@
  "gh:storytold/filmcraft": {
   "copy": {
    "zh": {
-    "blurb": "filmcraft 是一个用纯 Rust 重写的开源视频编辑器，旨在提供与 Adobe Premiere Pro 类似的功能，同时保持干净的代码基座，已获 8757 星。",
+    "blurb": "FilmCraft 是用纯 Rust 从零实现的开源非线性视频编辑器，支持多轨道编辑、实时预览和硬件加速渲染，面向对性能和安全有要求的创作者。",
     "points": [
-     "纯 Rust 编写，避免依赖 C++ 库",
-     "提供 Premiere Pro 核心编辑功能，兼容常见格式",
-     "开源清洁实现，可供二次开发和学习"
+     "基于 Rust 的内存安全和并发模型，提升编辑稳定性",
+     "提供时间线、多轨道剪辑和实时特效预览",
+     "支持 GPU 加速渲染，缩短输出时间"
     ],
-    "title": "filmcraft：Rust 实现的开源 Premiere Pro 替代品",
-    "why": "Rust 的安全和高性能让视频编辑更可靠，开源替代降低了对专有软件的依赖。"
+    "title": "FilmCraft：纯 Rust 编写的开源非线性视频编辑器"
    }
   },
-  "hash": "0859c58d3d128886"
+  "hash": "c26d61ad5a63d495"
  },
  "gh:storytold/lightcraft": {
   "copy": {
    "zh": {
-    "blurb": "lightcraft 用纯 Rust 重建 Adobe Lightroom 的核心功能，提供开源的照片管理与编辑工具，已获 9102 星。",
+    "blurb": "LightCraft 是一款开源的非破坏性照片编辑器，完全使用纯 Rust 从头编写，无需外部依赖，代码安全且性能出色。",
     "points": [
-     "Rust 重写 Lightroom，提供照片管理与编辑核心功能",
-     "无专利依赖，易于自定义工作流",
-     "高效内存管理，适合专业摄影师使用"
+     "全 Rust 编写，避免运行时依赖",
+     "支持非破坏性编辑，原图保持不变",
+     "已获 10,467 星，社区活跃，热度持续上升"
     ],
-    "title": "lightcraft：Rust 实现的开源 Lightroom 替代品",
-    "why": "Rust 的性能和安全提升了摄影工作流的可靠性，降低对专有 Lightroom 的依赖。"
+    "title": "LightCraft：纯 Rust 实现的非破坏性照片编辑器"
    }
   },
-  "hash": "70b3be31899d7a69"
+  "hash": "e606d211e0ea2cbd"
  },
  "gh:storytold/pdfcraft": {
   "copy": {
    "zh": {
-    "blurb": "pdfcraft 是用纯 Rust 编写的开源 PDF 工具，重新实现 Adobe Acrobat 的核心查看与编辑功能，已获 8067 星。",
+    "blurb": "PdfCraft 是一款用纯 Rust 从零编写的开源 PDF 阅读器和编辑器，支持高效渲染、文本提取以及页面编辑，适合对安全和性能有要求的用户。",
     "points": [
-     "Rust 编写的 Acrobat 替代品，支持 PDF 查看与编辑",
-     "无专利代码，完全开源，可自行构建",
-     "高性能实现，适合嵌入式或跨平台使用"
+     "全栈 Rust 实现，避免了跨语言绑定的安全隐患",
+     "支持页面增删、文本编辑和注释功能",
+     "利用 Rust 的所有权模型实现低内存占用和高速渲染"
     ],
-    "title": "pdfcraft：Rust 实现的开源 Acrobat 替代品",
-    "why": "提供安全、高效的 PDF 处理方案，摆脱专有软件限制。"
+    "title": "PdfCraft：纯 Rust 实现的开源 PDF 阅读与编辑器"
    }
   },
-  "hash": "250c21e0a23a71fb"
+  "hash": "cec5c48672c916ce"
  },
  "gh:storytold/photocraft": {
   "copy": {
    "zh": {
-    "blurb": "photocraft 是用纯 Rust 从零实现的 Photoshop 功能集合，提供图层、滤镜等核心编辑能力，零依赖、跨平台。",
+    "blurb": "PhotoCraft 是用纯 Rust 从零实现的开源照片编辑器，专注高性能和安全性。",
     "points": [
-     "完全使用 Rust 重写 Photoshop 核心功能",
-     "零依赖、跨平台，适合安全审计"
+     "全 Rust 编写，避免内存安全问题",
+     "提供裁剪、调色等基本编辑功能",
+     "支持跨平台编译，易于集成"
     ],
-    "title": "photocraft：纯 Rust 重写的开源 Photoshop 实现",
-    "why": "展示 Rust 在高性能图形编辑领域的可行性，便于审计与社区维护。"
+    "title": "PhotoCraft：纯 Rust 开源照片编辑器"
    }
   },
-  "hash": "213d17eedd74b252"
+  "hash": "13346426f35bf08e"
  },
  "gh:t8y2/dbx": {
   "copy": {
@@ -2144,6 +2365,24 @@
    }
   },
   "hash": "d6885f9317545d79"
+ },
+ "gh:tencent/weknora": {
+  "copy": {
+   "zh": {
+    "blurb": "WeKnora 是腾讯开源的 LLM 知识平台，能够将原始文档转换为可查询的 RAG、自治推理代理及自维护 Wiki，使用 Go 语言实现，累计 33 344 星。",
+    "title": "WeKnora：开源LLM知识平台"
+   }
+  },
+  "hash": "97d29dd5690743ce"
+ },
+ "gh:tencentcloud/octop": {
+  "copy": {
+   "zh": {
+    "blurb": "Octop 为企业提供自托管的 AI 助手，支持多用户和多代理协作，基于 Python 开发，具备更智能的对话与任务管理功能，累计 8 772 星。",
+    "title": "Octop：自托管多用户多代理 AI 助手"
+   }
+  },
+  "hash": "6ab95d25f236400d"
  },
  "gh:thedotmack/claude-mem": {
   "copy": {
@@ -2349,6 +2588,20 @@
   },
   "hash": "bddc4236314d1c6b"
  },
+ "hf:abenzerps/qwen-image-2.1-uncensored-quantized": {
+  "copy": {
+   "zh": {
+    "blurb": "该模型是未审查版 Qwen-Image 2.1 的量化实现，专注文本到图像生成，并通过低位宽量化降低推理成本，兼容 Hugging Face 接口。",
+    "points": [
+     "未审查版 Qwen-Image 2.1，专注生成更开放的图像内容。",
+     "已量化到低位宽，显著降低 GPU 推理成本。",
+     "适用于文本到图像任务，兼容 Hugging Face 推理接口。"
+    ],
+    "title": "Qwen-Image 2.1 未审查量化模型"
+   }
+  },
+  "hash": "ac143544548322e6"
+ },
  "hf:aleph-alpha/kolibri-1": {
   "copy": {
    "zh": {
@@ -2449,6 +2702,20 @@
    }
   },
   "hash": "2841e01977fac401"
+ },
+ "hf:conwayresearch/underdog-saluki-27b-1.0": {
+  "copy": {
+   "zh": {
+    "blurb": "Underdog‑Saluki‑27B‑1.0 是 ConwayResearch 发布的 27 B 参数文本生成模型，属于 text‑generation 类别，在 Hugging Face 上获 338 赞、趋势分 330，热度 81.2/100。",
+    "points": [
+     "27 B 参数的文本生成模型",
+     "在 Hugging Face 获 338 喜欢、趋势分 330",
+     "热度 81.2/100，排名 #3"
+    ],
+    "title": "ConwayResearch/Underdog-Saluki-27B-1.0"
+   }
+  },
+  "hash": "27d7ca880e071084"
  },
  "hf:google/embeddinggemma-2": {
   "copy": {
@@ -3355,16 +3622,16 @@
  "hn:50039092": {
   "copy": {
    "zh": {
-    "blurb": "作者展示使用 5000 亿 token 语料训练的 AI 代理，能够在第一人称射击游戏中读取并逆向分析代码，实现自动化解构。",
+    "blurb": "在训练了 5000 亿标记后，研究者让 AI 代理自行逆向一款第一人称射击游戏，展示了大模型在代码理解与生成上的新能力。",
     "points": [
-     "使用 500B token 规模的语言模型训练。",
-     "AI 代理在游戏环境中执行代码逆向。",
-     "证明 AI 在软件工程自动化中的新可能。"
+     "AI 代理在 5000 亿标记训练后能自行生成逆向代码。",
+     "成功将第一人称射击游戏反编译为可编辑的源代码。",
+     "展示了大规模语言模型的程序理解与生成潜力。"
     ],
-    "title": "5000亿标记后：让 AI 代理逆向第一人称射击游戏"
+    "title": "5000 亿标记后：让 AI 代理逆向第一人称射击游戏"
    }
   },
-  "hash": "a5183259f5ee91b2"
+  "hash": "1ee8d2876eeeae4b"
  },
  "hn:50041068": {
   "copy": {
@@ -3392,6 +3659,90 @@
    }
   },
   "hash": "7dfcb4279281a8be"
+ },
+ "hn:50047422": {
+  "copy": {
+   "zh": {
+    "blurb": "Andrej Karpathy 在推特指出，业界对大型语言模型真实能力的共识正在下降，导致误解和不合理的期望，呼吁建立统一评估基准。",
+    "points": [
+     "Karpathy 指出现实中对 LLM 能力的共识正在下降。",
+     "误解导致研发资源分配和产品期望出现偏差。",
+     "呼吁社区建立统一的评估基准以缩小认知差距。"
+    ],
+    "title": "LLM 能力认知鸿沟正在扩大"
+   }
+  },
+  "hash": "81fae1139faac873"
+ },
+ "hn:50047905": {
+  "copy": {
+   "zh": {
+    "blurb": "LLMxRay 是一套开源的 LLM 可观测性平台，帮助开发者实时监控、追踪和分析大语言模型的推理过程、性能瓶颈和输出质量。",
+    "points": [
+     "提供调用链可视化，定位推理延迟来源",
+     "支持自定义指标和日志输出，兼容主流 LLM 框架",
+     "开源社区持续贡献插件，易于扩展"
+    ],
+    "title": "LLMxRay：面向大模型的开源可观测性工具"
+   }
+  },
+  "hash": "6dfc877a3887901f"
+ },
+ "hn:50048892": {
+  "copy": {
+   "zh": {
+    "blurb": "Seodata.dev 1.1 版升级 API，响应更快并加入 MCP 2.0，提供免费、结构化的搜索结果，帮助 AI 代理快速获取可靠信息。",
+    "points": [
+     "API 响应速度显著提升，降低查询延迟",
+     "新增 MCP 2.0 模块，提升结果匹配精度",
+     "完全免费使用，适配多种 AI 助手和检索任务"
+    ],
+    "title": "Seodata.dev (1.1)：为 AI 代理提供免费搜索数据"
+   }
+  },
+  "hash": "07bb6e458bf58c01"
+ },
+ "hn:50049872": {
+  "copy": {
+   "zh": {
+    "blurb": "Doory 是一个开源的 Canva 替代方案，代码托管在 GitHub，旨在提供在线平面设计功能，在 Hacker News 获 87 分、18 条评论，热度 49.6/100。",
+    "points": [
+     "提供类似 Canva 的在线设计功能",
+     "在 Hacker News 获 87 分、18 条评论",
+     "热度 49.6/100，排名 #3"
+    ],
+    "title": "Doory – Open-Source Canva"
+   }
+  },
+  "hash": "6b350d63ca8297e4"
+ },
+ "hn:50050370": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 GitHub 上实现了一个纯 Rust、清洁室重写的 Microsoft Word 替代品，代码开源，可视为 Word 的 Rust 版实现。",
+    "points": [
+     "使用纯 Rust 重写 Microsoft Word，遵循清洁室原则",
+     "在 Hacker News 获 93 分、88 条评论，热度 62.6/100",
+     "首次上榜，排名 #2"
+    ],
+    "title": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust"
+   }
+  },
+  "hash": "f1c7732bf4c77702"
+ },
+ "hn:50050732": {
+  "copy": {
+   "zh": {
+    "blurb": "Skills Hub 是一款桌面应用，用于组织和切换 AI 代理的技能集合，便于开发者管理多技能模型。",
+    "points": [
+     "图形化界面直观管理技能库",
+     "支持本地存储并可同步至云端",
+     "快速为不同任务切换技能配置"
+    ],
+    "title": "Skills Hub：管理 AI 代理技能的桌面应用"
+   }
+  },
+  "hash": "23e55b789b10d2ca"
  },
  "lobsters:4ehrkn": {
   "copy": {
@@ -3480,6 +3831,46 @@
   },
   "hash": "a90b7aed024e75ae"
  },
+ "lobsters:9zcxev": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了 3‑2‑1 备份策略，结合开源工具 restic 与云存储 Backblaze B2，实现本地、异地和长期归档三层安全备份。",
+    "title": "3‑2‑1 备份策略：restic + Backblaze B2"
+   }
+  },
+  "hash": "68a6d450025cb6c0"
+ },
+ "lobsters:cthze7": {
+  "copy": {
+   "zh": {
+    "blurb": "作者记录了翻新 Alpha Micro Eagle 300 及其他旧硬件的过程，分享拆解、清理和恢复使用的经验与技巧。",
+    "title": "翻新周末 II：Alpha Micro Eagle 300 及其伙伴"
+   }
+  },
+  "hash": "7520ca06d416ab9f"
+ },
+ "lobsters:dodzdb": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在Rust上投入六年研发一款游戏，近期正式上线，并在AMA中分享关键经验与技术挑战。",
+    "points": [
+     "长期开发展示了Rust在性能与安全上的优势",
+     "发布后社区对游戏质量和开发过程反响热烈"
+    ],
+    "title": "6年Rust游戏开发完结 AMA 精要"
+   }
+  },
+  "hash": "e8f775e35a2d0413"
+ },
+ "lobsters:dxftjg": {
+  "copy": {
+   "zh": {
+    "blurb": "教程展示如何在 Linux 系统下将 GameSir T1d 手柄配置为兼容 Xbox 的游戏控制器，涵盖驱动安装与按键映射。",
+    "title": "将 Tello 的 GameSir T1d 控制器设为 Linux Xbox 手柄"
+   }
+  },
+  "hash": "f0fe095d3b9f9aa6"
+ },
  "lobsters:e84scc": {
   "copy": {
    "zh": {
@@ -3502,6 +3893,20 @@
    }
   },
   "hash": "0b054b019e3f6cb9"
+ },
+ "lobsters:ezucf0": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分享多种 CSS 方法实现自定义下划线，包括 text‑decoration、伪元素和渐变，提升网页排版美感。",
+    "points": [
+     "使用 text‑decoration‑skip‑ink 改善可读性",
+     "通过 ::after 伪元素实现精细样式",
+     "注意跨浏览器兼容性细节"
+    ],
+    "title": "CSS 实现下划线的技巧"
+   }
+  },
+  "hash": "501952c964747f7c"
  },
  "lobsters:fbs3k7": {
   "copy": {
@@ -3557,6 +3962,32 @@
   },
   "hash": "e23e6293113fa23d"
  },
+ "lobsters:ikk8ie": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇观点文章，论述 AI 不应被简化为单纯的工具，而需考虑其社会与伦理影响。",
+    "points": [
+     "强调 AI 的角色超越技术工具层面",
+     "呼吁对 AI 的使用进行更深层次的思考"
+    ],
+    "title": "《AI 不是工具》"
+   }
+  },
+  "hash": "be88699e28479bc8"
+ },
+ "lobsters:k2natg": {
+  "copy": {
+   "zh": {
+    "blurb": "《I'm sorry, but you still have to think》是 Lobsters 上的技术文章，获得 49 分、3 条评论，热度 59.9/100，首次上榜。",
+    "points": [
+     "在 Lobsters 获 49 分，排名 #2",
+     "热度 59.9/100，首次登榜"
+    ],
+    "title": "I'm sorry, but you still have to think"
+   }
+  },
+  "hash": "fa646fd40a583294"
+ },
  "lobsters:lwwtpu": {
   "copy": {
    "zh": {
@@ -3571,6 +4002,15 @@
   },
   "hash": "b80782de4e25890c"
  },
+ "lobsters:lxsu0m": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍如何通过 React Compiler 优化 React Context 的使用，使其在运行时开销更低，提升组件树的渲染性能。",
+    "title": "使用 React Compiler 让 Context 更高效"
+   }
+  },
+  "hash": "965f0188a6349aab"
+ },
  "lobsters:mbyawi": {
   "copy": {
    "zh": {
@@ -3583,6 +4023,19 @@
    }
   },
   "hash": "4de049ad41f26e42"
+ },
+ "lobsters:qgybwb": {
+  "copy": {
+   "zh": {
+    "blurb": "《D-Bus Hell》是 Lobsters 上的帖子，讨论 D-Bus 相关议题，获得 56 分、7 条评论，热度 65.8/100，首次登榜。",
+    "points": [
+     "在 Lobsters 获得 56 分，排名第一",
+     "热度 65.8/100，首次上榜"
+    ],
+    "title": "D-Bus Hell"
+   }
+  },
+  "hash": "56fd862aeb9d67b2"
  },
  "lobsters:rhy5zp": {
   "copy": {
@@ -3613,6 +4066,20 @@
   },
   "hash": "8d4f04b10a8a6c0c"
  },
+ "lobsters:sqftld": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍一种新型借用检查器，可无缝替代现有 Rust 借用检查，提供更友好的错误信息并保持编译兼容。",
+    "points": [
+     "drop‑in 替换，无需修改代码",
+     "改进诊断信息，提升开发者体验",
+     "与现有编译器兼容，保持安全保证"
+    ],
+    "title": "下一代 Rust 借用检查器：可直接替换的方案"
+   }
+  },
+  "hash": "057a41889d0d44ad"
+ },
  "lobsters:t2fxpt": {
   "copy": {
    "zh": {
@@ -3641,6 +4108,34 @@
    }
   },
   "hash": "3f9e31aeab10b940"
+ },
+ "lobsters:uzfa4k": {
+  "copy": {
+   "zh": {
+    "blurb": "本文（arXiv:2609.05370）探讨 LLM 生成的反编译器在重新编译代码时倾向于生成更多新代码，却保留原始结构更少的现象。",
+    "points": [
+     "分析 LLM 生成的反编译代码的可读性与保真度",
+     "提出评估指标衡量代码保留程度",
+     "讨论对软件安全和逆向工程的潜在影响"
+    ],
+    "title": "当 LLM 反编译器重新编译更多、保留更少时"
+   }
+  },
+  "hash": "542f199e1ed43c47"
+ },
+ "lobsters:wyxufm": {
+  "copy": {
+   "zh": {
+    "blurb": "探讨当今多语言文档站点的碎片化与混乱现象，提出治理与统一的挑战。",
+    "points": [
+     "指出不同语言文档同步的难题",
+     "分析工具链兼容性带来的挑战",
+     "呼吁制定标准化方案以提升协作效率"
+    ],
+    "title": "多语言文档站的狂野西部"
+   }
+  },
+  "hash": "4b43200063ce080a"
  },
  "lobsters:zziknb": {
   "copy": {

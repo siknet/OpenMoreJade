@@ -11735,21 +11735,21 @@
    "category": "industry",
    "key": "hn:50035886",
    "metrics": {
-    "comments": 110,
+    "comments": 114,
     "frontPage": 0,
-    "points": 173
+    "points": 176
    },
    "news": {
     "author": "arkj",
-    "comments": 110,
+    "comments": 114,
     "createdAt": "2026-10-10T18:48:35.000Z",
     "domain": "ft.com",
     "hnId": 50035886,
     "hnUrl": "https://news.ycombinator.com/item?id=50035886",
-    "points": 173,
-    "showRank": 37
+    "points": 176,
+    "showRank": 35
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-10T18:48:35.000Z",
    "refs": [
     "url:ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
@@ -11896,21 +11896,21 @@
    "category": "discussion",
    "key": "hn:50039092",
    "metrics": {
-    "comments": 91,
+    "comments": 137,
     "frontPage": 0,
-    "points": 122
+    "points": 192
    },
    "news": {
     "author": "davikr",
-    "comments": 91,
+    "comments": 137,
     "createdAt": "2026-10-11T02:02:38.000Z",
     "domain": "momo5502.com",
     "hnId": 50039092,
     "hnUrl": "https://news.ycombinator.com/item?id=50039092",
-    "points": 122,
-    "showRank": 47
+    "points": 192,
+    "showRank": 32
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T02:02:38.000Z",
    "refs": [
     "url:momo5502.com/posts/2026-10-09-game-decompilation"
@@ -11931,7 +11931,7 @@
    ],
    "summary": "",
    "tags": [],
-   "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
    "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/"
   },
   {
@@ -11978,21 +11978,21 @@
    "category": "tool",
    "key": "hn:50042333",
    "metrics": {
-    "comments": 38,
+    "comments": 111,
     "frontPage": 0,
-    "points": 68
+    "points": 191
    },
    "news": {
     "author": "kartik017",
-    "comments": 38,
+    "comments": 111,
     "createdAt": "2026-10-11T12:01:28.000Z",
     "domain": "betterwispr.com",
     "hnId": 50042333,
     "hnUrl": "https://news.ycombinator.com/item?id=50042333",
-    "points": 68,
-    "showRank": 1
+    "points": 191,
+    "showRank": 4
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T12:01:28.000Z",
    "refs": [
     "url:betterwispr.com"
@@ -13207,6 +13207,57 @@
    ],
    "title": "TrailMind: I Built an AI That Identifies Wildlife Offline So Your Phone Stays in Your Pocket",
    "url": "https://dev.to/devkumar2313/trailmind-i-built-an-ai-that-identifies-wildlife-offline-so-your-phone-stays-in-your-pocket-3bak"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Randal L. Schwartz",
+    "comments": 22,
+    "createdAt": "2026-10-11T00:59:52Z",
+    "domain": "dev.to",
+    "id": 4830780,
+    "points": 15,
+    "url": "https://dev.to/gde/what-llms-know-that-you-dont-know-they-know-stop-inventing-prompt-dsls-and-ride-50-years-of-2bl6"
+   },
+   "key": "devto:4830780",
+   "metrics": {
+    "comments": 22,
+    "frontPage": 0,
+    "points": 15
+   },
+   "news": {
+    "author": "Randal L. Schwartz",
+    "comments": 22,
+    "createdAt": "2026-10-11T00:59:52Z",
+    "domain": "dev.to",
+    "hnId": 4830780,
+    "hnUrl": "https://dev.to/gde/what-llms-know-that-you-dont-know-they-know-stop-inventing-prompt-dsls-and-ride-50-years-of-2bl6",
+    "points": 15
+   },
+   "observedAt": "2026-10-12T07:20:22.361Z",
+   "publishedAt": "2026-10-11T00:59:52Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Why did a 1976 Makefile (Part 3.6) and a 1983 Unix init.d directory (Part 3.7) outperform 2,000 lines of English prompt rules? Because prompt engineering is static symbol linkage against 50 years of pre-trained computer science canon.",
+   "tags": [
+    "source:dev-to",
+    "tag:ai",
+    "tag:programming",
+    "tag:unix",
+    "tag:architecture"
+   ],
+   "title": "What LLMs 'Know' That You Don't Know They Know: Stop Inventing Prompt DSLs and Ride 50 Years of Unix Pre-Training Gravity",
+   "url": "https://dev.to/gde/what-llms-know-that-you-dont-know-they-know-stop-inventing-prompt-dsls-and-ride-50-years-of-2bl6"
   },
   {
    "board": "devto",
@@ -14898,7 +14949,7 @@
     "hnUrl": "https://dev.to/puneetkumar2010/day-9-of-building-crowdwide-i-almost-let-it-sleep-for-8-10-days-45mg",
     "points": 10
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T08:03:03Z",
    "refs": [],
    "relevance": {
@@ -15657,28 +15708,28 @@
    "key": "lobsters:4ehrkn",
    "lobsters": {
     "author": "jcd",
-    "comments": 13,
+    "comments": 30,
     "createdAt": "2026-10-11T09:44:03.386-05:00",
     "domain": "rachelbythebay.com",
-    "points": 35,
+    "points": 123,
     "shortId": "4ehrkn",
     "url": "https://rachelbythebay.com/w/2026/10/08/idle/"
    },
    "metrics": {
-    "comments": 13,
+    "comments": 30,
     "frontPage": 0,
-    "points": 35
+    "points": 123
    },
    "news": {
     "author": "jcd",
-    "comments": 13,
+    "comments": 30,
     "createdAt": "2026-10-11T09:44:03.386-05:00",
     "domain": "rachelbythebay.com",
     "hnId": 266208215,
     "hnUrl": "https://lobste.rs/s/4ehrkn/i_m_still_around_i_m_just_not_writing_here",
-    "points": 35
+    "points": 123
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T09:44:03.386-05:00",
    "refs": [],
    "relevance": {
@@ -15806,28 +15857,28 @@
    "key": "lobsters:6vjx1k",
    "lobsters": {
     "author": "typesanitizer",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-11T01:16:26.688-05:00",
     "domain": "pydantic.dev",
-    "points": 16,
+    "points": 20,
     "shortId": "6vjx1k",
     "url": "https://pydantic.dev/articles/dynamic-shredding-2026-01-26"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 3,
     "frontPage": 0,
-    "points": 16
+    "points": 20
    },
    "news": {
     "author": "typesanitizer",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-11T01:16:26.688-05:00",
     "domain": "pydantic.dev",
     "hnId": 415794440,
     "hnUrl": "https://lobste.rs/s/6vjx1k/how_shredding_json_is_giving_logfire",
-    "points": 16
+    "points": 20
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T01:16:26.688-05:00",
    "refs": [],
    "relevance": {
@@ -15956,28 +16007,28 @@
    "key": "lobsters:9wcfld",
    "lobsters": {
     "author": "rajtilakjee",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-11T04:25:42.986-05:00",
     "domain": "ratfactor.com",
-    "points": 23,
+    "points": 29,
     "shortId": "9wcfld",
     "url": "https://ratfactor.com/cards/git-commit-size"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 3,
     "frontPage": 0,
-    "points": 23
+    "points": 29
    },
    "news": {
     "author": "rajtilakjee",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-11T04:25:42.986-05:00",
     "domain": "ratfactor.com",
     "hnId": 598523377,
     "hnUrl": "https://lobste.rs/s/9wcfld/how_big_is_git_commit",
-    "points": 23
+    "points": 29
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T04:25:42.986-05:00",
    "refs": [],
    "relevance": {
@@ -16055,28 +16106,28 @@
    "key": "lobsters:ecxril",
    "lobsters": {
     "author": "timschumi",
-    "comments": 8,
+    "comments": 14,
     "createdAt": "2026-10-11T01:21:25.386-05:00",
     "domain": "lineageos.org",
-    "points": 29,
+    "points": 37,
     "shortId": "ecxril",
     "url": "https://lineageos.org/Changelog-32/"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 14,
     "frontPage": 0,
-    "points": 29
+    "points": 37
    },
    "news": {
     "author": "timschumi",
-    "comments": 8,
+    "comments": 14,
     "createdAt": "2026-10-11T01:21:25.386-05:00",
     "domain": "lineageos.org",
     "hnId": 868257165,
     "hnUrl": "https://lobste.rs/s/ecxril/lineageos_24_0_released",
-    "points": 29
+    "points": 37
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T01:21:25.386-05:00",
    "refs": [],
    "relevance": {
@@ -16106,28 +16157,28 @@
    "key": "lobsters:fbs3k7",
    "lobsters": {
     "author": "itamarst",
-    "comments": 8,
+    "comments": 19,
     "createdAt": "2026-10-10T18:25:51.517-05:00",
     "domain": "blog.scientific-python.org",
-    "points": 8,
+    "points": 11,
     "shortId": "fbs3k7",
     "url": "https://blog.scientific-python.org/numpy/searchsorted/"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 19,
     "frontPage": 0,
-    "points": 8
+    "points": 11
    },
    "news": {
     "author": "itamarst",
-    "comments": 8,
+    "comments": 19,
     "createdAt": "2026-10-10T18:25:51.517-05:00",
     "domain": "blog.scientific-python.org",
     "hnId": 926779399,
     "hnUrl": "https://lobste.rs/s/fbs3k7/making_np_searchsorted_up_25x_faster",
-    "points": 8
+    "points": 11
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-10T18:25:51.517-05:00",
    "refs": [],
    "relevance": {
@@ -16155,28 +16206,28 @@
    "key": "lobsters:gmnqhj",
    "lobsters": {
     "author": "Verdagon",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-11T07:23:01.029-05:00",
     "domain": "verdagon.dev",
-    "points": 12,
+    "points": 25,
     "shortId": "gmnqhj",
     "url": "https://verdagon.dev/blog/valen-group-borrowing"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 5,
     "frontPage": 0,
-    "points": 12
+    "points": 25
    },
    "news": {
     "author": "Verdagon",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-11T07:23:01.029-05:00",
     "domain": "verdagon.dev",
     "hnId": 1005517783,
     "hnUrl": "https://lobste.rs/s/gmnqhj/valen_s_memory_safety_new_kind_borrow",
-    "points": 12
+    "points": 25
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T07:23:01.029-05:00",
    "refs": [],
    "relevance": {
@@ -16257,14 +16308,14 @@
     "comments": 1,
     "createdAt": "2026-10-10T16:28:51.816-05:00",
     "domain": "righto.com",
-    "points": 18,
+    "points": 21,
     "shortId": "mbyawi",
     "url": "http://www.righto.com/2026/10/ML10-switched-capacitor-filter.html"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 18
+    "points": 21
    },
    "news": {
     "author": "calvin",
@@ -16273,9 +16324,9 @@
     "domain": "righto.com",
     "hnId": 1350332082,
     "hnUrl": "https://lobste.rs/s/mbyawi/inside_1980s_filter_chip_uses_switched",
-    "points": 18
+    "points": 21
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-10T16:28:51.816-05:00",
    "refs": [],
    "relevance": {
@@ -16305,28 +16356,28 @@
    "key": "lobsters:rhy5zp",
    "lobsters": {
     "author": "b--man",
-    "comments": 2,
+    "comments": 6,
     "createdAt": "2026-10-10T19:51:28.569-05:00",
     "domain": "n-the-loop.com",
-    "points": 5,
+    "points": 10,
     "shortId": "rhy5zp",
     "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 6,
     "frontPage": 0,
-    "points": 5
+    "points": 10
    },
    "news": {
     "author": "b--man",
-    "comments": 2,
+    "comments": 6,
     "createdAt": "2026-10-10T19:51:28.569-05:00",
     "domain": "n-the-loop.com",
     "hnId": 1662734293,
     "hnUrl": "https://lobste.rs/s/rhy5zp/consistency_is_not_localized_property",
-    "points": 5
+    "points": 10
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-10T19:51:28.569-05:00",
    "refs": [],
    "relevance": {
@@ -16377,7 +16428,7 @@
     "hnUrl": "https://lobste.rs/s/t2fxpt/byte_language_models_scaling_emergent",
     "points": 8
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-10T17:25:14.935-05:00",
    "refs": [
     "arxiv:2610.05978"
@@ -16407,28 +16458,28 @@
    "key": "lobsters:u9ue6c",
    "lobsters": {
     "author": "tusharhero",
-    "comments": 24,
+    "comments": 43,
     "createdAt": "2026-10-11T04:37:56.100-05:00",
     "domain": "gnu.org",
-    "points": 33,
+    "points": 51,
     "shortId": "u9ue6c",
     "url": "https://www.gnu.org/philosophy/whats-wrong-with-github.html"
    },
    "metrics": {
-    "comments": 24,
+    "comments": 43,
     "frontPage": 0,
-    "points": 33
+    "points": 51
    },
    "news": {
     "author": "tusharhero",
-    "comments": 24,
+    "comments": 43,
     "createdAt": "2026-10-11T04:37:56.100-05:00",
     "domain": "gnu.org",
     "hnId": 1830519876,
     "hnUrl": "https://lobste.rs/s/u9ue6c/what_s_wrong_with_github",
-    "points": 33
+    "points": 51
    },
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T07:20:22.361Z",
    "publishedAt": "2026-10-11T04:37:56.100-05:00",
    "refs": [],
    "relevance": {
@@ -16452,79 +16503,87 @@
   }
  ],
  "date": "2026-10-11",
- "fetchedAt": "2026-10-11T17:41:07.692Z",
+ "fetchedAt": "2026-10-12T07:20:22.361Z",
  "runs": [
   "2026-10-10T17:20:22.825Z",
   "2026-10-11T02:50:04.564Z",
   "2026-10-11T03:25:55.122Z",
   "2026-10-11T03:41:12.172Z",
   "2026-10-11T07:11:06.834Z",
-  "2026-10-11T17:41:07.692Z"
+  "2026-10-11T17:41:07.692Z",
+  "2026-10-12T07:20:22.361Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "dev-to",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 308,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "count": 307,
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "github-search",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 173,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "count": 174,
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "github-trending",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 73,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "count": 74,
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 97,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "count": 98,
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "lobsters",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
   },
   {
    "board": "social",
-   "count": 1,
-   "fetchedAt": "2026-10-11T17:41:07.692Z",
+   "count": 0,
+   "fetchedAt": "2026-10-12T07:20:22.361Z",
    "id": "x-linked",
-   "mode": "syndication",
+   "message": "no linked X posts queued",
+   "settledAt": "2026-10-12T07:20:22.361Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-10T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-11T16:00:00.000Z"
  }
