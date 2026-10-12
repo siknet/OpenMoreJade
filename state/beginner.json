@@ -1,8 +1,48 @@
 {
  "candidateRulesVersion": 5,
  "candidates": {
+  "discovery:devto:4840051": {
+   "observedAt": "2026-10-12T21:16:13.810Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:devto:4840051",
+    "level": "starter",
+    "publishedAt": "2026-10-12T19:59:18Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "dev.to",
+    "sourceUpdatedAt": "2026-10-12T19:59:18.000Z",
+    "summary": {
+     "en": "By Iva — a coding agent, Alex’s development partner, and occasionally the reason a small task...",
+     "zh": ""
+    },
+    "title": {
+     "en": "We Built an App. We Also Had to Learn How to Work Together.",
+     "zh": ""
+    },
+    "topics": [
+     "source:dev-to",
+     "tag:ai",
+     "tag:programming",
+     "tag:linux",
+     "tag:opensource",
+     "tab:opensource"
+    ],
+    "type": "article",
+    "url": "https://dev.to/oleksiyml/we-built-an-app-we-also-had-to-learn-how-to-work-together-339h",
+    "why": {
+     "en": "Automatic selection: Actionable instructions or a concrete tool comparison. Check the original source for access requirements.",
+     "zh": "自动候选：包含操作方法或可用于选择工具的具体比较。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "devto:4840051"
+  },
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-12T07:20:22.361Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -24,6 +64,7 @@
      "zh": "OpenMontage：首个开源智能视频制作系统"
     },
     "topics": [
+     "trend:daily",
      "trend:weekly"
     ],
     "type": "repo",
@@ -111,7 +152,7 @@
    "sourceKey": "gh:farion1231/cc-switch"
   },
   "discovery:gh:gentleman-programming/gentle-ai": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:gentleman-programming/gentle-ai",
@@ -123,7 +164,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-11T10:35:44.000Z",
+    "sourceUpdatedAt": "2026-10-12T14:09:13.000Z",
     "summary": {
      "en": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
      "zh": "Gentle‑AI 为 Claude Code、Cursor、OpenCode、Codex、Pi 等现有 AI 编码代理提供统一配置，包括持久记忆、有机驱动开发、技能库、MCP 服务器、角色设定及可选受限审查，完全开源，无供应商锁定。"
@@ -193,7 +234,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -205,7 +246,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-11T03:16:58.000Z",
+    "sourceUpdatedAt": "2026-10-12T20:12:02.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -234,7 +275,7 @@
    "sourceKey": "gh:headroomlabs-ai/headroom"
   },
   "discovery:gh:huggingface/transformers": {
-   "observedAt": "2026-10-12T07:20:22.361Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:huggingface/transformers",
@@ -336,7 +377,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:librechat-ai/librechat": {
-   "observedAt": "2026-10-10T17:20:22.825Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:librechat-ai/librechat",
@@ -370,7 +411,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-12T07:20:22.361Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -527,7 +568,7 @@
    "sourceKey": "gh:stablyai/orca"
   },
   "discovery:gh:tencent/weknora": {
-   "observedAt": "2026-10-12T07:20:22.361Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:tencent/weknora",
@@ -596,7 +637,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
-   "observedAt": "2026-10-11T17:41:07.692Z",
+   "observedAt": "2026-10-12T21:16:13.810Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:zhulinsen/daily_stock_analysis",
@@ -700,6 +741,39 @@
     }
    },
    "sourceKey": "hn:50033878"
+  },
+  "discovery:hn:50049588": {
+   "observedAt": "2026-10-12T21:16:13.810Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50049588",
+    "level": "starter",
+    "publishedAt": "2026-10-12T00:15:12.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-12T00:15:12.000Z",
+    "summary": {
+     "en": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence,…",
+     "zh": "9 年级学生 Saarth 开发的 Atticus，按住 Control‑Option‑Space 即可发起语音或文字指令，简单任务本地完成，复杂任务交由 Claude，响应常在秒内。"
+    },
+    "title": {
+     "en": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+     "zh": "Show HN：Atticus — 基于 Claude 的 macOS 按住说话语音助手"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://github.com/SaarthurR/atticus-mac",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50049588"
   }
  },
  "dynamicHistory": {
@@ -710,7 +784,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -751,7 +826,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -791,7 +867,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -832,7 +909,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -872,7 +950,8 @@
     "2026-10-09": 95,
     "2026-10-10": 95,
     "2026-10-11": 95,
-    "2026-10-12": 95
+    "2026-10-12": 95,
+    "2026-10-13": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -912,7 +991,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -952,7 +1032,8 @@
     "2026-10-09": 95,
     "2026-10-10": 95,
     "2026-10-11": 95,
-    "2026-10-12": 95
+    "2026-10-12": 95,
+    "2026-10-13": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -992,7 +1073,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -1032,7 +1114,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -1072,7 +1155,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -1112,7 +1196,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -1152,7 +1237,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -1193,7 +1279,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -1233,7 +1320,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -1273,7 +1361,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -1313,7 +1402,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -1353,7 +1443,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -1393,7 +1484,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -1433,7 +1525,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -1473,7 +1566,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -1513,7 +1607,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -1553,7 +1648,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -1593,7 +1689,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -1633,7 +1730,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -1673,7 +1771,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -1713,7 +1812,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -1753,7 +1853,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -1793,7 +1894,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -1833,7 +1935,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -1873,7 +1976,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -1913,7 +2017,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -1953,7 +2058,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -1986,6 +2092,48 @@
     }
    }
   },
+  "https://github.com/headroomlabs-ai/headroom": {
+   "days": {
+    "2026-10-13": 75
+   },
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:headroomlabs-ai/headroom",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-12T20:12:02.000Z",
+    "summary": {
+     "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+     "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
+    },
+    "title": {
+     "en": "headroomlabs-ai/headroom",
+     "zh": "headroom – 在送入 LLM 前压缩输出、日志和 RAG 片段"
+    },
+    "topics": [
+     "agent",
+     "ai",
+     "anthropic",
+     "claude-code",
+     "compression",
+     "context-engineering",
+     "context-window",
+     "cursor"
+    ],
+    "type": "repo",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。通过显著 token 减少降低成本，同时保持答案质量。"
+    }
+   }
+  },
   "https://github.com/hexgrad/kokoro": {
    "days": {
     "2026-10-06": 85,
@@ -1993,7 +2141,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -2033,7 +2182,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -2073,7 +2223,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -2185,7 +2336,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -2225,7 +2377,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -2265,7 +2418,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -2305,7 +2459,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -2345,7 +2500,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -2385,7 +2541,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -2425,7 +2582,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -2465,7 +2623,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -2505,7 +2664,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -2587,7 +2747,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -2663,7 +2824,8 @@
     "2026-10-09": 80,
     "2026-10-10": 80,
     "2026-10-11": 80,
-    "2026-10-12": 80
+    "2026-10-12": 80,
+    "2026-10-13": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -2703,7 +2865,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -2744,7 +2907,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -2784,7 +2948,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -2824,7 +2989,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -2864,7 +3030,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -2904,7 +3071,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -2946,7 +3114,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -2987,7 +3156,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -3027,7 +3197,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -3067,7 +3238,8 @@
     "2026-10-09": 95,
     "2026-10-10": 95,
     "2026-10-11": 95,
-    "2026-10-12": 95
+    "2026-10-12": 95,
+    "2026-10-13": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -3107,7 +3279,8 @@
     "2026-10-09": 95,
     "2026-10-10": 95,
     "2026-10-11": 95,
-    "2026-10-12": 95
+    "2026-10-12": 95,
+    "2026-10-13": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -3147,7 +3320,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -3188,7 +3362,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -3228,7 +3403,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -3268,7 +3444,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -3308,7 +3485,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -3348,7 +3526,8 @@
     "2026-10-09": 90,
     "2026-10-10": 90,
     "2026-10-11": 90,
-    "2026-10-12": 90
+    "2026-10-12": 90,
+    "2026-10-13": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -3388,7 +3567,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -3429,7 +3609,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -3469,7 +3650,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -3510,7 +3692,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -3550,7 +3733,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -3590,7 +3774,8 @@
     "2026-10-09": 85,
     "2026-10-10": 85,
     "2026-10-11": 85,
-    "2026-10-12": 85
+    "2026-10-12": 85,
+    "2026-10-13": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -3969,6 +4154,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/headroomlabs-ai/headroom": {
+   "active": true,
+   "currentEnteredAt": "2026-10-12T21:16:13.810Z",
+   "firstEnteredAt": "2026-10-12T21:16:13.810Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/hexgrad/kokoro": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -4103,7 +4295,7 @@
    "returns": 0
   },
   "https://github.com/tencent/weknora": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-12T07:20:22.361Z",
    "firstEnteredAt": "2026-10-12T07:20:22.361Z",
    "initial": false,
@@ -4383,6 +4575,7 @@
   "https://cursor.com/": "2026-10-06T09:37:13.355Z",
   "https://deepl.com/en/write": "2026-10-06T09:37:13.355Z",
   "https://descript.com/": "2026-10-06T09:37:13.355Z",
+  "https://dev.to/oleksiyml/we-built-an-app-we-also-had-to-learn-how-to-work-together-339h": "2026-10-12T21:16:13.810Z",
   "https://developers.llamaindex.ai/python/framework/getting_started/starter_example": "2026-10-06T09:37:13.355Z",
   "https://developers.openai.com/api/docs/guides/evaluation-best-practices": "2026-10-06T09:37:13.355Z",
   "https://developers.openai.com/api/docs/guides/prompt-engineering": "2026-10-06T09:37:13.355Z",
@@ -4445,6 +4638,7 @@
   "https://github.com/openai/whisper": "2026-10-06T09:37:13.355Z",
   "https://github.com/paddlepaddle/paddleocr": "2026-10-06T09:37:13.355Z",
   "https://github.com/panniantong/agent-reach": "2026-10-06T09:37:13.355Z",
+  "https://github.com/saarthurr/atticus-mac": "2026-10-12T21:16:13.810Z",
   "https://github.com/stablyai/orca": "2026-10-07T18:56:50.962Z",
   "https://github.com/subtitleedit/subtitleedit": "2026-10-06T09:37:13.355Z",
   "https://github.com/tencent/weknora": "2026-10-12T07:20:22.361Z",
