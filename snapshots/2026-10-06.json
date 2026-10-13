@@ -4366,7 +4366,7 @@
   "startedAt": "2026-10-06T09:37:13.355Z"
  },
  "date": "2026-10-06",
- "fetchedAt": "2026-10-12T21:16:13.810Z",
+ "fetchedAt": "2026-10-13T07:41:49.006Z",
  "runs": [
   "2026-10-06T09:37:13.355Z",
   "2026-10-06T12:42:56.454Z",
@@ -4386,7 +4386,8 @@
   "2026-10-11T07:11:06.834Z",
   "2026-10-11T17:41:07.692Z",
   "2026-10-12T07:20:22.361Z",
-  "2026-10-12T21:16:13.810Z"
+  "2026-10-12T21:16:13.810Z",
+  "2026-10-13T07:41:49.006Z"
  ],
  "schema": 2,
  "sources": [
@@ -4401,14 +4402,14 @@
   {
    "board": "repos",
    "count": 308,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "github-search",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 169,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "count": 155,
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "github-trending",
    "state": "ok"
   },
@@ -4423,7 +4424,7 @@
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "hf-trending",
    "state": "ok"
   },
@@ -4438,7 +4439,7 @@
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -4446,7 +4447,7 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "x-linked",
    "mode": "syndication",
    "state": "ok"

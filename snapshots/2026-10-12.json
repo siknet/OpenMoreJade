@@ -11297,21 +11297,21 @@
    "category": "discussion",
    "key": "hn:50047422",
    "metrics": {
-    "comments": 969,
+    "comments": 1012,
     "frontPage": 0,
-    "points": 667
+    "points": 692
    },
    "news": {
     "author": "albertzeyer",
-    "comments": 969,
+    "comments": 1012,
     "createdAt": "2026-10-11T20:20:52.000Z",
     "domain": "twitter.com",
     "hnId": 50047422,
     "hnUrl": "https://news.ycombinator.com/item?id=50047422",
-    "points": 667,
+    "points": 692,
     "showRank": 2
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T20:20:52.000Z",
    "refs": [
     "x:2109361546505966046"
@@ -11418,21 +11418,21 @@
    "category": "tool",
    "key": "hn:50049588",
    "metrics": {
-    "comments": 5,
+    "comments": 19,
     "frontPage": 0,
-    "points": 39
+    "points": 95
    },
    "news": {
     "author": "SaarthRanka",
-    "comments": 5,
+    "comments": 19,
     "createdAt": "2026-10-12T00:15:12.000Z",
     "domain": "github.com",
     "hnId": 50049588,
     "hnUrl": "https://news.ycombinator.com/item?id=50049588",
-    "points": 39,
-    "showRank": 12
+    "points": 95,
+    "showRank": 5
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T00:15:12.000Z",
    "refs": [
     "gh:saarthurr/atticus-mac"
@@ -11448,7 +11448,7 @@
    "sources": [
     "hacker-news"
    ],
-   "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence,…",
+   "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence, sort of like…",
    "tags": [],
    "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
    "url": "https://github.com/SaarthurR/atticus-mac"
@@ -11458,21 +11458,21 @@
    "category": "discussion",
    "key": "hn:50049872",
    "metrics": {
-    "comments": 71,
+    "comments": 76,
     "frontPage": 0,
-    "points": 196
+    "points": 215
    },
    "news": {
     "author": "acley",
-    "comments": 71,
+    "comments": 76,
     "createdAt": "2026-10-12T00:48:27.000Z",
     "domain": "github.com",
     "hnId": 50049872,
     "hnUrl": "https://news.ycombinator.com/item?id=50049872",
-    "points": 196,
-    "showRank": 42
+    "points": 215,
+    "showRank": 40
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T00:48:27.000Z",
    "refs": [
     "gh:shaongitbd/doory"
@@ -11577,21 +11577,21 @@
    "category": "industry",
    "key": "hn:50051583",
    "metrics": {
-    "comments": 205,
+    "comments": 213,
     "frontPage": 0,
-    "points": 234
+    "points": 240
    },
    "news": {
     "author": "m463",
-    "comments": 205,
+    "comments": 213,
     "createdAt": "2026-10-12T05:03:47.000Z",
     "domain": "cnbc.com",
     "hnId": 50051583,
     "hnUrl": "https://news.ycombinator.com/item?id=50051583",
-    "points": 234,
-    "showRank": 32
+    "points": 240,
+    "showRank": 35
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T05:03:47.000Z",
    "refs": [
     "url:cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
@@ -11656,12 +11656,12 @@
    "key": "x:2109361546505966046",
    "metrics": {
     "authority": 1,
-    "likes": 38780,
+    "likes": 40895,
     "quotes": 0,
-    "replies": 1779,
+    "replies": 1865,
     "reposts": 0
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:12:37.000Z",
    "refs": [
     "hn:50047422"
@@ -11676,10 +11676,10 @@
    "social": {
     "author": "Andrej Karpathy",
     "authorKind": "person",
-    "comments": 1779,
+    "comments": 1865,
     "createdAt": "2026-10-11T19:12:37.000Z",
     "handle": "karpathy",
-    "likes": 38780,
+    "likes": 40895,
     "permalink": "https://x.com/karpathy/status/2109361546505966046",
     "platform": "x",
     "rankBasis": "votes",
@@ -11723,7 +11723,7 @@
     "hnUrl": "https://dev.to/dailycontext/why-smaller-ai-models-can-win-in-the-enterprise-1m57",
     "points": 8
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:41:19Z",
    "refs": [],
    "relevance": {
@@ -11752,7 +11752,7 @@
    "category": "engineering",
    "devto": {
     "author": "swyx",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-11T19:41:56Z",
     "domain": "dev.to",
     "id": 4819715,
@@ -11761,20 +11761,20 @@
    },
    "key": "devto:4819715",
    "metrics": {
-    "comments": 1,
+    "comments": 3,
     "frontPage": 0,
     "points": 16
    },
    "news": {
     "author": "swyx",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-11T19:41:56Z",
     "domain": "dev.to",
     "hnId": 4819715,
     "hnUrl": "https://dev.to/dailycontext/welcome-to-ai-engineer-new-york-bh0",
     "points": 16
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:41:56Z",
    "refs": [],
    "relevance": {
@@ -11824,7 +11824,7 @@
     "hnUrl": "https://dev.to/dailycontext/where-to-spend-your-week-at-ai-engineer-new-york-3lg",
     "points": 14
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:42:14Z",
    "refs": [],
    "relevance": {
@@ -11875,7 +11875,7 @@
     "hnUrl": "https://dev.to/dailycontext/its-not-the-model-its-you-1ngi",
     "points": 6
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:45:15Z",
    "refs": [],
    "relevance": {
@@ -11925,7 +11925,7 @@
     "hnUrl": "https://dev.to/dailycontext/qa-with-al-chen-software-engineering-leader-at-cisco-jj7",
     "points": 9
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:45:03Z",
    "refs": [],
    "relevance": {
@@ -11976,7 +11976,7 @@
     "hnUrl": "https://dev.to/dailycontext/ab-testing-ai-products-is-weird-576h",
     "points": 7
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:52Z",
    "refs": [],
    "relevance": {
@@ -12027,7 +12027,7 @@
     "hnUrl": "https://dev.to/dailycontext/building-ai-analysts-for-wall-street-a-qa-with-compound-co-founder-yijia-liang-29c3",
     "points": 8
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:48Z",
    "refs": [],
    "relevance": {
@@ -12059,14 +12059,14 @@
     "createdAt": "2026-10-11T19:43:45Z",
     "domain": "dev.to",
     "id": 4824002,
-    "points": 35,
+    "points": 48,
     "url": "https://dev.to/dailycontext/one-weekend-3000-open-source-ai-projects-3g65"
    },
    "key": "devto:4824002",
    "metrics": {
     "comments": 4,
     "frontPage": 0,
-    "points": 35
+    "points": 48
    },
    "news": {
     "author": "Jess Lee",
@@ -12075,9 +12075,9 @@
     "domain": "dev.to",
     "hnId": 4824002,
     "hnUrl": "https://dev.to/dailycontext/one-weekend-3000-open-source-ai-projects-3g65",
-    "points": 35
+    "points": 48
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:45Z",
    "refs": [],
    "relevance": {
@@ -12107,7 +12107,7 @@
    "category": "product",
    "devto": {
     "author": "Ishween Kaur",
-    "comments": 2,
+    "comments": 4,
     "createdAt": "2026-10-11T19:43:36Z",
     "domain": "dev.to",
     "id": 4824056,
@@ -12116,20 +12116,20 @@
    },
    "key": "devto:4824056",
    "metrics": {
-    "comments": 2,
+    "comments": 4,
     "frontPage": 0,
     "points": 8
    },
    "news": {
     "author": "Ishween Kaur",
-    "comments": 2,
+    "comments": 4,
     "createdAt": "2026-10-11T19:43:36Z",
     "domain": "dev.to",
     "hnId": 4824056,
     "hnUrl": "https://dev.to/dailycontext/your-agent-paid-that-does-not-mean-it-should-have-2dnd",
     "points": 8
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:36Z",
    "refs": [],
    "relevance": {
@@ -12179,7 +12179,7 @@
     "hnUrl": "https://dev.to/dailycontext/roi-that-survives-the-second-question-4na0",
     "points": 5
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:33Z",
    "refs": [],
    "relevance": {
@@ -12230,7 +12230,7 @@
     "hnUrl": "https://dev.to/dailycontext/a-world-worth-understanding-f08",
     "points": 6
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:19Z",
    "refs": [],
    "relevance": {
@@ -12263,14 +12263,14 @@
     "createdAt": "2026-10-11T19:43:13Z",
     "domain": "dev.to",
     "id": 4825200,
-    "points": 15,
+    "points": 17,
     "url": "https://dev.to/dailycontext/you-should-know-about-system-one-models-3a9a"
    },
    "key": "devto:4825200",
    "metrics": {
     "comments": 2,
     "frontPage": 0,
-    "points": 15
+    "points": 17
    },
    "news": {
     "author": "Ben Halpern",
@@ -12279,9 +12279,9 @@
     "domain": "dev.to",
     "hnId": 4825200,
     "hnUrl": "https://dev.to/dailycontext/you-should-know-about-system-one-models-3a9a",
-    "points": 15
+    "points": 17
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:13Z",
    "refs": [],
    "relevance": {
@@ -13060,7 +13060,7 @@
     "hnUrl": "https://dev.to/dailycontext/your-guide-to-ai-engineer-new-york-2026-2aol",
     "points": 14
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:43:07Z",
    "refs": [],
    "relevance": {
@@ -13162,7 +13162,7 @@
     "hnUrl": "https://dev.to/dailycontext/does-your-agent-have-id-58ok",
     "points": 10
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T19:42:56Z",
    "refs": [],
    "relevance": {
@@ -13295,29 +13295,29 @@
    "category": "engineering",
    "devto": {
     "author": "İclal Doğan",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-12T00:48:29Z",
     "domain": "dev.to",
     "id": 4835124,
-    "points": 15,
+    "points": 21,
     "url": "https://dev.to/iclaldogan/the-unheard-a-game-that-sends-you-outside-teaches-a-machine-to-listen-and-makes-it-prove-every-43go"
    },
    "key": "devto:4835124",
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 15
+    "points": 21
    },
    "news": {
     "author": "İclal Doğan",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-12T00:48:29Z",
     "domain": "dev.to",
     "hnId": 4835124,
     "hnUrl": "https://dev.to/iclaldogan/the-unheard-a-game-that-sends-you-outside-teaches-a-machine-to-listen-and-makes-it-prove-every-43go",
-    "points": 15
+    "points": 21
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T00:48:29Z",
    "refs": [],
    "relevance": {
@@ -13400,14 +13400,14 @@
     "createdAt": "2026-10-12T04:21:36Z",
     "domain": "dev.to",
     "id": 4835698,
-    "points": 11,
+    "points": 12,
     "url": "https://dev.to/gde/if-you-never-do-anything-else-to-fix-your-prompts-do-this-one-thing-3069"
    },
    "key": "devto:4835698",
    "metrics": {
     "comments": 4,
     "frontPage": 0,
-    "points": 11
+    "points": 12
    },
    "news": {
     "author": "Randal L. Schwartz",
@@ -13416,9 +13416,9 @@
     "domain": "dev.to",
     "hnId": 4835698,
     "hnUrl": "https://dev.to/gde/if-you-never-do-anything-else-to-fix-your-prompts-do-this-one-thing-3069",
-    "points": 11
+    "points": 12
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T04:21:36Z",
    "refs": [],
    "relevance": {
@@ -14768,7 +14768,7 @@
     "hnUrl": "https://dev.to/gde/safe-autonomy-in-kubernetes-building-ai-troubleshooting-agents-with-google-cloud-and-h8l",
     "points": 10
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T10:30:20Z",
    "refs": [],
    "relevance": {
@@ -15005,29 +15005,29 @@
    "category": "engineering",
    "devto": {
     "author": "Ben Halpern",
-    "comments": 11,
+    "comments": 12,
     "createdAt": "2026-10-12T14:28:34Z",
     "domain": "dev.to",
     "id": 4838798,
-    "points": 18,
+    "points": 23,
     "url": "https://dev.to/ben/meme-monday-4e47"
    },
    "key": "devto:4838798",
    "metrics": {
-    "comments": 11,
+    "comments": 12,
     "frontPage": 0,
-    "points": 18
+    "points": 23
    },
    "news": {
     "author": "Ben Halpern",
-    "comments": 11,
+    "comments": 12,
     "createdAt": "2026-10-12T14:28:34Z",
     "domain": "dev.to",
     "hnId": 4838798,
     "hnUrl": "https://dev.to/ben/meme-monday-4e47",
-    "points": 18
+    "points": 23
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T14:28:34Z",
    "refs": [],
    "relevance": {
@@ -15160,28 +15160,28 @@
    "key": "lobsters:9zcxev",
    "lobsters": {
     "author": "zk",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-11T23:21:09.078-05:00",
     "domain": "chuck.is",
-    "points": 18,
+    "points": 22,
     "shortId": "9zcxev",
     "url": "https://chuck.is/paranoid/"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 12,
     "frontPage": 0,
-    "points": 18
+    "points": 22
    },
    "news": {
     "author": "zk",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-11T23:21:09.078-05:00",
     "domain": "chuck.is",
     "hnId": 603585319,
     "hnUrl": "https://lobste.rs/s/9zcxev/3_2_1_backup_strategy_with_restic",
-    "points": 18
+    "points": 22
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T23:21:09.078-05:00",
    "refs": [],
    "relevance": {
@@ -15312,14 +15312,14 @@
     "comments": 0,
     "createdAt": "2026-10-12T05:39:10.262-05:00",
     "domain": "lalinsky.com",
-    "points": 13,
+    "points": 29,
     "shortId": "dujxbl",
     "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 13
+    "points": 29
    },
    "news": {
     "author": "nemin",
@@ -15328,9 +15328,9 @@
     "domain": "lalinsky.com",
     "hnId": 837378417,
     "hnUrl": "https://lobste.rs/s/dujxbl/type_safe_html_templating_zig",
-    "points": 13
+    "points": 29
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T05:39:10.262-05:00",
    "refs": [],
    "relevance": {
@@ -15559,28 +15559,28 @@
    "key": "lobsters:ikk8ie",
    "lobsters": {
     "author": "regulator",
-    "comments": 28,
+    "comments": 33,
     "createdAt": "2026-10-11T20:18:09.541-05:00",
     "domain": "linkedin.com",
-    "points": 81,
+    "points": 92,
     "shortId": "ikk8ie",
     "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e"
    },
    "metrics": {
-    "comments": 28,
+    "comments": 33,
     "frontPage": 0,
-    "points": 81
+    "points": 92
    },
    "news": {
     "author": "regulator",
-    "comments": 28,
+    "comments": 33,
     "createdAt": "2026-10-11T20:18:09.541-05:00",
     "domain": "linkedin.com",
     "hnId": 1122927638,
     "hnUrl": "https://lobste.rs/s/ikk8ie/ai_is_not_tool",
-    "points": 81
+    "points": 92
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T20:18:09.541-05:00",
    "refs": [],
    "relevance": {
@@ -15608,28 +15608,28 @@
    "key": "lobsters:iq5xtw",
    "lobsters": {
     "author": "oceanhaiyang",
-    "comments": 48,
+    "comments": 80,
     "createdAt": "2026-10-12T05:11:29.702-05:00",
     "domain": "phoronix.com",
-    "points": 41,
+    "points": 52,
     "shortId": "iq5xtw",
     "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code"
    },
    "metrics": {
-    "comments": 48,
+    "comments": 80,
     "frontPage": 0,
-    "points": 41
+    "points": 52
    },
    "news": {
     "author": "oceanhaiyang",
-    "comments": 48,
+    "comments": 80,
     "createdAt": "2026-10-12T05:11:29.702-05:00",
     "domain": "phoronix.com",
     "hnId": 1132338308,
     "hnUrl": "https://lobste.rs/s/iq5xtw/linus_torvalds_working_on_hefty_linux",
-    "points": 41
+    "points": 52
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T05:11:29.702-05:00",
    "refs": [],
    "relevance": {
@@ -15658,28 +15658,28 @@
    "key": "lobsters:iufma5",
    "lobsters": {
     "author": "raymii",
-    "comments": 1,
+    "comments": 10,
     "createdAt": "2026-10-12T10:24:45.118-05:00",
     "domain": "lemire.me",
-    "points": 11,
+    "points": 12,
     "shortId": "iufma5",
     "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 10,
     "frontPage": 0,
-    "points": 11
+    "points": 12
    },
    "news": {
     "author": "raymii",
-    "comments": 1,
+    "comments": 10,
     "createdAt": "2026-10-12T10:24:45.118-05:00",
     "domain": "lemire.me",
     "hnId": 1139508365,
     "hnUrl": "https://lobste.rs/s/iufma5/parsing_json_at_tens_gigabytes_per_second",
-    "points": 11
+    "points": 12
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T10:24:45.118-05:00",
    "refs": [],
    "relevance": {
@@ -15710,14 +15710,14 @@
     "comments": 6,
     "createdAt": "2026-10-11T13:09:49.352-05:00",
     "domain": "itsallaboutthebit.com",
-    "points": 92,
+    "points": 94,
     "shortId": "k2natg",
     "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/"
    },
    "metrics": {
     "comments": 6,
     "frontPage": 0,
-    "points": 92
+    "points": 94
    },
    "news": {
     "author": "dimonomid",
@@ -15726,9 +15726,9 @@
     "domain": "itsallaboutthebit.com",
     "hnId": 1213769860,
     "hnUrl": "https://lobste.rs/s/k2natg/i_m_sorry_you_still_have_think",
-    "points": 92
+    "points": 94
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T13:09:49.352-05:00",
    "refs": [],
    "relevance": {
@@ -15756,28 +15756,28 @@
    "key": "lobsters:lfen2h",
    "lobsters": {
     "author": "julik",
-    "comments": 5,
+    "comments": 17,
     "createdAt": "2026-10-12T05:59:26.773-05:00",
     "domain": "blog.julik.nl",
-    "points": 36,
+    "points": 51,
     "shortId": "lfen2h",
     "url": "https://blog.julik.nl/2026/10/the-weimar-of-ruby"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 17,
     "frontPage": 0,
-    "points": 36
+    "points": 51
    },
    "news": {
     "author": "julik",
-    "comments": 5,
+    "comments": 17,
     "createdAt": "2026-10-12T05:59:26.773-05:00",
     "domain": "blog.julik.nl",
     "hnId": 1295667017,
     "hnUrl": "https://lobste.rs/s/lfen2h/living_weimar_era_ruby",
-    "points": 36
+    "points": 51
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T05:59:26.773-05:00",
    "refs": [],
    "relevance": {
@@ -15906,28 +15906,28 @@
    "key": "lobsters:ml9xrb",
    "lobsters": {
     "author": "eduard",
-    "comments": 14,
+    "comments": 20,
     "createdAt": "2026-10-12T04:05:44.794-05:00",
     "domain": "royfish.dev",
-    "points": 23,
+    "points": 31,
     "shortId": "ml9xrb",
     "url": "https://royfish.dev/fingerprints-are-the-new-cookies"
    },
    "metrics": {
-    "comments": 14,
+    "comments": 20,
     "frontPage": 0,
-    "points": 23
+    "points": 31
    },
    "news": {
     "author": "eduard",
-    "comments": 14,
+    "comments": 20,
     "createdAt": "2026-10-12T04:05:44.794-05:00",
     "domain": "royfish.dev",
     "hnId": 1365991463,
     "hnUrl": "https://lobste.rs/s/ml9xrb/fingerprints_are_new_cookies",
-    "points": 23
+    "points": 31
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T04:05:44.794-05:00",
    "refs": [],
    "relevance": {
@@ -15958,14 +15958,14 @@
     "comments": 1,
     "createdAt": "2026-10-12T09:40:35.395-05:00",
     "domain": "simonkoeck.com",
-    "points": 18,
+    "points": 38,
     "shortId": "mldt0o",
     "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 18
+    "points": 38
    },
    "news": {
     "author": "hoistbypetard",
@@ -15974,9 +15974,9 @@
     "domain": "simonkoeck.com",
     "hnId": 1366171944,
     "hnUrl": "https://lobste.rs/s/mldt0o/finding_90_000_remote_code_execution",
-    "points": 18
+    "points": 38
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T09:40:35.395-05:00",
    "refs": [],
    "relevance": {
@@ -16007,14 +16007,14 @@
     "comments": 0,
     "createdAt": "2026-10-12T03:46:10.600-05:00",
     "domain": "markround.com",
-    "points": 25,
+    "points": 29,
     "shortId": "nroajo",
     "url": "https://www.markround.com/blog/2026/zx-spectrum-intro"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 25
+    "points": 29
    },
    "news": {
     "author": "mdr",
@@ -16023,9 +16023,9 @@
     "domain": "markround.com",
     "hnId": 1437205092,
     "hnUrl": "https://lobste.rs/s/nroajo/writing_demoscene_intro_for_zx_spectrum",
-    "points": 25
+    "points": 29
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T03:46:10.600-05:00",
    "refs": [],
    "relevance": {
@@ -16053,28 +16053,28 @@
    "key": "lobsters:qgybwb",
    "lobsters": {
     "author": "isuffix",
-    "comments": 22,
+    "comments": 25,
     "createdAt": "2026-10-11T15:36:07.477-05:00",
     "domain": "dbushell.com",
-    "points": 108,
+    "points": 116,
     "shortId": "qgybwb",
     "url": "https://dbushell.com/2026/10/11/d-bus-hell/"
    },
    "metrics": {
-    "comments": 22,
+    "comments": 25,
     "frontPage": 0,
-    "points": 108
+    "points": 116
    },
    "news": {
     "author": "isuffix",
-    "comments": 22,
+    "comments": 25,
     "createdAt": "2026-10-11T15:36:07.477-05:00",
     "domain": "dbushell.com",
     "hnId": 1600596155,
     "hnUrl": "https://lobste.rs/s/qgybwb/d_bus_hell",
-    "points": 108
+    "points": 116
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T15:36:07.477-05:00",
    "refs": [],
    "relevance": {
@@ -16103,28 +16103,28 @@
    "key": "lobsters:sozl9e",
    "lobsters": {
     "author": "jtdowney",
-    "comments": 0,
+    "comments": 3,
     "createdAt": "2026-10-12T08:44:38.009-05:00",
     "domain": "words.filippo.io",
-    "points": 34,
+    "points": 57,
     "shortId": "sozl9e",
     "url": "https://words.filippo.io/right-answers/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 3,
     "frontPage": 0,
-    "points": 34
+    "points": 57
    },
    "news": {
     "author": "jtdowney",
-    "comments": 0,
+    "comments": 3,
     "createdAt": "2026-10-12T08:44:38.009-05:00",
     "domain": "words.filippo.io",
     "hnId": 1735024226,
     "hnUrl": "https://lobste.rs/s/sozl9e/post_quantum_cryptographic_right",
-    "points": 34
+    "points": 57
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T08:44:38.009-05:00",
    "refs": [],
    "relevance": {
@@ -16203,28 +16203,28 @@
    "key": "lobsters:u4vlin",
    "lobsters": {
     "author": "aldantanneo",
-    "comments": 11,
+    "comments": 16,
     "createdAt": "2026-10-12T07:23:52.273-05:00",
     "domain": "afp.com",
-    "points": 15,
+    "points": 26,
     "shortId": "u4vlin",
     "url": "https://www.afp.com/en/french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown"
    },
    "metrics": {
-    "comments": 11,
+    "comments": 16,
     "frontPage": 0,
-    "points": 15
+    "points": 26
    },
    "news": {
     "author": "aldantanneo",
-    "comments": 11,
+    "comments": 16,
     "createdAt": "2026-10-12T07:23:52.273-05:00",
     "domain": "afp.com",
     "hnId": 1822177967,
     "hnUrl": "https://lobste.rs/s/u4vlin/french_supermarket_chains_say",
-    "points": 15
+    "points": 26
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-12T07:23:52.273-05:00",
    "refs": [],
    "relevance": {
@@ -16360,14 +16360,14 @@
     "comments": 7,
     "createdAt": "2026-10-11T11:59:58.126-05:00",
     "domain": "eliasebner.com",
-    "points": 28,
+    "points": 32,
     "shortId": "zziknb",
     "url": "https://eliasebner.com/blog/guides/arena-allocators-in-c/"
    },
    "metrics": {
     "comments": 7,
     "frontPage": 0,
-    "points": 28
+    "points": 32
    },
    "news": {
     "author": "eliasebner",
@@ -16376,9 +16376,9 @@
     "domain": "eliasebner.com",
     "hnId": 2175969287,
     "hnUrl": "https://lobste.rs/s/zziknb/arena_allocators_c",
-    "points": 28
+    "points": 32
    },
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "publishedAt": "2026-10-11T11:59:58.126-05:00",
    "refs": [],
    "relevance": {
@@ -16402,60 +16402,67 @@
   }
  ],
  "date": "2026-10-12",
- "fetchedAt": "2026-10-12T21:16:13.810Z",
+ "fetchedAt": "2026-10-13T07:41:49.006Z",
  "runs": [
   "2026-10-11T17:41:07.692Z",
   "2026-10-12T07:20:22.361Z",
-  "2026-10-12T21:16:13.810Z"
+  "2026-10-12T21:16:13.810Z",
+  "2026-10-13T07:41:49.006Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 59,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "dev-to",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 308,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "github-search",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 169,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "count": 155,
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "github-trending",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 73,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 100,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "count": 99,
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "lobsters",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -16463,15 +16470,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-12T21:16:13.810Z",
+   "fetchedAt": "2026-10-13T07:41:49.006Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-13T07:41:49.006Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-11T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-12T16:00:00.000Z"
  }

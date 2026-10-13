@@ -41,8 +41,48 @@
    },
    "sourceKey": "devto:4840051"
   },
+  "discovery:devto:4840607": {
+   "observedAt": "2026-10-13T07:41:49.006Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:devto:4840607",
+    "level": "starter",
+    "publishedAt": "2026-10-12T23:43:44Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "dev.to",
+    "sourceUpdatedAt": "2026-10-12T23:43:44.000Z",
+    "summary": {
+     "en": "Every \"7 local models that replace Claude Code\" list opens the same way: a table of SWE-bench scores,...",
+     "zh": "多数“本地模型替代Claude Code”列表以SWE‑bench得分为依据，但该基准并未衡量代码生成的真实能力，导致评价失真。文章指出需采用更贴合实际的评测方式。"
+    },
+    "title": {
+     "en": "Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.",
+     "zh": "本地LLM能否取代Claude Code？常用基准误导"
+    },
+    "topics": [
+     "source:dev-to",
+     "tag:ai",
+     "tag:llm",
+     "tag:coding",
+     "tag:opensource",
+     "tab:opensource"
+    ],
+    "type": "article",
+    "url": "https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna",
+    "why": {
+     "en": "Automatic selection: Actionable instructions or a concrete tool comparison. Check the original source for access requirements.",
+     "zh": "自动候选：包含操作方法或可用于选择工具的具体比较。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "devto:4840607"
+  },
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -568,7 +608,7 @@
    "sourceKey": "gh:stablyai/orca"
   },
   "discovery:gh:tencent/weknora": {
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:tencent/weknora",
@@ -743,7 +783,7 @@
    "sourceKey": "hn:50033878"
   },
   "discovery:hn:50049588": {
-   "observedAt": "2026-10-12T21:16:13.810Z",
+   "observedAt": "2026-10-13T07:41:49.006Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50049588",
@@ -758,12 +798,12 @@
     "sourceName": "github.com",
     "sourceUpdatedAt": "2026-10-12T00:15:12.000Z",
     "summary": {
-     "en": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence,…",
-     "zh": "9 年级学生 Saarth 开发的 Atticus，按住 Control‑Option‑Space 即可发起语音或文字指令，简单任务本地完成，复杂任务交由 Claude，响应常在秒内。"
+     "en": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence, sort of like…",
+     "zh": "由 9 年级学生 Saarth 开发的轻量级 macOS 助手，按住 Control‑Option‑Space 即可说或键入任务，简单操作本地快速完成，复杂请求交由 Claude 处理。"
     },
     "title": {
      "en": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-     "zh": "Show HN：Atticus — 基于 Claude 的 macOS 按住说话语音助手"
+     "zh": "Atticus – 按住即说的 macOS 语音助理，后端使用 Claude"
     },
     "topics": [],
     "type": "article",
@@ -4576,6 +4616,7 @@
   "https://deepl.com/en/write": "2026-10-06T09:37:13.355Z",
   "https://descript.com/": "2026-10-06T09:37:13.355Z",
   "https://dev.to/oleksiyml/we-built-an-app-we-also-had-to-learn-how-to-work-together-339h": "2026-10-12T21:16:13.810Z",
+  "https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna": "2026-10-13T07:41:49.006Z",
   "https://developers.llamaindex.ai/python/framework/getting_started/starter_example": "2026-10-06T09:37:13.355Z",
   "https://developers.openai.com/api/docs/guides/evaluation-best-practices": "2026-10-06T09:37:13.355Z",
   "https://developers.openai.com/api/docs/guides/prompt-engineering": "2026-10-06T09:37:13.355Z",

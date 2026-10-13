@@ -88,6 +88,15 @@
   },
   "hash": "b956b3c160869218"
  },
+ "devto:4824056": {
+  "copy": {
+   "zh": {
+    "blurb": "一名 AI 代理在撰写报告时请求单个数据点，API 回答该查询需花费 5 美分，文章探讨了代理付费与合理性的问题。",
+    "title": "你的代理已付费，这并不意味着它应该这么做"
+   }
+  },
+  "hash": "e8a25ebb4f3983df"
+ },
  "devto:4824129": {
   "copy": {
    "zh": {
@@ -156,6 +165,19 @@
    }
   },
   "hash": "fc7122f2c22f5cfd"
+ },
+ "devto:4827116": {
+  "copy": {
+   "zh": {
+    "blurb": "文章梳理了企业级 AI 网关的作用——在内部应用与大模型之间提供统一接入、流量管理、审计和安全控制，帮助企业安全、可控地使用生成式 AI。",
+    "points": [
+     "集中管理模型访问、配额与日志。",
+     "支持数据脱敏、策略路由和多模型编排。"
+    ],
+    "title": "最佳企业 AI 网关概览"
+   }
+  },
+  "hash": "e85bbf1af2d68258"
  },
  "devto:4827552": {
   "copy": {
@@ -1200,8 +1222,12 @@
  "devto:4835124": {
   "copy": {
    "zh": {
-    "blurb": "这款游戏在Hacktoberfest AI挑战赛第一周推出，鼓励玩家在现实世界中采集音频，让模型学习倾听并要求模型对每句话提供可验证的证据。",
-    "title": "THE UNHEARD：让玩家走出室外、教机器倾听并验证每句话的游戏"
+    "blurb": "这款游戏作为 Hacktoberfest 开源 AI 挑战作品，鼓励玩家在真实环境中进行语音交互，利用 AI 进行语音转写和真伪验证，实现‘听见即证’的玩法。",
+    "points": [
+     "通过麦克风捕捉户外语音并实时转写。",
+     "AI 模型对玩家陈述进行事实验证，确保每句话都经核实。"
+    ],
+    "title": "THE UNHEARD：让玩家走出户外、教机器倾听并验证每句话的游戏"
    }
   },
   "hash": "54d208165eae6d61"
@@ -1343,6 +1369,15 @@
   },
   "hash": "80823431a9011157"
  },
+ "devto:4838474": {
+  "copy": {
+   "zh": {
+    "blurb": "提示注入潜伏在工单、邮件、聊天、文档和网页中，mcp‑warden 作为本地守护程序，在 Claude Code、Codex 或 Cursor 读取前清理这些文本，防止代理被误导。",
+    "title": "你的 AI 代理读取 Jira、Slack 与收件箱——其中部分文本在与它对话"
+   }
+  },
+  "hash": "6934229767667ecd"
+ },
  "devto:4838798": {
   "copy": {
    "zh": {
@@ -1356,6 +1391,15 @@
    }
   },
   "hash": "1438bc8f3896e0bc"
+ },
+ "devto:4839337": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出单一答案的评估不足，eSlams 正在构建公开的‘竞技场’测试，要求模型在多步骤决策中展现鲁棒性和对抗性。",
+    "title": "AI 需要一个能“反击”的测试"
+   }
+  },
+  "hash": "5716fe12259a20ea"
  },
  "devto:4839507": {
   "copy": {
@@ -1479,6 +1523,93 @@
    }
   },
   "hash": "c7138dcdc1e08ae6"
+ },
+ "devto:4840607": {
+  "copy": {
+   "zh": {
+    "blurb": "多数“本地模型替代Claude Code”列表以SWE‑bench得分为依据，但该基准并未衡量代码生成的真实能力，导致评价失真。文章指出需采用更贴合实际的评测方式。",
+    "points": [
+     "使用SWE‑bench评分误导了模型实力的判断",
+     "本地模型在实际代码任务中仍落后于Claude Code",
+     "呼吁社区采用更合适的基准进行对比"
+    ],
+    "title": "本地LLM能否取代Claude Code？常用基准误导"
+   }
+  },
+  "hash": "64119d08e38cb7f5"
+ },
+ "devto:4841457": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Hacktoberfest 2026 周二的副业项目中阐述构建注重数据隐私的开源 AI 应用的动机与实现，强调保护用户信息的必要性。",
+    "title": "数据隐私为何重要：我的 Hacktoberfest 开源 AI 副业"
+   }
+  },
+  "hash": "3331ba3c58ba9b85"
+ },
+ "devto:4841537": {
+  "copy": {
+   "zh": {
+    "blurb": "在 PinSlip.app 首发，作者阐述为何打造这款 Windows 贴纸备忘录替代品，突出其简洁、离线存储与自定义标签等特性。",
+    "title": "PinSlip：Windows 贴纸备忘录的替代方案"
+   }
+  },
+  "hash": "716a8315785369ee"
+ },
+ "devto:4842040": {
+  "copy": {
+   "zh": {
+    "blurb": "RepoDNA 在 1.3.2 版中推出专属文档网站，改进 CI 稳定性并修复多项错误，使其作为代码库分析工具更加可靠。",
+    "points": [
+     "独立的文档站点，提供完整使用指南与 API 参考。",
+     "提升 CI 稳定性，减少构建失败率。",
+     "修复若干崩溃和性能问题，增强可靠性。"
+    ],
+    "title": "RepoDNA v1.3.2：新增文档站点与可靠性提升"
+   }
+  },
+  "hash": "04b1174065b9cb35"
+ },
+ "devto:4842121": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享对研究系统六个仪表盘页面的两周改进经验，强调通过基线审计评估现有 UI，随后对比新设计效果，以避免盲目重构。",
+    "title": "在重新设计 UI 前先审计：先建立基线再比较"
+   }
+  },
+  "hash": "7cb99bb0e97791de"
+ },
+ "devto:4842165": {
+  "copy": {
+   "zh": {
+    "blurb": "作者审计了 AI 代理的运行记录，发现其中 10% 的日志来源于一个永远不会失败的测试，用以说明审计中的盲点。",
+    "title": "我们审计了自己的代理账本：10% 来自永不失败的测试"
+   }
+  },
+  "hash": "780a2799c0d39fce"
+ },
+ "devto:4842489": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分析了大量开发者盲目克隆付费软件的现象，探讨哪些功能和用户体验在激烈竞争中仍能保留并获得长期价值。",
+    "points": [
+     "克隆热潮导致市场同质化",
+     "核心功能和用户体验决定产品寿命",
+     "可持续创新是区别生存与淘汰的关键"
+    ],
+    "title": "开发者复制付费应用的潮流：真正能存活的是什么？"
+   }
+  },
+  "hash": "7e8d9aa64c3ada2d"
+ },
+ "devto:4842497": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目为 Hacktoberfest 开源 AI 挑战作品，提供离线运行的美甲设计助手，利用本地模型生成图案建议，帮助艺术家提升创作效率。",
+    "title": "NailFlow AI：面向美甲师的本地优先工作室助理"
+   }
+  },
+  "hash": "1f678492ee928575"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -2152,11 +2283,16 @@
  "gh:lyogavin/airllm": {
   "copy": {
    "zh": {
-    "blurb": "AirLLM 是一个 GitHub 项目，实现了在单块 4 GB GPU 上推理 70 B 参数大模型，提供 Jupyter Notebook 示例，累计 36 787 星，热度 51.3。",
-    "title": "AirLLM：在单块4GB GPU上运行70B模型"
+    "blurb": "AirLLM项目展示了在仅4GB GPU上推理2.8T参数的大模型，借助高效量化和内存调度技术，在Jupyter Notebook中实现可用推理。",
+    "points": [
+     "4GB显存即可运行2.8T参数模型",
+     "采用量化与内存调度实现高效推理",
+     "提供Notebook示例便于快速上手"
+    ],
+    "title": "AirLLM：单块4GB显卡运行2.8T参数模型"
    }
   },
-  "hash": "9b1603390efb6475"
+  "hash": "71a083b9ab42a49f"
  },
  "gh:madslorentzen/ai-job-search": {
   "copy": {
@@ -2211,8 +2347,13 @@
  "gh:mksglu/context-mode": {
   "copy": {
    "zh": {
-    "blurb": "通过沙盒化工具输出实现 98% 减少，持久化会话记忆，并通过 MCP 与钩子在 17 平台实现路由。",
-    "title": "Context Mode：AI 编码代理的上下文窗口优化",
+    "blurb": "该仓库实现了对AI编码代理的上下文窗口管理，能够将工具输出压缩98%，持久化会话记忆，并通过MCP+hooks在17个平台间统一路由。",
+    "points": [
+     "工具输出压缩98%，降低上下文开销",
+     "持久化会话记忆提升跨步骤协作",
+     "MCP+hooks实现跨17平台统一路由"
+    ],
+    "title": "context-mode：AI编码代理的上下文窗口优化",
     "why": "提升 AI 编码效率，降低资源消耗，跨平台兼容重要。"
    }
   },
@@ -2335,6 +2476,20 @@
    }
   },
   "hash": "6cae183d2b883657"
+ },
+ "gh:open-webui/open-webui": {
+  "copy": {
+   "zh": {
+    "blurb": "open-webui 是一个基于 Python 的开源前端，提供直观的聊天界面，可无缝对接 Ollama、本地模型以及 OpenAI API，适合快速部署 AI 助手。",
+    "points": [
+     "多后端支持：Ollama、OpenAI 等",
+     "纯 Python 实现，易于二次开发",
+     "界面简洁，适合非技术用户使用"
+    ],
+    "title": "open-webui：支持 Ollama 与 OpenAI API 的友好 AI 界面"
+   }
+  },
+  "hash": "616c80e75c2bd4db"
  },
  "gh:openai/codex": {
   "copy": {
@@ -2600,6 +2755,19 @@
   },
   "hash": "13346426f35bf08e"
  },
+ "gh:storytold/wordcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "storytold 开源的 wordcraft 项目在完全不依赖微软代码的前提下，用 Rust 实现了文字处理核心功能，旨在提供兼容且安全的文档编辑器。",
+    "points": [
+     "完全基于 Rust，提升安全性和跨平台性。",
+     "采用 clean‑room 方法，避免侵权风险。"
+    ],
+    "title": "wordcraft – 用纯 Rust 重写的开源 Microsoft Word"
+   }
+  },
+  "hash": "41d23f97636ca233"
+ },
  "gh:t8y2/dbx": {
   "copy": {
    "zh": {
@@ -2641,6 +2809,15 @@
    }
   },
   "hash": "6ab95d25f236400d"
+ },
+ "gh:tencentcloud/tencentdb-agent-memory": {
+  "copy": {
+   "zh": {
+    "blurb": "TencentDB Agent Memory 是面向团队的记忆中心，将对话、文档、代码转化为四类可复用记忆资产（聊天记忆、技能、LLM‑Wiki、代码图），实现治理、共享并可在不同代理与框架间使用。",
+    "title": "TencentDB Agent Memory：面向团队的 AI 代理记忆中心"
+   }
+  },
+  "hash": "19a547c5c46d4f64"
  },
  "gh:thedotmack/claude-mem": {
   "copy": {
@@ -2874,6 +3051,20 @@
    }
   },
   "hash": "a450b75c1360f6e8"
+ },
+ "hf:atomicchat/qwen-image-2.1-turbo-uncensored-gguf": {
+  "copy": {
+   "zh": {
+    "blurb": "该模型是 Qwen‑Image 2.1 的 Turbo 版，去审查限制，提供 GGUF 格式以实现高效本地推理，专注文本到图像生成。",
+    "points": [
+     "Turbo 推理显著提升生成速度。",
+     "GGUF 优化内存占用，适合本地部署。",
+     "支持未过滤的内容生成。"
+    ],
+    "title": "AtomicChat/Qwen‑Image‑2.1‑Turbo‑Uncensored‑GGUF 模型"
+   }
+  },
+  "hash": "5dd38fc7c4dd85e5"
  },
  "hf:autotrust/gev-26b-decide": {
   "copy": {
@@ -3977,16 +4168,15 @@
  "hn:50049588": {
   "copy": {
    "zh": {
-    "blurb": "9 年级学生 Saarth 开发的 Atticus，按住 Control‑Option‑Space 即可发起语音或文字指令，简单任务本地完成，复杂任务交由 Claude，响应常在秒内。",
+    "blurb": "由 9 年级学生 Saarth 开发的轻量级 macOS 助手，按住 Control‑Option‑Space 即可说或键入任务，简单操作本地快速完成，复杂请求交由 Claude 处理。",
     "points": [
-     "本地快速执行打开应用等任务，延迟约0.08秒",
-     "复杂查询交由 Claude 处理，保持低成本",
-     "兼顾语音与文本交互，适用于 macOS"
+     "本地指令如打开应用、播放 Spotify 等在 0.08 秒内完成。",
+     "复杂查询使用 Claude，保持对话式 AI 能力且延迟低。"
     ],
-    "title": "Show HN：Atticus — 基于 Claude 的 macOS 按住说话语音助手"
+    "title": "Atticus – 按住即说的 macOS 语音助理，后端使用 Claude"
    }
   },
-  "hash": "3cd9532d46b6ae97"
+  "hash": "0253175d9b4c176a"
  },
  "hn:50049872": {
   "copy": {
@@ -4124,6 +4314,76 @@
   },
   "hash": "8bb3d2a967d87ba4"
  },
+ "hn:50063365": {
+  "copy": {
+   "zh": {
+    "blurb": "Intel 推出的 D270 数据中心 GPU 搭载最高 480 GB LPDDR5X 高带宽内存，面向大模型推理与高性能计算场景，提供强大的算力与内存带宽。",
+    "points": [
+     "配备最高 480 GB LPDDR5X，带宽极高",
+     "针对 AI 推理与大模型优化的架构",
+     "Intel 数据中心 GPU 系列的最新成员"
+    ],
+    "title": "Intel D270 GPU AI 加速器 – 最多 480 GB LPDDR5X"
+   }
+  },
+  "hash": "72031580fa12b003"
+ },
+ "hn:50064438": {
+  "copy": {
+   "zh": {
+    "blurb": "Blokkily 是一款开源的实验性 DAW，采用 pattern‑first 工作流，并内置对 MCP（MIDI 控制协议）的支持，旨在简化音乐创作和实时演奏。",
+    "points": [
+     "基于 pattern‑first 的编曲方式，鼓励先设计循环再细化。",
+     "原生支持 MCP，能够直接与硬件控制器交互。",
+     "采用模块化架构，易于扩展和自定义。"
+    ],
+    "title": "实验性模式优先的数字音频工作站（支持MCP）"
+   }
+  },
+  "hash": "466ab2c3cdaf3d25"
+ },
+ "hn:50064840": {
+  "copy": {
+   "zh": {
+    "blurb": "SolidCraft 是一个用 Rust 开发的参数化 CAD 软件，支持 MCP（多部件协作），强调安全性与可扩展性，面向工程设计与开源社区。",
+    "points": [
+     "全栈 Rust 实现，保证内存安全",
+     "支持参数化建模与多部件协作（MCP）",
+     "开源且可自行扩展插件"
+    ],
+    "title": "Show HN：SolidCraft – 用 Rust 编写的开源参数化 CAD"
+   }
+  },
+  "hash": "8d38fddff2ef5911"
+ },
+ "hn:50065692": {
+  "copy": {
+   "zh": {
+    "blurb": "最新arXiv论文展示了在理论上构造的AI模型能够隐藏任意预设功能，提供了对模型可解释性和安全性的深刻警示。",
+    "points": [
+     "提出可证明的隐藏能力构造方法",
+     "揭示模型安全与可解释性的潜在风险",
+     "对监管与审计提出新挑战"
+    ],
+    "title": "AI模型可证明隐藏任意能力的理论研究"
+   }
+  },
+  "hash": "3a29edde26e795d5"
+ },
+ "hn:50066559": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在搜索 AI 代理时引入实用性评分层，先过滤低价值结果，再进行检索，降低 token 消耗并提升深度查询的答案质量。",
+    "points": [
+     "实用性评分预过滤，减少不相关结果。",
+     "显著降低 token 使用和成本。",
+     "在需要深入研究或最新信息的任务中提升回答质量。"
+    ],
+    "title": "为 AI 代理搜索加入实用性评分"
+   }
+  },
+  "hash": "b769b88ffc22153c"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -4136,6 +4396,20 @@
    }
   },
   "hash": "c638ff8ea4658695"
+ },
+ "lobsters:2h9opx": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇博客探讨了社区中出现的用户名 vfmaddrnd231pd 的来源与身份，结合公开信息进行推测与分析。",
+    "points": [
+     "梳理该用户名的出现记录",
+     "分析可能的身份线索与动机",
+     "呼吁社区关注匿名用户的安全与隐私"
+    ],
+    "title": "谁是 vfmaddrnd231pd??"
+   }
+  },
+  "hash": "32179afbf9de4fac"
  },
  "lobsters:4ehrkn": {
   "copy": {
@@ -4162,6 +4436,20 @@
    }
   },
   "hash": "df664b687c1275da"
+ },
+ "lobsters:5feguu": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章展示了在 Unreal 编辑器中，用更快的非密码学哈希（如 xxHash）取代传统的安全哈希，可显著降低编辑器的构建与加载时间。",
+    "points": [
+     "使用非密码学哈希提升编译与热加载速度",
+     "保持功能完整性而不影响编辑器行为",
+     "在实际项目中测得整体性能提升约 20%"
+    ],
+    "title": "通过放弃过度安全的哈希方法加速 Unreal 编辑器"
+   }
+  },
+  "hash": "0bbf9bee12ac2506"
  },
  "lobsters:5zbbd0": {
   "copy": {
@@ -4263,6 +4551,20 @@
   },
   "hash": "1a5a2616c6e98528"
  },
+ "lobsters:cjdy6d": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分享了在 C 语言生态下使用现代库和工具，实现类似 SPA 的 Web 应用，展示了高性能与低层控制的可能性。",
+    "points": [
+     "利用现代 C 库实现路由、模板等功能",
+     "展示了与传统脚本语言相比的性能优势",
+     "提供完整示例代码供参考"
+    ],
+    "title": "用 C 语言构建现代 Web 应用"
+   }
+  },
+  "hash": "c58490e7e6a550f3"
+ },
  "lobsters:cthze7": {
   "copy": {
    "zh": {
@@ -4271,6 +4573,20 @@
    }
   },
   "hash": "7520ca06d416ab9f"
+ },
+ "lobsters:d9rpcl": {
+  "copy": {
+   "zh": {
+    "blurb": "curl 作者 Daniel Stenberg 发布了精简版 curl，去除可选功能后二进制更小，执行速度略有提升，适合资源受限环境。",
+    "points": [
+     "二进制体积显著缩减，便于嵌入式部署。",
+     "性能略有提升，网络请求更快。",
+     "可选功能可通过编译开关定制。"
+    ],
+    "title": "更快更小的 curl 版本发布"
+   }
+  },
+  "hash": "2894ad122b76e421"
  },
  "lobsters:dodzdb": {
   "copy": {
@@ -4461,6 +4777,20 @@
   },
   "hash": "e7ed2779c6adfb63"
  },
+ "lobsters:j30pg4": {
+  "copy": {
+   "zh": {
+    "blurb": "数学艺术家Vi Hart在Patreon上分享了一篇深入探讨Navier‑Stokes方程的长文，结合可视化与直观解释，吸引广泛关注。",
+    "points": [
+     "以艺术化方式解读复杂流体力学方程",
+     "提供交互式图示帮助非专业读者理解",
+     "激发公众对数学可视化的兴趣"
+    ],
+    "title": "Vi Hart发布大型Navier‑Stokes主题贴文"
+   }
+  },
+  "hash": "4be977ba9c6acdd0"
+ },
  "lobsters:k2natg": {
   "copy": {
    "zh": {
@@ -4538,6 +4868,15 @@
   },
   "hash": "5561ddc01e36f8f2"
  },
+ "lobsters:mldt0o": {
+  "copy": {
+   "zh": {
+    "blurb": "安全研究员在 Google DevSite 的 Flask 会话 pickle 机制中发现高危 RCE 漏洞，若利用可执行任意代码，潜在危害高达 9 万美元。",
+    "title": "在 Google 发现价值 9 万美元的远程代码执行漏洞"
+   }
+  },
+  "hash": "5a19bbdcf8798166"
+ },
  "lobsters:nroajo": {
   "copy": {
    "zh": {
@@ -4546,6 +4885,15 @@
    }
   },
   "hash": "cae80c520e7a97f3"
+ },
+ "lobsters:nsmm3j": {
+  "copy": {
+   "zh": {
+    "blurb": "Claroty 团队分析 Danfoss 冷链控制器，发现可通过冻结控制器导致解冻食品的安全漏洞。",
+    "title": "揭示 Danfoss 制冷控制器的漏洞：冻结控制器，解冻食品"
+   }
+  },
+  "hash": "265bcfe91c430776"
  },
  "lobsters:qgybwb": {
   "copy": {
@@ -4575,6 +4923,15 @@
   },
   "hash": "4dc6ecb7d5a7ae9c"
  },
+ "lobsters:rji3qe": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提出 DataCube 算子，将 GROUP BY、交叉表、上卷、下钻及小计等聚合统一为 N 维关系模型，能够在关系数据库中直接生成多维汇总。",
+    "title": "DataCube：通用的关系聚合算子，统一 Group‑By、交叉表与小计"
+   }
+  },
+  "hash": "e0e710ffd7d1da45"
+ },
  "lobsters:rpiwtb": {
   "copy": {
    "zh": {
@@ -4588,6 +4945,19 @@
    }
   },
   "hash": "8d4f04b10a8a6c0c"
+ },
+ "lobsters:sozl9e": {
+  "copy": {
+   "zh": {
+    "blurb": "Filippo 讨论了后量子密码学的关键要点，提供了在量子威胁时代选择安全算法和实现的指引。",
+    "points": [
+     "推荐使用已标准化的后量子算法如 Kyber、Dilithium。",
+     "强调密钥管理和实现审计的重要性。"
+    ],
+    "title": "（后量子）密码学正确答案"
+   }
+  },
+  "hash": "2ea71b8aa54947bb"
  },
  "lobsters:sqftld": {
   "copy": {
@@ -4672,6 +5042,20 @@
    }
   },
   "hash": "4b43200063ce080a"
+ },
+ "lobsters:x1ucie": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目演示如何让 ESP32 通过串口与树莓派协作，承担 Wi‑Fi 与蓝牙功能，减轻主机网络负担，实现低成本无线扩展。",
+    "points": [
+     "使用 ESP32 提供 Wi‑Fi/BLE，成本低廉。",
+     "通过串口协议作为 Linux 协处理器，透明化网络栈。",
+     "降低树莓派 CPU 负载，提升整体性能。"
+    ],
+    "title": "ESP32 作为树莓派 Linux 的无线协处理器"
+   }
+  },
+  "hash": "a5a1b40f920bd311"
  },
  "lobsters:zziknb": {
   "copy": {
