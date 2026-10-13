@@ -25,6 +25,11 @@
   "attemptedAt": "2026-10-13T07:41:49.006Z"
  },
  "2026-10-13": {
-  "attemptedAt": "2026-10-13T07:41:49.006Z"
+  "attemptedAt": "2026-10-13T19:15:57.860Z",
+  "reason": "budget"
+ },
+ "2026-10-14": {
+  "attemptedAt": "2026-10-13T19:15:57.860Z",
+  "reason": "budget"
  }
 }
