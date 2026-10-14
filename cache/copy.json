@@ -1464,8 +1464,12 @@
  "devto:4839261": {
   "copy": {
    "zh": {
-    "blurb": "作者审阅了 9,050 篇 AI 自动生成的脚本，发现它们普遍缺乏规范、易出错，揭示了 AI 编码中常见的‘slop’问题，并提出改进提示。",
-    "title": "9050 个 AI 编写脚本教会我的‘Slop’ 教训"
+    "blurb": "作者审阅了9050个AI生成的脚本，发现普遍的质量问题——所谓的“slop”，并探讨提升脚本质量的思路。",
+    "points": [
+     "大量AI脚本暴露出一致的低质量模式",
+     "强调需要更严谨的提示和后处理以减少‘slop’"
+    ],
+    "title": "9,050篇AI生成脚本教会我的“Slop”经验"
    }
   },
   "hash": "bdd66a04d17576f4"
@@ -1478,6 +1482,15 @@
    }
   },
   "hash": "5716fe12259a20ea"
+ },
+ "devto:4839496": {
+  "copy": {
+   "zh": {
+    "blurb": "在曼哈顿进行的12小时构建日中，参赛者聚焦公寓搜索、无障碍工具和调试代理等主题，开启会议周并展示超过50个项目。",
+    "title": "首届AI工程师纽约黑客马拉松启动，汇聚50+项目"
+   }
+  },
+  "hash": "74ee59a3068b4016"
  },
  "devto:4839507": {
   "copy": {
@@ -1882,6 +1895,120 @@
   },
   "hash": "9fec7811e1f00434"
  },
+ "devto:4846023": {
+  "copy": {
+   "zh": {
+    "blurb": "tonesearch 是一款开源工具，利用本地 AI 模型在通话录音中自动定位情绪激动的片段，帮助用户快速发现通话中的愤怒时刻，适用于 Hacktoberfest 开源 AI 挑战第 2 周的侧项目。",
+    "title": "tonesearch：在本地查找通话录音中的愤怒时段"
+   }
+  },
+  "hash": "472e3a2c5e3900ba"
+ },
+ "devto:4846072": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨构建 MountX 的过程——一种自托管的动态语言，能够直接编译成符合 C99 标准的代码，展示从语言设计到编译实现的关键技术细节。",
+    "title": "构建 MountX：自托管的动态语言，编译至 C99"
+   }
+  },
+  "hash": "c8b5325171e0971b"
+ },
+ "devto:4846208": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 中评估四种开源视觉模型对 50 张收据的识别效果，展示了约 25 倍的价格差距。",
+    "points": [
+     "比较四种开源视觉模型在收据识别上的准确率",
+     "使用 50 张收据样本进行评估",
+     "成本差距最高达约 25 倍"
+    ],
+    "title": "开源视觉模型收据阅读器：四模型对比"
+   }
+  },
+  "hash": "902511d7f887f40f"
+ },
+ "devto:4846285": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用Gemma 2模型自动生成Etsy和Shopify的高转化商品描述，作为Hacktoberfest开源AI挑战第二周的副业示例。",
+    "title": "ShopCraft AI：基于Gemma 2的高转化Etsy与Shopify商品文案"
+   }
+  },
+  "hash": "a34d80e51763ea80"
+ },
+ "devto:4846306": {
+  "copy": {
+   "zh": {
+    "blurb": "Aurelio 是一款 MIT 许可的个人理财应用，数据本地存储，并可选集成基于 OpenRouter 的 AI 顾问，提供经确认的修改建议。",
+    "points": [
+     "本地存储保障隐私安全",
+     "AI 顾问通过 OpenRouter 提供建议并可人工确认",
+     "MIT 许可证允许自由使用和修改"
+    ],
+    "title": "Aurelio：本地财务记录+可选 AI 顾问"
+   }
+  },
+  "hash": "e38c6b8f442b1cac"
+ },
+ "devto:4846519": {
+  "copy": {
+   "zh": {
+    "blurb": "AnyPS5 并非主机模拟器，而是逐函数替换平台依赖，借助 AI 提供实现建议并通过硬件 Oracle 验证结果。",
+    "points": [
+     "不进行主机模拟，而是逐函数替换平台依赖",
+     "AI 循环提供实现建议并由硬件 Oracle 验证",
+     "提升兼容性同时保持性能准确性"
+    ],
+    "title": "AnyPS5：逐函数替换平台依赖的AI驱动方案"
+   }
+  },
+  "hash": "478070bf2cdb15d7"
+ },
+ "devto:4846594": {
+  "copy": {
+   "zh": {
+    "blurb": "作者实现了一款 60 帧的烘焙游戏，用于演示检索增强生成（RAG）、安全护栏、上下文缓存以及多代理协同等 AI 系统设计概念。",
+    "points": [
+     "实时 60 FPS 提供流畅交互体验",
+     "通过游戏情境展示 RAG 与安全护栏的实用实现",
+     "支持多代理编排与上下文缓存提升效率"
+    ],
+    "title": "打造 60 FPS AI 代理烘焙游戏：教学 RAG、护栏、上下文缓存与多代理编排"
+   }
+  },
+  "hash": "47defa9e8a388a5c"
+ },
+ "devto:4846771": {
+  "copy": {
+   "zh": {
+    "blurb": "此项目为Hacktoberfest开源AI挑战第二周提交的作品，提供自动化表格预测代理并配套MCP服务器，帮助小型SaaS和自由职业者快速部署AI功能。",
+    "title": "TabuPulse AI：面向微型SaaS与自由职业者的自主表格预测代理与MCP服务器"
+   }
+  },
+  "hash": "0af8bb76353a7728"
+ },
+ "devto:4846844": {
+  "copy": {
+   "zh": {
+    "blurb": "作者历时三周末尝试各种安全方案，几乎全部失效，最终约600行代码实现了可行的防护。",
+    "points": [
+     "多数安全措施未达预期",
+     "约600行代码构建了有效的防御机制"
+    ],
+    "title": "三周末安全AI代理的尝试与600行有效代码"
+   }
+  },
+  "hash": "68c7402c4c9e43f1"
+ },
+ "devto:4847905": {
+  "copy": {
+   "zh": {
+    "blurb": "文章披露MCP注册表中有上万台服务器，其中约41%在启动后从未返回响应，探讨其安全性与可靠性问题。",
+    "title": "我们部署了12,915台MCP服务器，41%未响应"
+   }
+  },
+  "hash": "98ee9876c05a7150"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -1971,6 +2098,15 @@
    }
   },
   "hash": "b56a1c37467f6f03"
+ },
+ "gh:apify/apify-mcp-server": {
+  "copy": {
+   "zh": {
+    "blurb": "Apify MCP 服务器让 AI 代理能够通过 Apify Store 中数千个即用型爬虫和自动化工具，从社交媒体、搜索引擎、地图、电商等网站快速提取数据，实现跨站点信息抓取。",
+    "title": "apify-mcp-server：用于 AI 代理的数据提取与爬取平台"
+   }
+  },
+  "hash": "0c9032d206867746"
  },
  "gh:appwrite/appwrite": {
   "copy": {
@@ -2354,6 +2490,15 @@
    }
   },
   "hash": "32a8ad7d766f7ab1"
+ },
+ "gh:google/artemis": {
+  "copy": {
+   "zh": {
+    "blurb": "ARTEMIS 能将自然语言指令转化为可靠的 Android 自动化，支持端到端工作流、日志捕获，并可与 Antigravity、Codex、Claude Code 等 AI 编码助手无缝集成，在 AndroidWorld 基准测试上成功率超过 99%。",
+    "title": "ARTEMIS：将自然语言指令转换为可靠的 Android 自动化"
+   }
+  },
+  "hash": "ed65274050ddb823"
  },
  "gh:graphify-labs/graphify": {
   "copy": {
@@ -3459,6 +3604,19 @@
    }
   },
   "hash": "acb537d2dfa1317b"
+ },
+ "hf:autotrust/jev-35b": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一个35B参数的大型语言模型，专注于文本分类任务，已在Hugging Face上发布并获得大量点赞。",
+    "points": [
+     "35B规模，适用于高精度分类",
+     "开放模型，社区可直接使用和微调"
+    ],
+    "title": "autotrust/JEV-35B 文本分类模型"
+   }
+  },
+  "hash": "1e123d26e41e52df"
  },
  "hf:canberkkkkkk/ema-lightning": {
   "copy": {
@@ -4652,6 +4810,15 @@
   },
   "hash": "b8da0527c191be5a"
  },
+ "hn:50059096": {
+  "copy": {
+   "zh": {
+    "blurb": "Agent37 提供运行 AI 代理的沙盒服务，成本低至普通供应商的 10%，平均每月约 $0.37，支持免费计划以拓展用户。",
+    "title": "Agent37：低成本 AI 代理沙盒（YC F26）"
+   }
+  },
+  "hash": "b134164910686f7e"
+ },
  "hn:50059523": {
   "copy": {
    "zh": {
@@ -4836,6 +5003,20 @@
   },
   "hash": "5790be70a2ce782d"
  },
+ "hn:50074869": {
+  "copy": {
+   "zh": {
+    "blurb": "Google 发布 Gemini 4 Argon，专为机器人任务微调的多模态模型，支持实时感知与运动规划，可在内部机器人平台高效推理。",
+    "points": [
+     "针对机器人任务微调的多模态 Gemini 4 Argon 模型",
+     "支持实时感知、运动规划与决策",
+     "在 Google 内部机器人平台实现高效本地推理"
+    ],
+    "title": "Gemini 4 Argon：面向机器人应用的模型"
+   }
+  },
+  "hash": "558ebb152d9add88"
+ },
  "hn:50076388": {
   "copy": {
    "zh": {
@@ -4849,6 +5030,75 @@
    }
   },
   "hash": "b073abe82f733a1a"
+ },
+ "hn:50077619": {
+  "copy": {
+   "zh": {
+    "blurb": "Parsimony 开源基准通过统计语法单元（语句、调用、标识符等）衡量代码生成模型的代码冗余，删除代码会被扣除，侧重净增量。",
+    "points": [
+     "以语法单元计数代替行数，避免代码堆砌",
+     "删除代码会被扣除，衡量净增代码量",
+     "适用于 SWE‑bench、DeepSWE 等基准的模型评估"
+    ],
+    "title": "Parsimony：评估代码生成模型代码冗余的开源基准"
+   }
+  },
+  "hash": "b5f5c8a415b4bf61"
+ },
+ "hn:50078141": {
+  "copy": {
+   "zh": {
+    "blurb": "一名OpenAI工程师被指控在高管会议室安装监听装置并被警方逮捕，事件引发业界关注。",
+    "points": [
+     "涉嫌非法窃听公司内部会议",
+     "此事突显AI公司内部安全与合规风险"
+    ],
+    "title": "OpenAI工程师因监听高管会议室被逮捕"
+   }
+  },
+  "hash": "29cc38feeb33ab8a"
+ },
+ "hn:50080275": {
+  "copy": {
+   "zh": {
+    "blurb": "Pulse Local 是面向 Apple Silicon 的本地预算应用，AI 模型在用户机器上运行，所有账本和问答数据均不离开设备。",
+    "points": [
+     "AI 模型本地推理，回答支出相关问题",
+     "无需账号，所有账本和查询数据均保存在本机",
+     "仅下载少量模型并定期更新，保护用户隐私"
+    ],
+    "title": "Pulse Local：本地运行的Mac预算管理应用"
+   }
+  },
+  "hash": "139913ad65b43358"
+ },
+ "hn:50080450": {
+  "copy": {
+   "zh": {
+    "blurb": "Jevcrawl 是一个开源爬虫，专为 AI 代理使用而构建，抓取过程不依赖大型语言模型，提供统一的网页抽取接口。",
+    "points": [
+     "爬取流程不在 LLM 调用中，降低延迟和成本。",
+     "统一的 API 让 AI 代理可直接获取结构化网页数据。",
+     "支持并发抓取并可自定义过滤规则。"
+    ],
+    "title": "Show HN：Jevcrawl – 为 AI 代理设计的无 LLM 抓取循环的网络爬虫"
+   }
+  },
+  "hash": "4c20611e676d13ee"
+ },
+ "hn:50082728": {
+  "copy": {
+   "zh": {
+    "blurb": "SuperLocalMemory 项目实现一种本地记忆体系，使 AI 在推理时始终基于真实检索结果，避免凭空编造，示例模型包括 Laya、Jev 与 Google Gemma。",
+    "points": [
+     "使用本地向量检索保证回答基于实际文档。",
+     "集成 Laya、Jev 与 Gemma，演示不同模型的记忆能力。",
+     "提供 API 便于在自定义应用中加入可靠记忆层。"
+    ],
+    "title": "Show HN：SuperLocalMemory – 永不欺骗的 AI 大脑：Laya、Jev 与 Google Gemma"
+   }
+  },
+  "hash": "7bfe0889254a55c1"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -4890,6 +5140,15 @@
   },
   "hash": "71416dfbc1671413"
  },
+ "lobsters:4jfegi": {
+  "copy": {
+   "zh": {
+    "blurb": "文章讨论在前端开发环境中使用 Nixpkgs 的挑战与解决方案，帮助前端工程师更好地利用 Nix 包管理。",
+    "title": "前端开发者的 Nixpkgs 使用指南"
+   }
+  },
+  "hash": "de56742533f94987"
+ },
  "lobsters:4zmka2": {
   "copy": {
    "zh": {
@@ -4916,6 +5175,19 @@
    }
   },
   "hash": "0bbf9bee12ac2506"
+ },
+ "lobsters:5ucftp": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 对内部源码管理进行重新设计，以提升可扩展性和协作效率，分享了架构思路与实现细节。",
+    "points": [
+     "新系统兼顾单体与多仓库需求",
+     "提升了代码审查与发布流程的自动化"
+    ],
+    "title": "Anthropic 源代码控制系统重构"
+   }
+  },
+  "hash": "44f832f2cdbe2ec2"
  },
  "lobsters:5zbbd0": {
   "copy": {
@@ -4951,6 +5223,19 @@
    }
   },
   "hash": "6ba2aae8b1faf132"
+ },
+ "lobsters:6vs8a0": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨编译器自举过程受操作系统变化、工具链兼容等多因素影响，强调其复杂性。",
+    "points": [
+     "自举不仅依赖编译器本身，还受底层 OS 与库的演变影响",
+     "细微平台差异可导致自举失败，需要细致的兼容层处理"
+    ],
+    "title": "编译器自举依赖的细节超出想象"
+   }
+  },
+  "hash": "ad71002906bb8a08"
  },
  "lobsters:73ssw1": {
   "copy": {
@@ -5026,6 +5311,20 @@
    }
   },
   "hash": "68a6d450025cb6c0"
+ },
+ "lobsters:a0jmkh": {
+  "copy": {
+   "zh": {
+    "blurb": "Bru 项目让浏览器直接发送和读取短信，无需本地应用，基于 Web API 实现跨平台短信功能。",
+    "points": [
+     "利用浏览器原生 API 实现短信的发送与读取",
+     "无需安装本地客户端，直接在网页运行",
+     "跨平台支持，提升 Web 应用的通信能力"
+    ],
+    "title": "Bru：在浏览器中发送和读取短信"
+   }
+  },
+  "hash": "1044a80812d5a63d"
  },
  "lobsters:aasanp": {
   "copy": {
@@ -5122,6 +5421,20 @@
   },
   "hash": "f0fe095d3b9f9aa6"
  },
+ "lobsters:dyypvf": {
+  "copy": {
+   "zh": {
+    "blurb": "Apple 发布页面鼓励用户将默认浏览器从 Chrome 切换至 Safari，强调 Safari 对隐私、性能和能源效率的优势。",
+    "points": [
+     "Safari 原生集成 Apple 生态，提升跨设备同步体验。",
+     "更严格的隐私防护和更低的功耗。",
+     "提供迁移工具帮助用户导入 Chrome 书签和数据。"
+    ],
+    "title": "Apple：从 Chrome 切换到 Safari"
+   }
+  },
+  "hash": "3ec713adb9b46e95"
+ },
  "lobsters:e84scc": {
   "copy": {
    "zh": {
@@ -5195,6 +5508,20 @@
   },
   "hash": "076b9e2b3bef3130"
  },
+ "lobsters:fppgkl": {
+  "copy": {
+   "zh": {
+    "blurb": "LWN 报道 2026 年维护者峰会的议程与要点，聚焦开源项目治理、资助模型和社区协作的新趋势。",
+    "points": [
+     "讨论了开源基金会的可持续资助机制。",
+     "分享了大型项目的治理结构案例。",
+     "提出了提升贡献者多样性和留存率的策略。"
+    ],
+    "title": "2026 年维护者峰会回顾"
+   }
+  },
+  "hash": "df322ddf38220d6a"
+ },
  "lobsters:g2ktrq": {
   "copy": {
    "zh": {
@@ -5212,6 +5539,19 @@
    }
   },
   "hash": "392afdc8906feb3b"
+ },
+ "lobsters:glfn7i": {
+  "copy": {
+   "zh": {
+    "blurb": "该页面深入解析递归概念及其在编程中的应用技巧，提供实用示例帮助读者掌握递归思维。",
+    "points": [
+     "层层拆解阐明递归的基本原理",
+     "提供典型代码示例展示递归在算法中的优势"
+    ],
+    "title": "征服递归"
+   }
+  },
+  "hash": "743821143fc144b1"
  },
  "lobsters:gmnqhj": {
   "copy": {
@@ -5249,6 +5589,15 @@
    }
   },
   "hash": "bb610ae1b2527480"
+ },
+ "lobsters:grpgmt": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic研究报告提出，未来AI模型可能具备在没有数据中心支持的环境中自行复制的能力，引发安全与治理讨论。",
+    "title": "AI模型或可在无需数据中心的情况下自我复制"
+   }
+  },
+  "hash": "f0d43df6f2a37219"
  },
  "lobsters:gytcvn": {
   "copy": {
@@ -5339,6 +5688,29 @@
    }
   },
   "hash": "4be977ba9c6acdd0"
+ },
+ "lobsters:jecehj": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨随着创作门槛降低，内容的质量与价值是否会随之下降，引发对AI生成内容生态的思考。",
+    "title": "创作便利是否会导致质量与价值下降？"
+   }
+  },
+  "hash": "2fe4e9ac0035e743"
+ },
+ "lobsters:jref3l": {
+  "copy": {
+   "zh": {
+    "blurb": "该视频展示如何利用 AVX-512 指令集对 Zig 语言的 tokenizer 进行向量化加速，实现数倍的吞吐提升。",
+    "points": [
+     "通过 SIMD 将字符处理并行化，提升约 3‑5 倍。",
+     "演示了使用 Rust 与 intrinsics 编写高效实现。",
+     "提供 benchmark 对比展示性能收益。"
+    ],
+    "title": "加速 Zig 分词器（使用 AVX-512）"
+   }
+  },
+  "hash": "545268c9a498e2b8"
  },
  "lobsters:k2natg": {
   "copy": {
@@ -5629,6 +6001,20 @@
   },
   "hash": "a5a1b40f920bd311"
  },
+ "lobsters:xatiaj": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客批评在ML‑DSA签名方案中预先对公钥哈希的做法，指出µ参数的设计缺陷，并讨论潜在安全影响。",
+    "points": [
+     "ML‑DSA在标准草案中使用了对公钥的哈希预处理。",
+     "作者认为µ参数会导致实现复杂度和安全性争议。",
+     "建议直接使用原始公钥以避免不必要的步骤。"
+    ],
+    "title": "请不要先对公钥进行哈希（或：ML-DSA的µ让我烦恼）"
+   }
+  },
+  "hash": "943ebf2e43d83c62"
+ },
  "lobsters:xz6sst": {
   "copy": {
    "zh": {
@@ -5637,6 +6023,19 @@
    }
   },
   "hash": "8c40af2d3eed20dd"
+ },
+ "lobsters:y65egs": {
+  "copy": {
+   "zh": {
+    "blurb": "Lix 项目发布了 2.96 版本，代号 “Bingsu”，带来一系列性能改进与新功能。",
+    "points": [
+     "新增模块提升系统性能",
+     "引入新API简化开发者使用"
+    ],
+    "title": "发布 Lix 2.96 “Bingsu”"
+   }
+  },
+  "hash": "a8eca133c528f539"
  },
  "lobsters:zmuawx": {
   "copy": {

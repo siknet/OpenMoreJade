@@ -42,7 +42,7 @@
    "sourceKey": "devto:4840051"
   },
   "discovery:devto:4840607": {
-   "observedAt": "2026-10-13T19:15:57.860Z",
+   "observedAt": "2026-10-14T06:07:58.904Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:devto:4840607",
@@ -81,8 +81,42 @@
    },
    "sourceKey": "devto:4840607"
   },
+  "discovery:gh:apify/apify-mcp-server": {
+   "observedAt": "2026-10-14T06:07:58.904Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:apify/apify-mcp-server",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-14T06:07:58.904Z",
+    "summary": {
+     "en": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
+     "zh": "Apify MCP 服务器让 AI 代理能够通过 Apify Store 中数千个即用型爬虫和自动化工具，从社交媒体、搜索引擎、地图、电商等网站快速提取数据，实现跨站点信息抓取。"
+    },
+    "title": {
+     "en": "apify/apify-mcp-server",
+     "zh": "apify-mcp-server：用于 AI 代理的数据提取与爬取平台"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/apify/apify-mcp-server",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:apify/apify-mcp-server"
+  },
   "discovery:gh:calesthio/openmontage": {
-   "observedAt": "2026-10-13T19:15:57.860Z",
+   "observedAt": "2026-10-14T06:07:58.904Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:calesthio/openmontage",
@@ -857,7 +891,7 @@
    "sourceKey": "hn:50049588"
   },
   "discovery:hn:50076388": {
-   "observedAt": "2026-10-13T19:15:57.860Z",
+   "observedAt": "2026-10-14T06:07:58.904Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50076388",
@@ -888,6 +922,72 @@
     }
    },
    "sourceKey": "hn:50076388"
+  },
+  "discovery:hn:50077619": {
+   "observedAt": "2026-10-14T06:07:58.904Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50077619",
+    "level": "starter",
+    "publishedAt": "2026-10-13T19:50:31.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "parsimony.lasu.dev",
+    "sourceUpdatedAt": "2026-10-13T19:50:31.000Z",
+    "summary": {
+     "en": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units. GPT-6 and Claude 5.5 have no public patches yet, so I ran them…",
+     "zh": "Parsimony 开源基准通过统计语法单元（语句、调用、标识符等）衡量代码生成模型的代码冗余，删除代码会被扣除，侧重净增量。"
+    },
+    "title": {
+     "en": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+     "zh": "Parsimony：评估代码生成模型代码冗余的开源基准"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://parsimony.lasu.dev/",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50077619"
+  },
+  "discovery:hn:50080275": {
+   "observedAt": "2026-10-14T06:07:58.904Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50080275",
+    "level": "starter",
+    "publishedAt": "2026-10-13T23:13:23.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "pulseos.finance",
+    "sourceUpdatedAt": "2026-10-13T23:13:23.000Z",
+    "summary": {
+     "en": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data. Features-wise, Pulse local is a…",
+     "zh": "Pulse Local 是面向 Apple Silicon 的本地预算应用，AI 模型在用户机器上运行，所有账本和问答数据均不离开设备。"
+    },
+    "title": {
+     "en": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+     "zh": "Pulse Local：本地运行的Mac预算管理应用"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://pulseos.finance",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50080275"
   }
  },
  "dynamicHistory": {
@@ -1776,6 +1876,41 @@
     }
    }
   },
+  "https://github.com/apify/apify-mcp-server": {
+   "days": {
+    "2026-10-14": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:apify/apify-mcp-server",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-14T06:07:58.904Z",
+    "summary": {
+     "en": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
+     "zh": "Apify MCP 服务器让 AI 代理能够通过 Apify Store 中数千个即用型爬虫和自动化工具，从社交媒体、搜索引擎、地图、电商等网站快速提取数据，实现跨站点信息抓取。"
+    },
+    "title": {
+     "en": "apify/apify-mcp-server",
+     "zh": "apify-mcp-server：用于 AI 代理的数据提取与爬取平台"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/apify/apify-mcp-server",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   }
+  },
   "https://github.com/cherryhq/cherry-studio": {
    "days": {
     "2026-10-06": 90,
@@ -2240,8 +2375,7 @@
   },
   "https://github.com/headroomlabs-ai/headroom": {
    "days": {
-    "2026-10-13": 75,
-    "2026-10-14": 75
+    "2026-10-13": 75
    },
    "resource": {
     "freshnessBasis": "repo-updated",
@@ -4233,6 +4367,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/apify/apify-mcp-server": {
+   "active": true,
+   "currentEnteredAt": "2026-10-14T06:07:58.904Z",
+   "firstEnteredAt": "2026-10-14T06:07:58.904Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/cherryhq/cherry-studio": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -4339,7 +4480,7 @@
    "returns": 0
   },
   "https://github.com/headroomlabs-ai/headroom": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-12T21:16:13.810Z",
    "firstEnteredAt": "2026-10-12T21:16:13.810Z",
    "initial": false,
@@ -4782,6 +4923,7 @@
   "https://github.com/acly/krita-ai-diffusion": "2026-10-06T09:37:13.355Z",
   "https://github.com/aider-ai/aider": "2026-10-06T09:37:13.355Z",
   "https://github.com/anomalyco/opencode": "2026-10-06T09:37:13.355Z",
+  "https://github.com/apify/apify-mcp-server": "2026-10-14T06:07:58.904Z",
   "https://github.com/calesthio/openmontage": "2026-10-06T09:37:13.355Z",
   "https://github.com/cherryhq/cherry-studio": "2026-10-06T09:37:13.355Z",
   "https://github.com/cline/cline": "2026-10-06T09:37:13.355Z",
@@ -4855,10 +4997,12 @@
   "https://numpy.org/doc/stable/user/absolute_beginners.html": "2026-10-06T09:37:13.355Z",
   "https://openrouter.ai/docs/quickstart": "2026-10-06T09:37:13.355Z",
   "https://pandas.pydata.org/docs/getting_started/intro_tutorials": "2026-10-06T09:37:13.355Z",
+  "https://parsimony.lasu.dev/": "2026-10-14T06:07:58.904Z",
   "https://perplexity.ai/": "2026-10-06T09:37:13.355Z",
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview": "2026-10-06T09:37:13.355Z",
   "https://podcast.adobe.com/": "2026-10-06T09:37:13.355Z",
   "https://promptfoo.dev/docs/getting-started": "2026-10-06T09:37:13.355Z",
+  "https://pulseos.finance/": "2026-10-14T06:07:58.904Z",
   "https://pydantic.dev/docs/ai/overview": "2026-10-06T09:37:13.355Z",
   "https://qianwen.com/": "2026-10-06T09:37:13.355Z",
   "https://recraft.ai/": "2026-10-06T09:37:13.355Z",
