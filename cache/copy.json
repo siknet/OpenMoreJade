@@ -1675,6 +1675,20 @@
   },
   "hash": "f893990c3b18445a"
  },
+ "devto:4840573": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在全球青少年黑客松期间使用 Godot 引擎，从零搭建动作游戏，结合之前为 Stardance 完成的中型项目，最终获奖并展示了跨平台快速开发的潜力。",
+    "points": [
+     "使用 Godot 快速原型动作游戏",
+     "在全球青少年黑客松中协作并获奖",
+     "展示跨平台开发的效率"
+    ],
+    "title": "在全球青少年黑客松中使用 Godot 打造动作游戏"
+   }
+  },
+  "hash": "ed78da484096b5b4"
+ },
  "devto:4840607": {
   "copy": {
    "zh": {
@@ -1790,6 +1804,15 @@
   },
   "hash": "10e4121dd27c8442"
  },
+ "devto:4845098": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨在提升数据安全的同时，AI 模型性能可能下降的悖论，分析其根源与应对思路。",
+    "title": "AI 数据悖论：安全越高，模型越差"
+   }
+  },
+  "hash": "1ad0e068248353eb"
+ },
  "devto:4845169": {
   "copy": {
    "zh": {
@@ -1871,8 +1894,13 @@
  "devto:4845718": {
   "copy": {
    "zh": {
-    "blurb": "作者强调通过端到端评估来改进智能体，提醒团队避免仅关注单组件性能，而应在完整任务流程中验证整体效果。",
-    "title": "Building Better Agents through End-to-End Evals"
+    "blurb": "Dev.to 文章阐述了在构建智能体时，常见的错误是缺乏对任务的完整理解，提出使用端到端评估框架来测量整体表现，而非仅看单模块指标。",
+    "points": [
+     "端到端评估覆盖感知、决策、执行全流程。",
+     "强调任务描述与评测基准的一致性。",
+     "引入真实交互场景提升评估可信度。"
+    ],
+    "title": "通过端到端评估打造更佳 AI 代理"
    }
   },
   "hash": "53456ca11b121d90"
@@ -1907,8 +1935,13 @@
  "devto:4845773": {
   "copy": {
    "zh": {
-    "blurb": "文章指出，尽管 AI 代理能够记住信息，但缺乏真正的学习能力，导致在多轮对话中反复出现相同错误，呼吁改进记忆与学习机制。",
-    "title": "记忆不是学习：为何 AI 代理会重复错误"
+    "blurb": "文章指出，许多智能体缺乏持久记忆，导致同一错误在多轮对话中重复出现，提出通过外部知识库或长期记忆机制来改善。",
+    "points": [
+     "当前代理多数使用短期上下文，难以累计经验。",
+     "引入持久记忆模块可降低重复错误率。",
+     "实现长期记忆面临存储、检索与隐私的技术挑战。"
+    ],
+    "title": "记忆不是学习：AI 代理为何反复出错"
    }
   },
   "hash": "f135837080a03eff"
@@ -2020,8 +2053,13 @@
  "devto:4846084": {
   "copy": {
    "zh": {
-    "blurb": "文章探讨在构建智能系统时，仅有模型并不足够，真正的挑战在于数据准备、任务定义、评估指标以及系统集成等环节。",
-    "title": "The Model Is the Easy Part"
+    "blurb": "作者回顾过去几个月的实践，指出在 AI 产品落地时，数据收集、标注、系统集成与用户交互设计远比模型本身更具挑战。",
+    "points": [
+     "高质量数据是性能提升的关键瓶颈。",
+     "部署与监控成本往往超过研发投入。",
+     "与业务目标对齐的迭代流程决定项目成功。"
+    ],
+    "title": "模型已不是难点"
    }
   },
   "hash": "d994680c867b85be"
@@ -2185,6 +2223,15 @@
   },
   "hash": "d9aab1eef9393e4f"
  },
+ "devto:4847344": {
+  "copy": {
+   "zh": {
+    "blurb": "本文回顾 LangChainJS 的最新功能并评测 Google Gemini 4 Argon 的性能，展望两者的未来融合。",
+    "title": "LangChainJS 与 Gemini 4 Argon：现状与未来"
+   }
+  },
+  "hash": "c7950244792bf811"
+ },
  "devto:4847905": {
   "copy": {
    "zh": {
@@ -2229,6 +2276,15 @@
    }
   },
   "hash": "2e091b1a73a1ff04"
+ },
+ "devto:4850979": {
+  "copy": {
+   "zh": {
+    "blurb": "Papyra 1.0 是一款可自行部署的笔记工具，所有笔记以 Markdown 文件形式保存，界面类似 Google Keep，适合个人知识管理。",
+    "title": "Papyra v1：自托管的 Markdown 笔记应用"
+   }
+  },
+  "hash": "6925a3c92e5231c8"
  },
  "devto:4851142": {
   "copy": {
@@ -2342,6 +2398,112 @@
   },
   "hash": "85cd4f926307515c"
  },
+ "devto:4852470": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出 200 行提示、阿西莫夫三定律等传统方法易失效，借鉴 1986 年 Fernando Flores 的“承诺言论”、1977 年 Belnap 四值逻辑和 1978 年 Hoare CSP，把 AI 代理工作流改写为自愈的承诺机器。",
+    "points": [
+     "将 AI 工作流抽象为承诺机器",
+     "引入 Belnap 四值逻辑与 CSP 实现自愈",
+     "批判传统 200 行提示的局限"
+    ],
+    "title": "用 1986 年“承诺言论”机器重写 AI 代理工作流"
+   }
+  },
+  "hash": "6d1af70d169c5c80"
+ },
+ "devto:4852625": {
+  "copy": {
+   "zh": {
+    "blurb": "VendorForge AI 是一款开源的自动化转售助手，帮助用户将闲置商品快速上架并实现收益。",
+    "points": [
+     "自动化识别并整理闲置商品信息",
+     "一键生成商品描述与定价策略",
+     "支持多平台同步发布，实现快速变现"
+    ],
+    "title": "VendorForge AI：自主转售助理"
+   }
+  },
+  "hash": "dea07c531ab84821"
+ },
+ "devto:4853222": {
+  "copy": {
+   "zh": {
+    "blurb": "这款村庄策略游戏展示了每个代理的决策过程，除了呈现行为，还能解释为何做出该决定，提升多代理系统的可解释性。",
+    "title": "Settlement：可视化多代理行为动机的村庄策略游戏"
+   }
+  },
+  "hash": "db11dc500b14a3c8"
+ },
+ "devto:4853275": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了在浏览器中利用开源 Kokoro-82M 模型和 WebGPU 实现的全免费、离线运行的文本转语音系统，强调了零服务器、隐私保护和跨平台兼容的优势。",
+    "title": "使用 Kokoro-82M 与 WebGPU 构建免费私密浏览器内 AI 文本转语音工具"
+   }
+  },
+  "hash": "b9975cbab8445cf5"
+ },
+ "devto:4853527": {
+  "copy": {
+   "zh": {
+    "blurb": "EyeZen 1.0.0 使用 Rust、Tauri 与 React 打造本地优先的跨平台桌面应用，提供流畅体验。",
+    "points": [
+     "Rust 提供高性能后端逻辑",
+     "Tauri 打包生成轻量跨平台桌面程序",
+     "React 构建现代前端界面，提升交互体验"
+    ],
+    "title": "EyeZen v1.0.0：本地优先桌面应用"
+   }
+  },
+  "hash": "f5be7a305df08e10"
+ },
+ "devto:4853532": {
+  "copy": {
+   "zh": {
+    "blurb": "文章揭示在使用 fetch 包装器时，POST 请求遇到 302 重定向会被自动转换为 GET，导致请求体和 Content‑Type 丢失的 bug。",
+    "title": "POST 变 GET：Node.js fetch 包装器的重定向漏洞"
+   }
+  },
+  "hash": "2fdd49fa2e6fcc63"
+ },
+ "devto:4853792": {
+  "copy": {
+   "zh": {
+    "blurb": "RepoDNA 1.3.3 版本升级，加入安全的 WebAssembly 命令行接口，强化制品完整性保护，并修复若干安全漏洞。",
+    "points": [
+     "引入安全的 WebAssembly 执行环境，防止恶意代码注入",
+     "加强制品完整性校验，提升供应链安全",
+     "修复多项已知安全问题，提升整体稳健性"
+    ],
+    "title": "RepoDNA v1.3.3：更安全的 WebAssembly CLI 与制品保护"
+   }
+  },
+  "hash": "a5c73012fdb2d035"
+ },
+ "devto:4853868": {
+  "copy": {
+   "zh": {
+    "blurb": "SudokuNova 0.2.0 让数独游戏完全离线可用，支持更多平台并优化 UI 与本地存储。",
+    "points": [
+     "完全离线可玩，无需网络依赖",
+     "支持 Web、桌面、移动等多平台",
+     "改进 UI 与本地存储，提升用户体验"
+    ],
+    "title": "SudokuNova v0.2.0：离线优先的跨平台数独"
+   }
+  },
+  "hash": "c7bd463a3c6af1c4"
+ },
+ "devto:4854049": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目为 Hacktoberfest 开源 AI 挑战第2周的副业示例，提供一个工具在拍摄过程中实时记录并管理费用，防止支出遗漏。",
+    "title": "PassThrough：在费用消失前捕获拍摄开支"
+   }
+  },
+  "hash": "9ed505fb8950beea"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -2421,6 +2583,15 @@
    }
   },
   "hash": "f2fcc7b4eda3158a"
+ },
+ "gh:anthropics/claude-plugins-official": {
+  "copy": {
+   "zh": {
+    "blurb": "由 Anthropic 官方维护的 Claude Code Plugins 仓库，收录高质量的插件集合，使用 Python 实现，帮助开发者快速扩展 Claude 功能。",
+    "title": "Claude 插件官方目录"
+   }
+  },
+  "hash": "e72f32eb60a7e7bc"
  },
  "gh:anthropics/knowledge-work-plugins": {
   "copy": {
@@ -2946,6 +3117,20 @@
   },
   "hash": "26cdc8fb2dfe314c"
  },
+ "gh:ifixai-ai/ifixai": {
+  "copy": {
+   "zh": {
+    "blurb": "iFixAi 是用于 AI 代理的独立审计工具，可由人或代理自行运行，120 秒内给出代理是否按预期执行的答案，基于 Python 实现，社区星标 27762，热度高。",
+    "points": [
+     "仅用 120 秒完成 AI 代理审计",
+     "支持人类或代理自行运行",
+     "基于 Python，社区星标 27762，热度 61.1"
+    ],
+    "title": "iFixAi：AI 代理独立审计工具"
+   }
+  },
+  "hash": "fb7b3e4e035257ae"
+ },
  "gh:infiniflow/ragflow": {
   "copy": {
    "zh": {
@@ -3017,6 +3202,20 @@
   },
   "hash": "c7b9d89f64c257dc"
  },
+ "gh:k-dense-ai/scientific-agent-skills": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库提供将任意 AI 代理转变为 AI 科学家的技能库，收录 177 个经过验证的科学技能和 100 多个生物、化学、医学等数据库，已被超过 25 万科研人员使用，兼容 Cursor、Claude Code、Codex 等多种模型。",
+    "points": [
+     "提供 177 条经验证的科学技能。",
+     "覆盖生物、化学、医学等 100+ 数据库。",
+     "支持 Cursor、Claude Code、Codex 等模型。"
+    ],
+    "title": "K-Dense-AI/scientific-agent-skills：AI 科学家技能库"
+   }
+  },
+  "hash": "24d9865fac5d11b8"
+ },
  "gh:koala73/worldmonitor": {
   "copy": {
    "zh": {
@@ -3032,6 +3231,15 @@
   },
   "hash": "73040f51f5554a53"
  },
+ "gh:krillinai/opencreator": {
+  "copy": {
+   "zh": {
+    "blurb": "前身 KrillinAI 的 OpenCreator 基于 TypeScript 与 Codex，集视频下载、翻译、生成视频、图像、语音、头像及编辑于一体，适用于 YouTube、TikTok 等平台。",
+    "title": "OpenCreator：面向创作者的开源 AI 工作空间"
+   }
+  },
+  "hash": "e71f2461a24d2a73"
+ },
  "gh:langgenius/dify": {
   "copy": {
    "zh": {
@@ -3045,6 +3253,20 @@
    }
   },
   "hash": "cd8b2c1baca6a9a7"
+ },
+ "gh:leonxlnx/taste-skill": {
+  "copy": {
+   "zh": {
+    "blurb": "taste-skill 为代码生成代理添加艺术指导、参考图片和浏览器检查等‘品味’技能，使用 JavaScript 实现，可直接在 GitHub 下载，提升生成代码的上下文感知和质量。",
+    "points": [
+     "为代码代理加入艺术指导和参考图像。",
+     "包含浏览器检查提升生成内容可靠性。",
+     "基于 JavaScript，实现可直接使用。"
+    ],
+    "title": "Leonxlnx/taste-skill：为代码代理提供品味技能"
+   }
+  },
+  "hash": "d56d6b0176b6490d"
  },
  "gh:lexmount/moli": {
   "copy": {
@@ -4048,6 +4270,20 @@
    }
   },
   "hash": "27d7ca880e071084"
+ },
+ "hf:fishaudio/drama-3": {
+  "copy": {
+   "zh": {
+    "blurb": "drama-3 是 fishaudio 开源的中文戏剧风格文本转语音模型，属于 TTS 类目，已在 Hugging Face 获得 339 赞，可用于高质量语音合成。",
+    "points": [
+     "基于 fishaudio 技术的中文戏剧风格 TTS。",
+     "适用于高质量文本到语音合成。",
+     "在 Hugging Face 获得 339 个点赞。"
+    ],
+    "title": "fishaudio/drama-3：文本转语音模型"
+   }
+  },
+  "hash": "ba8845b7f044bb32"
  },
  "hf:google/embeddinggemma-2": {
   "copy": {
@@ -5474,6 +5710,20 @@
   },
   "hash": "7997bd554e0ffebd"
  },
+ "hn:50085323": {
+  "copy": {
+   "zh": {
+    "blurb": "瑞典 TV4 电视台原计划播出的节目因内部使用的 AI 剪辑代理意外删除了已编辑的画面，导致节目被推迟至 2027 年后重新制作。",
+    "points": [
+     "AI 自动剪辑工具在未充分校验时可能导致数据丢失。",
+     "事件凸显媒体行业对 AI 可靠性的担忧。",
+     "迫使 TV4 重新评估内容审核与备份流程。"
+    ],
+    "title": "TV4 因 AI 代理误删素材暂停节目"
+   }
+  },
+  "hash": "749ec362625ed849"
+ },
  "hn:50088148": {
   "copy": {
    "zh": {
@@ -5515,6 +5765,20 @@
   },
   "hash": "19f2a6115fab79aa"
  },
+ "hn:50090443": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨为何大型语言模型常被比作“鹈鹕”，从架构、输入输出比例以及视觉隐喻出发，解释这种比喻背后的技术意义，引发热议。",
+    "points": [
+     "“Pelican”比喻揭示 LLM 输入/输出结构",
+     "分析设计动机与潜在风险",
+     "在 Hacker News 获 158 点赞"
+    ],
+    "title": "为什么 LLM 鹈鹕（Pelican）长这样？"
+   }
+  },
+  "hash": "f895713cad413407"
+ },
  "hn:50090451": {
   "copy": {
    "zh": {
@@ -5528,6 +5792,48 @@
    }
   },
   "hash": "1ad4dc9eb65c54bc"
+ },
+ "hn:50092470": {
+  "copy": {
+   "zh": {
+    "blurb": "Petal 是由原 CoScreen 团队成员开发的免费开源配对编程工具，继承 Screenhero 的多光标、低延迟屏幕共享等特性，代码托管在 GitHub，旨在打破配对编程收费壁垒。",
+    "points": [
+     "开源免费的实时配对编程工具。",
+     "支持多光标和低延迟屏幕共享。",
+     "代码托管于 GitHub，易于自行部署。"
+    ],
+    "title": "Petal：开源免费版 CoScreen/ScreenHero"
+   }
+  },
+  "hash": "86e75f96650b9022"
+ },
+ "hn:50094694": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 最新模型 Scion 的设计受日本动画《Mononoke》启发，文章分析其架构借鉴与安全对齐思路，引发社区热议。",
+    "points": [
+     "Scion 采用 Mononoke 的结构设计",
+     "聚焦模型安全与对齐",
+     "在 Hacker News 受 335 点赞热议"
+    ],
+    "title": "Anthropic 的 Scion 深受 Mononoke 启发"
+   }
+  },
+  "hash": "c6d5535574af4919"
+ },
+ "hn:50097549": {
+  "copy": {
+   "zh": {
+    "blurb": "GitVolt 是全新开源的 Git 图形客户端，使用 Tauri 与 CEF 构建，外观参考 GitKraken，旨在提升性能与可定制性。",
+    "points": [
+     "采用 Tauri+CEF 实现轻量跨平台桌面应用",
+     "从零构建 UI，显著提升响应速度",
+     "开放源码，可自行扩展功能和插件"
+    ],
+    "title": "GitVolt：基于 Tauri/CEF 的开源高速 Git GUI"
+   }
+  },
+  "hash": "4c0be786da429e5a"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -5604,6 +5910,20 @@
    }
   },
   "hash": "0bbf9bee12ac2506"
+ },
+ "lobsters:5j4bwx": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍在 C 语言中使用 string_view 替代传统 C 字符串的方法，通过提供非拥有的只读视图提升安全性，避免缓冲区溢出，并给出迁移示例和实践指南。",
+    "points": [
+     "使用 string_view 替代传统 C 字符串。",
+     "提升安全性，防止缓冲区溢出。",
+     "提供迁移示例和最佳实践指南。"
+    ],
+    "title": "使用 String View 修复 C 字符串"
+   }
+  },
+  "hash": "1c23a889411b0096"
  },
  "lobsters:5ucftp": {
   "copy": {
@@ -5716,6 +6036,20 @@
   },
   "hash": "54217b3d459a77df"
  },
+ "lobsters:9lqyul": {
+  "copy": {
+   "zh": {
+    "blurb": "ito 是基于 Lua 的终端用户界面库，提供轻量 API，帮助开发跨平台的命令行交互界面。",
+    "points": [
+     "纯 Lua 实现，无需额外依赖",
+     "简洁 API 支持布局、组件和事件处理",
+     "适用于跨平台终端应用的快速开发"
+    ],
+    "title": "ito —— 用 Lua 构建终端 UI"
+   }
+  },
+  "hash": "54dc41007d4631db"
+ },
  "lobsters:9ros7d": {
   "copy": {
    "zh": {
@@ -5772,7 +6106,12 @@
  "lobsters:a4ljnh": {
   "copy": {
    "zh": {
-    "blurb": "Factor 编程语言发布了 0.102 版本，包含若干性能改进和新特性，提升了语言的稳定性与可用性。",
+    "blurb": "Factor 编程语言发布 0.102 版本，包含语法改进、标准库更新以及对并发模型的优化，提升了编译速度和跨平台兼容性。",
+    "points": [
+     "新增模式匹配语法糖，提高代码可读性。",
+     "并发框架改进，降低线程管理开销。",
+     "改进的包管理器简化依赖解析。"
+    ],
     "title": "Factor 0.102 正式发布"
    }
   },
@@ -6155,6 +6494,20 @@
   },
   "hash": "69c7acbf7126599b"
  },
+ "lobsters:ireiaf": {
+  "copy": {
+   "zh": {
+    "blurb": "DelightQL 是一种将类似 Prolog、Elixir、Perl 语法的语言转译为 SQL 的查询语言，支持可复用函数和高阶谓词。",
+    "points": [
+     "支持可复用函数和高阶谓词，提升查询抽象能力",
+     "兼容 99% SQL 功能，实现无缝迁移",
+     "语法融合 Prolog、Elixir 与 Perl 风格，易于表达复杂逻辑"
+    ],
+    "title": "DelightQL 查询语言"
+   }
+  },
+  "hash": "3ec6dcdb2837f716"
+ },
  "lobsters:iufma5": {
   "copy": {
    "zh": {
@@ -6181,11 +6534,16 @@
  "lobsters:j4tlzg": {
   "copy": {
    "zh": {
-    "blurb": "作者提供面向技术爱好者的自托管方案清单，涵盖服务器、服务与工具的选型与配置建议，帮助读者构建完整的自托管生态。",
-    "title": "自托管指南 | 理想的自托管实践"
+    "blurb": "在 ViceConsole 的博客中，作者列举并分享了自己搭建的自托管服务，包括邮件、文件同步、监控等，说明了动机、部署步骤与运维经验。",
+    "points": [
+     "通过 Docker 与 Ansible 实现快速部署，提高可控性。",
+     "自托管降低对第三方平台的依赖，提升数据隐私。",
+     "维护成本与社区支持是主要挑战。"
+    ],
+    "title": "我自托管的项目精选"
    }
   },
-  "hash": "da62645da0fd3f62"
+  "hash": "a0fa930204cddf6f"
  },
  "lobsters:jecehj": {
   "copy": {
@@ -6296,6 +6654,20 @@
   },
   "hash": "a5f8e7cc87c682d8"
  },
+ "lobsters:mkq3x9": {
+  "copy": {
+   "zh": {
+    "blurb": "Go 官方博客介绍了对 HTTP/1 连接复用机制的改进，包括更智能的连接池管理和复用策略，以降低握手开销并提升请求延迟。",
+    "points": [
+     "引入更智能的 HTTP/1 连接池管理。",
+     "降低握手开销，提升请求响应速度。",
+     "在 Go net/http 包中实现，适配现有服务。"
+    ],
+    "title": "改进 HTTP/1 连接复用"
+   }
+  },
+  "hash": "83c41116c5592ff1"
+ },
  "lobsters:ml9xrb": {
   "copy": {
    "zh": {
@@ -6354,6 +6726,20 @@
    }
   },
   "hash": "7e874cd6c650095a"
+ },
+ "lobsters:plcgps": {
+  "copy": {
+   "zh": {
+    "blurb": "同上，Lobsters 对 Anthropic Scion 受 Mononoke 启发的讨论，强调其在模型安全与可解释性上的创新。",
+    "points": [
+     "Lobsters 讨论 Scion 的 Mononoke 灵感",
+     "强调安全与可解释性创新",
+     "热度 76.2，获 71 点赞"
+    ],
+    "title": "Anthropic 的 Scion 深受 Mononoke 启发（Lobsters 讨论）"
+   }
+  },
+  "hash": "c6d5535574af4919"
  },
  "lobsters:qgvj4p": {
   "copy": {
@@ -6419,6 +6805,15 @@
   },
   "hash": "8d4f04b10a8a6c0c"
  },
+ "lobsters:rrazyb": {
+  "copy": {
+   "zh": {
+    "blurb": "作者再次审视 Linux 锁定模式对系统休眠的影响，提供兼容性调试经验与建议。",
+    "title": "Linux 锁定模式与休眠的兼容性再审视"
+   }
+  },
+  "hash": "2dfefd6241b55341"
+ },
  "lobsters:sozl9e": {
   "copy": {
    "zh": {
@@ -6469,6 +6864,15 @@
    }
   },
   "hash": "328c7cbc2ed12e06"
+ },
+ "lobsters:tehays": {
+  "copy": {
+   "zh": {
+    "blurb": "GitLab 警告其正则编译引擎存在最高级别的远程代码执行漏洞，建议用户立即升级。",
+    "title": "GitLab 警告最高危代码执行漏洞"
+   }
+  },
+  "hash": "5c8656804d1b402f"
  },
  "lobsters:tsjuje": {
   "copy": {
@@ -6533,6 +6937,20 @@
    }
   },
   "hash": "542f199e1ed43c47"
+ },
+ "lobsters:wcoes4": {
+  "copy": {
+   "zh": {
+    "blurb": "报告披露腾讯内部部署的大规模AI代理网络，详细分析其架构、用途及潜在安全影响。",
+    "points": [
+     "发现腾讯内部数千个 AI 代理实例，形成统一的服务舰队",
+     "解析代理的通信协议与部署方式，揭示潜在的攻击面",
+     "提出监控与防御建议，帮助社区识别类似威胁"
+    ],
+    "title": "发现腾讯 AI 代理舰队"
+   }
+  },
+  "hash": "994f0e01a38c1c15"
  },
  "lobsters:wyxufm": {
   "copy": {

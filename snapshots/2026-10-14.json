@@ -10925,21 +10925,21 @@
    "category": "discussion",
    "key": "hn:50073879",
    "metrics": {
-    "comments": 1010,
+    "comments": 1027,
     "frontPage": 0,
-    "points": 1407
+    "points": 1443
    },
    "news": {
     "author": "737max",
-    "comments": 1010,
+    "comments": 1027,
     "createdAt": "2026-10-13T16:03:16.000Z",
     "domain": "deepmind.google",
     "hnId": 50073879,
     "hnUrl": "https://news.ycombinator.com/item?id=50073879",
-    "points": 1407,
+    "points": 1443,
     "showRank": 0
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T16:03:16.000Z",
    "refs": [
     "hn:50074869",
@@ -10966,21 +10966,21 @@
    "category": "discussion",
    "key": "hn:50074869",
    "metrics": {
-    "comments": 54,
+    "comments": 56,
     "frontPage": 0,
-    "points": 227
+    "points": 231
    },
    "news": {
     "author": "xnx",
-    "comments": 54,
+    "comments": 56,
     "createdAt": "2026-10-13T16:55:47.000Z",
     "domain": "developers.googleblog.com",
     "hnId": 50074869,
     "hnUrl": "https://news.ycombinator.com/item?id=50074869",
-    "points": 227,
-    "showRank": 38
+    "points": 231,
+    "showRank": 39
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T16:55:47.000Z",
    "refs": [
     "hn:50073879",
@@ -11092,21 +11092,21 @@
    "category": "discussion",
    "key": "hn:50078141",
    "metrics": {
-    "comments": 520,
+    "comments": 532,
     "frontPage": 0,
-    "points": 627
+    "points": 646
    },
    "news": {
     "author": "forthwall",
-    "comments": 520,
+    "comments": 532,
     "createdAt": "2026-10-13T20:23:55.000Z",
     "domain": "sfstandard.com",
     "hnId": 50078141,
     "hnUrl": "https://news.ycombinator.com/item?id=50078141",
-    "points": 627,
+    "points": 646,
     "showRank": 9
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T20:23:55.000Z",
    "refs": [
     "x:2110095403198849132",
@@ -11132,21 +11132,21 @@
    "category": "tool",
    "key": "hn:50080275",
    "metrics": {
-    "comments": 50,
+    "comments": 70,
     "frontPage": 0,
-    "points": 96
+    "points": 115
    },
    "news": {
     "author": "niztk",
-    "comments": 50,
+    "comments": 70,
     "createdAt": "2026-10-13T23:13:23.000Z",
     "domain": "pulseos.finance",
     "hnId": 50080275,
     "hnUrl": "https://news.ycombinator.com/item?id=50080275",
-    "points": 96,
-    "showRank": 3
+    "points": 115,
+    "showRank": 13
    },
-   "observedAt": "2026-10-14T06:07:58.904Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T23:13:23.000Z",
    "refs": [
     "url:pulseos.finance"
@@ -11256,21 +11256,21 @@
    "category": "discussion",
    "key": "hn:50084240",
    "metrics": {
-    "comments": 214,
+    "comments": 294,
     "frontPage": 0,
-    "points": 532
+    "points": 710
    },
    "news": {
     "author": "otobrglez",
-    "comments": 214,
+    "comments": 294,
     "createdAt": "2026-10-14T08:27:59.000Z",
     "domain": "typeof.net",
     "hnId": 50084240,
     "hnUrl": "https://news.ycombinator.com/item?id=50084240",
-    "points": 532,
-    "showRank": 12
+    "points": 710,
+    "showRank": 8
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T08:27:59.000Z",
    "refs": [
     "url:typeof.net/Iosevka"
@@ -11289,6 +11289,47 @@
    "tags": [],
    "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
    "url": "https://typeof.net/Iosevka/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50085323",
+   "metrics": {
+    "comments": 84,
+    "frontPage": 0,
+    "points": 145
+   },
+   "news": {
+    "author": "tobr",
+    "comments": 84,
+    "createdAt": "2026-10-14T10:28:26.000Z",
+    "domain": "swedenherald.com",
+    "hnId": 50085323,
+    "hnUrl": "https://news.ycombinator.com/item?id=50085323",
+    "points": 145,
+    "showRank": 54
+   },
+   "observedAt": "2026-10-15T05:54:07.945Z",
+   "publishedAt": "2026-10-14T10:28:26.000Z",
+   "refs": [
+    "url:swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:ai agent",
+     "weak:ai",
+     "weak:agent",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "TV4 postpones show after AI agent erases edited material",
+   "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
   },
   {
    "board": "news",
@@ -11413,21 +11454,21 @@
    "category": "tool",
    "key": "hn:50088713",
    "metrics": {
-    "comments": 1,
+    "comments": 12,
     "frontPage": 0,
-    "points": 11
+    "points": 44
    },
    "news": {
     "author": "KarLexAI",
-    "comments": 1,
+    "comments": 12,
     "createdAt": "2026-10-14T15:00:41.000Z",
     "domain": "github.com",
     "hnId": 50088713,
     "hnUrl": "https://news.ycombinator.com/item?id=50088713",
-    "points": 11,
-    "showRank": 1
+    "points": 44,
+    "showRank": 5
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T15:00:41.000Z",
    "refs": [
     "gh:graphicle-ai/graphicle"
@@ -11454,12 +11495,12 @@
    "key": "x:2110095403198849132",
    "metrics": {
     "authority": 0,
-    "likes": 74353,
+    "likes": 76776,
     "quotes": 0,
-    "replies": 3918,
+    "replies": 4152,
     "reposts": 0
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T19:48:42.000Z",
    "refs": [
     "hn:50078141"
@@ -11475,10 +11516,10 @@
    "social": {
     "author": "OpenAI Newsroom",
     "authorKind": "community",
-    "comments": 3918,
+    "comments": 4152,
     "createdAt": "2026-10-13T19:48:42.000Z",
     "handle": "OpenAINewsroom",
-    "likes": 74353,
+    "likes": 76776,
     "permalink": "https://x.com/OpenAINewsroom/status/2110095403198849132",
     "platform": "x",
     "rankBasis": "votes",
@@ -11602,29 +11643,29 @@
    "category": "tool",
    "devto": {
     "author": "nyaomaru",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-14T15:35:25Z",
     "domain": "dev.to",
     "id": 4839229,
-    "points": 19,
+    "points": 45,
     "url": "https://dev.to/nyaomaru/how-do-you-validate-unknown-in-typescript-without-a-schema-library-1a11"
    },
    "key": "devto:4839229",
    "metrics": {
-    "comments": 1,
+    "comments": 5,
     "frontPage": 0,
-    "points": 19
+    "points": 45
    },
    "news": {
     "author": "nyaomaru",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-14T15:35:25Z",
     "domain": "dev.to",
     "hnId": 4839229,
     "hnUrl": "https://dev.to/nyaomaru/how-do-you-validate-unknown-in-typescript-without-a-schema-library-1a11",
-    "points": 19
+    "points": 45
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T15:35:25Z",
    "refs": [],
    "relevance": {
@@ -11654,29 +11695,29 @@
    "category": "engineering",
    "devto": {
     "author": "Kara Silverman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:05:44Z",
     "domain": "dev.to",
     "id": 4845013,
-    "points": 11,
+    "points": 13,
     "url": "https://dev.to/dailycontext/a-data-company-in-an-ai-world-5bf4"
    },
    "key": "devto:4845013",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 11
+    "points": 13
    },
    "news": {
     "author": "Kara Silverman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:05:44Z",
     "domain": "dev.to",
     "hnId": 4845013,
     "hnUrl": "https://dev.to/dailycontext/a-data-company-in-an-ai-world-5bf4",
-    "points": 11
+    "points": 13
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:05:44Z",
    "refs": [],
    "relevance": {
@@ -11705,29 +11746,29 @@
    "category": "engineering",
    "devto": {
     "author": "Tom Fairey",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-14T12:05:35Z",
     "domain": "dev.to",
     "id": 4845098,
-    "points": 10,
+    "points": 11,
     "url": "https://dev.to/dailycontext/the-ai-data-paradox-the-safer-you-make-the-data-the-worse-the-ai-gets-1ek7"
    },
    "key": "devto:4845098",
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 10
+    "points": 11
    },
    "news": {
     "author": "Tom Fairey",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-14T12:05:35Z",
     "domain": "dev.to",
     "hnId": 4845098,
     "hnUrl": "https://dev.to/dailycontext/the-ai-data-paradox-the-safer-you-make-the-data-the-worse-the-ai-gets-1ek7",
-    "points": 10
+    "points": 11
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:05:35Z",
    "refs": [],
    "relevance": {
@@ -11756,29 +11797,29 @@
    "category": "engineering",
    "devto": {
     "author": "dev.to staff",
-    "comments": 2,
+    "comments": 5,
     "createdAt": "2026-10-14T12:05:28Z",
     "domain": "dev.to",
     "id": 4845169,
-    "points": 20,
+    "points": 21,
     "url": "https://dev.to/dailycontext/an-agents-plan-isnt-permission-5cf8"
    },
    "key": "devto:4845169",
    "metrics": {
-    "comments": 2,
+    "comments": 5,
     "frontPage": 0,
-    "points": 20
+    "points": 21
    },
    "news": {
     "author": "dev.to staff",
-    "comments": 2,
+    "comments": 5,
     "createdAt": "2026-10-14T12:05:28Z",
     "domain": "dev.to",
     "hnId": 4845169,
     "hnUrl": "https://dev.to/dailycontext/an-agents-plan-isnt-permission-5cf8",
-    "points": 20
+    "points": 21
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:05:28Z",
    "refs": [],
    "relevance": {
@@ -11807,7 +11848,7 @@
    "category": "engineering",
    "devto": {
     "author": "Kara Silverman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:05:21Z",
     "domain": "dev.to",
     "id": 4845408,
@@ -11816,20 +11857,20 @@
    },
    "key": "devto:4845408",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
     "points": 12
    },
    "news": {
     "author": "Kara Silverman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:05:21Z",
     "domain": "dev.to",
     "hnId": 4845408,
     "hnUrl": "https://dev.to/dailycontext/inside-the-30-a-week-self-improving-agents-eliminating-enterprise-back-office-friction-c4p",
     "points": 12
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:05:21Z",
    "refs": [],
    "relevance": {
@@ -12066,29 +12107,29 @@
    "category": "research",
    "devto": {
     "author": "Ryan Stevens",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-14T12:05:13Z",
     "domain": "dev.to",
     "id": 4845718,
-    "points": 13,
+    "points": 35,
     "url": "https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh"
    },
    "key": "devto:4845718",
    "metrics": {
-    "comments": 1,
+    "comments": 5,
     "frontPage": 0,
-    "points": 13
+    "points": 35
    },
    "news": {
     "author": "Ryan Stevens",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-14T12:05:13Z",
     "domain": "dev.to",
     "hnId": 4845718,
     "hnUrl": "https://dev.to/dailycontext/building-better-agents-through-end-to-end-evals-pgh",
-    "points": 13
+    "points": 35
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:05:13Z",
    "refs": [],
    "relevance": {
@@ -12117,7 +12158,7 @@
    "category": "research",
    "devto": {
     "author": "Anirudh Veeraragavan",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T12:04:58Z",
     "domain": "dev.to",
     "id": 4845735,
@@ -12126,20 +12167,20 @@
    },
    "key": "devto:4845735",
    "metrics": {
-    "comments": 1,
+    "comments": 2,
     "frontPage": 0,
     "points": 15
    },
    "news": {
     "author": "Anirudh Veeraragavan",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T12:04:58Z",
     "domain": "dev.to",
     "hnId": 4845735,
     "hnUrl": "https://dev.to/dailycontext/your-financial-agent-passed-every-eval-can-you-defend-its-decision-1npg",
     "points": 15
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:58Z",
    "refs": [],
    "relevance": {
@@ -12220,29 +12261,29 @@
    "category": "engineering",
    "devto": {
     "author": "Sparsh Jain",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T12:04:49Z",
     "domain": "dev.to",
     "id": 4845773,
-    "points": 15,
+    "points": 17,
     "url": "https://dev.to/dailycontext/memory-isnt-learning-why-ai-agents-keep-making-the-same-mistakes-cpc"
    },
    "key": "devto:4845773",
    "metrics": {
-    "comments": 1,
+    "comments": 4,
     "frontPage": 0,
-    "points": 15
+    "points": 17
    },
    "news": {
     "author": "Sparsh Jain",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T12:04:49Z",
     "domain": "dev.to",
     "hnId": 4845773,
     "hnUrl": "https://dev.to/dailycontext/memory-isnt-learning-why-ai-agents-keep-making-the-same-mistakes-cpc",
-    "points": 15
+    "points": 17
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:49Z",
    "refs": [],
    "relevance": {
@@ -12323,29 +12364,29 @@
    "category": "release",
    "devto": {
     "author": "Ryan Swift",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:39Z",
     "domain": "dev.to",
     "id": 4845827,
-    "points": 16,
+    "points": 17,
     "url": "https://dev.to/dailycontext/nobodys-winning-the-ai-race-yet-24h4"
    },
    "key": "devto:4845827",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 16
+    "points": 17
    },
    "news": {
     "author": "Ryan Swift",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:39Z",
     "domain": "dev.to",
     "hnId": 4845827,
     "hnUrl": "https://dev.to/dailycontext/nobodys-winning-the-ai-race-yet-24h4",
-    "points": 16
+    "points": 17
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:39Z",
    "refs": [],
    "relevance": {
@@ -12426,29 +12467,29 @@
    "category": "engineering",
    "devto": {
     "author": "Spencer Pitman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:31Z",
     "domain": "dev.to",
     "id": 4845884,
-    "points": 27,
+    "points": 47,
     "url": "https://dev.to/dailycontext/operational-intelligence-is-sociotechnical-1627"
    },
    "key": "devto:4845884",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 27
+    "points": 47
    },
    "news": {
     "author": "Spencer Pitman",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:31Z",
     "domain": "dev.to",
     "hnId": 4845884,
     "hnUrl": "https://dev.to/dailycontext/operational-intelligence-is-sociotechnical-1627",
-    "points": 27
+    "points": 47
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:31Z",
    "refs": [],
    "relevance": {
@@ -12633,7 +12674,7 @@
    "category": "engineering",
    "devto": {
     "author": "Nick Nisi",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:21Z",
     "domain": "dev.to",
     "id": 4846063,
@@ -12642,20 +12683,20 @@
    },
    "key": "devto:4846063",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
     "points": 18
    },
    "news": {
     "author": "Nick Nisi",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:04:21Z",
     "domain": "dev.to",
     "hnId": 4846063,
     "hnUrl": "https://dev.to/dailycontext/are-you-smarter-than-a-fruit-fly-2c04",
     "points": 18
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:21Z",
    "refs": [],
    "relevance": {
@@ -12788,29 +12829,29 @@
    "category": "engineering",
    "devto": {
     "author": "Steven Latre",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-14T12:04:00Z",
     "domain": "dev.to",
     "id": 4846084,
-    "points": 14,
+    "points": 19,
     "url": "https://dev.to/dailycontext/the-model-is-the-easy-part-19gh"
    },
    "key": "devto:4846084",
    "metrics": {
-    "comments": 1,
+    "comments": 3,
     "frontPage": 0,
-    "points": 14
+    "points": 19
    },
    "news": {
     "author": "Steven Latre",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-14T12:04:00Z",
     "domain": "dev.to",
     "hnId": 4846084,
     "hnUrl": "https://dev.to/dailycontext/the-model-is-the-easy-part-19gh",
-    "points": 14
+    "points": 19
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:04:00Z",
    "refs": [],
    "relevance": {
@@ -12840,7 +12881,7 @@
    "category": "engineering",
    "devto": {
     "author": "Tom Wheeler",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T12:03:52Z",
     "domain": "dev.to",
     "id": 4846110,
@@ -12849,20 +12890,20 @@
    },
    "key": "devto:4846110",
    "metrics": {
-    "comments": 1,
+    "comments": 4,
     "frontPage": 0,
     "points": 15
    },
    "news": {
     "author": "Tom Wheeler",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T12:03:52Z",
     "domain": "dev.to",
     "hnId": 4846110,
     "hnUrl": "https://dev.to/dailycontext/for-agents-waiting-is-the-hardest-part-30ik",
     "points": 15
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:03:52Z",
    "refs": [],
    "relevance": {
@@ -12892,29 +12933,29 @@
    "category": "engineering",
    "devto": {
     "author": "Andrey Rybka",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:03:42Z",
     "domain": "dev.to",
     "id": 4846113,
-    "points": 24,
+    "points": 27,
     "url": "https://dev.to/dailycontext/beyond-the-prompt-box-how-bloomberg-is-architecting-the-era-of-multiplayer-ai-569a"
    },
    "key": "devto:4846113",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 24
+    "points": 27
    },
    "news": {
     "author": "Andrey Rybka",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T12:03:42Z",
     "domain": "dev.to",
     "hnId": 4846113,
     "hnUrl": "https://dev.to/dailycontext/beyond-the-prompt-box-how-bloomberg-is-architecting-the-era-of-multiplayer-ai-569a",
-    "points": 24
+    "points": 27
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:03:42Z",
    "refs": [],
    "relevance": {
@@ -13047,29 +13088,29 @@
    "category": "engineering",
    "devto": {
     "author": "Ben Halpern",
-    "comments": 0,
+    "comments": 4,
     "createdAt": "2026-10-14T12:03:29Z",
     "domain": "dev.to",
     "id": 4846219,
-    "points": 30,
+    "points": 35,
     "url": "https://dev.to/dailycontext/design-for-churn-5c6h"
    },
    "key": "devto:4846219",
    "metrics": {
-    "comments": 0,
+    "comments": 4,
     "frontPage": 0,
-    "points": 30
+    "points": 35
    },
    "news": {
     "author": "Ben Halpern",
-    "comments": 0,
+    "comments": 4,
     "createdAt": "2026-10-14T12:03:29Z",
     "domain": "dev.to",
     "hnId": 4846219,
     "hnUrl": "https://dev.to/dailycontext/design-for-churn-5c6h",
-    "points": 30
+    "points": 35
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:03:29Z",
    "refs": [],
    "relevance": {
@@ -13150,29 +13191,29 @@
    "category": "product",
    "devto": {
     "author": "Maithili Jha",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T12:03:18Z",
     "domain": "dev.to",
     "id": 4846240,
-    "points": 17,
+    "points": 20,
     "url": "https://dev.to/dailycontext/what-a-48-hour-hackathon-can-do-for-llm-reliability-9j6"
    },
    "key": "devto:4846240",
    "metrics": {
-    "comments": 1,
+    "comments": 2,
     "frontPage": 0,
-    "points": 17
+    "points": 20
    },
    "news": {
     "author": "Maithili Jha",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T12:03:18Z",
     "domain": "dev.to",
     "hnId": 4846240,
     "hnUrl": "https://dev.to/dailycontext/what-a-48-hour-hackathon-can-do-for-llm-reliability-9j6",
-    "points": 17
+    "points": 20
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T12:03:18Z",
    "refs": [],
    "relevance": {
@@ -13327,7 +13368,7 @@
     "hnUrl": "https://dev.to/gde/deep-dive-autonomous-code-auditing-40-python-speedups-stateful-1m-token-agents-with-gemini-4-46oj",
     "points": 22
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T20:01:11Z",
    "refs": [],
    "relevance": {
@@ -13408,7 +13449,7 @@
    "category": "tool",
    "devto": {
     "author": "Robina Mirbahar",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-13T20:49:38Z",
     "domain": "dev.to",
     "id": 4846594,
@@ -13417,20 +13458,20 @@
    },
    "key": "devto:4846594",
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
     "points": 13
    },
    "news": {
     "author": "Robina Mirbahar",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-13T20:49:38Z",
     "domain": "dev.to",
     "hnId": 4846594,
     "hnUrl": "https://dev.to/gde/i-built-a-cozy-60-fps-ai-agent-bakery-game-to-teach-rag-guardrails-context-caching-multi-agent-2ek",
     "points": 13
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T20:49:38Z",
    "refs": [],
    "relevance": {
@@ -13824,29 +13865,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jhin Lee",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T03:03:34Z",
     "domain": "dev.to",
     "id": 4847343,
-    "points": 28,
+    "points": 29,
     "url": "https://dev.to/gde/local-speech-with-llamadart-giving-llama-village-a-voice-5b7m"
    },
    "key": "devto:4847343",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 28
+    "points": 29
    },
    "news": {
     "author": "Jhin Lee",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-14T03:03:34Z",
     "domain": "dev.to",
     "hnId": 4847343,
     "hnUrl": "https://dev.to/gde/local-speech-with-llamadart-giving-llama-village-a-voice-5b7m",
-    "points": 28
+    "points": 29
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T03:03:34Z",
    "refs": [],
    "relevance": {
@@ -13878,14 +13919,14 @@
     "createdAt": "2026-10-14T02:14:27Z",
     "domain": "dev.to",
     "id": 4847344,
-    "points": 9,
+    "points": 21,
     "url": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod"
    },
    "key": "devto:4847344",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 9
+    "points": 21
    },
    "news": {
     "author": "Allen Firstenberg",
@@ -13894,9 +13935,9 @@
     "domain": "dev.to",
     "hnId": 4847344,
     "hnUrl": "https://dev.to/gde/langchainjs-and-gemini-4-argon-whats-here-and-whats-coming-2kod",
-    "points": 9
+    "points": 21
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T02:14:27Z",
    "refs": [],
    "relevance": {
@@ -13999,7 +14040,7 @@
     "hnUrl": "https://dev.to/gde/alphaevolve-and-gemini-autonomous-algorithm-discovery-for-unified-disaster-prediction-20f4",
     "points": 18
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T02:48:03Z",
    "refs": [],
    "relevance": {
@@ -14726,7 +14767,7 @@
     "hnUrl": "https://dev.to/gde/gemini-4-under-the-microscope-red-teaming-ai-agents-and-deterministic-dual-port-remote-control-4567",
     "points": 19
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T07:07:21Z",
    "refs": [],
    "relevance": {
@@ -15119,7 +15160,7 @@
    "category": "tool",
    "devto": {
     "author": "Rudratosh Shastri",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-14T13:19:52Z",
     "domain": "dev.to",
     "id": 4850374,
@@ -15128,20 +15169,20 @@
    },
    "key": "devto:4850374",
    "metrics": {
-    "comments": 4,
+    "comments": 5,
     "frontPage": 0,
     "points": 5
    },
    "news": {
     "author": "Rudratosh Shastri",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-14T13:19:52Z",
     "domain": "dev.to",
     "hnId": 4850374,
     "hnUrl": "https://dev.to/rudratosh/i-built-an-ai-that-writes-resale-listings-then-refuses-to-publish-the-ones-it-cant-prove-2i8a",
     "points": 5
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T13:19:52Z",
    "refs": [],
    "relevance": {
@@ -15193,7 +15234,7 @@
     "hnUrl": "https://dev.to/axrisi/gemini-4-argon-api-and-android-ndk-2260-google-at-two-speeds-3oom",
     "points": 0
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T15:00:00Z",
    "refs": [],
    "relevance": {
@@ -15484,28 +15525,28 @@
    "key": "lobsters:5ucftp",
    "lobsters": {
     "author": "carlana",
-    "comments": 29,
+    "comments": 33,
     "createdAt": "2026-10-13T15:37:52.009-05:00",
     "domain": "anthropic.com",
-    "points": 28,
+    "points": 32,
     "shortId": "5ucftp",
     "url": "https://www.anthropic.com/engineering/redesigning-source-control"
    },
    "metrics": {
-    "comments": 29,
+    "comments": 33,
     "frontPage": 0,
-    "points": 28
+    "points": 32
    },
    "news": {
     "author": "carlana",
-    "comments": 29,
+    "comments": 33,
     "createdAt": "2026-10-13T15:37:52.009-05:00",
     "domain": "anthropic.com",
     "hnId": 353299741,
     "hnUrl": "https://lobste.rs/s/5ucftp/redesigning_source_control_at_anthropic",
-    "points": 28
+    "points": 32
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T15:37:52.009-05:00",
    "refs": [],
    "relevance": {
@@ -15534,28 +15575,28 @@
    "key": "lobsters:6vs8a0",
    "lobsters": {
     "author": "abhin4v",
-    "comments": 4,
+    "comments": 9,
     "createdAt": "2026-10-14T00:34:22.699-05:00",
     "domain": "utcc.utoronto.ca",
-    "points": 12,
+    "points": 16,
     "shortId": "6vs8a0",
     "url": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 9,
     "frontPage": 0,
-    "points": 12
+    "points": 16
    },
    "news": {
     "author": "abhin4v",
-    "comments": 4,
+    "comments": 9,
     "createdAt": "2026-10-14T00:34:22.699-05:00",
     "domain": "utcc.utoronto.ca",
     "hnId": 416182248,
     "hnUrl": "https://lobste.rs/s/6vs8a0/compiler_bootstrapping_depends_on_more",
-    "points": 12
+    "points": 16
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T00:34:22.699-05:00",
    "refs": [],
    "relevance": {
@@ -15583,28 +15624,28 @@
    "key": "lobsters:7xg9rm",
    "lobsters": {
     "author": "viccuad",
-    "comments": 18,
+    "comments": 31,
     "createdAt": "2026-10-14T06:06:48.863-05:00",
     "domain": "blog.mozilla.org",
-    "points": 66,
+    "points": 110,
     "shortId": "7xg9rm",
     "url": "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/"
    },
    "metrics": {
-    "comments": 18,
+    "comments": 31,
     "frontPage": 0,
-    "points": 66
+    "points": 110
    },
    "news": {
     "author": "viccuad",
-    "comments": 18,
+    "comments": 31,
     "createdAt": "2026-10-14T06:06:48.863-05:00",
     "domain": "blog.mozilla.org",
     "hnId": 479449714,
     "hnUrl": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise",
-    "points": 66
+    "points": 110
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T06:06:48.863-05:00",
    "refs": [],
    "relevance": {
@@ -15683,28 +15724,28 @@
    "key": "lobsters:a4ljnh",
    "lobsters": {
     "author": "toastal",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-14T08:42:39.966-05:00",
     "domain": "re.factorcode.org",
-    "points": 9,
+    "points": 32,
     "shortId": "a4ljnh",
     "url": "https://re.factorcode.org/2026/10/factor-0-102-now-available.html"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 6,
     "frontPage": 0,
-    "points": 9
+    "points": 32
    },
    "news": {
     "author": "toastal",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-14T08:42:39.966-05:00",
     "domain": "re.factorcode.org",
     "hnId": 612385469,
     "hnUrl": "https://lobste.rs/s/a4ljnh/factor_0_102_now_available",
-    "points": 9
+    "points": 32
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T08:42:39.966-05:00",
    "refs": [],
    "relevance": {
@@ -15733,28 +15774,28 @@
    "key": "lobsters:cwota8",
    "lobsters": {
     "author": "csomar",
-    "comments": 3,
+    "comments": 8,
     "createdAt": "2026-10-14T02:54:56.274-05:00",
     "domain": "bleepingcomputer.com",
-    "points": 18,
+    "points": 32,
     "shortId": "cwota8",
     "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 8,
     "frontPage": 0,
-    "points": 18
+    "points": 32
    },
    "news": {
     "author": "csomar",
-    "comments": 3,
+    "comments": 8,
     "createdAt": "2026-10-14T02:54:56.274-05:00",
     "domain": "bleepingcomputer.com",
     "hnId": 780499520,
     "hnUrl": "https://lobste.rs/s/cwota8/ledger_confirms_spy_chip_implant_behind",
-    "points": 18
+    "points": 32
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T02:54:56.274-05:00",
    "refs": [],
    "relevance": {
@@ -15783,28 +15824,28 @@
    "key": "lobsters:d1c8zn",
    "lobsters": {
     "author": "joshsharp",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T06:29:51.369-05:00",
     "domain": "kde.org",
-    "points": 30,
+    "points": 70,
     "shortId": "d1c8zn",
     "url": "https://kde.org/announcements/plasma/6/6.8.0/"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 4,
     "frontPage": 0,
-    "points": 30
+    "points": 70
    },
    "news": {
     "author": "joshsharp",
-    "comments": 1,
+    "comments": 4,
     "createdAt": "2026-10-14T06:29:51.369-05:00",
     "domain": "kde.org",
     "hnId": 788311427,
     "hnUrl": "https://lobste.rs/s/d1c8zn/plasma_6_8_released_kde_s_30th_birthday",
-    "points": 30
+    "points": 70
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T06:29:51.369-05:00",
    "refs": [],
    "relevance": {
@@ -15833,28 +15874,28 @@
    "key": "lobsters:dyypvf",
    "lobsters": {
     "author": "classichasclass",
-    "comments": 19,
+    "comments": 25,
     "createdAt": "2026-10-13T23:18:17.227-05:00",
     "domain": "apple.com",
-    "points": 22,
+    "points": 30,
     "shortId": "dyypvf",
     "url": "https://www.apple.com/safari/switch/"
    },
    "metrics": {
-    "comments": 19,
+    "comments": 25,
     "frontPage": 0,
-    "points": 22
+    "points": 30
    },
    "news": {
     "author": "classichasclass",
-    "comments": 19,
+    "comments": 25,
     "createdAt": "2026-10-13T23:18:17.227-05:00",
     "domain": "apple.com",
     "hnId": 844787067,
     "hnUrl": "https://lobste.rs/s/dyypvf/apple_switch_safari_from_chrome",
-    "points": 22
+    "points": 30
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T23:18:17.227-05:00",
    "refs": [],
    "relevance": {
@@ -15982,28 +16023,28 @@
    "key": "lobsters:g46xkj",
    "lobsters": {
     "author": "olliej",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-14T04:44:11.288-05:00",
     "domain": "daniel.haxx.se",
-    "points": 8,
+    "points": 16,
     "shortId": "g46xkj",
     "url": "https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 5,
     "frontPage": 0,
-    "points": 8
+    "points": 16
    },
    "news": {
     "author": "olliej",
-    "comments": 4,
+    "comments": 5,
     "createdAt": "2026-10-14T04:44:11.288-05:00",
     "domain": "daniel.haxx.se",
     "hnId": 974500723,
     "hnUrl": "https://lobste.rs/s/g46xkj/uaf_turned_rce",
-    "points": 8
+    "points": 16
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T04:44:11.288-05:00",
    "refs": [],
    "relevance": {
@@ -16130,28 +16171,28 @@
    "key": "lobsters:j4tlzg",
    "lobsters": {
     "author": "tonymet",
-    "comments": 2,
+    "comments": 32,
     "createdAt": "2026-10-14T10:32:48.892-05:00",
     "domain": "viceconsole.fyi",
-    "points": 7,
+    "points": 43,
     "shortId": "j4tlzg",
     "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 32,
     "frontPage": 0,
-    "points": 7
+    "points": 43
    },
    "news": {
     "author": "tonymet",
-    "comments": 2,
+    "comments": 32,
     "createdAt": "2026-10-14T10:32:48.892-05:00",
     "domain": "viceconsole.fyi",
     "hnId": 1156957324,
-    "hnUrl": "https://lobste.rs/s/j4tlzg/what_i_self_host_aspirational_self",
-    "points": 7
+    "hnUrl": "https://lobste.rs/s/j4tlzg/what_i_self_host",
+    "points": 43
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T10:32:48.892-05:00",
    "refs": [],
    "relevance": {
@@ -16173,7 +16214,7 @@
     "tag:osdev",
     "tag:web"
    ],
-   "title": "What I Self-Host | Aspirational Self Hosting Guide",
+   "title": "What I Self-Host",
    "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/"
   },
   {
@@ -16233,28 +16274,28 @@
    "key": "lobsters:mf3tmv",
    "lobsters": {
     "author": "xyproto",
-    "comments": 2,
+    "comments": 6,
     "createdAt": "2026-10-14T09:36:51.412-05:00",
     "domain": "libzxc.org",
-    "points": 6,
+    "points": 9,
     "shortId": "mf3tmv",
     "url": "https://libzxc.org/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 6,
     "frontPage": 0,
-    "points": 6
+    "points": 9
    },
    "news": {
     "author": "xyproto",
-    "comments": 2,
+    "comments": 6,
     "createdAt": "2026-10-14T09:36:51.412-05:00",
     "domain": "libzxc.org",
     "hnId": 1355628487,
     "hnUrl": "https://lobste.rs/s/mf3tmv/zxc_lossless_compression_built_for_ultra",
-    "points": 6
+    "points": 9
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T09:36:51.412-05:00",
    "refs": [],
    "relevance": {
@@ -16271,7 +16312,8 @@
    "tags": [
     "source:lobsters",
     "tag:hottest",
-    "tag:compsci"
+    "tag:compsci",
+    "tag:vibecoding"
    ],
    "title": "ZXC: Lossless compression built for ultra-fast decode",
    "url": "https://libzxc.org/"
@@ -16282,28 +16324,28 @@
    "key": "lobsters:plbei0",
    "lobsters": {
     "author": "kngl",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T06:24:24.996-05:00",
     "domain": "openfatigue.ai",
-    "points": 14,
+    "points": 21,
     "shortId": "plbei0",
     "url": "https://openfatigue.ai/"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 2,
     "frontPage": 0,
-    "points": 14
+    "points": 21
    },
    "news": {
     "author": "kngl",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-14T06:24:24.996-05:00",
     "domain": "openfatigue.ai",
     "hnId": 1547458344,
     "hnUrl": "https://lobste.rs/s/plbei0/openfatigue_open_is_new_closed",
-    "points": 14
+    "points": 21
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T06:24:24.996-05:00",
    "refs": [],
    "relevance": {
@@ -16484,14 +16526,14 @@
     "comments": 1,
     "createdAt": "2026-10-14T05:50:19.584-05:00",
     "domain": "youtube.com",
-    "points": 11,
+    "points": 23,
     "shortId": "stmtap",
     "url": "https://www.youtube.com/watch?v=NaW0d7Tghw0"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 11
+    "points": 23
    },
    "news": {
     "author": "juliethefoxcoon",
@@ -16500,9 +16542,9 @@
     "domain": "youtube.com",
     "hnId": 1742826193,
     "hnUrl": "https://lobste.rs/s/stmtap/my_game_s_procedural_dialogue_system",
-    "points": 11
+    "points": 23
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T05:50:19.584-05:00",
    "refs": [],
    "relevance": {
@@ -16531,28 +16573,28 @@
    "key": "lobsters:tehays",
    "lobsters": {
     "author": "janus",
-    "comments": 0,
+    "comments": 4,
     "createdAt": "2026-10-14T10:55:52.017-05:00",
     "domain": "bleepingcomputer.com",
-    "points": 4,
+    "points": 21,
     "shortId": "tehays",
     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 4,
     "frontPage": 0,
-    "points": 4
+    "points": 21
    },
    "news": {
     "author": "janus",
-    "comments": 0,
+    "comments": 4,
     "createdAt": "2026-10-14T10:55:52.017-05:00",
     "domain": "bleepingcomputer.com",
     "hnId": 1777841092,
     "hnUrl": "https://lobste.rs/s/tehays/gitlab_warns_max_severity_code_execution",
-    "points": 4
+    "points": 21
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T10:55:52.017-05:00",
    "refs": [],
    "relevance": {
@@ -16581,28 +16623,28 @@
    "key": "lobsters:tsjuje",
    "lobsters": {
     "author": "nutmeg",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-14T06:18:09.977-05:00",
     "domain": "sebsite.pw",
-    "points": 21,
+    "points": 31,
     "shortId": "tsjuje",
     "url": "https://sebsite.pw/w/20261014-initstate.html"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 21
+    "points": 31
    },
    "news": {
     "author": "nutmeg",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-14T06:18:09.977-05:00",
     "domain": "sebsite.pw",
     "hnId": 1801474394,
     "hnUrl": "https://lobste.rs/s/tsjuje/yet_another_place_where_linux_man_page_is",
-    "points": 21
+    "points": 31
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T06:18:09.977-05:00",
    "refs": [],
    "relevance": {
@@ -16631,28 +16673,28 @@
    "key": "lobsters:x9fqa4",
    "lobsters": {
     "author": "calvin",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-14T10:13:26.313-05:00",
     "domain": "onlineservices.epicgames.com",
-    "points": 7,
+    "points": 24,
     "shortId": "x9fqa4",
     "url": "https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 8,
     "frontPage": 0,
-    "points": 7
+    "points": 24
    },
    "news": {
     "author": "calvin",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-14T10:13:26.313-05:00",
     "domain": "onlineservices.epicgames.com",
     "hnId": 2011234252,
     "hnUrl": "https://lobste.rs/s/x9fqa4/awesome_gaming_on_linux_without_cheating",
-    "points": 7
+    "points": 24
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T10:13:26.313-05:00",
    "refs": [],
    "relevance": {
@@ -16731,28 +16773,28 @@
    "key": "lobsters:y65egs",
    "lobsters": {
     "author": "ThinkChaos",
-    "comments": 5,
+    "comments": 9,
     "createdAt": "2026-10-13T16:17:07.868-05:00",
     "domain": "lix.systems",
-    "points": 34,
+    "points": 38,
     "shortId": "y65egs",
     "url": "https://lix.systems/blog/2026-10-13-lix-2.96-release/"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 9,
     "frontPage": 0,
-    "points": 34
+    "points": 38
    },
    "news": {
     "author": "ThinkChaos",
-    "comments": 5,
+    "comments": 9,
     "createdAt": "2026-10-13T16:17:07.868-05:00",
     "domain": "lix.systems",
     "hnId": 2066179708,
     "hnUrl": "https://lobste.rs/s/y65egs/announcing_lix_2_96_bingsu",
-    "points": 34
+    "points": 38
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-13T16:17:07.868-05:00",
    "refs": [],
    "relevance": {
@@ -16781,28 +16823,28 @@
    "key": "lobsters:zitobg",
    "lobsters": {
     "author": "seb",
-    "comments": 17,
+    "comments": 22,
     "createdAt": "2026-10-14T01:24:41.078-05:00",
     "domain": "nytpu.com",
-    "points": 35,
+    "points": 50,
     "shortId": "zitobg",
     "url": "https://nytpu.com/gemlog/2026-03-18"
    },
    "metrics": {
-    "comments": 17,
+    "comments": 22,
     "frontPage": 0,
-    "points": 35
+    "points": 50
    },
    "news": {
     "author": "seb",
-    "comments": 17,
+    "comments": 22,
     "createdAt": "2026-10-14T01:24:41.078-05:00",
     "domain": "nytpu.com",
     "hnId": 2147933788,
     "hnUrl": "https://lobste.rs/s/zitobg/fancy_curl_sites",
-    "points": 35
+    "points": 50
    },
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "publishedAt": "2026-10-14T01:24:41.078-05:00",
    "refs": [],
    "relevance": {
@@ -16826,60 +16868,67 @@
   }
  ],
  "date": "2026-10-14",
- "fetchedAt": "2026-10-14T17:08:41.120Z",
+ "fetchedAt": "2026-10-15T05:54:07.945Z",
  "runs": [
   "2026-10-13T19:15:57.860Z",
   "2026-10-14T06:07:58.904Z",
-  "2026-10-14T17:08:41.120Z"
+  "2026-10-14T17:08:41.120Z",
+  "2026-10-15T05:54:07.945Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 57,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "dev-to",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 320,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "count": 319,
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "github-search",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 173,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "github-trending",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 73,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 95,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "lobsters",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -16887,15 +16936,16 @@
   {
    "board": "social",
    "count": 2,
-   "fetchedAt": "2026-10-14T17:08:41.120Z",
+   "fetchedAt": "2026-10-15T05:54:07.945Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-15T05:54:07.945Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-13T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-14T16:00:00.000Z"
  }

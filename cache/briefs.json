@@ -136,30 +136,29 @@
   "brief": {
    "zh": {
     "bullets": [
-     "Rust 生态迎来多款 AI 相关开源工具：纯 Rust 重写的 Word (storytold/wordcraft) [repos#1]、PhotoCraft 图像编辑器 [repos#10]、统一代理模型管理的 Magpie [repos#4]以及在消费者硬件上运行 Qwen3.8 的 Strata 引擎 [repos#5]。",
-     "本地化 AI 模型使用热潮：dsh 插件免登录即调取 DeepSeek、Kimi 等前沿模型 [repos#2]，Strata 一键部署 Qwen3.8-Flash-Next 于 Windows/Linux [repos#5]，Pulse Local 让预算分析模型跑在 Mac 本机 [news#5]，VoiceStudio 支持 646 语言离线语音克隆 [repos#8]。",
-     "AI 代理系统快速迭代：REA 能逆向分析应用与二进制文件 [repos#3]，Pentagi 完全自治的渗透测试代理 [repos#6]，Magpie 将多种模型整合至菜单栏 [repos#4]，Google ADK 通过 REST API 调用代理 [devto#6]，以及业界讨论“代理计划不等同权限” [devto#3]。",
-     "AI 引发的安全争议升温：OpenAI 工程师因窃听高层会议室被捕 [news#2]，某公司发现隐藏录音装置并使用自研模型追踪来源 [social#1]。",
-     "多模态大模型在 Hugging Face 持续涌现：Qwen 系列的 Image‑2.1 Turbo 与其未审查 GGUF 版本 [hf#7][hf#8]，MiniCPM‑V‑4.7‑35B‑A3B 支持图文到文本 [hf#6]，Lightricks LTX‑2.5 实现图像到视频生成 [hf#5]。"
+     "多个高分GitHub项目推出本地化、开源AI代理与模型，如 Rust 重写的 WordCraft 文档编辑器、Magpie 的统一模型菜单、Strata 的一键 Qwen3.8‑Flash‑Next 部署，以及无需 APIKey 的免费模型插件，提升本地AI可用性。[repos#1] [repos#4] [repos#5] [repos#2]",
+     "Hugging Face 最近上线多种多模态模型，包括 Qwen‑Image‑2.1‑Uncensored‑Quantized、Qwen‑Image‑2.1‑Turbo 以及 MiniCPM‑V‑4.7‑35B‑A3B，显示本地图像‑文本‑文本推理正快速成熟。[hf#2] [hf#7] [hf#6]",
+     "本地AI应用渗透日常：VoiceStudio 提供离线 646 语言语音克隆，Pulse Local 在 Mac 上本地运行预算模型，OpenAI 工程师因监控会议被逮捕，以及公司使用模型识别隐藏录音装置，凸显安全与隐私挑战。[repos#8] [news#6] [news#2] [social#1]"
     ],
-    "headline": "开源 Rust 工具与本地 AI 代理激增，安全争议同步升温"
+    "headline": "开源AI代理与本地模型激增，安全与隐私风险同步上升"
    }
   },
-  "hash": "f4e9089645e33275"
+  "hash": "1d35dbe22de149fe"
  },
  "2026-10-15": {
   "brief": {
    "zh": {
     "bullets": [
-     "本地多用户多代理助手 Octop 与浏览器自动化工具 BrowserSkill 让 AI 能直接使用已登录的浏览器，同时 Dev.to 作者开放了 DomA 浏览器代理项目，形成统一的开源代理生态 [repos#1] [repos#2] [devto#3]",
-     "基于 Qwen3.5/3.8 的决策模型套件 Kev 与 Jev‑chat‑jarvis 聊天决策助手共同展示了可自行训练、在本地运行的多模态决策链路 [repos#3] [repos#4]",
-     "Hugging Face 连续发布高性能多模态模型：Qwen‑Image‑2.1‑Turbo（文本生成图像）[hf#6]、LTX‑2.5（图像转视频）[hf#4]、MiniCPM‑V‑4.7‑35B（图文转文本）[hf#7]，推动跨媒体 AI 研发",
-     "Mixdog 通过优化令牌使用实现约 63% 的 token 节省，体现了社区对高效推理成本的迫切需求 [news#1]"
+     "多款开源AI代理框架涌现：iFixAi用于审计[repos#1]、Scientific‑Agent‑Skills提供科研技能库[repos#3]、Taste‑Skill加入艺术审美[repos#4]、Pentagi支持渗透测试[repos#5]、Octop实现多用户多代理[repos#9]，显示代理生态多元化。",
+     "Anthropic新模型Scion的设计灵感源自《幽灵公主》Mononoke，引发Hacker News和Lobsters热议[news#1][lobsters#1]。",
+     "文本到图像生成在HF平台受热捧，Qwen‑Image‑2.1系列（Turbo、Uncensored）和Google的EmbeddingGemma‑2等模型在榜单前列[hf#1][hf#2][hf#8][hf#10]。",
+     "本地化、免费AI服务快速崛起：dsh‑our‑free‑model插件直接提供前沿模型无需API钥匙[repos#6]，VoiceStudio实现全本地语音克隆与多语言支持[repos#7]，社区开启Petal项目复活CoScreen[news#3]。",
+     "腾讯加速企业级AI代理布局，公开Octop自托管助手并在Lobsters上被称为“腾讯代理舰队”，体现大型互联网公司对代理技术的投资[repos#9][lobsters#7]"
     ],
-    "headline": "开源 AI 代理与多模态模型生态快速扩张"
+    "headline": "AI代理与生成模型生态快速扩张：审计工具、开源模型、企业布局齐头并进"
    }
   },
-  "hash": "c4d39a9e76e3c43b"
+  "hash": "f0b9fe5e80f8ddbc"
  },
  "2026-W41": {
   "brief": {
@@ -180,14 +179,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "Ebony-Vinyl 提供的 dsh 免费模型插件免登录、免 API Key，可直接调用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型；Niko1221 的 Strata 一键在本地 Windows/Linux 上部署 Qwen3.8‑Flash‑Next；Alishahryar1 则开放 Claude Code 等六款模型的免费终端使用，显著降低获取高性能模型的门槛。[repos#1] [repos#7] [repos#8]",
-     "storytold 项目推出基于纯 Rust 的 Word、PDF 和 Photo 编辑器（WordCraft、PdfCraft、PhotoCraft），实现 Microsoft Office 核心功能的干净房间重建，展示了 Rust 在生产力软件中的安全与性能优势。[repos#5] [repos#6] [repos#10] [news#10]",
-     "AI 代理生态继续丰富：yetone 的 magpie 集成多模型编码助手（DeepSeek Codex、Claude Code 等）于菜单栏；vxcontrol 的 pentagi 提供全自动渗透测试代理，展示了 AI 在安全审计中的自主执行能力。[repos#3] [repos#4]",
-     "社区对 LLM 能力认知差距的担忧上升，Hacker News 讨论《共享理解的差距正在扩大》并伴随 X 上的转发；相关分析指出 AI 编码代理虽能生成更多代码，却未必提升软件整体质量，引发对评估标准的呼吁。[news#4] [social#1] [news#8]"
+     "多个仓库提供免登录免费使用前沿模型插件（如 dsh-our-free-model）和本地推理引擎（Strata、free-claude-code），让用户在本机直接调用 DeepSeek、Claude Code 等模型。[repos#1] [repos#7] [repos#8]",
+     "Hugging Face 上涌现大量 Qwen 系列图像生成与多模态模型，尤其是未审查的 Qwen-Image-2.1 Turbo 量化版，显示文本到图像的开源竞争加剧。[hf#1] [hf#5] [hf#8]",
+     "社区对 AI 代理的实用性展开评估：AI 编码代理虽产出更多代码，但未必提升软件质量，引发对评测方法的讨论。[news#8] [devto#10] [news#3]",
+     "开源办公套件项目如 WordCraft、PdfCraft、PhotoCraft 在 Rust 社区获得关注，展示了以纯 Rust 重建主流软件的趋势。[repos#5] [repos#6] [repos#10] [news#10]",
+     "Anthropic 重构源码控制流程，借助 Claude 实现研究循环自动化，标志着大型模型在工程生产中的深入渗透。[news#1] [lobsters#4]"
     ],
-    "headline": "免费本地AI工具爆发：从插件到Rust版办公套件，模型与代理全栈开源"
+    "headline": "免登录免费大模型与开源 AI 代理迅速普及，社区聚焦工具化与评估"
    }
   },
-  "hash": "6b3ed9b4b27d45ec"
+  "hash": "471ef9dfc1cde3a8"
  }
 }

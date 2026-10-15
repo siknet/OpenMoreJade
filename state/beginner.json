@@ -82,7 +82,7 @@
    "sourceKey": "devto:4840607"
   },
   "discovery:gh:apify/apify-mcp-server": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:apify/apify-mcp-server",
@@ -457,6 +457,41 @@
    },
    "sourceKey": "gh:jnmetacode/superpowers-zh"
   },
+  "discovery:gh:krillinai/opencreator": {
+   "observedAt": "2026-10-15T05:54:07.945Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:krillinai/opencreator",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-15T05:54:07.945Z",
+    "summary": {
+     "en": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+     "zh": "前身 KrillinAI 的 OpenCreator 基于 TypeScript 与 Codex，集视频下载、翻译、生成视频、图像、语音、头像及编辑于一体，适用于 YouTube、TikTok 等平台。"
+    },
+    "title": {
+     "en": "krillinai/OpenCreator",
+     "zh": "OpenCreator：面向创作者的开源 AI 工作空间"
+    },
+    "topics": [
+     "trend:daily",
+     "trend:monthly"
+    ],
+    "type": "repo",
+    "url": "https://github.com/krillinai/OpenCreator",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:krillinai/opencreator"
+  },
   "discovery:gh:langgenius/dify": {
    "observedAt": "2026-10-11T17:41:07.692Z",
    "resource": {
@@ -492,7 +527,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -507,11 +542,11 @@
     "sourceUpdatedAt": "2026-10-14T15:00:56.000Z",
     "summary": {
      "en": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-     "zh": ""
+     "zh": "taste-skill 为代码生成代理添加艺术指导、参考图片和浏览器检查等‘品味’技能，使用 JavaScript 实现，可直接在 GitHub 下载，提升生成代码的上下文感知和质量。"
     },
     "title": {
      "en": "Leonxlnx/taste-skill",
-     "zh": ""
+     "zh": "Leonxlnx/taste-skill：为代码代理提供品味技能"
     },
     "topics": [
      "agent-skills",
@@ -683,7 +718,7 @@
    "sourceKey": "gh:panniantong/agent-reach"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -695,7 +730,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-14T17:00:11.000Z",
+    "sourceUpdatedAt": "2026-10-15T05:54:03.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -932,7 +967,7 @@
    "sourceKey": "hn:50049588"
   },
   "discovery:hn:50076388": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50076388",
@@ -965,7 +1000,7 @@
    "sourceKey": "hn:50076388"
   },
   "discovery:hn:50077619": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50077619",
@@ -998,7 +1033,7 @@
    "sourceKey": "hn:50077619"
   },
   "discovery:hn:50080275": {
-   "observedAt": "2026-10-14T17:08:41.120Z",
+   "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50080275",
@@ -2818,6 +2853,42 @@
     }
    }
   },
+  "https://github.com/krillinai/opencreator": {
+   "days": {
+    "2026-10-15": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:krillinai/opencreator",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-15T05:54:07.945Z",
+    "summary": {
+     "en": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+     "zh": "前身 KrillinAI 的 OpenCreator 基于 TypeScript 与 Codex，集视频下载、翻译、生成视频、图像、语音、头像及编辑于一体，适用于 YouTube、TikTok 等平台。"
+    },
+    "title": {
+     "en": "krillinai/OpenCreator",
+     "zh": "OpenCreator：面向创作者的开源 AI 工作空间"
+    },
+    "topics": [
+     "trend:daily",
+     "trend:monthly"
+    ],
+    "type": "repo",
+    "url": "https://github.com/krillinai/OpenCreator",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   }
+  },
   "https://github.com/labring/fastgpt": {
    "days": {
     "2026-10-06": 85,
@@ -3078,8 +3149,7 @@
   },
   "https://github.com/stablyai/orca": {
    "days": {
-    "2026-10-10": 75,
-    "2026-10-15": 75
+    "2026-10-10": 75
    },
    "resource": {
     "freshnessBasis": "repo-updated",
@@ -4653,6 +4723,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/krillinai/opencreator": {
+   "active": true,
+   "currentEnteredAt": "2026-10-15T05:54:07.945Z",
+   "firstEnteredAt": "2026-10-15T05:54:07.945Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/labring/fastgpt": {
    "active": true,
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
@@ -4717,7 +4794,7 @@
    "returns": 0
   },
   "https://github.com/stablyai/orca": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-14T17:08:41.120Z",
    "firstEnteredAt": "2026-10-10T07:04:56.138Z",
    "initial": false,
@@ -5065,6 +5142,7 @@
   "https://github.com/janhq/jan": "2026-10-06T09:37:13.355Z",
   "https://github.com/jnmetacode/superpowers-zh": "2026-10-13T19:15:57.860Z",
   "https://github.com/k2-fsa/sherpa-onnx": "2026-10-06T09:37:13.355Z",
+  "https://github.com/krillinai/opencreator": "2026-10-15T05:54:07.945Z",
   "https://github.com/labring/fastgpt": "2026-10-06T09:37:13.355Z",
   "https://github.com/langgenius/dify": "2026-10-06T09:37:13.355Z",
   "https://github.com/leonxlnx/taste-skill": "2026-10-14T17:08:41.120Z",
