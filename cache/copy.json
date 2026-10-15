@@ -2342,6 +2342,20 @@
   },
   "hash": "6615b211a3e522a5"
  },
+ "devto:4851333": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨了当前应用普遍收集遥测、捆绑软件和强制账户的现象，并展示了作者自行开发的四款不收集用户数据的应用。",
+    "points": [
+     "解释了遥测和臃肿软件的常见做法。",
+     "介绍了四款完全不收集数据的替代应用。",
+     "提供了实现无数据收集的技术思路。"
+    ],
+    "title": "每个应用都想要你的数据，我构建了四个例外"
+   }
+  },
+  "hash": "687a186ce97eb8b9"
+ },
  "devto:4851348": {
   "copy": {
    "zh": {
@@ -2444,6 +2458,20 @@
   },
   "hash": "b9975cbab8445cf5"
  },
+ "devto:4853291": {
+  "copy": {
+   "zh": {
+    "blurb": "在旧台式机的二手 RTX 3050 OEM 上跑 Gemma 4 E2B/E4B，测评单用户吞吐 116 token/s、64 并发 618 token/s、全 131k 上下文、回答质量，并与笔记本 GPU、ARM 笔记本、T4 与 TPU v5e 进行价格对比。",
+    "points": [
+     "单卡即可运行 131k 上下文",
+     "并发 64 时保持 618 token/s",
+     "性价比优于笔记本 GPU、ARM 笔记本、T4 与 TPU v5e"
+    ],
+    "title": "Gemma 4 在二手 8GB RTX 3050 上的性能：单用户 116 token/s，64 用户 618 token/s"
+   }
+  },
+  "hash": "99694d1daf1ff5e0"
+ },
  "devto:4853527": {
   "copy": {
    "zh": {
@@ -2503,6 +2531,116 @@
    }
   },
   "hash": "9ed505fb8950beea"
+ },
+ "devto:4854692": {
+  "copy": {
+   "zh": {
+    "blurb": "本文展示用 Go 编写的 ora-tui，提供纯 TUI 界面，无需 Oracle Instant Client，即可自动发现 Oracle RAC 集群并进行单实例维护。",
+    "title": "如何构建 ora-tui：无需依赖的 Go 控制台管理工具，支持 Oracle RAC 与单实例"
+   }
+  },
+  "hash": "cef093df1c6943ad"
+ },
+ "devto:4855086": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Hacktoberfest 开源 AI 挑战中实现了一个可在普通笔记本上运行的开源模型，自动评估 Etsy 商店的商品定价。",
+    "points": [
+     "使用开源模型在本地推理，无需云服务。",
+     "自动抓取 Etsy 店铺数据并生成定价建议。",
+     "代码已开源，适合作为副业项目参考。"
+    ],
+    "title": "在本地笔记本上构建开源 AI 为 Etsy 店铺定价"
+   }
+  },
+  "hash": "3fbf182d954b9ebb"
+ },
+ "devto:4855254": {
+  "copy": {
+   "zh": {
+    "blurb": "文章回顾了 Gemini Enterprise Agent Platform 在过去六个月在构建、扩展、治理和优化四大模块的实际交付情况，并给出团队落地的建议。",
+    "title": "Gemini 企业代理平台六个月回顾"
+   }
+  },
+  "hash": "3909fa54b50c69d8"
+ },
+ "devto:4856004": {
+  "copy": {
+   "zh": {
+    "blurb": "LangSteps 1.1.0 增添 45 课，覆盖 Go、SQL 与 C# / ASP.NET Core，提供实战代码示例，帮助开发者快速上手多语言编程。",
+    "title": "LangSteps v1.1.0：新增45门Go、SQL 与 C# / ASP.NET Core 课程"
+   }
+  },
+  "hash": "95f0304d1177e145"
+ },
+ "devto:4856204": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨为每个 AI 代理分配独立身份的重要性，介绍在 Google Cloud 上使用服务账号作为‘护照’，并提醒重新部署时的身份丢失风险。",
+    "points": [
+     "为每个代理创建独立身份提升安全性",
+     "利用 Google Cloud Service Account 作为身份凭证",
+     "避免重新部署导致的身份失效陷阱"
+    ],
+    "title": "AI 代理的身份认证：Google Cloud 护照与重新部署陷阱"
+   }
+  },
+  "hash": "5d2854512436575c"
+ },
+ "devto:4856278": {
+  "copy": {
+   "zh": {
+    "blurb": "SudokuNova 0.2.1 使用 Kotlin 重构 Windows 桌面客户端，优化 UI 响应并加入新功能，提升数独游戏的使用体验。",
+    "title": "SudokuNova v0.2.1：用 Kotlin 改善 Windows 桌面体验"
+   }
+  },
+  "hash": "9b6e1ada1d83a5ad"
+ },
+ "devto:4856506": {
+  "copy": {
+   "zh": {
+    "blurb": "RevCheck 通过粘贴两条二手车列表，利用 AI 给出对比建议，帮助用户在购买日常用车前做出更明智的决定。",
+    "points": [
+     "粘贴两条车源信息进行比较",
+     "基于 AI 提供第二意见",
+     "Hacktoberfest 开源 AI 项目"
+    ],
+    "title": "RevCheck：购车前对比二手车信息的 AI 工具"
+   }
+  },
+  "hash": "ab2d3485a8035820"
+ },
+ "devto:4856866": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Llama Village 故事书项目中，利用 llamadart 在本地生成插图，实现离线图像生成，展示其在创意写作场景中的应用。",
+    "points": [
+     "本地离线图像生成，无需云服务",
+     "与 Llama Village 故事书集成",
+     "第 4 部分示例展示 llamadart 能力"
+    ],
+    "title": "使用 llamadart 本地生成图像：Llama Village 故事书案例"
+   }
+  },
+  "hash": "d049891dbc5e23f2"
+ },
+ "devto:4856909": {
+  "copy": {
+   "zh": {
+    "blurb": "阐述 MCP 的五层架构，展示将 1016 万条记录连接到 AI 的方法，强调其在数据驱动 AI 领域的蓝海机会。",
+    "title": "MCP五层解析：如何将1016万记录接入AI"
+   }
+  },
+  "hash": "d45d451140ce8570"
+ },
+ "devto:4857000": {
+  "copy": {
+   "zh": {
+    "blurb": "FrameTrellis 是开源 C++ 视频编辑库，v1.2.0 引入多剪辑复制、批量时间线编辑以及改进的 C++ 工作流，显著提升编辑效率。",
+    "title": "FrameTrellis v1.2.0：多剪辑复制、批量时间线编辑与更佳 C++ 视频工作流"
+   }
+  },
+  "hash": "2f126c2e93faa415"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -2587,8 +2725,13 @@
  "gh:anthropics/claude-plugins-official": {
   "copy": {
    "zh": {
-    "blurb": "由 Anthropic 官方维护的 Claude Code Plugins 仓库，收录高质量的插件集合，使用 Python 实现，帮助开发者快速扩展 Claude 功能。",
-    "title": "Claude 插件官方目录"
+    "blurb": "Anthropic 官方维护的 Claude 代码插件目录，收录高质量插件，支持 Python 开发。",
+    "points": [
+     "官方审核的高质量 Claude 插件集合。",
+     "提供统一的插件注册和分发机制。",
+     "便于开发者快速集成 Claude 功能。"
+    ],
+    "title": "Claude 官方插件目录"
    }
   },
   "hash": "e72f32eb60a7e7bc"
@@ -3033,6 +3176,20 @@
   },
   "hash": "91cdcfb0d18b1f98"
  },
+ "gh:harry0703/moneyprinterturbo": {
+  "copy": {
+   "zh": {
+    "blurb": "MoneyPrinterTurbo 通过大模型和自动化工作流，支持从主题或关键词一键生成高清短视频，面向内容创作与快速产出。",
+    "points": [
+     "大模型驱动的自动化视频生成工作流",
+     "输入关键词即可生成 HD 短视频",
+     "适用于多种主题的快速创作"
+    ],
+    "title": "MoneyPrinterTurbo：AI 驱动的高清视频短视频生成器"
+   }
+  },
+  "hash": "0bd5664426e304c7"
+ },
  "gh:headroomlabs-ai/headroom": {
   "copy": {
    "zh": {
@@ -3323,8 +3480,13 @@
  "gh:madslorentzen/ai-job-search": {
   "copy": {
    "zh": {
-    "blurb": "基于 Claude Code 的 AI 求职框架，可本地运行，自动评估职位信息、定制简历、撰写求职信并进行面试准备，支持自行 fork 与完全所有权。",
-    "title": "AI Job Search：本地化的 AI 求职应用框架",
+    "blurb": "在本机运行的 AI 求职工具，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，开源可自行 Fork 使用。",
+    "points": [
+     "利用 Claude Code 自动评估招聘信息",
+     "一键生成个性化简历和求职信",
+     "本地化运行，数据完全掌控"
+    ],
+    "title": "本地运行的 AI 求职工具",
     "why": "让求职者在本地拥有私密可定制的全自动求职助理，提升效率与隐私。"
    }
   },
@@ -3571,6 +3733,19 @@
   },
   "hash": "35d77b37a68d2a9a"
  },
+ "gh:pacifio/atlas": {
+  "copy": {
+   "zh": {
+    "blurb": "Atlas 是用 Rust 编写的源码管理系统，专为多编码代理设计，可统一记录它们的代码变更并在单一界面查询。",
+    "points": [
+     "集中记录各代理的提交历史，实现跨代理的版本追踪与回滚。",
+     "提供统一查询接口，快速检索特定代码片段或改动细节。"
+    ],
+    "title": "Atlas：多智能体源码管理平台"
+   }
+  },
+  "hash": "97ad1f0ad599ea12"
+ },
  "gh:panniantong/agent-reach": {
   "copy": {
    "zh": {
@@ -3639,6 +3814,15 @@
    }
   },
   "hash": "bc0cc1916bb85776"
+ },
+ "gh:router-for-me/cliproxyapi": {
+  "copy": {
+   "zh": {
+    "blurb": "将 Antigravity、ChatGPT、Claude、Grok、Muse、Devin 等模型包装为兼容 OpenAI、Gemini、Claude、Codex 的统一 API，用户可通过单一接口调用多家免费大模型服务。",
+    "title": "CLIProxyAPI：统一多模型 API 服务"
+   }
+  },
+  "hash": "087f1e6d6f558f03"
  },
  "gh:rtk-ai/rtk": {
   "copy": {
@@ -5793,6 +5977,20 @@
   },
   "hash": "1ad4dc9eb65c54bc"
  },
+ "hn:50090842": {
+  "copy": {
+   "zh": {
+    "blurb": "LWN 报道了 Linus Torvalds 使用大型语言模型帮助编写补丁的首次尝试，展示了 AI 在内核开发中的潜在作用。",
+    "points": [
+     "Linus 通过 LLM 生成代码改动草稿。",
+     "人类审查后手动完成提交。",
+     "实验表明 LLM 可加速内核维护工作。"
+    ],
+    "title": "Linus Torvalds 首个 LLM 辅助的补丁系列"
+   }
+  },
+  "hash": "16e4f10d51bb27ba"
+ },
  "hn:50092470": {
   "copy": {
    "zh": {
@@ -5835,6 +6033,46 @@
   },
   "hash": "4c0be786da429e5a"
  },
+ "hn:50103434": {
+  "copy": {
+   "zh": {
+    "blurb": "Mordiem 提供与 OpenAI 接口兼容的 API，并实现多网络自动切换容错，提升请求可靠性。",
+    "points": [
+     "多网络自动切换确保请求成功",
+     "兼容 OpenAI 接口，易于迁移"
+    ],
+    "title": "Show HN：Mordiem — 支持多网络容错的 OpenAI 兼容 API"
+   }
+  },
+  "hash": "0f9cdb6078d1ff85"
+ },
+ "hn:50105935": {
+  "copy": {
+   "zh": {
+    "blurb": "Council AI 是一款网页工具，能够检测主流大模型的偏见与幻觉，通过对比 AI 在不同主题（如 2026 年最佳/最差表现）提供直观示例。",
+    "points": [
+     "交互式对比页面展示模型在不同主题上的最佳与最差表现，直观揭示偏差。",
+     "支持自定义查询，用户可快速定位特定输入下的幻觉或偏见输出。"
+    ],
+    "title": "Council AI：检测主流模型偏见与幻觉"
+   }
+  },
+  "hash": "956093014aa8781a"
+ },
+ "hn:50106062": {
+  "copy": {
+   "zh": {
+    "blurb": "BlastLoop 提出结构优先的 AI 代理编码方法，提供统一的开发框架，帮助构建可维护、模块化的复杂代理系统。",
+    "points": [
+     "结构优先提升代码可维护性",
+     "统一框架支持复杂代理的模块化实现",
+     "适用于多场景的 AI 代理开发"
+    ],
+    "title": "BlastLoop：结构化优先的 AI 代理编码方法"
+   }
+  },
+  "hash": "a7602ed5a3e7feb9"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -5861,6 +6099,15 @@
    }
   },
   "hash": "32179afbf9de4fac"
+ },
+ "lobsters:46dcms": {
+  "copy": {
+   "zh": {
+    "blurb": "Microsoft 为 Linux 桌面推出 Defender 安全套件，提供实时防病毒、威胁检测和合规管理，扩展了其跨平台防护能力。",
+    "title": "Microsoft Defender Linux 版安全方案"
+   }
+  },
+  "hash": "8c8827ec095a6f98"
  },
  "lobsters:4ehrkn": {
   "copy": {
@@ -6076,6 +6323,15 @@
   },
   "hash": "a90b7aed024e75ae"
  },
+ "lobsters:9xticb": {
+  "copy": {
+   "zh": {
+    "blurb": "Libreboot 26.10 “Ominous Olive” 首次在该开源固件中实现完整 UEFI 支持，增强兼容性与安全性。",
+    "title": "Libreboot 26.10 “Ominous Olive” 正式发布，完整 UEFI 支持"
+   }
+  },
+  "hash": "03307c4580630ed4"
+ },
  "lobsters:9zcxev": {
   "copy": {
    "zh": {
@@ -6143,6 +6399,28 @@
    }
   },
   "hash": "1a5a2616c6e98528"
+ },
+ "lobsters:bcaopz": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 上的链接指向 Haxy 项目主页，提供在线交互式沙盒环境，让用户在浏览器中直接使用 Haxy。",
+    "points": [
+     "提供 Haxy 的在线体验页面。",
+     "可在浏览器中直接使用 Haxy 工具。"
+    ],
+    "title": "Haxy on Haxy 项目概览"
+   }
+  },
+  "hash": "da5d13e4d003f6e8"
+ },
+ "lobsters:bpvpbe": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍一种几何模型用于描述软件维护过程，利用空间关系和度量帮助团队评估维护成本与风险。",
+    "title": "维护的几何模型"
+   }
+  },
+  "hash": "905340d51733cf20"
  },
  "lobsters:cjdy6d": {
   "copy": {
@@ -6517,6 +6795,19 @@
   },
   "hash": "e7ed2779c6adfb63"
  },
+ "lobsters:ixoasm": {
+  "copy": {
+   "zh": {
+    "blurb": "Furifont 将振假名直接嵌入字体字形，免去 HTML ruby 标记，在日文排版中实现更简洁的显示效果。",
+    "points": [
+     "振假名作为字形一部分",
+     "兼容常规字体渲染流程"
+    ],
+    "title": "Furifont：内置振假名的字体"
+   }
+  },
+  "hash": "7b487164aa39eece"
+ },
  "lobsters:j30pg4": {
   "copy": {
    "zh": {
@@ -6580,6 +6871,19 @@
    }
   },
   "hash": "fa646fd40a583294"
+ },
+ "lobsters:kaerns": {
+  "copy": {
+   "zh": {
+    "blurb": "该帖子宣布 decomp.dev 项目即将关闭，结束对逆向工程资源的托管服务。",
+    "points": [
+     "项目将于近期停止运营。",
+     "资源将不再维护，用户需自行备份。"
+    ],
+    "title": "停运 decomp.dev"
+   }
+  },
+  "hash": "4ad7e44c11370d11"
  },
  "lobsters:lfen2h": {
   "copy": {
@@ -6709,6 +7013,20 @@
   },
   "hash": "265bcfe91c430776"
  },
+ "lobsters:o0ixth": {
+  "copy": {
+   "zh": {
+    "blurb": "Haxy.net 正式上线，提供基于 HAXY 的 Git 代码托管平台，视频介绍了新功能和开发进展。",
+    "points": [
+     "新的 Git forge 平台上线",
+     "支持代码托管与协作",
+     "通过视频展示平台功能"
+    ],
+    "title": "Haxy.net 正式上线！—— HAXY (git forge) 开发日志"
+   }
+  },
+  "hash": "e67a9e8871a7d5f4"
+ },
  "lobsters:oq6nhr": {
   "copy": {
    "zh": {
@@ -6717,6 +7035,20 @@
    }
   },
   "hash": "37c07c9025b2fb11"
+ },
+ "lobsters:p7tf7i": {
+  "copy": {
+   "zh": {
+    "blurb": "sslx 是用 Rust 编写的快速现代化 OpenSSL 命令行替代品，提供更高性能的加解密操作并保持兼容常用功能。",
+    "points": [
+     "基于 Rust 实现高性能加解密",
+     "简化的命令行界面提升使用体验",
+     "兼容 OpenSSL 常用参数"
+    ],
+    "title": "sslx：快速现代的 OpenSSL CLI 替代品"
+   }
+  },
+  "hash": "d0c161f2c5f2bc2a"
  },
  "lobsters:plbei0": {
   "copy": {
@@ -6814,6 +7146,15 @@
   },
   "hash": "2dfefd6241b55341"
  },
+ "lobsters:s8bo3z": {
+  "copy": {
+   "zh": {
+    "blurb": "文章论述远程认证的安全风险，认为在可信计算环境中不应容忍其使用，呼吁采用更严格的验证机制。",
+    "title": "远程认证不应被容忍"
+   }
+  },
+  "hash": "c319e1bbf46d8423"
+ },
  "lobsters:sozl9e": {
   "copy": {
    "zh": {
@@ -6910,6 +7251,15 @@
   },
   "hash": "3f9e31aeab10b940"
  },
+ "lobsters:uejdwj": {
+  "copy": {
+   "zh": {
+    "blurb": "比较 JPEG XL 与 AVIF 两种新兴图像格式在网页场景下的压缩率、解码速度、浏览器兼容性等方面的优势与不足，为前端选型提供参考。",
+    "title": "JPEG XL 与 AVIF 在网页中的对比"
+   }
+  },
+  "hash": "96d3d53ae6bbd1ef"
+ },
  "lobsters:uiulqe": {
   "copy": {
    "zh": {
@@ -6923,6 +7273,29 @@
    }
   },
   "hash": "debdc00300edde3c"
+ },
+ "lobsters:umdbht": {
+  "copy": {
+   "zh": {
+    "blurb": "分享作者在 C23 标准中的编码约定和最佳实践，涵盖命名、宏定义、模块组织等，提高代码可读性和可维护性。",
+    "title": "我的 C23 编码约定"
+   }
+  },
+  "hash": "5022785b2e751ba9"
+ },
+ "lobsters:uqugjk": {
+  "copy": {
+   "zh": {
+    "blurb": "The Costa GUI 是一个开源的跨平台图形用户界面项目，提供轻量级 UI 组件，适合作为工具或应用的前端框架。",
+    "points": [
+     "简洁轻量的 UI 设计",
+     "支持跨平台运行",
+     "可定制的开源组件库"
+    ],
+    "title": "The Costa GUI：轻量级跨平台图形界面"
+   }
+  },
+  "hash": "839e66014c43f32c"
  },
  "lobsters:uzfa4k": {
   "copy": {
@@ -7024,6 +7397,33 @@
    }
   },
   "hash": "a8eca133c528f539"
+ },
+ "lobsters:ydo1wi": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客指出在 Amazon S3 上使用 Git 的常见误区，并提供更高效的存储布局与操作方法，以避免性能和一致性问题。",
+    "title": "大家在 S3 上使用 Git 的方式都错了"
+   }
+  },
+  "hash": "12dc68e4ec130502"
+ },
+ "lobsters:yista4": {
+  "copy": {
+   "zh": {
+    "blurb": "提供静态二进制翻译的概念、工具链与实现技巧，帮助开发者在无需运行时的情况下将二进制代码迁移到目标平台。",
+    "title": "静态二进制翻译指南"
+   }
+  },
+  "hash": "9c252d27602e58db"
+ },
+ "lobsters:yxnovw": {
+  "copy": {
+   "zh": {
+    "blurb": "OCapN 项目推出端到端加密中继，确保在开放内容平台上的数据传输安全，防止中间人窃听。",
+    "title": "OCapN 的端到端加密中继"
+   }
+  },
+  "hash": "37cba323968fd5c5"
  },
  "lobsters:zitobg": {
   "copy": {
