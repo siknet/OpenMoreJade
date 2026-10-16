@@ -81,6 +81,46 @@
    },
    "sourceKey": "devto:4840607"
   },
+  "discovery:devto:4859436": {
+   "observedAt": "2026-10-16T05:50:29.897Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:devto:4859436",
+    "level": "starter",
+    "publishedAt": "2026-10-16T02:33:16Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "dev.to",
+    "sourceUpdatedAt": "2026-10-16T02:33:16.000Z",
+    "summary": {
+     "en": "A practical guide to contributing to GitLab AI Gateway — configuring model registries, unit primitives, and 1M context windows for GitLab Duo.",
+     "zh": "指南展示了在 GitLab AI Gateway 中为 GitLab Duo 注册下一代大语言模型的步骤，包括模型注册、单元原语配置以及支持 1M 上下文窗口的设置。"
+    },
+    "title": {
+     "en": "Inside GitLab AI Gateway: How to Register Next-Gen LLMs with GitLab Duo",
+     "zh": "GitLab AI Gateway 深度解析：如何在 GitLab Duo 中注册新一代 LLM"
+    },
+    "topics": [
+     "source:dev-to",
+     "tag:gitlab",
+     "tag:ai",
+     "tag:machinelearning",
+     "tag:opensource",
+     "tab:opensource"
+    ],
+    "type": "article",
+    "url": "https://dev.to/hrlpavan/inside-gitlab-ai-gateway-how-to-register-next-gen-llms-with-gitlab-duo-2p2b",
+    "why": {
+     "en": "Automatic selection: Actionable instructions or a concrete tool comparison. Check the original source for access requirements.",
+     "zh": "自动候选：包含操作方法或可用于选择工具的具体比较。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "devto:4859436"
+  },
   "discovery:gh:apify/apify-mcp-server": {
    "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
@@ -527,7 +567,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -602,7 +642,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -752,7 +792,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-15T05:54:07.945Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -764,7 +804,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-14T17:00:11.000Z",
+    "sourceUpdatedAt": "2026-10-16T05:49:21.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -3225,44 +3265,10 @@
     }
    }
   },
-  "https://github.com/router-for-me/cliproxyapi": {
-   "days": {
-    "2026-10-16": 75
-   },
-   "resource": {
-    "freshnessBasis": "first-observed",
-    "id": "discovery:gh:router-for-me/cliproxyapi",
-    "level": "starter",
-    "scores": {
-     "authority": 5,
-     "clarity": 3,
-     "foundation": 3,
-     "practice": 4
-    },
-    "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-15T16:59:07.183Z",
-    "summary": {
-     "en": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
-     "zh": "将 Antigravity、ChatGPT、Claude、Grok、Muse、Devin 等模型包装为兼容 OpenAI、Gemini、Claude、Codex 的统一 API，用户可通过单一接口调用多家免费大模型服务。"
-    },
-    "title": {
-     "en": "router-for-me/CLIProxyAPI",
-     "zh": "CLIProxyAPI：统一多模型 API 服务"
-    },
-    "topics": [
-     "trend:daily"
-    ],
-    "type": "repo",
-    "url": "https://github.com/router-for-me/CLIProxyAPI",
-    "why": {
-     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
-    }
-   }
-  },
   "https://github.com/stablyai/orca": {
    "days": {
-    "2026-10-10": 75
+    "2026-10-10": 75,
+    "2026-10-16": 75
    },
    "resource": {
     "freshnessBasis": "repo-updated",
@@ -3275,7 +3281,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-14T17:00:11.000Z",
+    "sourceUpdatedAt": "2026-10-16T05:49:21.000Z",
     "summary": {
      "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
@@ -4932,18 +4938,18 @@
    "returns": 0
   },
   "https://github.com/router-for-me/cliproxyapi": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-15T16:59:07.183Z",
    "firstEnteredAt": "2026-10-15T16:59:07.183Z",
    "initial": false,
    "returns": 0
   },
   "https://github.com/stablyai/orca": {
-   "active": false,
-   "currentEnteredAt": "2026-10-14T17:08:41.120Z",
+   "active": true,
+   "currentEnteredAt": "2026-10-16T05:50:29.897Z",
    "firstEnteredAt": "2026-10-10T07:04:56.138Z",
    "initial": false,
-   "returns": 2
+   "returns": 3
   },
   "https://github.com/subtitleedit/subtitleedit": {
    "active": true,
@@ -5233,6 +5239,7 @@
   "https://cursor.com/": "2026-10-06T09:37:13.355Z",
   "https://deepl.com/en/write": "2026-10-06T09:37:13.355Z",
   "https://descript.com/": "2026-10-06T09:37:13.355Z",
+  "https://dev.to/hrlpavan/inside-gitlab-ai-gateway-how-to-register-next-gen-llms-with-gitlab-duo-2p2b": "2026-10-16T05:50:29.897Z",
   "https://dev.to/oleksiyml/we-built-an-app-we-also-had-to-learn-how-to-work-together-339h": "2026-10-12T21:16:13.810Z",
   "https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna": "2026-10-13T07:41:49.006Z",
   "https://developers.llamaindex.ai/python/framework/getting_started/starter_example": "2026-10-06T09:37:13.355Z",

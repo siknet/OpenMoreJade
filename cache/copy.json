@@ -2642,6 +2642,235 @@
   },
   "hash": "2f126c2e93faa415"
  },
+ "devto:4857675": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了将 DuckDB 以无服务器方式部署在 Google Cloud 的实践，包括文件存储在 GCS、表格读写 BigQuery 的实现、测量结果与经验教训。",
+    "points": [
+     "通过 GCS 存储实现无服务器数据访问",
+     "与 BigQuery 双向读写提升分析效率",
+     "提供性能测评和部署经验"
+    ],
+    "title": "DuckLess：在 Google Cloud 上的无服务器 DuckDB"
+   }
+  },
+  "hash": "bb45c2b8a0ef0c52"
+ },
+ "devto:4857913": {
+  "copy": {
+   "zh": {
+    "blurb": "BitRun 0.2 版提供了一个终端界面用于运行 1‑bit 量化的语言模型，并实时显示功耗数据，帮助在资源受限设备上监控推理负载。",
+    "points": [
+     "1‑bit 量化让模型在低功耗设备上可运行",
+     "终端 Cockpit 集成实时功耗遥测",
+     "v0.2 增强 UI 与监控功能提升可用性"
+    ],
+    "title": "BitRun v0.2：1‑bit LLM 终端舱与实时功耗遥测"
+   }
+  },
+  "hash": "fdb9a4a4eb8a88f1"
+ },
+ "devto:4858022": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 Dev.to 文章介绍了一个基于本地 Gemma 大模型的工具，能够在对话中识别并回复‘超出范围’的请求，帮助开发者避免需求蔓延。",
+    "points": [
+     "使用本地 Gemma 模型实现离线 AI",
+     "自动检测并回复超出需求的请求",
+     "为 Hacktoberfest 开源项目提供示例"
+    ],
+    "title": "Scope‑Creep Guard：本地 Gemma AI 自动告知客户超出范围"
+   }
+  },
+  "hash": "ddd74fe21c98723b"
+ },
+ "devto:4858695": {
+  "copy": {
+   "zh": {
+    "blurb": "本文详细介绍如何使用开源大模型 Google Gemma 2 和语音合成平台 ElevenLabs，构建一个保护用户隐私的电商 AI 文案生成系统，并实现从原始笔记到首单的完整流程。",
+    "points": [
+     "结合 Gemma 2 的本地推理，实现数据不外泄。",
+     "使用 ElevenLabs API 生成自然语音，实现多模态交互。",
+     "提供端到端部署脚本，快速上线电商文案服务。"
+    ],
+    "title": "隐私优先的电商 AI 文案写手：基于 Google Gemma 2 与 ElevenLabs 全攻略"
+   }
+  },
+  "hash": "7631b073e0c07fd4"
+ },
+ "devto:4858721": {
+  "copy": {
+   "zh": {
+    "blurb": "作者基于 Hacktoberfest 开源 AI 挑战，打造了一款能够自动比较航班价格并给出推荐的 AI 助手 AirGem，帮助旅行者节省时间与费用。",
+    "title": "AirGem：用于比价航班的 AI 副驾"
+   }
+  },
+  "hash": "a5bf97aaff3a5cf1"
+ },
+ "devto:4858910": {
+  "copy": {
+   "zh": {
+    "blurb": "Listing Writer 是一款单页 Web 应用，在浏览器中本地运行 270M 参数的 Gemma 模型，帮助用户快速生成能提升销量的 eBay 商品描述。",
+    "points": [
+     "在浏览器离线推理 Gemma 270M",
+     "即时生成符合平台规范的商品文案",
+     "无需后端服务器，完全前端部署"
+    ],
+    "title": "Listing Writer: a 270M Gemma in your browser that writes eBay listings that sell"
+   }
+  },
+  "hash": "0b54dc92e6a06616"
+ },
+ "devto:4858962": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了在 Hysteria2 VPN 中遇到上传测速导致连接掉线的问题，并提供了仅 37 行代码的修复方法，提升了稳定性。",
+    "title": "Hysteria2 上传测速后连接中断的 37 行修复方案"
+   }
+  },
+  "hash": "718c4f1994a53b87"
+ },
+ "devto:4859089": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出传统 B‑Tree 索引已使用多年存在局限，提出在 Rust 中使用数学方法构建更高效的索引结构。",
+    "points": [
+     "批评传统 B‑Tree 的局限",
+     "提出基于数学的替代实现",
+     "使用 Rust 实现新索引方案"
+    ],
+    "title": "用数学取代 B‑Tree：Rust 索引新思路"
+   }
+  },
+  "hash": "98e839ff2ab87918"
+ },
+ "devto:4859117": {
+  "copy": {
+   "zh": {
+    "blurb": "针对在处理 LLM 实时流时常见的 jq 解析错误，作者实现了轻量工具 sjq，专门用于安全、可靠地解析和过滤 AI 流数据。",
+    "title": "解决 AI 流媒体 jq 解析错误：自研 sjq"
+   }
+  },
+  "hash": "54849825aa48cf41"
+ },
+ "devto:4859136": {
+  "copy": {
+   "zh": {
+    "blurb": "Mistral 的 Timestral 系列模型可在纯 CPU 环境下进行时间序列预测，并在三大基准测试中名列前茅。模型权重采用“Modified MIT”许可证，限制月收入超过 2000 万美元的企业使用。",
+    "title": "Mistral Timestral 在 CPU 上运行，许可证限制月收入 2000 万美元"
+   }
+  },
+  "hash": "34780f23a9de7e7f"
+ },
+ "devto:4859258": {
+  "copy": {
+   "zh": {
+    "blurb": "作者为缺失的 MCP 官方 C++ SDK 编写了实现，并使用官方合规套件进行验证，展示了在数据库、游戏引擎和嵌入式设备等数据基础设施中使用 C++ 的可行路径。",
+    "title": "自行实现 MCP 的 C++ SDK 并通过官方合规套件测试"
+   }
+  },
+  "hash": "7810e2adbcfceac6"
+ },
+ "devto:4859411": {
+  "copy": {
+   "zh": {
+    "blurb": "本文深入阐述在 GitLab Core 中实现 Model Context Protocol（MCP）处理器的过程，使自主 AI 代理能够直接访问 GitLab 资源，实现无缝集成。",
+    "title": "在 GitLab 中连接 AI 代理：实现 MCP 资源"
+   }
+  },
+  "hash": "38c5e46180515115"
+ },
+ "devto:4859436": {
+  "copy": {
+   "zh": {
+    "blurb": "指南展示了在 GitLab AI Gateway 中为 GitLab Duo 注册下一代大语言模型的步骤，包括模型注册、单元原语配置以及支持 1M 上下文窗口的设置。",
+    "title": "GitLab AI Gateway 深度解析：如何在 GitLab Duo 中注册新一代 LLM"
+   }
+  },
+  "hash": "71782d2b366284d3"
+ },
+ "devto:4859451": {
+  "copy": {
+   "zh": {
+    "blurb": "skimsearch 是一个 Python CLI 与 MCP 服务器组合工具，将代码库索引至 SQLite FTS5，并为编码代理提供基于令牌预算的排名代码片段，取代传统的 grep 输出。",
+    "title": "skimsearch：为编码代理提供 SQLite FTS5 索引的搜索助手"
+   }
+  },
+  "hash": "d491624e82420b98"
+ },
+ "devto:4859458": {
+  "copy": {
+   "zh": {
+    "blurb": "提供一步步路线图，帮助开发者寻找社区奖励议题、搭建 GDK 环境、通过 CI 流水线，最终在 GitLab 贡献者平台获得认可。",
+    "title": "快速上手指南：成为 GitLab 核心贡献者"
+   }
+  },
+  "hash": "d2fd73449f0f8d80"
+ },
+ "devto:4859535": {
+  "copy": {
+   "zh": {
+    "blurb": "阐述传统 YAML 在大规模使用时的问题，介绍如何使用 spec:inputs 构建强类型、版本化的 GitLab CI/CD 组件，以供 CI/CD Catalog 使用。",
+    "title": "可复用流水线最佳实践：为 CI/CD Catalog 构建类型化 GitLab CI/CD 组件"
+   }
+  },
+  "hash": "2b205dbe16392f31"
+ },
+ "devto:4859536": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示了在 CPU 环境下运行 7B 大模型的完整代理流程，实现从单句指令到任务完成的全链路。",
+    "points": [
+     "使用 CPU 运行 7B 大模型",
+     "完整任务执行的代理示例"
+    ],
+    "title": "在 CPU 上训练 7B 模型完成任务"
+   }
+  },
+  "hash": "d1cea82096940de5"
+ },
+ "devto:4859593": {
+  "copy": {
+   "zh": {
+    "blurb": "MiniMin 是面向 modded Minecraft 服务器的轻量级自托管面板，采用 Docker 一键部署，并提供通过网页同步模组文件给好友的功能。",
+    "points": [
+     "Docker 一键启动服务器",
+     "网页界面管理模组与配置",
+     "一键同步模组给好友"
+    ],
+    "title": "Stop sending mods via Discord: self-hosted MiniMin panel + one-click sync for friends"
+   }
+  },
+  "hash": "cc9e1cb744e327f0"
+ },
+ "devto:4859619": {
+  "copy": {
+   "zh": {
+    "blurb": "RepoDNA 在 1.4.1 版本中加入对 Windows 原生包管理器 WinGet 的安装与升级功能，简化了在 Windows 环境下的部署与自动化更新流程。",
+    "points": [
+     "支持 WinGet 直接拉取和部署 RepoDNA 包",
+     "实现一键升级，降低维护成本",
+     "提升 Windows 端自动化安装的可靠性"
+    ],
+    "title": "RepoDNA v1.4.1：原生 WinGet 安装与升级支持"
+   }
+  },
+  "hash": "efcbf71d3664ec59"
+ },
+ "devto:4859633": {
+  "copy": {
+   "zh": {
+    "blurb": "Oja 项目使用开放权重的 Gemma 模型，输入单张商品图片即可生成尼日利亚皮钦语的 Instagram 风格商品描述，参加 Hacktoberfest 开源 AI 挑战。",
+    "points": [
+     "基于 Gemma 模型实现皮钦语文本生成",
+     "一张图片自动生成 Instagram 商品文案",
+     "作为 Hacktoberfest AI 挑战的开源提交"
+    ],
+    "title": "Oja：一张商品照片生成 Naija Pidgin Instagram 文案（Open‑Weight Gemma）"
+   }
+  },
+  "hash": "4c4657629ec34366"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -3463,6 +3692,19 @@
   },
   "hash": "c00717f5413b8ff3"
  },
+ "gh:lightseekorg/tokenspeed": {
+  "copy": {
+   "zh": {
+    "blurb": "TokenSpeed 是一款号称光速的 LLM 推理引擎，致力于极致推理速度。",
+    "points": [
+     "基于 Python 实现",
+     "专注于极低延迟的模型推理"
+    ],
+    "title": "TokenSpeed：光速级 LLM 推理引擎"
+   }
+  },
+  "hash": "675711a0f2fc65ae"
+ },
  "gh:lyogavin/airllm": {
   "copy": {
    "zh": {
@@ -3654,6 +3896,15 @@
   },
   "hash": "becf337a0451cb7a"
  },
+ "gh:obra/superpowers": {
+  "copy": {
+   "zh": {
+    "blurb": "Superpowers 是一个面向智能体的技能框架，提供配套的软件开发方法论，帮助开发者构建可组合、可复用的 agent 能力，实现更高效的系统构建。",
+    "title": "obra/superpowers：可行的 Agentic 技能框架与开发方法"
+   }
+  },
+  "hash": "a736f818971918c7"
+ },
  "gh:ollama/ollama": {
   "copy": {
    "zh": {
@@ -3842,8 +4093,13 @@
  "gh:ruvnet/ruflo": {
   "copy": {
    "zh": {
-    "blurb": "支持多智能体群体协同、适应性记忆、自学习、向量 RAG 集成以及原生 Claude Code 等多模型，构建对话式 AI 系统。",
-    "title": "ruvnet/ruflo：原始智能体协作平台",
+    "blurb": "ruflo 是一个基于 TypeScript 的智能体框架，支持多玩家协作、适应性记忆、自学习、联邦学习以及向量 RAG 集成，原生兼容 Claude、Code、Codex、Hermes 等模型。",
+    "points": [
+     "多智能体协作与工作流编排",
+     "自适应记忆与自学习机制",
+     "内置向量检索与多模型接口"
+    ],
+    "title": "ruvnet/ruflo",
     "why": "多智能体协作是实现复杂任务自动化的核心，提供统一框架加速研发。"
    }
   },
@@ -4096,6 +4352,19 @@
   },
   "hash": "6330d6e1b5a7d49d"
  },
+ "gh:thysrael/horizon": {
+  "copy": {
+   "zh": {
+    "blurb": "Horizon 是一款使用 AI 生成每日英文和中文新闻简报的开源工具，帮助用户快速获取热点信息。",
+    "points": [
+     "每日生成中英双语新闻简报",
+     "基于 Python 开发的开源项目"
+    ],
+    "title": "Horizon：AI 驱动的双语新闻雷达"
+   }
+  },
+  "hash": "4200aa165fefd839"
+ },
  "gh:tinyhumansai/openhuman": {
   "copy": {
    "zh": {
@@ -4214,6 +4483,20 @@
    }
   },
   "hash": "1889ea0b157b490b"
+ },
+ "gh:wheresryan22/anatomy": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库实现了生成机器和复杂系统等轴交互式 SVG 插图的代理技能，支持可选的 WebGL 着色器和 3D 效果。",
+    "points": [
+     "能自动生成细致的等轴机器插图，输出高质量 SVG。",
+     "可选的 WebGL 着色器为插图增添 3D 效果。",
+     "适用于教育、文档和交互式可视化场景。"
+    ],
+    "title": "anatomy 项目：交互式等轴绘图代理技能"
+   }
+  },
+  "hash": "d7baa3eb6a9251f3"
  },
  "gh:xerj-org/xerj": {
   "copy": {
@@ -4526,6 +4809,20 @@
    }
   },
   "hash": "744a3a947ab53366"
+ },
+ "hf:liquidai/lfm2.5-24b-a2b": {
+  "copy": {
+   "zh": {
+    "blurb": "LiquidAI 发布的 LFM2.5-24B-A2B 模型，拥有 240 亿参数，专注文本生成，可用于多种语言任务。",
+    "points": [
+     "24B 参数规模提升生成文本的流畅度和一致性。",
+     "采用最新的 Transformer 架构，支持长上下文。",
+     "在 Hugging Face 平台可直接调用 API 进行推理。"
+    ],
+    "title": "LiquidAI LFM2.5-24B-A2B 文本生成模型"
+   }
+  },
+  "hash": "16bf264a8b4ea69f"
  },
  "hf:openbmb/minicpm-v-4.7-35b-a3b": {
   "copy": {
@@ -6046,6 +6343,20 @@
   },
   "hash": "0f9cdb6078d1ff85"
  },
+ "hn:50105647": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Hacker News 文章讨论了神经网络在保持数据清洁方面的潜力，链接指向已清理的示例站点以及作者的推文。",
+    "points": [
+     "展示神经网络用于数据清洗的案例",
+     "提供演示站点和推文说明",
+     "获 598 点和 223 条评论，受社区关注"
+    ],
+    "title": "神经网络是干净的"
+   }
+  },
+  "hash": "1a0efb8d365a5008"
+ },
  "hn:50105935": {
   "copy": {
    "zh": {
@@ -6073,6 +6384,34 @@
   },
   "hash": "a7602ed5a3e7feb9"
  },
+ "hn:50106738": {
+  "copy": {
+   "zh": {
+    "blurb": "该帖子深入分析了 Anthropic 的 Scion 项目在源代码管理设计上与 Mononoke 的高度相似性，并列出相关讨论链接。",
+    "points": [
+     "对比两者的架构和功能实现",
+     "引用 Hacker News 讨论的评论量（996 与 149）",
+     "引发社区对抄袭与创新的讨论"
+    ],
+    "title": "Anthropic Scion 与 Mononoke 的相似争议"
+   }
+  },
+  "hash": "410b0b53500fe1c4"
+ },
+ "hn:50110907": {
+  "copy": {
+   "zh": {
+    "blurb": "该网页游戏让玩家阅读 AI 给出的答案并猜测是哪家前沿实验室的模型生成，可自行选择比较模型，作者自己只得 5/10 分。",
+    "points": [
+     "展示多家前沿 LLM 的回答供对比",
+     "交互式猜测界面检验辨别模型能力",
+     "揭示不同模型输出的细微差异"
+    ],
+    "title": "Guess the LLM：阅读答案猜模型游戏"
+   }
+  },
+  "hash": "adee80d7d4c71baa"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -6085,6 +6424,19 @@
    }
   },
   "hash": "c638ff8ea4658695"
+ },
+ "lobsters:1iin5o": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分析 Epic 的 EAC2 v2 反作弊系统，指出其存在相对容易的绕过方法。",
+    "points": [
+     "评估 EAC2 v2 的安全性",
+     "展示可能的绕过技巧"
+    ],
+    "title": "Epic EAC2 v2 似乎易于绕过"
+   }
+  },
+  "hash": "f71a59d0cf082d9f"
  },
  "lobsters:2h9opx": {
   "copy": {
@@ -6103,8 +6455,13 @@
  "lobsters:46dcms": {
   "copy": {
    "zh": {
-    "blurb": "Microsoft 为 Linux 桌面推出 Defender 安全套件，提供实时防病毒、威胁检测和合规管理，扩展了其跨平台防护能力。",
-    "title": "Microsoft Defender Linux 版安全方案"
+    "blurb": "博客介绍 Microsoft Defender 在 Linux 桌面上的防护功能，涵盖病毒检测、实时监控等特性。",
+    "points": [
+     "Defender 提供实时恶意软件检测和行为监控。",
+     "支持与 Microsoft 生态系统的统一管理。",
+     "适用于企业 Linux 桌面安全防护。"
+    ],
+    "title": "Microsoft Defender for Linux"
    }
   },
   "hash": "8c8827ec095a6f98"
@@ -6555,6 +6912,15 @@
   },
   "hash": "0b054b019e3f6cb9"
  },
+ "lobsters:enjlpn": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇文章讨论了当前神经网络在可解释性与安全性方面的进展，指出现代模型在设计上已趋向于更简洁、透明的结构。",
+    "title": "神经网络已经很干净"
+   }
+  },
+  "hash": "d82dca829422b454"
+ },
  "lobsters:es1vaj": {
   "copy": {
    "zh": {
@@ -6604,6 +6970,20 @@
    }
   },
   "hash": "076b9e2b3bef3130"
+ },
+ "lobsters:fi9d4c": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub Actions 公测工作流锁文件功能，允许在 CI 中生成并锁定依赖清单，提升构建可复现性并防止依赖漂移。",
+    "points": [
+     "在工作流生成 lockfile",
+     "保证 CI 依赖版本一致",
+     "目前为公开预览阶段"
+    ],
+    "title": "GitHub Actions workflow lockfiles in public preview"
+   }
+  },
+  "hash": "4f4d8f6813e8b517"
  },
  "lobsters:fppgkl": {
   "copy": {
@@ -6758,6 +7138,20 @@
   },
   "hash": "be88699e28479bc8"
  },
+ "lobsters:ipyrkv": {
+  "copy": {
+   "zh": {
+    "blurb": "文章讨论了为维持 UTC 连续性而需采取的技术手段，主张取消闰秒并阐述此举对全球时间同步系统的影响。",
+    "points": [
+     "提议废除闰秒以保持时间线连续",
+     "解析技术实现方案保障 UTC 稳定性",
+     "评估对导航、通信等行业的影响"
+    ],
+    "title": "确保 UTC 连续性的技术措施（不再使用闰秒）"
+   }
+  },
+  "hash": "e33f6d327b10a923"
+ },
  "lobsters:iq5xtw": {
   "copy": {
    "zh": {
@@ -6794,6 +7188,20 @@
    }
   },
   "hash": "e7ed2779c6adfb63"
+ },
+ "lobsters:ivsn8e": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇文章探讨了宗教学视角下的软件工程概念，讨论了信仰、仪式和社区在技术实践中的类比。",
+    "points": [
+     "将宗教概念映射到软件工程过程",
+     "论述信任与仪式在团队协作中的作用",
+     "提出跨学科思考框架促进交流"
+    ],
+    "title": "软件工程中的宗教学研究"
+   }
+  },
+  "hash": "cddd561c3f1d40d1"
  },
  "lobsters:ixoasm": {
   "copy": {
@@ -7073,6 +7481,20 @@
   },
   "hash": "c6d5535574af4919"
  },
+ "lobsters:q0wobg": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了基于 Incus OS 的自托管基础设施方案，包括容器管理、网络配置和存储布局，展示了在本地数据中心实现高可用服务的实践。",
+    "points": [
+     "使用 Incus OS 统一容器编排",
+     "细粒度网络与存储隔离",
+     "提升自托管环境的可维护性"
+    ],
+    "title": "My self-hosted infrastructure with Incus OS"
+   }
+  },
+  "hash": "ed54f4de4bc77189"
+ },
  "lobsters:qgvj4p": {
   "copy": {
    "zh": {
@@ -7098,6 +7520,19 @@
    }
   },
   "hash": "56fd862aeb9d67b2"
+ },
+ "lobsters:qvomvk": {
+  "copy": {
+   "zh": {
+    "blurb": "Terr​ry Tao 在其博客中提出对当前科研和技术投入的根本性疑问，探讨动机与意义。",
+    "points": [
+     "质疑现有研究方向的实际价值。",
+     "呼吁更明确的目标导向和资源分配。"
+    ],
+    "title": "我们到底在做什么？"
+   }
+  },
+  "hash": "1e9fcd3f6039c67c"
  },
  "lobsters:rhy5zp": {
   "copy": {
@@ -7149,7 +7584,12 @@
  "lobsters:s8bo3z": {
   "copy": {
    "zh": {
-    "blurb": "文章论述远程认证的安全风险，认为在可信计算环境中不应容忍其使用，呼吁采用更严格的验证机制。",
+    "blurb": "文章指出远程认证存在安全隐患，主张不应容忍其使用，并提出可能的替代方案。",
+    "points": [
+     "远程认证可能被攻击者利用进行身份伪造。",
+     "建议采用更安全的验证机制，如零信任模型。",
+     "文章呼吁社区对远程认证进行审查和淘汰。"
+    ],
     "title": "远程认证不应被容忍"
    }
   },
@@ -7224,6 +7664,19 @@
   },
   "hash": "d73296f794b7883e"
  },
+ "lobsters:ttcx5k": {
+  "copy": {
+   "zh": {
+    "blurb": "Rust 官方宣布发布 1.99.1 版本，主要包含错误修复与若干性能改进。",
+    "points": [
+     "修复多个已知 bug",
+     "提升编译和运行时性能"
+    ],
+    "title": "Rust 1.99.1 正式发布"
+   }
+  },
+  "hash": "668f646ac99e6a0a"
+ },
  "lobsters:u4vlin": {
   "copy": {
    "zh": {
@@ -7254,8 +7707,13 @@
  "lobsters:uejdwj": {
   "copy": {
    "zh": {
-    "blurb": "比较 JPEG XL 与 AVIF 两种新兴图像格式在网页场景下的压缩率、解码速度、浏览器兼容性等方面的优势与不足，为前端选型提供参考。",
-    "title": "JPEG XL 与 AVIF 在网页中的对比"
+    "blurb": "本文比较 JPEG XL 与 AVIF 两种图像格式在网页中的应用，分析压缩效率、浏览器支持以及适用场景。",
+    "points": [
+     "JPEG XL 支持无损和有损压缩，兼容性逐步提升。",
+     "AVIF 在高压缩比下保持较好画质，浏览器支持增长。",
+     "文章对两者在网页加载速度和文件大小的影响进行对比。"
+    ],
+    "title": "JPEG XL 与 AVIF 在网页使用中的对比"
    }
   },
   "hash": "96d3d53ae6bbd1ef"
@@ -7277,8 +7735,13 @@
  "lobsters:umdbht": {
   "copy": {
    "zh": {
-    "blurb": "分享作者在 C23 标准中的编码约定和最佳实践，涵盖命名、宏定义、模块组织等，提高代码可读性和可维护性。",
-    "title": "我的 C23 编码约定"
+    "blurb": "作者分享 C23 代码编写约定，涉及语言新特性及编码风格指南。",
+    "points": [
+     "介绍了 C23 中的模块化和泛型新特性。",
+     "提供了命名约定和代码布局的最佳实践。",
+     "强调兼容性与可读性的重要性。"
+    ],
+    "title": "我的 C23 编程约定"
    }
   },
   "hash": "5022785b2e751ba9"
@@ -7310,6 +7773,34 @@
    }
   },
   "hash": "542f199e1ed43c47"
+ },
+ "lobsters:vemho2": {
+  "copy": {
+   "zh": {
+    "blurb": "Forgejo 官方宣布发布 17.0 版本，带来多项功能改进与安全更新，适用于自托管的 Git 服务平台。",
+    "points": [
+     "新增 UI 与插件系统改进",
+     "强化安全补丁和性能优化",
+     "支持更灵活的自定义部署"
+    ],
+    "title": "Forgejo v17.0 已发布"
+   }
+  },
+  "hash": "fa0821f6d89cc56c"
+ },
+ "lobsters:vyo9n2": {
+  "copy": {
+   "zh": {
+    "blurb": "Gleam 语言新增对 case 匹配的穷尽性检查，编译器在模式匹配时强制覆盖所有分支，帮助防止遗漏情况，提高代码安全性。",
+    "points": [
+     "引入编译期穷尽性验证",
+     "提升模式匹配的可靠性",
+     "无需手动写默认分支"
+    ],
+    "title": "Gleam case exhaustiveness, as a fan"
+   }
+  },
+  "hash": "997074a201e08fbf"
  },
  "lobsters:wcoes4": {
   "copy": {
@@ -7375,6 +7866,20 @@
    }
   },
   "hash": "943ebf2e43d83c62"
+ },
+ "lobsters:xiq59t": {
+  "copy": {
+   "zh": {
+    "blurb": "在一次讨论中，Linus Torvalds 回应了使用 AI 生成代码提交内核的做法，阐述了对质量、审查以及社区治理的担忧。",
+    "points": [
+     "对 AI 生成代码的质量持审慎态度",
+     "强调仍需人工审查和测试",
+     "探讨 AI 在内核开发中的合适边界"
+    ],
+    "title": "Linus Torvalds 对 AI 辅助内核贡献的看法"
+   }
+  },
+  "hash": "af13b1afddc036f6"
  },
  "lobsters:xz6sst": {
   "copy": {

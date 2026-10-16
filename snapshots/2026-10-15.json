@@ -10937,21 +10937,21 @@
    "category": "discussion",
    "key": "hn:50090443",
    "metrics": {
-    "comments": 140,
+    "comments": 143,
     "frontPage": 0,
     "points": 163
    },
    "news": {
     "author": "pcwelder",
-    "comments": 140,
+    "comments": 143,
     "createdAt": "2026-10-14T16:33:34.000Z",
     "domain": "arcfu.com",
     "hnId": 50090443,
     "hnUrl": "https://news.ycombinator.com/item?id=50090443",
     "points": 163,
-    "showRank": 44
+    "showRank": 51
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T16:33:34.000Z",
    "refs": [
     "url:arcfu.com/post/the-emperor-pelican-has-no-clothes"
@@ -11056,21 +11056,21 @@
    "category": "tool",
    "key": "hn:50092470",
    "metrics": {
-    "comments": 39,
+    "comments": 41,
     "frontPage": 0,
-    "points": 203
+    "points": 215
    },
    "news": {
     "author": "thedracle",
-    "comments": 39,
+    "comments": 41,
     "createdAt": "2026-10-14T18:23:14.000Z",
     "domain": "petal.live",
     "hnId": 50092470,
     "hnUrl": "https://news.ycombinator.com/item?id=50092470",
-    "points": 203,
-    "showRank": 11
+    "points": 215,
+    "showRank": 7
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T18:23:14.000Z",
    "refs": [
     "gh:kiruna-labs/petal",
@@ -11096,24 +11096,25 @@
    "category": "discussion",
    "key": "hn:50094694",
    "metrics": {
-    "comments": 147,
+    "comments": 157,
     "frontPage": 0,
-    "points": 400
+    "points": 420
    },
    "news": {
     "author": "sunshowers",
-    "comments": 147,
+    "comments": 157,
     "createdAt": "2026-10-14T20:30:54.000Z",
     "domain": "sunshowers.io",
     "hnId": 50094694,
     "hnUrl": "https://news.ycombinator.com/item?id=50094694",
-    "points": 400,
-    "showRank": 16
+    "points": 420,
+    "showRank": 17
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T20:30:54.000Z",
    "refs": [
-    "url:sunshowers.io/posts/anthropic-mononoke"
+    "url:sunshowers.io/posts/anthropic-mononoke",
+    "hn:50106738"
    ],
    "relevance": {
     "reasons": [
@@ -11287,7 +11288,7 @@
     "hnUrl": "https://dev.to/thetylern/how-i-built-an-action-game-with-godot-during-a-global-teen-hackathon-with-prizes-4db0",
     "points": 12
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T23:24:25Z",
    "refs": [],
    "relevance": {
@@ -11339,7 +11340,7 @@
     "hnUrl": "https://dev.to/highcenburg/scopeguard-an-open-weight-model-that-tells-freelancers-when-quick-one-means-paid-one-3o7c",
     "points": 1
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:11:27Z",
    "refs": [],
    "relevance": {
@@ -11940,29 +11941,29 @@
    "category": "engineering",
    "devto": {
     "author": "Randal L. Schwartz",
-    "comments": 16,
+    "comments": 17,
     "createdAt": "2026-10-14T19:53:12Z",
     "domain": "dev.to",
     "id": 4852470,
-    "points": 16,
+    "points": 20,
     "url": "https://dev.to/gde/requests-promises-assertions-and-declarations-rewriting-our-ai-agent-workflow-as-a-1986-4k4c"
    },
    "key": "devto:4852470",
    "metrics": {
-    "comments": 16,
+    "comments": 17,
     "frontPage": 0,
-    "points": 16
+    "points": 20
    },
    "news": {
     "author": "Randal L. Schwartz",
-    "comments": 16,
+    "comments": 17,
     "createdAt": "2026-10-14T19:53:12Z",
     "domain": "dev.to",
     "hnId": 4852470,
     "hnUrl": "https://dev.to/gde/requests-promises-assertions-and-declarations-rewriting-our-ai-agent-workflow-as-a-1986-4k4c",
-    "points": 16
+    "points": 20
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T19:53:12Z",
    "refs": [],
    "relevance": {
@@ -12169,7 +12170,7 @@
     "hnUrl": "https://dev.to/gde/gemma-4-on-a-used-8-gb-rtx-3050-116-tokenss-for-one-user-618-for-64-k6h",
     "points": 9
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T00:46:07Z",
    "refs": [],
    "relevance": {
@@ -13156,7 +13157,7 @@
     "hnUrl": "https://dev.to/gde/como-construi-ora-tui-un-gestor-en-consola-tui-en-go-sin-dependencias-para-oracle-rac-y-single-1gc5",
     "points": 6
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T07:21:10Z",
    "refs": [],
    "relevance": {
@@ -13189,14 +13190,14 @@
     "createdAt": "2026-10-15T12:03:16Z",
     "domain": "dev.to",
     "id": 4855086,
-    "points": 17,
+    "points": 19,
     "url": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk"
    },
    "key": "devto:4855086",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 17
+    "points": 19
    },
    "news": {
     "author": "Sarvar Nadaf",
@@ -13205,9 +13206,9 @@
     "domain": "dev.to",
     "hnId": 4855086,
     "hnUrl": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
-    "points": 17
+    "points": 19
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T12:03:16Z",
    "refs": [],
    "relevance": {
@@ -13259,7 +13260,7 @@
     "hnUrl": "https://dev.to/gde/six-months-after-cloud-next-26-a-builders-tour-of-the-gemini-enterprise-agent-platform-3hib",
     "points": 7
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:12:49Z",
    "refs": [],
    "relevance": {
@@ -13392,29 +13393,29 @@
    "category": "engineering",
    "devto": {
     "author": "Karthigayan Devan",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T11:45:55Z",
     "domain": "dev.to",
     "id": 4856204,
-    "points": 7,
+    "points": 8,
     "url": "https://dev.to/gde/your-ai-agent-just-got-a-passport-agent-identity-on-google-cloud-and-the-redeploy-trap-nobody-52ip"
    },
    "key": "devto:4856204",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 7
+    "points": 8
    },
    "news": {
     "author": "Karthigayan Devan",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T11:45:55Z",
     "domain": "dev.to",
     "hnId": 4856204,
     "hnUrl": "https://dev.to/gde/your-ai-agent-just-got-a-passport-agent-identity-on-google-cloud-and-the-redeploy-trap-nobody-52ip",
-    "points": 7
+    "points": 8
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T11:45:55Z",
    "refs": [],
    "relevance": {
@@ -13517,7 +13518,7 @@
     "hnUrl": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
     "points": 11
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T12:33:30Z",
    "refs": [],
    "relevance": {
@@ -13880,7 +13881,7 @@
     "hnUrl": "https://dev.to/gde/local-image-generation-with-llamadart-for-the-llama-village-storybook-p28",
     "points": 7
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T13:56:36Z",
    "refs": [],
    "relevance": {
@@ -14586,28 +14587,28 @@
    "key": "lobsters:46dcms",
    "lobsters": {
     "author": "alemi",
-    "comments": 3,
+    "comments": 11,
     "createdAt": "2026-10-15T05:04:47.597-05:00",
     "domain": "techcommunity.microsoft.com",
-    "points": 10,
+    "points": 19,
     "shortId": "46dcms",
     "url": "https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/secure-linux-desktops-with-microsoft-defender/4560822"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 11,
     "frontPage": 0,
-    "points": 10
+    "points": 19
    },
    "news": {
     "author": "alemi",
-    "comments": 3,
+    "comments": 11,
     "createdAt": "2026-10-15T05:04:47.597-05:00",
     "domain": "techcommunity.microsoft.com",
     "hnId": 252565300,
     "hnUrl": "https://lobste.rs/s/46dcms/microsoft_defender_for_linux",
-    "points": 10
+    "points": 19
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T05:04:47.597-05:00",
    "refs": [],
    "relevance": {
@@ -14635,28 +14636,28 @@
    "key": "lobsters:5j4bwx",
    "lobsters": {
     "author": "eliasebner",
-    "comments": 19,
+    "comments": 21,
     "createdAt": "2026-10-14T16:04:44.342-05:00",
     "domain": "eliasebner.com",
-    "points": 17,
+    "points": 22,
     "shortId": "5j4bwx",
     "url": "https://eliasebner.com/blog/guides/fixing-strings-in-c/"
    },
    "metrics": {
-    "comments": 19,
+    "comments": 21,
     "frontPage": 0,
-    "points": 17
+    "points": 22
    },
    "news": {
     "author": "eliasebner",
-    "comments": 19,
+    "comments": 21,
     "createdAt": "2026-10-14T16:04:44.342-05:00",
     "domain": "eliasebner.com",
     "hnId": 334445649,
     "hnUrl": "https://lobste.rs/s/5j4bwx/fixing_c_strings_with_string_views",
-    "points": 17
+    "points": 22
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T16:04:44.342-05:00",
    "refs": [],
    "relevance": {
@@ -14735,28 +14736,28 @@
    "key": "lobsters:9xticb",
    "lobsters": {
     "author": "runxiyu",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-15T09:03:09.318-05:00",
     "domain": "libreboot.org",
-    "points": 7,
+    "points": 13,
     "shortId": "9xticb",
     "url": "https://libreboot.org/news/libreboot2610.html"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 3,
     "frontPage": 0,
-    "points": 7
+    "points": 13
    },
    "news": {
     "author": "runxiyu",
-    "comments": 2,
+    "comments": 3,
     "createdAt": "2026-10-15T09:03:09.318-05:00",
     "domain": "libreboot.org",
     "hnId": 600999707,
     "hnUrl": "https://lobste.rs/s/9xticb/libreboot_26_10_ominous_olive_released",
-    "points": 7
+    "points": 13
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:03:09.318-05:00",
    "refs": [],
    "relevance": {
@@ -14784,28 +14785,28 @@
    "key": "lobsters:bcaopz",
    "lobsters": {
     "author": "krig",
-    "comments": 16,
+    "comments": 21,
     "createdAt": "2026-10-15T02:58:35.798-05:00",
     "domain": "try.haxy.net",
-    "points": 35,
+    "points": 50,
     "shortId": "bcaopz",
     "url": "https://try.haxy.net/haxy:haxy"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 21,
     "frontPage": 0,
-    "points": 35
+    "points": 50
    },
    "news": {
     "author": "krig",
-    "comments": 16,
+    "comments": 21,
     "createdAt": "2026-10-15T02:58:35.798-05:00",
     "domain": "try.haxy.net",
     "hnId": 685781927,
     "hnUrl": "https://lobste.rs/s/bcaopz/haxy_on_haxy",
-    "points": 35
+    "points": 50
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T02:58:35.798-05:00",
    "refs": [],
    "relevance": {
@@ -14838,14 +14839,14 @@
     "comments": 0,
     "createdAt": "2026-10-15T05:48:58.656-05:00",
     "domain": "entropicthoughts.com",
-    "points": 9,
+    "points": 17,
     "shortId": "bpvpbe",
     "url": "https://entropicthoughts.com/geometric-model-of-maintenance"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 9
+    "points": 17
    },
    "news": {
     "author": "lcapaldo",
@@ -14854,9 +14855,9 @@
     "domain": "entropicthoughts.com",
     "hnId": 708597482,
     "hnUrl": "https://lobste.rs/s/bpvpbe/geometric_model_maintenance",
-    "points": 9
+    "points": 17
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T05:48:58.656-05:00",
    "refs": [],
    "relevance": {
@@ -14905,7 +14906,7 @@
     "hnUrl": "https://lobste.rs/s/ireiaf/delightql_query_language",
     "points": 6
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T13:41:38.972-05:00",
    "refs": [],
    "relevance": {
@@ -14936,28 +14937,28 @@
    "key": "lobsters:ixoasm",
    "lobsters": {
     "author": "hongminhee",
-    "comments": 6,
+    "comments": 10,
     "createdAt": "2026-10-15T00:00:23.277-05:00",
     "domain": "furifont.antfu.me",
-    "points": 15,
+    "points": 18,
     "shortId": "ixoasm",
     "url": "https://furifont.antfu.me/"
    },
    "metrics": {
-    "comments": 6,
+    "comments": 10,
     "frontPage": 0,
-    "points": 15
+    "points": 18
    },
    "news": {
     "author": "hongminhee",
-    "comments": 6,
+    "comments": 10,
     "createdAt": "2026-10-15T00:00:23.277-05:00",
     "domain": "furifont.antfu.me",
     "hnId": 1144952230,
     "hnUrl": "https://lobste.rs/s/ixoasm/furifont_furigana_built_into_font",
-    "points": 15
+    "points": 18
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T00:00:23.277-05:00",
    "refs": [],
    "relevance": {
@@ -14986,28 +14987,28 @@
    "key": "lobsters:kaerns",
    "lobsters": {
     "author": "FedericoSchonborn",
-    "comments": 2,
+    "comments": 14,
     "createdAt": "2026-10-15T08:27:41.885-05:00",
     "domain": "decomp.dev",
-    "points": 29,
+    "points": 59,
     "shortId": "kaerns",
     "url": "https://decomp.dev/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 14,
     "frontPage": 0,
-    "points": 29
+    "points": 59
    },
    "news": {
     "author": "FedericoSchonborn",
-    "comments": 2,
+    "comments": 14,
     "createdAt": "2026-10-15T08:27:41.885-05:00",
     "domain": "decomp.dev",
     "hnId": 1226808712,
     "hnUrl": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev",
-    "points": 29
+    "points": 59
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T08:27:41.885-05:00",
    "refs": [],
    "relevance": {
@@ -15135,28 +15136,28 @@
    "key": "lobsters:o0ixth",
    "lobsters": {
     "author": "jeffective",
-    "comments": 2,
+    "comments": 4,
     "createdAt": "2026-10-15T02:47:41.027-05:00",
     "domain": "youtu.be",
-    "points": 19,
+    "points": 22,
     "shortId": "o0ixth",
     "url": "https://youtu.be/89yAiqYEwKg"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 4,
     "frontPage": 0,
-    "points": 19
+    "points": 22
    },
    "news": {
     "author": "jeffective",
-    "comments": 2,
+    "comments": 4,
     "createdAt": "2026-10-15T02:47:41.027-05:00",
     "domain": "youtu.be",
     "hnId": 1452071861,
     "hnUrl": "https://lobste.rs/s/o0ixth/haxy_net_is_live_haxy_git_forge_devlog",
-    "points": 19
+    "points": 22
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T02:47:41.027-05:00",
    "refs": [],
    "relevance": {
@@ -15185,28 +15186,28 @@
    "key": "lobsters:p7tf7i",
    "lobsters": {
     "author": "gmem",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-15T05:02:33.360-05:00",
     "domain": "github.com",
-    "points": 12,
+    "points": 15,
     "shortId": "p7tf7i",
     "url": "https://github.com/glincker/sslx"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 6,
     "frontPage": 0,
-    "points": 12
+    "points": 15
    },
    "news": {
     "author": "gmem",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-15T05:02:33.360-05:00",
     "domain": "github.com",
     "hnId": 1524784446,
     "hnUrl": "https://lobste.rs/s/p7tf7i/sslx_fast_modern_alternative_openssl_s",
-    "points": 12
+    "points": 15
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T05:02:33.360-05:00",
    "refs": [
     "gh:glincker/sslx"
@@ -15237,28 +15238,28 @@
    "key": "lobsters:plcgps",
    "lobsters": {
     "author": "mitsuhiko",
-    "comments": 40,
+    "comments": 48,
     "createdAt": "2026-10-14T15:56:59.241-05:00",
     "domain": "sunshowers.io",
-    "points": 120,
+    "points": 142,
     "shortId": "plcgps",
     "url": "https://sunshowers.io/posts/anthropic-mononoke/"
    },
    "metrics": {
-    "comments": 40,
+    "comments": 48,
     "frontPage": 0,
-    "points": 120
+    "points": 142
    },
    "news": {
     "author": "mitsuhiko",
-    "comments": 40,
+    "comments": 48,
     "createdAt": "2026-10-14T15:56:59.241-05:00",
     "domain": "sunshowers.io",
     "hnId": 1547507872,
     "hnUrl": "https://lobste.rs/s/plcgps/anthropic_s_scion_is_heavily_inspired_by",
-    "points": 120
+    "points": 142
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-14T15:56:59.241-05:00",
    "refs": [],
    "relevance": {
@@ -15287,28 +15288,28 @@
    "key": "lobsters:s8bo3z",
    "lobsters": {
     "author": "stilic",
-    "comments": 2,
+    "comments": 45,
     "createdAt": "2026-10-15T09:02:45.310-05:00",
     "domain": "lumi.codeberg.page",
-    "points": 9,
+    "points": 34,
     "shortId": "s8bo3z",
     "url": "https://lumi.codeberg.page/blog/remote-attestation.html"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 45,
     "frontPage": 0,
-    "points": 9
+    "points": 34
    },
    "news": {
     "author": "stilic",
-    "comments": 2,
+    "comments": 45,
     "createdAt": "2026-10-15T09:02:45.310-05:00",
     "domain": "lumi.codeberg.page",
     "hnId": 1707034319,
     "hnUrl": "https://lobste.rs/s/s8bo3z/remote_attestation_should_not_be",
-    "points": 9
+    "points": 34
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:02:45.310-05:00",
    "refs": [],
    "relevance": {
@@ -15337,28 +15338,28 @@
    "key": "lobsters:uejdwj",
    "lobsters": {
     "author": "jaffathecake",
-    "comments": 2,
+    "comments": 16,
     "createdAt": "2026-10-15T09:42:45.240-05:00",
     "domain": "jakearchibald.com",
-    "points": 10,
+    "points": 56,
     "shortId": "uejdwj",
     "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 16,
     "frontPage": 0,
-    "points": 10
+    "points": 56
    },
    "news": {
     "author": "jaffathecake",
-    "comments": 2,
+    "comments": 16,
     "createdAt": "2026-10-15T09:42:45.240-05:00",
     "domain": "jakearchibald.com",
     "hnId": 1838404387,
     "hnUrl": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases",
-    "points": 10
+    "points": 56
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:42:45.240-05:00",
    "refs": [],
    "relevance": {
@@ -15387,28 +15388,28 @@
    "key": "lobsters:umdbht",
    "lobsters": {
     "author": "abnercoimbre",
-    "comments": 0,
+    "comments": 8,
     "createdAt": "2026-10-15T10:32:15.830-05:00",
     "domain": "abner.page",
-    "points": 7,
+    "points": 41,
     "shortId": "umdbht",
     "url": "https://abner.page/post/c23-conventions-1/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 8,
     "frontPage": 0,
-    "points": 7
+    "points": 41
    },
    "news": {
     "author": "abnercoimbre",
-    "comments": 0,
+    "comments": 8,
     "createdAt": "2026-10-15T10:32:15.830-05:00",
     "domain": "abner.page",
     "hnId": 1851558257,
     "hnUrl": "https://lobste.rs/s/umdbht/my_c23_conventions",
-    "points": 7
+    "points": 41
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T10:32:15.830-05:00",
    "refs": [],
    "relevance": {
@@ -15439,14 +15440,14 @@
     "comments": 0,
     "createdAt": "2026-10-15T07:06:10.597-05:00",
     "domain": "costa.jacobpalm.dk",
-    "points": 22,
+    "points": 43,
     "shortId": "uqugjk",
     "url": "https://costa.jacobpalm.dk"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 22
+    "points": 43
    },
    "news": {
     "author": "FedericoSchonborn",
@@ -15455,9 +15456,9 @@
     "domain": "costa.jacobpalm.dk",
     "hnId": 1859076416,
     "hnUrl": "https://lobste.rs/s/uqugjk/costa_gui",
-    "points": 22
+    "points": 43
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T07:06:10.597-05:00",
    "refs": [],
    "relevance": {
@@ -15636,28 +15637,28 @@
    "key": "lobsters:yxnovw",
    "lobsters": {
     "author": "untrusem",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T09:42:12.236-05:00",
     "domain": "spritely.institute",
-    "points": 11,
+    "points": 25,
     "shortId": "yxnovw",
     "url": "https://spritely.institute/news/end-to-end-encrypted-relays-for-ocapn.html"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 11
+    "points": 25
    },
    "news": {
     "author": "untrusem",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T09:42:12.236-05:00",
     "domain": "spritely.institute",
     "hnId": 2112382652,
     "hnUrl": "https://lobste.rs/s/yxnovw/end_end_encrypted_relays_for_ocapn",
-    "points": 11
+    "points": 25
    },
-   "observedAt": "2026-10-15T16:59:07.183Z",
+   "observedAt": "2026-10-16T05:50:29.897Z",
    "publishedAt": "2026-10-15T09:42:12.236-05:00",
    "refs": [],
    "relevance": {
@@ -15681,60 +15682,67 @@
   }
  ],
  "date": "2026-10-15",
- "fetchedAt": "2026-10-15T16:59:07.183Z",
+ "fetchedAt": "2026-10-16T05:50:29.897Z",
  "runs": [
   "2026-10-14T17:08:41.120Z",
   "2026-10-15T05:54:07.945Z",
-  "2026-10-15T16:59:07.183Z"
+  "2026-10-15T16:59:07.183Z",
+  "2026-10-16T05:50:29.897Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
-   "count": 59,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "count": 58,
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "dev-to",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 312,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "count": 314,
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "github-search",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 170,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "count": 171,
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "github-trending",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 73,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 97,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "count": 96,
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "lobsters",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15742,15 +15750,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-15T16:59:07.183Z",
+   "fetchedAt": "2026-10-16T05:50:29.897Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-16T05:50:29.897Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-14T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-15T16:00:00.000Z"
  }
