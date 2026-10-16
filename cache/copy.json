@@ -1,4 +1,18 @@
 {
+ "devto:4766369": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 社区发起的“本周你的胜利是什么？”话题，邀请作者分享任何大小的成就，旨在鼓励正向反馈与互相激励。",
+    "points": [
+     "鼓励社区成员分享个人或项目的成功案例。",
+     "通过简短互动提升团队士气和参与度。",
+     "适用于任何领域的微小或重大成就。"
+    ],
+    "title": "本周你的胜利是什么？"
+   }
+  },
+  "hash": "68dd53e41c865b2c"
+ },
  "devto:4819360": {
   "copy": {
    "zh": {
@@ -2642,6 +2656,20 @@
   },
   "hash": "2f126c2e93faa415"
  },
+ "devto:4857516": {
+  "copy": {
+   "zh": {
+    "blurb": "作者日常使用 linebot-helper‑python 开发 LINE Bot，升级至 Gemini 4 Argon 时需调整请求格式、适配新模型接口，并处理旧版 SDK 方法失效、配额与返回格式差异等问题。",
+    "points": [
+     "Gemini 4 Argon 引入新模型接口，需要更新请求结构。",
+     "部分旧版 SDK 方法失效，需迁移到新版 linebot‑helper‑python。",
+     "注意配额、速率限制以及模型返回格式的差异。"
+    ],
+    "title": "[实战 AI] 从 Gemini 3.5/3.6 升级到 Gemini 4 Argon 的迁移要点与坑"
+   }
+  },
+  "hash": "313c10d210b81173"
+ },
  "devto:4857675": {
   "copy": {
    "zh": {
@@ -2870,6 +2898,120 @@
    }
   },
   "hash": "4c4657629ec34366"
+ },
+ "devto:4860170": {
+  "copy": {
+   "zh": {
+    "blurb": "作者使用 Google Antigravity 与 Gemini 4 Argon 联合开发 ora-tui，一个零依赖的 Go TUI，配合 OpenTelemetry/Prometheus 为 Oracle RAC、数据库和 SAN 存储提供可观测性。",
+    "points": [
+     "零依赖 Go 实现的 MS‑DOS 风格 TUI。",
+     "集成 OpenTelemetry 与 Prometheus 监控 Oracle RAC 与 SAN。",
+     "使用 Gemini 4 Argon 的 Google Antigravity 进行配对编程。"
+    ],
+    "title": "使用 Google Antigravity 与 Gemini 4 Argon 构建 ora-tui：Oracle RAC 的复古 TUI 与 OpenTelemetry 导出器"
+   }
+  },
+  "hash": "669c8ee23f42043d"
+ },
+ "devto:4860878": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用开源的开放权重模型，构建了 Fuenzer Sports，一个用于预测体育赛事结果的副业平台，支持自动化模拟并在 Hacktoberfest AI 挑战中亮相。",
+    "points": [
+     "利用开源权重模型实现赛事结果预测。",
+     "通过自动化模拟构建可商业化的副业工具。",
+     "在 Hacktoberfest 开源 AI 挑战中获得关注。"
+    ],
+    "title": "构建 Fuenzer Sports：基于开放权重模型的 AI 赛事预测副业"
+   }
+  },
+  "hash": "49a11de856cf7127"
+ },
+ "devto:4861677": {
+  "copy": {
+   "zh": {
+    "blurb": "分享在 AI 伴侣的 ChatGPT 标签页实现“至多一次”发送的方案，包括持久发送账本和即使崩溃也能恢复的收据机制。",
+    "title": "为 AI 助手的 ChatGPT 标签实现一次性发送：持久日志与崩溃恢复收据"
+   }
+  },
+  "hash": "afb56fe17576f3a5"
+ },
+ "devto:4861710": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在内存基础设施公司提出包含 17 项维度的基准，包括带宽、延迟、功耗、可靠性等，质疑仅用单一数值评价内存性能的价值，呼吁采用更细粒度的综合评估。",
+    "points": [
+     "基准覆盖带宽、延迟、功耗、可靠性等多维度。",
+     "强调综合评估比单一吞吐更能反映真实工作负载。",
+     "提议社区采用更细粒度的基准报告。"
+    ],
+    "title": "内存基准草案：17 条评估维度，无单一指标——值得运行吗？"
+   }
+  },
+  "hash": "fb38f6ef43b5d70b"
+ },
+ "devto:4861743": {
+  "copy": {
+   "zh": {
+    "blurb": "作者联系 Ponytail 项目创始人，获得仓库星标并得到产品创意，展示了社区互动如何带来实际价值。",
+    "title": "星标不是虚荣，而这一次不是"
+   }
+  },
+  "hash": "6ed32e6f6a91c660"
+ },
+ "devto:4862095": {
+  "copy": {
+   "zh": {
+    "blurb": "作者利用浏览器实现侧视视频分析，自动测量自行车座杆高度，并作为 Hacktoberfest AI 挑战的作品展示。",
+    "title": "在浏览器中用侧视视频检查自行车座杆高度"
+   }
+  },
+  "hash": "a5660b49a43aa47f"
+ },
+ "devto:4862906": {
+  "copy": {
+   "zh": {
+    "blurb": "该工具针对印度小商店，离线读取 WhatsApp 订单信息，并在猜测前先询问用户，帮助店主更准确地处理订单。",
+    "title": "离线 WhatsApp 订单阅读器（红标 Adha 2kg）"
+   }
+  },
+  "hash": "422d862499bec70b"
+ },
+ "devto:4862921": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 Dev.to 文章是 Hacktoberfest 开源 AI 挑战第 2 周的 Side Hustle 作品，展示了在笔记本电脑上完整搭建营销团队并在 55 秒内完成任务的流程。",
+    "points": [
+     "使用 AI 自动生成营销文案和素材，整个流水线可在本地笔记本运行。",
+     "从创意到发布全程 55 秒，展示了极致的效率和轻量化部署。"
+    ],
+    "title": "营销团队全装进笔记本，55 秒完成任务"
+   }
+  },
+  "hash": "c5d7ecb6feff5a63"
+ },
+ "devto:4863183": {
+  "copy": {
+   "zh": {
+    "blurb": "同一块 Tesla T4 在 Google Cloud 虚拟机上，解码 Gemma 4 E2B 时，45 °C 时速率 115 tokens/s，77 °C 降至 107 tokens/s。卡片已达 70 W 功耗上限，温度升高导致时钟下降，虽未触发热限制，但性能受影响，官方规格未提及。",
+    "points": [
+     "同一块 T4 在不同温度下吞吐下降约7%。",
+     "达到功耗上限后温度升高导致频率下降，虽未触发热限，但性能受影响。",
+     "该现象未在官方规格中说明，使用者需关注实际运行温度。"
+    ],
+    "title": "别以为云端 T4 达标：Gemma 4 解码随温度下降 7%"
+   }
+  },
+  "hash": "f2252f729d177fd7"
+ },
+ "devto:4863249": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude Plugins Official 是一个精选目录，旨在提升 Claude Code 插件的质量，提供结构化的审核与发布流程，帮助开发者创建可靠的插件。",
+    "title": "Claude Plugins Official：提升Claude Code插件质量的目录"
+   }
+  },
+  "hash": "338c692ec919788b"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -3545,6 +3687,20 @@
    }
   },
   "hash": "95cb206d67f92148"
+ },
+ "gh:jasonxu114514/opencode2api": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目提供 Go 实现的 OpenCode Zen / Zen Go API 代理，兼容 OpenAI 与 Anthropic 接口，具备密钥/代理池、自动路由以及简易 Web UI，便于迁移和管理。",
+    "points": [
+     "实现 OpenAI、Anthropic API 兼容层，便于迁移。",
+     "支持密钥/代理池和自动路由，提高可用性。",
+     "附带简易 Web UI，便于调试与管理。"
+    ],
+    "title": "opencode2api：基于 Go 的 OpenCode Zen API 代理，兼容 OpenAI 与 Anthropic"
+   }
+  },
+  "hash": "c18d253f265e5fb9"
  },
  "gh:jev-chat/jev-chat-jarvis": {
   "copy": {
@@ -4365,6 +4521,20 @@
   },
   "hash": "4200aa165fefd839"
  },
+ "gh:tile-ai/tilelang": {
+  "copy": {
+   "zh": {
+    "blurb": "tilelang 是 tile‑ai 推出的领域特定语言，旨在简化高性能 GPU、CPU 与加速器 kernel 的开发，提供统一语法以提升编写效率。",
+    "points": [
+     "为 GPU/CPU/加速器内核提供统一的 DSL。",
+     "简化高性能计算 kernel 的开发与调试。",
+     "开源可在 GitHub 上直接使用。"
+    ],
+    "title": "tilelang：用于高性能 GPU/CPU/加速器内核的领域特定语言"
+   }
+  },
+  "hash": "a2fd59e0a1a3f474"
+ },
  "gh:tinyhumansai/openhuman": {
   "copy": {
    "zh": {
@@ -4823,6 +4993,20 @@
    }
   },
   "hash": "16bf264a8b4ea69f"
+ },
+ "hf:meta-models/muse-spark-open-816b-a42b": {
+  "copy": {
+   "zh": {
+    "blurb": "Meta 开源的 Muse‑Spark‑Open‑816B‑A42B 是一款 8160 亿参数的 image‑text‑to‑text 模型，支持输入图像和文字并生成对应文本描述。",
+    "points": [
+     "规模达 816B 参数，属于超大模型。",
+     "同时处理图像与文本输入，输出自然语言描述。",
+     "完全开源，可在 Hugging Face 上直接使用。"
+    ],
+    "title": "Muse‑Spark‑Open‑816B‑A42B：图文到文本的超大模型"
+   }
+  },
+  "hash": "81a1ee32da83d572"
  },
  "hf:openbmb/minicpm-v-4.7-35b-a3b": {
   "copy": {
@@ -6412,6 +6596,90 @@
   },
   "hash": "adee80d7d4c71baa"
  },
+ "hn:50118303": {
+  "copy": {
+   "zh": {
+    "blurb": "Anima 是开源项目，用户只需用普通英文描述生物系统，即可生成可视化、可交互的生物学模型，适用于教学、科研快速原型制作。",
+    "points": [
+     "支持将英语描述转化为交互式生物模型。",
+     "完全开源，可自行部署或本地运行。",
+     "适用于教学、科研的快速原型制作。"
+    ],
+    "title": "Show HN：Anima——从自然语言生成交互式生物模型（开源）"
+   }
+  },
+  "hash": "5f5a041f4ccac9b6"
+ },
+ "hn:50118688": {
+  "copy": {
+   "zh": {
+    "blurb": "StarSkirmish Bench 是一个让 LLM 通过写代码玩星际争霸 BW 的基准测试，展示了 OpenAI、Anthropic、Google Gemini 4 Argon 与 Muse 等旗舰模型的表现。",
+    "points": [
+     "通过代码生成让 LLM 控制 StarCraft，评估实际任务能力。",
+     "收录 OpenAI、Anthropic、Google、Muse 等主流模型的对比结果。",
+     "为 LLM 的程序化推理提供公开可复现的基准。"
+    ],
+    "title": "Show HN：Gemini 4 Argon 在 StarCraft 中对决"
+   }
+  },
+  "hash": "46ea2f81d284f0e2"
+ },
+ "hn:50118804": {
+  "copy": {
+   "zh": {
+    "blurb": "Wasmga.me 收集了在浏览器中通过 WebAssembly 运行的游戏，包括主机模拟器、Flash（Ruffle）、经典 2048、贪吃蛇等自研引擎及开源移植，解决文件加载、线程和显示等兼容性问题。",
+    "points": [
+     "支持多种引擎和游戏类型，统一在浏览器中运行。",
+     "通过补丁实现存档、加载和恢复功能。",
+     "重点解决 WebAssembly 的文件 I/O、线程和渲染兼容性。"
+    ],
+    "title": "Show HN：Wasmga.me——在 WebAssembly 上运行的自制与开源游戏"
+   }
+  },
+  "hash": "3180d851d91c0ae3"
+ },
+ "hn:50118876": {
+  "copy": {
+   "zh": {
+    "blurb": "rStation 是一个共享的 AI 代理研究实验室，提供统一平台让开发者部署、协作和管理多智能体系统。",
+    "points": [
+     "支持多智能体的共同实验与资源共享。",
+     "提供可视化管理和实验追踪功能。",
+     "旨在降低 AI 代理研发的部署门槛。"
+    ],
+    "title": "rStation – 共享 AI 代理研究实验室"
+   }
+  },
+  "hash": "8a98dd6cac5932e8"
+ },
+ "hn:50119748": {
+  "copy": {
+   "zh": {
+    "blurb": "Canonry 是一个开源、面向代理的 AI 可视化平台，整合 GSC、Analytics、站点流量和广告数据，提供内容生成、站点健康检查和广告优化功能。",
+    "points": [
+     "采用 agent‑first 设计，实时跟踪 AI 可视化。",
+     "集成 Google Search Console、Analytics、流量和广告数据。",
+     "支持内容生成引擎和站点健康监控。"
+    ],
+    "title": "开源项目 Canonry：面向代理的 AI 可视化平台"
+   }
+  },
+  "hash": "15977ede1940f99c"
+ },
+ "hn:50119752": {
+  "copy": {
+   "zh": {
+    "blurb": "OneDeploy 提供托管的开源应用部署服务，具备每晚自动备份和免费 TLS 加密，帮助用户轻松上线并安全运行应用。",
+    "points": [
+     "自动化部署开源应用，省去自建服务器。",
+     "每晚备份与自动 TLS，确保数据安全与通信加密。",
+     "适用于个人项目和小型团队的快速上线需求。"
+    ],
+    "title": "OneDeploy – 托管开源应用的自动备份与 TLS 服务"
+   }
+  },
+  "hash": "decd2d461913c732"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -6451,6 +6719,15 @@
    }
   },
   "hash": "32179afbf9de4fac"
+ },
+ "lobsters:2mlkhe": {
+  "copy": {
+   "zh": {
+    "blurb": "WordPress 创始人 Matt Mullenweg 要求撤回一次可访问性修改，并建议核心贡献者将精力转向其他项目。",
+    "title": "Matt Mullenweg 要求撤销可访问性改动"
+   }
+  },
+  "hash": "af91a673c02eb744"
  },
  "lobsters:46dcms": {
   "copy": {
@@ -6554,6 +6831,15 @@
    }
   },
   "hash": "38317c7e9f496bee"
+ },
+ "lobsters:6laoto": {
+  "copy": {
+   "zh": {
+    "blurb": "回顾 iroh 项目从概念到 1.0 版的演进，阐述其网络传输层设计、去中心化目标以及近期实现的关键特性。",
+    "title": "通往 iroh 1.0 的道路"
+   }
+  },
+  "hash": "27c11cf8fbd9d414"
  },
  "lobsters:6tbd2o": {
   "copy": {
@@ -6816,6 +7102,15 @@
   },
   "hash": "a307e1fd7f5511cb"
  },
+ "lobsters:cxlrc5": {
+  "copy": {
+   "zh": {
+    "blurb": "研究人员展示了如何利用 OpenBSD 内核中长达 37 年未修复的漏洞，实现特权提升或系统破坏。",
+    "title": "Big Fish：利用 OpenBSD 中已有 37 年历史的内核漏洞"
+   }
+  },
+  "hash": "34727039bff98cfc"
+ },
  "lobsters:d1c8zn": {
   "copy": {
    "zh": {
@@ -6920,6 +7215,15 @@
    }
   },
   "hash": "d82dca829422b454"
+ },
+ "lobsters:eqoieo": {
+  "copy": {
+   "zh": {
+    "blurb": "通过分析 2009 年微软博客，追溯 WIN32_LEAN_AND_MEAN 宏的起源及其在简化 Windows 头文件中的作用。",
+    "title": "WIN32_LEAN_AND_MEAN 宏的来源是什么？"
+   }
+  },
+  "hash": "d3b91c79a9ff1286"
  },
  "lobsters:es1vaj": {
   "copy": {
@@ -7111,6 +7415,20 @@
    }
   },
   "hash": "db51a8975a05b43f"
+ },
+ "lobsters:hounpx": {
+  "copy": {
+   "zh": {
+    "blurb": "这是 Lobsters 上的社区帖子，邀请用户分享本周末的计划或寻求帮助，鼓励轻松交流，已有 10 点赞和 17 条评论。",
+    "points": [
+     "社区鼓励用户分享周末计划或寻求帮助。",
+     "高互动性：10 点赞、17 条评论。",
+     "可作为轻松的社交话题。"
+    ],
+    "title": "本周末你计划做什么？"
+   }
+  },
+  "hash": "638a2cdc301fbe87"
  },
  "lobsters:i1lyv7": {
   "copy": {
@@ -7403,6 +7721,15 @@
   },
   "hash": "5a19bbdcf8798166"
  },
+ "lobsters:norjho": {
+  "copy": {
+   "zh": {
+    "blurb": "Folders 是一种实验性的 esolang，围绕文件夹层级结构设计语法，探索以目录组织代码的全新编程概念。",
+    "title": "Folders：实验性编程语言"
+   }
+  },
+  "hash": "d0f96f754d63488c"
+ },
  "lobsters:nroajo": {
   "copy": {
    "zh": {
@@ -7494,6 +7821,15 @@
    }
   },
   "hash": "ed54f4de4bc77189"
+ },
+ "lobsters:qcjvlw": {
+  "copy": {
+   "zh": {
+    "blurb": "coopiano 是使用 C++17 编写的钢琴合成器，采用物理建模技术模拟真实钢琴的声学特性，提供高保真音色。",
+    "title": "coopiano：基于C++17的物理建模钢琴合成器"
+   }
+  },
+  "hash": "4e89095c16298a10"
  },
  "lobsters:qgvj4p": {
   "copy": {
@@ -7594,6 +7930,15 @@
    }
   },
   "hash": "c319e1bbf46d8423"
+ },
+ "lobsters:shs3xv": {
+  "copy": {
+   "zh": {
+    "blurb": "本指南讲解了在 EYG 框架下实现有状态 effect handler 的语法与实现细节，并提供示例代码，帮助开发者有效管理副作用。",
+    "title": "在 EYG 中编写有状态的 effect 处理器"
+   }
+  },
+  "hash": "a77c593fd410751d"
  },
  "lobsters:sozl9e": {
   "copy": {
@@ -7774,6 +8119,15 @@
   },
   "hash": "542f199e1ed43c47"
  },
+ "lobsters:v6hhdr": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提供使用 ImageMagick 命令行批量生成 88×31 像素按钮图集（button book）的完整步骤和示例。",
+    "title": "使用 ImageMagick 制作 88×31 按钮书"
+   }
+  },
+  "hash": "edfd9a27b47085b9"
+ },
  "lobsters:vemho2": {
   "copy": {
    "zh": {
@@ -7787,6 +8141,15 @@
    }
   },
   "hash": "fa0821f6d89cc56c"
+ },
+ "lobsters:vvtzdj": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨 agentic 开发在 Rust 生态中的意义，分析 Rust 的安全、并发特性如何支持智能体实现，及其对语言未来的影响。",
+    "title": "Agent 对 Rust 的意义及其相互影响"
+   }
+  },
+  "hash": "3b67c2c90a2784b4"
  },
  "lobsters:vyo9n2": {
   "copy": {
@@ -7866,6 +8229,15 @@
    }
   },
   "hash": "943ebf2e43d83c62"
+ },
+ "lobsters:xcacrh": {
+  "copy": {
+   "zh": {
+    "blurb": "Mull 为笔记提供语言服务器支持，并配套 VSCode 扩展，实现可点击链接、自动完成、悬停预览等代码编辑功能，让记笔记如写代码。",
+    "title": "Mull：基于语言服务器的笔记工具与 VSCode 扩展"
+   }
+  },
+  "hash": "ca730da83c2d41aa"
  },
  "lobsters:xiq59t": {
   "copy": {
