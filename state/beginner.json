@@ -498,7 +498,7 @@
    "sourceKey": "gh:jnmetacode/superpowers-zh"
   },
   "discovery:gh:krillinai/opencreator": {
-   "observedAt": "2026-10-17T05:35:47.862Z",
+   "observedAt": "2026-10-17T15:32:02.493Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:krillinai/opencreator",
@@ -521,7 +521,8 @@
     },
     "topics": [
      "trend:daily",
-     "trend:monthly"
+     "trend:monthly",
+     "trend:weekly"
     ],
     "type": "repo",
     "url": "https://github.com/krillinai/OpenCreator",
@@ -642,7 +643,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-17T05:35:47.862Z",
+   "observedAt": "2026-10-17T15:32:02.493Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -792,7 +793,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-17T05:35:47.862Z",
+   "observedAt": "2026-10-17T15:32:02.493Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -804,10 +805,10 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-17T05:35:39.000Z",
+    "sourceUpdatedAt": "2026-10-17T15:29:12.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。"
+     "zh": ""
     },
     "title": {
      "en": "stablyai/orca",
@@ -3359,10 +3360,10 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-17T05:35:39.000Z",
+    "sourceUpdatedAt": "2026-10-17T15:29:12.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。"
+     "zh": ""
     },
     "title": {
      "en": "stablyai/orca",

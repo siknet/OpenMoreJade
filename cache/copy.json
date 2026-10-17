@@ -1389,6 +1389,15 @@
   },
   "hash": "df12afe909c44ff2"
  },
+ "devto:4836558": {
+  "copy": {
+   "zh": {
+    "blurb": "NightSky Whisperer 项目在 Arduino UNO Q 上离线运行轻量化 AI，识别星座并提供语音提示，让用户无需联网即可进行天文观测。",
+    "title": "NightSky Whisperer离线星空伴侣"
+   }
+  },
+  "hash": "e8146f824fe8809b"
+ },
  "devto:4837383": {
   "copy": {
    "zh": {
@@ -2173,6 +2182,15 @@
   },
   "hash": "c28d5d578e2ef99d"
  },
+ "devto:4846405": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享向开源项目提交的修复已一个月未被合并的经历，探讨插件文档维护滞后、社区响应慢等问题，呼吁更积极的代码审查流程。",
+    "title": "修复提交未合并的社区困境"
+   }
+  },
+  "hash": "c83f031b26ddc9d2"
+ },
  "devto:4846519": {
   "copy": {
    "zh": {
@@ -2927,6 +2945,15 @@
   },
   "hash": "49a11de856cf7127"
  },
+ "devto:4861226": {
+  "copy": {
+   "zh": {
+    "blurb": "对比了 Phrase、Tolgee、Locize、Weblate 与 Babelize 等 Lokalise、Crowdin 的替代品，列出免费套餐、2026 年 10 月的价格、开源情况以及 GitHub PR 支持情况。",
+    "title": "2026 开发者视角的 Lokalise 与 Crowdin 替代方案"
+   }
+  },
+  "hash": "75d591483682a3fb"
+ },
  "devto:4861677": {
   "copy": {
    "zh": {
@@ -3247,6 +3274,116 @@
    }
   },
   "hash": "0d219744608af418"
+ },
+ "devto:4866222": {
+  "copy": {
+   "zh": {
+    "blurb": "如今代码仓库会随附 CLAUDE.md、AGENTS.md、.cursor/rules 等 AI 代理指令文件，缺少审查可能埋下安全隐患。agentcheck 自动扫描这些文件，帮助发现潜在问题。",
+    "points": [
+     "新增的 CLAUDE.md、AGENTS.md 等文件定义 AI 代理行为，缺乏审查风险高。",
+     "agentcheck 自动检测这些指令文件中的潜在问题或恶意指令。",
+     "鼓励开发者在提交前审查 AI 代理指令，提升安全性。"
+    ],
+    "title": "agentcheck：你的 CLAUDE.md 未被审查的指令文件，快来扫描"
+   }
+  },
+  "hash": "2d2d6bdb5f9715db"
+ },
+ "devto:4866245": {
+  "copy": {
+   "zh": {
+    "blurb": "ReplyDesk 是一个 4 B 参数的开源模型，专为自动回复 Google 评论设计，能够识别并阻止承诺无法兑现的退款，作为 Hacktoberfest 开源挑战项目发布。",
+    "points": [
+     "4B 参数模型专为回复 Google 评论设计。",
+     "自动识别并避免承诺无法兑现的退款。",
+     "在 Hacktoberfest 开源挑战中亮相，获得 5 条点赞。"
+    ],
+    "title": "ReplyDesk：4B 模型自动回复 Google 评论并避免错误退款承诺"
+   }
+  },
+  "hash": "0612e4ec9a90f2ee"
+ },
+ "devto:4866257": {
+  "copy": {
+   "zh": {
+    "blurb": "作者使用 AI 自动化在 eBay 上检索 237 种召回产品，共发现 12,562 条相关列表，但仅有 45 条明确标注产品型号，凸显平台商品信息标注不足。",
+    "points": [
+     "检索 12,562 条 eBay 列表，仅 45 条标明召回产品型号。",
+     "揭示平台商品信息标注不完整的问题。",
+     "通过 AI 自动化搜索提升召回产品可见性。"
+    ],
+    "title": "eBay 召回产品搜索：12,562 条商品中仅 45 条标明型号"
+   }
+  },
+  "hash": "6a5edcd0e856d766"
+ },
+ "devto:4866330": {
+  "copy": {
+   "zh": {
+    "blurb": "claimcheck 项目结合 Gemma 4 大语言模型，为 AI 博客草稿提供事实核查功能，自动比对稿件内容与原始来源，实现更可靠的内容生成。",
+    "title": "claimcheck：Gemma 4事实核查"
+   }
+  },
+  "hash": "3275c2421d6b4044"
+ },
+ "devto:4866368": {
+  "copy": {
+   "zh": {
+    "blurb": "文章提醒开发者注意 AI 生成代码可能泄露敏感凭证，分析了近期安全公司发现的案例，并提供了检测和防止密钥泄露的实用方法。",
+    "title": "你的 AI 已发布应用，是否把密钥留在仓库？"
+   }
+  },
+  "hash": "5dd3c14b7ff90251"
+ },
+ "devto:4866448": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第二周，作者利用开源模型把剩余烙饼（Roti）转化为 DabbaIQ 服务，通过 AI 优化供应链和定价，实现更高利润。",
+    "title": "利用开源AI打造DabbaIQ"
+   }
+  },
+  "hash": "ce8086fef539355e"
+ },
+ "devto:4866717": {
+  "copy": {
+   "zh": {
+    "blurb": "开源工具 REA 在数天内获得 10 万 GitHub 星标，能够自动生成可运行代码，大幅降低逆向工程门槛。文章分析了它的正面效用与潜在风险，并指出监管争议远比表面更复杂。",
+    "points": [
+     "REA 能自动生成可运行的代码，显著降低逆向工程门槛。",
+     "这加速了安全研究，但也让恶意逆向更易实现，监管挑战加大。",
+     "GitHub 星标在数天内突破 100,000，显示社区对该工具的强烈关注。"
+    ],
+    "title": "AI 让逆向工程成本降低会发生什么"
+   }
+  },
+  "hash": "35765f5f6068a14f"
+ },
+ "devto:4867137": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 开源 AI 挑战中实现了一个 AI 驱动的站点搜索准备度扫描工具，利用开源模型检测网站的索引、元数据和 SEO 问题，帮助站长快速评估并优化搜索表现。",
+    "title": "SiteReadyForSi：使用开源 AI 构建搜索就绪扫描器"
+   }
+  },
+  "hash": "35cf3d4a26041ca5"
+ },
+ "devto:4867422": {
+  "copy": {
+   "zh": {
+    "blurb": "LedgerLens 是一个本地化的 Gemma 发票管理工具，作者分享了实际使用场景，展示了如何快速生成、编辑和追踪发票，提升小团队的财务工作效率。",
+    "title": "LedgerLens：本地 Gemma 发票工作区实用案例"
+   }
+  },
+  "hash": "f1d080d5cf6adfa0"
+ },
+ "devto:4867501": {
+  "copy": {
+   "zh": {
+    "blurb": "使用租赁的 RTX 5090 运行 Strata，单人 144 token/s，八人并发仅 19 token/s。通过两项容器标志修复了导致云环境慢 5 倍的问题，实现了性能提升。",
+    "title": "在单 RTX 5090 上为团队提供 125 B 编码模型：故障与调优"
+   }
+  },
+  "hash": "c07a41cc06bd48a0"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -4188,6 +4325,20 @@
   },
   "hash": "5e2fdb9a7bba3219"
  },
+ "gh:mixelpixx/konnect": {
+  "copy": {
+   "zh": {
+    "blurb": "Konnect 是一个原生 KiCAD 插件，使用单一 Rust 可执行文件向 Claude 等 LLM 暴露 217 项原理图、布局、布线、元件放置、设计审查和制造工具，实现 AI 辅助的全流程 PCB 设计。",
+    "points": [
+     "单一 Rust 二进制文件，提供 217 项 PCB 设计功能。",
+     "通过插件直接在 KiCAD 10 中调用 Claude 或自选 LLM。",
+     "支持原理图、布局、布线、放置、审查和制造全流程。"
+    ],
+    "title": "Konnect：用于 KiCAD 10 的 AI 辅助 PCB 设计插件"
+   }
+  },
+  "hash": "f21e347fd6011039"
+ },
  "gh:mksglu/context-mode": {
   "copy": {
    "zh": {
@@ -4505,6 +4656,15 @@
   },
   "hash": "4c35fe6b482ece62"
  },
+ "gh:scrapecreators/social-media-research-skills": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库提供用于社交媒体调研的 AI 代理技能，支持 TikTok、Instagram、YouTube、Reddit、X、LinkedIn 等平台的热点帖子、评论挖掘、竞争对手分析和广告趋势，兼容 Claude Code、Cursor、Codex、Gemini CLI 等。",
+    "title": "社交媒体研究技能库"
+   }
+  },
+  "hash": "f62494b8c943fb1e"
+ },
  "gh:shanraisshan/claude-code-best-practice": {
   "copy": {
    "zh": {
@@ -4581,11 +4741,11 @@
  "gh:stablyai/orca": {
   "copy": {
    "zh": {
-    "blurb": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。",
-    "title": "stablyai/orca"
+    "blurb": "Orca 是面向并行代理 fleet 的 ADE（Agent Development Environment），支持在桌面、移动端和远程运行时使用任意编码代理，并可通过订阅方式统一管理。",
+    "title": "Orca：并行代理舰队的 ADE 平台"
    }
   },
-  "hash": "5bb72d1b4fd82b37"
+  "hash": "970178b3481b417a"
  },
  "gh:storytold/filmcraft": {
   "copy": {
@@ -5173,6 +5333,20 @@
    }
   },
   "hash": "27d7ca880e071084"
+ },
+ "hf:deepseek-ai/deepseek-v4.1-flash-1017": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 系列的最新多模态模型，专注于图像‑文本‑到‑文本任务，提升跨模态理解与生成能力，在 Hugging Face 上获 682 个点赞，热度 87.8。",
+    "points": [
+     "专注图像‑文本‑到‑文本任务的多模态模型。",
+     "基于 DeepSeek 系列最新架构，提升跨模态理解与生成。",
+     "在 Hugging Face 上获 682 个点赞，热度 87.8。"
+    ],
+    "title": "DeepSeek-V4.1-Flash-1017"
+   }
+  },
+  "hash": "30a6d88e4d9777f4"
  },
  "hf:fishaudio/drama-3": {
   "copy": {
@@ -7086,6 +7260,34 @@
   },
   "hash": "7d02fddb1769b540"
  },
+ "hn:50129045": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Hacker News 故事引用 DeepSeek 官方声明：致力于通过开源与开放科学推进人工智能的进步与民主化，强调社区协作与模型透明化的长期愿景。",
+    "points": [
+     "DeepSeek 宣称通过开源与开放科学推动 AI 民主化。",
+     "强调社区协作与模型透明化的长期愿景。",
+     "该故事在 Hacker News 获 317 分、125 条评论。"
+    ],
+    "title": "DeepSeek‑v4.1‑Flash‑1017"
+   }
+  },
+  "hash": "e9b9fcc0149670be"
+ },
+ "hn:50129121": {
+  "copy": {
+   "zh": {
+    "blurb": "此条 Hacker News 文章介绍 DeepSeek‑v4.1‑Flash‑1017 已在 OpenRouter 平台上线，提供 API 接入，适用于对话和多模态应用的低延迟推理。",
+    "points": [
+     "模型在 OpenRouter 平台提供 API 接入。",
+     "适用于对话与多模态应用的低延迟推理。",
+     "在 Hacker News 获 450 分、238 条评论。"
+    ],
+    "title": "DeepSeek v4.1 Flash 1017（OpenRouter）"
+   }
+  },
+  "hash": "842a0ac372c0301b"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -7439,6 +7641,15 @@
    }
   },
   "hash": "1044a80812d5a63d"
+ },
+ "lobsters:a0og2j": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨了在 2025 年的开发环境中，如何通过自动化工具和 DNS 传播监控提升调试效率，提出了实用的调试策略和最佳实践。",
+    "title": "面向调试的开发（2025）"
+   }
+  },
+  "hash": "16a97df61b219570"
  },
  "lobsters:a4ljnh": {
   "copy": {
@@ -7855,6 +8066,15 @@
   },
   "hash": "f0d43df6f2a37219"
  },
+ "lobsters:gwuebx": {
+  "copy": {
+   "zh": {
+    "blurb": "文章快速分享了对 ActivityPub 协议进行单元测试的若干思考与实践建议，聚焦测试难点与可能的解决方案。",
+    "title": "对 ActivityPub 单元测试的简要思考"
+   }
+  },
+  "hash": "1a24c2e4ba96716e"
+ },
  "lobsters:gytcvn": {
   "copy": {
    "zh": {
@@ -8265,6 +8485,15 @@
   },
   "hash": "d0c161f2c5f2bc2a"
  },
+ "lobsters:pflyed": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 公布研究报告，Claude 团队追溯 ECDSA 曲线的历史来源，解析其选型原因并提供安全性评估，对密码学社区具有参考价值。",
+    "title": "Claude揭示ECDSA曲线起源"
+   }
+  },
+  "hash": "5fa0e28a390af043"
+ },
  "lobsters:plbei0": {
   "copy": {
    "zh": {
@@ -8406,6 +8635,15 @@
   },
   "hash": "2dfefd6241b55341"
  },
+ "lobsters:rtd5gq": {
+  "copy": {
+   "zh": {
+    "blurb": "Basis AI 在其博客发布“Ship Your Interpreter”，提供一键打包、部署自定义解释器的工具链，帮助开发者快速将模型解释功能集成到产品中。",
+    "title": "Ship Your Interpreter发布工具"
+   }
+  },
+  "hash": "81431695bf3035a8"
+ },
  "lobsters:s8bo3z": {
   "copy": {
    "zh": {
@@ -8455,6 +8693,15 @@
    }
   },
   "hash": "057a41889d0d44ad"
+ },
+ "lobsters:srao9u": {
+  "copy": {
+   "zh": {
+    "blurb": "lf-lang 是一种面向任何语言的并发编程模型，提供直观的语法与自动化的并发调度，使开发者能轻松编写可靠的并行代码。",
+    "title": "直观的并发编程语言 lf-lang"
+   }
+  },
+  "hash": "2656b030f706ec2e"
  },
  "lobsters:stmtap": {
   "copy": {

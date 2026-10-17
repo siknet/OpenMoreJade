@@ -177,16 +177,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个GitHub项目提供通用代理能力：从逆向APP行为的 rea 到自动索引代码文档的 xerj，再到本地化的 AI 求职框架 ai‑job‑search、性能优化系统 ECC，以及加速 Claude、Cursor 等编码代理的 Trail‑Code【repos#1】【repos#2】【repos#3】【repos#5】【repos#7】【repos#10】",
-     "Anthropic推出官方 Claude Code 插件目录，Claude 团队公开代码评审流程，并成功用于量子电路设计，凸显 Claude 在研发工具链中的核心地位【repos#5】【news#3】【news#7】",
-     "Hugging Face 上新发布多款高评分模型，覆盖图像‑图像、文本‑图像、文本‑生成、多模态等多领域，推动本地部署和创新应用【hf#1】【hf#3】【hf#5】【hf#6】【hf#7】",
-     "研究显示美国90%工作时间涉及任务未被现有 AI 基准覆盖，暴露评测指标与真实工作需求的脱节【news#2】",
-     "Llama.cpp 在越狱的 PlayStation 5 上跑通任意 GGUF 模型，展示消费硬件本地运行大型语言模型的可行性【news#4】"
+     "GitHub上Claude官方插件目录、REA逆向工具、科学Agent技能库和ECC性能系统等项目涌现，Dev.to也报道了生产级Agent的构建经验，显示开源AI Agent生态快速壮大。[repos#7] [repos#6] [repos#9] [repos#10] [devto#3] [devto#9]",
+     "Ebony-Vinyl发布的dsh-our-free-model插件免登录直接提供DeepSeek V4.1‑Flash等前沿模型；同模型在HuggingFace高分榜单并被新闻聚焦，标志免费高性能LLM的可得性提升。[repos#2] [hf#1] [news#2] [news#3]",
+     "Claude近期揭示ECDSA曲线来源，并用于设计更高效的量子电路；与此同时，NIST椭圆曲线种子奖金已被认领，凸显AI在密码学和量子计算中的新角色。[news#1] [news#10] [lobsters#1]",
+     "图像生成模型热度不减，Flux‑3 Image、Qwen‑Image‑2.1‑Uncensored‑Quantized和Lightricks LTX‑2.5等在HF上获得80+分，高质量的文本到图像与图像到图像模型持续推动创意AI发展。[hf#2] [hf#4] [hf#6]"
     ],
-    "headline": "开源AI代理工具与Claude生态快速扩展，多个新模型与实用项目涌现"
+    "headline": "开源AI工具与模型快速扩张：Claude插件、免费前沿模型与新型加密进展"
    }
   },
-  "hash": "beccd0ca1341f8ba"
+  "hash": "4a7e946ab2e100a3"
  },
  "2026-W41": {
   "brief": {

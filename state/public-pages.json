@@ -14,6 +14,11 @@
   "summary": "The Decisions API evaluates text, images, or both and returns typed answers about 10x faster than the Responses API. Get the probability that a condition is true, a choice from a fixed set, or a score against a rubric. Use those answers to classify content, route requests, and prioritize work in your application. Try the Decisions API in the Playground to experiment with questions and inputs before writing code. The Decisions API is in public beta, and we expect to GA in the coming weeks. gpt-6-luna is the only model currently available. Use the dedicated POST /v1/decisions endpoint. To run th",
   "url": "https://developers.openai.com/api/docs/guides/decisions"
  },
+ "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "at": "2026-10-17T15:32:02.493Z",
+  "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+ },
  "https://openai.com/index/gpt-6-for-everyone/": {
   "at": "2026-10-09T18:21:05.907Z"
  },
