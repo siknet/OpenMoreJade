@@ -2953,8 +2953,13 @@
  "devto:4861743": {
   "copy": {
    "zh": {
-    "blurb": "作者联系 Ponytail 项目创始人，获得仓库星标并得到产品创意，展示了社区互动如何带来实际价值。",
-    "title": "星标不是虚荣，而这一次不是"
+    "blurb": "作者联系 Ponytail 创始人，获明星标记并得到全新产品创意，展示了社区互动如何直接带来业务突破，相关指标均明显超出历史记录。",
+    "points": [
+     "直接与创始人沟通获取真实需求",
+     "社区星标带来流量与信任",
+     "新产品想法显著提升关键指标"
+    ],
+    "title": "一次明星点赞背后的产品灵感"
    }
   },
   "hash": "6ed32e6f6a91c660"
@@ -3012,6 +3017,236 @@
    }
   },
   "hash": "338c692ec919788b"
+ },
+ "devto:4863494": {
+  "copy": {
+   "zh": {
+    "blurb": "利用 Google 59 MB QAT 多令牌预测 Drafts 进行推测解码，使 Gemma 4 E4B 在 8 GB RTX 3050 上加速 1.72×、E2B 加速 1.40×；在 4 GB GTX 1650 Ti 上分别提升 1.49× 与 1.18×，使用 llama.cpp 单请求服务，GSM8K 与 BFCL 分数保持不变。",
+    "points": [
+     "推测解码配合 59 MB QAT Drafts 在小显卡上实现约 1.5‑1.7× 加速。",
+     "Gemma 4 E4B/E2B 的推理速度提升，准确度在 GSM8K 与 BFCL 上保持不变。",
+     "基于 llama.cpp 单请求模式，无需额外硬件即可部署。"
+    ],
+    "title": "小模型上使用 Drafts 加速 Gemma 4：E2B 与 E4B 在两块小显卡上的表现"
+   }
+  },
+  "hash": "092bba9bf1b3df46"
+ },
+ "devto:4863496": {
+  "copy": {
+   "zh": {
+    "blurb": "ScopeLock 使用开放权重的 AI 模型自动检测项目范围扩展，并生成可发送给客户的变更单，帮助自由职业者实现收益化。",
+    "points": [
+     "AI 实时识别需求变更，降低人工审查成本。",
+     "自动生成专业变更单文档，提升沟通效率。",
+     "开源、可自定义模型权重，适配不同业务场景。"
+    ],
+    "title": "ScopeLock：将自由职业范围蔓延转化为付费变更单的开源 AI"
+   }
+  },
+  "hash": "ea1dd514eba960a3"
+ },
+ "devto:4863548": {
+  "copy": {
+   "zh": {
+    "blurb": "作者详述在 Google Cloud 上使用 Gemma 开源模型、Google ADK 与 Cloud Run GPU，完成企业 SecOps 与 FinOps 代理的设计、连接、扩展、治理、评估，并通过 QLoRA 进行低成本微调的全过程。",
+    "points": [
+     "使用 Gemma 与 QLoRA 实现低成本高效微调",
+     "借助 Google ADK 与 Cloud Run GPU 实现弹性部署与横向扩展",
+     "加入治理与评估框架确保企业安全合规"
+    ],
+    "title": "构建基于 Gemma、Google ADK 与 Cloud Run GPU 的生产级开源 AI 代理"
+   }
+  },
+  "hash": "4b72bb606b081180"
+ },
+ "devto:4863823": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 公布 Hacktoberfest 开源 AI 挑战 Touch Grass 项目的获奖团队，表彰他们在开源 AI 生态贡献中的创新与协作精神。",
+    "points": [
+     "公布 Touch Grass 挑战的获奖团队名单",
+     "表彰在开源 AI 项目中的创新实现与社区贡献",
+     "激励更多开发者参与开源 AI 的持续建设"
+    ],
+    "title": "Hacktoberfest 开源 AI 挑战：Touch Grass 获奖名单公布"
+   }
+  },
+  "hash": "e1bde6f4eb339735"
+ },
+ "devto:4863859": {
+  "copy": {
+   "zh": {
+    "blurb": "本期汇总最新开发者机会：Y Combinator 提供 50 万美元种子轮融资、Bolt Builders Week 线上构建马拉松以及 AI 安全研究驻地项目，适合创业者与研究者抓住时机。",
+    "points": [
+     "50 万美元 YC 资金面向早期 AI 创业公司",
+     "Bolt Builders Week 为开发者提供为期数周的项目孵化与导师支持",
+     "AI 安全研究驻地提供资源与指导，推动 AI 安全前沿研究"
+    ],
+    "title": "Dev Opportunity Radar #21：500K YC 资助、Bolt Builders Week 与 AI 安全研究驻地"
+   }
+  },
+  "hash": "1f8d2b6587782d20"
+ },
+ "devto:4864081": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Hacktoberfest AI 挑战第二周提交的 Doorman 项目，记录其网站联系表在六周内收到的 23 条全部是商业推销的消息，探讨 AI 在噪声过滤和自动分类中的应用前景。",
+    "points": [
+     "全部消息为商业推销，凸显噪声问题",
+     "探索 AI 自动分类与过滤的可能性",
+     "项目作为开源示例参与 Hacktoberfest"
+    ],
+    "title": "Doorman：我的联系表收到了 23 条全部是推销的信息"
+   }
+  },
+  "hash": "2f7fc57630fd3277"
+ },
+ "devto:4864201": {
+  "copy": {
+   "zh": {
+    "blurb": "MenuMaestro 是一款基于开源大模型 Gemma 3 的本地化菜单翻译工具，旨在帮助餐厅业主在无网络环境下快速将菜单文本转换为多语言版本，并可自行扩充行业词库。",
+    "points": [
+     "完全离线运行，无需网络",
+     "基于开源大模型 Gemma 3，支持多语言翻译",
+     "可自定义词库，适配本地餐饮行业术语"
+    ],
+    "title": "MenuMaestro：基于 Gemma 3 的本地化餐厅菜单翻译工具"
+   }
+  },
+  "hash": "61855fc96dda5b93"
+ },
+ "devto:4864429": {
+  "copy": {
+   "zh": {
+    "blurb": "Munim 是面向印度小卖部（kirana）业主的账单日记应用，利用本地 AI 检测供应商价格微调，实时提醒用户并帮助他们管理进货成本。",
+    "points": [
+     "自动比对账单与历史价格，检测微小涨价",
+     "本地 AI 分析文本，保护数据隐私",
+     "支持多语言和离线使用，适合低网速环境"
+    ],
+    "title": "Munim：帮助小卖部主监控供应商涨价的账单日记"
+   }
+  },
+  "hash": "7a5d866d2bf994e5"
+ },
+ "devto:4864571": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在本地模型上投毒 20 种药品名称，评估其在药房场景中的表现，以检验模型是否适合用于药品相关任务。",
+    "title": "实验：用 20 种药名检测本地模型在药房的适用性"
+   }
+  },
+  "hash": "f21b16672c3d633f"
+ },
+ "devto:4864591": {
+  "copy": {
+   "zh": {
+    "blurb": "Athena 是一款面向本地优先的开源项目，提供 AI 驱动的代码变更情报和自动化发布功能，作为 Hacktoberfest 开源 AI 挑战的提交作品。",
+    "points": [
+     "采用本地优先架构，AI 可在离线环境分析代码变更。",
+     "结合智能变更情报实现自动化的发布流水线。",
+     "作为 Hacktoberfest 第二周的开源 AI 挑战项目提交。"
+    ],
+    "title": "Athena：本地优先的 AI 变更情报与发布引擎"
+   }
+  },
+  "hash": "2efff6d416e27217"
+ },
+ "devto:4864599": {
+  "copy": {
+   "zh": {
+    "blurb": "本篇文章展示了仅用 1.35 美元的微调，使开源 4B 模型在法语中将 CRA 正确映射为 ARC，但仍会把 NIS 错写为 SIN。",
+    "title": "$1.35 微调让开源 4B 模型学会法语中的 CRA 是 ARC，仍把 NIS 写成 SIN"
+   }
+  },
+  "hash": "955e03b80d9dfa77"
+ },
+ "devto:4864616": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了 BountyPilot，这是一款开源权重的 AI，旨在帮助开发者发现值得投入时间的编码机会。",
+    "title": "我构建了 BountyPilot：帮助开发者寻找有价值编码任务的开源 AI"
+   }
+  },
+  "hash": "6db9b35f0eb8f935"
+ },
+ "devto:4864688": {
+  "copy": {
+   "zh": {
+    "blurb": "本文教程展示如何使用 Python 接入西班牙电子发票系统 VERI*FACTU，涵盖数字指纹、XML 生成、二维码创建以及向税务局 AEAT 的提交流程。",
+    "title": "在 Python 中实现 VERI*FACTU：指纹、XML、二维码及向 AEAT 发送"
+   }
+  },
+  "hash": "d6732a0e18e96eee"
+ },
+ "devto:4864801": {
+  "copy": {
+   "zh": {
+    "blurb": "FlipPrice 是一款开源 AI 小工具，用户拍摄商品照片后可自动估算出可实际出售的价格，项目源于 Hacktoberfest 开源 AI 挑战周。",
+    "title": "FlipPrice：拍照即得可销售的报价"
+   }
+  },
+  "hash": "af39fa6e8afeaf94"
+ },
+ "devto:4864985": {
+  "copy": {
+   "zh": {
+    "blurb": "作者将微软的 Threat Modeling Tool 重写为基于 Electron 的网页应用 ThreatSketch，实现跨平台浏览器运行，提供与原工具相似的威胁建模功能。",
+    "title": "将微软威胁建模工具移植至浏览器的 ThreatSketch"
+   }
+  },
+  "hash": "4c52a6d7b3e412ff"
+ },
+ "devto:4865043": {
+  "copy": {
+   "zh": {
+    "blurb": "作者用纯 HTML 单文件工具分别替代了用于机架、IP 地址和其他资产管理的传统电子表格，实现了轻量、可直接在浏览器打开、免维护的管理方式。",
+    "points": [
+     "单文件 HTML 可离线使用，无需 Excel 或 Google Sheets。",
+     "通过内置脚本实现数据过滤和导出，提升效率。",
+     "易于共享和部署，适合小型 IT 团队。"
+    ],
+    "title": "我用三个单文件 HTML 工具取代了三份 IT 电子表格"
+   }
+  },
+  "hash": "0233e68131f43ba5"
+ },
+ "devto:4865128": {
+  "copy": {
+   "zh": {
+    "blurb": "该开源无代码平台让企业无需手写代码即可快速搭建定制业务软件，支持拖拽式 UI 设计和插件扩展，当前已上线预览版供用户体验。",
+    "title": "开源无代码平台：快速构建定制业务应用（预览已上线）"
+   }
+  },
+  "hash": "ea78619027a5a715"
+ },
+ "devto:4865189": {
+  "copy": {
+   "zh": {
+    "blurb": "Bencho 是一款自托管的 Web 界面，使用单条 Docker Compose 命令即可启动 K6 性能基准测试，使负载测试更友好、可视化。",
+    "title": "Bencho：一键部署的 K6 性能测试 Web 前端"
+   }
+  },
+  "hash": "0c895544b94ece98"
+ },
+ "devto:4865277": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍如何利用 Neuron 工作流、类型化事件、幂等信号总线和有界看门狗，构建多个 PHP 代理协同工作的 “Jarvis” 代理网格。",
+    "title": "使用 Neuron 工作流构建 “Jarvis” 代理网格"
+   }
+  },
+  "hash": "1b4836ddd3aaa5c8"
+ },
+ "devto:4865285": {
+  "copy": {
+   "zh": {
+    "blurb": "本文演示如何通过 Python 组件生成订单摘要 PDF，并将同一内容导出为 HTML，实现跨格式展示与复用。",
+    "title": "使用 Python 组件生成 PDF 并导出 HTML"
+   }
+  },
+  "hash": "0d219744608af418"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -3092,6 +3327,15 @@
    }
   },
   "hash": "f2fcc7b4eda3158a"
+ },
+ "gh:anomalyco/opencode": {
+  "copy": {
+   "zh": {
+    "blurb": "一个开源的编码智能体，提供代码生成和编辑功能。",
+    "title": "anomalyco/opencode"
+   }
+  },
+  "hash": "885da49024f6e22f"
  },
  "gh:anthropics/claude-plugins-official": {
   "copy": {
@@ -4337,17 +4581,11 @@
  "gh:stablyai/orca": {
   "copy": {
    "zh": {
-    "blurb": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。",
-    "points": [
-     "统一管理多代理 fleet 的运行时",
-     "跨平台支持（桌面、移动、远程）",
-     "基于订阅的弹性计费模型"
-    ],
-    "title": "Orca – 并行代理 fleet 的 ADE 平台",
-    "why": "简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
+    "blurb": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。",
+    "title": "stablyai/orca"
    }
   },
-  "hash": "970178b3481b417a"
+  "hash": "5bb72d1b4fd82b37"
  },
  "gh:storytold/filmcraft": {
   "copy": {
@@ -4559,6 +4797,20 @@
    }
   },
   "hash": "0b2a6cddb5b2b16b"
+ },
+ "gh:trailhq/trail-code": {
+  "copy": {
+   "zh": {
+    "blurb": "Trail‑Code 是一个 TypeScript 库，旨在为 Claude、Cursor、Codex、Gemini 等代码助手提供统一加速层，通过利用项目上下文提升补全准确性，同时降低调用成本。",
+    "points": [
+     "统一接口，加速多种代码生成模型调用",
+     "利用代码库上下文实现更精准的补全建议",
+     "降低成本并提升响应速度，适用于大型项目"
+    ],
+    "title": "Trail-Code：为 Claude、Cursor、Codex 等代码助手加速的 TypeScript 库"
+   }
+  },
+  "hash": "093ce1fe8cbfd35d"
  },
  "gh:tt-a1i/archify": {
   "copy": {
@@ -4837,6 +5089,20 @@
    }
   },
   "hash": "1e123d26e41e52df"
+ },
+ "hf:black-forest-labs/flux-3-image-klein-comfy": {
+  "copy": {
+   "zh": {
+    "blurb": "Black‑Forest Labs 发布的 flux‑3‑image‑klein‑comfy 是面向图像‑图像任务的模型，专为 ComfyUI 调优，支持高质量图像编辑、风格迁移等，已获 479 次点赞。",
+    "points": [
+     "基于 Flux 3.0 架构提升细节保真度",
+     "兼容 ComfyUI，调用便捷",
+     "支持重绘、风格迁移等图像编辑任务"
+    ],
+    "title": "Flux‑3 图像到图像模型（Klein‑Comfy）"
+   }
+  },
+  "hash": "c890ea51082f3f85"
  },
  "hf:canberkkkkkk/ema-lightning": {
   "copy": {
@@ -6596,6 +6862,20 @@
   },
   "hash": "adee80d7d4c71baa"
  },
+ "hn:50118153": {
+  "copy": {
+   "zh": {
+    "blurb": "Capy‑flash 采用 Mixture‑of‑Experts 架构和显存切片技术，使拥有 125 B 参数的模型能够在两块 16 GB 消费级 GPU 上进行推理，显著降低大模型的使用门槛。",
+    "points": [
+     "MoE 动态路由仅激活少量专家降低显存",
+     "显存切片技术实现模型并行运行",
+     "开源代码支持快速部署与微调"
+    ],
+    "title": "Capy-flash：在两块 16 GB GPU 上运行 125 B MoE 模型"
+   }
+  },
+  "hash": "db0e671eb6da8c9d"
+ },
  "hn:50118303": {
   "copy": {
    "zh": {
@@ -6680,6 +6960,132 @@
   },
   "hash": "decd2d461913c732"
  },
+ "hn:50121179": {
+  "copy": {
+   "zh": {
+    "blurb": "Mercor 研究显示，美国劳动力中约 90% 的工作时间用于 AI 基准难以衡量的任务，凸显当前基准与真实工作需求之间的巨大差距。",
+    "points": [
+     "AI 基准仅覆盖少数高效任务，未能反映大多数工作实际需求",
+     "约 90% 工作时间涉及基准未覆盖的任务，导致评估失真",
+     "呼吁研发更贴合真实业务流程的 AI 评测方法"
+    ],
+    "title": "美国 90% 工作时间涉及 AI 基准未覆盖的任务"
+   }
+  },
+  "hash": "33bd92b5f1d6fb3f"
+ },
+ "hn:50121939": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 使用 Claude 根据自然语言规格为八种化学、优化、物理模拟和数论等领域的量子电路进行设计，Claude 自动生成的方案在部分电路上比已有最佳方案提升最高达十倍，显著降低所需量子资源。",
+    "points": [
+     "Claude 接收自然语言描述，自动生成量子电路设计。",
+     "在 8 条电路上超越已有最佳方案，提升最高达 10 倍。",
+     "通过自动评估器量化资源改进，加速实用量子计算的落地。"
+    ],
+    "title": "利用 Claude 设计更高效的量子电路"
+   }
+  },
+  "hash": "735a18a62a7e45a5"
+ },
+ "hn:50122112": {
+  "copy": {
+   "zh": {
+    "blurb": "《金融时报》报道，信用评级机构在六月将 Anthropic 评为最高的垃圾级别，反映其财务压力、融资困难，并对 AI 领域投资者情绪产生显著影响。",
+    "points": [
+     "被评为最高垃圾级信用评级，表明高风险融资状况",
+     "突显 Anthropic 面临的财务压力",
+     "对 AI 投资者情绪及行业资金流动产生冲击"
+    ],
+    "title": "Anthropic 在六月获最高垃圾级信用评级"
+   }
+  },
+  "hash": "b355b69891277ce3"
+ },
+ "hn:50122431": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目 llama.cpp 移植至已破解的 PlayStation 5，利用主机强大 GPU 实现 GGUF 格式语言模型的本地推理，无需云端服务器。",
+    "points": [
+     "利用 PS5 GPU 实现高速本地推理",
+     "支持通用 GGUF 模型，无需额外依赖",
+     "展示游戏主机作为 AI 计算平台的潜力"
+    ],
+    "title": "在破解的 PS5 上运行 llama.cpp：本地执行任意 GGUF 模型"
+   }
+  },
+  "hash": "6291db4e1c14938e"
+ },
+ "hn:50122767": {
+  "copy": {
+   "zh": {
+    "blurb": "Weatherdeck 是一个 GitHub 项目，提供只读网页看板，实时展示 AI 编码代理在不同 lane 的状态和进度。",
+    "points": [
+     "以只读方式安全展示任务队列，防止误操作。",
+     "支持自定义 lane 与颜色标记，直观监控 AI 工作流。",
+     "可通过 webhook 与 CI/CD 集成，自动刷新状态。"
+    ],
+    "title": "Weatherdeck – AI 编码代理车道的只读状态看板"
+   }
+  },
+  "hash": "1fc91d8344672e27"
+ },
+ "hn:50122800": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 通过 Claude 研究报告，追溯并阐明了 ECDSA 最常用椭圆曲线的历史渊源，澄清多年谜团，确认现有实现安全可靠，无需额外操作。",
+    "points": [
+     "通过历史文档和访谈定位曲线来源",
+     "确认 NIST 2000 年采纳的曲线安全可靠",
+     "消除社区对曲线来源的疑虑"
+    ],
+    "title": "Claude 揭示 ECDSA 曲线的历史渊源"
+   }
+  },
+  "hash": "e3135be8ab5db136"
+ },
+ "hn:50122878": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨了关联记忆机制与 Transformer 架构的相似性，论证如果拥有足够的记忆关联概念，早在 Transformer 诞生前就能构想其核心原理。",
+    "points": [
+     "关联记忆与 Transformer 的注意力机制本质上相通。",
+     "作者认为记忆模型足以推导出 Transformer 的核心设计。",
+     "强调对记忆结构的深入理解可促发新型模型创新。"
+    ],
+    "title": "凭记忆你本可以发明 Transformer"
+   }
+  },
+  "hash": "d9bdaa265b85379d"
+ },
+ "hn:50122951": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude.dev 博客分享了 Claude Code 团队的代码审查流程，结合自动化工具与人工审查，实现高效、可靠的代码质量保障。",
+    "points": [
+     "采用自动化审查工具快速捕捉潜在缺陷",
+     "人工审查补充上下文理解与设计评估",
+     "形成闭环流程提升代码质量与团队协作效率"
+    ],
+    "title": "Claude Code 团队的代码审查实践"
+   }
+  },
+  "hash": "a467eb3846de8445"
+ },
+ "hn:50127979": {
+  "copy": {
+   "zh": {
+    "blurb": "Llmspeed 是一款工具，帮助用户在本地快速测试大语言模型的推理性能，以便在选购硬件前评估其速度表现。",
+    "points": [
+     "支持多种主流 LLM，提供实时吞吐量与延迟报告。",
+     "可对比不同 GPU/CPU 配置，辅助硬件选型。",
+     "简单的 Web 界面，无需复杂部署。"
+    ],
+    "title": "Llmspeed – 在购买硬件前感受本地大语言模型的运行速度"
+   }
+  },
+  "hash": "7d02fddb1769b540"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -6705,6 +7111,20 @@
    }
   },
   "hash": "f71a59d0cf082d9f"
+ },
+ "lobsters:1zknyw": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了在种子网站上遭遇恶意行为，导致 Sonarr 自动下载系统被干扰的经历，并提供了排查和防御的思路。",
+    "points": [
+     "阐述了 torrent 站点用户对 Sonarr 自动化的恶意干预。",
+     "提供了检测异常请求和加强安全的实用建议。",
+     "强调在自托管媒体服务中保持网络安全的重要性。"
+    ],
+    "title": "Torrent 站点干扰我的 Sonarr 设置"
+   }
+  },
+  "hash": "e9d5849d0f145a10"
  },
  "lobsters:2h9opx": {
   "copy": {
@@ -6832,11 +7252,29 @@
   },
   "hash": "38317c7e9f496bee"
  },
+ "lobsters:61ujum": {
+  "copy": {
+   "zh": {
+    "blurb": "Ubuntu 官方发布了 2026 年 10 月的新版本 26.10，代号 Stonking Stingray，包含最新的软件包和安全更新。",
+    "points": [
+     "包含最新的开源软件和安全补丁。",
+     "支持最新硬件并改进了安装体验。"
+    ],
+    "title": "Ubuntu 26.10（Stonking Stingray）正式发布"
+   }
+  },
+  "hash": "945cbcff93c0ae4d"
+ },
  "lobsters:6laoto": {
   "copy": {
    "zh": {
-    "blurb": "回顾 iroh 项目从概念到 1.0 版的演进，阐述其网络传输层设计、去中心化目标以及近期实现的关键特性。",
-    "title": "通往 iroh 1.0 的道路"
+    "blurb": "iROH 团队在官方博客发布《The road to iroh 1.0》，回顾开发历程并介绍核心特性，重点包括系统架构改进、性能提升以及迁移指南。",
+    "points": [
+     "模块化设计提升系统可扩展性",
+     "网络协议优化显著降低延迟",
+     "提供详细迁移指南帮助用户升级"
+    ],
+    "title": "iROH 1.0 路线图"
    }
   },
   "hash": "27c11cf8fbd9d414"
@@ -7139,6 +7577,20 @@
   },
   "hash": "2894ad122b76e421"
  },
+ "lobsters:ddtqtn": {
+  "copy": {
+   "zh": {
+    "blurb": "NIST 椭圆曲线种子（Seeds）悬赏已被破解，研究者成功生成符合标准的种子值，提升了相关密码算法的安全性与可审计性。",
+    "points": [
+     "悬赏已被成功解出，提供了符合 NIST 标准的曲线种子",
+     "该成果有助于改进椭圆曲线密码实现的安全性",
+     "展示了对密码学挑战的社区协作与快速响应"
+    ],
+    "title": "NIST 椭圆曲线种子奖金已被领取"
+   }
+  },
+  "hash": "6858c79fecc154de"
+ },
  "lobsters:dodzdb": {
   "copy": {
    "zh": {
@@ -7183,6 +7635,20 @@
    }
   },
   "hash": "3ec713adb9b46e95"
+ },
+ "lobsters:e7rvsp": {
+  "copy": {
+   "zh": {
+    "blurb": "Codeberg 官方宣布停止 Codeberg Pages v2 服务，用户需迁移至基于 Git 的全新 Codeberg Pages，官方博客提供了详细迁移指南。",
+    "points": [
+     "宣布 Codeberg Pages v2 将在近期下线。",
+     "新页面基于 Git，提供更可靠的托管方式。",
+     "官方博客提供迁移步骤和注意事项。"
+    ],
+    "title": "Codeberg Pages v2 即将下线"
+   }
+  },
+  "hash": "0eb75e2376a30cb6"
  },
  "lobsters:e84scc": {
   "copy": {
@@ -7684,6 +8150,20 @@
   },
   "hash": "a5f8e7cc87c682d8"
  },
+ "lobsters:miwcai": {
+  "copy": {
+   "zh": {
+    "blurb": "作者探讨了让 LLM 同时生成代码和对应测试的做法，指出这种做法容易导致冗余、过度工程，并呼吁在团队规范中明确生成范围，以防代码质量受影响。",
+    "points": [
+     "同时生成代码和测试易导致冗余与过度工程",
+     "建议在团队规范中限定生成范围",
+     "实验表明测试质量不一定提升，代码可读性可能下降"
+    ],
+    "title": "LLM 能否同时编写代码与测试？"
+   }
+  },
+  "hash": "e9ac664d232eaa46"
+ },
  "lobsters:mkq3x9": {
   "copy": {
    "zh": {
@@ -7807,6 +8287,15 @@
    }
   },
   "hash": "c6d5535574af4919"
+ },
+ "lobsters:pllfoa": {
+  "copy": {
+   "zh": {
+    "blurb": "一个 GitHub 项目，重新实现旧版 Reddit 的界面，同时加入若干改进。",
+    "title": "orib：复刻旧版 Reddit 界面并添加新功能"
+   }
+  },
+  "hash": "9f83939f381d8391"
  },
  "lobsters:q0wobg": {
   "copy": {
@@ -8022,6 +8511,19 @@
   },
   "hash": "668f646ac99e6a0a"
  },
+ "lobsters:tty7hm": {
+  "copy": {
+   "zh": {
+    "blurb": "该视频分析了社交媒体时代的“取消文化”，探讨言论或行为导致公众人物被“取消”的成因、传播机制以及应对策略。",
+    "points": [
+     "剖析取消文化的产生与传播路径",
+     "提供应对取消的公共关系与声誉管理建议"
+    ],
+    "title": "Getting Canceled"
+   }
+  },
+  "hash": "f275a4e7125d6d6d"
+ },
  "lobsters:u4vlin": {
   "copy": {
    "zh": {
@@ -8077,6 +8579,15 @@
   },
   "hash": "debdc00300edde3c"
  },
+ "lobsters:uj7pqu": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇 Lobsters 帖子，探讨数学界为何转向远离 OpenAI，分析背后的原因。",
+    "title": "为何数学界抛弃 OpenAI"
+   }
+  },
+  "hash": "76859d8df02cad0f"
+ },
  "lobsters:umdbht": {
   "copy": {
    "zh": {
@@ -8122,8 +8633,13 @@
  "lobsters:v6hhdr": {
   "copy": {
    "zh": {
-    "blurb": "本文提供使用 ImageMagick 命令行批量生成 88×31 像素按钮图集（button book）的完整步骤和示例。",
-    "title": "使用 ImageMagick 制作 88×31 按钮书"
+    "blurb": "本文提供了利用 ImageMagick 脚本批量生成 88×31 像素按钮图集的方法，适用于论坛、博客等场景的快捷链接按钮，步骤简洁且高度可定制。",
+    "points": [
+     "使用 ImageMagick 脚本批量生成按钮",
+     "支持多种图像格式与自定义样式",
+     "生成的 88×31 按钮可直接嵌入 HTML"
+    ],
+    "title": "使用 ImageMagick 制作 88×31 按钮合集"
    }
   },
   "hash": "edfd9a27b47085b9"
@@ -8141,6 +8657,20 @@
    }
   },
   "hash": "fa0821f6d89cc56c"
+ },
+ "lobsters:vjmn84": {
+  "copy": {
+   "zh": {
+    "blurb": "文章提出“去相干陷阱”概念，警示当大量低质量 AI 输出充斥时，真实有价值的信号会被噪声掩盖，呼吁提升模型评估与过滤机制。",
+    "points": [
+     "阐述大量低质量 AI 输出如何压制有价值信息",
+     "指出当前评估体系可能忽视信号‑噪声比例",
+     "呼吁研发更严谨的过滤与质量控制方法"
+    ],
+    "title": "去相干陷阱：AI 噪声淹没有效信号的风险"
+   }
+  },
+  "hash": "f34cfb47df8941e4"
  },
  "lobsters:vvtzdj": {
   "copy": {
@@ -8179,6 +8709,20 @@
   },
   "hash": "994f0e01a38c1c15"
  },
+ "lobsters:wn293o": {
+  "copy": {
+   "zh": {
+    "blurb": "gopls 在 Go 语言工具链中加入交互式重构功能，开发者可以在 IDE 中预览并应用重构建议，提升代码安全性并减少手动修改工作。",
+    "points": [
+     "新增交互式重构，IDE 实时预览修改",
+     "通过 LSP 发送重构建议，提高代码安全性",
+     "可自定义重构规则，减少手动工作"
+    ],
+    "title": "gopls 交互式重构功能"
+   }
+  },
+  "hash": "aae3c053c91df299"
+ },
  "lobsters:wyxufm": {
   "copy": {
    "zh": {
@@ -8192,6 +8736,20 @@
    }
   },
   "hash": "4b43200063ce080a"
+ },
+ "lobsters:wzgadv": {
+  "copy": {
+   "zh": {
+    "blurb": "该视频论述了在 AI 与大数据时代，数学技能需求激增，学习数学可获得更广阔的职业前景。",
+    "points": [
+     "AI 与机器学习对高阶数学需求大幅提升。",
+     "数据科学、金融等行业对数学人才薪酬丰厚。",
+     "丰富的在线资源让自学门槛下降。"
+    ],
+    "title": "现在是投身数学的最佳时机"
+   }
+  },
+  "hash": "fa32a7fa200ffb2e"
  },
  "lobsters:x1ucie": {
   "copy": {
@@ -8252,6 +8810,20 @@
    }
   },
   "hash": "af13b1afddc036f6"
+ },
+ "lobsters:xwng6u": {
+  "copy": {
+   "zh": {
+    "blurb": "GNOME 项目正式推出 GNOME OS 预览版，展示基于 GNOME 桌面环境的完整操作系统概念，突出统一 UI、容器化应用以及强化系统安全的设计思路。",
+    "points": [
+     "采用容器化技术提供一致的 GNOME 体验",
+     "实现安全沙箱与自动更新机制",
+     "目标打造面向未来的轻量化 Linux 桌面系统"
+    ],
+    "title": "GNOME OS 预览版发布"
+   }
+  },
+  "hash": "91dfa131efbb67f4"
  },
  "lobsters:xz6sst": {
   "copy": {

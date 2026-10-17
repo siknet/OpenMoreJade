@@ -498,7 +498,7 @@
    "sourceKey": "gh:jnmetacode/superpowers-zh"
   },
   "discovery:gh:krillinai/opencreator": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:krillinai/opencreator",
@@ -520,8 +520,8 @@
      "zh": "OpenCreator：面向创作者的开源 AI 工作空间"
     },
     "topics": [
-     "trend:monthly",
-     "trend:daily"
+     "trend:daily",
+     "trend:monthly"
     ],
     "type": "repo",
     "url": "https://github.com/krillinai/OpenCreator",
@@ -567,7 +567,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -642,7 +642,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -792,7 +792,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -804,14 +804,14 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-16T16:32:50.000Z",
+    "sourceUpdatedAt": "2026-10-17T05:35:39.000Z",
     "summary": {
-     "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
+     "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+     "zh": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。"
     },
     "title": {
      "en": "stablyai/orca",
-     "zh": "Orca – 并行代理 fleet 的 ADE 平台"
+     "zh": ""
     },
     "topics": [
      "ade",
@@ -827,7 +827,7 @@
     "url": "https://github.com/stablyai/orca",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
     }
    },
    "sourceKey": "gh:stablyai/orca"
@@ -1140,7 +1140,7 @@
    "sourceKey": "hn:50080275"
   },
   "discovery:hn:50119748": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50119748",
@@ -3359,14 +3359,14 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-16T16:32:50.000Z",
+    "sourceUpdatedAt": "2026-10-17T05:35:39.000Z",
     "summary": {
-     "en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 为管理大规模并行 AI 代理提供应用开发环境（ADE），支持桌面、移动及远程运行，可通过订阅使用任意编码代理。"
+     "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+     "zh": "Orca 是用于管理一组智能体（如 Grok Bot、Codex）的平台，支持使用个人订阅运行任意编码智能体，可在桌面、移动端和远程运行时使用。"
     },
     "title": {
      "en": "stablyai/orca",
-     "zh": "Orca – 并行代理 fleet 的 ADE 平台"
+     "zh": ""
     },
     "topics": [
      "ade",
@@ -3382,7 +3382,7 @@
     "url": "https://github.com/stablyai/orca",
     "why": {
      "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
-     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。简化多代理系统的部署与监控，提升团队在复杂任务上的生产力。"
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
     }
    }
   },

@@ -27,6 +27,16 @@
   "summary": "At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. We don’t expect this rate of growth to slow down anytime soon; the latent demand for merging code",
   "url": "https://www.anthropic.com/engineering/redesigning-source-control"
  },
+ "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "at": "2026-10-17T05:35:47.862Z",
+  "summary": "Quantum computers will need carefully designed circuits to run useful algorithms on limited hardware. We gave Claude plain-language specifications for eight such circuits, drawn from chemistry, optimization, physics simulation, and number theory, along with an automated evaluator that checks and scores each design. Working largely on its own, Claude found designs that improve on the best published circuits, in some cases by an order of magnitude or more. Such improvements substantially reduce the quantum resources that useful applications require, so practical quantum computers could arrive so",
+  "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+ },
+ "https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "at": "2026-10-17T05:35:47.862Z",
+  "summary": "“It’s just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic standards has been explained. We pursued this long-standing open question of the cryptographic community to settle concerns about ECDSA, which is one of our most widely used cryptographic standards. Readers should take this as a fun closing chapter and the end of years of speculation. There is no action to be taken or things to do differently. Most researchers trusted the curves already. Enjoy. ECDSA is the most widely used elliptic curve cryptography standard. It was adopted by NIST in 2000",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+ },
  "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/": {
   "at": "2026-10-10T15:06:36.105Z"
  }

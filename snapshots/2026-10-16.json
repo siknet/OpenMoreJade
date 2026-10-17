@@ -11010,21 +11010,21 @@
    "category": "discussion",
    "key": "hn:50105647",
    "metrics": {
-    "comments": 306,
+    "comments": 325,
     "frontPage": 0,
-    "points": 772
+    "points": 803
    },
    "news": {
     "author": "themgt",
-    "comments": 306,
+    "comments": 325,
     "createdAt": "2026-10-15T16:04:01.000Z",
     "domain": "already-clean.goodfire.com",
     "hnId": 50105647,
     "hnUrl": "https://news.ycombinator.com/item?id=50105647",
-    "points": 772,
-    "showRank": 4
+    "points": 803,
+    "showRank": 2
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T16:04:01.000Z",
    "refs": [
     "x:2110757819427574056",
@@ -11133,21 +11133,21 @@
    "category": "discussion",
    "key": "hn:50106738",
    "metrics": {
-    "comments": 82,
+    "comments": 89,
     "frontPage": 0,
-    "points": 249
+    "points": 253
    },
    "news": {
     "author": "sunshowers",
-    "comments": 82,
+    "comments": 89,
     "createdAt": "2026-10-15T17:05:19.000Z",
     "domain": "sunshowers.io",
     "hnId": 50106738,
     "hnUrl": "https://news.ycombinator.com/item?id=50106738",
-    "points": 249,
-    "showRank": 32
+    "points": 253,
+    "showRank": 25
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T17:05:19.000Z",
    "refs": [
     "hn:50073633",
@@ -11212,6 +11212,46 @@
   {
    "board": "news",
    "category": "tool",
+   "key": "hn:50118153",
+   "metrics": {
+    "comments": 1,
+    "frontPage": 0,
+    "points": 7
+   },
+   "news": {
+    "author": "Feyd",
+    "comments": 1,
+    "createdAt": "2026-10-16T13:28:36.000Z",
+    "domain": "github.com",
+    "hnId": 50118153,
+    "hnUrl": "https://news.ycombinator.com/item?id=50118153",
+    "points": 7,
+    "showRank": 15
+   },
+   "observedAt": "2026-10-17T05:35:47.862Z",
+   "publishedAt": "2026-10-16T13:28:36.000Z",
+   "refs": [
+    "gh:valeriodolci/capy-flash"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:model",
+     "weak:gpu",
+     "cat:show hn"
+    ],
+    "score": 0.4
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Show HN: Capy-flash – a 125B MoE model on two 16 GB consumer GPUs",
+   "url": "https://github.com/ValerioDolci/capy-flash"
+  },
+  {
+   "board": "news",
+   "category": "tool",
    "key": "hn:50118303",
    "metrics": {
     "comments": 0,
@@ -11255,21 +11295,21 @@
    "category": "tool",
    "key": "hn:50118688",
    "metrics": {
-    "comments": 42,
+    "comments": 90,
     "frontPage": 0,
-    "points": 60
+    "points": 206
    },
    "news": {
     "author": "__cayenne__",
-    "comments": 42,
+    "comments": 90,
     "createdAt": "2026-10-16T14:18:44.000Z",
     "domain": "starskirmish.com",
     "hnId": 50118688,
     "hnUrl": "https://news.ycombinator.com/item?id=50118688",
-    "points": 60,
-    "showRank": 4
+    "points": 206,
+    "showRank": 2
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T14:18:44.000Z",
    "refs": [
     "url:starskirmish.com/bench/v0-2"
@@ -11333,21 +11373,21 @@
    "category": "tool",
    "key": "hn:50118876",
    "metrics": {
-    "comments": 5,
+    "comments": 19,
     "frontPage": 0,
-    "points": 15
+    "points": 51
    },
    "news": {
     "author": "stephenchung",
-    "comments": 5,
+    "comments": 19,
     "createdAt": "2026-10-16T14:35:43.000Z",
     "domain": "rstation.ai",
     "hnId": 50118876,
     "hnUrl": "https://news.ycombinator.com/item?id=50118876",
-    "points": 15,
-    "showRank": 2
+    "points": 51,
+    "showRank": 6
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T14:35:43.000Z",
    "refs": [
     "url:rstation.ai"
@@ -11415,21 +11455,21 @@
    "category": "tool",
    "key": "hn:50119752",
    "metrics": {
-    "comments": 6,
+    "comments": 11,
     "frontPage": 0,
-    "points": 10
+    "points": 26
    },
    "news": {
     "author": "relatedcode",
-    "comments": 6,
+    "comments": 11,
     "createdAt": "2026-10-16T15:38:35.000Z",
     "domain": "onedeploy.co",
     "hnId": 50119752,
     "hnUrl": "https://news.ycombinator.com/item?id=50119752",
-    "points": 10,
-    "showRank": 1
+    "points": 26,
+    "showRank": 9
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T15:38:35.000Z",
    "refs": [
     "url:onedeploy.co"
@@ -11454,29 +11494,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jess Lee",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-16T13:00:00Z",
     "domain": "dev.to",
     "id": 4766369,
-    "points": 6,
+    "points": 13,
     "url": "https://dev.to/devteam/what-was-your-win-this-week-36am"
    },
    "key": "devto:4766369",
    "metrics": {
-    "comments": 8,
+    "comments": 12,
     "frontPage": 0,
-    "points": 6
+    "points": 13
    },
    "news": {
     "author": "Jess Lee",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-16T13:00:00Z",
     "domain": "dev.to",
     "hnId": 4766369,
     "hnUrl": "https://dev.to/devteam/what-was-your-win-this-week-36am",
-    "points": 6
+    "points": 13
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T13:00:00Z",
    "refs": [],
    "relevance": {
@@ -11506,14 +11546,14 @@
     "createdAt": "2026-10-16T14:52:20Z",
     "domain": "dev.to",
     "id": 4857516,
-    "points": 6,
+    "points": 7,
     "url": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"
    },
    "key": "devto:4857516",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 6
+    "points": 7
    },
    "news": {
     "author": "Evan Lin",
@@ -11522,9 +11562,9 @@
     "domain": "dev.to",
     "hnId": 4857516,
     "hnUrl": "https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli",
-    "points": 6
+    "points": 7
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T14:52:20Z",
    "refs": [],
    "relevance": {
@@ -11575,7 +11615,7 @@
     "hnUrl": "https://dev.to/gde/duckless-serverless-duckdb-on-google-cloud-in-your-own-project-4o5a",
     "points": 11
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T16:38:38Z",
    "refs": [],
    "relevance": {
@@ -12856,14 +12896,14 @@
     "createdAt": "2026-10-16T05:36:01Z",
     "domain": "dev.to",
     "id": 4860170,
-    "points": 6,
+    "points": 8,
     "url": "https://dev.to/gde/building-ora-tui-with-google-antigravity-gemini-4-argon-an-ms-dos-retro-tui-opentelemetry-4d02"
    },
    "key": "devto:4860170",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 6
+    "points": 8
    },
    "news": {
     "author": "Mario Ezquerro",
@@ -12872,9 +12912,9 @@
     "domain": "dev.to",
     "hnId": 4860170,
     "hnUrl": "https://dev.to/gde/building-ora-tui-with-google-antigravity-gemini-4-argon-an-ms-dos-retro-tui-opentelemetry-4d02",
-    "points": 6
+    "points": 8
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T05:36:01Z",
    "refs": [],
    "relevance": {
@@ -13479,14 +13519,14 @@
     "createdAt": "2026-10-16T10:40:30Z",
     "domain": "dev.to",
     "id": 4861743,
-    "points": 2,
+    "points": 5,
     "url": "https://dev.to/shouvik12/a-star-is-vanity-this-one-wasnt-1hnh"
    },
    "key": "devto:4861743",
    "metrics": {
     "comments": 3,
     "frontPage": 0,
-    "points": 2
+    "points": 5
    },
    "news": {
     "author": "Shouvik Palit",
@@ -13495,9 +13535,9 @@
     "domain": "dev.to",
     "hnId": 4861743,
     "hnUrl": "https://dev.to/shouvik12/a-star-is-vanity-this-one-wasnt-1hnh",
-    "points": 2
+    "points": 5
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T10:40:30Z",
    "refs": [],
    "relevance": {
@@ -14203,7 +14243,7 @@
    "category": "engineering",
    "devto": {
     "author": "xbill",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-16T15:14:10Z",
     "domain": "dev.to",
     "id": 4863183,
@@ -14212,20 +14252,20 @@
    },
    "key": "devto:4863183",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
     "points": 7
    },
    "news": {
     "author": "xbill",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-16T15:14:10Z",
     "domain": "dev.to",
     "hnId": 4863183,
     "hnUrl": "https://dev.to/gde/dont-assume-your-cloud-t4-runs-at-spec-gemma-4-decode-falls-7-as-the-card-warms-3fd3",
     "points": 7
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T15:14:10Z",
    "refs": [],
    "relevance": {
@@ -14463,28 +14503,28 @@
    "key": "lobsters:1iin5o",
    "lobsters": {
     "author": "calvin",
-    "comments": 16,
+    "comments": 20,
     "createdAt": "2026-10-15T17:48:19.614-05:00",
     "domain": "codon.org.uk",
-    "points": 29,
+    "points": 36,
     "shortId": "1iin5o",
     "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 20,
     "frontPage": 0,
-    "points": 29
+    "points": 36
    },
    "news": {
     "author": "calvin",
-    "comments": 16,
+    "comments": 20,
     "createdAt": "2026-10-15T17:48:19.614-05:00",
     "domain": "codon.org.uk",
     "hnId": 91569084,
     "hnUrl": "https://lobste.rs/s/1iin5o/epic_s_eac2_v2_seems_fairly_easily",
-    "points": 29
+    "points": 36
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T17:48:19.614-05:00",
    "refs": [],
    "relevance": {
@@ -14563,28 +14603,28 @@
    "key": "lobsters:6laoto",
    "lobsters": {
     "author": "Frando",
-    "comments": 3,
+    "comments": 11,
     "createdAt": "2026-10-16T07:02:05.882-05:00",
     "domain": "iroh.computer",
-    "points": 17,
+    "points": 50,
     "shortId": "6laoto",
     "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 11,
     "frontPage": 0,
-    "points": 17
+    "points": 50
    },
    "news": {
     "author": "Frando",
-    "comments": 3,
+    "comments": 11,
     "createdAt": "2026-10-16T07:02:05.882-05:00",
     "domain": "iroh.computer",
     "hnId": 398567724,
     "hnUrl": "https://lobste.rs/s/6laoto/road_iroh_1_0",
-    "points": 17
+    "points": 50
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T07:02:05.882-05:00",
    "refs": [],
    "relevance": {
@@ -14615,14 +14655,14 @@
     "comments": 0,
     "createdAt": "2026-10-16T10:41:08.721-05:00",
     "domain": "calif.io",
-    "points": 3,
+    "points": 29,
     "shortId": "cxlrc5",
     "url": "https://calif.io/research/big-fish"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 3
+    "points": 29
    },
    "news": {
     "author": "friday",
@@ -14631,9 +14671,9 @@
     "domain": "calif.io",
     "hnId": 782036645,
     "hnUrl": "https://lobste.rs/s/cxlrc5/big_fish_exploiting_37_year_old_kernel_bug",
-    "points": 3
+    "points": 29
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T10:41:08.721-05:00",
    "refs": [],
    "relevance": {
@@ -14662,28 +14702,28 @@
    "key": "lobsters:enjlpn",
    "lobsters": {
     "author": "Yogthos",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T17:25:03.621-05:00",
     "domain": "already-clean.goodfire.com",
-    "points": 2,
+    "points": 4,
     "shortId": "enjlpn",
     "url": "https://already-clean.goodfire.com/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 2
+    "points": 4
    },
    "news": {
     "author": "Yogthos",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-15T17:25:03.621-05:00",
     "domain": "already-clean.goodfire.com",
     "hnId": 886072235,
     "hnUrl": "https://lobste.rs/s/enjlpn/neural_networks_are_already_clean",
-    "points": 2
+    "points": 4
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T17:25:03.621-05:00",
    "refs": [],
    "relevance": {
@@ -14781,7 +14821,7 @@
     "hnUrl": "https://lobste.rs/s/fi9d4c/github_actions_workflow_lockfiles",
     "points": 2
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T16:00:32.001-05:00",
    "refs": [],
    "relevance": {
@@ -14809,28 +14849,28 @@
    "key": "lobsters:hounpx",
    "lobsters": {
     "author": "caius",
-    "comments": 17,
+    "comments": 26,
     "createdAt": "2026-10-16T03:19:09.534-05:00",
     "domain": "lobste.rs",
-    "points": 10,
+    "points": 12,
     "shortId": "hounpx",
     "url": "https://lobste.rs/s/hounpx/what_are_you_doing_this_weekend"
    },
    "metrics": {
-    "comments": 17,
+    "comments": 26,
     "frontPage": 0,
-    "points": 10
+    "points": 12
    },
    "news": {
     "author": "caius",
-    "comments": 17,
+    "comments": 26,
     "createdAt": "2026-10-16T03:19:09.534-05:00",
     "domain": "lobste.rs",
     "hnId": 1069666197,
     "hnUrl": "https://lobste.rs/s/hounpx/what_are_you_doing_this_weekend",
-    "points": 10
+    "points": 12
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T03:19:09.534-05:00",
    "refs": [],
    "relevance": {
@@ -14862,14 +14902,14 @@
     "comments": 7,
     "createdAt": "2026-10-15T15:22:14.682-05:00",
     "domain": "bipm.org",
-    "points": 33,
+    "points": 44,
     "shortId": "ipyrkv",
     "url": "https://www.bipm.org/en/cgpm-2026/resolution-5"
    },
    "metrics": {
     "comments": 7,
     "frontPage": 0,
-    "points": 33
+    "points": 44
    },
    "news": {
     "author": "JulianWgs",
@@ -14878,9 +14918,9 @@
     "domain": "bipm.org",
     "hnId": 1132003615,
     "hnUrl": "https://lobste.rs/s/ipyrkv/on_technical_actions_needed_ensure",
-    "points": 33
+    "points": 44
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T15:22:14.682-05:00",
    "refs": [],
    "relevance": {
@@ -15007,28 +15047,28 @@
    "key": "lobsters:q0wobg",
    "lobsters": {
     "author": "ggpsv",
-    "comments": 2,
+    "comments": 5,
     "createdAt": "2026-10-15T22:25:49.491-05:00",
     "domain": "dataswamp.org",
-    "points": 25,
+    "points": 28,
     "shortId": "q0wobg",
     "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 5,
     "frontPage": 0,
-    "points": 25
+    "points": 28
    },
    "news": {
     "author": "ggpsv",
-    "comments": 2,
+    "comments": 5,
     "createdAt": "2026-10-15T22:25:49.491-05:00",
     "domain": "dataswamp.org",
     "hnId": 1573645084,
     "hnUrl": "https://lobste.rs/s/q0wobg/my_self_hosted_infrastructure_with_incus",
-    "points": 25
+    "points": 28
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T22:25:49.491-05:00",
    "refs": [],
    "relevance": {
@@ -15108,28 +15148,28 @@
    "key": "lobsters:qvomvk",
    "lobsters": {
     "author": "dcao",
-    "comments": 7,
+    "comments": 13,
     "createdAt": "2026-10-16T00:28:29.452-05:00",
     "domain": "terrytao.wordpress.com",
-    "points": 40,
+    "points": 95,
     "shortId": "qvomvk",
     "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/"
    },
    "metrics": {
-    "comments": 7,
+    "comments": 13,
     "frontPage": 0,
-    "points": 40
+    "points": 95
    },
    "news": {
     "author": "dcao",
-    "comments": 7,
+    "comments": 13,
     "createdAt": "2026-10-16T00:28:29.452-05:00",
     "domain": "terrytao.wordpress.com",
     "hnId": 1625338064,
     "hnUrl": "https://lobste.rs/s/qvomvk/why_are_we_even_doing_all_this",
-    "points": 40
+    "points": 95
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T00:28:29.452-05:00",
    "refs": [],
    "relevance": {
@@ -15212,14 +15252,14 @@
     "comments": 7,
     "createdAt": "2026-10-15T18:03:00.345-05:00",
     "domain": "blog.rust-lang.org",
-    "points": 22,
+    "points": 31,
     "shortId": "ttcx5k",
     "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/"
    },
    "metrics": {
     "comments": 7,
     "frontPage": 0,
-    "points": 22
+    "points": 31
    },
    "news": {
     "author": "BD103",
@@ -15228,9 +15268,9 @@
     "domain": "blog.rust-lang.org",
     "hnId": 1802830808,
     "hnUrl": "https://lobste.rs/s/ttcx5k/announcing_rust_1_99_1",
-    "points": 22
+    "points": 31
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T18:03:00.345-05:00",
    "refs": [],
    "relevance": {
@@ -15259,28 +15299,28 @@
    "key": "lobsters:v6hhdr",
    "lobsters": {
     "author": "nathell",
-    "comments": 2,
+    "comments": 9,
     "createdAt": "2026-10-16T06:21:12.937-05:00",
     "domain": "k.sosnierz.me",
-    "points": 21,
+    "points": 38,
     "shortId": "v6hhdr",
     "url": "https://k.sosnierz.me/08-11-24/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 9,
     "frontPage": 0,
-    "points": 21
+    "points": 38
    },
    "news": {
     "author": "nathell",
-    "comments": 2,
+    "comments": 9,
     "createdAt": "2026-10-16T06:21:12.937-05:00",
     "domain": "k.sosnierz.me",
     "hnId": 1885344831,
     "hnUrl": "https://lobste.rs/s/v6hhdr/making_88x31_button_book_using",
-    "points": 21
+    "points": 38
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T06:21:12.937-05:00",
    "refs": [],
    "relevance": {
@@ -15308,28 +15348,28 @@
    "key": "lobsters:vemho2",
    "lobsters": {
     "author": "hugoarnal",
-    "comments": 6,
+    "comments": 9,
     "createdAt": "2026-10-15T14:43:19.853-05:00",
     "domain": "forgejo.org",
-    "points": 53,
+    "points": 55,
     "shortId": "vemho2",
     "url": "https://forgejo.org/2026-10-release-v17-0/"
    },
    "metrics": {
-    "comments": 6,
+    "comments": 9,
     "frontPage": 0,
-    "points": 53
+    "points": 55
    },
    "news": {
     "author": "hugoarnal",
-    "comments": 6,
+    "comments": 9,
     "createdAt": "2026-10-15T14:43:19.853-05:00",
     "domain": "forgejo.org",
     "hnId": 1899015410,
     "hnUrl": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
-    "points": 53
+    "points": 55
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T14:43:19.853-05:00",
    "refs": [],
    "relevance": {
@@ -15458,28 +15498,28 @@
    "key": "lobsters:xcacrh",
    "lobsters": {
     "author": "lettuce",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-16T07:54:20.978-05:00",
     "domain": "github.com",
-    "points": 5,
+    "points": 12,
     "shortId": "xcacrh",
     "url": "https://github.com/stepchowfun/mull"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 8,
     "frontPage": 0,
-    "points": 5
+    "points": 12
    },
    "news": {
     "author": "lettuce",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-16T07:54:20.978-05:00",
     "domain": "github.com",
     "hnId": 2016022301,
     "hnUrl": "https://lobste.rs/s/xcacrh/mull_note_taking_with_language_server",
-    "points": 5
+    "points": 12
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-16T07:54:20.978-05:00",
    "refs": [
     "gh:stepchowfun/mull"
@@ -15509,28 +15549,28 @@
    "key": "lobsters:xiq59t",
    "lobsters": {
     "author": "thang",
-    "comments": 110,
+    "comments": 149,
     "createdAt": "2026-10-15T21:50:33.788-05:00",
     "domain": "lore.kernel.org",
-    "points": 69,
+    "points": 85,
     "shortId": "xiq59t",
     "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/"
    },
    "metrics": {
-    "comments": 110,
+    "comments": 149,
     "frontPage": 0,
-    "points": 69
+    "points": 85
    },
    "news": {
     "author": "thang",
-    "comments": 110,
+    "comments": 149,
     "createdAt": "2026-10-15T21:50:33.788-05:00",
     "domain": "lore.kernel.org",
     "hnId": 2026836785,
     "hnUrl": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
-    "points": 69
+    "points": 85
    },
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-17T05:35:47.862Z",
    "publishedAt": "2026-10-15T21:50:33.788-05:00",
    "refs": [],
    "relevance": {
@@ -15555,60 +15595,67 @@
   }
  ],
  "date": "2026-10-16",
- "fetchedAt": "2026-10-16T16:36:59.199Z",
+ "fetchedAt": "2026-10-17T05:35:47.862Z",
  "runs": [
   "2026-10-15T16:59:07.183Z",
   "2026-10-16T05:50:29.897Z",
-  "2026-10-16T16:36:59.199Z"
+  "2026-10-16T16:36:59.199Z",
+  "2026-10-17T05:35:47.862Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
-   "count": 60,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "count": 59,
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "dev-to",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 314,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "count": 315,
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "github-search",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 173,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "count": 171,
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "github-trending",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 74,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 98,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "count": 96,
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "lobsters",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15616,15 +15663,16 @@
   {
    "board": "social",
    "count": 2,
-   "fetchedAt": "2026-10-16T16:36:59.199Z",
+   "fetchedAt": "2026-10-17T05:35:47.862Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-17T05:35:47.862Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-15T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-16T16:00:00.000Z"
  }
