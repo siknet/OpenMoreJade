@@ -192,16 +192,16 @@
   "brief": {
    "zh": {
     "bullets": [
-     "Ebony‑Vinyl 在 dsh 插件中提供无需登录的前沿模型，包括 DeepSeek V4.1 Flash，用户可免费无限使用 [repos#1] [hf#1]",
-     "开源编码代理工具激增，AnomalyCo 的 opencode、Anthropic 的 Claude Code 以及 StablyAI 的 Orca 为本地或云端代码助手提供多模型支持 [repos#2] [repos#5] [repos#10]",
-     "多模态创作工具蔚然成形，Hypit 可一键生成数百种视频变体，VoiceStudio 提供全本地 646 语言语音克隆，Flux‑3 系列模型进一步提升图像‑图像转换质量 [repos#7] [repos#8] [hf#2] [hf#4]",
-     "数据检索与嵌入新方案出现，XERJ 通过自动索引让 AI 直接搜索代码、文档等，Google 的 embeddinggemma‑2 为特征提取提供高效模型 [repos#6] [hf#3]",
-     "AI 安全事件仍频发，OpenAI 披露四起违规案例，同时社区关注 MCPX 服务器目录扫描和 Xbox 360 KVM 越狱等安全漏洞 [news#1] [news#4] [lobsters#2]"
+     "Ebony-Vinyl发布dsh插件，免登录即可免费使用DeepSeek V4.1 Flash、Kimi K3等前沿模型【repos#1】；同在HF上DeepSeek‑V4.1‑Flash热度最高【hf#1】",
+     "多款开源代理工具涌现：Claude Code终端编程助手、magpie统一模型菜单、hypit视频克隆、opencode编码代理等提升本地AI工作流【repos#6】【repos#8】【repos#4】【repos#2】",
+     "社区关注本地安全与成本：Hacker News报道DeepSeek按请求计费仅0.75美元/千次【news#1】；另有用户展示使用gVisor沙箱本地LLM实现安全代理【news#7】",
+     "视觉生成模型Flux‑3系列在HF上得分高，显示本地图像生成技术的进步【hf#2】【hf#4】",
+     "代码生成基准测试与OpenAI安全事件提示业界对模型可靠性与安全性的审视升温【news#4】【news#3】"
     ],
-    "headline": "前沿模型免费可用，AI代理与多模态工具快速迭代"
+    "headline": "本地免费AI模型与代理工具激增，DeepSeek免费插件与开源Agent项目受热捧"
    }
   },
-  "hash": "74b19b1b029ba2cd"
+  "hash": "77afebf8f37ce262"
  },
  "2026-W41": {
   "brief": {

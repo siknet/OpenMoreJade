@@ -121,6 +121,40 @@
    },
    "sourceKey": "devto:4859436"
   },
+  "discovery:gh:anthropics/claude-quickstarts": {
+   "observedAt": "2026-10-18T15:50:57.057Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:anthropics/claude-quickstarts",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-18T15:50:57.057Z",
+    "summary": {
+     "en": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+     "zh": "GitHub 仓库提供多种基于 Claude API 的 TypeScript 示例项目，帮助开发者快速搭建可部署的应用。"
+    },
+    "title": {
+     "en": "anthropics/claude-quickstarts",
+     "zh": "anthropics/claude-quickstarts：Claude API 快速入门项目集"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:anthropics/claude-quickstarts"
+  },
   "discovery:gh:apify/apify-mcp-server": {
    "observedAt": "2026-10-15T05:54:07.945Z",
    "resource": {
@@ -307,7 +341,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-18T05:52:35.283Z",
+   "observedAt": "2026-10-18T15:50:57.057Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -643,7 +677,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-18T05:52:35.283Z",
+   "observedAt": "2026-10-18T15:50:57.057Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -655,7 +689,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-18T05:36:47.000Z",
+    "sourceUpdatedAt": "2026-10-18T06:16:56.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
      "zh": "在本机运行的 AI 求职工具，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，开源可自行 Fork 使用。"
@@ -793,7 +827,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-18T05:52:35.283Z",
+   "observedAt": "2026-10-18T15:50:57.057Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -805,14 +839,14 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-18T05:51:15.000Z",
+    "sourceUpdatedAt": "2026-10-18T15:43:52.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": "Orca 是一个用于管理一组 AI 代理（如 Grok Bot、Claude Code）的平台。用户可使用自己的订阅运行任意编码代理，支持桌面、移动端和远程运行时。"
+     "zh": ""
     },
     "title": {
      "en": "stablyai/orca",
-     "zh": "Orca 多代理平台"
+     "zh": ""
     },
     "topics": [
      "ade",
@@ -1174,7 +1208,7 @@
    "sourceKey": "hn:50119748"
   },
   "discovery:hn:50137043": {
-   "observedAt": "2026-10-18T05:52:35.283Z",
+   "observedAt": "2026-10-18T15:50:57.057Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50137043",
@@ -2174,6 +2208,41 @@
     "why": {
      "en": "Useful for comparing coding workflows across models.",
      "zh": "适合想比较不同模型编程工作流的人。"
+    }
+   }
+  },
+  "https://github.com/anthropics/claude-quickstarts": {
+   "days": {
+    "2026-10-18": 75
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:anthropics/claude-quickstarts",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-18T15:50:57.057Z",
+    "summary": {
+     "en": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+     "zh": "GitHub 仓库提供多种基于 Claude API 的 TypeScript 示例项目，帮助开发者快速搭建可部署的应用。"
+    },
+    "title": {
+     "en": "anthropics/claude-quickstarts",
+     "zh": "anthropics/claude-quickstarts：Claude API 快速入门项目集"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
     }
    }
   },
@@ -3424,8 +3493,7 @@
    "days": {
     "2026-10-10": 75,
     "2026-10-16": 75,
-    "2026-10-17": 75,
-    "2026-10-18": 75
+    "2026-10-17": 75
    },
    "resource": {
     "freshnessBasis": "repo-updated",
@@ -4899,6 +4967,13 @@
    "initial": true,
    "returns": 0
   },
+  "https://github.com/anthropics/claude-quickstarts": {
+   "active": true,
+   "currentEnteredAt": "2026-10-18T15:50:57.057Z",
+   "firstEnteredAt": "2026-10-18T15:50:57.057Z",
+   "initial": false,
+   "returns": 0
+  },
   "https://github.com/apify/apify-mcp-server": {
    "active": false,
    "currentEnteredAt": "2026-10-14T06:07:58.904Z",
@@ -5152,7 +5227,7 @@
    "returns": 0
   },
   "https://github.com/stablyai/orca": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-16T05:50:29.897Z",
    "firstEnteredAt": "2026-10-10T07:04:56.138Z",
    "initial": false,
@@ -5470,6 +5545,7 @@
   "https://github.com/acly/krita-ai-diffusion": "2026-10-06T09:37:13.355Z",
   "https://github.com/aider-ai/aider": "2026-10-06T09:37:13.355Z",
   "https://github.com/anomalyco/opencode": "2026-10-06T09:37:13.355Z",
+  "https://github.com/anthropics/claude-quickstarts": "2026-10-18T15:50:57.057Z",
   "https://github.com/apify/apify-mcp-server": "2026-10-14T06:07:58.904Z",
   "https://github.com/calesthio/openmontage": "2026-10-06T09:37:13.355Z",
   "https://github.com/canonry/canonry": "2026-10-16T16:36:59.199Z",

@@ -3441,6 +3441,20 @@
   },
   "hash": "83c824ed7244ca0c"
  },
+ "devto:4868674": {
+  "copy": {
+   "zh": {
+    "blurb": "Munshi 用 4B 大模型读取客人信息，Python 作决策层，Temporal 负责房间预订编排，实现通过 WhatsApp 完成前台接待的完整工作流。",
+    "points": [
+     "4B 模型负责自然语言读取",
+     "Python 决策层实现业务逻辑",
+     "Temporal 编排确保预订流程可靠"
+    ],
+    "title": "Munshi：小型酒店的 WhatsApp 前台，4B 模型读取，Python 决策，Temporal 编排"
+   }
+  },
+  "hash": "86658cc7f68a3689"
+ },
  "devto:4869380": {
   "copy": {
    "zh": {
@@ -3476,6 +3490,15 @@
    }
   },
   "hash": "99146d1098ae9c17"
+ },
+ "devto:4869614": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第2周提交的项目，使用 WhatsApp 实现多语言点单表，避免猜测订单，提升烘焙师工作效率。",
+    "title": "‘Kal’意为昨天和明天：为家庭烘焙师打造永不出错的 WhatsApp 点单表"
+   }
+  },
+  "hash": "e09d7160fb8ae4ba"
  },
  "devto:4869721": {
   "copy": {
@@ -3620,6 +3643,131 @@
   },
   "hash": "4db4353ada888e65"
  },
+ "devto:4871504": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在Dev.to分享了如何构建一个使用FalkorDB的自主语音医疗助理，并已在实际场景中挽救生命。",
+    "points": [
+     "利用FalkorDB实现高效的状态管理和查询",
+     "语音交互模块实现实时患者对话",
+     "系统在真实医疗环境中验证并成功救治患者"
+    ],
+    "title": "基于FalkorDB的自主语音医疗助理"
+   }
+  },
+  "hash": "f91160ce0a017a6a"
+ },
+ "devto:4872016": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest AI 挑战第二周提交的项目，利用 Google Gemma 2 构建 100% 本地运行的烘焙与微餐饮利润引擎，实现从订单到利润的全链路自动化。",
+    "points": [
+     "全本地部署，无云依赖",
+     "基于 Google Gemma 2 的生成能力",
+     "专注小型烘焙业务的利润模型"
+    ],
+    "title": "BakeCraft AI：本地化小型烘焙与微餐饮盈利引擎，使用 Google Gemma 2"
+   }
+  },
+  "hash": "439116b60f967c30"
+ },
+ "devto:4872126": {
+  "copy": {
+   "zh": {
+    "blurb": "深入解析 TDK CLI 用 TypeScript 实现的 Starlark 引擎，讲解其架构、核心实现与可扩展性。",
+    "points": [
+     "阐述 Starlark 在 TypeScript 中的集成方式。",
+     "拆解引擎内部结构，帮助理解执行流程。",
+     "为二次开发者提供扩展和定制的参考。"
+    ],
+    "title": "我阅读了 TDK 的 Starlark 引擎，帮你省事"
+   }
+  },
+  "hash": "42dcb1c340f9cd7c"
+ },
+ "devto:4872147": {
+  "copy": {
+   "zh": {
+    "blurb": "宣布 TDK CLI 在 Hacktoberfest 的贡献者名人堂，列出可参与的开放 issue 并按组归类，鼓励社区贡献。",
+    "points": [
+     "展示社区在 Hacktoberfest 期间的优秀贡献。",
+     "提供可直接上手的 issue 列表，降低参与门槛。",
+     "通过名人堂提升贡献者可见度和认可度。"
+    ],
+    "title": "欢迎来到 TDK CLI 名人堂（Hacktoberfest 版）"
+   }
+  },
+  "hash": "296dde66e73d4163"
+ },
+ "devto:4872152": {
+  "copy": {
+   "zh": {
+    "blurb": "详细说明 TDK CLI 名人堂的排名机制，基于更难伪造的贡献指标，给出提升排名的实用建议。",
+    "points": [
+     "排名依据真实贡献价值而非仅仅 PR 数量。",
+     "提供提升排名的具体行动指南，如高质量 PR。",
+     "鼓励持续、深度的社区参与。"
+    ],
+    "title": "TDK CLI 名人堂有排名，教你如何提升"
+   }
+  },
+  "hash": "0095c9663e90a90e"
+ },
+ "devto:4872190": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第 2 周提交的文章，作者为自由职业者开发了一个脱机（air‑gapped）AI 合同审计工具，帮助审查合同并作为副业赚取收入。",
+    "title": "自由职业者的法律防护：打造离线 AI 合同审计工具与副业"
+   }
+  },
+  "hash": "aabd6aae5fa4d9b7"
+ },
+ "devto:4872266": {
+  "copy": {
+   "zh": {
+    "blurb": "开源 Android AI 代理，用户只需一句话即可让手机发布帖子、拨打电话、拍照等操作，基于 Gemini 模型实现跨应用自动化。",
+    "title": "给手机装上“大脑”：一键指令实现发布、通话、拍照的 Android 代理"
+   }
+  },
+  "hash": "9d0e1a9d1fe198a9"
+ },
+ "devto:4872461": {
+  "copy": {
+   "zh": {
+    "blurb": "Mintu 是一个活泼的桌面宠物，同时提供本地 AI 对话功能，采用 Tauri 2 跨平台框架、Rust 核心和 TypeScript 前端，实现轻量化体验。",
+    "title": "构建 Mintu：基于 Tauri 2、Rust 与 TypeScript 的开源桌面宠物与本地 AI 助手"
+   }
+  },
+  "hash": "a8649ca032e889d3"
+ },
+ "devto:4872528": {
+  "copy": {
+   "zh": {
+    "blurb": "Athena 提供本地化的 Git 版本管理与抽象语法树（AST）变更智能分析，并配备 MCP 服务器，支持 AI 驱动的代码审查和变更感知。",
+    "points": [
+     "本地优先，无需云服务",
+     "AST 变更智能解析，提高审查效率",
+     "集成 MCP 服务器，实现协作编程"
+    ],
+    "title": "Athena：本地优先的 Git 与 AST 变更智能引擎及 MCP 服务器"
+   }
+  },
+  "hash": "5f69b4e9ddadb18a"
+ },
+ "devto:4872696": {
+  "copy": {
+   "zh": {
+    "blurb": "在Dev.to上介绍了StoreScribe，一个在各种限制条件下自动撰写App Store列表文案的开源模型。",
+    "points": [
+     "模型可自适应字符数、关键词等平台限制",
+     "支持多语言输出以覆盖全球用户",
+     "开源实现方便二次开发和集成"
+    ],
+    "title": "StoreScribe：生成App Store描述的开源模型"
+   }
+  },
+  "hash": "ef935713f1987da8"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -3750,6 +3898,20 @@
    }
   },
   "hash": "e72f32eb60a7e7bc"
+ },
+ "gh:anthropics/claude-quickstarts": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 仓库提供多种基于 Claude API 的 TypeScript 示例项目，帮助开发者快速搭建可部署的应用。",
+    "points": [
+     "涵盖聊天机器人、代理等多场景示例。",
+     "提供完整代码和部署指南，加速原型开发。",
+     "帮助开发者快速上手 Claude 的能力。"
+    ],
+    "title": "anthropics/claude-quickstarts：Claude API 快速入门项目集"
+   }
+  },
+  "hash": "a62545c7738fcb22"
  },
  "gh:anthropics/knowledge-work-plugins": {
   "copy": {
@@ -4724,6 +4886,15 @@
   },
   "hash": "becf337a0451cb7a"
  },
+ "gh:nvlabs/aspire": {
+  "copy": {
+   "zh": {
+    "blurb": "ASPIRE 是面向机器人技能发现的 Agentic 框架，支持自主学习和技能组合，提高机器人适应性。",
+    "title": "NVlabs/ASPIRE"
+   }
+  },
+  "hash": "bdb399584655fa57"
+ },
  "gh:obra/superpowers": {
   "copy": {
    "zh": {
@@ -5018,16 +5189,11 @@
  "gh:stablyai/orca": {
   "copy": {
    "zh": {
-    "blurb": "Orca 是一个用于管理一组 AI 代理（如 Grok Bot、Claude Code）的平台。用户可使用自己的订阅运行任意编码代理，支持桌面、移动端和远程运行时。",
-    "points": [
-     "统一调度多种编码代理",
-     "使用个人订阅即可运行",
-     "跨桌面、移动和远程环境"
-    ],
-    "title": "Orca 多代理平台"
+    "blurb": "Orca是一个使用TypeScript开发的平台，可在桌面、移动端和远程运行环境中调用Grok Bot、Codex等编码代理，需自行订阅。",
+    "title": "Orca：多代理编程平台"
    }
   },
-  "hash": "5f13bb4c3519fab7"
+  "hash": "5bb72d1b4fd82b37"
  },
  "gh:storytold/filmcraft": {
   "copy": {
@@ -5365,16 +5531,16 @@
  "gh:xerj-org/xerj": {
   "copy": {
    "zh": {
-    "blurb": "XERJ 提供 AI 驱动的自动索引功能，一条命令即可对代码、文档、日志和 PDF 建立可搜索的向量索引，查询时比传统 grep 节省约 40 倍的 token，且可替代 ElasticSearch 降低十倍基础设施成本。",
+    "blurb": "XERJ 通过自动索引让 AI 代理直接了解代码、文档、日志和 PDF 等数据，一键完成搜索、RAG、审计和记忆，使用的 token 比 grep 少约 40 倍，兼容 Elasticsearch，现有客户端即插即用。",
     "points": [
-     "一键索引多种文件类型生成向量索引",
-     "检索时使用 40 倍更少的 token",
-     "可直接用于 RAG、代码审计和代理记忆"
+     "自动索引激活代理，无需手动 grep/ sed",
+     "40 倍 token 节省，提高 RAG 效率",
+     "Elasticsearch 兼容，客户端直接复用"
     ],
-    "title": "XERJ：高效 AI 数据检索工具"
+    "title": "XERJ：面向 AI 的高效数据搜索引擎"
    }
   },
-  "hash": "1d1ff347fce3bae2"
+  "hash": "4f6629a89b930509"
  },
  "gh:yetone/magpie": {
   "copy": {
@@ -7653,6 +7819,34 @@
   },
   "hash": "8278e105627ad9d8"
  },
+ "hn:50138531": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepSeek 发布搜索与抓取 API，按每 1,000 次成功请求 0.75 美元计费，提供高质量网络搜索结果，可直接用于 RAG、聊天等应用。",
+    "points": [
+     "低价计费模式，成本友好",
+     "按成功请求计费，避免空请求浪费",
+     "API 文档完善，快速集成"
+    ],
+    "title": "DeepSeek Search & Fetch：每千次成功请求 0.75 美元"
+   }
+  },
+  "hash": "79aa1928ec3cb9ef"
+ },
+ "hn:50139549": {
+  "copy": {
+   "zh": {
+    "blurb": "killswitch-lang.org 提供一个专为考验大模型在恶意设计的编程语言中写代码能力的基准，给出量化评分和排行榜。",
+    "points": [
+     "引入对抗性语言，强度测试 LLM 的代码生成鲁棒性。",
+     "提供统一指标和公开排行榜，便于研究比较。",
+     "开源基准，可直接用于模型评估和改进。"
+    ],
+    "title": "Show HN：对抗语言下的 LLM 编码能力基准测试"
+   }
+  },
+  "hash": "d9d7def25318f9e6"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -8419,6 +8613,20 @@
   },
   "hash": "ac8e76d7a48bd9a7"
  },
+ "lobsters:ggpwfi": {
+  "copy": {
+   "zh": {
+    "blurb": "随着软件工程与 LLM 文化成熟，vibecoding 标签失去原始意义，被滥用标记所有涉及 LLM 的帖子，导致信息噪声增多，甚至让有价值的社区成员流失。",
+    "points": [
+     "标签失去信号价值，成为噪声",
+     "过度标记导致社区成员流失",
+     "呼吁重新审视并清理标签体系"
+    ],
+    "title": "vibecoding 标签从无用到有害的演变"
+   }
+  },
+  "hash": "948d182da9c24ee4"
+ },
  "lobsters:gid1h4": {
   "copy": {
    "zh": {
@@ -8427,6 +8635,15 @@
    }
   },
   "hash": "392afdc8906feb3b"
+ },
+ "lobsters:gl8yly": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享在 OpenBSD 上让 HP Envy 17 笔记本正常挂起与恢复的完整步骤与驱动调试经验。",
+    "title": "为 OpenBSD 解除 HP Envy 17‑DA0013dx 的挂起卡顿"
+   }
+  },
+  "hash": "847b1526e24b0b5a"
  },
  "lobsters:glfn7i": {
   "copy": {
@@ -8731,6 +8948,20 @@
   },
   "hash": "4ad7e44c11370d11"
  },
+ "lobsters:kiq0si": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示了如何结合L-系统生成结构化模式，并通过颗粒合成实现创新的声音设计。",
+    "points": [
+     "L-系统用于生成递归音频结构",
+     "颗粒合成提供细粒度的声纹控制",
+     "两者结合实现可编程的算法音色"
+    ],
+    "title": "基于L-系统和颗粒合成的算法音设计"
+   }
+  },
+  "hash": "41ab3a94f164cd3b"
+ },
  "lobsters:lfen2h": {
   "copy": {
    "zh": {
@@ -8855,6 +9086,20 @@
   },
   "hash": "5a19bbdcf8798166"
  },
+ "lobsters:mmvhup": {
+  "copy": {
+   "zh": {
+    "blurb": "Benj Cal 的博客介绍利用 ARP 协议查询网络设备信息，实现自动化的网络自省和安全审计。",
+    "points": [
+     "使用 ARP 实现网络设备的自描述查询。",
+     "提供脚本示例，可批量发现并记录网络拓扑。",
+     "有助于提升网络安全审计的效率和准确性。"
+    ],
+    "title": "ARP！让你的网络自我解释"
+   }
+  },
+  "hash": "ad5c3c03eafd1ff3"
+ },
  "lobsters:norjho": {
   "copy": {
    "zh": {
@@ -8863,6 +9108,15 @@
    }
   },
   "hash": "d0f96f754d63488c"
+ },
+ "lobsters:np6czp": {
+  "copy": {
+   "zh": {
+    "blurb": "一个基于策略路由的高性能 IPsec 网状 SD‑WAN 解决方案，提供安全、低延迟的分支网络互连。",
+    "title": "高性能策略路由 IPsec Mesh SD‑WAN"
+   }
+  },
+  "hash": "8a2aab33dd2e1dee"
  },
  "lobsters:np84oh": {
   "copy": {
@@ -9237,6 +9491,15 @@
   },
   "hash": "e98ce2ebdb1bfff1"
  },
+ "lobsters:u8vxmz": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍在类 Unix 系统中利用计时器（timer）安排和执行每周例行任务的实现方法与脚本示例。",
+    "title": "使用计时器实现每周任务"
+   }
+  },
+  "hash": "d121affc976866e5"
+ },
  "lobsters:u9ue6c": {
   "copy": {
    "zh": {
@@ -9380,6 +9643,20 @@
    }
   },
   "hash": "3b67c2c90a2784b4"
+ },
+ "lobsters:vwgrix": {
+  "copy": {
+   "zh": {
+    "blurb": "Verdagon博客提出一种逆向借用检查的方法，为Rust等语言的所有权模型提供新视角。",
+    "points": [
+     "从使用者角度逆向推断借用约束",
+     "通过逆向分析简化编译期检查",
+     "提升代码可读性和安全性"
+    ],
+    "title": "逆向借用检查的新思路"
+   }
+  },
+  "hash": "226453b53da505b6"
  },
  "lobsters:vyo9n2": {
   "copy": {
