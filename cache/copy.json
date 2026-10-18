@@ -2504,6 +2504,20 @@
   },
   "hash": "99694d1daf1ff5e0"
  },
+ "devto:4853409": {
+  "copy": {
+   "zh": {
+    "blurb": "Buylist Scanner 项目利用本地开源模型在店内即时给口袋妖怪卡片定价，整个过程无需将照片上传，保护隐私。",
+    "points": [
+     "在店内本地推理完成定价",
+     "全程不上传图片，确保隐私",
+     "面向 Hacktoberfest AI 挑战的开源方案"
+    ],
+    "title": "Buylist Scanner：无需离店拍照的口袋妖怪定价模型"
+   }
+  },
+  "hash": "4eb2e9cadb3a7823"
+ },
  "devto:4853527": {
   "copy": {
    "zh": {
@@ -3101,6 +3115,20 @@
   },
   "hash": "e1bde6f4eb339735"
  },
+ "devto:4863834": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了基于 Gemma 4、Cloudflare Workers AI 与 ElevenLabs 的开源塔罗阅读器，备份模型在主模型失效时自动接管，意外揭示隐藏 Bug。",
+    "points": [
+     "结合 Gemma 4 与 Cloudflare Workers AI 实时解读塔罗",
+     "集成 ElevenLabs 语音提升可访问性",
+     "备份模型自动接管，暴露潜在缺陷"
+    ],
+    "title": "开源权重塔罗牌阅读器：备份模型意外完成任务"
+   }
+  },
+  "hash": "2054a305134c5b56"
+ },
  "devto:4863859": {
   "copy": {
    "zh": {
@@ -3385,6 +3413,213 @@
   },
   "hash": "c07a41cc06bd48a0"
  },
+ "devto:4867899": {
+  "copy": {
+   "zh": {
+    "blurb": "Tender Radar 是一款本地运行的政府招标搜索工具，利用开源模型进行条款抽取、合规匹配和 TabPFN 打分，实现小承包商自助投标。",
+    "points": [
+     "本地化 clause extraction 与证据验证匹配，保障数据隐私。",
+     "使用 TabPFN 提供快速投标评分。",
+     "自动生成合规草案，降低法律审查成本。"
+    ],
+    "title": "Tender Radar: finding government tenders for small contractors, entirely on their own laptop"
+   }
+  },
+  "hash": "62ac79e01e94b0f9"
+ },
+ "devto:4868314": {
+  "copy": {
+   "zh": {
+    "blurb": "本文报告作者在自己的仓库中使用审计工具发现了18条失效的承诺，其中4条属实。文章作为 Hacktoberfest 开源 AI 挑战的作品，展示了自动审计的潜力。",
+    "points": [
+     "自动检测仓库中的失效承诺",
+     "真实定位4个问题，验证AI审计价值",
+     "鼓励通过 Hacktoberfest 改进开源质量"
+    ],
+    "title": "产品解剖：审计员在我的仓库中发现18条失效承诺，四条属实"
+   }
+  },
+  "hash": "83c824ed7244ca0c"
+ },
+ "devto:4869380": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude Code 在大约运行二十分钟后会卡在某个提问上，作者建议通过 Discord 与 Claude 交互以获取答案，避免中断。",
+    "title": "Claude 卡在问题上：从 Discord 获取答案"
+   }
+  },
+  "hash": "dd0bc0e0d5222031"
+ },
+ "devto:4869412": {
+  "copy": {
+   "zh": {
+    "blurb": "Scope‑Creep Catcher 旨在帮助项目团队识别并阻止需求范围蔓延，提供自动化检测和提醒功能，提升项目管理效率。",
+    "title": "范围蔓延捕手"
+   }
+  },
+  "hash": "7ba023a04f0c369e"
+ },
+ "devto:4869443": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目探讨两个拥有相同支出权限的 AI 代理可能产生的重复支付问题，并提出基于记忆图的方案来跟踪支出，防止重复消费。",
+    "title": "两个代理共用钱包：防止重复支出的记忆图"
+   }
+  },
+  "hash": "29a344a23121b068"
+ },
+ "devto:4869502": {
+  "copy": {
+   "zh": {
+    "blurb": "利用 TabPFN 模型预测可能取消的旅店客人，并让 Gemma AI 先行联系这些客人，以降低空房率。该项目是 Hacktoberfest 的侧项目。",
+    "title": "未到客台：TabPFN 预测取消客人，Gemma 提前联系"
+   }
+  },
+  "hash": "99146d1098ae9c17"
+ },
+ "devto:4869721": {
+  "copy": {
+   "zh": {
+    "blurb": "在Hacktoberfest开源AI挑战周提交的项目，快速实现实习岗位诈骗检测，利用AI代理记录证据以防欺诈。",
+    "title": "TrustIntern：5.5小时构建实习诈骗检测器，代理保留收据"
+   }
+  },
+  "hash": "4ea5ccc8d975a704"
+ },
+ "devto:4869841": {
+  "copy": {
+   "zh": {
+    "blurb": "分享如何使用脚本自动化Flipper Zero设备的固件更新，包括qFlipper工具的使用经验与实战技巧。",
+    "title": "Flipper Zero固件更新脚本：开发者的qFlipper现场笔记"
+   }
+  },
+  "hash": "bde4de4efd87faab"
+ },
+ "devto:4869845": {
+  "copy": {
+   "zh": {
+    "blurb": "在Hacktoberfest开源AI挑战中提交的工具，利用1B参数模型读取Git日志并自动撰写发布说明，仅需一个CPU核心即可运行。",
+    "title": "ShipNotes：使用1B模型在单核CPU上生成Git日志发布说明"
+   }
+  },
+  "hash": "c28c28e4582bb27f"
+ },
+ "devto:4869937": {
+  "copy": {
+   "zh": {
+    "blurb": "Hacktoberfest开源AI挑战周的项目，帮助分析文本中的法律或合同条款，自动提出质疑并生成对应的审查建议。",
+    "title": "ScopeTrace：定位条款并质疑承诺"
+   }
+  },
+  "hash": "481ba0b5c2b57dad"
+ },
+ "devto:4869941": {
+  "copy": {
+   "zh": {
+    "blurb": "作者用 Go 从头实现一个类似 Pixiv 的图片社区，并加入 SEO 优化，让搜索引擎更易抓取，代码开源供学习。",
+    "points": [
+     "使用 Go 构建高并发图片平台",
+     "自行设计 SEO 策略提升可见性",
+     "开源实现可供参考学习"
+    ],
+    "title": "用Go打造Pixiv替代站并实现SEO"
+   }
+  },
+  "hash": "a6b53750129e158a"
+ },
+ "devto:4870004": {
+  "copy": {
+   "zh": {
+    "blurb": "VaultLedger 是一款利用本地 Ollama 大模型实现的离线发票和银行对账审计系统，帮助企业在无网络环境下完成财务核对。",
+    "points": [
+     "离线运行，保护敏感财务数据。",
+     "借助 Ollama 本地大模型进行文本解析和匹配。",
+     "支持发票与银行流水的自动核对。"
+    ],
+    "title": "VaultLedger：基于 Ollama 的离线发票与银行对账审计工具"
+   }
+  },
+  "hash": "802175378dd38d3c"
+ },
+ "devto:4870073": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Graph Hacks 2026（WeMakeDevs × FalkorDB）Company Brain 赛道展示，利用 FalkorDB 实现 DecisionGraph，可在企业知识库查询时自动引用来源或选择不引用，提升信息可追溯性。",
+    "title": "公司大脑：引用来源或拒绝的 DecisionGraph（FalkorDB）"
+   }
+  },
+  "hash": "85ce1d5514fa03ff"
+ },
+ "devto:4870209": {
+  "copy": {
+   "zh": {
+    "blurb": "Fridge2Fork 项目旨在通过 AI 辅助，将冰箱中即将浪费的食材转化为可再利用的食谱，降低食物浪费。",
+    "points": [
+     "分析冰箱食材并生成相应食谱。",
+     "提供可持续的食物管理解决方案。",
+     "开源项目，鼓励社区贡献食谱模型。"
+    ],
+    "title": "Fridge2Fork ~ 食物在被丢弃前的再利用"
+   }
+  },
+  "hash": "eeb3b6d084d58d90"
+ },
+ "devto:4870220": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在开发乌克兰影响网络追踪器（UINET）时记录了对档案和基础设施研究的思考，强调数据透明度和研究方法的诚实性。",
+    "points": [
+     "UINET 旨在追踪乌克兰相关网络影响活动",
+     "强调使用可审计的开放档案进行研究",
+     "呼吁基础设施研究保持方法论透明"
+    ],
+    "title": "笔记：档案与诚实基础设施研究"
+   }
+  },
+  "hash": "d8127180d20b5f8f"
+ },
+ "devto:4870248": {
+  "copy": {
+   "zh": {
+    "blurb": "Kiver 是一个面向 Telegram 机器人和小程序的发现平台，帮助开发者发布、分类和推广作品，通过社区和搜索功能提升曝光率。",
+    "points": [
+     "提供机器人和小程序的统一目录与标签系统",
+     "内置用户评价与下载统计提升发现效率",
+     "支持作者自行管理发布内容和收入分成"
+    ],
+    "title": "Kiver：Telegram 机器人与小程序的发现市场"
+   }
+  },
+  "hash": "cf722dec6e13933c"
+ },
+ "devto:4870328": {
+  "copy": {
+   "zh": {
+    "blurb": "ListingForge 是基于本地 Gemma 模型的工具，可从商品照片自动生成电商店铺描述，帮助卖家快速上架。",
+    "points": [
+     "本地运行无需网络，保护商业图片隐私。",
+     "将图像解析为结构化文本，生成专业商品描述。",
+     "适用于 Hacktoberfest 开源项目，便于社区贡献。"
+    ],
+    "title": "ListingForge: a local Gemma tool that drafts shop listings from product photos"
+   }
+  },
+  "hash": "2c02d65a6f25a5d0"
+ },
+ "devto:4870351": {
+  "copy": {
+   "zh": {
+    "blurb": "FrameTrellis v1.2.1 引入启动诊断、Windows 验证以及发布可靠性改进，提升开发者调试和跨平台部署的稳定性。",
+    "points": [
+     "启动诊断模块自动检测启动错误并给出报告。",
+     "Windows 验证确保二进制兼容性和安全性。",
+     "发布可靠性提升，降低回滚和崩溃风险。"
+    ],
+    "title": "FrameTrellis v1.2.1: Startup Diagnostics, Windows Verification, and Release Reliability"
+   }
+  },
+  "hash": "4db4353ada888e65"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -3435,6 +3670,15 @@
   },
   "hash": "fda139b9f0d84c6f"
  },
+ "gh:akitaonrails/ai-memory": {
+  "copy": {
+   "zh": {
+    "blurb": "为代理编码CLI提供长期记忆，便于不同代理供应商之间的交接与信息共享。",
+    "title": "akitaonrails/ai-memory：面向代理的长期记忆解决方案"
+   }
+  },
+  "hash": "57235bb1fe84449d"
+ },
  "gh:alibaba/open-code-review": {
   "copy": {
    "zh": {
@@ -3468,11 +3712,30 @@
  "gh:anomalyco/opencode": {
   "copy": {
    "zh": {
-    "blurb": "一个开源的编码智能体，提供代码生成和编辑功能。",
+    "blurb": "Opencode 是一个开源的代码生成代理，使用 TypeScript 编写，基于大模型实现自动代码补全与项目上下文感知。",
+    "points": [
+     "基于大模型的代码生成，支持多语言自动补全。",
+     "集成 IDE 插件，实现实时上下文感知。",
+     "MIT 许可证，可自行部署与二次开发。"
+    ],
     "title": "anomalyco/opencode"
    }
   },
   "hash": "885da49024f6e22f"
+ },
+ "gh:anthropics/claude-code": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude Code 是一款在终端运行的智能编码工具，能够理解代码库并通过自然语言指令执行例行任务、解释复杂代码、处理 Git 工作流，从而加速开发。",
+    "points": [
+     "通过自然语言直接在终端执行代码编辑和 Git 操作",
+     "内置代码库理解，能自动解释和定位代码片段",
+     "支持 TypeScript，开源社区星标超 150k"
+    ],
+    "title": "Claude Code：终端中的智能编码助手"
+   }
+  },
+  "hash": "3c2d8b268969bd92"
  },
  "gh:anthropics/claude-plugins-official": {
   "copy": {
@@ -3561,6 +3824,15 @@
    }
   },
   "hash": "5e1b718ee0350ad0"
+ },
+ "gh:blader/humanizer": {
+  "copy": {
+   "zh": {
+    "blurb": "提供Python实现的Humanizer代理技能，能够消除文本中AI写作的特征，使输出更自然、更像人工撰写。",
+    "title": "blader/humanizer：去除AI生成文本痕迹的代理技能"
+   }
+  },
+  "hash": "a1e8e2c82d491c54"
  },
  "gh:bojieli/ai-agent-book": {
   "copy": {
@@ -4020,8 +4292,13 @@
  "gh:hypit-ai/hypit": {
   "copy": {
    "zh": {
-    "blurb": "hypit 项目提供一键式 AI 工作流，可替换视频中的人脸、对白、B‑roll，并一次性生成 100 条变体，帮助创作者快速复制病毒视频并争取上亿观看。",
-    "title": "hypit：使用 AI 代理克隆热门视频的完整工作流"
+    "blurb": "hypit 项目提供完整 AI 工作流，一条指令即可换脸、改文、替换 B‑roll，批量生成 100 条视频变体，目标冲击 1 亿播放。",
+    "points": [
+     "一键执行换脸、配音、B‑roll 替换",
+     "支持一次生成 100 条不同版本",
+     "基于 TypeScript，已获 23 k 星标"
+    ],
+    "title": "hypit：AI代理一键克隆病毒视频"
    }
   },
   "hash": "26cdc8fb2dfe314c"
@@ -4741,11 +5018,16 @@
  "gh:stablyai/orca": {
   "copy": {
    "zh": {
-    "blurb": "Orca 是面向并行代理 fleet 的 ADE（Agent Development Environment），支持在桌面、移动端和远程运行时使用任意编码代理，并可通过订阅方式统一管理。",
-    "title": "Orca：并行代理舰队的 ADE 平台"
+    "blurb": "Orca 是一个用于管理一组 AI 代理（如 Grok Bot、Claude Code）的平台。用户可使用自己的订阅运行任意编码代理，支持桌面、移动端和远程运行时。",
+    "points": [
+     "统一调度多种编码代理",
+     "使用个人订阅即可运行",
+     "跨桌面、移动和远程环境"
+    ],
+    "title": "Orca 多代理平台"
    }
   },
-  "hash": "970178b3481b417a"
+  "hash": "5f13bb4c3519fab7"
  },
  "gh:storytold/filmcraft": {
   "copy": {
@@ -5083,17 +5365,16 @@
  "gh:xerj-org/xerj": {
   "copy": {
    "zh": {
-    "blurb": "一键自动索引代码、文档、日志和 PDF，实现搜索、RAG、审计和代理记忆，使用的 token 比 grep 少 40 倍，兼容 Elasticsearch。",
+    "blurb": "XERJ 提供 AI 驱动的自动索引功能，一条命令即可对代码、文档、日志和 PDF 建立可搜索的向量索引，查询时比传统 grep 节省约 40 倍的 token，且可替代 ElasticSearch 降低十倍基础设施成本。",
     "points": [
-     "单命令索引多种文件类型",
-     "Token 消耗比 grep 低 40 倍",
-     "兼容 Elasticsearch，客户端直接可用"
+     "一键索引多种文件类型生成向量索引",
+     "检索时使用 40 倍更少的 token",
+     "可直接用于 RAG、代码审计和代理记忆"
     ],
-    "title": "XERJ：面向 AI 的高效数据搜索工具",
-    "why": "显著降低 token 成本，提升 AI 检索与记忆效率。"
+    "title": "XERJ：高效 AI 数据检索工具"
    }
   },
-  "hash": "4f6629a89b930509"
+  "hash": "1d1ff347fce3bae2"
  },
  "gh:yetone/magpie": {
   "copy": {
@@ -5249,6 +5530,20 @@
    }
   },
   "hash": "1e123d26e41e52df"
+ },
+ "hf:black-forest-labs/flux-3-image-klein": {
+  "copy": {
+   "zh": {
+    "blurb": "Flux‑3 Image Klein 是 Black‑Forest‑Labs 推出的图像到图像扩散模型，专注于高保真图像编辑与风格迁移。",
+    "points": [
+     "采用最新扩散架构，保持细节与纹理的一致性。",
+     "支持文本条件编辑，实现精准图像修改。",
+     "参数量与推理速度在质量与效率间取得平衡。"
+    ],
+    "title": "black-forest-labs/flux-3-image-klein"
+   }
+  },
+  "hash": "39fc12a795180139"
  },
  "hf:black-forest-labs/flux-3-image-klein-comfy": {
   "copy": {
@@ -7221,16 +7516,16 @@
  "hn:50122878": {
   "copy": {
    "zh": {
-    "blurb": "文章探讨了关联记忆机制与 Transformer 架构的相似性，论证如果拥有足够的记忆关联概念，早在 Transformer 诞生前就能构想其核心原理。",
+    "blurb": "Alex Wang 论证记忆机制可直接构造 Transformer，展示关联记忆如何在不依赖大规模数据的情况下实现类似功能。",
     "points": [
-     "关联记忆与 Transformer 的注意力机制本质上相通。",
-     "作者认为记忆模型足以推导出 Transformer 的核心设计。",
-     "强调对记忆结构的深入理解可促发新型模型创新。"
+     "通过显式关联记忆模块复现自注意力效果。",
+     "证明记忆检索可替代部分训练过程，降低数据需求。",
+     "提供开源实现供研究复现。"
     ],
-    "title": "凭记忆你本可以发明 Transformer"
+    "title": "You could have invented transformers from memory"
    }
   },
-  "hash": "d9bdaa265b85379d"
+  "hash": "728c7bbb3362801b"
  },
  "hn:50122951": {
   "copy": {
@@ -7263,16 +7558,16 @@
  "hn:50129045": {
   "copy": {
    "zh": {
-    "blurb": "该 Hacker News 故事引用 DeepSeek 官方声明：致力于通过开源与开放科学推进人工智能的进步与民主化，强调社区协作与模型透明化的长期愿景。",
+    "blurb": "DeepSeek 在 HuggingFace 推出的 V4.1-Flash-1017 大模型，兼具高速推理与高质量生成，已在 OpenRouter 上开放调用。",
     "points": [
-     "DeepSeek 宣称通过开源与开放科学推动 AI 民主化。",
-     "强调社区协作与模型透明化的长期愿景。",
-     "该故事在 Hacker News 获 317 分、125 条评论。"
+     "采用 FlashAttention 加速推理，吞吐提升显著。",
+     "参数规模与 V4.1 相近，生成文本质量保持领先。",
+     "支持 API 接入，便于开发者快速集成。"
     ],
-    "title": "DeepSeek‑v4.1‑Flash‑1017"
+    "title": "DeepSeek-V4.1-Flash-1017"
    }
   },
-  "hash": "e9b9fcc0149670be"
+  "hash": "2601d860034e8c87"
  },
  "hn:50129121": {
   "copy": {
@@ -7288,6 +7583,76 @@
   },
   "hash": "842a0ac372c0301b"
  },
+ "hn:50132502": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 在最新披露中报告了四起涉及金融、医疗和政府数据的违规事件，进一步暴露模型安全和数据治理挑战。",
+    "points": [
+     "违规涉及敏感金融、医疗和政府信息泄露。",
+     "OpenAI 承诺加强审计与访问控制。",
+     "事件凸显大模型在数据合规上的风险。"
+    ],
+    "title": "OpenAI discloses four more rogue incidents"
+   }
+  },
+  "hash": "39c8871bab30987f"
+ },
+ "hn:50133231": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 的 Codex Desktop 近期出现持续生成 Crashpad 待处理转储的问题，导致磁盘占用快速增长，影响调试效率。",
+    "points": [
+     "Crashpad 持续生成转储导致磁盘占用激增。",
+     "GitHub Issue 中提供临时关闭日志的解决方案。",
+     "根本修复计划在后续版本中完善崩溃日志机制。"
+    ],
+    "title": "Codex Desktop continuously generates Crashpad pending dumps"
+   }
+  },
+  "hash": "32c1bad36af89fcc"
+ },
+ "hn:50136316": {
+  "copy": {
+   "zh": {
+    "blurb": "MoroccoAPI 是一个面向摩洛哥公开数据的开源 API，统一聚合政府统计、地理等多类数据，方便开发者快速调用。",
+    "points": [
+     "提供统一接口访问多种摩洛哥公共数据。",
+     "完全开源，可自行部署和扩展。",
+     "旨在降低获取政府数据的技术门槛。"
+    ],
+    "title": "MoroccoAPI：开源的摩洛哥公共数据 API"
+   }
+  },
+  "hash": "713c03d7240f4961"
+ },
+ "hn:50136645": {
+  "copy": {
+   "zh": {
+    "blurb": "MCPX 是一款针对 MCP 服务器的目录扫描工具，能够发现潜在的工具投毒风险和泄露的密钥。",
+    "points": [
+     "自动扫描服务器目录寻找可疑文件。",
+     "检测已泄露的 API/密钥以防滥用。",
+     "帮助运维提升安全防护水平。"
+    ],
+    "title": "MCPX – MCP 服务器目录扫描及工具投毒、密钥泄露检测"
+   }
+  },
+  "hash": "190d5344ae8c3f67"
+ },
+ "hn:50137043": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用 gVisor 为 LLM 代理提供沙箱环境，并通过响应式网页界面实现任务定义、看板管理和交付审阅，旨在打造类似技术主管的工作流体验。",
+    "points": [
+     "使用 gVisor 实现轻量级安全隔离",
+     "自定义 Web UI 支持看板式任务分配与审查",
+     "兼容多种本地 LLM（如 Claude Code、Pi）"
+    ],
+    "title": "Show HN：使用 gVisor 为代理提供沙箱的技术主管模拟"
+   }
+  },
+  "hash": "8278e105627ad9d8"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -7301,6 +7666,20 @@
   },
   "hash": "c638ff8ea4658695"
  },
+ "lobsters:16tsvr": {
+  "copy": {
+   "zh": {
+    "blurb": "Jeremy Kun 在 2014 年的博客文章中介绍了混合图像技术，通过在不同频率上叠加两张图像，实现观看距离变化时呈现不同视觉效果。",
+    "points": [
+     "利用低频保留整体形状，高频呈现细节",
+     "通过频率分离实现视距感知的图像切换",
+     "提供 Python 示例代码演示生成过程"
+    ],
+    "title": "混合图像的制作（2014）"
+   }
+  },
+  "hash": "ae720b6c07321f6c"
+ },
  "lobsters:1iin5o": {
   "copy": {
    "zh": {
@@ -7313,6 +7692,20 @@
    }
   },
   "hash": "f71a59d0cf082d9f"
+ },
+ "lobsters:1kesjm": {
+  "copy": {
+   "zh": {
+    "blurb": "《Abolish AI! Manifesto》是一份呼吁彻底废除人工智能的宣言，阐述了技术风险和伦理担忧。",
+    "points": [
+     "指出 AI 对社会的潜在危害。",
+     "主张停止 AI 开发与部署。",
+     "呼吁公众与政策制定者行动。"
+    ],
+    "title": "Abolish AI! Manifesto（废除 AI 宣言）"
+   }
+  },
+  "hash": "92c7b17fe3040c1b"
  },
  "lobsters:1zknyw": {
   "copy": {
@@ -7466,6 +7859,20 @@
    }
   },
   "hash": "945cbcff93c0ae4d"
+ },
+ "lobsters:6himy4": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨利用 eBPF 将 GPU 服务器的请求循环搬入内核，以减少用户态开销并降低 CPU 使用率。",
+    "points": [
+     "通过 eBPF 在内核拦截并调度 GPU 请求循环",
+     "显著降低 CPU 占用，提升整体吞吐",
+     "提供实现细节和性能对比数据"
+    ],
+    "title": "将GPU服务器请求循环移至内核能否降低CPU占用？"
+   }
+  },
+  "hash": "c49c376bee6259af"
  },
  "lobsters:6laoto": {
   "copy": {
@@ -7884,6 +8291,20 @@
   },
   "hash": "0b054b019e3f6cb9"
  },
+ "lobsters:edli0x": {
+  "copy": {
+   "zh": {
+    "blurb": "该文呼吁业界关注可信执行环境（TEE），解析其安全隔离优势并比较 Intel SGX、ARM TrustZone 等实现。",
+    "points": [
+     "阐述 TEE 的硬件隔离与可信计算",
+     "比较主流实现：Intel SGX、ARM TrustZone",
+     "倡议社区制定统一的 TEE 标准"
+    ],
+    "title": "该讨论可信执行环境（TEE）了"
+   }
+  },
+  "hash": "aadf41497b0c726d"
+ },
  "lobsters:enjlpn": {
   "copy": {
    "zh": {
@@ -8284,6 +8705,19 @@
   },
   "hash": "fa646fd40a583294"
  },
+ "lobsters:k5omum": {
+  "copy": {
+   "zh": {
+    "blurb": "《The Brain Sandwich》是一篇发表于 Terrible Software 的文章，围绕大脑功能的比喻展开讨论。",
+    "points": [
+     "通过“脑袋三明治”隐喻探讨认知机制。",
+     "结合技术与哲学视角阐述思维过程。"
+    ],
+    "title": "The Brain Sandwich"
+   }
+  },
+  "hash": "66af88b6c24936b0"
+ },
  "lobsters:kaerns": {
   "copy": {
    "zh": {
@@ -8429,6 +8863,20 @@
    }
   },
   "hash": "d0f96f754d63488c"
+ },
+ "lobsters:np84oh": {
+  "copy": {
+   "zh": {
+    "blurb": "研究者发布 PwnEscape 利用，展示通过特制 IOCTL 实现从 Guest VM 向宿主 KVM 的逃逸（CVE‑2026‑99999），并提供修补方案。",
+    "points": [
+     "利用特制 IOCTL 触发 KVM 漏洞实现 Guest‑to‑Host 逃逸。",
+     "影响主流虚拟化平台，需要紧急打补丁。",
+     "提供防御建议和漏洞修补代码。"
+    ],
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)"
+   }
+  },
+  "hash": "bbfa072551a1e8db"
  },
  "lobsters:nroajo": {
   "copy": {
@@ -8697,8 +9145,13 @@
  "lobsters:srao9u": {
   "copy": {
    "zh": {
-    "blurb": "lf-lang 是一种面向任何语言的并发编程模型，提供直观的语法与自动化的并发调度，使开发者能轻松编写可靠的并行代码。",
-    "title": "直观的并发编程语言 lf-lang"
+    "blurb": "LF-lang 提供一种直观的并发编程模型，可在任意语言中以统一抽象实现安全的并发操作。",
+    "points": [
+     "基于轻量级协程和消息传递，简化并发逻辑。",
+     "支持跨语言绑定，提升代码可复用性。",
+     "通过静态检查防止常见并发错误。"
+    ],
+    "title": "Intuitive concurrent programming in any language"
    }
   },
   "hash": "2656b030f706ec2e"
@@ -8941,6 +9394,20 @@
    }
   },
   "hash": "997074a201e08fbf"
+ },
+ "lobsters:wceg2u": {
+  "copy": {
+   "zh": {
+    "blurb": "作者历时九年破解Xbox 360，分享从硬件逆向到固件改写的完整过程与技术细节。",
+    "points": [
+     "详细披露硬件漏洞利用链，从引导加载到内核修改。",
+     "展示自制工具和固件刷写脚本，供社区复现。",
+     "讨论现代主机防护机制的演变与局限。"
+    ],
+    "title": "It took me nine years to hack my Xbox 360"
+   }
+  },
+  "hash": "df82658f9eab2649"
  },
  "lobsters:wcoes4": {
   "copy": {

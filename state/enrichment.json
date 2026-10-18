@@ -37,6 +37,11 @@
   "attemptedAt": "2026-10-17T15:32:02.493Z"
  },
  "2026-10-17": {
-  "attemptedAt": "2026-10-17T15:32:02.493Z"
+  "attemptedAt": "2026-10-18T05:52:35.283Z",
+  "reason": "invalid-response"
+ },
+ "2026-10-18": {
+  "attemptedAt": "2026-10-18T05:52:35.283Z",
+  "reason": "invalid-response"
  }
 }

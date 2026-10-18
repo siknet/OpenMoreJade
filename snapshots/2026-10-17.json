@@ -11076,21 +11076,21 @@
    "category": "research",
    "key": "hn:50121179",
    "metrics": {
-    "comments": 495,
+    "comments": 551,
     "frontPage": 0,
-    "points": 558
+    "points": 602
    },
    "news": {
     "author": "speckx",
-    "comments": 495,
+    "comments": 551,
     "createdAt": "2026-10-16T17:08:38.000Z",
     "domain": "mercor.com",
     "hnId": 50121179,
     "hnUrl": "https://news.ycombinator.com/item?id=50121179",
-    "points": 558,
-    "showRank": 6
+    "points": 602,
+    "showRank": 3
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T17:08:38.000Z",
    "refs": [
     "url:mercor.com/research/labor-index/benchmark-map"
@@ -11116,21 +11116,21 @@
    "category": "discussion",
    "key": "hn:50121939",
    "metrics": {
-    "comments": 34,
+    "comments": 36,
     "frontPage": 0,
-    "points": 159
+    "points": 172
    },
    "news": {
     "author": "pretext",
-    "comments": 34,
+    "comments": 36,
     "createdAt": "2026-10-16T18:00:18.000Z",
     "domain": "anthropic.com",
     "hnId": 50121939,
     "hnUrl": "https://news.ycombinator.com/item?id=50121939",
-    "points": 159,
-    "showRank": 47
+    "points": 172,
+    "showRank": 38
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T18:00:18.000Z",
    "refs": [
     "url:anthropic.com/research/designing-efficient-quantum-circuits"
@@ -11156,21 +11156,21 @@
    "category": "discussion",
    "key": "hn:50122112",
    "metrics": {
-    "comments": 83,
+    "comments": 86,
     "frontPage": 0,
-    "points": 272
+    "points": 288
    },
    "news": {
     "author": "JumpCrisscross",
-    "comments": 83,
+    "comments": 86,
     "createdAt": "2026-10-16T18:11:42.000Z",
     "domain": "ft.com",
     "hnId": 50122112,
     "hnUrl": "https://news.ycombinator.com/item?id=50122112",
-    "points": 272,
-    "showRank": 24
+    "points": 288,
+    "showRank": 19
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T18:11:42.000Z",
    "refs": [
     "url:ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d"
@@ -11195,21 +11195,21 @@
    "category": "discussion",
    "key": "hn:50122431",
    "metrics": {
-    "comments": 81,
+    "comments": 84,
     "frontPage": 0,
-    "points": 330
+    "points": 367
    },
    "news": {
     "author": "Anon84",
-    "comments": 81,
+    "comments": 84,
     "createdAt": "2026-10-16T18:32:35.000Z",
     "domain": "github.com",
     "hnId": 50122431,
     "hnUrl": "https://news.ycombinator.com/item?id=50122431",
-    "points": 330,
-    "showRank": 17
+    "points": 367,
+    "showRank": 11
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T18:32:35.000Z",
    "refs": [
     "gh:cobanov/ps5lm"
@@ -11275,21 +11275,21 @@
    "category": "discussion",
    "key": "hn:50122800",
    "metrics": {
-    "comments": 344,
+    "comments": 380,
     "frontPage": 0,
-    "points": 960
+    "points": 1029
    },
    "news": {
     "author": "ahlCVA",
-    "comments": 344,
+    "comments": 380,
     "createdAt": "2026-10-16T18:55:59.000Z",
     "domain": "anthropic.com",
     "hnId": 50122800,
     "hnUrl": "https://news.ycombinator.com/item?id=50122800",
-    "points": 960,
-    "showRank": 1
+    "points": 1029,
+    "showRank": 0
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T18:55:59.000Z",
    "refs": [
     "url:anthropic.com/research/ecdsa-curve-origins"
@@ -11315,24 +11315,25 @@
    "category": "discussion",
    "key": "hn:50122878",
    "metrics": {
-    "comments": 91,
+    "comments": 123,
     "frontPage": 0,
-    "points": 388
+    "points": 534
    },
    "news": {
     "author": "speckx",
-    "comments": 91,
+    "comments": 123,
     "createdAt": "2026-10-16T19:01:17.000Z",
     "domain": "alexwang.ai",
     "hnId": 50122878,
     "hnUrl": "https://news.ycombinator.com/item?id=50122878",
-    "points": 388,
-    "showRank": 12
+    "points": 534,
+    "showRank": 5
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T19:01:17.000Z",
    "refs": [
-    "url:alexwang.ai/posts/associative-memory"
+    "url:alexwang.ai/posts/associative-memory",
+    "x:2111158818730397932"
    ],
    "relevance": {
     "reasons": [
@@ -11344,7 +11345,7 @@
    "sources": [
     "hacker-news"
    ],
-   "summary": "",
+   "summary": "https://twitter.com/heyyalexwang/status/2111158818730397932",
    "tags": [],
    "title": "You could have invented transformers from memory",
    "url": "https://alexwang.ai/posts/associative-memory/"
@@ -11354,21 +11355,21 @@
    "category": "discussion",
    "key": "hn:50122951",
    "metrics": {
-    "comments": 398,
+    "comments": 461,
     "frontPage": 0,
-    "points": 419
+    "points": 457
    },
    "news": {
     "author": "pretext",
-    "comments": 398,
+    "comments": 461,
     "createdAt": "2026-10-16T19:04:47.000Z",
     "domain": "claude.dev",
     "hnId": 50122951,
     "hnUrl": "https://news.ycombinator.com/item?id=50122951",
-    "points": 419,
-    "showRank": 9
+    "points": 457,
+    "showRank": 7
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T19:04:47.000Z",
    "refs": [
     "url:claude.dev/blog/solving-code-review-at-anthropic"
@@ -11393,21 +11394,21 @@
    "category": "tool",
    "key": "hn:50127979",
    "metrics": {
-    "comments": 55,
+    "comments": 78,
     "frontPage": 0,
-    "points": 172
+    "points": 271
    },
    "news": {
     "author": "albinstman",
-    "comments": 55,
+    "comments": 78,
     "createdAt": "2026-10-17T04:36:53.000Z",
     "domain": "llmspeed.dev",
     "hnId": 50127979,
     "hnUrl": "https://news.ycombinator.com/item?id=50127979",
-    "points": 172,
-    "showRank": 1
+    "points": 271,
+    "showRank": 5
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T04:36:53.000Z",
    "refs": [
     "url:llmspeed.dev"
@@ -11432,21 +11433,21 @@
    "category": "discussion",
    "key": "hn:50129045",
    "metrics": {
-    "comments": 125,
+    "comments": 623,
     "frontPage": 0,
-    "points": 317
+    "points": 785
    },
    "news": {
     "author": "theykk",
-    "comments": 125,
+    "comments": 623,
     "createdAt": "2026-10-17T08:21:25.000Z",
     "domain": "huggingface.co",
     "hnId": 50129045,
     "hnUrl": "https://news.ycombinator.com/item?id=50129045",
-    "points": 317,
-    "showRank": 21
+    "points": 785,
+    "showRank": 2
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T08:21:25.000Z",
    "refs": [
     "hf:deepseek-ai/deepseek-v4.1-flash-1017"
@@ -11462,7 +11463,7 @@
    "sources": [
     "hacker-news"
    ],
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
    "tags": [],
    "title": "DeepSeek-v4.1-Flash-1017",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
@@ -11472,21 +11473,21 @@
    "category": "discussion",
    "key": "hn:50129121",
    "metrics": {
-    "comments": 238,
+    "comments": 5,
     "frontPage": 0,
-    "points": 450
+    "points": 513
    },
    "news": {
     "author": "theanonymousone",
-    "comments": 238,
+    "comments": 5,
     "createdAt": "2026-10-17T08:37:46.000Z",
     "domain": "openrouter.ai",
     "hnId": 50129121,
     "hnUrl": "https://news.ycombinator.com/item?id=50129121",
-    "points": 450,
-    "showRank": 8
+    "points": 513,
+    "showRank": 6
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T08:37:46.000Z",
    "refs": [
     "url:openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
@@ -11671,14 +11672,14 @@
     "createdAt": "2026-10-16T17:30:10Z",
     "domain": "dev.to",
     "id": 4863494,
-    "points": 7,
+    "points": 8,
     "url": "https://dev.to/gde/do-drafters-work-on-small-models-gemma-4-e2b-and-e4b-on-two-small-gpus-1b4g"
    },
    "key": "devto:4863494",
    "metrics": {
     "comments": 3,
     "frontPage": 0,
-    "points": 7
+    "points": 8
    },
    "news": {
     "author": "xbill",
@@ -11687,9 +11688,9 @@
     "domain": "dev.to",
     "hnId": 4863494,
     "hnUrl": "https://dev.to/gde/do-drafters-work-on-small-models-gemma-4-e2b-and-e4b-on-two-small-gpus-1b4g",
-    "points": 7
+    "points": 8
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T17:30:10Z",
    "refs": [],
    "relevance": {
@@ -11774,14 +11775,14 @@
     "createdAt": "2026-10-16T16:43:29Z",
     "domain": "dev.to",
     "id": 4863548,
-    "points": 15,
+    "points": 16,
     "url": "https://dev.to/gde/building-production-ready-open-weights-ai-agents-with-gemma-google-adk-and-cloud-run-gpus-2mfg"
    },
    "key": "devto:4863548",
    "metrics": {
     "comments": 4,
     "frontPage": 0,
-    "points": 15
+    "points": 16
    },
    "news": {
     "author": "Robina Mirbahar",
@@ -11790,9 +11791,9 @@
     "domain": "dev.to",
     "hnId": 4863548,
     "hnUrl": "https://dev.to/gde/building-production-ready-open-weights-ai-agents-with-gemma-google-adk-and-cloud-run-gpus-2mfg",
-    "points": 15
+    "points": 16
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T16:43:29Z",
    "refs": [],
    "relevance": {
@@ -11822,29 +11823,29 @@
    "category": "release",
    "devto": {
     "author": "Jem",
-    "comments": 18,
+    "comments": 20,
     "createdAt": "2026-10-16T17:38:26Z",
     "domain": "dev.to",
     "id": 4863823,
-    "points": 36,
+    "points": 37,
     "url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-touch-grass-winners-152c"
    },
    "key": "devto:4863823",
    "metrics": {
-    "comments": 18,
+    "comments": 20,
     "frontPage": 0,
-    "points": 36
+    "points": 37
    },
    "news": {
     "author": "Jem",
-    "comments": 18,
+    "comments": 20,
     "createdAt": "2026-10-16T17:38:26Z",
     "domain": "dev.to",
     "hnId": 4863823,
     "hnUrl": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-touch-grass-winners-152c",
-    "points": 36
+    "points": 37
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T17:38:26Z",
    "refs": [],
    "relevance": {
@@ -11876,14 +11877,14 @@
     "createdAt": "2026-10-16T17:40:16Z",
     "domain": "dev.to",
     "id": 4863859,
-    "points": 72,
+    "points": 75,
     "url": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8"
    },
    "key": "devto:4863859",
    "metrics": {
     "comments": 6,
     "frontPage": 0,
-    "points": 72
+    "points": 75
    },
    "news": {
     "author": "Hemapriya Kanagala",
@@ -11892,9 +11893,9 @@
     "domain": "dev.to",
     "hnId": 4863859,
     "hnUrl": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
-    "points": 72
+    "points": 75
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T17:40:16Z",
    "refs": [],
    "relevance": {
@@ -14671,6 +14672,58 @@
    "url": "https://dev.to/paullovelace/a-lab-just-open-sourced-its-training-harness-plus-501b-weights-4i05"
   },
   {
+   "board": "devto",
+   "category": "policy",
+   "devto": {
+    "author": "Pranesh Nikhar",
+    "comments": 0,
+    "createdAt": "2026-10-17T14:45:15Z",
+    "domain": "dev.to",
+    "id": 4867899,
+    "points": 4,
+    "url": "https://dev.to/praneshnikhar/tender-radar-finding-government-tenders-for-small-contractors-entirely-on-their-own-laptop-466k"
+   },
+   "key": "devto:4867899",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 4
+   },
+   "news": {
+    "author": "Pranesh Nikhar",
+    "comments": 0,
+    "createdAt": "2026-10-17T14:45:15Z",
+    "domain": "dev.to",
+    "hnId": 4867899,
+    "hnUrl": "https://dev.to/praneshnikhar/tender-radar-finding-government-tenders-for-small-contractors-entirely-on-their-own-laptop-466k",
+    "points": 4
+   },
+   "observedAt": "2026-10-18T05:52:35.283Z",
+   "publishedAt": "2026-10-17T14:45:15Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:government"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "A local-first government tender radar: open-weight clause extraction, evidence-verified eligibility matching behind a citation guard, TabPFN win scoring, guarded compliance drafting. Built for Hacktoberfest Week 2 (Side Hustle).",
+   "tags": [
+    "source:dev-to",
+    "tag:hf26challenge",
+    "tag:devchallenge",
+    "tag:ai",
+    "tag:opensource",
+    "tab:opensource"
+   ],
+   "title": "Tender Radar: finding government tenders for small contractors, entirely on their own laptop",
+   "url": "https://dev.to/praneshnikhar/tender-radar-finding-government-tenders-for-small-contractors-entirely-on-their-own-laptop-466k"
+  },
+  {
    "board": "lobsters",
    "category": "discussion",
    "key": "lobsters:1zknyw",
@@ -14780,14 +14833,14 @@
     "comments": 2,
     "createdAt": "2026-10-17T02:21:14.456-05:00",
     "domain": "davepacheco.net",
-    "points": 3,
+    "points": 6,
     "shortId": "a0og2j",
     "url": "https://www.davepacheco.net/blog/2025/developing-for-debugging-dns-propagation/"
    },
    "metrics": {
     "comments": 2,
     "frontPage": 0,
-    "points": 3
+    "points": 6
    },
    "news": {
     "author": "typesanitizer",
@@ -14796,9 +14849,9 @@
     "domain": "davepacheco.net",
     "hnId": 605802331,
     "hnUrl": "https://lobste.rs/s/a0og2j/developing_for_debugging_2025",
-    "points": 3
+    "points": 6
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T02:21:14.456-05:00",
    "refs": [],
    "relevance": {
@@ -14826,28 +14879,28 @@
    "key": "lobsters:ddtqtn",
    "lobsters": {
     "author": "FiloSottile",
-    "comments": 14,
+    "comments": 21,
     "createdAt": "2026-10-16T15:18:36.306-05:00",
     "domain": "words.filippo.io",
-    "points": 88,
+    "points": 109,
     "shortId": "ddtqtn",
     "url": "https://words.filippo.io/seeds-solved/"
    },
    "metrics": {
-    "comments": 14,
+    "comments": 21,
     "frontPage": 0,
-    "points": 88
+    "points": 109
    },
    "news": {
     "author": "FiloSottile",
-    "comments": 14,
+    "comments": 21,
     "createdAt": "2026-10-16T15:18:36.306-05:00",
     "domain": "words.filippo.io",
     "hnId": 809283083,
     "hnUrl": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has",
-    "points": 88
+    "points": 109
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T15:18:36.306-05:00",
    "refs": [],
    "relevance": {
@@ -14879,14 +14932,14 @@
     "comments": 0,
     "createdAt": "2026-10-16T13:03:21.252-05:00",
     "domain": "blog.codeberg.org",
-    "points": 30,
+    "points": 34,
     "shortId": "e7rvsp",
     "url": "https://blog.codeberg.org/migrate-your-site-to-the-new-git-pages-backed-codeberg-pages-now-were-sunsetting-codeberg-pages-v2.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 30
+    "points": 34
    },
    "news": {
     "author": "FedericoSchonborn",
@@ -14895,9 +14948,9 @@
     "domain": "blog.codeberg.org",
     "hnId": 859584697,
     "hnUrl": "https://lobste.rs/s/e7rvsp/we_re_sunsetting_codeberg_pages_v2",
-    "points": 30
+    "points": 34
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T13:03:21.252-05:00",
    "refs": [],
    "relevance": {
@@ -14928,14 +14981,14 @@
     "comments": 6,
     "createdAt": "2026-10-17T01:12:46.936-05:00",
     "domain": "shkspr.mobi",
-    "points": 4,
+    "points": 5,
     "shortId": "gwuebx",
     "url": "https://shkspr.mobi/blog/2026/10/some-thoughts-on-unit-testing-activitypub/"
    },
    "metrics": {
     "comments": 6,
     "frontPage": 0,
-    "points": 4
+    "points": 5
    },
    "news": {
     "author": "hongminhee",
@@ -14944,9 +14997,9 @@
     "domain": "shkspr.mobi",
     "hnId": 1022624781,
     "hnUrl": "https://lobste.rs/s/gwuebx/some_quick_thoughts_on_unit_testing",
-    "points": 4
+    "points": 5
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T01:12:46.936-05:00",
    "refs": [],
    "relevance": {
@@ -14976,28 +15029,28 @@
    "key": "lobsters:miwcai",
    "lobsters": {
     "author": "travisgriggs",
-    "comments": 8,
+    "comments": 14,
     "createdAt": "2026-10-16T18:53:05.634-05:00",
     "domain": "lobste.rs",
-    "points": 11,
+    "points": 16,
     "shortId": "miwcai",
     "url": "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 14,
     "frontPage": 0,
-    "points": 11
+    "points": 16
    },
    "news": {
     "author": "travisgriggs",
-    "comments": 8,
+    "comments": 14,
     "createdAt": "2026-10-16T18:53:05.634-05:00",
     "domain": "lobste.rs",
     "hnId": 1361997882,
     "hnUrl": "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your",
-    "points": 11
+    "points": 16
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T18:53:05.634-05:00",
    "refs": [],
    "relevance": {
@@ -15076,28 +15129,28 @@
    "key": "lobsters:pllfoa",
    "lobsters": {
     "author": "rajtilakjee",
-    "comments": 7,
+    "comments": 8,
     "createdAt": "2026-10-16T23:22:50.540-05:00",
     "domain": "github.com",
-    "points": 2,
+    "points": 3,
     "shortId": "pllfoa",
     "url": "https://github.com/rajtilakjee/orib"
    },
    "metrics": {
-    "comments": 7,
+    "comments": 8,
     "frontPage": 0,
-    "points": 2
+    "points": 3
    },
    "news": {
     "author": "rajtilakjee",
-    "comments": 7,
+    "comments": 8,
     "createdAt": "2026-10-16T23:22:50.540-05:00",
     "domain": "github.com",
     "hnId": 1547926426,
     "hnUrl": "https://lobste.rs/s/pllfoa/orib_bringing_back_old_reddit_interface",
-    "points": 2
+    "points": 3
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T23:22:50.540-05:00",
    "refs": [
     "gh:rajtilakjee/orib"
@@ -15131,14 +15184,14 @@
     "comments": 0,
     "createdAt": "2026-10-17T09:16:33.586-05:00",
     "domain": "basis.ai",
-    "points": 3,
+    "points": 5,
     "shortId": "rtd5gq",
     "url": "https://www.basis.ai/blog/ship-your-interpreters/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 3
+    "points": 5
    },
    "news": {
     "author": "edoput",
@@ -15147,9 +15200,9 @@
     "domain": "basis.ai",
     "hnId": 1681909226,
     "hnUrl": "https://lobste.rs/s/rtd5gq/ship_your_interpreter",
-    "points": 3
+    "points": 5
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T09:16:33.586-05:00",
    "refs": [],
    "relevance": {
@@ -15178,28 +15231,28 @@
    "key": "lobsters:srao9u",
    "lobsters": {
     "author": "mpweiher",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-17T07:17:20.307-05:00",
     "domain": "lf-lang.org",
-    "points": 6,
+    "points": 20,
     "shortId": "srao9u",
     "url": "https://www.lf-lang.org/"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 8,
     "frontPage": 0,
-    "points": 6
+    "points": 20
    },
    "news": {
     "author": "mpweiher",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-17T07:17:20.307-05:00",
     "domain": "lf-lang.org",
     "hnId": 1738900578,
     "hnUrl": "https://lobste.rs/s/srao9u/intuitive_concurrent_programming_any",
-    "points": 6
+    "points": 20
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-17T07:17:20.307-05:00",
    "refs": [],
    "relevance": {
@@ -15230,14 +15283,14 @@
     "comments": 1,
     "createdAt": "2026-10-16T13:54:16.019-05:00",
     "domain": "youtube.com",
-    "points": 34,
+    "points": 38,
     "shortId": "tty7hm",
     "url": "https://www.youtube.com/watch?v=5zIOfBLQ3U4"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 34
+    "points": 38
    },
    "news": {
     "author": "hgrsd",
@@ -15246,9 +15299,9 @@
     "domain": "youtube.com",
     "hnId": 1803823978,
     "hnUrl": "https://lobste.rs/s/tty7hm/getting_canceled",
-    "points": 34
+    "points": 38
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T13:54:16.019-05:00",
    "refs": [],
    "relevance": {
@@ -15327,28 +15380,28 @@
    "key": "lobsters:vjmn84",
    "lobsters": {
     "author": "maevyn",
-    "comments": 12,
+    "comments": 18,
     "createdAt": "2026-10-16T11:36:29.493-05:00",
     "domain": "maevyn.codes",
-    "points": 37,
+    "points": 48,
     "shortId": "vjmn84",
     "url": "https://maevyn.codes/decoherence"
    },
    "metrics": {
-    "comments": 12,
+    "comments": 18,
     "frontPage": 0,
-    "points": 37
+    "points": 48
    },
    "news": {
     "author": "maevyn",
-    "comments": 12,
+    "comments": 18,
     "createdAt": "2026-10-16T11:36:29.493-05:00",
     "domain": "maevyn.codes",
     "hnId": 1907420692,
     "hnUrl": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out",
-    "points": 37
+    "points": 48
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T11:36:29.493-05:00",
    "refs": [],
    "relevance": {
@@ -15376,28 +15429,28 @@
    "key": "lobsters:wn293o",
    "lobsters": {
     "author": "carlana",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-16T20:12:09.772-05:00",
     "domain": "go.dev",
-    "points": 18,
+    "points": 24,
     "shortId": "wn293o",
     "url": "https://go.dev/blog/interactive-refactoring"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 7,
     "frontPage": 0,
-    "points": 18
+    "points": 24
    },
    "news": {
     "author": "carlana",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-16T20:12:09.772-05:00",
     "domain": "go.dev",
     "hnId": 1973653908,
     "hnUrl": "https://lobste.rs/s/wn293o/interactive_refactoring_gopls",
-    "points": 18
+    "points": 24
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T20:12:09.772-05:00",
    "refs": [],
    "relevance": {
@@ -15476,28 +15529,28 @@
    "key": "lobsters:xwng6u",
    "lobsters": {
     "author": "FedericoSchonborn",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-16T13:25:15.354-05:00",
     "domain": "blogs.gnome.org",
-    "points": 24,
+    "points": 27,
     "shortId": "xwng6u",
     "url": "https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 12,
     "frontPage": 0,
-    "points": 24
+    "points": 27
    },
    "news": {
     "author": "FedericoSchonborn",
-    "comments": 8,
+    "comments": 12,
     "createdAt": "2026-10-16T13:25:15.354-05:00",
     "domain": "blogs.gnome.org",
     "hnId": 2050225590,
     "hnUrl": "https://lobste.rs/s/xwng6u/introducing_gnome_os_preview",
-    "points": 24
+    "points": 27
    },
-   "observedAt": "2026-10-17T15:32:02.493Z",
+   "observedAt": "2026-10-18T05:52:35.283Z",
    "publishedAt": "2026-10-16T13:25:15.354-05:00",
    "refs": [],
    "relevance": {
@@ -15522,60 +15575,67 @@
   }
  ],
  "date": "2026-10-17",
- "fetchedAt": "2026-10-17T15:32:02.493Z",
+ "fetchedAt": "2026-10-18T05:52:35.283Z",
  "runs": [
   "2026-10-16T16:36:59.199Z",
   "2026-10-17T05:35:47.862Z",
-  "2026-10-17T15:32:02.493Z"
+  "2026-10-17T15:32:02.493Z",
+  "2026-10-18T05:52:35.283Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "dev-to",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 314,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "count": 313,
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "github-search",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 172,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "github-trending",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 73,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "count": 71,
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 97,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "count": 50,
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "lobsters",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15583,16 +15643,17 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-17T15:32:02.493Z",
+   "fetchedAt": "2026-10-18T05:52:35.283Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-18T05:52:35.283Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-16T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
-  "to": "2026-10-17T15:32:02.493Z"
+  "to": "2026-10-17T16:00:00.000Z"
  }
 }
