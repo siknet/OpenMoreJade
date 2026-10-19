@@ -13,6 +13,15 @@
   },
   "hash": "68dd53e41c865b2c"
  },
+ "devto:4766820": {
+  "copy": {
+   "zh": {
+    "blurb": "本文系统比较 vLLM、Ollama 与 llama.cpp 三大 LLM 推理引擎，评估其架构、PagedAttention、KV 缓存等关键特性，为企业 AI 部署提供技术审计参考。",
+    "title": "vLLM、Ollama、llama.cpp 推理引擎对比指南"
+   }
+  },
+  "hash": "6e6424d35d4577e4"
+ },
  "devto:4819360": {
   "copy": {
    "zh": {
@@ -3276,6 +3285,20 @@
   },
   "hash": "ea78619027a5a715"
  },
+ "devto:4865167": {
+  "copy": {
+   "zh": {
+    "blurb": "作者用 Gemini 4 Argon 仅凭 15 条提示，零素材生成完整的 3D Flutter 卡丁车游戏，检验模型在复杂代码和图形生成上的能力。",
+    "points": [
+     "使用 15 条提示生成完整 3D Flutter 卡丁车游戏代码",
+     "模型无需预先素材即可创建游戏资源",
+     "评估前沿模型在复杂代码生成和图形渲染上的表现"
+    ],
+    "title": "压力测试 Gemini 4 Argon：15 条提示零资产构建 3D Flutter 卡丁车游戏"
+   }
+  },
+  "hash": "78e17762f1116fba"
+ },
  "devto:4865189": {
   "copy": {
    "zh": {
@@ -3496,6 +3519,15 @@
   },
   "hash": "29a344a23121b068"
  },
+ "devto:4869469": {
+  "copy": {
+   "zh": {
+    "blurb": "kafka-harbor 为 Node.js 项目提供完整的 Kafka 层，实现重试主题、死信队列、事务性提交和可信关闭等功能。",
+    "title": "kafka-harbor：Node.js 团队的一站式 Kafka 层"
+   }
+  },
+  "hash": "221c44fe37176d73"
+ },
  "devto:4869502": {
   "copy": {
    "zh": {
@@ -3657,6 +3689,20 @@
   },
   "hash": "4db4353ada888e65"
  },
+ "devto:4870977": {
+  "copy": {
+   "zh": {
+    "blurb": "作者自行对真实目标运行 DAST 扫描器，得到 0.920 的基准分，却产生 39 条误报且漏掉已知缺陷，探讨基准分数的局限性。",
+    "points": [
+     "高分并不等同于低误报率。",
+     "误报数量大，实际漏洞检测率低。",
+     "提醒评估安全工具时需结合真实场景。"
+    ],
+    "title": "DAST 扫描基准 0.920 分，但在 Juice Shop 上未发现漏洞"
+   }
+  },
+  "hash": "0b0ed9afeb4e9b0e"
+ },
  "devto:4871504": {
   "copy": {
    "zh": {
@@ -3736,6 +3782,20 @@
   },
   "hash": "aabd6aae5fa4d9b7"
  },
+ "devto:4872249": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章展示使用开源模型在本地离线完成照片自动筛选，适用于 Hacktoberfest 开源挑战。",
+    "points": [
+     "完整离线运行，无需联网即可执行图像分析。",
+     "模型自动挑选高质量照片，显著降低人工筛选工作量。",
+     "示例代码与模型权重均在文章中公开，便于复现。"
+    ],
+    "title": "离线 AI 辅助照片筛选已成可能"
+   }
+  },
+  "hash": "28e931b04cf74a61"
+ },
  "devto:4872266": {
   "copy": {
    "zh": {
@@ -3794,8 +3854,13 @@
  "devto:4873193": {
   "copy": {
    "zh": {
-    "blurb": "作者分享自行开发的浏览器插件，实现打开 DEV 文章时的自定义新标签页功能，提升阅读体验并加入快捷操作。",
-    "title": "为 DEV 网站打造的新标签页浏览器扩展"
+    "blurb": "作者为 DEV 开发了全新标签页浏览器扩展，实现快速打开新标签、内置搜索和项目推荐，提升在 DEV 上的阅读与探索效率，代码已开源可自行定制。",
+    "points": [
+     "快速打开新标签页提升阅读体验",
+     "内置搜索与项目推荐功能",
+     "开源实现，便于二次开发和自定义"
+    ],
+    "title": "为 DEV 构建的新标签页浏览器扩展"
    }
   },
   "hash": "ab5e23ca1506688f"
@@ -3813,6 +3878,20 @@
    }
   },
   "hash": "cb2cf1174d48fc8a"
+ },
+ "devto:4873703": {
+  "copy": {
+   "zh": {
+    "blurb": "在 RTX 3050 与 GTX 1650 Ti 上使用 llama.cpp 运行 Qwen3.5‑2B 与 Gemma‑4‑E2B，比较速度、质量、4‑bit 量化等因素。",
+    "points": [
+     "Qwen3.5‑2B 在低端 GPU 上推理更快，适合实时响应。",
+     "Gemma‑4‑E2B 生成答案质量更高，尤其在复杂问答上表现佳。",
+     "实验覆盖 4‑bit 量化、量化感知训练（QAT）及 Qwen 的 MTP 草稿头。"
+    ],
+    "title": "低端显卡上 Qwen 与 Gemma 的性能对比"
+   }
+  },
+  "hash": "77bc7196e50ea4ef"
  },
  "devto:4874324": {
   "copy": {
@@ -3932,8 +4011,12 @@
  "devto:4875410": {
   "copy": {
    "zh": {
-    "blurb": "作者记录在 Crowdwide 社交平台开发第 17 天的进展，重点是通过功能迭代和激励机制提升用户回归率。",
-    "title": "Crowdwide 项目第 17 天：尝试召回用户"
+    "blurb": "开发者自 2026 年 9 月 9 日起构建社交媒体平台 Crowdwide，当前进入第 17 天，重点探索如何通过新功能和活动重新吸引并留住用户。",
+    "points": [
+     "项目自 2026 年 9 月启动，聚焦社交平台核心功能。",
+     "当前重点是通过新功能提升用户活跃度与留存。"
+    ],
+    "title": "Crowdwide 第 17 天：尝试召回用户"
    }
   },
   "hash": "fa813c3c4f69e0ab"
@@ -3965,6 +4048,208 @@
    }
   },
   "hash": "6e80ed6911f22777"
+ },
+ "devto:4875953": {
+  "copy": {
+   "zh": {
+    "blurb": "PriceCraft AI 将原本需要20分钟的 eBay 商品列表创建压缩至一次点击，作为 Hacktoberfest 开源 AI 挑战的作品，提供自动化标题、描述等功能。",
+    "title": "PriceCraft AI：一键生成 eBay 商品列表"
+   }
+  },
+  "hash": "0aea6a79343f271d"
+ },
+ "devto:4876148": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章报告在 Xonta 市场中为 AI 代理设定危害预算，替代信任度进行安全性评估，完成 19 项实验。",
+    "points": [
+     "引入“危害预算”指标，量化代理潜在风险。",
+     "在 19 次实验中对比安全性与功能表现的权衡。",
+     "实验结果显示，适度预算可显著降低危害而不大幅牺牲性能。"
+    ],
+    "title": "使用危害预算评估 AI 代理的实验研究"
+   }
+  },
+  "hash": "7101566bcff14173"
+ },
+ "devto:4876631": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提出“拒绝合约”，约束免费编码代理在接受请求时能够拒绝不合理或有风险的任务，解决其倾向默认接受的行为问题。",
+    "title": "免费编码代理的拒绝合约提案"
+   }
+  },
+  "hash": "1fc33474692ea577"
+ },
+ "devto:4877743": {
+  "copy": {
+   "zh": {
+    "blurb": "Meme Monday 系列在 DEV 社区分享幽默图片与段子，展示社区包容与多元氛围，鼓励成员通过轻松内容增强互动与归属感。",
+    "points": [
+     "展示社区成员创作的搞笑图片与段子",
+     "强调 DEV 的包容与多元氛围",
+     "通过幽默内容促进用户互动与归属感"
+    ],
+    "title": "Meme Monday：DEV 社区的幽默周一"
+   }
+  },
+  "hash": "1438bc8f3896e0bc"
+ },
+ "devto:4878078": {
+  "copy": {
+   "zh": {
+    "blurb": "文章深入分析 OpenPLC Runtime v4 的进程结构和通信机制，旨在为工业控制系统的安全研究提供基准。",
+    "points": [
+     "详细剖析 PLC 运行时的进程与通信模型",
+     "提出安全评估方法与基准指标",
+     "帮助研究者定位工业控制系统中的潜在漏洞"
+    ],
+    "title": "OpenPLC Runtime v4 深度解析：构建安全研究基线"
+   }
+  },
+  "hash": "e3f412faa10fb520"
+ },
+ "devto:4878775": {
+  "copy": {
+   "zh": {
+    "blurb": "Rotifer 0.27.0 版本将基因 ID 改为基于内容的生成方式，使用前缀 v2: 加上哈希等信息，提升唯一性与可追溯性。",
+    "points": [
+     "ID 不再依赖手工命名，自动基于基因内容生成。",
+     "采用 v2: 前缀区分新旧版本。",
+     "有助于 LAN P2P 节点间的基因同步与管理。"
+    ],
+    "title": "Rotifer v0.27.0：基于内容的基因 ID 方案"
+   }
+  },
+  "hash": "cdac8c6f654e32c1"
+ },
+ "devto:4878848": {
+  "copy": {
+   "zh": {
+    "blurb": "文章揭示在 Claude Code、OpenAI Codex CLI、Cursor 等多 MCP 服务器环境下，每轮会额外消耗约3万 token，并提供通过树摇（tree‑shaking）剔除无用代码的优化方法。",
+    "points": [
+     "多 MCP 服务器导致显著 token 开销",
+     "通过树摇剔除未使用的模块",
+     "提升调用效率并降低费用"
+    ],
+    "title": "你的MCP服务器每回合暗吞30000个Token的真相及树摇解决方案"
+   }
+  },
+  "hash": "12b7723351af5f8f"
+ },
+ "devto:4878932": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍在 BioseqDB 与 SeqKit 环境下处理 FASTA 等序列文件的技巧，强调标题信息的丰富性与解析方法。",
+    "points": [
+     "FASTA 头部可携带多种元数据。",
+     "示例展示如何在 BioseqDB 中读取并转换序列。",
+     "SeqKit 提供高效的批量操作与过滤功能。"
+    ],
+    "title": "BioseqDB 与 SeqKit：序列文件处理实战"
+   }
+  },
+  "hash": "4d99e8becf17edd6"
+ },
+ "devto:4879058": {
+  "copy": {
+   "zh": {
+    "blurb": "在对12,915个MCP服务器的调查中，统计了34,374个工具的令牌数量，总计182,157个令牌，用以评估其成本规模。",
+    "points": [
+     "统计了34,374个工具的令牌数",
+     "总计182,157个令牌，展示了成本规模"
+    ],
+    "title": "MCP 服务器工具列表代价统计"
+   }
+  },
+  "hash": "f01543a79f26f9ae"
+ },
+ "devto:4879081": {
+  "copy": {
+   "zh": {
+    "blurb": "因需对银行对账单PDF进行脱敏、将语音备忘转为MP3，作者开发了一套完全在浏览器运行的工具集合，避免将私密文件上传至不可信服务器。",
+    "points": [
+     "全部在本地浏览器完成处理，保护隐私",
+     "超过100个实用工具覆盖PDF、音频等场景",
+     "开源可自行扩展或定制"
+    ],
+    "title": "厌倦上传私人PDF和音频到不安全服务器，我打造了100+纯浏览器工具"
+   }
+  },
+  "hash": "40370b282745a4bc"
+ },
+ "devto:4879090": {
+  "copy": {
+   "zh": {
+    "blurb": "作者称《Designing Data‑Intensive Applications》（DDIA）为最佳分布式系统教材，阅读第二版获益良多，但对其实验室设计质量持负面评价。",
+    "points": [
+     "内容深入、覆盖面广",
+     "实验室设计不佳，实践受限"
+    ],
+    "title": "《Designing Data‑Intensive Applications》评价与实验室批评"
+   }
+  },
+  "hash": "03e25531ff55637e"
+ },
+ "devto:4879104": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目 iphone-agent-harness（MIT）让 iPhone 通过 Safari 与 ESP32 蓝牙模块交互，实现浏览器控制和演示安装流程。",
+    "title": "iPhone Agent 在 Safari 中运行，ESP32 充当蓝牙手部"
+   }
+  },
+  "hash": "3ea58b2f950bcbef"
+ },
+ "devto:4879128": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 SwiftUI 的免费开源 macOS 应用 Sorcerer（MIT）可模拟社区多智能体行为，支持 macOS 15+ 系统。",
+    "title": "使用原生 SwiftUI 构建多智能体模拟器"
+   }
+  },
+  "hash": "b1d1b8b750abc93a"
+ },
+ "devto:4879131": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在开发 safe-migrate——一个分析 PostgreSQL 迁移的 Rust 工具时，遇到 “Skipped” 在不同上下文下的歧义问题并给出解决方案。",
+    "points": [
+     "展示了 safe-migrate 对迁移脚本的安全分析流程。",
+     "解释了 Rust 中 Skip 状态的不同语义。",
+     "提供实现细节以避免误解导致的错误。"
+    ],
+    "title": "Rust 中“Skipped”两种含义的探讨"
+   }
+  },
+  "hash": "2bf93a447da9fa1c"
+ },
+ "devto:4879177": {
+  "copy": {
+   "zh": {
+    "blurb": "市面多数WhatsApp导出插件免费额度仅能导出10‑30个联系人，作者快速实现了开源、免费且无限制的WAVault，可导出联系人、群成员、聊天记录及媒体等到Excel、CSV、vCard等格式。",
+    "points": [
+     "完全免费、开源、无限制导出",
+     "支持多种导出格式：Excel、CSV、vCard 等",
+     "本地浏览器运行，保护用户数据安全"
+    ],
+    "title": "他们收费导出WhatsApp联系人，我一天内推出免费替代方案"
+   }
+  },
+  "hash": "6c20d44a1e6f8e71"
+ },
+ "devto:4879226": {
+  "copy": {
+   "zh": {
+    "blurb": "Calabrass 是面向 Windows 的本地运行、开源个人 AI 代理，强调隐私与本地控制，适用于日常工作流。",
+    "points": [
+     "完全离线运行，保护用户数据隐私。",
+     "基于本地模型，可自定义插件和工具链。",
+     "提供友好 UI，支持常见办公任务自动化。"
+    ],
+    "title": "Calabrass：本地首选的开源个人 AI 助手（Windows）"
+   }
+  },
+  "hash": "491cbf11b2322744"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -4198,6 +4483,15 @@
    }
   },
   "hash": "a1e8e2c82d491c54"
+ },
+ "gh:bobeff/open-source-games": {
+  "copy": {
+   "zh": {
+    "blurb": "open-source-games 项目收录了众多使用 Python 开发的开源游戏，方便开发者查找和贡献。",
+    "title": "开源游戏合集"
+   }
+  },
+  "hash": "cb7247fdf7d0553a"
  },
  "gh:bojieli/ai-agent-book": {
   "copy": {
@@ -4544,8 +4838,13 @@
  "gh:google/artemis": {
   "copy": {
    "zh": {
-    "blurb": "ARTEMIS 能将自然语言指令转化为可靠的 Android 自动化，支持端到端工作流、日志捕获，并可与 Antigravity、Codex、Claude Code 等 AI 编码助手无缝集成，在 AndroidWorld 基准测试上成功率超过 99%。",
-    "title": "ARTEMIS：将自然语言指令转换为可靠的 Android 自动化"
+    "blurb": "ARTEMIS 将自然语言指令转换为可靠的 Android 自动化，支持端到端工作流、日志捕获，并可无缝对接 Antigravity、Codex、Claude Code 等 AI 编码助手，AndroidWorld 基准成功率超 99%。",
+    "points": [
+     "支持端到端工作流自动化并自动捕获日志",
+     "深度集成 Antigravity、Codex、Claude Code 等 AI 编码助理",
+     "在 AndroidWorld 基准上实现 99%+ 的成功率"
+    ],
+    "title": "ARTEMIS：将自然语言指令转化为可靠的 Android 自动化"
    }
   },
   "hash": "ed65274050ddb823"
@@ -4592,6 +4891,15 @@
    }
   },
   "hash": "0bd5664426e304c7"
+ },
+ "gh:hbai-ltd/toonflow-app": {
+  "copy": {
+   "zh": {
+    "blurb": "Toonflow 是开源的 AI 短剧和漫画制作平台，集剧本创作、智能分镜、资产管理、图像/视频生成于一体，支持本地部署和插件扩展。",
+    "title": "Toonflow：开源 AI 短剧与漫画创作平台"
+   }
+  },
+  "hash": "fe4b54eb5f54a827"
  },
  "gh:headroomlabs-ai/headroom": {
   "copy": {
@@ -5504,6 +5812,19 @@
    }
   },
   "hash": "41d23f97636ca233"
+ },
+ "gh:strelov1/freehire": {
+  "copy": {
+   "zh": {
+    "blurb": "freehire 是一个用 Go 编写的开源求职搜索引擎，聚合多来源职位信息，提供全文检索功能，已在 GitHub 获得超过 1400 个星标。",
+    "points": [
+     "freehire 使用 Go 编写，提供面向求职者的全文检索。",
+     "支持多源职位数据聚合，已获 1400+ 星标。"
+    ],
+    "title": "freehire — 为求职者打造的开源搜索引擎"
+   }
+  },
+  "hash": "1ed1720bd21a886e"
  },
  "gh:t8y2/dbx": {
   "copy": {
@@ -8156,8 +8477,13 @@
  "hn:50145337": {
   "copy": {
    "zh": {
-    "blurb": "论文介绍一种让大模型在潜在向量空间进行推理、再以文本指令执行的混合代理框架，附带代码库和评测结果。",
-    "title": "混合推理代理：在潜在空间思考、通过文本行动的 LLM 代理"
+    "blurb": "Hybrid Reasoning Agents 提出在潜在空间进行推理、通过文本执行的 LLM 代理框架，提供开源实现与 HuggingFace 模型集合，在多项评测中表现优于传统代理。",
+    "points": [
+     "结合潜在空间推理与文本指令提升决策效率",
+     "提供开源实现及 HuggingFace 模型集合",
+     "多项评测显示优于传统 LLM 代理"
+    ],
+    "title": "Hybrid Reasoning Agents：在潜在空间思考、通过文本行动的 LLM 代理"
    }
   },
   "hash": "558bd720c5fedf43"
@@ -8165,8 +8491,12 @@
  "hn:50145507": {
   "copy": {
    "zh": {
-    "blurb": "文章警示使用第三方 LLM 代理时的可见性缺失，呼吁开发者自行部署代理以获得请求、响应的完整监控。",
-    "title": "不自行运行 LLM 代理，如何了解内部状况？"
+    "blurb": "文章讨论如果不自行部署 LLM 代理，难以了解模型请求与响应的细节，强调自行搭建代理能提升透明度、安全审计和成本控制。",
+    "points": [
+     "强调自行搭建 LLM 代理以获取请求、响应可见性。",
+     "讨论代理在安全审计、成本控制和故障排查中的作用。"
+    ],
+    "title": "如果不自行部署 LLM 代理，如何监控其运行状态？"
    }
   },
   "hash": "b6af95cae5c75237"
@@ -8240,6 +8570,103 @@
    }
   },
   "hash": "ff122dc7a5f7809a"
+ },
+ "hn:50148452": {
+  "copy": {
+   "zh": {
+    "blurb": "ArtificialAnalysis.ai 介绍的 DeepSeek 最新大模型 V4.1 Flash 1017 Max，提升了推理速度和上下文长度。",
+    "points": [
+     "模型规模和参数优化，实现更快的生成速度。",
+     "支持更长的上下文窗口，适合长文本任务。",
+     "通过官方平台可直接获取模型权重和推理 API。"
+    ],
+    "title": "DeepSeek V4.1 Flash 1017（Max）模型概览"
+   }
+  },
+  "hash": "1f443cf322bbd324"
+ },
+ "hn:50148855": {
+  "copy": {
+   "zh": {
+    "blurb": "指南展示如何使用 tmux 管理 Claude AI 代理的会话，利用 send‑keys 实现指令注入，并探讨并发上限。",
+    "points": [
+     "利用 tmux 多路复用管理 Claude 对话会话",
+     "通过 send‑keys 自动化向模型发送指令",
+     "讨论模型交互的并发上限与资源管理策略"
+    ],
+    "title": "Tmux 与 Claude Code：会话、Send‑Keys 与上限"
+   }
+  },
+  "hash": "562a150e5ea1113f"
+ },
+ "hn:50150434": {
+  "copy": {
+   "zh": {
+    "blurb": "Timestral 是 Mistral 推出的时间序列基础模型系列，提供统一的预训练模型，适用于预测、异常检测等多种下游任务，全部开源供研究使用。",
+    "points": [
+     "提供统一的时间序列预训练模型",
+     "支持预测、异常检测等多种下游任务",
+     "模型、数据集均开源，方便科研复现"
+    ],
+    "title": "Timestral：Mistral 的时间序列基础模型"
+   }
+  },
+  "hash": "78c4a8ec85e1aafe"
+ },
+ "hn:50151390": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库提出 Harness Engineering 概念，将 LLM 视为大脑，外部工具的包装层（harness）作为身体，实现推理与执行的解耦与复用。",
+    "points": [
+     "LLM 负责推理，harness 负责执行和状态管理",
+     "提供可复用框架，将 LLM 与外部系统快速集成",
+     "示例代码展示 AI 驱动的自动化工作流构建方式"
+    ],
+    "title": "Harness Engineering 101：LLM 为大脑，Harness 为身体"
+   }
+  },
+  "hash": "76079263d589c725"
+ },
+ "hn:50151928": {
+  "copy": {
+   "zh": {
+    "blurb": "100toolkit.com 报道的 Qwen3‑4B 开源模型，专为 AI 辅助写作优化，提供轻量化部署方案。",
+    "points": [
+     "4B 参数的 Qwen3 系列模型，可直接用于文本生成任务。",
+     "针对写作场景进行微调，提升语言流畅度和结构连贯性。",
+     "开源发布，社区可自行部署和二次开发。"
+    ],
+    "title": "Show HN：Qwen3‑4B AI 写作模型发布"
+   }
+  },
+  "hash": "b1acdcdb4fd9c9d7"
+ },
+ "hn:50153630": {
+  "copy": {
+   "zh": {
+    "blurb": "CERN 与法国 AI 初创公司 Mistral AI 签署意向书，建立战略合作伙伴关系，旨在加速科学领域的人工智能研发，双方将在模型训练、算力共享和数据协作等方面展开合作。",
+    "points": [
+     "CERN 与 Mistral 将共同研发面向科学的 AI 模型。",
+     "合作涵盖算力共享、数据协作与模型部署加速。"
+    ],
+    "title": "CERN 与 Mistral 签署意向书，建立战略合作伙伴关系"
+   }
+  },
+  "hash": "7fe0108ae29fa08c"
+ },
+ "hn:50155647": {
+  "copy": {
+   "zh": {
+    "blurb": "为6岁孩子设计的开源阅读应用，点击单词即可播放音素，让孩子自行阅读。内容由作者的儿子创作，持续发布新章节。",
+    "points": [
+     "点击单词即发音，帮助拼读",
+     "GitHub 开源，可自行添加故事章节",
+     "支持孩子独立坐下来阅读"
+    ],
+    "title": "开源早读阅读器，支持语音拼读帮助"
+   }
+  },
+  "hash": "32cdc4d8d414ca2d"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -8575,6 +9002,20 @@
   },
   "hash": "54217b3d459a77df"
  },
+ "lobsters:8ejwsp": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 报道的 Ende 项目，是对 Deno 运行时的社区驱动分支，旨在加入新特性并改进生态。",
+    "points": [
+     "Ende 继承 Deno 核心，提供可插件化的扩展机制。",
+     "完全开源，鼓励社区贡献和自定义功能。",
+     "当前处于早期开发阶段，正在积极收集用户反馈。"
+    ],
+    "title": "Ende：社区版 Deno 分支的开端"
+   }
+  },
+  "hash": "14832afe3ccaaa0c"
+ },
  "lobsters:9lqyul": {
   "copy": {
    "zh": {
@@ -8674,6 +9115,20 @@
   },
   "hash": "cb3cf48a6480f8dd"
  },
+ "lobsters:a9f6z1": {
+  "copy": {
+   "zh": {
+    "blurb": "Futhark 团队在博客中说明，为避免极少数情况下出现的除法错误，决定让所有除法运算稍慢，以确保正确性，权衡了性能与可靠性。",
+    "points": [
+     "将除法运算统一放慢以规避极端 bug",
+     "错误出现概率极低但影响严重",
+     "优先保证语言正确性而非极致性能"
+    ],
+    "title": "让所有除法变慢以修复0.000000000000000000542%案例中的bug"
+   }
+  },
+  "hash": "a566218dc4f12a36"
+ },
  "lobsters:aasanp": {
   "copy": {
    "zh": {
@@ -8700,6 +9155,19 @@
    }
   },
   "hash": "1a5a2616c6e98528"
+ },
+ "lobsters:b36ixw": {
+  "copy": {
+   "zh": {
+    "blurb": "Rich Hickley 在 YouTube 上发布的《In Context》视频，围绕上下文学习或相关技术展开讨论。",
+    "points": [
+     "视频时长未注明，但在 Lobsters 社区获得 3 票支持。",
+     "主题聚焦于 AI 模型的上下文使用方法。"
+    ],
+    "title": "In Context - Rich Hickley 视频"
+   }
+  },
+  "hash": "677375f6379bd398"
  },
  "lobsters:bcaopz": {
   "copy": {
@@ -8851,6 +9319,15 @@
    }
   },
   "hash": "e8f775e35a2d0413"
+ },
+ "lobsters:dtwbpu": {
+  "copy": {
+   "zh": {
+    "blurb": "《Programming Language Fundamentals in Agda》（PLFA）是一套基于 Agda 的编程语言基础教材，涵盖类型系统、语义等核心概念，适合作为函数式语言学习资源。",
+    "title": "Agda 编写的《Programming Language Fundamentals》教材"
+   }
+  },
+  "hash": "ae56e6ae2be1e867"
  },
  "lobsters:dujxbl": {
   "copy": {
@@ -9122,6 +9599,19 @@
   },
   "hash": "61d04afde88f156a"
  },
+ "lobsters:gqepzd": {
+  "copy": {
+   "zh": {
+    "blurb": "Wine 项目已成功移植到 OpenBSD，通过官方 ports 提供兼容层，使得在 OpenBSD 上运行 Windows 应用成为可能，简化了安装与维护流程。",
+    "points": [
+     "Wine 在 OpenBSD 上的移植实现了 Windows 应用兼容。",
+     "通过官方 ports 系统提供，简化安装与维护流程。"
+    ],
+    "title": "Wine 移植至 OpenBSD"
+   }
+  },
+  "hash": "634a54b29faa8fc0"
+ },
  "lobsters:gr0ptb": {
   "copy": {
    "zh": {
@@ -9165,8 +9655,13 @@
  "lobsters:h0eate": {
   "copy": {
    "zh": {
-    "blurb": "Lobsters 社区公布最新站点指南以及对 AI/LLM 相关标签的使用规范，旨在提升讨论质量并减少误标。",
-    "title": "站点指南及 AI/LLM 标签更新公告"
+    "blurb": "Lobsters 更新站点指南和 AI/LLM 标签政策，针对 `vibecoding` 等相关内容的审核进行调整，新增两项规则以鼓励建设性讨论并提升内容专题性。",
+    "points": [
+     "对 `vibecoding` 与 AI/LLM 内容的审核流程进行调整",
+     "新增两项规则鼓励建设性讨论",
+     "旨在提升社区内容的专题性和质量"
+    ],
+    "title": "Lobsters 更新站点指南及 AI/LLM 标签政策"
    }
   },
   "hash": "302b64433cdbf6c3"
@@ -9596,6 +10091,29 @@
   },
   "hash": "92961f695cb289ba"
  },
+ "lobsters:mpdk1e": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在经历某种技术或生活挫折后，分享在残破环境中重新定位、重建的思考与感悟。",
+    "points": [
+     "从破局中寻找新方向",
+     "强调韧性与自我重塑",
+     "呼吁社区支持与共鸣"
+    ],
+    "title": "在废墟中寻找归宿"
+   }
+  },
+  "hash": "cb05a96141f0b0e1"
+ },
+ "lobsters:mpytbn": {
+  "copy": {
+   "zh": {
+    "blurb": "One Hash Bloom Filters 提出仅使用单个哈希函数实现布隆过滤器，降低计算开销并保持误判率。",
+    "title": "单哈希 Bloom 过滤器"
+   }
+  },
+  "hash": "e6d2008e1071f0a7"
+ },
  "lobsters:nbxnh7": {
   "copy": {
    "zh": {
@@ -9705,6 +10223,15 @@
    }
   },
   "hash": "37c07c9025b2fb11"
+ },
+ "lobsters:p3pruv": {
+  "copy": {
+   "zh": {
+    "blurb": "博客介绍了通过二进制技巧在 BEAM 虚拟机上提升 dns_erlang 性能的方式，提供实用代码示例。",
+    "title": "加速 dns_erlang：BEAM 二进制技巧"
+   }
+  },
+  "hash": "a5e70f2b4ec782c0"
  },
  "lobsters:p7tf7i": {
   "copy": {
@@ -9878,6 +10405,20 @@
    }
   },
   "hash": "81431695bf3035a8"
+ },
+ "lobsters:s3w7hd": {
+  "copy": {
+   "zh": {
+    "blurb": "Tor 团队分享从头在 Android 上构建自研 VPN 客户端的经验，涵盖隐私、性能与兼容性挑战及解决方案。",
+    "points": [
+     "从零实现 Android VPN 客户端的网络堆栈",
+     "解决隐私、性能和兼容性等关键挑战",
+     "概述未来正式发布的功能路线图"
+    ],
+    "title": "Tor VPN Beta：从零构建 Android VPN 的经验教训"
+   }
+  },
+  "hash": "5612883aab5fb265"
  },
  "lobsters:s8bo3z": {
   "copy": {
@@ -10191,6 +10732,19 @@
   },
   "hash": "226453b53da505b6"
  },
+ "lobsters:vyfegx": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 社区发起本周话题，邀请成员分享本周的计划或已完成的工作，鼓励大家自由交流，即使什么都不做也可参与讨论。",
+    "points": [
+     "社区成员分享本周计划或已完成的任务。",
+     "鼓励开放交流，即便是“什么都不做”也可参与。"
+    ],
+    "title": "本周你在做什么？"
+   }
+  },
+  "hash": "396bb2489aa4ed37"
+ },
  "lobsters:vyo9n2": {
   "copy": {
    "zh": {
@@ -10208,8 +10762,13 @@
  "lobsters:w6xosj": {
   "copy": {
    "zh": {
-    "blurb": "本文探讨了 /pkg 目录/路径在现代软件生态中的作用，解释其设计初衷、使用场景以及对包管理和部署的影响。",
-    "title": "深入解析 /pkg 是什么？"
+    "blurb": "文章解释 /pkg 在软件分发中的概念、语法及优势，并通过案例展示如何在项目中使用。",
+    "points": [
+     "阐释 /pkg 在现代软件分发中的作用与语法",
+     "比较传统包管理与 /pkg 的优势",
+     "提供实际案例帮助开发者快速上手"
+    ],
+    "title": "/pkg 是什么？"
    }
   },
   "hash": "6d9f4001264419c6"
@@ -10269,6 +10828,15 @@
    }
   },
   "hash": "9c03743d73542164"
+ },
+ "lobsters:wtthju": {
+  "copy": {
+   "zh": {
+    "blurb": "A5 v1.0 版本在 a5geo.org 上发布，带来最新的地理空间功能，已在 Lobsters 获得 8 点赞，热度 44.8。",
+    "title": "A5 v1.0 发布"
+   }
+  },
+  "hash": "0f2b5b83bf20ab1b"
  },
  "lobsters:wyxufm": {
   "copy": {

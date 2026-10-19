@@ -45,7 +45,11 @@
   "reason": "invalid-response"
  },
  "2026-10-19": {
-  "attemptedAt": "2026-10-19T06:11:28.804Z",
-  "reason": "invalid-response"
+  "attemptedAt": "2026-10-19T18:43:21.139Z",
+  "reason": "budget"
+ },
+ "2026-10-20": {
+  "attemptedAt": "2026-10-19T18:43:21.139Z",
+  "reason": "budget"
  }
 }
