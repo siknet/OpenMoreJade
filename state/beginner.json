@@ -122,7 +122,7 @@
    "sourceKey": "devto:4859436"
   },
   "discovery:gh:anthropics/claude-quickstarts": {
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:anthropics/claude-quickstarts",
@@ -223,6 +223,40 @@
     }
    },
    "sourceKey": "gh:calesthio/openmontage"
+  },
+  "discovery:gh:comfy-org/comfyui": {
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:comfy-org/comfyui",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+    "summary": {
+     "en": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+     "zh": "最强大且模块化的扩散模型 GUI、API 与后端，采用图/节点界面，实现全球最快的本地推理。"
+    },
+    "title": {
+     "en": "Comfy-Org/ComfyUI",
+     "zh": ""
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:comfy-org/comfyui"
   },
   "discovery:gh:diegosouzapw/omniroute": {
    "observedAt": "2026-10-10T15:06:36.105Z",
@@ -341,7 +375,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -382,7 +416,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-16T16:36:59.199Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -394,7 +428,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-16T15:38:03.000Z",
+    "sourceUpdatedAt": "2026-10-17T18:29:50.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -677,7 +711,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -689,7 +723,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-18T06:16:56.000Z",
+    "sourceUpdatedAt": "2026-10-18T19:38:41.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
      "zh": "在本机运行的 AI 求职工具，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，开源可自行 Fork 使用。"
@@ -750,6 +784,40 @@
     }
    },
    "sourceKey": "gh:manaflow-ai/cmux"
+  },
+  "discovery:gh:mlabonne/llm-course": {
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:mlabonne/llm-course",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 4,
+     "foundation": 3,
+     "practice": 5
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-19T06:11:28.804Z",
+    "summary": {
+     "en": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+     "zh": "提供 LLM 学习路线图和 Colab Notebook，帮助快速上手大模型。"
+    },
+    "title": {
+     "en": "mlabonne/llm-course",
+     "zh": "LLM 入门课程资源库"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/mlabonne/llm-course",
+    "why": {
+     "en": "Automatic selection: Explicit teaching or structured learning material. Check the original source for access requirements.",
+     "zh": "自动候选：有明确的教学或系统学习内容。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:mlabonne/llm-course"
   },
   "discovery:gh:panniantong/agent-reach": {
    "observedAt": "2026-10-11T02:50:04.564Z",
@@ -827,7 +895,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -839,14 +907,14 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-18T15:43:52.000Z",
+    "sourceUpdatedAt": "2026-10-19T06:08:05.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-     "zh": ""
+     "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
     },
     "title": {
      "en": "stablyai/orca",
-     "zh": ""
+     "zh": "Orca：多代理编程平台"
     },
     "topics": [
      "ade",
@@ -1208,7 +1276,7 @@
    "sourceKey": "hn:50119748"
   },
   "discovery:hn:50137043": {
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50137043",
@@ -1239,6 +1307,39 @@
     }
    },
    "sourceKey": "hn:50137043"
+  },
+  "discovery:hn:50145715": {
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50145715",
+    "level": "starter",
+    "publishedAt": "2026-10-18T21:36:10.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 4,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-18T21:36:10.000Z",
+    "summary": {
+     "en": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it connects to your Google account as well as WhatsApp to grab the names of all your WhatsApp contacts, otherwise you get only phone numbers for many of them and search doesn't work properly. This is a single user install because it's both gray area and very private - so point your agent at the repo and…",
+     "zh": "作者将 Claude 移植至个人 WhatsApp，利用 Cloudflare 免费层运行，支持 Google 联系人同步，单用户私密部署。"
+    },
+    "title": {
+     "en": "Show HN: WhatsApp MCP running free on Cloudflare",
+     "zh": ""
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://github.com/finereli/whatsapp-mcp",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50145715"
   }
  },
  "dynamicHistory": {
@@ -1255,7 +1356,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "minimax-agent-tool",
@@ -1302,7 +1404,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "canva-ai-tool",
@@ -1348,7 +1451,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "deepseek-tool",
@@ -1395,7 +1499,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "chatglm-tool",
@@ -1441,7 +1546,8 @@
     "2026-10-15": 95,
     "2026-10-16": 95,
     "2026-10-17": 95,
-    "2026-10-18": 95
+    "2026-10-18": 95,
+    "2026-10-19": 95
    },
    "resource": {
     "id": "claude-code-quickstart",
@@ -1487,7 +1593,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "deepl-write-tool",
@@ -1533,7 +1640,8 @@
     "2026-10-15": 95,
     "2026-10-16": 95,
     "2026-10-17": 95,
-    "2026-10-18": 95
+    "2026-10-18": 95,
+    "2026-10-19": 95
    },
    "resource": {
     "id": "descript-tool",
@@ -1579,7 +1687,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "llamaindex-starter",
@@ -1625,7 +1734,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "anythingllm-guide",
@@ -1671,7 +1781,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "firecrawl-guide",
@@ -1717,7 +1828,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "n8n-ai-workflow",
@@ -1763,7 +1875,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "doubao-tool",
@@ -1810,7 +1923,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "elevenlabs-tool",
@@ -1856,7 +1970,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "elicit-tool",
@@ -1902,7 +2017,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "firefly-tool",
@@ -1948,7 +2064,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "gamma-tool",
@@ -1994,7 +2111,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "maxkb-repo",
@@ -2040,7 +2158,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "goose-repo",
@@ -2086,7 +2205,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "krita-ai-repo",
@@ -2132,7 +2252,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "aider-repo",
@@ -2178,7 +2299,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "opencode-repo",
@@ -2294,7 +2416,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "cherry-studio-repo",
@@ -2340,7 +2463,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "cline-repo",
@@ -2386,7 +2510,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "continue-repo",
@@ -2432,7 +2557,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "librechat-repo",
@@ -2478,7 +2604,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "marker-repo",
@@ -2524,7 +2651,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "wan2gp-repo",
@@ -2570,7 +2698,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "docling-repo",
@@ -2616,7 +2745,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "copilot-tool",
@@ -2662,7 +2792,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "flowise-repo",
@@ -2708,7 +2839,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "llamacpp-repo",
@@ -2754,7 +2886,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "gemini-cli-repo",
@@ -2842,7 +2975,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "kokoro-repo",
@@ -2888,7 +3022,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "diffusers-repo",
@@ -2934,7 +3069,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "sentence-transformers-repo",
@@ -3052,7 +3188,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "invokeai-repo",
@@ -3098,7 +3235,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "jan-repo",
@@ -3144,7 +3282,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "sherpa-onnx-repo",
@@ -3226,7 +3365,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "fastgpt-repo",
@@ -3272,7 +3412,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "open-notebook-repo",
@@ -3318,7 +3459,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "whisperx-repo",
@@ -3351,6 +3493,41 @@
     }
    }
   },
+  "https://github.com/mlabonne/llm-course": {
+   "days": {
+    "2026-10-19": 85
+   },
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:mlabonne/llm-course",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 4,
+     "foundation": 3,
+     "practice": 5
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-19T06:11:28.804Z",
+    "summary": {
+     "en": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+     "zh": "提供 LLM 学习路线图和 Colab Notebook，帮助快速上手大模型。"
+    },
+    "title": {
+     "en": "mlabonne/llm-course",
+     "zh": "LLM 入门课程资源库"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/mlabonne/llm-course",
+    "why": {
+     "en": "Automatic selection: Explicit teaching or structured learning material. Check the original source for access requirements.",
+     "zh": "自动候选：有明确的教学或系统学习内容。请打开原文确认使用条件。"
+    }
+   }
+  },
   "https://github.com/modelcontextprotocol/inspector": {
    "days": {
     "2026-10-06": 90,
@@ -3364,7 +3541,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "mcp-inspector-repo",
@@ -3410,7 +3588,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "codex-repo",
@@ -3456,7 +3635,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "paddleocr-repo",
@@ -3546,7 +3726,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "subtitleedit-repo",
@@ -3628,7 +3809,8 @@
     "2026-10-15": 80,
     "2026-10-16": 80,
     "2026-10-17": 80,
-    "2026-10-18": 80
+    "2026-10-18": 80,
+    "2026-10-19": 80
    },
    "resource": {
     "id": "crawl4ai-repo",
@@ -3674,7 +3856,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "hailuo-tool",
@@ -3721,7 +3904,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "datasets-quickstart",
@@ -3767,7 +3951,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "hf-spaces-guide",
@@ -3813,7 +3998,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "hf-audio-course",
@@ -3859,7 +4045,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "ideogram-tool",
@@ -3905,7 +4092,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "jimeng-tool",
@@ -3953,7 +4141,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "kimi-tool",
@@ -4000,7 +4189,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "langfuse-guide",
@@ -4046,7 +4236,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "leonardo-tool",
@@ -4092,7 +4283,8 @@
     "2026-10-15": 95,
     "2026-10-16": 95,
     "2026-10-17": 95,
-    "2026-10-18": 95
+    "2026-10-18": 95,
+    "2026-10-19": 95
    },
    "resource": {
     "id": "lmstudio-guide",
@@ -4138,7 +4330,8 @@
     "2026-10-15": 95,
     "2026-10-16": 95,
     "2026-10-17": 95,
-    "2026-10-18": 95
+    "2026-10-18": 95,
+    "2026-10-19": 95
    },
    "resource": {
     "id": "napkin-tool",
@@ -4184,7 +4377,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "numpy-beginners",
@@ -4231,7 +4425,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "openrouter-quickstart",
@@ -4277,7 +4472,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "pandas-intro",
@@ -4323,7 +4519,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "adobe-podcast-tool",
@@ -4369,7 +4566,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "promptfoo-guide",
@@ -4415,7 +4613,8 @@
     "2026-10-15": 90,
     "2026-10-16": 90,
     "2026-10-17": 90,
-    "2026-10-18": 90
+    "2026-10-18": 90,
+    "2026-10-19": 90
    },
    "resource": {
     "id": "pydantic-ai-guide",
@@ -4461,7 +4660,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "qianwen-tool",
@@ -4508,7 +4708,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "recraft-tool",
@@ -4554,7 +4755,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "spark-tool",
@@ -4601,7 +4803,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "suno-tool",
@@ -4647,7 +4850,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "v0-tool",
@@ -4693,7 +4897,8 @@
     "2026-10-15": 85,
     "2026-10-16": 85,
     "2026-10-17": 85,
-    "2026-10-18": 85
+    "2026-10-18": 85,
+    "2026-10-19": 85
    },
    "resource": {
     "id": "yuanbao-tool",
@@ -4968,7 +5173,7 @@
    "returns": 0
   },
   "https://github.com/anthropics/claude-quickstarts": {
-   "active": true,
+   "active": false,
    "currentEnteredAt": "2026-10-18T15:50:57.057Z",
    "firstEnteredAt": "2026-10-18T15:50:57.057Z",
    "initial": false,
@@ -5182,6 +5387,13 @@
    "currentEnteredAt": "2026-10-06T09:37:13.355Z",
    "firstEnteredAt": "2026-10-06T09:37:13.355Z",
    "initial": true,
+   "returns": 0
+  },
+  "https://github.com/mlabonne/llm-course": {
+   "active": true,
+   "currentEnteredAt": "2026-10-19T06:11:28.804Z",
+   "firstEnteredAt": "2026-10-19T06:11:28.804Z",
+   "initial": false,
    "returns": 0
   },
   "https://github.com/modelcontextprotocol/inspector": {
@@ -5560,6 +5772,7 @@
   "https://github.com/docling-project/docling": "2026-10-06T09:37:13.355Z",
   "https://github.com/farion1231/cc-switch": "2026-10-09T18:21:05.907Z",
   "https://github.com/features/copilot": "2026-10-06T09:37:13.355Z",
+  "https://github.com/finereli/whatsapp-mcp": "2026-10-19T06:11:28.804Z",
   "https://github.com/flowiseai/flowise": "2026-10-06T09:37:13.355Z",
   "https://github.com/gentleman-programming/gentle-ai": "2026-10-11T17:41:07.692Z",
   "https://github.com/ggml-org/llama.cpp": "2026-10-06T09:37:13.355Z",
@@ -5587,6 +5800,7 @@
   "https://github.com/m-bain/whisperx": "2026-10-06T09:37:13.355Z",
   "https://github.com/madslorentzen/ai-job-search": "2026-10-07T18:56:50.962Z",
   "https://github.com/manaflow-ai/cmux": "2026-10-08T07:22:43.107Z",
+  "https://github.com/mlabonne/llm-course": "2026-10-19T06:11:28.804Z",
   "https://github.com/modelcontextprotocol/inspector": "2026-10-06T09:37:13.355Z",
   "https://github.com/open-webui/open-webui": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/codex": "2026-10-06T09:37:13.355Z",
@@ -6426,37 +6640,6 @@
    }
   },
   {
-   "id": "comfyui-repo",
-   "level": "starter",
-   "reviewedAt": "2026-09-21",
-   "scores": {
-    "authority": 5,
-    "clarity": 3,
-    "foundation": 3,
-    "practice": 5
-   },
-   "sourceName": "github.com",
-   "summary": {
-    "en": "Connect generative vision models and processing steps with nodes.",
-    "zh": "用节点连接生成式视觉模型与处理步骤。"
-   },
-   "title": {
-    "en": "ComfyUI",
-    "zh": "ComfyUI 节点式生成工作流"
-   },
-   "topics": [
-    "vision",
-    "diffusion",
-    "workflow"
-   ],
-   "type": "repo",
-   "url": "https://github.com/Comfy-Org/ComfyUI",
-   "why": {
-    "en": "Break image generation into visible, reusable components.",
-    "zh": "把生图流程拆成可以观察和复用的组件。"
-   }
-  },
-  {
    "id": "illustrated-transformer",
    "level": "starter",
    "reviewedAt": "2026-09-21",
@@ -6514,6 +6697,36 @@
    "why": {
     "en": "Practice composition, style and reference constraints while checking deviations.",
     "zh": "练习构图、风格与参考约束，同时检查结果偏差。"
+   }
+  },
+  {
+   "freshnessBasis": "first-observed",
+   "id": "discovery:gh:comfy-org/comfyui",
+   "level": "starter",
+   "scores": {
+    "authority": 5,
+    "clarity": 3,
+    "foundation": 3,
+    "practice": 4
+   },
+   "sourceName": "github.com",
+   "sourceUpdatedAt": "2026-10-06T09:37:13.355Z",
+   "summary": {
+    "en": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+    "zh": "最强大且模块化的扩散模型 GUI、API 与后端，采用图/节点界面，实现全球最快的本地推理。"
+   },
+   "title": {
+    "en": "Comfy-Org/ComfyUI",
+    "zh": ""
+   },
+   "topics": [
+    "trend:daily"
+   ],
+   "type": "repo",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "why": {
+    "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+    "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
    }
   },
   {

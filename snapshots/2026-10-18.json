@@ -11079,21 +11079,21 @@
    "category": "discussion",
    "key": "hn:50132502",
    "metrics": {
-    "comments": 155,
+    "comments": 158,
     "frontPage": 0,
-    "points": 129
+    "points": 130
    },
    "news": {
     "author": "DASD",
-    "comments": 155,
+    "comments": 158,
     "createdAt": "2026-10-17T16:31:12.000Z",
     "domain": "fortune.com",
     "hnId": 50132502,
     "hnUrl": "https://news.ycombinator.com/item?id=50132502",
-    "points": 129,
-    "showRank": 46
+    "points": 130,
+    "showRank": 42
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-17T16:31:12.000Z",
    "refs": [
     "url:fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data"
@@ -11118,21 +11118,21 @@
    "category": "discussion",
    "key": "hn:50133231",
    "metrics": {
-    "comments": 77,
+    "comments": 82,
     "frontPage": 0,
-    "points": 157
+    "points": 169
    },
    "news": {
     "author": "AIorNot",
-    "comments": 77,
+    "comments": 82,
     "createdAt": "2026-10-17T17:45:08.000Z",
     "domain": "github.com",
     "hnId": 50133231,
     "hnUrl": "https://news.ycombinator.com/item?id=50133231",
-    "points": 157,
-    "showRank": 38
+    "points": 169,
+    "showRank": 31
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-17T17:45:08.000Z",
    "refs": [
     "gh:openai/codex"
@@ -11151,6 +11151,45 @@
    "tags": [],
    "title": "Codex Desktop continuously generates Crashpad pending dumps",
    "url": "https://github.com/openai/codex/issues/25921"
+  },
+  {
+   "board": "news",
+   "category": "tool",
+   "key": "hn:50135762",
+   "metrics": {
+    "comments": 108,
+    "frontPage": 0,
+    "points": 137
+   },
+   "news": {
+    "author": "dom96",
+    "comments": 108,
+    "createdAt": "2026-10-17T22:26:47.000Z",
+    "domain": "blog.picheta.me",
+    "hnId": 50135762,
+    "hnUrl": "https://news.ycombinator.com/item?id=50135762",
+    "points": 137,
+    "showRank": 39
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-17T22:26:47.000Z",
+   "refs": [
+    "url:blog.picheta.me/post/killswitch-lang"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:llm",
+     "cat:i built"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "I built a programming language that LLMs can't use",
+   "url": "https://blog.picheta.me/post/killswitch-lang/"
   },
   {
    "board": "news",
@@ -11275,21 +11314,21 @@
    "category": "discussion",
    "key": "hn:50138531",
    "metrics": {
-    "comments": 198,
+    "comments": 266,
     "frontPage": 0,
-    "points": 390
+    "points": 566
    },
    "news": {
     "author": "fagnerbrack",
-    "comments": 198,
+    "comments": 266,
     "createdAt": "2026-10-18T06:50:36.000Z",
     "domain": "api-docs.deepseek.com",
     "hnId": 50138531,
     "hnUrl": "https://news.ycombinator.com/item?id=50138531",
-    "points": 390,
-    "showRank": 11
+    "points": 566,
+    "showRank": 5
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T06:50:36.000Z",
    "refs": [
     "url:api-docs.deepseek.com/guides/search"
@@ -11347,6 +11386,168 @@
    "tags": [],
    "title": "Show HN: Benchmarking LLM ability to code in an adversarial language",
    "url": "https://bench.killswitch-lang.org/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50139873",
+   "metrics": {
+    "comments": 192,
+    "frontPage": 0,
+    "points": 110
+   },
+   "news": {
+    "author": "theanonymousone",
+    "comments": 192,
+    "createdAt": "2026-10-18T10:49:26.000Z",
+    "domain": "anthropic.com",
+    "hnId": 50139873,
+    "hnUrl": "https://news.ycombinator.com/item?id=50139873",
+    "points": 110,
+    "showRank": 49
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-18T10:49:26.000Z",
+   "refs": [
+    "url:anthropic.com/research/employment-at-anthropic"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:anthropic",
+     "domain:anthropic.com",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy. What transformations of work and employment can we expect under increasingly powerful AI? Anthropic is worth studying because it has thoroughly molded its workflows around AI. Agents flit through Slack chats and schedule meetings. They autonomously fix bugs and collectively tackle huge engineering projects. ",
+   "tags": [],
+   "title": "How employment is changing at Anthropic",
+   "url": "https://www.anthropic.com/research/employment-at-anthropic"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50140462",
+   "metrics": {
+    "comments": 99,
+    "frontPage": 0,
+    "points": 82
+   },
+   "news": {
+    "author": "DeepLogin",
+    "comments": 99,
+    "createdAt": "2026-10-18T12:22:58.000Z",
+    "domain": "vals.ai",
+    "hnId": 50140462,
+    "hnUrl": "https://news.ycombinator.com/item?id=50140462",
+    "points": 82,
+    "showRank": 58
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-18T12:22:58.000Z",
+   "refs": [
+    "url:vals.ai/blogs/impossible-refund"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:ai",
+     "weak:assistant",
+     "cat:?"
+    ],
+    "score": 0.4
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+   "url": "https://www.vals.ai/blogs/impossible-refund"
+  },
+  {
+   "board": "news",
+   "category": "policy",
+   "key": "hn:50141429",
+   "metrics": {
+    "comments": 162,
+    "frontPage": 0,
+    "points": 158
+   },
+   "news": {
+    "author": "f-serif",
+    "comments": 162,
+    "createdAt": "2026-10-18T14:30:27.000Z",
+    "domain": "tomshardware.com",
+    "hnId": 50141429,
+    "hnUrl": "https://news.ycombinator.com/item?id=50141429",
+    "points": 158,
+    "showRank": 32
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-18T14:30:27.000Z",
+   "refs": [
+    "url:tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:anthropic",
+     "weak:ai",
+     "cat:safety bill"
+    ],
+    "score": 0.8
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50141657",
+   "metrics": {
+    "comments": 134,
+    "frontPage": 0,
+    "points": 135
+   },
+   "news": {
+    "author": "evolve2k",
+    "comments": 134,
+    "createdAt": "2026-10-18T14:58:10.000Z",
+    "domain": "theverge.com",
+    "hnId": 50141657,
+    "hnUrl": "https://news.ycombinator.com/item?id=50141657",
+    "points": 135,
+    "showRank": 40
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-18T14:58:10.000Z",
+   "refs": [
+    "url:theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:ai agent",
+     "weak:ai",
+     "weak:agent",
+     "weak:agents",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Websites are closing their doors to AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
   },
   {
    "board": "devto",
@@ -11555,6 +11756,57 @@
    ],
    "title": "Product Autopsy: My Auditor Flagged 18 Broken Promises in My Own Repos. Four Were Real",
    "url": "https://dev.to/emmimal_alexander_3be8cc7/product-autopsy-my-auditor-flagged-18-broken-promises-in-my-own-repos-four-were-real-bi1"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Giorgi Kobaidze",
+    "comments": 56,
+    "createdAt": "2026-10-18T10:55:38Z",
+    "domain": "dev.to",
+    "id": 4868657,
+    "points": 118,
+    "url": "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
+   },
+   "key": "devto:4868657",
+   "metrics": {
+    "comments": 56,
+    "frontPage": 0,
+    "points": 118
+   },
+   "news": {
+    "author": "Giorgi Kobaidze",
+    "comments": 56,
+    "createdAt": "2026-10-18T10:55:38Z",
+    "domain": "dev.to",
+    "hnId": 4868657,
+    "hnUrl": "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa",
+    "points": 118
+   },
+   "observedAt": "2026-10-19T06:11:28.804Z",
+   "publishedAt": "2026-10-18T10:55:38Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Status: Promise delivered ✅ The Doors Are Open A little over a month ago, I published...",
+   "tags": [
+    "source:dev-to",
+    "tag:community",
+    "tag:discuss",
+    "tag:showdev",
+    "tag:writing"
+   ],
+   "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
+   "url": "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
   },
   {
    "board": "devto",
@@ -11843,7 +12095,7 @@
     "hnUrl": "https://dev.to/codeswithroh/kal-means-yesterday-and-tomorrow-i-built-home-bakers-a-whatsapp-order-sheet-that-never-guesses-21p3",
     "points": 6
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T01:05:12Z",
    "refs": [],
    "relevance": {
@@ -13090,7 +13342,7 @@
     "hnUrl": "https://dev.to/raphelevator/a-fake-alert-can-copy-your-banks-words-it-cant-know-your-balance-1bnd",
     "points": 1
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T06:56:07Z",
    "refs": [],
    "relevance": {
@@ -14620,28 +14872,28 @@
    "key": "lobsters:ggpwfi",
    "lobsters": {
     "author": "viraptor",
-    "comments": 152,
+    "comments": 256,
     "createdAt": "2026-10-18T05:35:11.525-05:00",
     "domain": "lobste.rs",
-    "points": 143,
+    "points": 271,
     "shortId": "ggpwfi",
     "url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from"
    },
    "metrics": {
-    "comments": 152,
+    "comments": 256,
     "frontPage": 0,
-    "points": 143
+    "points": 271
    },
    "news": {
     "author": "viraptor",
-    "comments": 152,
+    "comments": 256,
     "createdAt": "2026-10-18T05:35:11.525-05:00",
     "domain": "lobste.rs",
     "hnId": 995541102,
     "hnUrl": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
-    "points": 143
+    "points": 271
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T05:35:11.525-05:00",
    "refs": [],
    "relevance": {
@@ -14720,28 +14972,28 @@
    "key": "lobsters:k5omum",
    "lobsters": {
     "author": "ani",
-    "comments": 11,
+    "comments": 14,
     "createdAt": "2026-10-17T22:03:36.932-05:00",
     "domain": "terriblesoftware.org",
-    "points": 31,
+    "points": 38,
     "shortId": "k5omum",
     "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/"
    },
    "metrics": {
-    "comments": 11,
+    "comments": 14,
     "frontPage": 0,
-    "points": 31
+    "points": 38
    },
    "news": {
     "author": "ani",
-    "comments": 11,
+    "comments": 14,
     "createdAt": "2026-10-17T22:03:36.932-05:00",
     "domain": "terriblesoftware.org",
     "hnId": 1218870958,
     "hnUrl": "https://lobste.rs/s/k5omum/brain_sandwich",
-    "points": 31
+    "points": 38
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-17T22:03:36.932-05:00",
    "refs": [],
    "relevance": {
@@ -14772,14 +15024,14 @@
     "comments": 0,
     "createdAt": "2026-10-18T07:06:05.111-05:00",
     "domain": "nathanho.me",
-    "points": 5,
+    "points": 11,
     "shortId": "kiq0si",
     "url": "https://nathanho.me/posts/evograin/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 5
+    "points": 11
    },
    "news": {
     "author": "chrisl",
@@ -14788,9 +15040,9 @@
     "domain": "nathanho.me",
     "hnId": 1240770690,
     "hnUrl": "https://lobste.rs/s/kiq0si/algorithmic_sound_design_with_l_systems",
-    "points": 5
+    "points": 11
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T07:06:05.111-05:00",
    "refs": [],
    "relevance": {
@@ -14819,28 +15071,28 @@
    "key": "lobsters:mmvhup",
    "lobsters": {
     "author": "benj",
-    "comments": 6,
+    "comments": 13,
     "createdAt": "2026-10-18T07:48:02.112-05:00",
     "domain": "benjcal.space",
-    "points": 9,
+    "points": 36,
     "shortId": "mmvhup",
     "url": "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself/"
    },
    "metrics": {
-    "comments": 6,
+    "comments": 13,
     "frontPage": 0,
-    "points": 9
+    "points": 36
    },
    "news": {
     "author": "benj",
-    "comments": 6,
+    "comments": 13,
     "createdAt": "2026-10-18T07:48:02.112-05:00",
     "domain": "benjcal.space",
     "hnId": 1368676897,
     "hnUrl": "https://lobste.rs/s/mmvhup/arp_tell_your_network_explain_itself",
-    "points": 9
+    "points": 36
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T07:48:02.112-05:00",
    "refs": [],
    "relevance": {
@@ -14868,28 +15120,28 @@
    "key": "lobsters:np6czp",
    "lobsters": {
     "author": "ysun",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-18T09:36:52.682-05:00",
     "domain": "ranet3.com",
-    "points": 4,
+    "points": 15,
     "shortId": "np6czp",
     "url": "https://ranet3.com/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 4
+    "points": 15
    },
    "news": {
     "author": "ysun",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-18T09:36:52.682-05:00",
     "domain": "ranet3.com",
     "hnId": 1433009221,
     "hnUrl": "https://lobste.rs/s/np6czp/high_performance_policy_routed_ipsec",
-    "points": 4
+    "points": 15
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T09:36:52.682-05:00",
    "refs": [],
    "relevance": {
@@ -15018,28 +15270,28 @@
    "key": "lobsters:vwgrix",
    "lobsters": {
     "author": "Verdagon",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-18T09:29:16.035-05:00",
     "domain": "verdagon.dev",
-    "points": 7,
+    "points": 33,
     "shortId": "vwgrix",
     "url": "https://verdagon.dev/blog/reverse-borrow-checking"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 3,
     "frontPage": 0,
-    "points": 7
+    "points": 33
    },
    "news": {
     "author": "Verdagon",
-    "comments": 1,
+    "comments": 3,
     "createdAt": "2026-10-18T09:29:16.035-05:00",
     "domain": "verdagon.dev",
     "hnId": 1928981337,
     "hnUrl": "https://lobste.rs/s/vwgrix/new_way_think_about_borrow_checking",
-    "points": 7
+    "points": 33
    },
-   "observedAt": "2026-10-18T15:50:57.057Z",
+   "observedAt": "2026-10-19T06:11:28.804Z",
    "publishedAt": "2026-10-18T09:29:16.035-05:00",
    "refs": [],
    "relevance": {
@@ -15113,76 +15365,84 @@
   }
  ],
  "date": "2026-10-18",
- "fetchedAt": "2026-10-18T15:50:57.057Z",
+ "fetchedAt": "2026-10-19T06:11:28.804Z",
  "runs": [
   "2026-10-18T05:52:35.283Z",
-  "2026-10-18T15:50:57.057Z"
+  "2026-10-18T15:50:57.057Z",
+  "2026-10-19T06:11:28.804Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "dev-to",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 314,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "count": 318,
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "github-search",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 165,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "count": 164,
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "github-trending",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 71,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "count": 70,
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 99,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "count": 100,
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "lobsters",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
   },
   {
    "board": "social",
-   "count": 2,
-   "fetchedAt": "2026-10-18T15:50:57.057Z",
+   "count": 1,
+   "fetchedAt": "2026-10-19T06:11:28.804Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-19T06:11:28.804Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-17T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
-  "to": "2026-10-18T15:50:57.057Z"
+  "to": "2026-10-18T16:00:00.000Z"
  }
 }

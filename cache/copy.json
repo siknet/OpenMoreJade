@@ -3441,6 +3441,20 @@
   },
   "hash": "83c824ed7244ca0c"
  },
+ "devto:4868657": {
+  "copy": {
+   "zh": {
+    "blurb": "DEV 社区推出 Hall of Fame，收录 65 位作者及其代表作品，展示社区优质内容，标志性成就。",
+    "points": [
+     "65 位作者入选，展示各自杰作",
+     "体现 DEV 内容质量与影响力",
+     "首次在榜单上出现，热度 61.3/100"
+    ],
+    "title": "承诺兑现：DEV 名人堂正式开放（65 位作者，65 件杰作）"
+   }
+  },
+  "hash": "390447afdbc485fd"
+ },
  "devto:4868674": {
   "copy": {
    "zh": {
@@ -3768,6 +3782,190 @@
   },
   "hash": "ef935713f1987da8"
  },
+ "devto:4872715": {
+  "copy": {
+   "zh": {
+    "blurb": "ParcelProof 通过本地 Gemma 将客户的语音备注与收据进行比对，并朗读核对结果，帮助客服快速验证包裹是否空置。",
+    "title": "ParcelProof：使用 Gemma 对客户语音备注核对收据"
+   }
+  },
+  "hash": "99cba6a4356cc9fc"
+ },
+ "devto:4873193": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享自行开发的浏览器插件，实现打开 DEV 文章时的自定义新标签页功能，提升阅读体验并加入快捷操作。",
+    "title": "为 DEV 网站打造的新标签页浏览器扩展"
+   }
+  },
+  "hash": "ab5e23ca1506688f"
+ },
+ "devto:4873633": {
+  "copy": {
+   "zh": {
+    "blurb": "开发了基于 Gemma 4 的 AI 求职匹配工具，使用 Tinder 式滑动界面为用户量身定制简历并推荐岗位。",
+    "points": [
+     "Gemma 4 驱动的 AI 简历定制",
+     "Tinder 式滑动匹配职位",
+     "参赛 Hacktoberfest AI 挑战赛"
+    ],
+    "title": "Job hunting became my side hustle, so I built Deis (Gemma 4) Tinder for jobs"
+   }
+  },
+  "hash": "cb2cf1174d48fc8a"
+ },
+ "devto:4874324": {
+  "copy": {
+   "zh": {
+    "blurb": "Repairwala 为小型维修店打造语音优先的工作簿系统，结合本地部署的 AI 模型，实现工单的语音创建、查询与调度，保证数据隐私。",
+    "points": [
+     "语音指令创建与管理工单",
+     "本地 AI 保证数据不外泄",
+     "提升小店调度与效率"
+    ],
+    "title": "Repairwala：面向小型维修店的语音优先工作簿与本地 AI"
+   }
+  },
+  "hash": "a09ef34d3eddd377"
+ },
+ "devto:4874415": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用本地运行的开源模型 Gemma，为独立瑜伽老师提供课堂助手，可在笔记本上生成教学建议并回答学员问题，保持数据私密。",
+    "points": [
+     "在本地笔记本运行 Gemma，保障隐私",
+     "自动生成课程建议和即时答疑",
+     "无需云服务，降低成本"
+    ],
+    "title": "面向瑜伽老师的本地 Gemma 助手"
+   }
+  },
+  "hash": "9a21233db1be47d9"
+ },
+ "devto:4874497": {
+  "copy": {
+   "zh": {
+    "blurb": "示例项目将银行提醒写入日记，演示在 Hacktoberfest 开源 AI 挑战中的本地模型使用。",
+    "points": [
+     "基于开源 Gemma 本地运行，无需云服务",
+     "将金融提醒转化为结构化日记条目",
+     "示例代码兼容 Hacktoberfest 贡献流程"
+    ],
+    "title": "使用本地 Gemma 实现银行提醒日记"
+   }
+  },
+  "hash": "34385a7c4eced83e"
+ },
+ "devto:4874517": {
+  "copy": {
+   "zh": {
+    "blurb": "SoloOps AI 是一款本地运行的智能工具，能够扫描项目代码并识别出客户偷偷加入的免费工作，从而保护开发者的收益。",
+    "title": "SoloOps AI：本地 AI 检测项目中的免费工作"
+   }
+  },
+  "hash": "c2e0cbbf21f12bb1"
+ },
+ "devto:4874621": {
+  "copy": {
+   "zh": {
+    "blurb": "Kwota 项目让尼日利亚水管工使用皮钦语描述工作内容，系统自动生成并通过 WhatsApp 发送精准报价，提升本地服务的数字化效率。",
+    "title": "Kwota：尼日利亚水管工的皮钦语报价系统"
+   }
+  },
+  "hash": "df89a4100471ded0"
+ },
+ "devto:4874833": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍 TenderLens 项目，利用 WhatsApp 对话接口结合 Meta 的 Gemma 大模型，打造面向承包商的全自动投标助理，实现从需求获取到投标文档生成的闭环。",
+    "points": [
+     "通过 WhatsApp 实现自然语言交互",
+     "基于 Gemma 大模型自动撰写投标文件",
+     "实现投标流程全程自主化"
+    ],
+    "title": "TenderLens：将 WhatsApp 与 Gemma 打造成承包商的自主投标助手"
+   }
+  },
+  "hash": "e5b662ab3b444200"
+ },
+ "devto:4874901": {
+  "copy": {
+   "zh": {
+    "blurb": "利用 Gemma 4 大模型对离线 NDIS 发票进行自动审查，能够捕获 22 项限制中的 20 项，提高审计准确率并降低人工成本。",
+    "title": "Gemma 4：离线 NDIS 发票审计的 AI 助手"
+   }
+  },
+  "hash": "1cf880ed2bb16fdb"
+ },
+ "devto:4874924": {
+  "copy": {
+   "zh": {
+    "blurb": "LatePay 通过机器学习模型提前识别可能被拖欠的发票，帮助企业在账款到期前采取措施，降低现金流风险。",
+    "title": "LatePay：AI 预测未付款发票"
+   }
+  },
+  "hash": "6536d89bc475094f"
+ },
+ "devto:4875003": {
+  "copy": {
+   "zh": {
+    "blurb": "GitOS 是一款开源工具，利用图数据库对 GitHub 生态系统进行实时关联分析，提供安全防护、威胁情报和依赖可视化，帮助开发者快速发现并应对潜在风险。",
+    "title": "GitOS：面向 GitHub 的图谱驱动生态防御与情报层"
+   }
+  },
+  "hash": "6c56ebab83c26300"
+ },
+ "devto:4875312": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示 MigrateMe Universal 与 Open Migration Package，提供统一入口和 1,332 条预设迁移路由，帮助开发者简化跨平台迁移工作。",
+    "points": [
+     "统一管理多平台迁移",
+     "预定义 1,332 条迁移路由",
+     "开源套件便于社区扩展"
+    ],
+    "title": "MigrateMe Universal 与开放迁移套件：一站式 1,332 条迁移路径"
+   }
+  },
+  "hash": "81066edde6c463b4"
+ },
+ "devto:4875410": {
+  "copy": {
+   "zh": {
+    "blurb": "作者记录在 Crowdwide 社交平台开发第 17 天的进展，重点是通过功能迭代和激励机制提升用户回归率。",
+    "title": "Crowdwide 项目第 17 天：尝试召回用户"
+   }
+  },
+  "hash": "fa813c3c4f69e0ab"
+ },
+ "devto:4875430": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战中，作者打造了 NextProof，利用大模型深度解析简历，提供比单一匹配分数更精准的岗位推荐与改进建议。",
+    "points": [
+     "基于 LLM 的简历语义理解，捕捉技能、项目细节。",
+     "自动生成针对岗位的个性化改进反馈。",
+     "可对接招聘平台，实现批量简历批评与匹配。"
+    ],
+    "title": "NextProof：超越简历匹配分数的AI招聘工具"
+   }
+  },
+  "hash": "4c768f42a4b2cd3e"
+ },
+ "devto:4875571": {
+  "copy": {
+   "zh": {
+    "blurb": "Proveniq 使用大模型对软件资产进行许可证审查，并以可视化证据展示审查过程，帮助团队在合规性上实现透明与可验证。",
+    "points": [
+     "自动提取并解析代码中的许可证信息。",
+     "生成审查证据链，便于审计与合规追踪。",
+     "可集成 CI/CD，实时阻止违规依赖。"
+    ],
+    "title": "Proveniq：可追溯的 AI 许可证审查工具"
+   }
+  },
+  "hash": "6e80ed6911f22777"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -3821,8 +4019,13 @@
  "gh:akitaonrails/ai-memory": {
   "copy": {
    "zh": {
-    "blurb": "为代理编码CLI提供长期记忆，便于不同代理供应商之间的交接与信息共享。",
-    "title": "akitaonrails/ai-memory：面向代理的长期记忆解决方案"
+    "blurb": "ai-memory 是用 Rust 编写的库，提供长期记忆存储，帮助智能体在 CLI 环境下保持上下文，并支持在不同供应商的代理之间交接。",
+    "points": [
+     "持久化记忆以支持长期任务",
+     "抽象跨供应商的记忆接口",
+     "基于 Rust 实现高性能与安全"
+    ],
+    "title": "ai-memory：面向代理的长期记忆解决方案"
    }
   },
   "hash": "57235bb1fe84449d"
@@ -4049,6 +4252,20 @@
    }
   },
   "hash": "768aa0cc86f61457"
+ },
+ "gh:comfy-org/comfyui": {
+  "copy": {
+   "zh": {
+    "blurb": "最强大且模块化的扩散模型 GUI、API 与后端，采用图/节点界面，实现全球最快的本地推理。",
+    "points": [
+     "图形化节点工作流，灵活组合模型",
+     "本地推理速度业界最快",
+     "开源项目已获 138 882 星"
+    ],
+    "title": "Comfy-Org/ComfyUI"
+   }
+  },
+  "hash": "43eaeefe216420b3"
  },
  "gh:copilotkit/openintelligentui": {
   "copy": {
@@ -4793,6 +5010,20 @@
   },
   "hash": "44ca3a4a470a0826"
  },
+ "gh:mlabonne/llm-course": {
+  "copy": {
+   "zh": {
+    "blurb": "提供 LLM 学习路线图和 Colab Notebook，帮助快速上手大模型。",
+    "points": [
+     "系统化学习路径涵盖模型原理、微调与部署",
+     "配套 Colab Notebook 可直接运行实验",
+     "社区活跃，累计 84 k 星标"
+    ],
+    "title": "LLM 入门课程资源库"
+   }
+  },
+  "hash": "90600910aab905e7"
+ },
  "gh:morluto/rea": {
   "copy": {
    "zh": {
@@ -4889,8 +5120,13 @@
  "gh:nvlabs/aspire": {
   "copy": {
    "zh": {
-    "blurb": "ASPIRE 是面向机器人技能发现的 Agentic 框架，支持自主学习和技能组合，提高机器人适应性。",
-    "title": "NVlabs/ASPIRE"
+    "blurb": "NVlabs 开源的 ASPIRE 项目致力于机器人技能的自主发现与学习，使用语言模型生成可执行技能，提供 Python 实现并已获 613 星赞。",
+    "points": [
+     "基于大模型生成机器人技能",
+     "支持自动任务规划与执行",
+     "Python 开源实现，社区活跃"
+    ],
+    "title": "ASPIRE：机器人技能发现的自主代理框架"
    }
   },
   "hash": "bdb399584655fa57"
@@ -5189,11 +5425,16 @@
  "gh:stablyai/orca": {
   "copy": {
    "zh": {
-    "blurb": "Orca是一个使用TypeScript开发的平台，可在桌面、移动端和远程运行环境中调用Grok Bot、Codex等编码代理，需自行订阅。",
+    "blurb": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。",
+    "points": [
+     "统一界面调度多种代码生成代理",
+     "跨平台支持桌面、移动与云端运行时",
+     "基于 TypeScript 开发，社区活跃"
+    ],
     "title": "Orca：多代理编程平台"
    }
   },
-  "hash": "5bb72d1b4fd82b37"
+  "hash": "5f13bb4c3519fab7"
  },
  "gh:storytold/filmcraft": {
   "copy": {
@@ -5531,16 +5772,16 @@
  "gh:xerj-org/xerj": {
   "copy": {
    "zh": {
-    "blurb": "XERJ 通过自动索引让 AI 代理直接了解代码、文档、日志和 PDF 等数据，一键完成搜索、RAG、审计和记忆，使用的 token 比 grep 少约 40 倍，兼容 Elasticsearch，现有客户端即插即用。",
+    "blurb": "XERJ 通过一键自动索引代码、文档、日志和 PDF，实现 AI 驱动的搜索、RAG 与安全审计，使用约 40 倍更少的 token，并可替代 ElasticSearch，降低十倍基础设施成本。",
     "points": [
-     "自动索引激活代理，无需手动 grep/ sed",
-     "40 倍 token 节省，提高 RAG 效率",
-     "Elasticsearch 兼容，客户端直接复用"
+     "单命令索引多种数据源，生成持久化向量库。",
+     "检索时仅消耗极少 token，提升成本效益。",
+     "兼容 RAG、审计与智能体记忆，支持 ElasticSearch 替代方案。"
     ],
-    "title": "XERJ：面向 AI 的高效数据搜索引擎"
+    "title": "XERJ：基于 AI 的高效数据搜索与索引"
    }
   },
-  "hash": "4f6629a89b930509"
+  "hash": "1d1ff347fce3bae2"
  },
  "gh:yetone/magpie": {
   "copy": {
@@ -7777,6 +8018,20 @@
   },
   "hash": "32c1bad36af89fcc"
  },
+ "hn:50135762": {
+  "copy": {
+   "zh": {
+    "blurb": "作者设计了一种专为阻止大语言模型使用的编程语言，通过语法和运行时特性让 LLM 难以解析和生成代码。",
+    "points": [
+     "语言结构对 LLM 产生歧义",
+     "运行时检查阻止未授权执行",
+     "展示对 AI 编程安全的创新思路"
+    ],
+    "title": "我构建了 LLM 不能使用的编程语言"
+   }
+  },
+  "hash": "cf6903016d9a0721"
+ },
  "hn:50136316": {
   "copy": {
    "zh": {
@@ -7847,6 +8102,145 @@
   },
   "hash": "d9d7def25318f9e6"
  },
+ "hn:50139873": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 通过 AI 自动化 Slack、会议安排、错误修复等工作流，重塑公司内部岗位结构与招聘需求，提供就业趋势指示。",
+    "points": [
+     "AI 代理在 Slack 中协作并调度会议",
+     "自动化 bug 修复减轻工程师负担",
+     "预示 AI 将改变跨行业工作组织方式"
+    ],
+    "title": "Anthropic 的就业模式如何随 AI 重塑"
+   }
+  },
+  "hash": "9f6782a84616cd73"
+ },
+ "hn:50140462": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇探讨 AI 助手在帮助用户争取不可得退款时的技术与伦理边界的文章，分析当前模型的局限和潜在风险。",
+    "title": "AI 助手在无法获得退款时会走多远？"
+   }
+  },
+  "hash": "4dfb9ffd1d835b59"
+ },
+ "hn:50141429": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 提出的 AI 安全立法草案设定阈值，仅在导致至少 50 人死亡或超 10 亿美元损失时才触发监管措施。",
+    "points": [
+     "阈值设定旨在避免过度监管",
+     "将商务部设为唯一可阻止模型的机构",
+     "引发业界对监管范围的争议"
+    ],
+    "title": "Anthropic 提议的 AI 安全法案：仅在 50 人死亡或 10 亿美元损失时生效"
+   }
+  },
+  "hash": "e2e8fb71d1e0921e"
+ },
+ "hn:50141657": {
+  "copy": {
+   "zh": {
+    "blurb": "越来越多网站通过技术手段阻止 AI 代理访问，防止自动化爬取和潜在滥用，引发对网络开放性的讨论。",
+    "points": [
+     "使用验证码、robots.txt、访问限制等方式",
+     "旨在保护内容版权和防止恶意抓取",
+     "可能影响 AI 训练数据获取"
+    ],
+    "title": "网站开始阻止 AI 代理访问"
+   }
+  },
+  "hash": "8fb726c170525a8f"
+ },
+ "hn:50145337": {
+  "copy": {
+   "zh": {
+    "blurb": "论文介绍一种让大模型在潜在向量空间进行推理、再以文本指令执行的混合代理框架，附带代码库和评测结果。",
+    "title": "混合推理代理：在潜在空间思考、通过文本行动的 LLM 代理"
+   }
+  },
+  "hash": "558bd720c5fedf43"
+ },
+ "hn:50145507": {
+  "copy": {
+   "zh": {
+    "blurb": "文章警示使用第三方 LLM 代理时的可见性缺失，呼吁开发者自行部署代理以获得请求、响应的完整监控。",
+    "title": "不自行运行 LLM 代理，如何了解内部状况？"
+   }
+  },
+  "hash": "b6af95cae5c75237"
+ },
+ "hn:50145715": {
+  "copy": {
+   "zh": {
+    "blurb": "作者将 Claude 移植至个人 WhatsApp，利用 Cloudflare 免费层运行，支持 Google 联系人同步，单用户私密部署。",
+    "points": [
+     "Claude 与 WhatsApp 私密集成",
+     "通过 Cloudflare 免费运行，免服务器",
+     "同步 Google 账户获取联系人姓名"
+    ],
+    "title": "Show HN: WhatsApp MCP running free on Cloudflare"
+   }
+  },
+  "hash": "fe6d6212a0bece82"
+ },
+ "hn:50146655": {
+  "copy": {
+   "zh": {
+    "blurb": "开源引擎，可连接多种 AI 代理实现协同工作，支持自定义插件与反馈。",
+    "points": [
+     "统一接口实现不同代理之间的通信",
+     "支持组合多个代理完成复杂任务",
+     "轻量化设计易于集成"
+    ],
+    "title": "Hybro：AI 代理互操作引擎"
+   }
+  },
+  "hash": "e570294d8e7cff99"
+ },
+ "hn:50147781": {
+  "copy": {
+   "zh": {
+    "blurb": "通过读取用户 GitHub 仓库自动设置并运行代理，实现“一键”AI 助手部署。",
+    "points": [
+     "解析仓库代码生成代理配置",
+     "支持自定义插件与持续更新",
+     "无需手动部署，降低使用门槛"
+    ],
+    "title": "Neuron：从 GitHub 自动部署 AI 代理"
+   }
+  },
+  "hash": "dda42347a89772ee"
+ },
+ "hn:50148356": {
+  "copy": {
+   "zh": {
+    "blurb": "Yila 以大模型为核心，提供科研场景下的代码生成、实验设计与数据分析建议，帮助研究者快速搭建可复现的工作流。",
+    "points": [
+     "基于自然语言描述生成实验代码与分析脚本。",
+     "集成文献检索与方法推荐，提升研究效率。",
+     "支持可复现的流水线输出，便于协作与审阅。"
+    ],
+    "title": "Yila：面向科学研究的 AI 代码库"
+   }
+  },
+  "hash": "53bc400b8c85f825"
+ },
+ "hn:50148396": {
+  "copy": {
+   "zh": {
+    "blurb": "Strot 项目将大语言模型的意图编译为本地可执行代码，实现离线决策，降低计算成本并提升响应速度。",
+    "points": [
+     "将 LLM 意图一次性编译成本地执行",
+     "显著降低云端计算开销",
+     "开源项目在 GitHub 上发布"
+    ],
+    "title": "Show HN: Strot – Compile an LLM's intent once, run decisions locally"
+   }
+  },
+  "hash": "ff122dc7a5f7809a"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -7900,6 +8294,20 @@
    }
   },
   "hash": "92c7b17fe3040c1b"
+ },
+ "lobsters:1s3dve": {
+  "copy": {
+   "zh": {
+    "blurb": "深入探讨针对浮点单元仿真器的超优化技术，提升执行效率与精度。",
+    "points": [
+     "使用 JIT 编译实现指令级加速",
+     "通过微架构建模降低仿真误差",
+     "提供开源实现供研究复现"
+    ],
+    "title": "超级优化 FPU 仿真器"
+   }
+  },
+  "hash": "a906bdc19c470d5f"
  },
  "lobsters:1zknyw": {
   "copy": {
@@ -8315,6 +8723,34 @@
   },
   "hash": "905340d51733cf20"
  },
+ "lobsters:br0hd7": {
+  "copy": {
+   "zh": {
+    "blurb": "作者将逆向工程工具 Ghidra 与符号执行引擎 CBMC 结合，构建了一个针对汇编代码的模型检查器，实现自动化安全分析。",
+    "points": [
+     "把 Ghidra 解析的汇编导入 CBMC",
+     "自动发现安全漏洞和未定义行为",
+     "提供完整的模型检查工作流"
+    ],
+    "title": "Ghidra 与 CBMC 合作的汇编模型检查器"
+   }
+  },
+  "hash": "706826b2aa979ef8"
+ },
+ "lobsters:brrnpm": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨开源项目社区支持的边界，指出仅凭“它能工作”不足以保证长期维护，呼吁更完善的文档与自助指南。",
+    "points": [
+     "阐明社区支持的适用范围与限制。",
+     "推荐编写详尽文档和自动化测试以减轻维护压力。",
+     "鼓励贡献者自行排查问题，提升项目可持续性。"
+    ],
+    "title": "超出支持范围的讨论"
+   }
+  },
+  "hash": "c617bad0483fb26f"
+ },
  "lobsters:cjdy6d": {
   "copy": {
    "zh": {
@@ -8726,6 +9162,15 @@
   },
   "hash": "e23e6293113fa23d"
  },
+ "lobsters:h0eate": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 社区公布最新站点指南以及对 AI/LLM 相关标签的使用规范，旨在提升讨论质量并减少误标。",
+    "title": "站点指南及 AI/LLM 标签更新公告"
+   }
+  },
+  "hash": "302b64433cdbf6c3"
+ },
  "lobsters:hjhufj": {
   "copy": {
    "zh": {
@@ -8779,6 +9224,20 @@
    }
   },
   "hash": "be88699e28479bc8"
+ },
+ "lobsters:ilul4v": {
+  "copy": {
+   "zh": {
+    "blurb": "Servo 在 8 月的博客中宣布加入对 CSS Grid 布局的支持，并改进了文本选区的实现，同时进行了一系列渲染性能优化。",
+    "points": [
+     "实现了 CSS Grid 布局引擎",
+     "增强了文本选区的交互体验",
+     "提升了整体渲染性能"
+    ],
+    "title": "Servo 8月更新：CSS Grid 与文本选区等功能"
+   }
+  },
+  "hash": "c35c2ac26e3b20a2"
  },
  "lobsters:ipyrkv": {
   "copy": {
@@ -8857,6 +9316,15 @@
    }
   },
   "hash": "7b487164aa39eece"
+ },
+ "lobsters:izjf9o": {
+  "copy": {
+   "zh": {
+    "blurb": "该 gist 展示了在 C 与 Zig 语言项目中嵌入 Qt 的 QML 界面技术，提供示例代码帮助开发者快速上手跨语言 UI 集成。",
+    "title": "QML 在 C 与 Zig 中的实现"
+   }
+  },
+  "hash": "31b372c11da1cd65"
  },
  "lobsters:j30pg4": {
   "copy": {
@@ -8961,6 +9429,20 @@
    }
   },
   "hash": "41ab3a94f164cd3b"
+ },
+ "lobsters:koipdp": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分析 C++ 内存安全的常见陷阱，指出仅凭代码表面可运行无法保证安全，倡导使用现代安全特性与工具来降低未定义行为风险。",
+    "points": [
+     "揭示指针、未定义行为等导致的安全漏洞。",
+     "推荐使用 RAII、智能指针等安全抽象。",
+     "介绍静态分析与运行时检测工具提升代码可靠性。"
+    ],
+    "title": "C++ 安全难题：仅凭“它能工作”不足"
+   }
+  },
+  "hash": "df702c7a99830792"
  },
  "lobsters:lfen2h": {
   "copy": {
@@ -9100,6 +9582,34 @@
   },
   "hash": "ad5c3c03eafd1ff3"
  },
+ "lobsters:mp8qye": {
+  "copy": {
+   "zh": {
+    "blurb": "一段在 media.ccc.de 发布的关于技术行业男性参与运动的影片，#YesAllMen 话题，引发讨论。",
+    "points": [
+     "聚焦技术行业男性参与议题",
+     "在 Lobsters 获 67 分，热度 71.5，排名第2",
+     "首次登榜，热度高"
+    ],
+    "title": "Men in tech #YesAllMen"
+   }
+  },
+  "hash": "92961f695cb289ba"
+ },
+ "lobsters:nbxnh7": {
+  "copy": {
+   "zh": {
+    "blurb": "文章深入剖析 Intel 8087 浮点协处理器的微码实现，重点展示加法和减法指令的内部流水线、舍入策略及寄存器操作细节。",
+    "points": [
+     "揭示加/减指令的微码路径",
+     "解析硬件流水线与舍入模式",
+     "提供源码级技术细节"
+    ],
+    "title": "Intel 8087 芯片内部：浮点加减运算揭秘"
+   }
+  },
+  "hash": "57c3f990d9121438"
+ },
  "lobsters:norjho": {
   "copy": {
    "zh": {
@@ -9112,7 +9622,12 @@
  "lobsters:np6czp": {
   "copy": {
    "zh": {
-    "blurb": "一个基于策略路由的高性能 IPsec 网状 SD‑WAN 解决方案，提供安全、低延迟的分支网络互连。",
+    "blurb": "Ranet3 推出基于策略路由的高性能 IPsec Mesh SD‑WAN 方案，实现安全、低延迟的企业网络互联。",
+    "points": [
+     "采用策略路由实现流量精准控制",
+     "IPsec 加密保证数据安全",
+     "Mesh 架构提升网络弹性与性能"
+    ],
     "title": "高性能策略路由 IPsec Mesh SD‑WAN"
    }
   },
@@ -9150,6 +9665,15 @@
   },
   "hash": "265bcfe91c430776"
  },
+ "lobsters:nuepys": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨软件开发中常见的冗余需求，呼吁团队审视并剔除不必要的需求，以提升效率。",
+    "title": "什么需求是你根本不需要的？"
+   }
+  },
+  "hash": "56bffebf21097aa9"
+ },
  "lobsters:o0ixth": {
   "copy": {
    "zh": {
@@ -9163,6 +9687,15 @@
    }
   },
   "hash": "e67a9e8871a7d5f4"
+ },
+ "lobsters:ogp1wf": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了通过 document.currentScript 获取当前脚本元素，实现脚本内部直接渲染 HTML 内容的技巧，适用于无额外文件的轻量化页面构建。",
+    "title": "使用 document.currentScript 实现内联渲染"
+   }
+  },
+  "hash": "2f1dd41d29466e79"
  },
  "lobsters:oq6nhr": {
   "copy": {
@@ -9672,6 +10205,15 @@
   },
   "hash": "997074a201e08fbf"
  },
+ "lobsters:w6xosj": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨了 /pkg 目录/路径在现代软件生态中的作用，解释其设计初衷、使用场景以及对包管理和部署的影响。",
+    "title": "深入解析 /pkg 是什么？"
+   }
+  },
+  "hash": "6d9f4001264419c6"
+ },
  "lobsters:wceg2u": {
   "copy": {
    "zh": {
@@ -9713,6 +10255,20 @@
    }
   },
   "hash": "aae3c053c91df299"
+ },
+ "lobsters:wtobpt": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇反思编程未来的随笔，作者以讽刺口吻写下对编程“卒章”的展望与个人感悟。",
+    "points": [
+     "探讨编程可能的终结",
+     "融合技术演进与个人情感",
+     "在 Lobsters 获 16 分，热度 54.7"
+    ],
+    "title": "My obituary for programming"
+   }
+  },
+  "hash": "9c03743d73542164"
  },
  "lobsters:wyxufm": {
   "copy": {
@@ -9891,6 +10447,20 @@
    }
   },
   "hash": "646e5a6c05c3dad0"
+ },
+ "lobsters:zytoux": {
+  "copy": {
+   "zh": {
+    "blurb": "Citizen Lab 研究发现 Discover-Tech 将定向广告作为零点击间谍软件的分发渠道，利用广告重定向实现无交互即感染，揭露新型供应链风险。",
+    "points": [
+     "广告重定向植入间谍软件",
+     "零点击即可完成感染",
+     "揭示供应链安全漏洞"
+    ],
+    "title": "Discover-Tech 将定向广告转化为零点击间谍软件管道"
+   }
+  },
+  "hash": "2dd5d58add59d49b"
  },
  "lobsters:zziknb": {
   "copy": {
