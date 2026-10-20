@@ -122,7 +122,7 @@
    "sourceKey": "devto:4859436"
   },
   "discovery:devto:4878848": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:devto:4878848",
@@ -265,7 +265,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:comfy-org/comfyui": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:comfy-org/comfyui",
@@ -415,7 +415,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-19T06:11:28.804Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -456,7 +456,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:hbai-ltd/toonflow-app": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:hbai-ltd/toonflow-app",
@@ -468,10 +468,10 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-16T08:31:49.000Z",
+    "sourceUpdatedAt": "2026-10-20T04:03:46.000Z",
     "summary": {
      "en": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.",
-     "zh": "Toonflow 是开源的 AI 短剧和漫画制作平台，集剧本创作、智能分镜、资产管理、图像/视频生成于一体，支持本地部署和插件扩展。"
+     "zh": "Toonflow 是一款开源 AI 视频创作平台，提供无限画布、AI Agent、可视化工作流，支持本地部署、模型自选与插件扩展。"
     },
     "title": {
      "en": "HBAI-Ltd/Toonflow-app",
@@ -497,7 +497,7 @@
    "sourceKey": "gh:hbai-ltd/toonflow-app"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -509,7 +509,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-17T18:29:50.000Z",
+    "sourceUpdatedAt": "2026-10-20T02:56:03.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -792,7 +792,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -804,7 +804,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-19T18:12:30.000Z",
+    "sourceUpdatedAt": "2026-10-19T19:46:48.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
      "zh": "在本机运行的 AI 求职工具，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，开源可自行 Fork 使用。"
@@ -976,7 +976,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -988,7 +988,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-19T18:42:57.000Z",
+    "sourceUpdatedAt": "2026-10-20T05:58:06.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1125,6 +1125,47 @@
     }
    },
    "sourceKey": "gh:unslothai/unsloth"
+  },
+  "discovery:gh:xerj-org/xerj": {
+   "observedAt": "2026-10-20T05:59:58.178Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:xerj-org/xerj",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-20T05:53:59.000Z",
+    "summary": {
+     "en": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+     "zh": "Rust实现的本地搜索引擎，支持代码、文档、日志、JSONL/CSV、PDF等多种格式的BM25、向量和混合检索，兼容Elasticsearch API，提供Agent记忆与RAG功能。"
+    },
+    "title": {
+     "en": "xerj-org/xerj",
+     "zh": "xerj-org/xerj – 本地化AI搜索引擎与MCP服务器"
+    },
+    "topics": [
+     "trend:daily",
+     "trend:weekly",
+     "trend:monthly",
+     "agent-memory",
+     "ai-agents",
+     "bm25",
+     "claude-code",
+     "cli"
+    ],
+    "type": "repo",
+    "url": "https://github.com/xerj-org/xerj",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:xerj-org/xerj"
   },
   "discovery:gh:zhulinsen/daily_stock_analysis": {
    "observedAt": "2026-10-19T18:43:21.139Z",
@@ -1431,7 +1472,7 @@
    "sourceKey": "hn:50137043"
   },
   "discovery:hn:50145715": {
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50145715",
@@ -6011,6 +6052,7 @@
   "https://github.com/tinyhumansai/openhuman": "2026-10-19T18:43:21.139Z",
   "https://github.com/unclecode/crawl4ai": "2026-10-06T09:37:13.355Z",
   "https://github.com/unslothai/unsloth": "2026-10-09T18:21:05.907Z",
+  "https://github.com/xerj-org/xerj": "2026-10-20T05:59:58.178Z",
   "https://github.com/zhulinsen/daily_stock_analysis": "2026-10-07T18:56:50.962Z",
   "https://gradio.app/guides/quickstart": "2026-10-06T09:37:13.355Z",
   "https://hailuoai.com/": "2026-10-06T09:37:13.355Z",

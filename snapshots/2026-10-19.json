@@ -11257,21 +11257,21 @@
    "category": "discussion",
    "key": "hn:50145337",
    "metrics": {
-    "comments": 231,
+    "comments": 236,
     "frontPage": 0,
-    "points": 498
+    "points": 504
    },
    "news": {
     "author": "allinonai",
-    "comments": 231,
+    "comments": 236,
     "createdAt": "2026-10-18T20:48:14.000Z",
     "domain": "arxiv.org",
     "hnId": 50145337,
     "hnUrl": "https://news.ycombinator.com/item?id=50145337",
-    "points": 498,
-    "showRank": 8
+    "points": 504,
+    "showRank": 7
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T20:48:14.000Z",
    "refs": [
     "arxiv:2610.18861",
@@ -11302,21 +11302,21 @@
    "category": "discussion",
    "key": "hn:50145507",
    "metrics": {
-    "comments": 199,
+    "comments": 210,
     "frontPage": 0,
-    "points": 283
+    "points": 295
    },
    "news": {
     "author": "amrrs",
-    "comments": 199,
+    "comments": 210,
     "createdAt": "2026-10-18T21:09:12.000Z",
     "domain": "jrdsgl.com",
     "hnId": 50145507,
     "hnUrl": "https://news.ycombinator.com/item?id=50145507",
-    "points": 283,
-    "showRank": 16
+    "points": 295,
+    "showRank": 17
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T21:09:12.000Z",
    "refs": [
     "url:jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on"
@@ -11341,21 +11341,21 @@
    "category": "tool",
    "key": "hn:50145715",
    "metrics": {
-    "comments": 76,
+    "comments": 80,
     "frontPage": 0,
-    "points": 144
+    "points": 147
    },
    "news": {
     "author": "zoozla",
-    "comments": 76,
+    "comments": 80,
     "createdAt": "2026-10-18T21:36:10.000Z",
     "domain": "github.com",
     "hnId": 50145715,
     "hnUrl": "https://news.ycombinator.com/item?id=50145715",
-    "points": 144,
-    "showRank": 5
+    "points": 147,
+    "showRank": 9
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T21:36:10.000Z",
    "refs": [
     "gh:finereli/whatsapp-mcp"
@@ -11540,21 +11540,21 @@
    "category": "discussion",
    "key": "hn:50148452",
    "metrics": {
-    "comments": 83,
+    "comments": 90,
     "frontPage": 0,
-    "points": 181
+    "points": 186
    },
    "news": {
     "author": "theanonymousone",
-    "comments": 83,
+    "comments": 90,
     "createdAt": "2026-10-19T04:41:46.000Z",
     "domain": "artificialanalysis.ai",
     "hnId": 50148452,
     "hnUrl": "https://news.ycombinator.com/item?id=50148452",
-    "points": 181,
-    "showRank": 32
+    "points": 186,
+    "showRank": 34
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T04:41:46.000Z",
    "refs": [
     "url:artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
@@ -11579,21 +11579,21 @@
    "category": "discussion",
    "key": "hn:50148855",
    "metrics": {
-    "comments": 96,
+    "comments": 116,
     "frontPage": 0,
-    "points": 137
+    "points": 153
    },
    "news": {
     "author": "ankitg12",
-    "comments": 96,
+    "comments": 116,
     "createdAt": "2026-10-19T05:55:31.000Z",
     "domain": "crystl.dev",
     "hnId": 50148855,
     "hnUrl": "https://news.ycombinator.com/item?id=50148855",
-    "points": 137,
-    "showRank": 43
+    "points": 153,
+    "showRank": 41
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T05:55:31.000Z",
    "refs": [
     "url:crystl.dev/guides/tmux-for-ai-agents"
@@ -11618,21 +11618,21 @@
    "category": "discussion",
    "key": "hn:50150434",
    "metrics": {
-    "comments": 82,
+    "comments": 106,
     "frontPage": 0,
-    "points": 421
+    "points": 573
    },
    "news": {
     "author": "groar",
-    "comments": 82,
+    "comments": 106,
     "createdAt": "2026-10-19T09:59:32.000Z",
     "domain": "mistral.ai",
     "hnId": 50150434,
     "hnUrl": "https://news.ycombinator.com/item?id=50150434",
-    "points": 421,
-    "showRank": 11
+    "points": 573,
+    "showRank": 4
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T09:59:32.000Z",
    "refs": [
     "url:mistral.ai/news/timestral"
@@ -11656,24 +11656,63 @@
   },
   {
    "board": "news",
+   "category": "industry",
+   "key": "hn:50151376",
+   "metrics": {
+    "comments": 117,
+    "frontPage": 0,
+    "points": 136
+   },
+   "news": {
+    "author": "1vuio0pswjnm7",
+    "comments": 117,
+    "createdAt": "2026-10-19T12:06:03.000Z",
+    "domain": "wsj.com",
+    "hnId": 50151376,
+    "hnUrl": "https://news.ycombinator.com/item?id=50151376",
+    "points": 136,
+    "showRank": 50
+   },
+   "observedAt": "2026-10-20T05:59:58.178Z",
+   "publishedAt": "2026-10-19T12:06:03.000Z",
+   "refs": [
+    "url:wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?reflink=desktopwebshare_permalink&st=RtdGHg"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:anthropic",
+     "cat:ipo"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "The obscure trust looming over Anthropic's IPO",
+   "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink"
+  },
+  {
+   "board": "news",
    "category": "discussion",
    "key": "hn:50151390",
    "metrics": {
-    "comments": 61,
+    "comments": 64,
     "frontPage": 0,
-    "points": 126
+    "points": 128
    },
    "news": {
     "author": "isuruwijesiri",
-    "comments": 61,
+    "comments": 64,
     "createdAt": "2026-10-19T12:07:41.000Z",
     "domain": "github.com",
     "hnId": 50151390,
     "hnUrl": "https://news.ycombinator.com/item?id=50151390",
-    "points": 126,
-    "showRank": 50
+    "points": 128,
+    "showRank": 56
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T12:07:41.000Z",
    "refs": [
     "gh:isurumaduranga/harness-engineering-101"
@@ -11698,21 +11737,21 @@
    "category": "tool",
    "key": "hn:50151928",
    "metrics": {
-    "comments": 97,
+    "comments": 108,
     "frontPage": 0,
-    "points": 135
+    "points": 146
    },
    "news": {
     "author": "erikkannike",
-    "comments": 97,
+    "comments": 108,
     "createdAt": "2026-10-19T13:00:47.000Z",
     "domain": "100toolkit.com",
     "hnId": 50151928,
     "hnUrl": "https://news.ycombinator.com/item?id=50151928",
-    "points": 135,
-    "showRank": 4
+    "points": 146,
+    "showRank": 6
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T13:00:47.000Z",
    "refs": [
     "url:100toolkit.com/blog/deslop-model"
@@ -11738,21 +11777,21 @@
    "category": "industry",
    "key": "hn:50153630",
    "metrics": {
-    "comments": 43,
+    "comments": 57,
     "frontPage": 0,
-    "points": 218
+    "points": 329
    },
    "news": {
     "author": "kensai",
-    "comments": 43,
+    "comments": 57,
     "createdAt": "2026-10-19T15:28:24.000Z",
     "domain": "home.cern",
     "hnId": 50153630,
     "hnUrl": "https://news.ycombinator.com/item?id=50153630",
-    "points": 218,
-    "showRank": 23
+    "points": 329,
+    "showRank": 15
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T15:28:24.000Z",
    "refs": [
     "url:home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science"
@@ -11829,29 +11868,29 @@
    "category": "research",
    "devto": {
     "author": "Jhin Lee",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-19T13:00:00Z",
     "domain": "dev.to",
     "id": 4865167,
-    "points": 7,
+    "points": 13,
     "url": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha"
    },
    "key": "devto:4865167",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 7
+    "points": 13
    },
    "news": {
     "author": "Jhin Lee",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-19T13:00:00Z",
     "domain": "dev.to",
     "hnId": 4865167,
     "hnUrl": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
-    "points": 7
+    "points": 13
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T13:00:00Z",
    "refs": [],
    "relevance": {
@@ -12092,14 +12131,14 @@
     "createdAt": "2026-10-18T20:20:20Z",
     "domain": "dev.to",
     "id": 4873703,
-    "points": 13,
+    "points": 14,
     "url": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo"
    },
    "key": "devto:4873703",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 13
+    "points": 14
    },
    "news": {
     "author": "xbill",
@@ -12108,9 +12147,9 @@
     "domain": "dev.to",
     "hnId": 4873703,
     "hnUrl": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo",
-    "points": 13
+    "points": 14
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T20:20:20Z",
    "refs": [],
    "relevance": {
@@ -12243,29 +12282,29 @@
    "category": "engineering",
    "devto": {
     "author": "Daniel Nwaneri",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-19T05:19:00Z",
     "domain": "dev.to",
     "id": 4874497,
-    "points": 1,
+    "points": 26,
     "url": "https://dev.to/dannwaneri/bank-alerts-to-a-day-book-with-a-local-gemma-21dl"
    },
    "key": "devto:4874497",
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 1
+    "points": 26
    },
    "news": {
     "author": "Daniel Nwaneri",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-19T05:19:00Z",
     "domain": "dev.to",
     "hnId": 4874497,
     "hnUrl": "https://dev.to/dannwaneri/bank-alerts-to-a-day-book-with-a-local-gemma-21dl",
-    "points": 1
+    "points": 26
    },
-   "observedAt": "2026-10-19T06:11:28.804Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T05:19:00Z",
    "refs": [],
    "relevance": {
@@ -13097,7 +13136,7 @@
     "hnUrl": "https://dev.to/puneetkumar2010/day-17-of-building-crowdwide-trying-to-bring-users-back-35mi",
     "points": 15
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T05:13:38Z",
    "refs": [],
    "relevance": {
@@ -13699,29 +13738,29 @@
    "category": "engineering",
    "devto": {
     "author": "Ben Halpern",
-    "comments": 18,
+    "comments": 24,
     "createdAt": "2026-10-19T12:35:10Z",
     "domain": "dev.to",
     "id": 4877743,
-    "points": 27,
+    "points": 36,
     "url": "https://dev.to/ben/meme-monday-2hle"
    },
    "key": "devto:4877743",
    "metrics": {
-    "comments": 18,
+    "comments": 24,
     "frontPage": 0,
-    "points": 27
+    "points": 36
    },
    "news": {
     "author": "Ben Halpern",
-    "comments": 18,
+    "comments": 24,
     "createdAt": "2026-10-19T12:35:10Z",
     "domain": "dev.to",
     "hnId": 4877743,
     "hnUrl": "https://dev.to/ben/meme-monday-2hle",
-    "points": 27
+    "points": 36
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T12:35:10Z",
    "refs": [],
    "relevance": {
@@ -14060,28 +14099,28 @@
    "key": "lobsters:4oz3sk",
    "lobsters": {
     "author": "rajtilakjee",
-    "comments": 0,
+    "comments": 3,
     "createdAt": "2026-10-19T03:13:14.245-05:00",
     "domain": "lwn.net",
-    "points": 12,
+    "points": 21,
     "shortId": "4oz3sk",
     "url": "https://lwn.net/Articles/1101143/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 3,
     "frontPage": 0,
-    "points": 12
+    "points": 21
    },
    "news": {
     "author": "rajtilakjee",
-    "comments": 0,
+    "comments": 3,
     "createdAt": "2026-10-19T03:13:14.245-05:00",
     "domain": "lwn.net",
     "hnId": 283813364,
     "hnUrl": "https://lobste.rs/s/4oz3sk/7_3_kernel_has_been_released",
-    "points": 12
+    "points": 21
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T03:13:14.245-05:00",
    "refs": [],
    "relevance": {
@@ -14113,14 +14152,14 @@
     "comments": 1,
     "createdAt": "2026-10-19T06:47:04.290-05:00",
     "domain": "mistral.ai",
-    "points": 6,
+    "points": 7,
     "shortId": "7r9dcc",
     "url": "https://mistral.ai/news/timestral/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 6
+    "points": 7
    },
    "news": {
     "author": "mxey",
@@ -14129,9 +14168,9 @@
     "domain": "mistral.ai",
     "hnId": 469050060,
     "hnUrl": "https://lobste.rs/s/7r9dcc/timestral_mistral_s_time_series",
-    "points": 6
+    "points": 7
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T06:47:04.290-05:00",
    "refs": [],
    "relevance": {
@@ -14209,28 +14248,28 @@
    "key": "lobsters:8ejwsp",
    "lobsters": {
     "author": "hongminhee",
-    "comments": 13,
+    "comments": 21,
     "createdAt": "2026-10-19T03:13:12.526-05:00",
     "domain": "blog.webb.page",
-    "points": 22,
+    "points": 31,
     "shortId": "8ejwsp",
     "url": "https://blog.webb.page/WM-105"
    },
    "metrics": {
-    "comments": 13,
+    "comments": 21,
     "frontPage": 0,
-    "points": 22
+    "points": 31
    },
    "news": {
     "author": "hongminhee",
-    "comments": 13,
+    "comments": 21,
     "createdAt": "2026-10-19T03:13:12.526-05:00",
     "domain": "blog.webb.page",
     "hnId": 508173001,
     "hnUrl": "https://lobste.rs/s/8ejwsp/beginning_ende_community_deno_fork",
-    "points": 22
+    "points": 31
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T03:13:12.526-05:00",
    "refs": [],
    "relevance": {
@@ -14427,7 +14466,7 @@
     "hnUrl": "https://lobste.rs/s/dc2efo/dynamic_packages",
     "points": 4
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T19:36:22.074-05:00",
    "refs": [],
    "relevance": {
@@ -14505,28 +14544,28 @@
    "key": "lobsters:gqepzd",
    "lobsters": {
     "author": "nbyqvist",
-    "comments": 10,
+    "comments": 14,
     "createdAt": "2026-10-19T09:44:02.928-05:00",
     "domain": "marc.info",
-    "points": 41,
+    "points": 89,
     "shortId": "gqepzd",
     "url": "https://marc.info/?l=openbsd-ports&m=179236125692175"
    },
    "metrics": {
-    "comments": 10,
+    "comments": 14,
     "frontPage": 0,
-    "points": 41
+    "points": 89
    },
    "news": {
     "author": "nbyqvist",
-    "comments": 10,
+    "comments": 14,
     "createdAt": "2026-10-19T09:44:02.928-05:00",
     "domain": "marc.info",
     "hnId": 1011815689,
     "hnUrl": "https://lobste.rs/s/gqepzd/wine_ported_openbsd",
-    "points": 41
+    "points": 89
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T09:44:02.928-05:00",
    "refs": [],
    "relevance": {
@@ -14554,28 +14593,28 @@
    "key": "lobsters:h0eate",
    "lobsters": {
     "author": "355E3B",
-    "comments": 225,
+    "comments": 278,
     "createdAt": "2026-10-18T20:28:53.196-05:00",
     "domain": "lobste.rs",
-    "points": 278,
+    "points": 325,
     "shortId": "h0eate",
     "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags"
    },
    "metrics": {
-    "comments": 225,
+    "comments": 278,
     "frontPage": 0,
-    "points": 278
+    "points": 325
    },
    "news": {
     "author": "355E3B",
-    "comments": 225,
+    "comments": 278,
     "createdAt": "2026-10-18T20:28:53.196-05:00",
     "domain": "lobste.rs",
     "hnId": 1028592194,
     "hnUrl": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
-    "points": 278
+    "points": 325
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T20:28:53.196-05:00",
    "refs": [],
    "relevance": {
@@ -14902,28 +14941,28 @@
    "key": "lobsters:mp8qye",
    "lobsters": {
     "author": "gmem",
-    "comments": 35,
+    "comments": 44,
     "createdAt": "2026-10-18T13:35:01.063-05:00",
     "domain": "media.ccc.de",
-    "points": 165,
+    "points": 179,
     "shortId": "mp8qye",
     "url": "https://media.ccc.de/v/emf2026-240-1-men-in-tech-yesallmen"
    },
    "metrics": {
-    "comments": 35,
+    "comments": 44,
     "frontPage": 0,
-    "points": 165
+    "points": 179
    },
    "news": {
     "author": "gmem",
-    "comments": 35,
+    "comments": 44,
     "createdAt": "2026-10-18T13:35:01.063-05:00",
     "domain": "media.ccc.de",
     "hnId": 1372654454,
     "hnUrl": "https://lobste.rs/s/mp8qye/men_tech_yesallmen",
-    "points": 165
+    "points": 179
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T13:35:01.063-05:00",
    "refs": [],
    "relevance": {
@@ -14952,28 +14991,28 @@
    "key": "lobsters:mpytbn",
    "lobsters": {
     "author": "pushcx",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-19T10:47:03.949-05:00",
     "domain": "calabro.io",
-    "points": 10,
+    "points": 48,
     "shortId": "mpytbn",
-    "url": "https://www.calabro.io"
+    "url": "https://www.calabro.io/ohbf"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 8,
     "frontPage": 0,
-    "points": 10
+    "points": 48
    },
    "news": {
     "author": "pushcx",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-19T10:47:03.949-05:00",
     "domain": "calabro.io",
     "hnId": 1373870579,
     "hnUrl": "https://lobste.rs/s/mpytbn/one_hash_bloom_filters",
-    "points": 10
+    "points": 48
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T10:47:03.949-05:00",
    "refs": [],
    "relevance": {
@@ -14994,7 +15033,7 @@
     "tag:databases"
    ],
    "title": "One Hash Bloom Filters",
-   "url": "https://www.calabro.io"
+   "url": "https://www.calabro.io/ohbf"
   },
   {
    "board": "lobsters",
@@ -15054,14 +15093,14 @@
     "comments": 5,
     "createdAt": "2026-10-18T21:59:07.957-05:00",
     "domain": "seangoedecke.com",
-    "points": 17,
+    "points": 23,
     "shortId": "nuepys",
     "url": "https://www.seangoedecke.com/what-requirements-dont-you-have/"
    },
    "metrics": {
     "comments": 5,
     "frontPage": 0,
-    "points": 17
+    "points": 23
    },
    "news": {
     "author": "nolan",
@@ -15070,9 +15109,9 @@
     "domain": "seangoedecke.com",
     "hnId": 1441797364,
     "hnUrl": "https://lobste.rs/s/nuepys/what_requirements_don_t_you_have",
-    "points": 17
+    "points": 23
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T21:59:07.957-05:00",
    "refs": [],
    "relevance": {
@@ -15153,14 +15192,14 @@
     "comments": 4,
     "createdAt": "2026-10-19T08:26:58.823-05:00",
     "domain": "blog.dnsimple.com",
-    "points": 7,
+    "points": 18,
     "shortId": "p3pruv",
     "url": "https://blog.dnsimple.com/2026/10/making-dns-erlang-fast/"
    },
    "metrics": {
     "comments": 4,
     "frontPage": 0,
-    "points": 7
+    "points": 18
    },
    "news": {
     "author": "jparise",
@@ -15169,9 +15208,9 @@
     "domain": "blog.dnsimple.com",
     "hnId": 1517895751,
     "hnUrl": "https://lobste.rs/s/p3pruv/making_dns_erlang_fast_binary_tricks_for",
-    "points": 7
+    "points": 18
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T08:26:58.823-05:00",
    "refs": [],
    "relevance": {
@@ -15202,14 +15241,14 @@
     "comments": 0,
     "createdAt": "2026-10-19T08:18:26.803-05:00",
     "domain": "antelang.org",
-    "points": 6,
+    "points": 15,
     "shortId": "qo8flp",
     "url": "https://antelang.org/blog/safe_cyclic_mutability/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 6
+    "points": 15
    },
    "news": {
     "author": "mrnossiom",
@@ -15218,9 +15257,9 @@
     "domain": "antelang.org",
     "hnId": 1612824829,
     "hnUrl": "https://lobste.rs/s/qo8flp/borrow_checking_zero_cost_cyclic",
-    "points": 6
+    "points": 15
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T08:18:26.803-05:00",
    "refs": [],
    "relevance": {
@@ -15251,14 +15290,14 @@
     "comments": 5,
     "createdAt": "2026-10-19T03:27:55.648-05:00",
     "domain": "blog.torproject.org",
-    "points": 24,
+    "points": 35,
     "shortId": "s3w7hd",
     "url": "https://blog.torproject.org/tor-vpn-beta/"
    },
    "metrics": {
     "comments": 5,
     "frontPage": 0,
-    "points": 24
+    "points": 35
    },
    "news": {
     "author": "confusedalex",
@@ -15267,9 +15306,9 @@
     "domain": "blog.torproject.org",
     "hnId": 1699594465,
     "hnUrl": "https://lobste.rs/s/s3w7hd/tor_vpn_beta_what_we_ve_learned_building",
-    "points": 24
+    "points": 35
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T03:27:55.648-05:00",
    "refs": [],
    "relevance": {
@@ -15299,28 +15338,28 @@
    "key": "lobsters:vyfegx",
    "lobsters": {
     "author": "caius",
-    "comments": 27,
+    "comments": 39,
     "createdAt": "2026-10-19T07:09:29.138-05:00",
     "domain": "lobste.rs",
-    "points": 19,
+    "points": 23,
     "shortId": "vyfegx",
     "url": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week"
    },
    "metrics": {
-    "comments": 27,
+    "comments": 39,
     "frontPage": 0,
-    "points": 19
+    "points": 23
    },
    "news": {
     "author": "caius",
-    "comments": 27,
+    "comments": 39,
     "createdAt": "2026-10-19T07:09:29.138-05:00",
     "domain": "lobste.rs",
     "hnId": 1932276993,
     "hnUrl": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week",
-    "points": 19
+    "points": 23
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T07:09:29.138-05:00",
    "refs": [],
    "relevance": {
@@ -15349,28 +15388,28 @@
    "key": "lobsters:w6xosj",
    "lobsters": {
     "author": "trousers",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-18T22:26:51.597-05:00",
     "domain": "anderegg.ca",
-    "points": 26,
+    "points": 32,
     "shortId": "w6xosj",
     "url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 7,
     "frontPage": 0,
-    "points": 26
+    "points": 32
    },
    "news": {
     "author": "trousers",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-18T22:26:51.597-05:00",
     "domain": "anderegg.ca",
     "hnId": 1946567107,
     "hnUrl": "https://lobste.rs/s/w6xosj/what_heck_is_pkg",
-    "points": 26
+    "points": 32
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-18T22:26:51.597-05:00",
    "refs": [],
    "relevance": {
@@ -15448,28 +15487,28 @@
    "key": "lobsters:wtthju",
    "lobsters": {
     "author": "pheelicks",
-    "comments": 6,
+    "comments": 11,
     "createdAt": "2026-10-19T08:56:50.438-05:00",
     "domain": "a5geo.org",
-    "points": 8,
+    "points": 19,
     "shortId": "wtthju",
     "url": "https://a5geo.org/blog/2026/10/14/a5-v1"
    },
    "metrics": {
-    "comments": 6,
+    "comments": 11,
     "frontPage": 0,
-    "points": 8
+    "points": 19
    },
    "news": {
     "author": "pheelicks",
-    "comments": 6,
+    "comments": 11,
     "createdAt": "2026-10-19T08:56:50.438-05:00",
     "domain": "a5geo.org",
     "hnId": 1985002266,
     "hnUrl": "https://lobste.rs/s/wtthju/a5_v1_0",
-    "points": 8
+    "points": 19
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T08:56:50.438-05:00",
    "refs": [],
    "relevance": {
@@ -15503,14 +15542,14 @@
     "comments": 0,
     "createdAt": "2026-10-19T09:03:08.478-05:00",
     "domain": "aaronmallen.me",
-    "points": 6,
+    "points": 15,
     "shortId": "ygp18d",
     "url": "https://aaronmallen.me/writing/hanami-why-model-citizens"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 6
+    "points": 15
    },
    "news": {
     "author": "aaronmallen",
@@ -15519,9 +15558,9 @@
     "domain": "aaronmallen.me",
     "hnId": 2083891837,
     "hnUrl": "https://lobste.rs/s/ygp18d/hanami_why_model_citizens",
-    "points": 6
+    "points": 15
    },
-   "observedAt": "2026-10-19T18:43:21.139Z",
+   "observedAt": "2026-10-20T05:59:58.178Z",
    "publishedAt": "2026-10-19T09:03:08.478-05:00",
    "refs": [],
    "relevance": {
@@ -15595,59 +15634,66 @@
   }
  ],
  "date": "2026-10-19",
- "fetchedAt": "2026-10-19T18:43:21.139Z",
+ "fetchedAt": "2026-10-20T05:59:58.178Z",
  "runs": [
   "2026-10-19T06:11:28.804Z",
-  "2026-10-19T18:43:21.139Z"
+  "2026-10-19T18:43:21.139Z",
+  "2026-10-20T05:59:58.178Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "dev-to",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 318,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "github-search",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 165,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "count": 166,
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "github-trending",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 71,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "count": 72,
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 98,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "count": 97,
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "lobsters",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15655,15 +15701,16 @@
   {
    "board": "social",
    "count": 3,
-   "fetchedAt": "2026-10-19T18:43:21.139Z",
+   "fetchedAt": "2026-10-20T05:59:58.178Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-20T05:59:58.178Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-18T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-19T16:00:00.000Z"
  }

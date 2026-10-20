@@ -3717,6 +3717,20 @@
   },
   "hash": "f91160ce0a017a6a"
  },
+ "devto:4871867": {
+  "copy": {
+   "zh": {
+    "blurb": "作者 Yash 记录了在 libp2p 中修复 DHT 前缀处理错误和 Yamux 会话重置的经历，提升了 P2P 网络的稳定性。",
+    "points": [
+     "解决 DHT 前缀导致的路由错误。",
+     "改进 Yamux 重置逻辑，防止连接中断。",
+     "贡献代码至 libp2p 开源社区。"
+    ],
+    "title": "libp2p 深度调试：修复 DHT 前缀与 Yamux 重置问题"
+   }
+  },
+  "hash": "3e706a8c144d7a07"
+ },
  "devto:4872016": {
   "copy": {
    "zh": {
@@ -4123,6 +4137,15 @@
   },
   "hash": "cdac8c6f654e32c1"
  },
+ "devto:4878796": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了 Contradiction MCP——一个开源的多模态一致性检测服务器，利用确定性检查、来源追踪和上下文感知分析，实时发现代码、配置和技术文档之间的矛盾，防止文档漂移导致的生产故障。",
+    "title": "捕获文档漂移防止生产故障：我如何构建 Contradiction MCP"
+   }
+  },
+  "hash": "03aec91856a43279"
+ },
  "devto:4878848": {
   "copy": {
    "zh": {
@@ -4223,6 +4246,20 @@
   },
   "hash": "2bf93a447da9fa1c"
  },
+ "devto:4879157": {
+  "copy": {
+   "zh": {
+    "blurb": "Gemma 4 26B A4B 是一个 14.4 GB 的 Mixture‑of‑Experts 模型，主要专家驻留在系统内存，在 8 GB RTX 3050 上即可推理，支持 131 072 token 上下文，空闲时生成速率 28‑34 token/秒，GSM8K 与 BFCL 评分可与 12 B 模型持平。",
+    "points": [
+     "模型将大部分专家加载至系统 RAM，显著降低显存需求。",
+     "上下文窗口达 131 k tokens，适合长文本任务。",
+     "在 8 GB GPU 上实现与 12 B 同等评测成绩。"
+    ],
+    "title": "Gemma 4 26B A4B 在 8 GB RTX 3050 上运行的实验"
+   }
+  },
+  "hash": "666d68e7c4ea3f10"
+ },
  "devto:4879177": {
   "copy": {
    "zh": {
@@ -4250,6 +4287,89 @@
    }
   },
   "hash": "491cbf11b2322744"
+ },
+ "devto:4879459": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to发布的Hacktoberfest AI挑战赛进入第3周，持续至10月25日，总奖金2850美元，分给21名获奖者，鼓励AI开源贡献。",
+    "points": [
+     "奖金2850美元，21名获奖者",
+     "活动至10月25日，已进入第3周",
+     "面向AI开源项目，鼓励持续贡献"
+    ],
+    "title": "Hacktoberfest 开源AI挑战赛：稳扎稳打赢大奖"
+   }
+  },
+  "hash": "435a667936c9b609"
+ },
+ "devto:4879751": {
+  "copy": {
+   "zh": {
+    "blurb": "SubScribe Field OS 是面向建筑文档的本地优先语音操作系统，利用离线 AI 实现纸质工作流的语音化。",
+    "points": [
+     "完全离线运行，保护敏感项目数据。",
+     "通过语音指令快速创建、查询和管理施工文档。",
+     "针对建筑行业定制的表单与模板，提高工作效率。"
+    ],
+    "title": "SubScribe Field OS：本地优先的建筑文档语音操作系统"
+   }
+  },
+  "hash": "80ae33a6079c11a8"
+ },
+ "devto:4880002": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍 Gemini 4 Argon 与 GKE Agent Sandbox 结合 gVisor，实现对 LLM 生成的 Python 与 Bash 代码的安全大规模执行。",
+    "points": [
+     "Gemini 4 Argon 提供高质量代码生成。",
+     "GKE Agent Sandbox 用 gVisor 隔离，防止恶意行为。",
+     "支持每秒数千次的并发安全执行。"
+    ],
+    "title": "使用 Gemini 4 Argon 与 GKE Agent Sandbox 安全运行不可信代码"
+   }
+  },
+  "hash": "7205a01e88151892"
+ },
+ "devto:4880848": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Hacktoberfest 开源 AI 项目通过本地运行的 Gemma 模型，将 240 行 Docker 日志自动归类为五类信号，帮助运维快速定位问题，体现慢而稳的日志分析思路。",
+    "title": "QuietOps：本地 Gemma 将 240 条 Docker 日志转化为五个信号 🦥"
+   }
+  },
+  "hash": "379f8258d7ed4d79"
+ },
+ "devto:4881010": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了离线点对点系统，将不同规格的消费笔记本聚合，协同运行 70B 参数的大语言模型，实现无需云端算力。",
+    "title": "离线 P2P 系统：通过拼接消费级笔记本运行 70B 大模型"
+   }
+  },
+  "hash": "b4e5c99d0abfe713"
+ },
+ "devto:4881034": {
+  "copy": {
+   "zh": {
+    "blurb": "作者实现了一个 Discourse 插件，自动将新主题提交至搜索引擎（如 Bing、Google） via IndexNow，提高站点 SEO 效果。",
+    "title": "使用 IndexNow 自动化 Discourse SEO"
+   }
+  },
+  "hash": "279c26b8408f1ca2"
+ },
+ "devto:4881230": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍 CLI‑Anything 项目，旨在为 AI 代理（如 Claude Code、Codex、Cursor）提供统一的命令行接口，将传统桌面软件转化为可直接调用的工具。",
+    "points": [
+     "为 AI 代理提供统一的 CLI 抽象层",
+     "让传统桌面应用可被 AI 直接调用",
+     "示例涵盖 Claude Code、Codex 等工具"
+    ],
+    "title": "CLI‑Anything：将桌面软件转化为 AI 代理可用工具"
+   }
+  },
+  "hash": "ccf57c56d9ba1d48"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -4478,8 +4598,13 @@
  "gh:blader/humanizer": {
   "copy": {
    "zh": {
-    "blurb": "提供Python实现的Humanizer代理技能，能够消除文本中AI写作的特征，使输出更自然、更像人工撰写。",
-    "title": "blader/humanizer：去除AI生成文本痕迹的代理技能"
+    "blurb": "Humanizer 是一个 Python 库，提供 Agent 技能，可去除 AI 生成文本中的检测痕迹，使输出更自然，已获 58,597 颗星。",
+    "points": [
+     "利用文本重写技术掩盖 AI 生成特征",
+     "轻量级 Python 实现，可直接集成到语言模型代理",
+     "GitHub 58k 星，社区活跃"
+    ],
+    "title": "Humanizer：去除 AI 生成文本痕迹的 Agent 技能"
    }
   },
   "hash": "a1e8e2c82d491c54"
@@ -4895,7 +5020,12 @@
  "gh:hbai-ltd/toonflow-app": {
   "copy": {
    "zh": {
-    "blurb": "Toonflow 是开源的 AI 短剧和漫画制作平台，集剧本创作、智能分镜、资产管理、图像/视频生成于一体，支持本地部署和插件扩展。",
+    "blurb": "Toonflow 是一款开源 AI 视频创作平台，提供无限画布、AI Agent、可视化工作流，支持本地部署、模型自选与插件扩展。",
+    "points": [
+     "无限画布结合 AI Agent，实现自由剧本到分镜转化。",
+     "一键调用图像与视频生成模型，完成端到端创作。",
+     "插件系统和 MCP 支持跨平台客户端，便于自定义扩展。"
+    ],
     "title": "Toonflow：开源 AI 短剧与漫画创作平台"
    }
   },
@@ -6032,6 +6162,15 @@
   },
   "hash": "043895fbd54f596c"
  },
+ "gh:usestrix/strix": {
+  "copy": {
+   "zh": {
+    "blurb": "开源 AI 渗透测试工具，能够自动扫描应用安全漏洞并提供修复建议，帮助开发者提升系统安全性。",
+    "title": "usestrix/strix"
+   }
+  },
+  "hash": "fd7ba82ad659175b"
+ },
  "gh:victortaelin/optmem": {
   "copy": {
    "zh": {
@@ -6093,16 +6232,16 @@
  "gh:xerj-org/xerj": {
   "copy": {
    "zh": {
-    "blurb": "XERJ 通过一键自动索引代码、文档、日志和 PDF，实现 AI 驱动的搜索、RAG 与安全审计，使用约 40 倍更少的 token，并可替代 ElasticSearch，降低十倍基础设施成本。",
+    "blurb": "Rust实现的本地搜索引擎，支持代码、文档、日志、JSONL/CSV、PDF等多种格式的BM25、向量和混合检索，兼容Elasticsearch API，提供Agent记忆与RAG功能。",
     "points": [
-     "单命令索引多种数据源，生成持久化向量库。",
-     "检索时仅消耗极少 token，提升成本效益。",
-     "兼容 RAG、审计与智能体记忆，支持 ElasticSearch 替代方案。"
+     "单二进制文件索引多种数据源",
+     "BM25、向量及混合搜索支持",
+     "Elasticsearch兼容API，供AI Agent记忆使用"
     ],
-    "title": "XERJ：基于 AI 的高效数据搜索与索引"
+    "title": "xerj-org/xerj – 本地化AI搜索引擎与MCP服务器"
    }
   },
-  "hash": "1d1ff347fce3bae2"
+  "hash": "619bebc56116a161"
  },
  "gh:yetone/magpie": {
   "copy": {
@@ -6128,6 +6267,20 @@
    }
   },
   "hash": "db6da4252d4ab15a"
+ },
+ "gh:yujunzhixue/dsh-purge": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目提供针对各模型的 jailbreak 提示词，默认支持国内模型“小码酱”，可灵活替换，实现所有模型的破甲。",
+    "points": [
+     "模型专属 jailbreak 提示词",
+     "默认面向小码酱等国产模型",
+     "支持二次开发需注明署名"
+    ],
+    "title": "YuJunZhiXue/dsh-purge – DeepSeek Harness 破甲"
+   }
+  },
+  "hash": "797f0ed48b460f79"
  },
  "gh:zai-org/zcode": {
   "copy": {
@@ -8613,6 +8766,20 @@
   },
   "hash": "78c4a8ec85e1aafe"
  },
+ "hn:50151376": {
+  "copy": {
+   "zh": {
+    "blurb": "华尔街日报报道，Anthropic的上市受限于一个私密信托持有控制性投票权，可能影响公司治理与监管审视。",
+    "points": [
+     "信托持有多数投票权",
+     "限制普通股东影响力",
+     "引发监管与治理担忧"
+    ],
+    "title": "Anthropic IPO背后的神秘信托"
+   }
+  },
+  "hash": "ad4b6fb40700473e"
+ },
  "hn:50151390": {
   "copy": {
    "zh": {
@@ -8654,6 +8821,20 @@
   },
   "hash": "7fe0108ae29fa08c"
  },
+ "hn:50154244": {
+  "copy": {
+   "zh": {
+    "blurb": "美国国土安全部发布新命令，禁止所有联邦民用系统使用中国公司DeepSeek的人工智能模型，标志着对中国产AI技术的进一步限制。",
+    "points": [
+     "新命令禁止联邦民用系统使用 DeepSeek AI 模型",
+     "此禁令是对中国 AI 技术更广泛限制的一部分",
+     "包括所有部署和采购行为的全面禁用"
+    ],
+    "title": "DeepSeek 被美国联邦民用机构禁用"
+   }
+  },
+  "hash": "dc27e64083a92fec"
+ },
  "hn:50155647": {
   "copy": {
    "zh": {
@@ -8667,6 +8848,76 @@
    }
   },
   "hash": "32cdc4d8d414ca2d"
+ },
+ "hn:50159341": {
+  "copy": {
+   "zh": {
+    "blurb": "Redact.dev发现WhatsApp帮助页面中嵌入了隐藏的AI指令，要求模型在回答时避免建议监管机构，涉及透明度与伦理问题。",
+    "points": [
+     "隐藏指令限制模型建议监管",
+     "曝光后引发透明度争议",
+     "可能影响用户获取完整信息"
+    ],
+    "title": "WhatsApp帮助页隐藏LLM指令：不推荐监管机构"
+   }
+  },
+  "hash": "881bd1bd8551bbf7"
+ },
+ "hn:50159662": {
+  "copy": {
+   "zh": {
+    "blurb": "Chai‑UI 是一套专为生成式 AI 应用打造的 UI 设计系统，提供可复用的组件与主题，以加速前端开发。",
+    "points": [
+     "提供符合 AI 产品交互的组件库。",
+     "开源且可自定义主题，适配多种模型输出。",
+     "简化生成式 AI 应用的 UI 开发流程。"
+    ],
+    "title": "Chai‑UI：面向生成式 AI 应用的设计系统"
+   }
+  },
+  "hash": "2f98f68db430928c"
+ },
+ "hn:50159710": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenFlow 是一个开源的 AI 代理工作流构建器，帮助开发者以代码或可视化方式定义多模型、多工具的工作流，实现复杂任务的自动化。",
+    "points": [
+     "支持多模型和工具的串联工作流",
+     "提供代码和可视化两种定义方式",
+     "开源项目适用于复杂 AI 代理构建"
+    ],
+    "title": "OpenFlow – AI 代理工作流构建器"
+   }
+  },
+  "hash": "70993ff8ffcb4af9"
+ },
+ "hn:50159902": {
+  "copy": {
+   "zh": {
+    "blurb": "Resourcedeck 是一款面向团队的免费开源工具，用于资源分配、项目进度和组合规划，帮助提升管理效率。",
+    "points": [
+     "提供资源调度、项目组合视图。",
+     "完全开源，可自部署在内部环境。",
+     "支持团队协作与实时数据更新。"
+    ],
+    "title": "Resourcedeck：免费开源的资源与项目组合规划工具"
+   }
+  },
+  "hash": "7087c53e2251facd"
+ },
+ "hn:50160198": {
+  "copy": {
+   "zh": {
+    "blurb": "Lights‑on 软件工厂是针对 Claude Code 的开源模板，通过编排器将令牌消耗相比直接调用降低约 80%，为快速搭建 AI 驱动的软件工厂提供起点。",
+    "points": [
+     "提供 Claude Code 的完整流水线脚手架",
+     "编排器将令牌消耗降低约 80%",
+     "基于 Votito 项目实现示例"
+    ],
+    "title": "Lights‑on 软件工厂模板（Claude Code）"
+   }
+  },
+  "hash": "bf983cefa58374a6"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -8808,6 +9059,15 @@
    }
   },
   "hash": "de56742533f94987"
+ },
+ "lobsters:4oz3sk": {
+  "copy": {
+   "zh": {
+    "blurb": "Linux 社区正式发布 7.3 版内核，带来最新的安全与性能改进，供广大用户升级使用。",
+    "title": "Linux 7.3 内核正式发布"
+   }
+  },
+  "hash": "7bad55a077bdaec6"
  },
  "lobsters:4zmka2": {
   "copy": {
@@ -8975,6 +9235,20 @@
   },
   "hash": "7d5329190890b6ed"
  },
+ "lobsters:7qhwfi": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenBSD 8.0 正式发布，带来改进的加密库、RISC‑V 支持、改进的网络堆栈以及多项安全强化。",
+    "points": [
+     "升级到 LibreSSL 3.7，提升 TLS 性能。",
+     "新增对 RISC‑V 架构的原生支持。",
+     "引入更严格的 privilege separation，增强系统安全。"
+    ],
+    "title": "OpenBSD 8.0 正式发布"
+   }
+  },
+  "hash": "a39b6c6b49d48eea"
+ },
  "lobsters:7vzgsl": {
   "copy": {
    "zh": {
@@ -9055,6 +9329,15 @@
    }
   },
   "hash": "a90b7aed024e75ae"
+ },
+ "lobsters:9ww9by": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍在 2021 年实现的安全渲染不可信 HTML 邮件的方案，避免 XSS 等风险，适用于邮件客户端。",
+    "title": "安全渲染不可信 HTML 邮件（2021）"
+   }
+  },
+  "hash": "3abe6afd47187b9c"
  },
  "lobsters:9xticb": {
   "copy": {
@@ -9159,15 +9442,15 @@
  "lobsters:b36ixw": {
   "copy": {
    "zh": {
-    "blurb": "Rich Hickley 在 YouTube 上发布的《In Context》视频，围绕上下文学习或相关技术展开讨论。",
+    "blurb": "这是一段标题为“In Context”的 YouTube 视频，链接已在 Lobsters 社区分享并获得 19 点赞。",
     "points": [
-     "视频时长未注明，但在 Lobsters 社区获得 3 票支持。",
-     "主题聚焦于 AI 模型的上下文使用方法。"
+     "YouTube 上的 In Context 视频已在 Lobsters 分享",
+     "在 Lobsters 获得 19 点赞和 6 条评论"
     ],
-    "title": "In Context - Rich Hickley 视频"
+    "title": "In Context（视频）"
    }
   },
-  "hash": "677375f6379bd398"
+  "hash": "8716832364e39c25"
  },
  "lobsters:bcaopz": {
   "copy": {
@@ -9218,6 +9501,19 @@
    }
   },
   "hash": "c617bad0483fb26f"
+ },
+ "lobsters:c2ouz0": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在文章中分享了对 2026 年 Rust 编译器新特性的期待以及个人在该领域的计划与展望。",
+    "points": [
+     "预期将推出性能、编译时间等关键改进。",
+     "作者计划参与相关特性研发或社区贡献。"
+    ],
+    "title": "2026 年 Rust 编译器的前景与个人期待"
+   }
+  },
+  "hash": "3a56ac620ca92c1e"
  },
  "lobsters:cjdy6d": {
   "copy": {
@@ -9307,6 +9603,20 @@
   },
   "hash": "6858c79fecc154de"
  },
+ "lobsters:dl4h2a": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目用 Swift 编写了一个超高速的 IPv4 解析器，利用 SIMD 优化实现每秒数十亿次解析，适用于网络应用。",
+    "points": [
+     "基于 SIMD 指令实现每秒数十亿次 IPv4 解析",
+     "纯 Swift 编写，无外部依赖",
+     "代码简洁，可直接用于 iOS/macOS 项目"
+    ],
+    "title": "在 Swift 中实现的超高速 IPv4 解析器"
+   }
+  },
+  "hash": "da1a37df5a996459"
+ },
  "lobsters:dodzdb": {
   "copy": {
    "zh": {
@@ -9319,6 +9629,19 @@
    }
   },
   "hash": "e8f775e35a2d0413"
+ },
+ "lobsters:dpjkzz": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨 Web Components 生态的低采纳率、工具链不足以及社区关注度下降，分析其在未来仍可能的细分场景与标准化需求。",
+    "points": [
+     "缺乏统一的开发工具和模板导致采纳成本高。",
+     "大型框架仍倾向使用自定义实现，Web Components 只能在特定项目中发挥优势。"
+    ],
+    "title": "如果没人编写，Web 组件还有前景吗？"
+   }
+  },
+  "hash": "113bd93f6cf2a7b6"
  },
  "lobsters:dtwbpu": {
   "copy": {
@@ -10108,8 +10431,13 @@
  "lobsters:mpytbn": {
   "copy": {
    "zh": {
-    "blurb": "One Hash Bloom Filters 提出仅使用单个哈希函数实现布隆过滤器，降低计算开销并保持误判率。",
-    "title": "单哈希 Bloom 过滤器"
+    "blurb": "一种仅使用单个哈希函数的布隆过滤器实现，降低计算开销并保持低误报率，适用于高吞吐量场景。",
+    "points": [
+     "仅需一次哈希，简化实现",
+     "内存占用与误报率保持竞争力",
+     "适合网络、缓存等实时过滤任务"
+    ],
+    "title": "One Hash Bloom Filters"
    }
   },
   "hash": "e6d2008e1071f0a7"
@@ -10127,6 +10455,20 @@
    }
   },
   "hash": "57c3f990d9121438"
+ },
+ "lobsters:nne5uh": {
+  "copy": {
+   "zh": {
+    "blurb": "荷兰政府启动项目研发自有 Linux 发行版，旨在实现信息技术主权，减少对 Microsoft 软件的依赖。",
+    "points": [
+     "政府主导的 Linux 定制发行版。",
+     "目标是提升国家数字主权与安全。",
+     "基于开源生态，兼容现有业务系统。"
+    ],
+    "title": "荷兰打造自主 Linux 操作系统以摆脱对 Microsoft 的依赖"
+   }
+  },
+  "hash": "51ad0bcae5cc8bb8"
  },
  "lobsters:norjho": {
   "copy": {
@@ -10456,6 +10798,20 @@
   },
   "hash": "2ea71b8aa54947bb"
  },
+ "lobsters:sqdhu7": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenBSD 项目发布 8.0 版，带来多项安全增强、硬件支持更新以及改进的网络栈，继续坚持审计驱动的安全理念。",
+    "points": [
+     "加入对新硬件平台的支持",
+     "强化默认安全设置和文件系统",
+     "提升网络性能并更新审计工具"
+    ],
+    "title": "OpenBSD 8.0 正式发布"
+   }
+  },
+  "hash": "9c2dc828a2e627d3"
+ },
  "lobsters:sqftld": {
   "copy": {
    "zh": {
@@ -10758,6 +11114,20 @@
    }
   },
   "hash": "997074a201e08fbf"
+ },
+ "lobsters:vze0kx": {
+  "copy": {
+   "zh": {
+    "blurb": "Go 语言在 TLS 实现中加入检查，拒绝包含八个不受信任 SPKI（均来自 eMudhra）的证书链，提升链验证安全性。",
+    "points": [
+     "新增 SPKI 黑名单，防止被篡改的根证书被信任。",
+     "约 16 张证书受影响，主要来自 eMudhra。",
+     "此更改将在 Go 1.22 中生效，提升整体生态安全。"
+    ],
+    "title": "Go 将拒绝包含八个不受信任 SPKI 的证书链"
+   }
+  },
+  "hash": "feef8f42e318faf5"
  },
  "lobsters:w6xosj": {
   "copy": {
