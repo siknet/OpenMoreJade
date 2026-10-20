@@ -222,16 +222,29 @@
   "brief": {
    "zh": {
     "bullets": [
-     "本地化搜索与工具链快速涌现：xerj 提供 Rust 单文件本地搜索引擎，headroom 将日志等压缩削减 20‑95% token，Calabrass 推出 Windows 本地个人 AI Agent，CLI‑Anything 将桌面软件包装成可被 Agent 调用的工具 [repos#2] [repos#6] [devto#10] [devto#4]",
-     "模型越狱与免费前沿模型插件并行：dsh‑purge 让任何模型换提示词实现破甲，dsh‑our‑free‑model 插件免登录提供 DeepSeek V4.1 Flash、Kimi K3 等最新模型，DeepSeek 因美国联邦禁令被限制，凸显对开放模型的需求 [repos#1] [repos#5] [news#2]",
-     "Token 消耗优化成为焦点：headroom 在代码和 JSON 场景下降 token 20‑95%，Dev.to 文章曝光 MCP 服务器每轮暗耗 30 000 token，embeddinggemma‑2 提供高效特征抽取，帮助降低上层模型的输入成本 [repos#6] [devto#2] [hf#4]",
-     "Agent 编排与安全沙箱进展：Orca 支持多模型代理舰队，OpenFlow 与 Claude Code factory 为 AI 工作流提供可视化构建，Gemini 4 Argon 与 GKE Agent Sandbox 实现大规模安全代码执行 [repos#8] [news#5] [news#4] [devto#8]",
-     "多模态生成工具持续丰富：ComfyUI 成为最强本地扩散模型 GUI，Flux‑3 系列在 HF 上提供图像‑到‑图像能力，LTX‑2.5 支持图像‑到‑视频，Toonflow 开源 AI 短剧与动画平台整合文本‑到‑视频全链路 [repos#7] [hf#2] [hf#3] [repos#9]"
+     "DeepSeek 在 GitHub 开源了 inference engine（deepseek-harness）并在 Hugging Face 推出 V4.1 Flash 模型，同时因 DHS 命令被美国联邦民用机构禁用【repos#5】【hf#1】【news#1】【news#3】",
+     "多款开源插件让各模型轻松“破甲”或免 API Key，如 dsh-purge、dsh-our-free-model 等，促进模型自由使用【repos#1】【repos#3】",
+     "针对 AI 代理的本地搜索、压缩与工具链快速增长：xerj 本地搜索引擎、headroom 输出压缩、ASPIRE 机器人技能发现、Claude Code 工作流模板等【repos#2】【repos#8】【repos#7】【news#9】【news#10】",
+     "安全与监管议题升温：DeepSeek 被美国禁用，WhatsApp 隐藏 LLM 指令，开源暗网 OSINT 项目 VoidAccess 受关注【news#3】【news#2】【news#5】",
+     "多模态模型热度持续：Flux、LTX、MOSS-Image-SFT 等在 Hugging Face 高分，显示图像生成与图像‑文本交叉任务的快速演进【hf#2】【hf#3】【hf#4】【hf#9】"
     ],
-    "headline": "本地化、开源 AI Agent 生态爆发：从搜索、工具链到免费前沿模型与压缩库齐聚"
+    "headline": "DeepSeek 同时发布开源推理引擎并遭美国禁令，生态工具与模型激增"
    }
   },
-  "hash": "233f7d014cc4eb28"
+  "hash": "f84ce8b4411bff61"
+ },
+ "2026-10-21": {
+  "brief": {
+   "zh": {
+    "bullets": [
+     "多种开源项目让 AI 编码代理更易配置和本地化，包括 Gentle‑AI、Superpowers‑zh、Repowise 等，提供持久记忆、中文技能与代码健康分析 [repos#3] [repos#4] [repos#2]",
+     "新发布的多模态模型在 Hugging Face 受热捧：DeepSeek‑V4.1‑Flash 支持图文互转，Flux‑3 系列强化图像到图像，LTX‑2.5 进军图像‑视频，同步出现实测部署指南（跑满 96 GB GPU）[hf#1] [hf#2] [hf#8] [devto#10]",
+     "为降低算力成本，出现专门的工具链：RTK CLI 将 LLM 令牌消耗削减 60‑90%；Ollama 整合多模型本地运行；WorldMonitor 提供实时情报仪表盘[repos#7] [repos#5] [repos#6]"
+    ],
+    "headline": "开源 AI 编码与多模态模型快速迭代，出现高效代理、中文增强与低成本部署方案"
+   }
+  },
+  "hash": "f4617d761b04513d"
  },
  "2026-W41": {
   "brief": {
@@ -266,15 +279,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个仓库推出自托管多代理平台，如 Google Artemis 的 Android 自动化、TencentCloud Octop 的多用户助理、XERJ 数据搜索、Magpie 与 Orca 的模型聚合，彰显开放生态加速个人 AI 助手部署。[repos#1][repos#8][repos#4][repos#9][repos#10]",
-     "新模型如 DeepSeek V4.1 Flash、Flux-3、MiniCPM-V、EmbeddingGemma-2 等在 Hugging Face 高分登榜，为这些代理提供强大图文、特征抽取能力。[hf#1][hf#2][hf#3][hf#5]",
-     "AI 助手在特定任务上开花，出现聚焦求职的开源项目 freehire、ai-job-search 与 Deis，让求职者可本地化生成简历、投递信等。[repos#5][repos#6][devto#6]",
-     "与代理相关的安全与透明性议题浮现，新闻提醒若不自行部署 LLM 代理将难以监控行为，凸显自主可控的重要性。[news#4]",
-     "研究机构加深合作，Mistral 与 CERN 的战略伙伴关系及 Timestral 项目展示时间序列模型的潜力，预示行业对专用模型需求增长。[news#1][news#3]"
+     "DeepSeek开源其推理引擎，提升模型部署透明度 [news#1]",
+     "DeepSeek V4.1 Flash模型在Hugging Face上可下载，且在dsh插件中免费无限使用 [hf#1] [repos#2]",
+     "美国内部安全部门下令禁止联邦民用机构使用DeepSeek模型，显示监管压力 [news#5]",
+     "其他开源AI工具如XERJ自动索引、Octop多用户多代理助手、Artemis Android自动化等，形成快速增长的自托管Agent生态 [repos#1] [repos#9] [repos#7]",
+     "AI求职工具也在开源化：freehire搜索引擎、ai-job-search框架以及Dev.to上相关项目展示，助力个人职业创新 [repos#5] [repos#3] [devto#10]"
     ],
-    "headline": "开源 AI 代理与自托管工具爆发，助力自动化与专用模型落地"
+    "headline": "DeepSeek开源推理引擎发布，模型免费可用，却被美联邦禁用"
    }
   },
-  "hash": "8be9fb621ffc9340"
+  "hash": "3772a09a0bf1b9da"
  }
 }

@@ -4330,6 +4330,20 @@
   },
   "hash": "7205a01e88151892"
  },
+ "devto:4880310": {
+  "copy": {
+   "zh": {
+    "blurb": "DEV 编辑团队本周挑选了 7 篇最受欢迎的技术文章，涵盖多领域话题，为读者提供深度洞察与实用技巧。",
+    "points": [
+     "编辑团队精选本周最热的 7 篇 DEV 帖子",
+     "覆盖编程、AI、产品等多个技术领域",
+     "获得 40 次互动和 10 条评论"
+    ],
+    "title": "本周 DEV 精选 7 篇文章"
+   }
+  },
+  "hash": "f893990c3b18445a"
+ },
  "devto:4880848": {
   "copy": {
    "zh": {
@@ -4370,6 +4384,215 @@
    }
   },
   "hash": "ccf57c56d9ba1d48"
+ },
+ "devto:4881322": {
+  "copy": {
+   "zh": {
+    "blurb": "standup‑sloth 使用本地大模型根据 Git 日志草拟站会内容，随后进行引用检查，确保信息来源可靠，适合隐私敏感环境。",
+    "points": [
+     "本地运行 LLM，保护代码隐私",
+     "自动从提交记录生成站会稿件",
+     "引用校验防止信息失真"
+    ],
+    "title": "standup‑sloth：本地 LLM 自动生成站会汇报并校验引用"
+   }
+  },
+  "hash": "7fc8fac4d882de75"
+ },
+ "devto:4883252": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了利用 AI 编码代理在 GitLab 上提交代码并实现每次推送自动审查批准的实践经验。",
+    "points": [
+     "AI 编码代理自动生成并提交合并请求",
+     "实现推送后自动审查并批准",
+     "文章获得 9 次互动和 4 条评论"
+    ],
+    "title": "使用编码代理为 GitLab 贡献代码并自动批准推送"
+   }
+  },
+  "hash": "babd500cd118254c"
+ },
+ "devto:4883432": {
+  "copy": {
+   "zh": {
+    "blurb": "评测 Omarchy 在自托管工作流中的表现，展示了基于 Nix 的声明式桌面配置、自动化部署优势以及在学习曲线和兼容性上的挑战。",
+    "title": "Omarchy：Nix 驱动桌面自动化的实用评测"
+   }
+  },
+  "hash": "d105348ecdf919a9"
+ },
+ "devto:4883606": {
+  "copy": {
+   "zh": {
+    "blurb": "RepoDNA 更新至 1.4.2，强化命令行安全、提升归档防篡改机制，并提供 Windows 可执行包，提升开发者使用体验。",
+    "title": "RepoDNA v1.4.2：CLI 加固、归档安全与 Windows 打包"
+   }
+  },
+  "hash": "335a83caf18d38cd"
+ },
+ "devto:4883989": {
+  "copy": {
+   "zh": {
+    "blurb": "展示 AI 代理在移动应用模拟器上的自动化测试过程，记录工具调用和截图，以便事后分析和调试。",
+    "title": "观看 AI 代理测试移动应用"
+   }
+  },
+  "hash": "a98f388427fdd58a"
+ },
+ "devto:4884010": {
+  "copy": {
+   "zh": {
+    "blurb": "这是 Hacktoberfest 开源 AI 挑战第 3 周 “慢而稳” 的参赛作品，围绕低速稳健的 AI 开发方式进行分享。",
+    "title": "别叫醒树懒"
+   }
+  },
+  "hash": "375bd88784ebfd23"
+ },
+ "devto:4884257": {
+  "copy": {
+   "zh": {
+    "blurb": "项目提供一个开源的 MCP 服务器，统一接入 11 个公开数据源（公司背景、财报等），让 LLM 代理能够通过统一 API 检索并使用这些信息。",
+    "title": "通过单一 MCP 服务器向 LLM 代理公开 11 个数据源"
+   }
+  },
+  "hash": "f66a51b4185427a6"
+ },
+ "devto:4884338": {
+  "copy": {
+   "zh": {
+    "blurb": "Clutter Sloth 是一个本地优先的下载整理工具，适用于 International Sloth Day，旨在自动归类并延迟不必要的下载。",
+    "points": [
+     "基于本地文件系统元数据进行排序。",
+     "可配置延迟下载策略，减少网络占用。"
+    ],
+    "title": "Clutter Sloth：懒人本地优先下载排序器"
+   }
+  },
+  "hash": "ee97c5a3569bd70b"
+ },
+ "devto:4884344": {
+  "copy": {
+   "zh": {
+    "blurb": "Sloth Mode 是一款开源权重的 AI 系统，能够自动执行日常事务，并配备日志功能，可在需要时撤销已完成的操作，适用于慢速稳健的工作流。",
+    "points": [
+     "使用开源模型，实现本地化任务自动化",
+     "内置可逆日志，支持事务回滚",
+     "设计为低资源消耗，适合慢速持续运行"
+    ],
+    "title": "Sloth Mode：开源权重 AI 自动完成事务并可撤销"
+   }
+  },
+  "hash": "0ab6c64eaef9671c"
+ },
+ "devto:4884386": {
+  "copy": {
+   "zh": {
+    "blurb": "Rent Sloth 利用本地部署的 Gemma 4 模型夜间读取租金提醒，并通过简洁代码维护账本，参加 Hacktoberfest AI 挑战。",
+    "points": [
+     "完全离线运行，保障隐私。",
+     "通过自然语言解析租金信息并自动记账。"
+    ],
+    "title": "Rent Sloth：本地 Gemma 4 租金提醒自动化工具"
+   }
+  },
+  "hash": "6f7b4b47610efcfc"
+ },
+ "devto:4884398": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目提供面向 VirtusLab Scala 生态的脚手架工具，降低新项目入门门槛，借鉴 Laravel、Rails 等框架的约定优于配置理念。",
+    "points": [
+     "一键生成完整的 Scala 项目结构和配置。",
+     "包含常用依赖和示例代码，缩短学习曲线。"
+    ],
+    "title": "VirtusLab Scala 堆栈的手工式脚手架生成器"
+   }
+  },
+  "hash": "45d40d9a312cb278"
+ },
+ "devto:4884432": {
+  "copy": {
+   "zh": {
+    "blurb": "GridMind 将电子表格的每个单元格变成独立的研究智能体，利用 Groq 免费额度（30 次/分钟）和 Tavily 积分，实现大规模并行查询，成本几乎为零。",
+    "points": [
+     "电子表格即界面，每格即智能体",
+     "通过 Groq 免费速率限制和 Tavily API 实现 100+ 智能体",
+     "支持即时多任务研究与数据聚合"
+    ],
+    "title": "在免费层运行 100 个智能体：Groq 30 RPM 与 Tavily 积分"
+   }
+  },
+  "hash": "a7635553eb156c70"
+ },
+ "devto:4884455": {
+  "copy": {
+   "zh": {
+    "blurb": "Yatta JS 1.0 采用单进程架构，将原本分散的十个后端引擎统一运行在 Bun 环境中，实现更低的资源占用和更高的响应速度。",
+    "points": [
+     "单进程设计，摆脱多进程调度开销",
+     "基于 Bun 高性能运行时",
+     "将十个后端引擎功能合并，保持兼容性"
+    ],
+    "title": "Yatta JS 单进程后端：把十个引擎合并到一个 Bun 进程"
+   }
+  },
+  "hash": "300380c21b425521"
+ },
+ "devto:4884476": {
+  "copy": {
+   "zh": {
+    "blurb": "ParchiPay 结合开源模型 Gemma 和 LangGraph 工作流，将用户手写的 Parchis 游戏记录快速转化为结构化的付款发票，实现懒人式自动记账。",
+    "points": [
+     "使用 Gemma 进行手写文字识别",
+     "LangGraph 编排从识别到发票生成的完整流程",
+     "一键生成可支付的电子发票，降低手工记账成本"
+    ],
+    "title": "ParchiPay：用 Gemma 与 LangGraph 将手绘 “Parchis” 直接生成付款发票"
+   }
+  },
+  "hash": "cb492ddb6f5558ab"
+ },
+ "devto:4884521": {
+  "copy": {
+   "zh": {
+    "blurb": "Kryzz AI 是一款开源的 Android 聊天与任务代理应用，所有文件先以 Markdown 格式生成，再转换为 Word、Excel、PDF 等常用格式，显著简化多格式输出的复杂度。",
+    "points": [
+     "全部文件先生成 Markdown，统一编辑模型",
+     "内置转换工具，支持 DOCX、XLSX、PDF 输出",
+     "MIT 许可证，免费开源，适配 Android 端"
+    ],
+    "title": "Kryzz AI：Android 代理先写 Markdown 再转 DOCX/XLSX/PDF 的新方案"
+   }
+  },
+  "hash": "f0779b9d75c8923d"
+ },
+ "devto:4884567": {
+  "copy": {
+   "zh": {
+    "blurb": "在 RTX PRO 6000 96 GB GPU 上运行 264.5 GB 权重的 DeepSeek‑V4.1‑Flash，核心在于模型分片、CPU‑GPU 内存交叉以及 batch‑size 调整，三项设置直接影响每秒吞吐。",
+    "points": [
+     "将模型权重分片至 CPU 与 GPU 双向加载",
+     "调整 batch‑size 与并行线程数平衡显存与速度",
+     "使用显存优化选项，可将单用户吞吐提升至 63 tok/s，四用户 128 tok/s"
+    ],
+    "title": "DeepSeek‑V4.1‑Flash (763B) 单卡运行指南：决定速度的三大设置"
+   }
+  },
+  "hash": "3c530807f6fe968c"
+ },
+ "devto:4884574": {
+  "copy": {
+   "zh": {
+    "blurb": "Mistral 发布的 Timestral 包含四个开源权重模型，在三个基准上领先 0.003 MASE，实验显示大模型在短上下文下不如简单基线。",
+    "points": [
+     "209M 参数模型在一年上下文下输给“重复昨天”基线。",
+     "20 MB 小模型在三年上下文中表现与 837 MB 大模型相当。"
+    ],
+    "title": "Mistral Timestral：四款领先的时间序列模型"
+   }
+  },
+  "hash": "0776467b289a693d"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -4710,6 +4933,15 @@
   },
   "hash": "47c626d1cf47b66f"
  },
+ "gh:croffasia/itsaplan": {
+  "copy": {
+   "zh": {
+    "blurb": "itsaplan 是一套开源的 TypeScript 项目管理系统，支持团队与 AI 代理协同规划、跟踪任务，提供 Linear 与 Plane 的自托管替代方案。",
+    "title": "itsaplan：自托管的 Linear/Plane 替代品"
+   }
+  },
+  "hash": "cb1a7012a5448a51"
+ },
  "gh:cursortouch/windows-mcp": {
   "copy": {
    "zh": {
@@ -4801,17 +5033,11 @@
  "gh:deusdata/codebase-memory-mcp": {
   "copy": {
    "zh": {
-    "blurb": "将代码库索引为持久知识图谱，支持 158 种语言，索引毫秒级、查询子毫秒，令 token 使用量降低 99%。单一静态二进制，无依赖。",
-    "points": [
-     "持久化知识图谱，支持 158 语言",
-     "毫秒级索引、子毫秒查询",
-     "单文件二进制，零运行时依赖"
-    ],
-    "title": "Codebase Memory MCP：高性能代码情报服务器",
-    "why": "显著提升 AI 代码助手检索效率，降低成本。"
+    "blurb": "本地代码情报平台，为开发者和 AI 智能体提供代码、文档与基础设施的持久图谱，配备 CBM Lens、MCP 工具、智能体集成及变更感知的测试选择功能。",
+    "title": "DeusData/codebase-memory-mcp"
    }
   },
-  "hash": "9245cc163ad34b32"
+  "hash": "bbb4c96d86a32f25"
  },
  "gh:diegosouzapw/omniroute": {
   "copy": {
@@ -5233,6 +5459,19 @@
   },
   "hash": "24d9865fac5d11b8"
  },
+ "gh:kkkkhazix/aihot": {
+  "copy": {
+   "zh": {
+    "blurb": "AIHOT 是一个用 TypeScript 编写的热点抓取与日报生成框架，支持替换信息源和精选标准，帮助用户搭建专属行业热点站。",
+    "points": [
+     "支持自行定义信息源和筛选规则。",
+     "自动生成每日热点新闻摘要。"
+    ],
+    "title": "AIHOT：可自定义行业热点日报框架"
+   }
+  },
+  "hash": "d5e8b5c9ab47abd6"
+ },
  "gh:koala73/worldmonitor": {
   "copy": {
    "zh": {
@@ -5491,6 +5730,15 @@
    }
   },
   "hash": "d1a03dc9eee2d7f8"
+ },
+ "gh:mudler/localai": {
+  "copy": {
+   "zh": {
+    "blurb": "LocalAI 是开源 AI 引擎，可在任意硬件上运行所有模型（大语言模型、视觉、语音、图像、视频等），无需 GPU。",
+    "title": "mudler/LocalAI"
+   }
+  },
+  "hash": "a7547c6558fffdc9"
  },
  "gh:multica-ai/andrej-karpathy-skills": {
   "copy": {
@@ -5819,17 +6067,11 @@
  "gh:sickn33/agentic-awesome-skills": {
   "copy": {
    "zh": {
-    "blurb": "AAS Core 是本地化、以代理为先的控制平面，实现完整的技能目录发现、代理自主选择、堆栈验证与规划，支撑 2400+ 代理技能，提供 CLI、本地 MCP、目录、插件及 Workbench。",
-    "points": [
-     "整合 2400+ 代理技能，统一目录与发现",
-     "提供 CLI、本地 MCP、插件与 Workbench，实现端到端规划",
-     "支持代理自有的技能选择与堆栈验证，提升可靠性"
-    ],
-    "title": "AAS Core：本地化代理优先控制平面",
-    "why": "帮助开发者在本地高效管理和组合代理技能，提升 AI 工作流的可控性与可扩展性。"
+    "blurb": "AAS Core 是本地、以智能体为中心的控制平面，提供目录发现、智能体自主选择、堆栈验证与规划，支撑 2600+ 智能体技能，包含 CLI、MCP、本地目录、插件和工作台。",
+    "title": "sickn33/agentic-awesome-skills"
    }
   },
-  "hash": "d1ad1348ad03f7d2"
+  "hash": "601a31f261b61f75"
  },
  "gh:skyhook-io/radar": {
   "copy": {
@@ -6076,17 +6318,11 @@
  "gh:tinyhumansai/openhuman": {
   "copy": {
    "zh": {
-    "blurb": "基于 Rust 的高效代理框架，提供极低成本、极高速度的 AI 代理调度与执行环境。",
-    "points": [
-     "Rust 高性能实现",
-     "成本与延迟均为业界最低",
-     "易于扩展多种 AI 代理"
-    ],
-    "title": "OpenHuman：最快、最省钱的开源代理平台",
-    "why": "降低大规模代理部署成本，加速研发迭代。"
+    "blurb": "最快、最廉价、最高效的开源智能体框架，可在 $10 的 VPS 上运行超过 500 个智能体。",
+    "title": "tinyhumansai/openhuman"
    }
   },
-  "hash": "09a103f16e036f64"
+  "hash": "97cd5755c18aa391"
  },
  "gh:topoteretes/cognee": {
   "copy": {
@@ -6637,6 +6873,20 @@
    }
   },
   "hash": "c4a35ebfe6b7f394"
+ },
+ "hf:openmoss-team/moss-image-sft": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenMOSS 团队在 Hugging Face 发布了 MOSS-Image-SFT，针对文本指令进行图像生成微调的模型，已获得社区广泛关注。",
+    "points": [
+     "基于 MOSS 大模型进行图像指令微调",
+     "支持多样化的文本到图像生成场景",
+     "在 Hugging Face 获得 483 点赞，热度 84.4"
+    ],
+    "title": "MOSS-Image-SFT 文本到图像模型"
+   }
+  },
+  "hash": "9464fd247499250b"
  },
  "hf:qwen/qwen-image-2.1-turbo": {
   "copy": {
@@ -8849,6 +9099,20 @@
   },
   "hash": "32cdc4d8d414ca2d"
  },
+ "hn:50159245": {
+  "copy": {
+   "zh": {
+    "blurb": "ProjectDiscovery 研究表明，对机器学习模型进行裁剪（abliteration）会暴露新的攻击面，攻击者可利用此类弱点进行渗透。",
+    "points": [
+     "模型裁剪会泄露隐藏的漏洞",
+     "攻击者可利用削减后的模型进行利用",
+     "提出硬化模型与审计建议"
+    ],
+    "title": "削减模型导致的安全风险研究"
+   }
+  },
+  "hash": "5084b2c6629f1ce6"
+ },
  "hn:50159341": {
   "copy": {
    "zh": {
@@ -8918,6 +9182,80 @@
    }
   },
   "hash": "bf983cefa58374a6"
+ },
+ "hn:50163277": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepSeek 将其高效的 LLM 推理引擎 DeepInfer 完全开源，代码已发布在 GitHub，受到 Hacker News 社区热烈关注。",
+    "points": [
+     "提供高性能的 LLM 推理实现",
+     "完整开源，可直接在 GitHub 获取代码",
+     "在 Hacker News 上获得 1759 点热度"
+    ],
+    "title": "DeepSeek 开源推理引擎 DeepInfer"
+   }
+  },
+  "hash": "c3f790d7a0aa877e"
+ },
+ "hn:50165801": {
+  "copy": {
+   "zh": {
+    "blurb": "作者演示了通过发布伪造统计数据让大语言模型在训练时引用这些信息，揭示了数据质量和引用风险。",
+    "points": [
+     "通过制造假数据让 LLM 采纳并引用",
+     "暴露训练数据质量风险和传播问题",
+     "该帖在 Hacker News 获得 177 分和 100 条评论"
+    ],
+    "title": "发布虚假统计数据，导致在大模型中被引用"
+   }
+  },
+  "hash": "d33437353581b88f"
+ },
+ "hn:50167286": {
+  "copy": {
+   "zh": {
+    "blurb": "VoidAccess 将暗网搜索、噪音过滤、NSFW 内容剔除以及关系图生成全链路自动化，提供可媲美商业工具的开源情报引擎。",
+    "points": [
+     "自动化 DarkINT 流程，从查询到图谱构建",
+     "内置噪声与不安全内容过滤",
+     "目标是超越付费情报产品的开源方案"
+    ],
+    "title": "VoidAccess – 开源暗网情报收集平台"
+   }
+  },
+  "hash": "2367f5256179ade0"
+ },
+ "hn:50167604": {
+  "copy": {
+   "zh": {
+    "blurb": "Penmentor 将手写数学稿件通过 OCR 转换后交给 Claude，自动生成教师式批注与解答提示，帮助学习者即时获得反馈。",
+    "points": [
+     "手写输入经 OCR 解析后送入 Claude",
+     "Claude 自动生成批注与解题思路",
+     "适用于数学学习和作业点评"
+    ],
+    "title": "Penmentor – Claude 为手写数学批注"
+   }
+  },
+  "hash": "137442ac8044b2e6"
+ },
+ "hn:50167678": {
+  "copy": {
+   "zh": {
+    "blurb": "LongTerMemory 是一款基于检索增强生成（RAG）的学习平台，帮助用户构建长期记忆库并通过 AI 快速检索相关知识。",
+    "title": "LongTerMemory：帮助学习的 AI‑RAG 工具"
+   }
+  },
+  "hash": "725b895ccd496fed"
+ },
+ "hn:50168300": {
+  "copy": {
+   "zh": {
+    "blurb": "一个开源工具，可自动归档 Claude Code 与 Codex 的编码会话，支持本地交接或通过 S3/R2 存储，实现跨设备会话恢复并统计使用情况。",
+    "title": "Agent Archive：Claude Code 与 Codex 会话交接与备份"
+   }
+  },
+  "hash": "d48cce2a7bf79e88"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -9023,6 +9361,19 @@
    }
   },
   "hash": "af91a673c02eb744"
+ },
+ "lobsters:42zgmq": {
+  "copy": {
+   "zh": {
+    "blurb": "Jepsen 对 Orkes Conductor 5.3.2 进行的容错一致性测试，揭示了其在分布式事务中的行为和潜在风险。",
+    "points": [
+     "发现特定网络分区场景下的可用性下降。",
+     "验证了系统在强一致性模型下的事务完整性。"
+    ],
+    "title": "Jepsen：Orkes Conductor 5.3.2 分析"
+   }
+  },
+  "hash": "6e85e9ef4b125bf8"
  },
  "lobsters:46dcms": {
   "copy": {
@@ -9226,6 +9577,20 @@
   },
   "hash": "752bd391945fe7ef"
  },
+ "lobsters:7d1swo": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享使用 NixOS 的体验，强调声明式配置、可复现构建以及系统回滚，使得系统管理更可靠、降低出错恐惧。",
+    "points": [
+     "声明式配置确保环境一致性",
+     "可复现的构建与原子化升级",
+     "简易回滚降低系统崩溃风险"
+    ],
+    "title": "NixOS 让我更有安全感"
+   }
+  },
+  "hash": "9d92379cd913fc39"
+ },
  "lobsters:7mllxi": {
   "copy": {
    "zh": {
@@ -9333,11 +9698,11 @@
  "lobsters:9ww9by": {
   "copy": {
    "zh": {
-    "blurb": "本文介绍在 2021 年实现的安全渲染不可信 HTML 邮件的方案，避免 XSS 等风险，适用于邮件客户端。",
+    "blurb": "本文介绍了在不信任的 HTML 邮件中安全渲染的方案，使用沙箱、内容安全策略和过滤器，防止 XSS 与恶意脚本执行。",
     "title": "安全渲染不可信 HTML 邮件（2021）"
    }
   },
-  "hash": "3abe6afd47187b9c"
+  "hash": "4847e54626e08096"
  },
  "lobsters:9xticb": {
   "copy": {
@@ -9561,6 +9926,15 @@
   },
   "hash": "34727039bff98cfc"
  },
+ "lobsters:d0bbhd": {
+  "copy": {
+   "zh": {
+    "blurb": "深度分析 FortiSIEM 的 gRPC 接口漏洞 CVE-2026-106173，攻击者可利用路径遍历写入任意文件，进而实现远程代码执行。",
+    "title": "CVE-2026-106173：FortiSIEM gRPC 路径遍历导致 RCE"
+   }
+  },
+  "hash": "ffc343b65a5b8961"
+ },
  "lobsters:d1c8zn": {
   "copy": {
    "zh": {
@@ -9574,6 +9948,20 @@
    }
   },
   "hash": "4f19f91cc7bb4d3a"
+ },
+ "lobsters:d7m5j1": {
+  "copy": {
+   "zh": {
+    "blurb": "教程展示如何借助 macOS Secure Enclave 与 Touch ID 将 SSH 私钥安全存储并通过指纹解锁，提高使用便利性与安全性。",
+    "points": [
+     "利用 Secure Enclave 将私钥绑定到 Touch ID",
+     "ssh‑add -K 实现指纹解锁",
+     "兼顾便利与本地密钥保护"
+    ],
+    "title": "在 macOS 上使用 Touch ID 配置 SSH 密钥"
+   }
+  },
+  "hash": "9b12f0e63bcb7578"
  },
  "lobsters:d9rpcl": {
   "copy": {
@@ -9817,6 +10205,15 @@
   },
   "hash": "4f4d8f6813e8b517"
  },
+ "lobsters:fonp7g": {
+  "copy": {
+   "zh": {
+    "blurb": "提出在结构体声明中加入类似 `read` 的修饰符，实现只读公共访问而禁止外部写入，简化 getter 的手写工作。",
+    "title": "公共与私有成员之间的中介方案"
+   }
+  },
+  "hash": "96a1ee27ac6cc240"
+ },
  "lobsters:fppgkl": {
   "copy": {
    "zh": {
@@ -9934,6 +10331,20 @@
    }
   },
   "hash": "634a54b29faa8fc0"
+ },
+ "lobsters:gqyvn5": {
+  "copy": {
+   "zh": {
+    "blurb": "Mozilla 发表安全公告，说明在 eMudhra 中间证书被泄露后，Firefox 已更新证书链并加强验证，以保护用户免受潜在攻击。",
+    "points": [
+     "撤销受影响的中间证书并发布新链",
+     "增强浏览器证书验证逻辑防止伪造",
+     "及时推送更新并发布安全公告"
+    ],
+    "title": "Firefox 在 eMudhra 中间证书泄露后采取的防护措施"
+   }
+  },
+  "hash": "d1f81b2770eb46ba"
  },
  "lobsters:gr0ptb": {
   "copy": {
@@ -10377,6 +10788,15 @@
   },
   "hash": "5561ddc01e36f8f2"
  },
+ "lobsters:mlblil": {
+  "copy": {
+   "zh": {
+    "blurb": "探讨在自主机器学习工程场景下，强大智能体所需的工具与框架规模与复杂度。",
+    "title": "强大智能体在自主机器学习工程中需要多少工具链？"
+   }
+  },
+  "hash": "15bd0661e78d0974"
+ },
  "lobsters:mldt0o": {
   "copy": {
    "zh": {
@@ -10399,6 +10819,15 @@
    }
   },
   "hash": "ad5c3c03eafd1ff3"
+ },
+ "lobsters:mngelc": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了如何用 SystemVerilog 从底层实现 VGA 控制器驱动，包括时序生成、像素缓冲和显示信号的详细代码示例。",
+    "title": "使用 SystemVerilog 编写 VGA 驱动"
+   }
+  },
+  "hash": "c5859c8f6254159b"
  },
  "lobsters:mp8qye": {
   "copy": {
@@ -10652,6 +11081,15 @@
    }
   },
   "hash": "4e89095c16298a10"
+ },
+ "lobsters:qflytl": {
+  "copy": {
+   "zh": {
+    "blurb": "该资源对 VT100 终端固件进行逐行注释，解释其内部 ROM 结构、指令集实现及历史兼容细节，适合研究旧式终端工作原理。",
+    "title": "注释版 VT100 固件（2022）"
+   }
+  },
+  "hash": "33a0a2d0b57bc59d"
  },
  "lobsters:qgvj4p": {
   "copy": {
