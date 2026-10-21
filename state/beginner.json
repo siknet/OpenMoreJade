@@ -122,7 +122,7 @@
    "sourceKey": "devto:4859436"
   },
   "discovery:devto:4878848": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:devto:4878848",
@@ -265,7 +265,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:comfy-org/comfyui": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:comfy-org/comfyui",
@@ -298,6 +298,38 @@
     }
    },
    "sourceKey": "gh:comfy-org/comfyui"
+  },
+  "discovery:gh:deepseek-ai/deepinfer": {
+   "observedAt": "2026-10-21T06:01:24.167Z",
+   "resource": {
+    "freshnessBasis": "repo-updated",
+    "id": "discovery:gh:deepseek-ai/deepinfer",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-21T04:55:44.000Z",
+    "summary": {
+     "en": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+     "zh": "DeepInfer 是 DeepSeek 官方发布的 Python 实现的高性能推理框架，已获 14833 星赞，支持大规模模型推理。"
+    },
+    "title": {
+     "en": "deepseek-ai/DeepInfer",
+     "zh": "deepseek-ai/DeepInfer 仓库"
+    },
+    "topics": [],
+    "type": "repo",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:deepseek-ai/deepinfer"
   },
   "discovery:gh:diegosouzapw/omniroute": {
    "observedAt": "2026-10-10T15:06:36.105Z",
@@ -416,7 +448,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -457,7 +489,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:hbai-ltd/toonflow-app": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:hbai-ltd/toonflow-app",
@@ -498,7 +530,7 @@
    "sourceKey": "gh:hbai-ltd/toonflow-app"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -793,7 +825,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -805,7 +837,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-20T15:47:12.000Z",
+    "sourceUpdatedAt": "2026-10-21T05:29:11.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
      "zh": "在本机运行的 AI 求职工具，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，开源可自行 Fork 使用。"
@@ -1012,7 +1044,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1024,7 +1056,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-20T16:42:31.000Z",
+    "sourceUpdatedAt": "2026-10-21T06:01:13.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1163,7 +1195,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:xerj-org/xerj": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:xerj-org/xerj",
@@ -1541,7 +1573,7 @@
    "sourceKey": "hn:50145715"
   },
   "discovery:hn:50167286": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50167286",
@@ -1574,7 +1606,7 @@
    "sourceKey": "hn:50167286"
   },
   "discovery:hn:50168300": {
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50168300",
@@ -6174,6 +6206,7 @@
   "https://github.com/danny-avila/librechat": "2026-10-06T09:37:13.355Z",
   "https://github.com/datalab-to/marker": "2026-10-06T09:37:13.355Z",
   "https://github.com/deepbeepmeep/wan2gp": "2026-10-06T09:37:13.355Z",
+  "https://github.com/deepseek-ai/deepinfer": "2026-10-21T06:01:24.167Z",
   "https://github.com/diegosouzapw/omniroute": "2026-10-07T18:56:50.962Z",
   "https://github.com/docling-project/docling": "2026-10-06T09:37:13.355Z",
   "https://github.com/farion1231/cc-switch": "2026-10-09T18:21:05.907Z",

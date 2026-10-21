@@ -4344,6 +4344,20 @@
   },
   "hash": "f893990c3b18445a"
  },
+ "devto:4880808": {
+  "copy": {
+   "zh": {
+    "blurb": "Rotifer 0.9.1 版本将基因 ID 改为由内容派生，而非手动输入的名称，采用 v2 前缀的全新标识方式，提高唯一性和可追溯性。",
+    "points": [
+     "基因 ID 自动从内容生成，降低冲突风险",
+     "采用 v2 前缀的命名规则，兼容旧版",
+     "针对 LAN P2P 节点优化，提升网络协同"
+    ],
+    "title": "Rotifer v0.9.1：基于内容的基因 ID（LAN P2P 节点）"
+   }
+  },
+  "hash": "107af99416617484"
+ },
  "devto:4880848": {
   "copy": {
    "zh": {
@@ -4593,6 +4607,107 @@
    }
   },
   "hash": "0776467b289a693d"
+ },
+ "devto:4885001": {
+  "copy": {
+   "zh": {
+    "blurb": "作者发布7B像素艺术游戏生成模型v5.1的微调经验：首次补丁导致性能下降，改用更少示例并将学习率减半后恢复并提升。",
+    "points": [
+     "过多训练样本会导致模型过拟合。",
+     "降低学习率可稳定微调过程。",
+     "项目现专注像素艺术生成，性能恢复并略有提升。"
+    ],
+    "title": "首次微调补丁导致模型退化，第二次通过更少样本和半学习率修复"
+   }
+  },
+  "hash": "00de45f5bbc2bfce"
+ },
+ "devto:4885617": {
+  "copy": {
+   "zh": {
+    "blurb": "本项目为 Hacktoberfest 开源 AI 挑战第3周提交，旨在让 AI 模型 Gemma 自动归档收据，用户可在后续自行处理。",
+    "title": "收据懒虫：让 Gemma 先处理，我稍后再看"
+   }
+  },
+  "hash": "7a7eae0092fcd6ea"
+ },
+ "devto:4885740": {
+  "copy": {
+   "zh": {
+    "blurb": "该作品在 Hacktoberfest 开源 AI 挑战第3周提交，利用手机感知烹饪锅发出的哨声，实现自动计数，减轻用户手动统计负担。",
+    "title": "我的手机帮我计数烹饪锅的哨声"
+   }
+  },
+  "hash": "d809c35746ee6dd7"
+ },
+ "devto:4885884": {
+  "copy": {
+   "zh": {
+    "blurb": "此项目为 Hacktoberfest 开源 AI 挑战第3周的提交，提供一个 Git Hook，能够追踪并提醒用户曾写过但已忘记的代码片段。",
+    "title": "代码似曾相识：记忆遗忘代码的 Git Hook"
+   }
+  },
+  "hash": "5641a4d06dd7e35c"
+ },
+ "devto:4885995": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第3周中提交，讲述 50 多个仓库因 Google Summer of Code 中断而下线，社区如何将 OWASP BLT 项目迁移并继续维护。",
+    "title": "GitHub 暗网后：OWASP BLT 的新归宿"
+   }
+  },
+  "hash": "833a2d2b3ab71a50"
+ },
+ "devto:4886019": {
+  "copy": {
+   "zh": {
+    "blurb": "该开源工具能够自动解析任意二进制文件并生成结构化的可读规格说明，提高逆向工程效率，但因揭露内部实现细节，可能不被大厂青睐。",
+    "points": [
+     "自动解析二进制生成结构化规格说明",
+     "支持多平台二进制，提升逆向效率",
+     "因揭露内部实现，可能不受大厂青睐"
+    ],
+    "title": "Reverse Engineer Anything：将二进制转为可读规范的开源工具"
+   }
+  },
+  "hash": "35890e537091f3f2"
+ },
+ "devto:4886142": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了个人的早间广播系统，利用手机、WhatsApp仪表盘和语音笔记实现每日7点自动推送。",
+    "points": [
+     "使用WhatsApp的仪表盘图像触发播放。",
+     "通过脚本自动发送语音笔记作为广播内容。",
+     "仅为个人使用，展示了低成本自动化创意。"
+    ],
+    "title": "我为自己打造了一个早间广播站（唯一听众）"
+   }
+  },
+  "hash": "c768d6bba60720a2"
+ },
+ "devto:4886267": {
+  "copy": {
+   "zh": {
+    "blurb": "该作品为 Hacktoberfest 开源 AI 挑战第3周提交，利用本地部署的 Gemma 模型自动解答哈萨克斯坦 114,000 名纳税人收到的税务信件。",
+    "title": "114,000 哈萨克人收到税务信件，Gemma 自动回复"
+   }
+  },
+  "hash": "1f05468213458fe4"
+ },
+ "devto:4886949": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了如何构建一个将 QuickBooks 财务数据（发票、未付账单等）映射到 AI 知识图谱的连接器，实现自然语言查询财务记录的能力。",
+    "points": [
+     "实现从 QuickBooks 拉取发票、账单等数据",
+     "将财务信息映射为知识图谱实体",
+     "展示使用 LLM 进行自然语言财务查询的示例"
+    ],
+    "title": "QuickBooks 连接器：用于 AI 知识图谱"
+   }
+  },
+  "hash": "9e14bf486480ab78"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -4936,8 +5051,13 @@
  "gh:croffasia/itsaplan": {
   "copy": {
    "zh": {
-    "blurb": "itsaplan 是一套开源的 TypeScript 项目管理系统，支持团队与 AI 代理协同规划、跟踪任务，提供 Linear 与 Plane 的自托管替代方案。",
-    "title": "itsaplan：自托管的 Linear/Plane 替代品"
+    "blurb": "itsaplan 是一款开源自托管的项目管理与问题跟踪工具，旨在替代 Linear 与 Plane，支持团队与 AI 代理协同规划和交付产品。",
+    "points": [
+     "支持 TypeScript，提供完整的看板和工单系统",
+     "自托管可完全控制数据，适合企业内部使用",
+     "AI 代理可自动生成任务和建议，提高效率"
+    ],
+    "title": "croffasia/itsaplan"
    }
   },
   "hash": "cb1a7012a5448a51"
@@ -5014,6 +5134,20 @@
    }
   },
   "hash": "aaf779d2a201d67e"
+ },
+ "gh:deepseek-ai/deepinfer": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepInfer 是 DeepSeek 官方发布的 Python 实现的高性能推理框架，已获 14833 星赞，支持大规模模型推理。",
+    "points": [
+     "Python 编写、易于集成",
+     "大规模推理支持，性能领先",
+     "社区活跃，星标超 1.4 万"
+    ],
+    "title": "deepseek-ai/DeepInfer 仓库"
+   }
+  },
+  "hash": "b6cb77fd904953e7"
  },
  "gh:deepseek-ai/deepseek-harness": {
   "copy": {
@@ -5171,6 +5305,20 @@
    }
   },
   "hash": "c3a2ea859c7cde6d"
+ },
+ "gh:gathin23/cleanyourtv": {
+  "copy": {
+   "zh": {
+    "blurb": "cleanyourtv 是一个通过 Wi‑Fi 对 Android 与 Google TV 进行去膨胀的项目，可实现类似 Apple TV 的简洁主界面。",
+    "points": [
+     "无线去除预装软件与系统膨胀",
+     "轻量化 Android/Google TV 体验",
+     "提供 Apple TV 风格的首页布局"
+    ],
+    "title": "Gathin23/cleanyourtv：Android/Google TV 去膨胀工具"
+   }
+  },
+  "hash": "75f6a58e2a1c07b2"
  },
  "gh:gentleman-programming/gentle-ai": {
   "copy": {
@@ -6437,6 +6585,15 @@
   },
   "hash": "2757d9e31a7e1ed1"
  },
+ "gh:vllm-project/vllm": {
+  "copy": {
+   "zh": {
+    "blurb": "vLLM 是一个高吞吐量、内存高效的 LLM 推理与服务引擎，使用 Python 实现，支持大规模模型部署与并行推理。",
+    "title": "vllm-project/vllm"
+   }
+  },
+  "hash": "ce7066d026cc3176"
+ },
  "gh:vxcontrol/pentagi": {
   "copy": {
    "zh": {
@@ -6873,6 +7030,20 @@
    }
   },
   "hash": "c4a35ebfe6b7f394"
+ },
+ "hf:openmoss-team/moss-image-base": {
+  "copy": {
+   "zh": {
+    "blurb": "MOSS-Image-Base 是 OpenMOSS 团队发布的文本到图像生成模型，基于扩散技术，能够根据提示词生成高质量图片，在 Hugging Face 社区获 439 赞，热度 83.5，排名第2。",
+    "points": [
+     "基于扩散模型实现文本到图像生成",
+     "支持多样化提示词，输出高质量图片",
+     "社区热度高，点赞数 439，热度 83.5"
+    ],
+    "title": "MOSS-Image-Base 文本到图像模型"
+   }
+  },
+  "hash": "a054f290b0af736c"
  },
  "hf:openmoss-team/moss-image-sft": {
   "copy": {
@@ -9186,16 +9357,16 @@
  "hn:50163277": {
   "copy": {
    "zh": {
-    "blurb": "DeepSeek 将其高效的 LLM 推理引擎 DeepInfer 完全开源，代码已发布在 GitHub，受到 Hacker News 社区热烈关注。",
+    "blurb": "DeepInfer 是一个面向 DeepSeek 模型的高性能、大规模推理框架，提供高效的资源调度与加速能力。",
     "points": [
-     "提供高性能的 LLM 推理实现",
-     "完整开源，可直接在 GitHub 获取代码",
-     "在 Hacker News 上获得 1759 点热度"
+     "实现对 DeepSeek 模型的高吞吐推理",
+     "支持大规模部署与分布式加速",
+     "针对 GPU/TPU 进行深度优化"
     ],
-    "title": "DeepSeek 开源推理引擎 DeepInfer"
+    "title": "DeepInfer：DeepSeek模型高性能推理框架"
    }
   },
-  "hash": "c3f790d7a0aa877e"
+  "hash": "7da11bfb8ab6906f"
  },
  "hn:50165801": {
   "copy": {
@@ -9256,6 +9427,48 @@
    }
   },
   "hash": "d48cce2a7bf79e88"
+ },
+ "hn:50169053": {
+  "copy": {
+   "zh": {
+    "blurb": "Google 将 TorchTPU 项目开源，为 PyTorch 提供原生的 TPU 后端，使得在 TPU 上的模型训练与推理更为便捷。",
+    "points": [
+     "原生 PyTorch 与 TPU 的深度集成",
+     "简化 TPU 上的模型开发流程",
+     "开源代码托管于 github.com/google-pytorch/torch_tpu"
+    ],
+    "title": "Google 开源 TorchTPU：原生 PyTorch TPU 后端"
+   }
+  },
+  "hash": "232236cb563f9b64"
+ },
+ "hn:50173472": {
+  "copy": {
+   "zh": {
+    "blurb": "AHP Matrix 是一个本地运行的开源 Analytic Hierarchy Process（层次分析法）工具，帮助用户构建层次结构、计算权重并做出决策，代码托管在 GitHub。",
+    "points": [
+     "支持层次结构建模与权重计算",
+     "提供交互式 UI，便于本地使用",
+     "完全开源，可自定义评估指标"
+    ],
+    "title": "AHP Matrix 开源层次分析决策工具"
+   }
+  },
+  "hash": "3460b7cc2412f049"
+ },
+ "hn:50176178": {
+  "copy": {
+   "zh": {
+    "blurb": "Inca 是一款免费、开源的 3D 应用，功能与 Maya 2020 类似，提供完整的建模、渲染和动画工具链，支持多平台并可本地使用。",
+    "points": [
+     "提供完整的建模、渲染与动画工具链",
+     "兼容 Maya 工作流，支持多种文件格式",
+     "社区驱动，免费跨平台使用"
+    ],
+    "title": "Inca——免费开源的 3D 软件，类似 Maya 2020"
+   }
+  },
+  "hash": "8f3de9282d837b01"
  },
  "lobsters:0aocct": {
   "copy": {
@@ -9563,6 +9776,20 @@
   },
   "hash": "ad71002906bb8a08"
  },
+ "lobsters:73ozwc": {
+  "copy": {
+   "zh": {
+    "blurb": "在Lobsters社区发起的纽约市线下聚会，计划于10月28日下午在布赖恩特公园或Borough Hall附近举行，邀请成员自行报名。",
+    "points": [
+     "时间：10月28日，约下午5:30开始。",
+     "初步场地建议：Maman Café或布赖恩特公园。",
+     "请私信组织者获取联系方式或提出更好地点。"
+    ],
+    "title": "Lobsters纽约市聚会（10月28日）"
+   }
+  },
+  "hash": "57e200a7c9104a01"
+ },
  "lobsters:73ssw1": {
   "copy": {
    "zh": {
@@ -9655,6 +9882,20 @@
   },
   "hash": "14832afe3ccaaa0c"
  },
+ "lobsters:9h14un": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在博客分享了如何通过举报和技术手段，使超过300个Tor出口节点被Tor网络移除，阐述了检测、提交和后续影响。",
+    "points": [
+     "大规模节点清理提升网络安全。",
+     "采用社区报告和自动化脚本定位可疑节点。",
+     "移除后观察到流量路由和可用性变化。"
+    ],
+    "title": "我如何让300多个Tor出口节点被移除"
+   }
+  },
+  "hash": "e387e31b264339da"
+ },
  "lobsters:9lqyul": {
   "copy": {
    "zh": {
@@ -9681,6 +9922,20 @@
    }
   },
   "hash": "303313a3acd83a1a"
+ },
+ "lobsters:9u6gm0": {
+  "copy": {
+   "zh": {
+    "blurb": "微软老新事博客解释了在x86上使用ud2指令而非int 6的原因，阐明两者在异常触发和调试中的不同作用。",
+    "points": [
+     "ud2触发Invalid Opcode异常，适用于检测未实现代码。",
+     "int 6产生调试中断，主要用于调试器交互。",
+     "选择ud2可避免与调试器冲突，提升可靠性。"
+    ],
+    "title": "为什么需要ud2指令，而不是直接使用int 6"
+   }
+  },
+  "hash": "08b76e7a296ab5db"
  },
  "lobsters:9wcfld": {
   "copy": {
@@ -10005,6 +10260,20 @@
   },
   "hash": "da1a37df5a996459"
  },
+ "lobsters:dlbufy": {
+  "copy": {
+   "zh": {
+    "blurb": "Mastodon 5.0 版本发布，本文从分布式内容投递、内容审核、UI 可访问性和 ActivityPub 兼容性等方面对新特性进行详细介绍。",
+    "points": [
+     "引入分布式内容投递与改进的内容审核机制",
+     "提升 UI 可访问性与移动端使用体验",
+     "加强对 ActivityPub 标准的兼容性"
+    ],
+    "title": "Mastodon 5.0 深度解析"
+   }
+  },
+  "hash": "954ae9447745e4bf"
+ },
  "lobsters:dodzdb": {
   "copy": {
    "zh": {
@@ -10122,6 +10391,20 @@
    }
   },
   "hash": "aadf41497b0c726d"
+ },
+ "lobsters:ekxoyt": {
+  "copy": {
+   "zh": {
+    "blurb": "PHP 官方公布了本次关键安全发行版，修复多项严重漏洞，建议用户尽快升级以确保系统安全。",
+    "points": [
+     "修复多项高危安全漏洞",
+     "提升 PHP 运行时的安全防护",
+     "强烈建议所有部署立即升级"
+    ],
+    "title": "即将发布的关键 PHP 安全更新"
+   }
+  },
+  "hash": "9f1878d583cf3e09"
  },
  "lobsters:enjlpn": {
   "copy": {
@@ -10823,8 +11106,13 @@
  "lobsters:mngelc": {
   "copy": {
    "zh": {
-    "blurb": "文章展示了如何用 SystemVerilog 从底层实现 VGA 控制器驱动，包括时序生成、像素缓冲和显示信号的详细代码示例。",
-    "title": "使用 SystemVerilog 编写 VGA 驱动"
+    "blurb": "在 Lobsters 上分享的文章展示了如何用 SystemVerilog 从底层构建 VGA 驱动，适用于 FPGA 开发者。",
+    "points": [
+     "底层硬件描述语言实现 VGA 控制",
+     "详细的时序与信号设计",
+     "可直接在 FPGA 上部署验证"
+    ],
+    "title": "使用 SystemVerilog 实现 VGA 驱动"
    }
   },
   "hash": "c5859c8f6254159b"
@@ -10885,6 +11173,20 @@
   },
   "hash": "57c3f990d9121438"
  },
+ "lobsters:nhiewb": {
+  "copy": {
+   "zh": {
+    "blurb": "EDG 项目已在 edgcpp.org 开源，提供高性能 C++ 图数据处理库，支持大规模图计算和查询。",
+    "points": [
+     "代码已全线开放，开发者可自行部署",
+     "采用模块化设计，便于扩展和集成",
+     "社区活跃，排名靠前，热度指数34.5"
+    ],
+    "title": "EDG 开源发布"
+   }
+  },
+  "hash": "71da58c7ac256927"
+ },
  "lobsters:nne5uh": {
   "copy": {
    "zh": {
@@ -10944,6 +11246,20 @@
    }
   },
   "hash": "cae80c520e7a97f3"
+ },
+ "lobsters:nryxzd": {
+  "copy": {
+   "zh": {
+    "blurb": "作者公开了curl库中若干轻微漏洞的细节，解释了其成因、可能的利用方式以及已提交的补丁。",
+    "points": [
+     "漏洞涉及请求头解析和TLS设置。",
+     "影响范围有限，但可导致服务异常。",
+     "已在最新curl版本中修复，建议尽快升级。"
+    ],
+    "title": "公开披露轻微的curl漏洞"
+   }
+  },
+  "hash": "95fa8cd5569d6c72"
  },
  "lobsters:nsmm3j": {
   "copy": {
@@ -11277,6 +11593,20 @@
    }
   },
   "hash": "2656b030f706ec2e"
+ },
+ "lobsters:staj2z": {
+  "copy": {
+   "zh": {
+    "blurb": "该视频深入探讨 Symbolics Lisp 机器的历史与技术细节，展示其硬件架构、运行时系统及对现代编程语言的影响。",
+    "points": [
+     "回顾 Lisp 机器的硬件设计和微代码实现",
+     "分析 Symbolics 对函数式编程的贡献",
+     "提供罕见的内部演示和历史资料"
+    ],
+    "title": "Genera for the Initiated：Symbolics Lisp 机器内部揭秘"
+   }
+  },
+  "hash": "fc57bae92ba0c0b8"
  },
  "lobsters:stmtap": {
   "copy": {
@@ -11687,6 +12017,20 @@
    }
   },
   "hash": "a5a1b40f920bd311"
+ },
+ "lobsters:x7codz": {
+  "copy": {
+   "zh": {
+    "blurb": "PingCAP 发布安全更新，披露其云服务出现未授权访问风险，相关资源可能被外部获取，已采取紧急修复措施并建议用户检查权限。",
+    "points": [
+     "发现云资源访问控制漏洞，可能导致数据泄露",
+     "紧急修补并加强身份验证机制",
+     "建议用户审计权限并更新凭证"
+    ],
+    "title": "PingCAP 云资源未授权访问安全通报"
+   }
+  },
+  "hash": "a42b13113516a881"
  },
  "lobsters:x9fqa4": {
   "copy": {

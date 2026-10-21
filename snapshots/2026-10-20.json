@@ -11287,21 +11287,21 @@
    "category": "policy",
    "key": "hn:50154244",
    "metrics": {
-    "comments": 417,
+    "comments": 511,
     "frontPage": 0,
-    "points": 500
+    "points": 563
    },
    "news": {
     "author": "cmrdporcupine",
-    "comments": 417,
+    "comments": 511,
     "createdAt": "2026-10-19T16:16:46.000Z",
     "domain": "reuters.com",
     "hnId": 50154244,
     "hnUrl": "https://news.ycombinator.com/item?id=50154244",
-    "points": 500,
-    "showRank": 13
+    "points": 563,
+    "showRank": 11
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T16:16:46.000Z",
    "refs": [
     "url:reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19"
@@ -11365,21 +11365,21 @@
    "category": "discussion",
    "key": "hn:50159245",
    "metrics": {
-    "comments": 127,
+    "comments": 135,
     "frontPage": 0,
-    "points": 211
+    "points": 235
    },
    "news": {
     "author": "chatmasta",
-    "comments": 127,
+    "comments": 135,
     "createdAt": "2026-10-19T23:08:52.000Z",
     "domain": "projectdiscovery.io",
     "hnId": 50159245,
     "hnUrl": "https://news.ycombinator.com/item?id=50159245",
-    "points": 211,
-    "showRank": 34
+    "points": 235,
+    "showRank": 38
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T23:08:52.000Z",
    "refs": [
     "url:projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
@@ -11405,21 +11405,21 @@
    "category": "policy",
    "key": "hn:50159341",
    "metrics": {
-    "comments": 195,
+    "comments": 208,
     "frontPage": 0,
-    "points": 676
+    "points": 722
    },
    "news": {
     "author": "ds",
-    "comments": 195,
+    "comments": 208,
     "createdAt": "2026-10-19T23:22:18.000Z",
     "domain": "redact.dev",
     "hnId": 50159341,
     "hnUrl": "https://news.ycombinator.com/item?id=50159341",
-    "points": 676,
+    "points": 722,
     "showRank": 2
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T23:22:18.000Z",
    "refs": [
     "url:redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
@@ -11600,43 +11600,44 @@
   },
   {
    "board": "news",
-   "category": "release",
+   "category": "tool",
    "key": "hn:50163277",
    "metrics": {
-    "comments": 637,
+    "comments": 849,
     "frontPage": 0,
-    "points": 1759
+    "points": 2200
    },
    "news": {
     "author": "ggcr",
-    "comments": 637,
+    "comments": 849,
     "createdAt": "2026-10-20T09:08:54.000Z",
     "domain": "github.com",
     "hnId": 50163277,
     "hnUrl": "https://news.ycombinator.com/item?id=50163277",
-    "points": 1759,
+    "points": 2200,
     "showRank": 0
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T09:08:54.000Z",
    "refs": [
     "gh:deepseek-ai/deepinfer"
    ],
    "relevance": {
     "reasons": [
-     "kw:inference engine",
      "kw:deepseek",
+     "weak:model",
+     "weak:models",
      "weak:inference",
-     "cat:open-sourced"
+     "cat:framework"
     ],
-    "score": 0.9
+    "score": 1
    },
    "sources": [
     "hacker-news"
    ],
    "summary": "",
    "tags": [],
-   "title": "DeepSeek just open-sourced its inference engine",
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
    "url": "https://github.com/deepseek-ai/DeepInfer"
   },
   {
@@ -11644,21 +11645,21 @@
    "category": "discussion",
    "key": "hn:50165801",
    "metrics": {
-    "comments": 100,
+    "comments": 192,
     "frontPage": 0,
-    "points": 177
+    "points": 331
    },
    "news": {
     "author": "robtherobber",
-    "comments": 100,
+    "comments": 192,
     "createdAt": "2026-10-20T13:06:22.000Z",
     "domain": "peec.ai",
     "hnId": 50165801,
     "hnUrl": "https://news.ycombinator.com/item?id=50165801",
-    "points": 177,
-    "showRank": 42
+    "points": 331,
+    "showRank": 30
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T13:06:22.000Z",
    "refs": [
     "url:peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
@@ -11683,21 +11684,21 @@
    "category": "tool",
    "key": "hn:50167286",
    "metrics": {
-    "comments": 11,
+    "comments": 13,
     "frontPage": 0,
-    "points": 100
+    "points": 151
    },
    "news": {
     "author": "coding-maniac",
-    "comments": 11,
+    "comments": 13,
     "createdAt": "2026-10-20T14:49:33.000Z",
     "domain": "github.com",
     "hnId": 50167286,
     "hnUrl": "https://news.ycombinator.com/item?id=50167286",
-    "points": 100,
-    "showRank": 3
+    "points": 151,
+    "showRank": 10
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T14:49:33.000Z",
    "refs": [
     "gh:katrielmoses/voidaccess"
@@ -11722,21 +11723,21 @@
    "category": "tool",
    "key": "hn:50167604",
    "metrics": {
-    "comments": 2,
+    "comments": 7,
     "frontPage": 0,
-    "points": 22
+    "points": 60
    },
    "news": {
     "author": "abdullahalharir",
-    "comments": 2,
+    "comments": 7,
     "createdAt": "2026-10-20T15:10:54.000Z",
     "domain": "github.com",
     "hnId": 50167604,
     "hnUrl": "https://news.ycombinator.com/item?id=50167604",
-    "points": 22,
-    "showRank": 2
+    "points": 60,
+    "showRank": 5
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T15:10:54.000Z",
    "refs": [
     "gh:abdullahalhariri/penmentor"
@@ -11968,7 +11969,7 @@
     "hnUrl": "https://dev.to/yashksaini/dev-log-26-deep-in-the-libp2p-weeds-fixing-dht-prefixes-and-yamux-resets-315n",
     "points": 15
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T04:12:05Z",
    "refs": [],
    "relevance": {
@@ -12591,7 +12592,7 @@
     "hnUrl": "https://dev.to/gde/can-a-26b-moe-run-on-an-8-gb-gpu-gemma-4-26b-a4b-on-an-rtx-3050-2efn",
     "points": 10
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T18:12:40Z",
    "refs": [],
    "relevance": {
@@ -12828,29 +12829,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 13,
     "createdAt": "2026-10-19T20:07:12Z",
     "domain": "dev.to",
     "id": 4879459,
-    "points": 68,
+    "points": 71,
     "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-slow-and-steady-2850-in-prizes-across-21-3iee"
    },
    "key": "devto:4879459",
    "metrics": {
-    "comments": 10,
+    "comments": 13,
     "frontPage": 0,
-    "points": 68
+    "points": 71
    },
    "news": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 13,
     "createdAt": "2026-10-19T20:07:12Z",
     "domain": "dev.to",
     "hnId": 4879459,
     "hnUrl": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-slow-and-steady-2850-in-prizes-across-21-3iee",
-    "points": 68
+    "points": 71
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T20:07:12Z",
    "refs": [],
    "relevance": {
@@ -12953,7 +12954,7 @@
     "hnUrl": "https://dev.to/googlecloud/autonomous-agent-loops-with-gemini-4-argon-and-gke-agent-sandbox-running-untrusted-code-safely-at-2k60",
     "points": 6
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T22:20:01Z",
    "refs": [],
    "relevance": {
@@ -13086,29 +13087,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 19,
     "createdAt": "2026-10-20T13:00:00Z",
     "domain": "dev.to",
     "id": 4880310,
-    "points": 40,
+    "points": 50,
     "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-13ii"
    },
    "key": "devto:4880310",
    "metrics": {
-    "comments": 10,
+    "comments": 19,
     "frontPage": 0,
-    "points": 40
+    "points": 50
    },
    "news": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 19,
     "createdAt": "2026-10-20T13:00:00Z",
     "domain": "dev.to",
     "hnId": 4880310,
     "hnUrl": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-13ii",
-    "points": 40
+    "points": 50
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T13:00:00Z",
    "refs": [],
    "relevance": {
@@ -14145,7 +14146,7 @@
     "hnUrl": "https://dev.to/dhanushnehru/standup-sloth-a-local-llm-drafts-your-standup-and-a-citation-check-keeps-it-honest-5h7h",
     "points": 8
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T05:21:02Z",
    "refs": [],
    "relevance": {
@@ -15115,14 +15116,14 @@
     "comments": 1,
     "createdAt": "2026-10-20T08:14:54.849-05:00",
     "domain": "jepsen.io",
-    "points": 21,
+    "points": 27,
     "shortId": "42zgmq",
     "url": "https://jepsen.io/analyses/orkes-conductor-5.3.2"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 21
+    "points": 27
    },
    "news": {
     "author": "aphyr",
@@ -15131,9 +15132,9 @@
     "domain": "jepsen.io",
     "hnId": 246878450,
     "hnUrl": "https://lobste.rs/s/42zgmq/jepsen_orkes_conductor_5_3_2",
-    "points": 21
+    "points": 27
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T08:14:54.849-05:00",
    "refs": [],
    "relevance": {
@@ -15163,28 +15164,28 @@
    "key": "lobsters:7d1swo",
    "lobsters": {
     "author": "LolPython",
-    "comments": 13,
+    "comments": 26,
     "createdAt": "2026-10-20T08:44:53.025-05:00",
     "domain": "entropicthoughts.com",
-    "points": 17,
+    "points": 42,
     "shortId": "7d1swo",
     "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid"
    },
    "metrics": {
-    "comments": 13,
+    "comments": 26,
     "frontPage": 0,
-    "points": 17
+    "points": 42
    },
    "news": {
     "author": "LolPython",
-    "comments": 13,
+    "comments": 26,
     "createdAt": "2026-10-20T08:44:53.025-05:00",
     "domain": "entropicthoughts.com",
     "hnId": 445182360,
     "hnUrl": "https://lobste.rs/s/7d1swo/nixos_is_making_me_less_afraid",
-    "points": 17
+    "points": 42
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T08:44:53.025-05:00",
    "refs": [],
    "relevance": {
@@ -15314,14 +15315,14 @@
     "comments": 12,
     "createdAt": "2026-10-19T11:42:07.757-05:00",
     "domain": "futhark-lang.org",
-    "points": 71,
+    "points": 75,
     "shortId": "a9f6z1",
     "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html"
    },
    "metrics": {
     "comments": 12,
     "frontPage": 0,
-    "points": 71
+    "points": 75
    },
    "news": {
     "author": "NoaBogart",
@@ -15330,9 +15331,9 @@
     "domain": "futhark-lang.org",
     "hnId": 620487181,
     "hnUrl": "https://lobste.rs/s/a9f6z1/making_all_divisions_slower_fix_bug_0",
-    "points": 71
+    "points": 75
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T11:42:07.757-05:00",
    "refs": [],
    "relevance": {
@@ -15365,14 +15366,14 @@
     "comments": 10,
     "createdAt": "2026-10-19T13:25:48.327-05:00",
     "domain": "youtube.com",
-    "points": 32,
+    "points": 34,
     "shortId": "b36ixw",
     "url": "https://www.youtube.com/watch?v=P5eO7BNyJao"
    },
    "metrics": {
     "comments": 10,
     "frontPage": 0,
-    "points": 32
+    "points": 34
    },
    "news": {
     "author": "veqq",
@@ -15381,9 +15382,9 @@
     "domain": "youtube.com",
     "hnId": 670471268,
     "hnUrl": "https://lobste.rs/s/b36ixw/context",
-    "points": 32
+    "points": 34
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T13:25:48.327-05:00",
    "refs": [],
    "relevance": {
@@ -15412,28 +15413,28 @@
    "key": "lobsters:c2ouz0",
    "lobsters": {
     "author": "novedevo",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-19T12:52:41.834-05:00",
     "domain": "yoyo-code.com",
-    "points": 49,
+    "points": 61,
     "shortId": "c2ouz0",
     "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 6,
     "frontPage": 0,
-    "points": 49
+    "points": 61
    },
    "news": {
     "author": "novedevo",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-19T12:52:41.834-05:00",
     "domain": "yoyo-code.com",
     "hnId": 730113228,
     "hnUrl": "https://lobste.rs/s/c2ouz0/2026_is_exciting_year_for_rust_compiler_me",
-    "points": 49
+    "points": 61
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T12:52:41.834-05:00",
    "refs": [],
    "relevance": {
@@ -15511,28 +15512,28 @@
    "key": "lobsters:d7m5j1",
    "lobsters": {
     "author": "nmattia",
-    "comments": 16,
+    "comments": 22,
     "createdAt": "2026-10-20T05:23:58.813-05:00",
     "domain": "nmattia.com",
-    "points": 36,
+    "points": 54,
     "shortId": "d7m5j1",
     "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 22,
     "frontPage": 0,
-    "points": 36
+    "points": 54
    },
    "news": {
     "author": "nmattia",
-    "comments": 16,
+    "comments": 22,
     "createdAt": "2026-10-20T05:23:58.813-05:00",
     "domain": "nmattia.com",
     "hnId": 798851197,
     "hnUrl": "https://lobste.rs/s/d7m5j1/setting_up_ssh_keys_on_macos_with_touch_id",
-    "points": 36
+    "points": 54
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T05:23:58.813-05:00",
    "refs": [],
    "relevance": {
@@ -15565,14 +15566,14 @@
     "comments": 1,
     "createdAt": "2026-10-19T23:04:43.855-05:00",
     "domain": "blog.mahdibm.com",
-    "points": 15,
+    "points": 17,
     "shortId": "dl4h2a",
     "url": "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 15
+    "points": 17
    },
    "news": {
     "author": "juri",
@@ -15581,9 +15582,9 @@
     "domain": "blog.mahdibm.com",
     "hnId": 821540962,
     "hnUrl": "https://lobste.rs/s/dl4h2a/very_fast_ipv4_parser_swift",
-    "points": 15
+    "points": 17
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T23:04:43.855-05:00",
    "refs": [],
    "relevance": {
@@ -15761,28 +15762,28 @@
    "key": "lobsters:gqyvn5",
    "lobsters": {
     "author": "freddyb",
-    "comments": 22,
+    "comments": 46,
     "createdAt": "2026-10-20T08:00:50.760-05:00",
     "domain": "blog.mozilla.org",
-    "points": 52,
+    "points": 135,
     "shortId": "gqyvn5",
     "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"
    },
    "metrics": {
-    "comments": 22,
+    "comments": 46,
     "frontPage": 0,
-    "points": 52
+    "points": 135
    },
    "news": {
     "author": "freddyb",
-    "comments": 22,
+    "comments": 46,
     "createdAt": "2026-10-20T08:00:50.760-05:00",
     "domain": "blog.mozilla.org",
     "hnId": 1012756145,
     "hnUrl": "https://lobste.rs/s/gqyvn5/protecting_firefox_users_following",
-    "points": 52
+    "points": 135
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T08:00:50.760-05:00",
    "refs": [],
    "relevance": {
@@ -15861,28 +15862,28 @@
    "key": "lobsters:mngelc",
    "lobsters": {
     "author": "lukasmwerner",
-    "comments": 2,
+    "comments": 10,
     "createdAt": "2026-10-20T10:58:18.278-05:00",
     "domain": "lukaswerner.com",
-    "points": 5,
+    "points": 18,
     "shortId": "mngelc",
     "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 10,
     "frontPage": 0,
-    "points": 5
+    "points": 18
    },
    "news": {
     "author": "lukasmwerner",
-    "comments": 2,
+    "comments": 10,
     "createdAt": "2026-10-20T10:58:18.278-05:00",
     "domain": "lukaswerner.com",
     "hnId": 1369652448,
     "hnUrl": "https://lobste.rs/s/mngelc/making_vga_driver_systemverilog",
-    "points": 5
+    "points": 18
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T10:58:18.278-05:00",
    "refs": [],
    "relevance": {
@@ -15961,28 +15962,28 @@
    "key": "lobsters:nne5uh",
    "lobsters": {
     "author": "pocket_walrus",
-    "comments": 13,
+    "comments": 21,
     "createdAt": "2026-10-19T15:10:46.398-05:00",
     "domain": "techspot.com",
-    "points": 56,
+    "points": 69,
     "shortId": "nne5uh",
     "url": "https://www.techspot.com/news/114018-netherlands-building-own-linux-os-break-free-microsoft.html"
    },
    "metrics": {
-    "comments": 13,
+    "comments": 21,
     "frontPage": 0,
-    "points": 56
+    "points": 69
    },
    "news": {
     "author": "pocket_walrus",
-    "comments": 13,
+    "comments": 21,
     "createdAt": "2026-10-19T15:10:46.398-05:00",
     "domain": "techspot.com",
     "hnId": 1430013977,
     "hnUrl": "https://lobste.rs/s/nne5uh/netherlands_is_building_its_own_linux_os",
-    "points": 56
+    "points": 69
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T15:10:46.398-05:00",
    "refs": [],
    "relevance": {
@@ -16000,7 +16001,8 @@
     "source:lobsters",
     "tag:hottest",
     "tag:linux",
-    "tag:windows"
+    "tag:windows",
+    "tag:nix"
    ],
    "title": "The Netherlands is building its own Linux OS to break free from Microsoft",
    "url": "https://www.techspot.com/news/114018-netherlands-building-own-linux-os-break-free-microsoft.html"
@@ -16014,14 +16016,14 @@
     "comments": 0,
     "createdAt": "2026-10-20T04:12:23.208-05:00",
     "domain": "vt100.net",
-    "points": 7,
+    "points": 14,
     "shortId": "qflytl",
     "url": "https://vt100.net/dec/vt100/rom/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 7
+    "points": 14
    },
    "news": {
     "author": "luke8086",
@@ -16030,9 +16032,9 @@
     "domain": "vt100.net",
     "hnId": 1598339721,
     "hnUrl": "https://lobste.rs/s/qflytl/annotated_vt100_firmware_2022",
-    "points": 7
+    "points": 14
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-20T04:12:23.208-05:00",
    "refs": [],
    "relevance": {
@@ -16061,28 +16063,28 @@
    "key": "lobsters:sqdhu7",
    "lobsters": {
     "author": "dgv",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-19T20:46:00.374-05:00",
     "domain": "openbsd.org",
-    "points": 85,
+    "points": 96,
     "shortId": "sqdhu7",
     "url": "https://www.openbsd.org/80.html"
    },
    "metrics": {
-    "comments": 10,
+    "comments": 11,
     "frontPage": 0,
-    "points": 85
+    "points": 96
    },
    "news": {
     "author": "dgv",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-19T20:46:00.374-05:00",
     "domain": "openbsd.org",
     "hnId": 1737352591,
     "hnUrl": "https://lobste.rs/s/sqdhu7/openbsd_8_0",
-    "points": 85
+    "points": 96
    },
-   "observedAt": "2026-10-20T17:00:45.974Z",
+   "observedAt": "2026-10-21T06:01:24.167Z",
    "publishedAt": "2026-10-19T20:46:00.374-05:00",
    "refs": [],
    "relevance": {
@@ -16159,76 +16161,84 @@
   }
  ],
  "date": "2026-10-20",
- "fetchedAt": "2026-10-20T17:00:45.974Z",
+ "fetchedAt": "2026-10-21T06:01:24.167Z",
  "runs": [
   "2026-10-19T18:43:21.139Z",
   "2026-10-20T05:59:58.178Z",
-  "2026-10-20T17:00:45.974Z"
+  "2026-10-20T17:00:45.974Z",
+  "2026-10-21T06:01:24.167Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "dev-to",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 315,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "github-search",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 169,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "count": 170,
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "github-trending",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 75,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "count": 73,
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 98,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "count": 97,
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "lobsters",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
   },
   {
    "board": "social",
-   "count": 3,
-   "fetchedAt": "2026-10-20T17:00:45.974Z",
+   "count": 2,
+   "fetchedAt": "2026-10-21T06:01:24.167Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-21T06:01:24.167Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-19T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-20T16:00:00.000Z"
  }
