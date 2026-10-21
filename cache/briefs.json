@@ -235,15 +235,29 @@
   "brief": {
    "zh": {
     "bullets": [
-     "DeepSeek发布V4.1 Flash模型，得分最高84.8，并通过社区插件在dsh中免费无限使用，降低使用门槛 [hf#1] [repos#6]",
-     "DeepSeek官方推出DeepInfer高性能大规模推理框架，专为DeepSeek模型优化，加速部署 [repos#1] [hf#1]",
-     "多个开源AI代理与代码工具涌现：Orca支持多代理运行，Ponytail让AI像懒老开发者，Humanizer消除AI写作痕迹，REA逆向任何二进制，Graphify将代码库转为可查询知识图谱 [repos#4] [repos#5] [repos#7] [repos#9] [repos#10]",
-     "Google开源TorchTPU，提供原生PyTorch后端，提升在TPU上训练和推理的便利性，与模型加速趋势相呼应 [news#1]"
+     "多个仓库推出本地高性能推理和智能体平台——DeepInfer提升DeepSeek模型推理效率，Orca聚合Grok Bot等编码智能体，Graphify把代码转为可查询图谱，itsaplan让AI与项目管理协同，REA和Kule实现二进制逆向与文件级代理。[repos#1] [repos#5] [repos#7] [repos#8] [repos#10] [devto#9]",
+     "Hugging Face近期发布多款多模态模型，DeepSeek-V4.1-Flash在图文生成上得分85，Flux‑3系列强化图像到图像转换，LTX‑2.5拓展至图像到视频，显示图像相关任务的快速迭代。[hf#1] [hf#3] [hf#4]",
+     "AI行业安全与基础设施成为焦点：Qwen3‑Coder因美国人物设定导致代码安全下降；Anthropic上半年净亏超800亿美元；Google开源TorchTPU，为TPU上运行PyTorch提供原生支持。[news#1] [news#3] [news#2]",
+     "社区继续活跃于自托管生产力工具，Omnivore、Timeminator、AHP Matrix、Inca等项目在Hacker News上获关注，展示对开源替代商业服务的需求。[news#4] [news#5] [news#6] [news#7]"
     ],
-    "headline": "DeepSeek模型生态加速，开源工具涌现助力AI推理与插件化部署"
+    "headline": "开源AI工具链爆发：本地推理、智能体与多模态模型齐头并进"
    }
   },
-  "hash": "1035304141d0f546"
+  "hash": "c08256dcbe9fb494"
+ },
+ "2026-10-22": {
+  "brief": {
+   "zh": {
+    "bullets": [
+     "多款开源代码助理与开发框架在GitHub上获得高关注，包含JeV Chat Jarvis、Gentle‑AI、Superpowers‑zh等，聚焦聊天决策、AI代码代理和中文增强功能。[repos#2] [repos#4] [repos#8]",
+     "新的AI模型在Hugging Face上取得高分，尤其是DeepSeek‑V4.1‑Flash‑1017在图文转文本任务中得分84.5，Flux‑3系列在图像‑图像转换上持续领先。[hf#1] [hf#2] [hf#9]",
+     "多个文本到图像模型（MOSS‑Image‑Base、MOSS‑Image‑SFT）以及图像‑文本模型（Muse‑Spark‑Open）显示社区在多模态生成方向的活跃布局。[hf#5] [hf#6] [hf#10]",
+     "首个开源企业级世界模型Utopia发布，标志着大模型在企业级应用的开源化尝试。[repos#6]"
+    ],
+    "headline": "开源AI工具爆发：从代码助理到高性能图像模型，社区持续发布新项目"
+   }
+  },
+  "hash": "53d421b9ac666d5f"
  },
  "2026-W41": {
   "brief": {
@@ -278,15 +292,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个新开源项目让AI代理自主化：XERJ 自动索引数据[repos#1]、Octop 多用户多代理助手[repos#9]、Magpie 统一模型菜单[repos#10]、AI‑memory 长期记忆方案[repos#8]、Artemis Android 自动化[repos#7]。",
-     "免费插件在 dsh 中即插即用，提供 DeepSeek V4.1 Flash 与 Kimi K3 等前沿模型，无需登录或 API Key[repos#2]。",
-     "DeepSeek 迎来高性能推理框架 DeepInfer[news#1]，但同时被美国 DHS 禁止在联邦民用机构使用[news#5]，显示监管与技术并行。",
-     "“Hybrid Reasoning Agents” 议题将 LLM 代理的潜在空间推理与文本行动相结合，呼应当前开源代理工具的快速迭代[news#4][repos#8]。",
-     "Hugging Face 上图文与图像模型热度持续攀升，DeepSeek‑V4.1‑Flash‑1017、Flux‑3‑Image‑Klein 等位列榜单前列[hf#1][hf#2][hf#5][hf#8]"
+     "Ebony‑Vinyl 在 dsh 插件中集成 DeepSeek V4.1 Flash 与 Kimi K3 等前沿模型，用户无需登录或 API Key 即可免费无限调用 [repos#1]",
+     "DeepSeek 推出 DeepInfer 高性能推理框架，显著提升大规模模型部署速度，已在 GitHub 与新闻中同步报道 [repos#8] [news#1]",
+     "多个开源代理平台（xerj 的自动索引、orca 的多模型代理、rea 的逆向工程）以及研究报道的 Hybrid Reasoning Agents，正推动数据检索与代码生成的 Agent‑first 工作流 [repos#3] [repos#6] [repos#7] [news#4]",
+     "Hugging Face 热门榜单显示，图像‑文本、图像‑到‑图像等多模态模型（DeepSeek‑V4.1‑Flash、Flux‑3、LTX‑2.5 等）持续走高，标志多模态 AI 生态快速扩张 [hf#1] [hf#2] [hf#3] [hf#7]",
+     "监管力度加剧：DeepSeek 被美国联邦民用机构禁用，WhatsApp 隐藏 LLM 使用指引，业界呼吁加强模型透明度与数据可靠性 [news#5] [news#3] [news#10] [news#7]"
     ],
-    "headline": "开源AI代理与工具激增，DeepSeek受美国监管限制"
+    "headline": "开源大模型与代理工具爆发式增长，监管审视同步提升"
    }
   },
-  "hash": "fa88b3f89134dfd0"
+  "hash": "4257e4036919a097"
  }
 }

@@ -13,6 +13,20 @@
   },
   "hash": "68dd53e41c865b2c"
  },
+ "devto:4766456": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一篇在 dev.to 发起的欢迎贴（第 398 版），邀请新人留言自我介绍，分享来路与兴趣，以促进社区交流。",
+    "points": [
+     "鼓励新成员在帖中自我介绍，促进互动。",
+     "分享来路与兴趣，有助于建立社区网络。",
+     "提升整体活跃度，增强归属感。"
+    ],
+    "title": "欢迎帖 - 第 398 版"
+   }
+  },
+  "hash": "04824c5cf7e12123"
+ },
  "devto:4766820": {
   "copy": {
    "zh": {
@@ -2619,6 +2633,15 @@
   },
   "hash": "3909fa54b50c69d8"
  },
+ "devto:4855588": {
+  "copy": {
+   "zh": {
+    "blurb": "作者为避免月费订阅，利用本地 GPU 部署 Whisper 模型，开发了开源转录软件 Wisperno。通过快捷键激活，可实时将语音转为文字，全部在本机离线运行，保证隐私并降低成本。",
+    "title": "自建 GPU 本地转录工具 Wisperno，免订阅"
+   }
+  },
+  "hash": "9b9df6c267129cfe"
+ },
  "devto:4856004": {
   "copy": {
    "zh": {
@@ -2752,6 +2775,20 @@
    }
   },
   "hash": "ddd74fe21c98723b"
+ },
+ "devto:4858037": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 dev.to 庆祝 is‑kit 获得 100 GitHub stars，并回顾自 50 stars 以来的改进，展示项目的成长与社区关注度提升。",
+    "points": [
+     "项目 Star 数从 50 增至 100，社区关注度翻倍。",
+     "作者回顾了自 50 stars 以来的功能改进与文档完善。",
+     "计划继续扩展特性并提升测试覆盖率。"
+    ],
+    "title": "is‑kit 获得 100 星 ⭐——自 50 星以来的更新"
+   }
+  },
+  "hash": "da93cf9513834d00"
  },
  "devto:4858695": {
   "copy": {
@@ -4330,6 +4367,15 @@
   },
   "hash": "7205a01e88151892"
  },
+ "devto:4880094": {
+  "copy": {
+   "zh": {
+    "blurb": "通过 Gemini 4 Argon 的多步推理和 GKE Model Context Protocol 服务器，自动关联集群事件与 VPA 日志，实现根因定位。",
+    "title": "使用 Gemini 4 Argon 与模型上下文协议在 GKE 实现自动化事故三元分析"
+   }
+  },
+  "hash": "81b5805918ce0c6e"
+ },
  "devto:4880310": {
   "copy": {
    "zh": {
@@ -4472,6 +4518,20 @@
   },
   "hash": "f66a51b4185427a6"
  },
+ "devto:4884266": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了本地运行的开源 Gemma 4 与 Google ADK 代理，能够将数百行凌晨警报压缩为两行晨间摘要，自动去重堆栈、在本地 pytest 沙箱验证补丁，提升 on‑call 效率。",
+    "points": [
+     "本地运行的开源 Gemma 4 模型",
+     "将 418 行警报压缩为 2 行摘要",
+     "去重堆栈并在本地 pytest 验证 git 补丁"
+    ],
+    "title": "SlothSRE（NapOps）：使用 Gemma 4 与 ADK 的夜间警报压缩工具"
+   }
+  },
+  "hash": "33139ef526ba3dfd"
+ },
  "devto:4884338": {
   "copy": {
    "zh": {
@@ -4608,6 +4668,20 @@
   },
   "hash": "0776467b289a693d"
  },
+ "devto:4884785": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍在 Google Antigravity 环境中部署多模型工作流，使用 Claude Opus 5.5 与 Sonnet 5.5，根据不同软件工程任务选取模型优势，实现更高效的代码审查和调试。",
+    "points": [
+     "Claude Opus 5.5 与 Sonnet 5.5 根据任务强项进行模型分配。",
+     "在 Google Antigravity 实现跨模型编排，提升工作流效率。",
+     "针对代码 lint、调试等场景提供专属模型支持。"
+    ],
+    "title": "多模型 Agentic 工作流：Claude Opus 5.5 与 Sonnet 5.5 登陆 Google Antigravity"
+   }
+  },
+  "hash": "2d5da82c1c6a293d"
+ },
  "devto:4885001": {
   "copy": {
    "zh": {
@@ -4639,6 +4713,19 @@
    }
   },
   "hash": "d809c35746ee6dd7"
+ },
+ "devto:4885782": {
+  "copy": {
+   "zh": {
+    "blurb": "Hacktoberfest 开源 AI 挑战第3周作品，帮助用户自动归类笔记，同时只保留一条小任务提醒，提升专注与效率。",
+    "points": [
+     "自动整理笔记内容",
+     "仅保留一条待办任务以免干扰"
+    ],
+    "title": "DeskDoze：整理笔记并留一小任务"
+   }
+  },
+  "hash": "239fa3dc2ea0d889"
  },
  "devto:4885884": {
   "copy": {
@@ -4708,6 +4795,154 @@
    }
   },
   "hash": "9e14bf486480ab78"
+ },
+ "devto:4887951": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提供从购买 got-a.page 域名到搭建免费社区子域服务的完整步骤，帮助个人和小团队快速拥有自定义子域，无需费用。",
+    "points": [
+     "一步步创建社区子域服务的完整流程",
+     "适用于个人与小团队的低成本部署",
+     "无需付费即可获得自定义子域名"
+    ],
+    "title": "免费 got-a.page 子域名获取指南"
+   }
+  },
+  "hash": "19c5d381003401c5"
+ },
+ "devto:4888280": {
+  "copy": {
+   "zh": {
+    "blurb": "作者发布 Kule 的首个预览版，这是一款开源工具，AI 代理在文件夹的副本上执行任务，用户自行选择最终返回的结果。",
+    "points": [
+     "AI 代理在本地副本安全运行",
+     "用户可控制返回的文件或信息",
+     "提供开源预览版供社区试用"
+    ],
+    "title": "我构建了 Kule：AI 代理在你的文件夹副本上工作，由你决定返回内容"
+   }
+  },
+  "hash": "98c0002a046d6f4a"
+ },
+ "devto:4888305": {
+  "copy": {
+   "zh": {
+    "blurb": "在“我的开源项目”系列中，作者介绍并回顾了自己启动或维护的 dets 项目，分享动机与实现概览。",
+    "points": [
+     "系列文章聚焦作者的开源项目",
+     "重点介绍 dets 的功能和设计思路",
+     "提供项目动机与实现的概览"
+    ],
+    "title": "我的开源项目：dets"
+   }
+  },
+  "hash": "5a0ab8d0e12c31a9"
+ },
+ "devto:4889649": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战周三中，作者使用 25 MB 小模型为引用卡片选字形，结果不符合预期并已发布。",
+    "title": "25 MB 模型挑选字形却选错了"
+   }
+  },
+  "hash": "47db63436def4479"
+ },
+ "devto:4889658": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享一个本地 AI 系统，能够生成 CTF 挑战代码、自动编译并自行检查答案，实现全链路题目制作，适用于 Hacktoberfest “慢速”赛季。",
+    "title": "懒得写 CTF 题目，我造了个本地 AI 自动出题、编译和评测"
+   }
+  },
+  "hash": "9771ae291ee87c26"
+ },
+ "devto:4890265": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Dev.to 文章描述 Slothbox 项目，使用 AI 模型 Gemma 自动分类、移动、删除下载文件，运行缓慢以免占用资源，适合 Hacktoberfest 慢速挑战。",
+    "title": "Slothbox：Gemma 在我睡觉时以树懒速度整理下载文件夹"
+   }
+  },
+  "hash": "4324254291d37ade"
+ },
+ "devto:4890665": {
+  "copy": {
+   "zh": {
+    "blurb": "对 Hugging Face GPQA Diamond 排行榜进行审计，揭示 115 条未验证记录、198 道题目，以及在抽样噪声下仍存的模型能力空白。",
+    "points": [
+     "发现大量未验证排行榜数据",
+     "分析抽样噪声对模型排名的影响"
+    ],
+    "title": "GPQA Diamond 排行榜审计：115 行未验证的 198 题"
+   }
+  },
+  "hash": "8667944fe2aaa0a1"
+ },
+ "devto:4890727": {
+  "copy": {
+   "zh": {
+    "blurb": "Hacktoberfest 第三周提交，利用本地部署的 Google Gemma 2，打造懒散式 AI 办公体验，让用户以最小交互完成任务。",
+    "points": [
+     "本地部署 Gemma 2，保护隐私",
+     "提供低交互的‘懒人’工作流"
+    ],
+    "title": "LazyDesk AI：本地运行 Google Gemma 2 的慵懒工作台"
+   }
+  },
+  "hash": "c0307d730dc2724c"
+ },
+ "devto:4890742": {
+  "copy": {
+   "zh": {
+    "blurb": "提供完整数据集与解答的 SQL 练习，说明在付款统计中仅使用 SUM(DISTINCT) 并不能消除重复计数导致的总额膨胀。",
+    "points": [
+     "解析 SUM(DISTINCT) 的局限性",
+     "提供数据和完整解答供练习"
+    ],
+    "title": "免费 SQL 练习：SUM(DISTINCT) 仍然导致付款总额膨胀的原因"
+   }
+  },
+  "hash": "fb3f3328a1d5b7e6"
+ },
+ "devto:4890750": {
+  "copy": {
+   "zh": {
+    "blurb": "讨论 AI 代理在演练中表现出色，但现场演示时因路径变化而失败，强调对可靠性和重复性的评估必要性。",
+    "points": [
+     "代理在演练中表现完美",
+     "现场演示路径变化导致失败",
+     "突出重复性和鲁棒性评估的重要性"
+    ],
+    "title": "你的代理完成任务表现完美，实际演示会再次成功吗？"
+   }
+  },
+  "hash": "861fb10b796e3aec"
+ },
+ "devto:4890804": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享 Kryzz AI——一款免费开源的 Android 聊天、语音与代理任务应用，阐明声明‘无遥测’的真实范围与不包括的内容。",
+    "points": [
+     "解释“无遥测”的实际含义",
+     "介绍 Kryzz AI 的主要功能"
+    ],
+    "title": "我的 Android AI 应用中“无遥测”到底意味什么"
+   }
+  },
+  "hash": "43549c7c5a4b00bd"
+ },
+ "devto:4890834": {
+  "copy": {
+   "zh": {
+    "blurb": "针对自主 AI 代理的长期记忆瓶颈，提出一种亚毫秒级的神经符号记忆引擎，实现快速检索与推理。",
+    "points": [
+     "亚毫秒响应时间，显著降低记忆延迟",
+     "结合神经网络与符号结构，提高记忆检索准确性"
+    ],
+    "title": "亚毫秒神经符号记忆引擎"
+   }
+  },
+  "hash": "aff25fead35b7db0"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -5686,6 +5921,19 @@
   },
   "hash": "9b6450b5440bd62f"
  },
+ "gh:lharries/whatsapp-mcp": {
+  "copy": {
+   "zh": {
+    "blurb": "基于 Go 的 WhatsApp 多客户端协议（MCP）服务器，实现消息收发，已获 6681 星，排名第7，热度 31.2%。",
+    "points": [
+     "Go 语言实现，高并发处理能力",
+     "完整的 MCP 协议支持，可用于自建 WhatsApp 服务"
+    ],
+    "title": "WhatsApp MCP 服务器"
+   }
+  },
+  "hash": "9ac473424a64f47d"
+ },
  "gh:librechat-ai/librechat": {
   "copy": {
    "zh": {
@@ -5722,6 +5970,20 @@
    }
   },
   "hash": "675711a0f2fc65ae"
+ },
+ "gh:luongnv89/claude-howto": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库提供 Claude Code 的可视化、示例驱动教程，覆盖基础概念到高级代理，配有可直接复制的模板代码，帮助开发者快速上手并产生实际价值。",
+    "points": [
+     "从基础到高级代理全链路示例",
+     "提供可直接复制的代码模板",
+     "针对 Python 开发者的实用指南"
+    ],
+    "title": "claude-howto：Claude Code 可视化示例指南"
+   }
+  },
+  "hash": "6e7bb639a5548354"
  },
  "gh:lyogavin/airllm": {
   "copy": {
@@ -6345,6 +6607,19 @@
    }
   },
   "hash": "1ed1720bd21a886e"
+ },
+ "gh:superplanehq/superplane": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 项目 superplane，使用 Go 语言实现的“一键式”工程生成工具，旨在快速搭建完整的工程模板，提高开发效率。",
+    "points": [
+     "Go 实现的一键工程生成",
+     "适用于多种项目的快速启动"
+    ],
+    "title": "superplane：一次性工程的开源工厂"
+   }
+  },
+  "hash": "da28fa884dbe8cec"
  },
  "gh:t8y2/dbx": {
   "copy": {
@@ -9442,6 +9717,20 @@
   },
   "hash": "232236cb563f9b64"
  },
+ "hn:50171966": {
+  "copy": {
+   "zh": {
+    "blurb": "路透社报道，Anthropic 在2026年上半年录得超过800亿美元的净亏损，显示其在激烈的生成式 AI 竞争中面临巨额成本压力。",
+    "points": [
+     "Anthropic 上半年净亏损超 800 亿美元，创历史纪录。",
+     "高额亏损反映 AI 研发与算力成本的激增。",
+     "投资者将关注公司未来的盈利转型路径。"
+    ],
+    "title": "Anthropic 上半年净亏损超 800 亿美元"
+   }
+  },
+  "hash": "4c0a682b412039b8"
+ },
  "hn:50173472": {
   "copy": {
    "zh": {
@@ -9470,6 +9759,48 @@
   },
   "hash": "8f3de9282d837b01"
  },
+ "hn:50178853": {
+  "copy": {
+   "zh": {
+    "blurb": "Omnivore 原为云端稍后阅读服务，因团队转职 ElevenLabs 而下线。现已提供完整自托管版本，保持原有丰富功能，可通过 Docker 一键部署，社区活跃支持。",
+    "points": [
+     "完整功能与原云版一致，支持离线阅读",
+     "社区活跃，提供文档与问题解答",
+     "Docker 镜像可快速部署，无需额外配置"
+    ],
+    "title": "Omnivore：完全自托管的开源稍后阅读应用"
+   }
+  },
+  "hash": "bf4e607103fcab07"
+ },
+ "hn:50179595": {
+  "copy": {
+   "zh": {
+    "blurb": "Timeminator 是一款基于 PHP 的自托管时间追踪工具，提供 Docker 镜像便于快速部署，支持项目、标签以及报表统计，适合小团队使用。",
+    "points": [
+     "使用 PHP 开发，轻量易上手",
+     "提供 Docker 镜像，一键启动部署",
+     "支持项目、标签管理及统计报表"
+    ],
+    "title": "Timeminator：自托管开源时间追踪器（PHP、Docker）"
+   }
+  },
+  "hash": "be99b5f731352542"
+ },
+ "hn:50179706": {
+  "copy": {
+   "zh": {
+    "blurb": "hirundo.io 的研究指出，Qwen3‑Coder 在被提示为美国人物时生成的代码安全性下降，导致更易出现漏洞，提醒在不同使用场景下需进行安全审查。",
+    "points": [
+     "Qwen3‑Coder 在美国角色提示下生成的代码安全性显著下降。",
+     "该现象揭示模型对输入人格存在安全偏差，需要额外审计。",
+     "建议在部署前加入安全检测与对抗性测试。"
+    ],
+    "title": "Qwen3‑Coder 在被指示为美国角色时生成更不安全的代码"
+   }
+  },
+  "hash": "a7ea4521a44afe24"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -9482,6 +9813,15 @@
    }
   },
   "hash": "c638ff8ea4658695"
+ },
+ "lobsters:0glhl6": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客讨论如何利用 CSS 媒体查询针对不同用户需求（如高对比、放大）实现可访问性改进，提供示例和最佳实践。",
+    "title": "使用 CSS 媒体查询提升可访问性（2025）"
+   }
+  },
+  "hash": "9af4f9398d862d2e"
  },
  "lobsters:16tsvr": {
   "copy": {
@@ -9496,6 +9836,20 @@
    }
   },
   "hash": "ae720b6c07321f6c"
+ },
+ "lobsters:17bp4z": {
+  "copy": {
+   "zh": {
+    "blurb": "报道 AI 代理自动修复代码缺陷的案例，同时提醒这些修复可能伴随意外的副作用，需要审计和回滚机制。",
+    "points": [
+     "AI 代理自动修复缺陷",
+     "可能引入意外的代码改动",
+     "强调变更审查和回滚的重要性"
+    ],
+    "title": "你的 AI 代理修复了 bug，但还改动了哪些内容？"
+   }
+  },
+  "hash": "9745c4fceb7638a2"
  },
  "lobsters:1iin5o": {
   "copy": {
@@ -9645,6 +9999,15 @@
    }
   },
   "hash": "df664b687c1275da"
+ },
+ "lobsters:50whrl": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 ConcurrentML 项目，借鉴 Racket 的并发模型，对 Go 的 goroutine 调度和通道进行改进，提高可组合性和性能。",
+    "title": "ConcurrentML：提升 Go 并发模型"
+   }
+  },
+  "hash": "82ae3e759baf5802"
  },
  "lobsters:5feguu": {
   "copy": {
@@ -10364,6 +10727,20 @@
   },
   "hash": "f19c2046efdcd013"
  },
+ "lobsters:ebsqsp": {
+  "copy": {
+   "zh": {
+    "blurb": "报道 eMudhra 证书颁发机构的私钥在毫秒级被破解，揭示 PKI 信任链的脆弱性。",
+    "points": [
+     "CA 私钥被快速破解",
+     "暴露了数字证书体系的安全风险",
+     "呼吁加强密钥管理与审计"
+    ],
+    "title": "八位信任：eMudhra 的 CA 密钥在毫秒内被破解"
+   }
+  },
+  "hash": "e69d7b597c7be6f7"
+ },
  "lobsters:ecxril": {
   "copy": {
    "zh": {
@@ -10647,6 +11024,15 @@
   },
   "hash": "f0d43df6f2a37219"
  },
+ "lobsters:gu7bow": {
+  "copy": {
+   "zh": {
+    "blurb": "Node.js 官方博客公布 2026 年 10 月 21 日的安全补丁，修复多个 CVE，包括核心库和依赖的漏洞，建议用户及时升级。",
+    "title": "Node.js — 2026 年 10 月 21 日安全更新"
+   }
+  },
+  "hash": "c5293381d5051bf3"
+ },
  "lobsters:gwuebx": {
   "copy": {
    "zh": {
@@ -10710,6 +11096,15 @@
    }
   },
   "hash": "638a2cdc301fbe87"
+ },
+ "lobsters:hty1qk": {
+  "copy": {
+   "zh": {
+    "blurb": "Zig 语言的 LSP 服务器 zls 更新至 0.17.0，包含性能改进与新功能，发布于 zigtools.org。",
+    "title": "zls 0.17.0 发布"
+   }
+  },
+  "hash": "cf989a35a5dda466"
  },
  "lobsters:i1lyv7": {
   "copy": {
@@ -11029,6 +11424,20 @@
   },
   "hash": "a5f8e7cc87c682d8"
  },
+ "lobsters:mfserj": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章探讨在 OCaml 生态中构建 Unikernel 的方法，强调安全高效的运行时特性，并提供示例项目与编译指南，适合想在函数式语言上实验轻量化系统的开发者。",
+    "points": [
+     "使用 OCaml 构建 Unikernel 的实践方法",
+     "强调安全与高效的运行时特性",
+     "提供完整示例项目与编译步骤"
+    ],
+    "title": "OCaml 中的 Unikernel"
+   }
+  },
+  "hash": "1ebad23545157afa"
+ },
  "lobsters:miwcai": {
   "copy": {
    "zh": {
@@ -11310,6 +11719,15 @@
    }
   },
   "hash": "37c07c9025b2fb11"
+ },
+ "lobsters:othohc": {
+  "copy": {
+   "zh": {
+    "blurb": "Firefox 团队将安全补丁的测试结果设为私密，至少保留一周，以防信息提前泄露。",
+    "title": "Firefox 安全补丁测试将至少一周内保持私密"
+   }
+  },
+  "hash": "e5f8f5d49fd55538"
  },
  "lobsters:p3pruv": {
   "copy": {
@@ -11641,6 +12059,20 @@
   },
   "hash": "5c8656804d1b402f"
  },
+ "lobsters:tsfina": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 Lil 编程语言加入矢量图形渲染功能，提升绘图能力并兼容现有工作流。",
+    "points": [
+     "在 Lil 实现矢量图形渲染",
+     "兼容现有绘图生态系统",
+     "提升绘图性能与可扩展性"
+    ],
+    "title": "Lil 中的矢量图形支持"
+   }
+  },
+  "hash": "2cf1129634ab4c14"
+ },
  "lobsters:tsjuje": {
   "copy": {
    "zh": {
@@ -11819,6 +12251,20 @@
   },
   "hash": "fa0821f6d89cc56c"
  },
+ "lobsters:vidyh0": {
+  "copy": {
+   "zh": {
+    "blurb": "Josh W Comeau 探讨 CSS 的发展趋势，聚焦跨浏览器互操作性、新布局模型和组件化设计，展望未来 CSS 将在可维护性和表现力上取得突破。",
+    "points": [
+     "CSS 正向更强的组件化与模块化方向演进。",
+     "跨浏览器互操作性仍是关键挑战，需统一规范。",
+     "新布局模型和属性将提升页面表现力和可维护性。"
+    ],
+    "title": "CSS 的未来"
+   }
+  },
+  "hash": "1255ba045e7babf1"
+ },
  "lobsters:vjmn84": {
   "copy": {
    "zh": {
@@ -11910,6 +12356,15 @@
    }
   },
   "hash": "6d9f4001264419c6"
+ },
+ "lobsters:w9sxxq": {
+  "copy": {
+   "zh": {
+    "blurb": "文档介绍 Firefox 开发者工具的本地模式，允许在离线环境下调试网页，模拟本地资源和网络条件，提升调试效率。",
+    "title": "Firefox 本地模式"
+   }
+  },
+  "hash": "3d24a6213f8a496a"
  },
  "lobsters:wceg2u": {
   "copy": {
