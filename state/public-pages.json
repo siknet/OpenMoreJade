@@ -4,23 +4,19 @@
   "summary": "Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code. But coders making use of those tools also know better than to trust the accuracy of that code, meaning substantial effort needs to be spent reviewing any AI-generated output. A recent study of actual coding practices across hundreds of firms finds that human code review forms a significant “bottleneck” for the overall efficiency of AI coding tools, resulting in “little evidence that firms increase soft",
   "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
  },
- "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/": {
-  "at": "2026-10-07T18:56:50.962Z",
-  "summary": "EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space. We introduced EmbeddingGemma last year to provide a lightweight option for high-quality text embeddings, to help your apps organize, search, and connect information directly on consumer hardware. The developer community’s response blew past our expectations. With more than 20 million downloads, builders have used it to power smarter on-device search tools and privacy-first retrieval augmented generation (RAG) pipelines. ",
-  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
- },
- "https://developers.openai.com/api/docs/guides/decisions": {
-  "at": "2026-10-07T18:56:50.962Z",
-  "summary": "The Decisions API evaluates text, images, or both and returns typed answers about 10x faster than the Responses API. Get the probability that a condition is true, a choice from a fixed set, or a score against a rubric. Use those answers to classify content, route requests, and prioritize work in your application. Try the Decisions API in the Playground to experiment with questions and inputs before writing code. The Decisions API is in public beta, and we expect to GA in the coming weeks. gpt-6-luna is the only model currently available. Use the dedicated POST /v1/decisions endpoint. To run th",
-  "url": "https://developers.openai.com/api/docs/guides/decisions"
- },
  "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
   "at": "2026-10-17T15:32:02.493Z",
   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
  },
+ "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/": {
+  "at": "2026-10-22T06:06:34.401Z"
+ },
  "https://openai.com/index/gpt-6-for-everyone/": {
   "at": "2026-10-09T18:21:05.907Z"
+ },
+ "https://openai.com/index/openai-models-google-cloud/": {
+  "at": "2026-10-22T06:06:34.401Z"
  },
  "https://t.co/E5Q4A1b0yI": {
   "at": "2026-10-19T18:43:21.139Z",
@@ -33,11 +29,6 @@
  "https://t.co/f9Qi1gVCJQ": {
   "at": "2026-10-19T18:43:21.139Z",
   "url": "https://x.com/Jiaru_Zou/status/2110400256647340476"
- },
- "https://www.anthropic.com/claude-haiku-5-5": {
-  "at": "2026-10-07T18:56:50.962Z",
-  "summary": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released. Claude Haiku 5.5 is designed for high-volume, cost-sensitive tasks. It reliably handles quick and repetitive workloads (like summaries, compactions, database queries, and classification requests). It pairs well with Opus 5.5 and Sonnet 5.5 as a subagent on coding work. And, since it’s also our fastest model to date, it works especially well for speed-sensitive tasks like live customer support and browser use.¹ Haiku 5.5 is available at a much lower price than Haiku 4.5. On average, it now cos",
-  "url": "https://www.anthropic.com/claude-haiku-5-5"
  },
  "https://www.anthropic.com/engineering/redesigning-source-control": {
   "at": "2026-10-13T19:15:57.860Z",
@@ -60,7 +51,7 @@
   "url": "https://www.anthropic.com/research/employment-at-anthropic"
  },
  "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/": {
-  "at": "2026-10-21T17:09:59.681Z"
+  "at": "2026-10-22T06:06:34.401Z"
  },
  "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/": {
   "at": "2026-10-10T15:06:36.105Z"

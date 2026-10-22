@@ -3464,6 +3464,15 @@
   },
   "hash": "f1d080d5cf6adfa0"
  },
+ "devto:4867472": {
+  "copy": {
+   "zh": {
+    "blurb": "ADR Guard VS Code 扩展帮助开发者记录、管理架构决策文档，防止决策随代码流失，支持自动生成和搜索。",
+    "title": "ADR Guard VS Code 插件：防止架构决策丢失"
+   }
+  },
+  "hash": "2228e791b7b4e0f9"
+ },
  "devto:4867501": {
   "copy": {
    "zh": {
@@ -4376,6 +4385,20 @@
   },
   "hash": "81b5805918ce0c6e"
  },
+ "devto:4880104": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示在 GKE 上搭建高吞吐模型路由网关，根据请求动态选择 Gemini 4 Argon、Gemini 3.8 Flash 或本地 Gemma 4，实现推理深度、延迟和费用的最佳平衡。",
+    "points": [
+     "使用 Envoy/Traffic Director 实现模型级路由。",
+     "基于延迟和费用策略自动切换模型。",
+     "支持自动伸缩、监控和实时日志。"
+    ],
+    "title": "GKE 多层模型路由：在 Gemini 4 Argon、Gemini 3.8 Flash 与本地 Gemma 4 之间平衡延迟与成本"
+   }
+  },
+  "hash": "5b174773987ccd96"
+ },
  "devto:4880310": {
   "copy": {
    "zh": {
@@ -4943,6 +4966,146 @@
    }
   },
   "hash": "aff25fead35b7db0"
+ },
+ "devto:4890855": {
+  "copy": {
+   "zh": {
+    "blurb": "作者开发开源工具，利用传感器实时读取实验室冷却器压力并自动发送提醒，提高实验室运行效率。",
+    "points": [
+     "实时获取压力数据并生成警报",
+     "AI 驱动工作流集成，降低人工检查频率"
+    ],
+    "title": "自动监测低温冷却器压力的工具"
+   }
+  },
+  "hash": "bf509599ad3dee05"
+ },
+ "devto:4891397": {
+  "copy": {
+   "zh": {
+    "blurb": "本周报汇总 Apache 生态系统中 Data Lakehouse 项目的最新特性、社区动态与案例，帮助开发者快速了解行业进展。",
+    "title": "Apache Data Lakehouse Weekly：2026年10月14‑21日"
+   }
+  },
+  "hash": "2af656609cdd5a39"
+ },
+ "devto:4892006": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目 slothd 旨在构建本地‑first、离线可用的 AI 守护进程，持续组织混乱的工作空间，免除云服务依赖。",
+    "points": [
+     "基于本地模型运行，无需网络连接。",
+     "持久化任务队列，支持离线持续执行。",
+     "插件化设计，可自定义工作流与工具集成。"
+    ],
+    "title": "slothd：本地离线 AI 守护进程，慢慢整理工作区"
+   }
+  },
+  "hash": "6e6aaa6e3a353082"
+ },
+ "devto:4892274": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示 Gemma 4 模型用于自动读取巴西 Pix 付款收据的实验，即便出现误读，模型仍能准确判定全部 12 条记录。",
+    "title": "Gemma 4 在我睡觉时检查 Pix 收据：全对 12/12，即使误读"
+   }
+  },
+  "hash": "e1fd59e5b2205f8a"
+ },
+ "devto:4892325": {
+  "copy": {
+   "zh": {
+    "blurb": "在开源 Ultra Video Editor 中加入 AI 驱动的音频描述生成功能，自动为视频内容生成可访问的文字说明。",
+    "title": "我的视频编辑器现在可为视频生成音频描述"
+   }
+  },
+  "hash": "c6c213a1e6612dae"
+ },
+ "devto:4892377": {
+  "copy": {
+   "zh": {
+    "blurb": "对比实验展示在同一 6 GB 显存 GPU 上，Qwen3 4B 相较 0.6B 在推理速度、内存占用和答案质量方面的提升。",
+    "title": "Qwen3 4B 与 0.6B 在 6 GB GPU 上的速度、显存与回答质量对比"
+   }
+  },
+  "hash": "2df14aecca434d1a"
+ },
+ "devto:4892412": {
+  "copy": {
+   "zh": {
+    "blurb": "提供 LicenseGuard MCP 服务器，实时监控并阻止 AI 代码生成工具向代码库写入 GPL 限制代码，自动检测许可证冲突并在生成阶段拦截。",
+    "points": [
+     "通过拦截 AI 生成的代码片段，实时检测是否包含 GPL 许可证代码。",
+     "提供基于 SPDX 的许可证匹配引擎，支持自定义白名单和策略。",
+     "可集成到 CI/CD 流程，自动阻止违规提交，降低法律风险。"
+    ],
+    "title": "防止 AI 代理在商业代码中意外引入 GPL 违规：LicenseGuard MCP 服务器"
+   }
+  },
+  "hash": "104e731ed843bec3"
+ },
+ "devto:4892413": {
+  "copy": {
+   "zh": {
+    "blurb": "作者提出为 AI 代理构建代码映射而非全量抓取的思路，0.2.0 引入 TypeScript 支持，0.2.1 让缺失分析可见。",
+    "points": [
+     "使用紧凑映射帮助 AI 快速定位代码位置。",
+     "TypeScript 支持提升语言解析准确性。",
+     "0.2.1 通过可视化缺失分析提升调试效率。"
+    ],
+    "title": "Sentinel‑IR‑MCP 0.2.0/0.2.1：添加 TypeScript 并显式缺失分析"
+   }
+  },
+  "hash": "8c514b6b637b25ac"
+ },
+ "devto:4892458": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍 MorningDrop 工具，基于 Gemma 的本地智能代理，自动审查前一晚的数据投放并进行自我检查，提升数据质量监控效率。",
+    "title": "MorningDrop：本地 Gemma 代理检查昨夜数据投放并自检"
+   }
+  },
+  "hash": "7ff996a0f5c38adb"
+ },
+ "devto:4894021": {
+  "copy": {
+   "zh": {
+    "blurb": "SlothDesk 是本地优先的 AI 驱动下载整理工具，采用两阶段执行、smolagents 与 LM Studio 本地推理，实现零覆盖写入。",
+    "points": [
+     "两阶段执行结合 smolagents，实现智能文件分类",
+     "使用 LM Studio 本地推理，保证零覆盖写入"
+    ],
+    "title": "SlothDesk – 本地优先 AI 下载整理器"
+   }
+  },
+  "hash": "030f82a2198bf356"
+ },
+ "devto:4894053": {
+  "copy": {
+   "zh": {
+    "blurb": "作者发现编写 README 文件比想象更困难，于是自行开发了一款自动生成 README 的解决方案，提高文档编写效率。",
+    "points": [
+     "提供一键生成结构化 README 的功能",
+     "支持自定义模板，简化文档编写流程"
+    ],
+    "title": "打造自己的 README 自动生成工具"
+   }
+  },
+  "hash": "fc157f5ab591d159"
+ },
+ "devto:4894098": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享使用 Next.js 前端、FastAPI 后端、检索增强生成（RAG）与 MCP 框架搭建文档智能系统的完整流程与经验。",
+    "points": [
+     "结合 RAG 实现文档检索与生成的闭环。",
+     "通过 MCP 管理 AI 代理的代码分析与执行。",
+     "详细阐述部署、性能调优及实战案例。"
+    ],
+    "title": "基于 Next.js、FastAPI、RAG 与 MCP 的 AI 文档智能平台构建实录"
+   }
+  },
+  "hash": "e8448ee88bd48b0a"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -5855,6 +6018,19 @@
   },
   "hash": "d5e8b5c9ab47abd6"
  },
+ "gh:knifelemon/filee": {
+  "copy": {
+   "zh": {
+    "blurb": "Filee 是一款免费开源的文件转换器，支持 255 种格式，离线拖拽即可转换图片、PDF、Office、视频、音频等，无需上传或依赖 Office。",
+    "points": [
+     "支持 255 种格式，覆盖图像、文档、视频等多媒体类型",
+     "完全离线运行，无需网络或第三方软件"
+    ],
+    "title": "Filee – 免费离线文件转换工具"
+   }
+  },
+  "hash": "13c054cca4e4c6bd"
+ },
  "gh:koala73/worldmonitor": {
   "copy": {
    "zh": {
@@ -6629,6 +6805,19 @@
    }
   },
   "hash": "8320eeef873e99fe"
+ },
+ "gh:tangency-labs/solidcraft": {
+  "copy": {
+   "zh": {
+    "blurb": "SolidCraft 是一款开源的参数化 3D CAD 软件，使用纯 Rust 实现，可在桌面、Web 端运行，并通过 MCP 提供自动化能力。",
+    "points": [
+     "全 Rust 实现，跨平台支持桌面和 Web",
+     "通过 MCP 实现 CAD 工作流的自动化"
+    ],
+    "title": "SolidCraft – 用纯 Rust 构建的参数化 3D CAD 应用"
+   }
+  },
+  "hash": "6caa9942f3382477"
  },
  "gh:tashfeenahmed/freellmapi": {
   "copy": {
@@ -9801,6 +9990,73 @@
   },
   "hash": "a7ea4521a44afe24"
  },
+ "hn:50180079": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI宣布其模型将在Google Cloud上提供，即用即部署，帮助企业在云端安全、可扩展地运行AI推理。",
+    "points": [
+     "在Google Cloud Marketplace提供即用即部署",
+     "支持安全、可扩展的AI推理服务"
+    ],
+    "title": "OpenAI模型登陆Google Cloud"
+   }
+  },
+  "hash": "882dc8c689b6036e"
+ },
+ "hn:50181175": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目通过分布式代理发现安全漏洞，并提供统一平台协调响应与披露，提升整体网络安全水平。",
+    "points": [
+     "利用分布式代理自动发现漏洞",
+     "提供统一平台协调披露与修复"
+    ],
+    "title": "Patch the Planet：全球协同披露关键漏洞"
+   }
+  },
+  "hash": "6a0bfba15c660ce4"
+ },
+ "hn:50183892": {
+  "copy": {
+   "zh": {
+    "blurb": "Omnara 提供持久化智能代理的开源 API，状态存储于 Postgres，支持权限、密钥管理，空闲时免付费，兼容 Claude Code 等工具。",
+    "points": [
+     "代理状态保存在 Postgres，重启不丢失。",
+     "内置 RBAC 与密钥管理，安全运行代理。",
+     "提供消息流与事件推送接口，易于集成。"
+    ],
+    "title": "Omnara：开源 Claude 管理代理替代品"
+   }
+  },
+  "hash": "3ed180955aa3575f"
+ },
+ "hn:50186037": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 推出的 Claude Duet 是支持多模态对话和音频交互的 AI 助手，面向企业提供可定制化服务。",
+    "points": [
+     "同步语音与文本对话",
+     "面向企业的可定制模型"
+    ],
+    "title": "Claude Duet"
+   }
+  },
+  "hash": "82bcf761977a3fdc"
+ },
+ "hn:50186129": {
+  "copy": {
+   "zh": {
+    "blurb": "Mistral 发布的最新大型语言模型，参数约 65 B，提升多语言能力和零‑shot/few‑shot 表现，开放 API 与权重供研发使用。",
+    "points": [
+     "拥有约 65 B 参数，支持 100+ 语言。",
+     "在多项基准上超越前代模型，推理质量提升。",
+     "提供公开 API 与可下载权重，便于二次研发。"
+    ],
+    "title": "Mistral Large 4"
+   }
+  },
+  "hash": "70767af2d4f57597"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -9905,6 +10161,20 @@
    }
   },
   "hash": "e9d5849d0f145a10"
+ },
+ "lobsters:2czsv4": {
+  "copy": {
+   "zh": {
+    "blurb": "LiteLLM 1.107.0 在 PyPI 被攻击，安装后会下载并运行凭证窃取器和后门，危及使用该库的 LLM 部署。",
+    "points": [
+     "恶意代码在安装后执行，窃取本地 AWS/OpenAI 等凭证。",
+     "攻击者在包中植入后门，允许远程控制受感染的服务器。",
+     "官方已撤回该版本并发布安全指南，建议锁定可信版本。"
+    ],
+    "title": "LiteLLM 1.107.0 PyPI 包被篡改，植入凭证窃取器和后门"
+   }
+  },
+  "hash": "80eff7b021b4da4c"
  },
  "lobsters:2h9opx": {
   "copy": {
@@ -10259,6 +10529,20 @@
   },
   "hash": "e387e31b264339da"
  },
+ "lobsters:9jgl3x": {
+  "copy": {
+   "zh": {
+    "blurb": "Google 官方发布的 Rust 语言编码规范，覆盖格式、命名、模块组织等，强调安全、可读性并提供 Clippy 配置示例。",
+    "points": [
+     "规范强调安全实践与代码可读性。",
+     "提供完整的 Clippy 检查配置和示例。",
+     "适用于 Google 内部项目及开源贡献。"
+    ],
+    "title": "Google Rust 风格指南"
+   }
+  },
+  "hash": "bc134d32b91bc38f"
+ },
  "lobsters:9lqyul": {
   "copy": {
    "zh": {
@@ -10498,6 +10782,20 @@
   },
   "hash": "3a56ac620ca92c1e"
  },
+ "lobsters:cdnepk": {
+  "copy": {
+   "zh": {
+    "blurb": "mjtsai 在博客中指出 Passkey 的 attestation 机制可能被滥用，攻击者可伪造凭证证明导致身份误认，并给出防御建议。",
+    "points": [
+     "Attestation 信息可被伪造，带来身份冒充风险。",
+     "建议在生产环境中禁用或严格校验 attestation。",
+     "呼吁 WebAuthn 标准进一步强化安全审计。"
+    ],
+    "title": "Passkeys 证明陷阱"
+   }
+  },
+  "hash": "016ab40707aab768"
+ },
  "lobsters:cjdy6d": {
   "copy": {
    "zh": {
@@ -10511,6 +10809,33 @@
    }
   },
   "hash": "c58490e7e6a550f3"
+ },
+ "lobsters:cq7wn7": {
+  "copy": {
+   "zh": {
+    "blurb": "BlickEditor 探讨在即时模式 UI 中使用缓存来提升性能的方案，避免每帧重绘全部元素，实现流畅交互。",
+    "points": [
+     "通过缓存 UI 片段减少渲染开销。",
+     "维持即时模式的响应性，兼容动态更新。",
+     "提供实现细节和性能对比数据。"
+    ],
+    "title": "不要全部丢弃：即时模式 UI 的缓存策略"
+   }
+  },
+  "hash": "468f74093e3a8272"
+ },
+ "lobsters:cquwex": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 Flow Typing 概念，将其作为分析程序线性性的全新视角，探讨类型系统与线性关系的交叉。",
+    "points": [
+     "将线性概念引入类型系统进行分析",
+     "提供对程序流动性的创新解释框架"
+    ],
+    "title": "Flow Typing：线性性的新视角"
+   }
+  },
+  "hash": "0cf029a8de95acf3"
  },
  "lobsters:cthze7": {
   "copy": {
@@ -10609,6 +10934,20 @@
   },
   "hash": "6858c79fecc154de"
  },
+ "lobsters:deqmg0": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍在 Erlang 项目中嵌入 EYG（Erlang Yacc）以生成解析器，提供示例代码和集成步骤。",
+    "points": [
+     "通过 EYG 生成 Erlang 代码的解析器，提升 DSL 处理能力。",
+     "支持直接在 Makefile 中调用，兼容 OTP 发行版。",
+     "示例展示如何将生成的模块与现有应用无缝集成。"
+    ],
+    "title": "在 Erlang 程序中嵌入 EYG"
+   }
+  },
+  "hash": "bc4edd28aa1c34f2"
+ },
  "lobsters:dl4h2a": {
   "copy": {
    "zh": {
@@ -10636,6 +10975,19 @@
    }
   },
   "hash": "954ae9447745e4bf"
+ },
+ "lobsters:dldfel": {
+  "copy": {
+   "zh": {
+    "blurb": "musl libc 的 regcomp 函数存在多处整数溢出，可能导致分配大小错误并触发堆写越界，危及系统安全。",
+    "points": [
+     "regcomp 中的整数溢出会产生错误的内存分配尺寸",
+     "可能导致堆写越界，构成潜在的安全漏洞"
+    ],
+    "title": "CVE-2026-107891：musl libc 正则编译整数溢出漏洞"
+   }
+  },
+  "hash": "915b541de0518e0e"
  },
  "lobsters:dodzdb": {
   "copy": {
@@ -11100,8 +11452,12 @@
  "lobsters:hty1qk": {
   "copy": {
    "zh": {
-    "blurb": "Zig 语言的 LSP 服务器 zls 更新至 0.17.0，包含性能改进与新功能，发布于 zigtools.org。",
-    "title": "zls 0.17.0 发布"
+    "blurb": "Zig 语言服务器 zls 发布 0.17.0 版本，加入最新语法支持并优化诊断与性能。",
+    "points": [
+     "支持最新 Zig 语法特性",
+     "改进诊断信息与运行性能"
+    ],
+    "title": "zls 0.17.0 发行"
    }
   },
   "hash": "cf989a35a5dda466"
@@ -11720,6 +12076,15 @@
   },
   "hash": "37c07c9025b2fb11"
  },
+ "lobsters:os7brs": {
+  "copy": {
+   "zh": {
+    "blurb": "文章讨论使用查表方法对数值近似进行校正，提高计算精度，提供实现示例和误差分析。",
+    "title": "使用查找表校正近似计算"
+   }
+  },
+  "hash": "45d957b525b94ccf"
+ },
  "lobsters:othohc": {
   "copy": {
    "zh": {
@@ -11793,6 +12158,20 @@
   },
   "hash": "9f83939f381d8391"
  },
+ "lobsters:pnpcso": {
+  "copy": {
+   "zh": {
+    "blurb": "GitLab 发布 19.5.1 关键安全补丁，修复多项高危漏洞，并提供升级指南，建议所有实例尽快更新。",
+    "points": [
+     "修补了权限提升和远程代码执行等高危漏洞。",
+     "包含完整的升级步骤和回滚说明。",
+     "强调及时更新以防止潜在攻击。"
+    ],
+    "title": "GitLab 紧急补丁 19.5.1 发布"
+   }
+  },
+  "hash": "ad6e33b87d6eb1d4"
+ },
  "lobsters:q0wobg": {
   "copy": {
    "zh": {
@@ -11824,6 +12203,15 @@
    }
   },
   "hash": "33a0a2d0b57bc59d"
+ },
+ "lobsters:qgbvku": {
+  "copy": {
+   "zh": {
+    "blurb": "APNIC 博客阐述利用 IPv6 隧道实现可编程延迟线，以同步发起脉冲式拒绝服务攻击的技术原理及潜在风险。",
+    "title": "将IPv6隧道转为可编程延迟线用于脉冲式DoS"
+   }
+  },
+  "hash": "154f7b71ff469832"
  },
  "lobsters:qgvj4p": {
   "copy": {
@@ -12209,6 +12597,15 @@
   },
   "hash": "839e66014c43f32c"
  },
+ "lobsters:urfgc9": {
+  "copy": {
+   "zh": {
+    "blurb": "研究展示利用 PyTorch 的 backward() 计算图执行任意指令，实现图灵完备的恶意代码，可在模型训练时隐蔽运行。",
+    "title": "利用 PyTorch 反向传播执行图灵完备恶意代码"
+   }
+  },
+  "hash": "ab0748b033ded25b"
+ },
  "lobsters:uzfa4k": {
   "copy": {
    "zh": {
@@ -12360,7 +12757,11 @@
  "lobsters:w9sxxq": {
   "copy": {
    "zh": {
-    "blurb": "文档介绍 Firefox 开发者工具的本地模式，允许在离线环境下调试网页，模拟本地资源和网络条件，提升调试效率。",
+    "blurb": "Firefox 开发者工具的本地模式允许在不连接远程服务器的情况下进行网页调试，提升隐私与调试效率。",
+    "points": [
+     "本地运行调试会话，无需网络",
+     "提升隐私并加快调试流程"
+    ],
     "title": "Firefox 本地模式"
    }
   },
@@ -12394,6 +12795,20 @@
   },
   "hash": "994f0e01a38c1c15"
  },
+ "lobsters:wi4nnl": {
+  "copy": {
+   "zh": {
+    "blurb": "Railway 于10月21日发布的安全披露博客，概述了近期发现的漏洞、修复措施及披露流程，提醒用户及时升级。",
+    "points": [
+     "详细列出受影响的组件及漏洞类型。",
+     "提供补丁和升级指引。",
+     "强调负责任披露和社区协作的重要性。"
+    ],
+    "title": "Railway 安全披露（10月21日）"
+   }
+  },
+  "hash": "2dca1799ad7b5a30"
+ },
  "lobsters:wn293o": {
   "copy": {
    "zh": {
@@ -12407,6 +12822,20 @@
    }
   },
   "hash": "aae3c053c91df299"
+ },
+ "lobsters:wno4h3": {
+  "copy": {
+   "zh": {
+    "blurb": "本文在 LWN 上对 Nix flakes 进行深入讲解，介绍其概念、工作原理以及在可复现构建中的优势。",
+    "points": [
+     "Flakes 提供统一的包和开发环境描述。",
+     "支持锁定依赖实现可重复构建。",
+     "示例展示如何在项目中启用 flakes。"
+    ],
+    "title": "Nix Flakes 解析指南"
+   }
+  },
+  "hash": "ecec82ceeeff927b"
  },
  "lobsters:wtobpt": {
   "copy": {

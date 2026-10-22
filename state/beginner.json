@@ -300,7 +300,7 @@
    "sourceKey": "gh:comfy-org/comfyui"
   },
   "discovery:gh:deepseek-ai/deepinfer": {
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:deepseek-ai/deepinfer",
@@ -448,7 +448,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -530,7 +530,7 @@
    "sourceKey": "gh:hbai-ltd/toonflow-app"
   },
   "discovery:gh:headroomlabs-ai/headroom": {
-   "observedAt": "2026-10-21T06:01:24.167Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:headroomlabs-ai/headroom",
@@ -542,7 +542,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-20T16:05:22.000Z",
+    "sourceUpdatedAt": "2026-10-22T05:19:27.000Z",
     "summary": {
      "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
      "zh": "headroom 提供压缩库、代理和 MCP 服务器，将代码、日志和 JSON 等内容在进入 LLM 前压缩，分别降低约 20% 与 60‑95% token。"
@@ -750,7 +750,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -825,7 +825,7 @@
    "sourceKey": "gh:librechat-ai/librechat"
   },
   "discovery:gh:madslorentzen/ai-job-search": {
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:madslorentzen/ai-job-search",
@@ -1044,7 +1044,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1637,6 +1637,39 @@
     }
    },
    "sourceKey": "hn:50168300"
+  },
+  "discovery:hn:50183892": {
+   "observedAt": "2026-10-22T06:06:34.401Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50183892",
+    "level": "starter",
+    "publishedAt": "2026-10-21T16:44:53.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-21T16:44:53.000Z",
+    "summary": {
+     "en": "Hey all, Kartik from Omnara (https://omnara.com) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost nothing while idle. You can message them and stream their events over the API. You may remember us from our early days, when we made a remote-control phone app for Claude Code and Codex. Since the harness ran on a laptop back then, we had to…",
+     "zh": "Omnara 提供持久化智能代理的开源 API，状态存储于 Postgres，支持权限、密钥管理，空闲时免付费，兼容 Claude Code 等工具。"
+    },
+    "title": {
+     "en": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+     "zh": "Omnara：开源 Claude 管理代理替代品"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://github.com/omnara-ai/omnara",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50183892"
   }
  },
  "dynamicHistory": {
@@ -6314,6 +6347,7 @@
   "https://github.com/mlabonne/llm-course": "2026-10-19T06:11:28.804Z",
   "https://github.com/modelcontextprotocol/inspector": "2026-10-06T09:37:13.355Z",
   "https://github.com/mudler/localai": "2026-10-20T17:00:45.974Z",
+  "https://github.com/omnara-ai/omnara": "2026-10-22T06:06:34.401Z",
   "https://github.com/open-webui/open-webui": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/codex": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/whisper": "2026-10-06T09:37:13.355Z",

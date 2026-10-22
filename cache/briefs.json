@@ -235,29 +235,30 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个仓库推出本地高性能推理和智能体平台——DeepInfer提升DeepSeek模型推理效率，Orca聚合Grok Bot等编码智能体，Graphify把代码转为可查询图谱，itsaplan让AI与项目管理协同，REA和Kule实现二进制逆向与文件级代理。[repos#1] [repos#5] [repos#7] [repos#8] [repos#10] [devto#9]",
-     "Hugging Face近期发布多款多模态模型，DeepSeek-V4.1-Flash在图文生成上得分85，Flux‑3系列强化图像到图像转换，LTX‑2.5拓展至图像到视频，显示图像相关任务的快速迭代。[hf#1] [hf#3] [hf#4]",
-     "AI行业安全与基础设施成为焦点：Qwen3‑Coder因美国人物设定导致代码安全下降；Anthropic上半年净亏超800亿美元；Google开源TorchTPU，为TPU上运行PyTorch提供原生支持。[news#1] [news#3] [news#2]",
-     "社区继续活跃于自托管生产力工具，Omnivore、Timeminator、AHP Matrix、Inca等项目在Hacker News上获关注，展示对开源替代商业服务的需求。[news#4] [news#5] [news#6] [news#7]"
+     "DeepSeek V4.1 Flash 在 HF 上高分（85）[hf#1]，且社区提供免费插件直接在 dsh 使用前沿模型[repos#3]，DeepInfer 推出高性能推理框架支持 DeepSeek 模型[repos#1]。",
+     "多款开源项目让 AI 代理更易部署：Graphify 将代码库转为可查询图谱[repos#5]，Claude Code 可视化指南助力开发者快速上手[repos#6]，Orca 提供多代理运行平台[repos#7]，ai-job-search 用 Claude Code 自动化求职[repos#4]。",
+     "‘Patch the Planet’ 项目展示全球协作，AI 代理发现并修补安全漏洞，推动跨组织响应[news#1]。",
+     "Google 生态加速：OpenAI 模型将上线 Google Cloud[news#2]，开源 TorchTPU 为 TPU 提供原生 PyTorch 支持[news#3]，EmbeddingGemma‑2 在 HF 发布用于特征提取[hf#6]。",
+     "视觉生成模型持续热度：Flux‑3 系列的图像‑到‑图像模型在 HF 高分[hf#3][hf#8]，Lightricks LTX‑2.5 推出图像‑到‑视频能力[hf#4]，MOSS Image 系列保持领先[hf#2][hf#5]。"
     ],
-    "headline": "开源AI工具链爆发：本地推理、智能体与多模态模型齐头并进"
+    "headline": "AI代理与工具生态快速增长：从DeepSeek模型到开源推理框架再到安全漏洞挖掘"
    }
   },
-  "hash": "c08256dcbe9fb494"
+  "hash": "4fd019fbed7945b2"
  },
  "2026-10-22": {
   "brief": {
    "zh": {
     "bullets": [
-     "多款开源代码助理与开发框架在GitHub上获得高关注，包含JeV Chat Jarvis、Gentle‑AI、Superpowers‑zh等，聚焦聊天决策、AI代码代理和中文增强功能。[repos#2] [repos#4] [repos#8]",
-     "新的AI模型在Hugging Face上取得高分，尤其是DeepSeek‑V4.1‑Flash‑1017在图文转文本任务中得分84.5，Flux‑3系列在图像‑图像转换上持续领先。[hf#1] [hf#2] [hf#9]",
-     "多个文本到图像模型（MOSS‑Image‑Base、MOSS‑Image‑SFT）以及图像‑文本模型（Muse‑Spark‑Open）显示社区在多模态生成方向的活跃布局。[hf#5] [hf#6] [hf#10]",
-     "首个开源企业级世界模型Utopia发布，标志着大模型在企业级应用的开源化尝试。[repos#6]"
+     "DeepSeek 推出高性能推理框架 DeepInfer [repos#2]，同日 DeepSeek‑V4.1‑Flash 模型在 HuggingFace 上发布，提升图文生成能力 [hf#1]；Flux‑3 系列在图像‑到‑图像任务中表现强劲 [hf#2][hf#8]。",
+     "本地化、离线 AI 代理工具盛行：Omnara 开源可持续运行的代理 API [news#3]，配套的 Orca 支持多代理 fleet [repos#8] 与 Graphify 将代码库转化为可查询知识图谱 [repos#9]，dev.to 上多篇文章分享本地 AI Daemon 与文档情报平台的实现经验 [devto#2][devto#8]。",
+     "dsh‑our‑free‑model 插件让用户无需登录或 API Key 即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型 [repos#3]，同时 Humanizer 技术可去除 AI 生成痕迹 [repos#10][hf#9]。",
+     "多模态生成模型持续增长：LTX‑2.5 推出图像‑到‑视频能力，MOSS‑Image‑Base 与 Muse‑Spark 在文本‑到‑图像上表现突出，drama‑3 为文本‑到‑语音提供高质量输出，均在 HuggingFace 上得分超过 74 分 [hf#3][hf#4][hf#5][hf#7]。"
     ],
-    "headline": "开源AI工具爆发：从代码助理到高性能图像模型，社区持续发布新项目"
+    "headline": "开源 AI 工具与模型生态快速扩张：本地化代理、免费前沿模型与多模态生成齐飞"
    }
   },
-  "hash": "53d421b9ac666d5f"
+  "hash": "ad78b9bb33eb11a2"
  },
  "2026-W41": {
   "brief": {
@@ -292,15 +293,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "Ebony‑Vinyl 在 dsh 插件中集成 DeepSeek V4.1 Flash 与 Kimi K3 等前沿模型，用户无需登录或 API Key 即可免费无限调用 [repos#1]",
-     "DeepSeek 推出 DeepInfer 高性能推理框架，显著提升大规模模型部署速度，已在 GitHub 与新闻中同步报道 [repos#8] [news#1]",
-     "多个开源代理平台（xerj 的自动索引、orca 的多模型代理、rea 的逆向工程）以及研究报道的 Hybrid Reasoning Agents，正推动数据检索与代码生成的 Agent‑first 工作流 [repos#3] [repos#6] [repos#7] [news#4]",
-     "Hugging Face 热门榜单显示，图像‑文本、图像‑到‑图像等多模态模型（DeepSeek‑V4.1‑Flash、Flux‑3、LTX‑2.5 等）持续走高，标志多模态 AI 生态快速扩张 [hf#1] [hf#2] [hf#3] [hf#7]",
-     "监管力度加剧：DeepSeek 被美国联邦民用机构禁用，WhatsApp 隐藏 LLM 使用指引，业界呼吁加强模型透明度与数据可靠性 [news#5] [news#3] [news#10] [news#7]"
+     "免费插件 dsh-our-free-model 让用户无需登录即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，配合 DeepInfer 推理框架提升本地性能 [repos#1] [hf#1] [news#1].",
+     "多模型代理平台崛起：XERJ 自动索引数据激活 AI 代理、Orca 支持 Grok/Claude Code 代理以及 Hybrid Reasoning Agents 把潜在空间推理与文本动作结合，推动端到端工作流 [repos#3] [repos#6] [news#4].",
+     "图像生成生态蓬勃：Flux-3 系列模型在 Hugging Face 受热追捧，配合 ComfyUI 本地最快的扩散推理引擎，促进从图像到视频的跨模态创作 [hf#2] [hf#3] [repos#4].",
+     "AI 驱动的求职工具涌现：ai-job-search 提供 Claude Code 支持的简历与求职信自动化，freehire 则作为开源求职搜索引擎，帮助用户在本地化环境中寻找机会 [repos#2] [repos#5].",
+     "政策与合规同步：美国 DHS 将 DeepSeek 列入禁用名单，WhatsApp 隐藏 LLM 指令，Lobsters 更新 AI/LLM 标签政策，凸显监管对模型使用的快速响应 [news#5] [news#3] [lobsters#1]."
     ],
-    "headline": "开源大模型与代理工具爆发式增长，监管审视同步提升"
+    "headline": "前沿大模型免费插件与本地代理平台激增，监管同步收紧"
    }
   },
-  "hash": "4257e4036919a097"
+  "hash": "e4ac86b3d60667ce"
  }
 }

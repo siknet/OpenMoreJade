@@ -11280,21 +11280,21 @@
    "category": "release",
    "key": "hn:50169053",
    "metrics": {
-    "comments": 86,
+    "comments": 89,
     "frontPage": 0,
-    "points": 373
+    "points": 378
    },
    "news": {
     "author": "ilreb",
-    "comments": 86,
+    "comments": 89,
     "createdAt": "2026-10-20T16:40:24.000Z",
     "domain": "github.com",
     "hnId": 50169053,
     "hnUrl": "https://news.ycombinator.com/item?id=50169053",
-    "points": 373,
-    "showRank": 26
+    "points": 378,
+    "showRank": 27
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T16:40:24.000Z",
    "refs": [
     "gh:google-pytorch/torch_tpu"
@@ -11319,21 +11319,21 @@
    "category": "discussion",
    "key": "hn:50171966",
    "metrics": {
-    "comments": 90,
+    "comments": 94,
     "frontPage": 0,
-    "points": 174
+    "points": 187
    },
    "news": {
     "author": "throwa356262",
-    "comments": 90,
+    "comments": 94,
     "createdAt": "2026-10-20T20:09:46.000Z",
     "domain": "reuters.com",
     "hnId": 50171966,
     "hnUrl": "https://news.ycombinator.com/item?id=50171966",
-    "points": 174,
-    "showRank": 55
+    "points": 187,
+    "showRank": 54
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T20:09:46.000Z",
    "refs": [
     "url:reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20"
@@ -11514,21 +11514,21 @@
    "category": "discussion",
    "key": "hn:50179706",
    "metrics": {
-    "comments": 115,
+    "comments": 117,
     "frontPage": 0,
-    "points": 230
+    "points": 240
    },
    "news": {
     "author": "mattifrank",
-    "comments": 115,
+    "comments": 117,
     "createdAt": "2026-10-21T12:22:39.000Z",
     "domain": "hirundo.io",
     "hnId": 50179706,
     "hnUrl": "https://news.ycombinator.com/item?id=50179706",
-    "points": 230,
-    "showRank": 42
+    "points": 240,
+    "showRank": 44
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T12:22:39.000Z",
    "refs": [
     "url:hirundo.io/blog/qwen3-coder-vulnerabilities"
@@ -11549,33 +11549,116 @@
    "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities"
   },
   {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50180079",
+   "metrics": {
+    "comments": 112,
+    "frontPage": 0,
+    "points": 275
+   },
+   "news": {
+    "author": "armcat",
+    "comments": 112,
+    "createdAt": "2026-10-21T12:53:11.000Z",
+    "domain": "openai.com",
+    "hnId": 50180079,
+    "hnUrl": "https://news.ycombinator.com/item?id=50180079",
+    "points": 275,
+    "showRank": 38
+   },
+   "observedAt": "2026-10-22T06:06:34.401Z",
+   "publishedAt": "2026-10-21T12:53:11.000Z",
+   "refs": [
+    "url:openai.com/index/openai-models-google-cloud"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:openai",
+     "domain:openai.com",
+     "weak:model",
+     "weak:models",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50181175",
+   "metrics": {
+    "comments": 167,
+    "frontPage": 0,
+    "points": 249
+   },
+   "news": {
+    "author": "nr378",
+    "comments": 167,
+    "createdAt": "2026-10-21T14:03:43.000Z",
+    "domain": "openai.com",
+    "hnId": 50181175,
+    "hnUrl": "https://news.ycombinator.com/item?id=50181175",
+    "points": 249,
+    "showRank": 43
+   },
+   "observedAt": "2026-10-22T06:06:34.401Z",
+   "publishedAt": "2026-10-21T14:03:43.000Z",
+   "refs": [
+    "url:openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+   ],
+   "relevance": {
+    "reasons": [
+     "domain:openai.com",
+     "weak:agent",
+     "weak:agents",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "https://patchtheplanet.org/",
+   "tags": [],
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+  },
+  {
    "board": "devto",
    "category": "release",
    "devto": {
     "author": "Sloan the DEV Moderator",
-    "comments": 27,
+    "comments": 62,
     "createdAt": "2026-10-21T13:00:00Z",
     "domain": "dev.to",
     "id": 4766456,
-    "points": 24,
+    "points": 28,
     "url": "https://dev.to/sloan/welcome-thread-v-398-10a6"
    },
    "key": "devto:4766456",
    "metrics": {
-    "comments": 27,
+    "comments": 62,
     "frontPage": 0,
-    "points": 24
+    "points": 28
    },
    "news": {
     "author": "Sloan the DEV Moderator",
-    "comments": 27,
+    "comments": 62,
     "createdAt": "2026-10-21T13:00:00Z",
     "domain": "dev.to",
     "hnId": 4766456,
     "hnUrl": "https://dev.to/sloan/welcome-thread-v-398-10a6",
-    "points": 24
+    "points": 28
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T13:00:00Z",
    "refs": [],
    "relevance": {
@@ -11653,29 +11736,29 @@
    "category": "tool",
    "devto": {
     "author": "nyaomaru",
-    "comments": 5,
+    "comments": 19,
     "createdAt": "2026-10-21T15:08:25Z",
     "domain": "dev.to",
     "id": 4858037,
-    "points": 40,
+    "points": 69,
     "url": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf"
    },
    "key": "devto:4858037",
    "metrics": {
-    "comments": 5,
+    "comments": 19,
     "frontPage": 0,
-    "points": 40
+    "points": 69
    },
    "news": {
     "author": "nyaomaru",
-    "comments": 5,
+    "comments": 19,
     "createdAt": "2026-10-21T15:08:25Z",
     "domain": "dev.to",
     "hnId": 4858037,
     "hnUrl": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
-    "points": 40
+    "points": 69
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T15:08:25Z",
    "refs": [],
    "relevance": {
@@ -11831,7 +11914,7 @@
     "hnUrl": "https://dev.to/googlecloud/automated-incident-triage-on-gke-with-gemini-4-argon-and-model-context-protocol-correlating-24eb",
     "points": 5
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T19:14:39Z",
    "refs": [],
    "relevance": {
@@ -11916,14 +11999,14 @@
     "createdAt": "2026-10-21T15:28:00Z",
     "domain": "dev.to",
     "id": 4884266,
-    "points": 6,
+    "points": 8,
     "url": "https://dev.to/gde/slothsre-napops-an-overnight-gemma-4-adk-agent-that-compresses-418-lines-of-3-am-alerts-into-a-1pk6"
    },
    "key": "devto:4884266",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 6
+    "points": 8
    },
    "news": {
     "author": "Robina Mirbahar",
@@ -11932,9 +12015,9 @@
     "domain": "dev.to",
     "hnId": 4884266,
     "hnUrl": "https://dev.to/gde/slothsre-napops-an-overnight-gemma-4-adk-agent-that-compresses-418-lines-of-3-am-alerts-into-a-1pk6",
-    "points": 6
+    "points": 8
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T15:28:00Z",
    "refs": [],
    "relevance": {
@@ -12506,7 +12589,7 @@
     "hnUrl": "https://dev.to/googleai/multi-model-agentic-workflows-claude-opus-55-sonnet-55-land-in-google-antigravity-2kmb",
     "points": 10
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T17:56:15Z",
    "refs": [],
    "relevance": {
@@ -14062,7 +14145,7 @@
     "hnUrl": "https://dev.to/florianrappl/my-oss-projects-dets-1gjk",
     "points": 6
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T09:16:08Z",
    "refs": [],
    "relevance": {
@@ -14921,28 +15004,28 @@
    "key": "lobsters:73ozwc",
    "lobsters": {
     "author": "veqq",
-    "comments": 5,
+    "comments": 12,
     "createdAt": "2026-10-20T20:01:13.638-05:00",
     "domain": "lobste.rs",
-    "points": 29,
+    "points": 40,
     "shortId": "73ozwc",
     "url": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 12,
     "frontPage": 0,
-    "points": 29
+    "points": 40
    },
    "news": {
     "author": "veqq",
-    "comments": 5,
+    "comments": 12,
     "createdAt": "2026-10-20T20:01:13.638-05:00",
     "domain": "lobste.rs",
     "hnId": 429468348,
     "hnUrl": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october",
-    "points": 29
+    "points": 40
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T20:01:13.638-05:00",
    "refs": [],
    "relevance": {
@@ -15069,28 +15152,28 @@
    "key": "lobsters:dlbufy",
    "lobsters": {
     "author": "dgv",
-    "comments": 14,
+    "comments": 15,
     "createdAt": "2026-10-20T12:33:54.484-05:00",
     "domain": "blog.joinmastodon.org",
-    "points": 41,
+    "points": 45,
     "shortId": "dlbufy",
     "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/"
    },
    "metrics": {
-    "comments": 14,
+    "comments": 15,
     "frontPage": 0,
-    "points": 41
+    "points": 45
    },
    "news": {
     "author": "dgv",
-    "comments": 14,
+    "comments": 15,
     "createdAt": "2026-10-20T12:33:54.484-05:00",
     "domain": "blog.joinmastodon.org",
     "hnId": 821884894,
     "hnUrl": "https://lobste.rs/s/dlbufy/mastodon_5_0_closer_look",
-    "points": 41
+    "points": 45
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T12:33:54.484-05:00",
    "refs": [],
    "relevance": {
@@ -15119,28 +15202,28 @@
    "key": "lobsters:ebsqsp",
    "lobsters": {
     "author": "pims",
-    "comments": 2,
+    "comments": 11,
     "createdAt": "2026-10-21T08:50:10.534-05:00",
     "domain": "scotthelme.co.uk",
-    "points": 13,
+    "points": 49,
     "shortId": "ebsqsp",
     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 11,
     "frontPage": 0,
-    "points": 13
+    "points": 49
    },
    "news": {
     "author": "pims",
-    "comments": 2,
+    "comments": 11,
     "createdAt": "2026-10-21T08:50:10.534-05:00",
     "domain": "scotthelme.co.uk",
     "hnId": 866343337,
     "hnUrl": "https://lobste.rs/s/ebsqsp/eight_bits_trust_emudhra_s_ca_keys_cracked",
-    "points": 13
+    "points": 49
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T08:50:10.534-05:00",
    "refs": [],
    "relevance": {
@@ -15169,28 +15252,28 @@
    "key": "lobsters:ekxoyt",
    "lobsters": {
     "author": "pushcx",
-    "comments": 93,
+    "comments": 123,
     "createdAt": "2026-10-20T17:23:54.452-05:00",
     "domain": "php.net",
-    "points": 147,
+    "points": 185,
     "shortId": "ekxoyt",
     "url": "https://www.php.net/archive/2026.php#2026-10-20-1"
    },
    "metrics": {
-    "comments": 93,
+    "comments": 123,
     "frontPage": 0,
-    "points": 147
+    "points": 185
    },
    "news": {
     "author": "pushcx",
-    "comments": 93,
+    "comments": 123,
     "createdAt": "2026-10-20T17:23:54.452-05:00",
     "domain": "php.net",
     "hnId": 881690789,
     "hnUrl": "https://lobste.rs/s/ekxoyt/upcoming_critical_php_security_release",
-    "points": 147
+    "points": 185
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-20T17:23:54.452-05:00",
    "refs": [],
    "relevance": {
@@ -15219,28 +15302,28 @@
    "key": "lobsters:gu7bow",
    "lobsters": {
     "author": "easrng",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-21T10:53:37.372-05:00",
     "domain": "nodejs.org",
-    "points": 5,
+    "points": 14,
     "shortId": "gu7bow",
     "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 5
+    "points": 14
    },
    "news": {
     "author": "easrng",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-21T10:53:37.372-05:00",
     "domain": "nodejs.org",
     "hnId": 1018189040,
     "hnUrl": "https://lobste.rs/s/gu7bow/node_js_wednesday_october_21_2026",
-    "points": 5
+    "points": 14
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T10:53:37.372-05:00",
    "refs": [],
    "relevance": {
@@ -15270,28 +15353,28 @@
    "key": "lobsters:hty1qk",
    "lobsters": {
     "author": "FedericoSchonborn",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-21T10:24:05.938-05:00",
     "domain": "zigtools.org",
-    "points": 13,
+    "points": 57,
     "shortId": "hty1qk",
     "url": "https://zigtools.org/zls/releases/0.17.0/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 13
+    "points": 57
    },
    "news": {
     "author": "FedericoSchonborn",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-21T10:24:05.938-05:00",
     "domain": "zigtools.org",
     "hnId": 1078222412,
     "hnUrl": "https://lobste.rs/s/hty1qk/zls_0_17_0",
-    "points": 13
+    "points": 57
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T10:24:05.938-05:00",
    "refs": [],
    "relevance": {
@@ -15308,7 +15391,8 @@
    "tags": [
     "source:lobsters",
     "tag:hottest",
-    "tag:zig"
+    "tag:zig",
+    "tag:release"
    ],
    "title": "zls 0.17.0",
    "url": "https://zigtools.org/zls/releases/0.17.0/"
@@ -15319,28 +15403,28 @@
    "key": "lobsters:mfserj",
    "lobsters": {
     "author": "xvw",
-    "comments": 0,
+    "comments": 7,
     "createdAt": "2026-10-21T02:51:20.811-05:00",
     "domain": "uniker.nl",
-    "points": 45,
+    "points": 58,
     "shortId": "mfserj",
     "url": "https://uniker.nl/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 7,
     "frontPage": 0,
-    "points": 45
+    "points": 58
    },
    "news": {
     "author": "xvw",
-    "comments": 0,
+    "comments": 7,
     "createdAt": "2026-10-21T02:51:20.811-05:00",
     "domain": "uniker.nl",
     "hnId": 1356775615,
     "hnUrl": "https://lobste.rs/s/mfserj/unikernels_ocaml",
-    "points": 45
+    "points": 58
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T02:51:20.811-05:00",
    "refs": [],
    "relevance": {
@@ -15471,14 +15555,14 @@
     "comments": 1,
     "createdAt": "2026-10-21T02:13:16.777-05:00",
     "domain": "groups.google.com",
-    "points": 13,
+    "points": 21,
     "shortId": "othohc",
     "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 13
+    "points": 21
    },
    "news": {
     "author": "strugee",
@@ -15487,9 +15571,9 @@
     "domain": "groups.google.com",
     "hnId": 1500721968,
     "hnUrl": "https://lobste.rs/s/othohc/firefox_security_patch_tests_are_now",
-    "points": 13
+    "points": 21
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T02:13:16.777-05:00",
    "refs": [],
    "relevance": {
@@ -15569,28 +15653,28 @@
    "key": "lobsters:tsfina",
    "lobsters": {
     "author": "veqq",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-21T02:33:04.463-05:00",
     "domain": "beyondloom.com",
-    "points": 23,
+    "points": 37,
     "shortId": "tsfina",
     "url": "https://beyondloom.com/blog/vectorgraphics.html"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 23
+    "points": 37
    },
    "news": {
     "author": "veqq",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-21T02:33:04.463-05:00",
     "domain": "beyondloom.com",
     "hnId": 1801272358,
     "hnUrl": "https://lobste.rs/s/tsfina/vector_graphics_lil",
-    "points": 23
+    "points": 37
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T02:33:04.463-05:00",
    "refs": [],
    "relevance": {
@@ -15622,14 +15706,14 @@
     "comments": 6,
     "createdAt": "2026-10-21T01:16:50.204-05:00",
     "domain": "joshwcomeau.com",
-    "points": 43,
+    "points": 58,
     "shortId": "vidyh0",
     "url": "https://www.joshwcomeau.com/css/interop-2027/"
    },
    "metrics": {
     "comments": 6,
     "frontPage": 0,
-    "points": 43
+    "points": 58
    },
    "news": {
     "author": "typesanitizer",
@@ -15638,9 +15722,9 @@
     "domain": "joshwcomeau.com",
     "hnId": 1905335748,
     "hnUrl": "https://lobste.rs/s/vidyh0/future_css",
-    "points": 43
+    "points": 58
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T01:16:50.204-05:00",
    "refs": [],
    "relevance": {
@@ -15668,28 +15752,28 @@
    "key": "lobsters:w9sxxq",
    "lobsters": {
     "author": "lim",
-    "comments": 0,
+    "comments": 17,
     "createdAt": "2026-10-21T10:47:59.191-05:00",
     "domain": "firefox-source-docs.mozilla.org",
-    "points": 7,
+    "points": 88,
     "shortId": "w9sxxq",
     "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 17,
     "frontPage": 0,
-    "points": 7
+    "points": 88
    },
    "news": {
     "author": "lim",
-    "comments": 0,
+    "comments": 17,
     "createdAt": "2026-10-21T10:47:59.191-05:00",
     "domain": "firefox-source-docs.mozilla.org",
     "hnId": 1951384526,
     "hnUrl": "https://lobste.rs/s/w9sxxq/firefox_local_mode",
-    "points": 7
+    "points": 88
    },
-   "observedAt": "2026-10-21T17:09:59.681Z",
+   "observedAt": "2026-10-22T06:06:34.401Z",
    "publishedAt": "2026-10-21T10:47:59.191-05:00",
    "refs": [],
    "relevance": {
@@ -15763,60 +15847,67 @@
   }
  ],
  "date": "2026-10-21",
- "fetchedAt": "2026-10-21T17:09:59.681Z",
+ "fetchedAt": "2026-10-22T06:06:34.401Z",
  "runs": [
   "2026-10-20T17:00:45.974Z",
   "2026-10-21T06:01:24.167Z",
-  "2026-10-21T17:09:59.681Z"
+  "2026-10-21T17:09:59.681Z",
+  "2026-10-22T06:06:34.401Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 59,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "dev-to",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 317,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "count": 319,
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "github-search",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 166,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "count": 163,
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "github-trending",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "news",
    "count": 74,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 97,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "lobsters",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15824,15 +15915,16 @@
   {
    "board": "social",
    "count": 2,
-   "fetchedAt": "2026-10-21T17:09:59.681Z",
+   "fetchedAt": "2026-10-22T06:06:34.401Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-22T06:06:34.401Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-20T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-21T16:00:00.000Z"
  }
