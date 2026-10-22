@@ -4109,6 +4109,15 @@
   },
   "hash": "6e80ed6911f22777"
  },
+ "devto:4875816": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍一种 JavaScript Markdown 编辑器，添加到表单后不会导致提交按钮失效或页面崩溃，解决了常见的表单破坏问题。",
+    "title": "不会破坏表单的 JavaScript Markdown 编辑器"
+   }
+  },
+  "hash": "63bd8be7e5101585"
+ },
  "devto:4875953": {
   "copy": {
    "zh": {
@@ -4398,6 +4407,20 @@
    }
   },
   "hash": "5b174773987ccd96"
+ },
+ "devto:4880107": {
+  "copy": {
+   "zh": {
+    "blurb": "本文阐述了在 Google Kubernetes Engine 上使用 VPA CPU 启动加速、GCPBackendPolicy 连接排空以及会话检查点，实现长生命周期 Gemini 4 Argon 代理的可伸缩部署。",
+    "points": [
+     "VPA 自动调节 CPU 提升启动速度。",
+     "连接排空确保流量平滑迁移，避免会话中断。",
+     "会话检查点实现持久化，支持故障恢复。"
+    ],
+    "title": "在 GKE 上扩展有状态 Gemini 4 Argon 代理会话"
+   }
+  },
+  "hash": "8060079b0e7ef07f"
  },
  "devto:4880310": {
   "copy": {
@@ -5067,6 +5090,20 @@
   },
   "hash": "7ff996a0f5c38adb"
  },
+ "devto:4893750": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Dev.to 抨击把 AI 当中间层的做法，强调直接与模型交互以获得更精准、透明的结果。",
+    "points": [
+     "呼吁开发者放弃代理层，直接调用模型 API。",
+     "指出代理会引入延迟、隐私风险和信息失真。",
+     "提供实战示例展示如何在代码中直接使用 OpenAI 接口。"
+    ],
+    "title": "别在我和你的 AI 之间充当代理"
+   }
+  },
+  "hash": "2d11a7472c0e1632"
+ },
  "devto:4894021": {
   "copy": {
    "zh": {
@@ -5106,6 +5143,131 @@
    }
   },
   "hash": "e8448ee88bd48b0a"
+ },
+ "devto:4894110": {
+  "copy": {
+   "zh": {
+    "blurb": "作者基准测试发现，Git 2.56 的 last-modified 命令在单一目录下快速（861 ms），但在散布的文件路径上慢至 2981 ms，并指出路径排序会影响结果。",
+    "points": [
+     "单目录一次性遍历效率高。",
+     "散布路径导致多次文件系统查询，性能下降。",
+     "父子路径顺序会导致结果行被意外忽略。"
+    ],
+    "title": "Git 2.56 last-modified 命令的性能差异"
+   }
+  },
+  "hash": "3482438a95c1a9b6"
+ },
+ "devto:4895051": {
+  "copy": {
+   "zh": {
+    "blurb": "通过四个模拟的首次使用者和简易审计工作流，提供可复制的提示，让用户快速在自己的应用上运行测试。",
+    "points": [
+     "四个模拟用户覆盖常见使用路径",
+     "简易审计工作流实现自动化检测",
+     "一键复制提示即可在目标应用直接使用"
+    ],
+    "title": "我构建了一个代理技能，模拟四位新用户测试你的应用"
+   }
+  },
+  "hash": "ed4dec4c19b3b806"
+ },
+ "devto:4896619": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享在构建社交平台 Crowdwide 时的最新进展与挑战，虽核心功能接近完成，但仍有新需求不断出现。",
+    "points": [
+     "核心功能已接近完成，进入收尾阶段",
+     "持续出现新需求驱动迭代改进",
+     "平台独特特性将于后续公布"
+    ],
+    "title": "Crowdwide 第20天：快完成了…但总有新事要做！"
+   }
+  },
+  "hash": "a4951f0d44585e3c"
+ },
+ "devto:4896851": {
+  "copy": {
+   "zh": {
+    "blurb": "Naman 在 LFX 2026 导师计划期间为 OpenEverest 开发了实时 UI Schema Playground，提供可视化编辑和即时预览，提升用户对 schema 的理解和调试效率。",
+    "title": "为 OpenEverest 构建实时 UI Schema Playground（LFX 2026 导师计划）"
+   }
+  },
+  "hash": "6428652e2157d380"
+ },
+ "devto:4896936": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了如何通过自定义技能，将多个 AI 代理并行编排，实现跨模型协作工作流，使用 Google Antigravity 作为平台。",
+    "points": [
+     "自定义技能让不同模型能够在同一流水线中协同工作。",
+     "Google Antigravity 提供统一的调度与资源管理接口。",
+     "支持并行执行，提高整体推理吞吐量。"
+    ],
+    "title": "使用 Google Antigravity 构建跨模型协同工作流"
+   }
+  },
+  "hash": "d8069cc1c3a211da"
+ },
+ "devto:4897315": {
+  "copy": {
+   "zh": {
+    "blurb": "开发者为 Hacktoberfest AI 挑战第 3 周打造 LaunchLazy 工具，自动化应用发布流程，提供开箱即用的启动脚本，帮助项目快速上线。",
+    "title": "The App Worked. The Launch Wasn't Ready. So I Built LaunchLazy"
+   }
+  },
+  "hash": "a58f08dfa03233ec"
+ },
+ "devto:4897746": {
+  "copy": {
+   "zh": {
+    "blurb": "作者指出市面上编码代理层出不穷，选择将工具实现为本地代理而非 IDE 钩子，以获得更高的灵活性、易于集成并提升安全性。",
+    "points": [
+     "本地代理方式避免侵入 IDE，实现更灵活的调用。",
+     "统一入口可轻松切换不同编码代理。",
+     "提升安全性，避免代码注入风险。"
+    ],
+    "title": "为何将编码代理工具构建为本地代理而非钩子"
+   }
+  },
+  "hash": "faeaa26d1f544a5c"
+ },
+ "devto:4897862": {
+  "copy": {
+   "zh": {
+    "blurb": "Ditto 是一款 Chrome 扩展，使用本地运行的 Gemma 4 大模型，从私有个人资料自动填充网页表单，测试 114 项中 112 项正确，错误项会被标记。",
+    "title": "Ditto: type it once, and Gemma 4 on your laptop fills every form after that"
+   }
+  },
+  "hash": "68fc60b45e90ddee"
+ },
+ "devto:4897896": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章宣布 Sanity Challenge 的获奖团队，展示他们利用 Sanity 平台构建的创新项目。",
+    "points": [
+     "获奖项目涵盖内容管理、实时协作与低代码工具。",
+     "强调 Sanity 与开源社区的深度合作。",
+     "提供获奖者的项目链接与技术栈概览。"
+    ],
+    "title": "恭喜 Sanity Challenge 获奖者！"
+   }
+  },
+  "hash": "4ec98410c2ee360f"
+ },
+ "devto:4898187": {
+  "copy": {
+   "zh": {
+    "blurb": "文章揭示一种鲜为人知的故障模式：日志显示结账 redesign 已发布，但实际内存未被写入，只是经过审计，强调审计而非直接写入的风险。",
+    "points": [
+     "日志可能误导，实际内存未持久化。",
+     "通过审计而非直接写入捕获此类失败。",
+     "建议在发布前进行内存一致性验证。"
+    ],
+    "title": "内存未被写入，而是被审计"
+   }
+  },
+  "hash": "8bc942d8e3da353f"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -5156,6 +5318,15 @@
    }
   },
   "hash": "fda139b9f0d84c6f"
+ },
+ "gh:ai-job-search-dev/ai-job-search": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一个在本机运行的 AI 求职框架，基于 Claude Code 自动评估职位、定制简历、撰写求职信并进行面试准备，代码可自行 Fork 使用。",
+    "title": "ai-job-search-dev/ai-job-search"
+   }
+  },
+  "hash": "1048df0b7009d080"
  },
  "gh:akitaonrails/ai-memory": {
   "copy": {
@@ -5392,6 +5563,20 @@
    }
   },
   "hash": "34e52d9b486ab67f"
+ },
+ "gh:cheaper-inference/omniroute": {
+  "copy": {
+   "zh": {
+    "blurb": "OmniRoute 是一款免费 MIT 许可的 AI 网关，单一端点统一 375 家供应商（150+ 免费），支持 1,400 多种模型，包括 Kimi、Claude、GPT、Gemini 等，兼容多种 IDE 插件，并具备配额感知自动回退、RTK+Caveman 压缩可节省 15‑95% token，支持桌面和 PWA。",
+    "points": [
+     "单端点整合 375 家供应商，覆盖 1,400+ 模型。",
+     "RTK+Caveman 压缩技术可节省 15‑95% token 使用。",
+     "配额感知自动回退与桌面/PWA 支持提升可靠性。"
+    ],
+    "title": "OmniRoute：免费MIT AI网关"
+   }
+  },
+  "hash": "03745b77508d9d4c"
  },
  "gh:code-yeongyu/oh-my-openagent": {
   "copy": {
@@ -5689,6 +5874,20 @@
   },
   "hash": "1dc014079f51c09c"
  },
+ "gh:firecrawl/firecrawl": {
+  "copy": {
+   "zh": {
+    "blurb": "firecrawl 是一个 TypeScript 库，帮助 AI 代理从网页及其他在线来源抓取、清洗数据，以支持大模型的检索增强和实时信息获取。",
+    "points": [
+     "支持自动化爬取、结构化解析和摘要生成。",
+     "内置速率限制与反爬虫规避策略。",
+     "可直接集成至 LangChain 等工具链。"
+    ],
+    "title": "firecrawl：为 AI 代理提供网页数据的库"
+   }
+  },
+  "hash": "4f9bf7703d7535bb"
+ },
  "gh:garrytan/gstack": {
   "copy": {
    "zh": {
@@ -5717,6 +5916,15 @@
    }
   },
   "hash": "75f6a58e2a1c07b2"
+ },
+ "gh:genspark-ai/genoffice": {
+  "copy": {
+   "zh": {
+    "blurb": "genoffice 是一套免费开源的 AI 办公套件，包含文档、表格、幻灯片、PDF、Markdown 与 HTML 编辑器，内置 AI 代理并提供 CLI，可本地编辑 .docx/.xlsx/.pptx 文件，支持自带 API 密钥，跨 macOS、Windows 与 Linux。",
+    "title": "genspark-ai/genoffice"
+   }
+  },
+  "hash": "d44cfe15147134d3"
  },
  "gh:gentleman-programming/gentle-ai": {
   "copy": {
@@ -5905,6 +6113,15 @@
    }
   },
   "hash": "fb7b3e4e035257ae"
+ },
+ "gh:img2threejs/img2threejs": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目将参考图片中的物体转化为纯代码、可过程化、质量受控、可直接动画的 Three.js 模型，实现高效的图像‑到‑3D 生成，节省 token 消耗。",
+    "title": "img2threejs/img2threejs"
+   }
+  },
+  "hash": "ed323f24e0f2de08"
  },
  "gh:infiniflow/ragflow": {
   "copy": {
@@ -7552,6 +7769,20 @@
    }
   },
   "hash": "fac82e9232b6e734"
+ },
+ "hf:recursivesi/flint": {
+  "copy": {
+   "zh": {
+    "blurb": "Flint 是 RecursiveSI 在 Hugging Face 上发布的文本生成模型，定位为高效、可定制的语言模型。",
+    "points": [
+     "基于 Transformer 架构，支持长上下文生成。",
+     "提供简易的推理接口，适配多种硬件加速。",
+     "在公开 benchmark 上表现优于同类小模型。"
+    ],
+    "title": "RecursiveSI/flint 文本生成模型"
+   }
+  },
+  "hash": "3fdac052adc9c962"
  },
  "hf:venastine-research/xing4.0-29b-a4b-gguf": {
   "copy": {
@@ -10057,6 +10288,76 @@
   },
   "hash": "70767af2d4f57597"
  },
+ "hn:50191507": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 官方在 GitHub 发布的 CLI，提供终端下的聊天、文件上传和模型管理等功能。",
+    "points": [
+     "一行命令即可完成对话或完成代码补全。",
+     "支持环境变量配置 API Key，安全性友好。",
+     "兼容 Windows、macOS 与 Linux 跨平台使用。"
+    ],
+    "title": "OpenAI CLI 开源命令行工具"
+   }
+  },
+  "hash": "9e5b3f5fde1106bf"
+ },
+ "hn:50194374": {
+  "copy": {
+   "zh": {
+    "blurb": "RigCheck 是一套基于公开数据的开源工具，自动检测你的 GPU 或 Mac 是否满足特定开源模型的硬件要求。",
+    "points": [
+     "自动比对硬件规格与模型需求",
+     "数据来源公开，可自行扩展检查项",
+     "帮助用户快速判断模型运行可行性"
+    ],
+    "title": "RigCheck – 你的 GPU 或 Mac 能运行此开源模型吗？"
+   }
+  },
+  "hash": "ad0ad65146295965"
+ },
+ "hn:50194425": {
+  "copy": {
+   "zh": {
+    "blurb": "Lumabri 是一个纯 C 实现的框架，支持跨电脑和服务器的分布式运行大型 AI 模型，部署简单且无额外依赖。",
+    "points": [
+     "纯 C 代码，无第三方依赖，易部署",
+     "跨机器的模型并行提升算力利用率",
+     "适合资源受限或高性能环境的模型推理"
+    ],
+    "title": "Lumabri – 用纯 C 在多台计算机和服务器上运行大模型"
+   }
+  },
+  "hash": "f7dc06ae17a8057b"
+ },
+ "hn:50194964": {
+  "copy": {
+   "zh": {
+    "blurb": "App Factory 提供 42 种基于 Claude 的代码技能，帮助开发者自动化生成、构建并发布 iOS 与 Android 应用。",
+    "points": [
+     "预设 42 种常用功能代码技能",
+     "自动化完成构建、签名、上架全流程",
+     "支持同时面向 iOS 与 Android 双平台发布"
+    ],
+    "title": "App Factory – 42 个 Claude Code 技能一键发布至 App Store 与 Play"
+   }
+  },
+  "hash": "d0c9f27e51ef103c"
+ },
+ "hn:50196969": {
+  "copy": {
+   "zh": {
+    "blurb": "Stackdome 是基于 Kubernetes 的自托管 PaaS，旨在提供与 Railway、Render 类似的简易部署体验，同时完全掌控底层基础设施。",
+    "points": [
+     "支持 GitHub 自动部署、多服务拓扑和可视化连接。",
+     "内置托管数据库、预览环境与一键回滚功能。",
+     "采用 Helm Chart 简化 K8s 部署，适合团队自建云平台。"
+    ],
+    "title": "Show HN：Stackdome – 开源自托管 Railway 替代品"
+   }
+  },
+  "hash": "9e25fb56b04fb688"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -10920,6 +11221,15 @@
   },
   "hash": "2894ad122b76e421"
  },
+ "lobsters:dcvs3u": {
+  "copy": {
+   "zh": {
+    "blurb": "官方宣布 DuckDB 2.0.0 LTS（代号 “Cinnamon Teal”）正式发布，作为长期支持版本提供稳定性和性能改进。",
+    "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” 正式发布"
+   }
+  },
+  "hash": "24967e405b5eafbe"
+ },
  "lobsters:ddtqtn": {
   "copy": {
    "zh": {
@@ -11449,6 +11759,20 @@
   },
   "hash": "638a2cdc301fbe87"
  },
+ "lobsters:hplfis": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Lobsters 文章深入剖析 macOS 上 gcc 编译器的二进制文件，揭示其构建细节与潜在安全风险。",
+    "points": [
+     "通过逆向工具定位关键函数与链接方式。",
+     "比较 Apple 自带 gcc 与 GNU 官方版本的差异。",
+     "提出提升二进制安全性的建议。"
+    ],
+    "title": "macOS gcc 二进制分析"
+   }
+  },
+  "hash": "31ca58c815e7ddea"
+ },
  "lobsters:hty1qk": {
   "copy": {
    "zh": {
@@ -11640,6 +11964,15 @@
   },
   "hash": "545268c9a498e2b8"
  },
+ "lobsters:ju4q1u": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了为 Rust 实现垃圾回收器的全过程，阐述设计思路、内存管理策略以及与 Rust 所有权模型的兼容方式。",
+    "title": "I built a garbage collector for Rust (2023)"
+   }
+  },
+  "hash": "520eba6e30f9d227"
+ },
  "lobsters:k2natg": {
   "copy": {
    "zh": {
@@ -11707,6 +12040,15 @@
   },
   "hash": "df702c7a99830792"
  },
+ "lobsters:l2l50n": {
+  "copy": {
+   "zh": {
+    "blurb": "文章阐述了利用 Header Accordions 发起的 QPACK 放大攻击，如何针对 HTTP/3 服务器进行流量放大以及可能的防御措施。",
+    "title": "Header Accordions：针对 HTTP/3 服务器的 QPACK 放大攻击"
+   }
+  },
+  "hash": "4cbc42a596fcf528"
+ },
  "lobsters:lfen2h": {
   "copy": {
    "zh": {
@@ -11758,6 +12100,15 @@
   },
   "hash": "965f0188a6349aab"
  },
+ "lobsters:m6l6ld": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍一种让网络自行解释运行状态的技术或工具，可用于深入诊断并提供详细的网络行为报告。",
+    "title": "让你的网络解释自身并更多"
+   }
+  },
+  "hash": "0e294cf72b895cc4"
+ },
  "lobsters:mbyawi": {
   "copy": {
    "zh": {
@@ -11770,6 +12121,20 @@
    }
   },
   "hash": "4de049ad41f26e42"
+ },
+ "lobsters:me75ey": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客详细说明了针对 Switch 2 主机的最新越狱技术，包括利用漏洞获取系统权限的步骤。",
+    "points": [
+     "利用硬件漏洞实现系统级代码执行。",
+     "提供完整的刷机与自定义固件指南。",
+     "讨论安全风险与防护措施。"
+    ],
+    "title": "Switch 2 越狱方法"
+   }
+  },
+  "hash": "f1cc710d85b22efd"
  },
  "lobsters:mf3tmv": {
   "copy": {
@@ -11924,6 +12289,15 @@
   },
   "hash": "e6d2008e1071f0a7"
  },
+ "lobsters:nbd1cs": {
+  "copy": {
+   "zh": {
+    "blurb": "Garmin 推出全新 Connect 开发者 API 计划，提供面向个人用户的专属层级，开放访问其运动数据，方便用户自行构建应用。",
+    "title": "Garmin Revamps and Opens Up Connect Developer API Program"
+   }
+  },
+  "hash": "fa6ebb7150db57a2"
+ },
  "lobsters:nbxnh7": {
   "copy": {
    "zh": {
@@ -12058,6 +12432,15 @@
   },
   "hash": "e67a9e8871a7d5f4"
  },
+ "lobsters:oeehgs": {
+  "copy": {
+   "zh": {
+    "blurb": "本文演示如何使用 Nix 为 Python 脚本管理依赖，构建可重复、隔离的运行环境，避免传统 virtualenv 的冲突问题。",
+    "title": "Script dependencies with Nix"
+   }
+  },
+  "hash": "143adf528f661661"
+ },
  "lobsters:ogp1wf": {
   "copy": {
    "zh": {
@@ -12079,7 +12462,12 @@
  "lobsters:os7brs": {
   "copy": {
    "zh": {
-    "blurb": "文章讨论使用查表方法对数值近似进行校正，提高计算精度，提供实现示例和误差分析。",
+    "blurb": "利用预先计算的查找表来修正近似算法，显著提升计算精度，适用于需要快速近似的场景。",
+    "points": [
+     "查表方式在运行时降低误差",
+     "实现简洁，可轻松集成到现有系统",
+     "适合实时或资源受限的近似计算"
+    ],
     "title": "使用查找表校正近似计算"
    }
   },
@@ -12495,6 +12883,20 @@
    }
   },
   "hash": "f275a4e7125d6d6d"
+ },
+ "lobsters:tu5ynp": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了如何通过 Caddy 的 forward-auth 与路径过滤，仅让用户访问私有服务的共享链接，保护其他接口不被泄露。",
+    "points": [
+     "利用 Caddy 的 auth 中间件实现访问控制。",
+     "仅对特定共享链接放行，其他路径返回 404。",
+     "配置简单，可与现有服务快速集成。"
+    ],
+    "title": "使用 Caddy 仅公开私有服务的分享链接"
+   }
+  },
+  "hash": "109b4bc354945ba7"
  },
  "lobsters:u4vlin": {
   "copy": {

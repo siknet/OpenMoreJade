@@ -250,15 +250,28 @@
   "brief": {
    "zh": {
     "bullets": [
-     "DeepSeek 推出高性能推理框架 DeepInfer [repos#2]，同日 DeepSeek‑V4.1‑Flash 模型在 HuggingFace 上发布，提升图文生成能力 [hf#1]；Flux‑3 系列在图像‑到‑图像任务中表现强劲 [hf#2][hf#8]。",
-     "本地化、离线 AI 代理工具盛行：Omnara 开源可持续运行的代理 API [news#3]，配套的 Orca 支持多代理 fleet [repos#8] 与 Graphify 将代码库转化为可查询知识图谱 [repos#9]，dev.to 上多篇文章分享本地 AI Daemon 与文档情报平台的实现经验 [devto#2][devto#8]。",
-     "dsh‑our‑free‑model 插件让用户无需登录或 API Key 即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型 [repos#3]，同时 Humanizer 技术可去除 AI 生成痕迹 [repos#10][hf#9]。",
-     "多模态生成模型持续增长：LTX‑2.5 推出图像‑到‑视频能力，MOSS‑Image‑Base 与 Muse‑Spark 在文本‑到‑图像上表现突出，drama‑3 为文本‑到‑语音提供高质量输出，均在 HuggingFace 上得分超过 74 分 [hf#3][hf#4][hf#5][hf#7]。"
+     "DeepSeek生态持续升温：DeepSeek推出高性能推理框架DeepInfer支持其模型[repos#2]，社区插件dsh提供免费直连DeepSeek V4.1 Flash模型[repos#5]，而该模型在Hugging Face榜单居首[hf#1]。",
+     "开源Agent平台蓬勃发展：Graphify把代码库转为可查询知识图谱并提供Claude/Google等技能[repos#7]，Orca让用户自行部署多代理编码助手[repos#8]，Omnara则发布可自行运行的Claude Managed Agents替代品[news#4]。",
+     "本地化AI工具热度上升：Filee实现离线批量文件转换[repos#3]，slothd本地离线AI守护进程帮助组织工作空间[devto#3]，SlothDesk提供本地AI下载管理[devto#7]，Lumabri让大型模型跨设备运行[news#6]。",
+     "图像生成模型竞争激烈：Flux‑3的image‑to‑image模型在HF受热捧[hf#3]，Lightricks推出首个image‑to‑video模型LTX‑2.5[hf#4]，OpenMOSS持续发布文本到图像模型系列MOSS‑Image‑Base和SFT[hf#5][hf#6]。"
     ],
-    "headline": "开源 AI 工具与模型生态快速扩张：本地化代理、免费前沿模型与多模态生成齐飞"
+    "headline": "开源AI工具与模型生态加速扩张：DeepSeek推理框架、Agent平台与本地化应用抢占热点"
    }
   },
-  "hash": "ad78b9bb33eb11a2"
+  "hash": "fad344f662605796"
+ },
+ "2026-10-23": {
+  "brief": {
+   "zh": {
+    "bullets": [
+     "多个开源项目聚焦 AI 编码代理与平台化：Gentle‑AI、superpowers‑zh（中文增强）以及 repowise，提供持久记忆、技能配置和代码健康评估【repos#3】【repos#4】【repos#2】",
+     "为降低推理成本，新工具出现：rtk‑ai 的 RTK 将开发指令的 LLM token 消耗削减 60‑90%【repos#8】；cheaper‑inference 的 OmniRoute 汇聚 375 家提供商、150+ 免费模型，实现“一站式”推理入口【repos#9】；DeepSeek‑V4.1‑Flash 在 HF 上高分表现，展示高效模型潜力【hf#1】",
+     "大模型生态继续扩张，图像生成模型占据热点：Black‑Forest‑Labs 的 flux‑3‑image‑klein‑comfy 与 flux‑3‑image‑klein 连续高分，OpenMOSS 推出两款 text‑to‑image 模型，Meta 的 Muse‑Spark 进入 image‑text‑to‑text 赛道【hf#2】【hf#9】【hf#6】【hf#7】【hf#8】"
+    ],
+    "headline": "AI 编码代理与高效推理工具创新加速，中文本地化与模型生态同步升级"
+   }
+  },
+  "hash": "abbb3d36817ff98e"
  },
  "2026-W41": {
   "brief": {
@@ -293,15 +306,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "免费插件 dsh-our-free-model 让用户无需登录即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，配合 DeepInfer 推理框架提升本地性能 [repos#1] [hf#1] [news#1].",
-     "多模型代理平台崛起：XERJ 自动索引数据激活 AI 代理、Orca 支持 Grok/Claude Code 代理以及 Hybrid Reasoning Agents 把潜在空间推理与文本动作结合，推动端到端工作流 [repos#3] [repos#6] [news#4].",
-     "图像生成生态蓬勃：Flux-3 系列模型在 Hugging Face 受热追捧，配合 ComfyUI 本地最快的扩散推理引擎，促进从图像到视频的跨模态创作 [hf#2] [hf#3] [repos#4].",
-     "AI 驱动的求职工具涌现：ai-job-search 提供 Claude Code 支持的简历与求职信自动化，freehire 则作为开源求职搜索引擎，帮助用户在本地化环境中寻找机会 [repos#2] [repos#5].",
-     "政策与合规同步：美国 DHS 将 DeepSeek 列入禁用名单，WhatsApp 隐藏 LLM 指令，Lobsters 更新 AI/LLM 标签政策，凸显监管对模型使用的快速响应 [news#5] [news#3] [lobsters#1]."
+     "免费插件 dsh-our-free-model 让用户无需 API 即可本地调用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型 [repos#1]，DeepInfer 框架为 DeepSeek 模型提供高性能推理支持 [repos#6]，新闻也报导了 DeepInfer 项目 [news#1]。",
+     "多模态模型持续发布：Flux‑3 系列（image‑to‑image）[hf#2][hf#9]，Lightricks LTX‑2.5（image‑to‑video）[hf#3]，Meta Muse‑Spark（image‑text‑to‑text）[hf#7]，以及 OpenMOSS 系列图像生成模型 [hf#8][hf#10]，显示竞争加剧。",
+     "代理与工具链快速迭代：Orca 平台整合多种编码代理并支持自有订阅 [repos#4]，Hybrid Reasoning Agents 通过潜在空间推理提升能力 [news#4]，XERJ 自动索引激活代理进行数据搜索 [repos#8]，Graphify 将代码库转为可查询知识图谱 [repos#10]。",
+     "政策冲击显现：DeepSeek 被美国联邦民用机构禁用，官方发布 DHS 禁令 [news#6]，但开源社区仍提供免费本地访问方案，形成技术与监管的对立 [repos#1]。",
+     "AI 求职工具涌现：ai-job-search 基于 Claude Code 自动评估岗位并生成简历 [repos#2]，freehire 开源求职搜索引擎 [repos#3]，展示 AI 在招聘流程的渗透。"
     ],
-    "headline": "前沿大模型免费插件与本地代理平台激增，监管同步收紧"
+    "headline": "本周开源与本地部署工具激增，DeepSeek 生态尤为活跃"
    }
   },
-  "hash": "e4ac86b3d60667ce"
+  "hash": "5ff1fd1d1efb948e"
  }
 }
