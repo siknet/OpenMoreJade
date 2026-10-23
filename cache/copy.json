@@ -13,6 +13,20 @@
   },
   "hash": "68dd53e41c865b2c"
  },
+ "devto:4766382": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 发起讨论邀请社区成员回顾本周的成就，无论大小皆可分享，旨在激励彼此、增强团队凝聚力。",
+    "points": [
+     "鼓励成员分享本周的任何成功",
+     "无论大小成就都受到认可",
+     "增强社区氛围，互相激励"
+    ],
+    "title": "本周的成就是什么？"
+   }
+  },
+  "hash": "dd06282927781eca"
+ },
  "devto:4766456": {
   "copy": {
    "zh": {
@@ -4902,6 +4916,15 @@
   },
   "hash": "5a0ab8d0e12c31a9"
  },
+ "devto:4888591": {
+  "copy": {
+   "zh": {
+    "blurb": "作者利用 Google AI Studio、Gemini 与 Imagen，构建 Comic Studio AI，能够根据语音或文字提示自动生成四格漫画，展示了生成式 AI 在创意内容创作中的新可能。",
+    "title": "Comic Studio AI：用语音/文字生成四格漫画（Google AI Studio）"
+   }
+  },
+  "hash": "1a87d37b5d64c23a"
+ },
  "devto:4889649": {
   "copy": {
    "zh": {
@@ -5228,6 +5251,15 @@
   },
   "hash": "d8069cc1c3a211da"
  },
+ "devto:4897244": {
+  "copy": {
+   "zh": {
+    "blurb": "本文展示了如何在 483 KB 的零 WebKit macOS 通用二进制和单文件 Ubuntu HUD 中构建一个多智能体 Token 使用监控小部件，兼顾体积与跨平台可用性。",
+    "title": "500KB 内实现多智能体 Token 使用监控小部件"
+   }
+  },
+  "hash": "118026a8a053f0e3"
+ },
  "devto:4897315": {
   "copy": {
    "zh": {
@@ -5302,6 +5334,15 @@
   },
   "hash": "f549eeecf886f30d"
  },
+ "devto:4900725": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍在 Google Cloud 上调用 Anthropic Claude 模型的两种方案，包括托管服务的安全边界和区域数据存储，帮助开发者快速集成。",
+    "title": "在 Google Cloud 上使用 Claude 模型的两种方式"
+   }
+  },
+  "hash": "10e137ee2af7883d"
+ },
  "devto:4900953": {
   "copy": {
    "zh": {
@@ -5315,6 +5356,19 @@
    }
   },
   "hash": "5e1d9d5695756fd2"
+ },
+ "devto:4901412": {
+  "copy": {
+   "zh": {
+    "blurb": "一项 2026 年哈佛研究调查 718 家企业，发现 AI 代理人写的代码增加 30%，但因审查时间延长 49% 导致工单关闭量未增长。作者将 1986 年的 Commitment Machine 在 Gemini、Claude 和 GPT‑OSS 上进行实地测试，记录表现。",
+    "points": [
+     "AI 代理人代码产出提升 30%，但审查时长增长 49%，未带来额外工单解决。",
+     "在三大模型上运行 Commitment Machine，比较了响应速度、稳定性和业务影响。"
+    ],
+    "title": "Commitment Machine 在 Gemini、Claude 与 GPT‑OSS 上的飞行测试"
+   }
+  },
+  "hash": "939a7e86d8585aac"
  },
  "devto:4902122": {
   "copy": {
@@ -5449,6 +5503,20 @@
   },
   "hash": "0cc0e5607789147b"
  },
+ "devto:4903104": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍了如何将 Gemini 多模态模型嵌入 Google Docs，实现基于上下文的写作建议和实时纠错，让文档编辑更智能。",
+    "points": [
+     "Gemini 提供文本、图像等多模态输入，提升建议质量",
+     "通过 Docs 插件实现实时自动化写作提示",
+     "支持自定义提示词和上下文记忆，提高写作效率"
+    ],
+    "title": "使用 Gemini 与 Google Docs 构建多模态写作教练"
+   }
+  },
+  "hash": "ffc3a24393ab54ac"
+ },
  "devto:4903131": {
   "copy": {
    "zh": {
@@ -5462,6 +5530,134 @@
    }
   },
   "hash": "b4b8380873c7a3bc"
+ },
+ "devto:4904556": {
+  "copy": {
+   "zh": {
+    "blurb": "Unpile 是一个完全本地的阅读稍后管理代理。它使用 TabPFN 预测用户真正会阅读的文章，随后让开源模型 Gemma 生成摘要，实现离线、免费且隐私友好的内容整理。",
+    "points": [
+     "TabPFN 负责文章筛选，Gemma 负责生成摘要，全部在本地运行。",
+     "一次性删除 1,242 篇保存的文章，帮助用户减负。"
+    ],
+    "title": "本地模型 Unpile 自动删除 1,242 条已保存文章"
+   }
+  },
+  "hash": "cdcddba9794ac0eb"
+ },
+ "devto:4904813": {
+  "copy": {
+   "zh": {
+    "blurb": "NVIDIA 开源了 OpenShell 运行时，为代理集群提供内核级沙箱，确保不会持有 API 密钥，并在每次策略变更前由 Z3 SMT 求解器进行形式化验证，需人工批准后生效。",
+    "points": [
+     "内核级沙箱隔离代理，彻底防止凭证泄露。",
+     "所有策略修改经 Z3 自动证明，提升安全合规性。"
+    ],
+    "title": "NVIDIA 开源 OpenShell：让代理永不持有 API 密钥"
+   }
+  },
+  "hash": "202af4c53a9c3df6"
+ },
+ "devto:4904961": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了一个以小代码提交逐步完善的开源项目，比喻为成长的花园，体现了稳步、低调的开发方式，属于 Hacktoberfest 开源 AI 挑战的作品。",
+    "title": "慢慢来，点点懒：用小提交构建成长的花园"
+   }
+  },
+  "hash": "737449342f73d6c5"
+ },
+ "devto:4905064": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Dev.to 分享了 Crowdwide 项目第 21 天的进展，重点是对 UI 进行细致打磨，致力于为独立开发者和小社区打造友好社交平台。",
+    "points": [
+     "进入 UI 打磨阶段，提升交互体验",
+     "目标打造面向 indie 开发者的社交平台",
+     "关注细节优化以提升用户满意度"
+    ],
+    "title": "Crowdwide 第 21 天：完善 UI 界面"
+   }
+  },
+  "hash": "b5044dba2b4a2dd8"
+ },
+ "devto:4905612": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第 3 周，作者用本地 AI 构建了一个像素风格的英雄游戏，实时提醒用户喝水，全部代码可在笔记本上离线运行。",
+    "points": [
+     "完全本地运行，无需云服务",
+     "通过像素游戏交互式提醒喝水",
+     "采用开源 AI 实现游戏逻辑"
+    ],
+    "title": "像素英雄提醒喝水，全部在笔记本上运行"
+   }
+  },
+  "hash": "f152bb2a643d593b"
+ },
+ "devto:4906035": {
+  "copy": {
+   "zh": {
+    "blurb": "作者微调了一个 4B 参数模型，使其在 GitHub Issue 列表中自动将 73 条问题归类为‘稍后处理’，并结合 Temporal 保险丝确保安全执行。",
+    "points": [
+     "4B 模型微调实现 Issue 自动分类 (NOW/LATER/NEVER)",
+     "成功延期 73/731 条 Issue，提升 triage 效率",
+     "使用 Temporal fuse 保障决策的可回滚性"
+    ],
+    "title": "Leave It：微调 4B 模型自动延期 GitHub Issue"
+   }
+  },
+  "hash": "b635078cd41a7941"
+ },
+ "devto:4906089": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用 Gemma 4 模型实时阅读志愿者群聊内容，Python 负责日期解析，用户只需给出简单的“是”或“否”确认，实现低门槛交互，参加 Hacktoberfest AI 挑战。",
+    "title": "Availazy：Gemma 4 读取志愿者群聊，Python 处理日期，我只做是/否"
+   }
+  },
+  "hash": "69f186429a2ef055"
+ },
+ "devto:4906345": {
+  "copy": {
+   "zh": {
+    "blurb": "本文梳理了在 GNOME 桌面下调节外部显示器亮度的现有工具与实现方式，对比 KDE 的原生支持，分析各方案的优缺点，并说明作者为何开始为 GNOME Settings Daemon 贡献相关功能。",
+    "points": [
+     "GNOME 缺少原生外部显示器亮度控制，需依赖 DDC/CI 工具如 light、ddcutil。",
+     "现有方案在 GNOME 中使用体验不佳，缺乏统一 UI 与快捷键。",
+     "作者通过改进 Settings Daemon，实现更一致的亮度调节并计划提交上游。"
+    ],
+    "title": "GNOME 外部显示器亮度调节：现有方案、选择与贡献动机"
+   }
+  },
+  "hash": "348acb3ca3f55171"
+ },
+ "devto:4906472": {
+  "copy": {
+   "zh": {
+    "blurb": "Jiasheng 是一款面向 Hacktoberfest AI 挑战的开源工具，捕获用户语音后直接送入大型语言模型进行响应，省略传统的文字转录步骤，实现更自然的对话体验。",
+    "points": [
+     "使用 Whisper 完成端到端语音识别并即时喂入 LLM。",
+     "支持多语言实时交互，降低转录延迟与误差。",
+     "项目全开源，可通过 Hacktoberfest 贡献改进。"
+    ],
+    "title": "Jiasheng：直接使用语音交互，省去文字转录"
+   }
+  },
+  "hash": "51d921f1032ea5f8"
+ },
+ "devto:4906607": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Hacktoberfest 开源 AI 挑战中实现了终端错误记忆功能，自动记录错误信息并提供相似错误的修复建议，提高调试效率。",
+    "points": [
+     "终端记录错误信息并关联解决方案",
+     "AI 驱动相似错误检索，自动提示修复命令",
+     "开源实现可在 Hacktoberfest 项目中复用"
+    ],
+    "title": "终端记忆错误：让命令行自动记住并复用解决方案"
+   }
+  },
+  "hash": "3b7e660ab167496a"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -6582,6 +6778,20 @@
   },
   "hash": "675711a0f2fc65ae"
  },
+ "gh:liguobao/ds-harness-remote": {
+  "copy": {
+   "zh": {
+    "blurb": "该仓库实现了基于 DeepSeek Harness 插件机制的跨 PC、Android、Web 的远程访问系统，使用 P2P 优先、端到端加密的低延迟网络，随时操作远程 Harness 与 CodeX。",
+    "points": [
+     "支持 PC、Android、Web 多端客户端",
+     "P2P 优先、端到端加密、低延迟网络",
+     "可远程安全访问 Harness 与 CodeX"
+    ],
+    "title": "基于 DeepSeek Harness 的多端远程访问方案"
+   }
+  },
+  "hash": "ac886ccc5746f115"
+ },
  "gh:luongnv89/claude-howto": {
   "copy": {
    "zh": {
@@ -7282,6 +7492,20 @@
    }
   },
   "hash": "d6885f9317545d79"
+ },
+ "gh:tauricresearch/tradingagents": {
+  "copy": {
+   "zh": {
+    "blurb": "TradingAgents 是一个使用多智能体 LLM 的金融交易框架，结合 LangChain 与 AutoGPT，实现从市场数据获取、策略生成到下单执行的全链路自动化。",
+    "points": [
+     "多智能体协同完成行情分析、策略推理和风险控制。",
+     "内置实时行情接入与多账户下单接口，支持自定义插件。",
+     "框架可灵活扩展不同 LLM 与交易所，实现快速原型迭代。"
+    ],
+    "title": "TradingAgents：基于多智能体 LLM 的金融交易框架"
+   }
+  },
+  "hash": "14d827d2a0f80983"
  },
  "gh:tencent/browserskill": {
   "copy": {
@@ -8043,6 +8267,20 @@
    }
   },
   "hash": "34e24e1eb6e8ead8"
+ },
+ "hf:xhtoken/spark-x2.6-4b": {
+  "copy": {
+   "zh": {
+    "blurb": "Spark-X2.6-4B 是一款 4 B 参数的文本生成模型，已发布在 Hugging Face，适用于高质量自然语言生成任务，可直接在线推理。",
+    "points": [
+     "4 B 参数规模，兼顾效果与效率",
+     "专注文本生成，支持多种语言任务",
+     "可在 Hugging Face 平台直接使用"
+    ],
+    "title": "Spark-X2.6-4B 文本生成模型"
+   }
+  },
+  "hash": "3181305f4dbbba6c"
  },
  "hn:49958850": {
   "copy": {
@@ -10644,6 +10882,20 @@
   },
   "hash": "ce54d8ab4279eb2a"
  },
+ "hn:50200997": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacker News 的提问中，作者质疑 OpenAI 与 Anthropic 只卖模型代币的策略，探讨如果直接创办利用模型的公司是否能带来更高收益。",
+    "points": [
+     "质疑仅售模型代币的商业模式",
+     "讨论自行创业利用模型的盈利潜力",
+     "关注模型商品化与应用价值的平衡"
+    ],
+    "title": "Ask HN：为何 OpenAI 不自行创办公司而是售卖模型？"
+   }
+  },
+  "hash": "c6d6530f047ecb58"
+ },
  "hn:50201860": {
   "copy": {
    "zh": {
@@ -10685,6 +10937,46 @@
    }
   },
   "hash": "0cd2363676763713"
+ },
+ "hn:50207405": {
+  "copy": {
+   "zh": {
+    "blurb": "瑞典政府部门决定在官方系统中禁用 OpenAI 的 ChatGPT 与 Anthropic 的 Claude，理由是数据安全与监管合规风险，预计将影响公共服务的 AI 助手使用。",
+    "points": [
+     "禁令针对所有政府内部网络，阻止员工直接访问这两款大语言模型。",
+     "旨在防止敏感数据外泄并符合欧盟 AI 监管要求。"
+    ],
+    "title": "瑞典政府部门禁用 ChatGPT 与 Claude"
+   }
+  },
+  "hash": "f2bc9ecbf4cee28c"
+ },
+ "hn:50209455": {
+  "copy": {
+   "zh": {
+    "blurb": "Vericto 是一个代理层，用于在 PostgreSQL 或 MySQL 执行前审查 AI 代理生成的 SQL 语句。它通过语法和安全规则检查，阻止潜在的注入或破坏性查询。",
+    "points": [
+     "在数据库执行前拦截并验证 SQL，防止注入风险。",
+     "兼容 PostgreSQL 与 MySQL，可嵌入现有 AI 工作流。"
+    ],
+    "title": "Vericto：在 PostgreSQL / MySQL 前审查 AI 生成的 SQL"
+   }
+  },
+  "hash": "f7497978cf816450"
+ },
+ "hn:50211429": {
+  "copy": {
+   "zh": {
+    "blurb": "Koala 通过 Homebrew 在 macOS 上启动轻量化 Linux 虚拟机，为 AI 代理提供完整隔离的运行环境，简化部署并保障安全。",
+    "points": [
+     "利用轻量 VM 实现 AI 代理与宿主系统隔离",
+     "一键 Homebrew 安装，macOS 原生支持",
+     "可自定义镜像与资源，适配多种代理需求"
+    ],
+    "title": "Koala：在 macOS 上的隔离 Linux VM 中运行 AI 代理"
+   }
+  },
+  "hash": "704c5a9fbe0ac8dc"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -10936,6 +11228,15 @@
   },
   "hash": "0bbf9bee12ac2506"
  },
+ "lobsters:5hoqzj": {
+  "copy": {
+   "zh": {
+    "blurb": "博客展示了 Zig 语言的 @xkcdRandom 内置函数，用于生成随机数并引用 xkcd 颜色表，提供使用示例和实现细节。",
+    "title": "惊艳的 @xkcdRandom Zig 内置函数"
+   }
+  },
+  "hash": "15069177a66d7dea"
+ },
  "lobsters:5j4bwx": {
   "copy": {
    "zh": {
@@ -11093,6 +11394,15 @@
    }
   },
   "hash": "9d92379cd913fc39"
+ },
+ "lobsters:7me8wm": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇文章探讨了纯函数式编程语言在性能上能否逼近 C，分析了编译器优化、内存模型以及实际基准测试结果，提供了对比视角。",
+    "title": "纯函数式编程能接近 C 的性能吗？"
+   }
+  },
+  "hash": "27cf46e0241fd7e8"
  },
  "lobsters:7mllxi": {
   "copy": {
@@ -11388,6 +11698,15 @@
   },
   "hash": "da5d13e4d003f6e8"
  },
+ "lobsters:bhqvxq": {
+  "copy": {
+   "zh": {
+    "blurb": "文章揭示了一种通过复制写时（Copy‑on‑Write）等手段重新利用物理内存的技巧，可降低内存占用并提升系统效率。",
+    "title": "重用物理内存的巧妙技巧"
+   }
+  },
+  "hash": "a3bf21421a5b1dce"
+ },
  "lobsters:bpvpbe": {
   "copy": {
    "zh": {
@@ -11493,6 +11812,20 @@
   },
   "hash": "0cf029a8de95acf3"
  },
+ "lobsters:crqz1g": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 社区的帖子邀请用户分享本周末的安排，既可交流兴趣，也可寻求帮助或反馈，鼓励即使什么也不做的自由。",
+    "points": [
+     "社区成员自由发布周末活动或兴趣",
+     "提供互助与反馈渠道，促进交流",
+     "强调休闲与不做任何事的接受度"
+    ],
+    "title": "周末计划分享"
+   }
+  },
+  "hash": "638a2cdc301fbe87"
+ },
  "lobsters:cthze7": {
   "copy": {
    "zh": {
@@ -11501,6 +11834,20 @@
    }
   },
   "hash": "7520ca06d416ab9f"
+ },
+ "lobsters:ctow98": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章回顾了2003 年提出的二进制移植技术，探讨在缺乏源码时通过逆向、重编译等手段将程序迁移到新平台的可行方法。",
+    "points": [
+     "介绍二进制逆向与重编译的基本流程",
+     "讨论跨平台二进制兼容性挑战",
+     "提供历史案例，展示实用移植技巧"
+    ],
+    "title": "没有源码怎么办？仅凭二进制进行程序移植"
+   }
+  },
+  "hash": "2ea4b76699b99d74"
  },
  "lobsters:cwota8": {
   "copy": {
@@ -11932,6 +12279,19 @@
   },
   "hash": "ac8e76d7a48bd9a7"
  },
+ "lobsters:gajtrm": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇博客揭露了 Tov 项目中的恶意基准测试，指出其声称比 Rust 更快的结果是通过不公平的测试条件制造的，重新测评后 Rust 仍保持性能优势。",
+    "points": [
+     "Tov 的基准使用不一致的编译选项和硬件配置，导致结果失真。",
+     "公平对比显示 Rust 在相同条件下仍优于 Tov。"
+    ],
+    "title": "揭穿 Tov “比 Rust 更快” 的恶意基准"
+   }
+  },
+  "hash": "d6fee6f97ae214b1"
+ },
  "lobsters:gftbs5": {
   "copy": {
    "zh": {
@@ -12103,6 +12463,15 @@
    }
   },
   "hash": "302b64433cdbf6c3"
+ },
+ "lobsters:hd72yt": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出软件性能瓶颈主要来自糟糕的架构与设计，而不是使用的编程语言本身，倡导通过优化设计提升速度。",
+    "title": "软件慢是设计问题，而非语言慢"
+   }
+  },
+  "hash": "c1c8a635dcc12b5b"
  },
  "lobsters:hjhufj": {
   "copy": {
@@ -12952,6 +13321,15 @@
    }
   },
   "hash": "d0c161f2c5f2bc2a"
+ },
+ "lobsters:pcirxi": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenSSL 官方发布 4.1.0 版，继续提供业界领先的加密库，实现更好的安全性和性能。",
+    "title": "OpenSSL 4.1.0 正式发布"
+   }
+  },
+  "hash": "694c5709b7470988"
  },
  "lobsters:pflyed": {
   "copy": {
@@ -13874,6 +14252,15 @@
    }
   },
   "hash": "a8eca133c528f539"
+ },
+ "lobsters:yccmjm": {
+  "copy": {
+   "zh": {
+    "blurb": "Emacs 折叠功能得到显著增强，新增对 kirigami、tree-sitter、hide-show、Org 和 XML 等多种代码和文档格式的折叠支持。",
+    "title": "Emacs 折叠功能大升级：kirigami、tree-sitter、hide-show、Org、XML"
+   }
+  },
+  "hash": "6dad49871593e496"
  },
  "lobsters:ydmw6s": {
   "copy": {
