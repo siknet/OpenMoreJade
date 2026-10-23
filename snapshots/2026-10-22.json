@@ -11304,21 +11304,21 @@
    "category": "tool",
    "key": "hn:50183892",
    "metrics": {
-    "comments": 30,
+    "comments": 34,
     "frontPage": 0,
-    "points": 104
+    "points": 110
    },
    "news": {
     "author": "kmansm27",
-    "comments": 30,
+    "comments": 34,
     "createdAt": "2026-10-21T16:44:53.000Z",
     "domain": "github.com",
     "hnId": 50183892,
     "hnUrl": "https://news.ycombinator.com/item?id=50183892",
-    "points": 104,
-    "showRank": 6
+    "points": 110,
+    "showRank": 10
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T16:44:53.000Z",
    "refs": [
     "gh:omnara-ai/omnara"
@@ -11346,21 +11346,21 @@
    "category": "discussion",
    "key": "hn:50186037",
    "metrics": {
-    "comments": 474,
+    "comments": 516,
     "frontPage": 0,
-    "points": 513
+    "points": 550
    },
    "news": {
     "author": "kuberwastaken",
-    "comments": 474,
+    "comments": 516,
     "createdAt": "2026-10-21T19:14:01.000Z",
     "domain": "claude.com",
     "hnId": 50186037,
     "hnUrl": "https://news.ycombinator.com/item?id=50186037",
-    "points": 513,
-    "showRank": 15
+    "points": 550,
+    "showRank": 14
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T19:14:01.000Z",
    "refs": [
     "url:claude.com/product/claude-duet"
@@ -11387,7 +11387,7 @@
    "metrics": {
     "comments": 102,
     "frontPage": 0,
-    "points": 322
+    "points": 323
    },
    "news": {
     "author": "funnym0nk3y",
@@ -11396,10 +11396,10 @@
     "domain": "mistral.ai",
     "hnId": 50186129,
     "hnUrl": "https://news.ycombinator.com/item?id=50186129",
-    "points": 322,
+    "points": 323,
     "showRank": 27
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T19:20:55.000Z",
    "refs": [
     "url:mistral.ai/news/mistral-large-4"
@@ -11424,21 +11424,21 @@
    "category": "tool",
    "key": "hn:50191507",
    "metrics": {
-    "comments": 101,
+    "comments": 110,
     "frontPage": 0,
-    "points": 210
+    "points": 234
    },
    "news": {
     "author": "armcat",
-    "comments": 101,
+    "comments": 110,
     "createdAt": "2026-10-22T05:23:11.000Z",
     "domain": "github.com",
     "hnId": 50191507,
     "hnUrl": "https://news.ycombinator.com/item?id=50191507",
-    "points": 210,
-    "showRank": 39
+    "points": 234,
+    "showRank": 45
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T05:23:11.000Z",
    "refs": [
     "gh:openai/openai-cli"
@@ -11696,7 +11696,7 @@
     "hnUrl": "https://dev.to/googlecloud/multi-tier-model-routing-on-gke-balancing-gemini-4-argon-reasoning-depth-with-latency-and-cost-21fo",
     "points": 11
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T18:56:20Z",
    "refs": [],
    "relevance": {
@@ -12141,29 +12141,29 @@
    "category": "tool",
    "devto": {
     "author": "Paul Horton",
-    "comments": 9,
+    "comments": 18,
     "createdAt": "2026-10-21T16:59:00Z",
     "domain": "dev.to",
     "id": 4890855,
-    "points": 51,
+    "points": 55,
     "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7"
    },
    "key": "devto:4890855",
    "metrics": {
-    "comments": 9,
+    "comments": 18,
     "frontPage": 0,
-    "points": 51
+    "points": 55
    },
    "news": {
     "author": "Paul Horton",
-    "comments": 9,
+    "comments": 18,
     "createdAt": "2026-10-21T16:59:00Z",
     "domain": "dev.to",
     "hnId": 4890855,
     "hnUrl": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
-    "points": 51
+    "points": 55
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T16:59:00Z",
    "refs": [],
    "relevance": {
@@ -12184,7 +12184,7 @@
     "tag:tigerdata",
     "tag:githubcopilot"
    ],
-   "title": "I Got Tired of Coming into my Lab to Check the Pressure of my Cryocooler so I Built a Tool to do it for Me",
+   "title": "I Got Tired of Coming Into My Lab To Check the Pressure of My Cryocooler so I Built a Tool To Do It for Me",
    "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7"
   },
   {
@@ -12243,29 +12243,29 @@
    "category": "tool",
    "devto": {
     "author": "Dhruv Jani",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-21T21:51:28Z",
     "domain": "dev.to",
     "id": 4892006,
-    "points": 45,
+    "points": 46,
     "url": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7"
    },
    "key": "devto:4892006",
    "metrics": {
-    "comments": 10,
+    "comments": 11,
     "frontPage": 0,
-    "points": 45
+    "points": 46
    },
    "news": {
     "author": "Dhruv Jani",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-21T21:51:28Z",
     "domain": "dev.to",
     "hnId": 4892006,
     "hnUrl": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
-    "points": 45
+    "points": 46
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T21:51:28Z",
    "refs": [],
    "relevance": {
@@ -13230,29 +13230,29 @@
    "category": "engineering",
    "devto": {
     "author": "Adam - The Developer ✨",
-    "comments": 26,
+    "comments": 33,
     "createdAt": "2026-10-22T04:31:09Z",
     "domain": "dev.to",
     "id": 4893750,
-    "points": 39,
+    "points": 52,
     "url": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn"
    },
    "key": "devto:4893750",
    "metrics": {
-    "comments": 26,
+    "comments": 33,
     "frontPage": 0,
-    "points": 39
+    "points": 52
    },
    "news": {
     "author": "Adam - The Developer ✨",
-    "comments": 26,
+    "comments": 33,
     "createdAt": "2026-10-22T04:31:09Z",
     "domain": "dev.to",
     "hnId": 4893750,
     "hnUrl": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
-    "points": 39
+    "points": 52
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T04:31:09Z",
    "refs": [],
    "relevance": {
@@ -13904,29 +13904,29 @@
    "category": "engineering",
    "devto": {
     "author": "Puneet-Kumar2010",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-22T12:06:45Z",
     "domain": "dev.to",
     "id": 4896619,
-    "points": 19,
+    "points": 28,
     "url": "https://dev.to/puneetkumar2010/crowdwide-day-20-almost-done-but-theres-always-something-more-chf"
    },
    "key": "devto:4896619",
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 19
+    "points": 28
    },
    "news": {
     "author": "Puneet-Kumar2010",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-22T12:06:45Z",
     "domain": "dev.to",
     "hnId": 4896619,
     "hnUrl": "https://dev.to/puneetkumar2010/crowdwide-day-20-almost-done-but-theres-always-something-more-chf",
-    "points": 19
+    "points": 28
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T12:06:45Z",
    "refs": [],
    "relevance": {
@@ -14064,14 +14064,14 @@
     "createdAt": "2026-10-22T13:05:33Z",
     "domain": "dev.to",
     "id": 4896936,
-    "points": 7,
+    "points": 8,
     "url": "https://dev.to/gde/building-a-cross-model-collaborative-workflow-with-google-antigravity-2jj5"
    },
    "key": "devto:4896936",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 7
+    "points": 8
    },
    "news": {
     "author": "JimmyLiao",
@@ -14080,9 +14080,9 @@
     "domain": "dev.to",
     "hnId": 4896936,
     "hnUrl": "https://dev.to/gde/building-a-cross-model-collaborative-workflow-with-google-antigravity-2jj5",
-    "points": 7
+    "points": 8
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T13:05:33Z",
    "refs": [],
    "relevance": {
@@ -14787,29 +14787,29 @@
    "category": "industry",
    "devto": {
     "author": "Jem",
-    "comments": 9,
+    "comments": 14,
     "createdAt": "2026-10-22T15:53:41Z",
     "domain": "dev.to",
     "id": 4897896,
-    "points": 23,
+    "points": 28,
     "url": "https://dev.to/devteam/congrats-to-the-sanity-challenge-winners-1140"
    },
    "key": "devto:4897896",
    "metrics": {
-    "comments": 9,
+    "comments": 14,
     "frontPage": 0,
-    "points": 23
+    "points": 28
    },
    "news": {
     "author": "Jem",
-    "comments": 9,
+    "comments": 14,
     "createdAt": "2026-10-22T15:53:41Z",
     "domain": "dev.to",
     "hnId": 4897896,
     "hnUrl": "https://dev.to/devteam/congrats-to-the-sanity-challenge-winners-1140",
-    "points": 23
+    "points": 28
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T15:53:41Z",
    "refs": [],
    "relevance": {
@@ -14991,28 +14991,28 @@
    "key": "lobsters:9jgl3x",
    "lobsters": {
     "author": "kaycebasques",
-    "comments": 16,
+    "comments": 17,
     "createdAt": "2026-10-21T14:12:02.416-05:00",
     "domain": "google.github.io",
-    "points": 43,
+    "points": 49,
     "shortId": "9jgl3x",
     "url": "https://google.github.io/styleguide/rustguide.html"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 17,
     "frontPage": 0,
-    "points": 43
+    "points": 49
    },
    "news": {
     "author": "kaycebasques",
-    "comments": 16,
+    "comments": 17,
     "createdAt": "2026-10-21T14:12:02.416-05:00",
     "domain": "google.github.io",
     "hnId": 576882141,
     "hnUrl": "https://lobste.rs/s/9jgl3x/google_s_rust_style_guide",
-    "points": 43
+    "points": 49
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T14:12:02.416-05:00",
    "refs": [
     "gh:google/styleguide"
@@ -15194,14 +15194,14 @@
     "comments": 0,
     "createdAt": "2026-10-22T01:15:07.575-05:00",
     "domain": "duckdb.org",
-    "points": 18,
+    "points": 28,
     "shortId": "dcvs3u",
     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 18
+    "points": 28
    },
    "news": {
     "author": "pgr0ss",
@@ -15210,9 +15210,9 @@
     "domain": "duckdb.org",
     "hnId": 807698442,
     "hnUrl": "https://lobste.rs/s/dcvs3u/announcing_duckdb_2_0_0_lts_cinnamon_teal",
-    "points": 18
+    "points": 28
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T01:15:07.575-05:00",
    "refs": [],
    "relevance": {
@@ -15229,7 +15229,8 @@
    "tags": [
     "source:lobsters",
     "tag:hottest",
-    "tag:databases"
+    "tag:databases",
+    "tag:release"
    ],
    "title": "Announcing DuckDB 2.0.0 LTS “Cinnamon Teal”",
    "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html"
@@ -15289,28 +15290,28 @@
    "key": "lobsters:dldfel",
    "lobsters": {
     "author": "dzwdz",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-21T12:40:17.687-05:00",
     "domain": "openwall.com",
-    "points": 44,
+    "points": 54,
     "shortId": "dldfel",
     "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 6,
     "frontPage": 0,
-    "points": 44
+    "points": 54
    },
    "news": {
     "author": "dzwdz",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-21T12:40:17.687-05:00",
     "domain": "openwall.com",
     "hnId": 821958717,
     "hnUrl": "https://lobste.rs/s/dldfel/cve_2026_107891_musl_libc_multiple",
-    "points": 44
+    "points": 54
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T12:40:17.687-05:00",
    "refs": [],
    "relevance": {
@@ -15339,28 +15340,28 @@
    "key": "lobsters:hplfis",
    "lobsters": {
     "author": "juliethefoxcoon",
-    "comments": 11,
+    "comments": 21,
     "createdAt": "2026-10-22T01:45:58.884-05:00",
     "domain": "zoey-on-github.github.io",
-    "points": 47,
+    "points": 57,
     "shortId": "hplfis",
     "url": "https://zoey-on-github.github.io/blog/macgcc.html"
    },
    "metrics": {
-    "comments": 11,
+    "comments": 21,
     "frontPage": 0,
-    "points": 47
+    "points": 57
    },
    "news": {
     "author": "juliethefoxcoon",
-    "comments": 11,
+    "comments": 21,
     "createdAt": "2026-10-22T01:45:58.884-05:00",
     "domain": "zoey-on-github.github.io",
     "hnId": 1070915284,
     "hnUrl": "https://lobste.rs/s/hplfis/examining_macos_gcc_binary",
-    "points": 47
+    "points": 57
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T01:45:58.884-05:00",
    "refs": [
     "gh:zoey-on-github/blog"
@@ -15391,28 +15392,28 @@
    "key": "lobsters:ju4q1u",
    "lobsters": {
     "author": "abhin4v",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-22T09:49:22.131-05:00",
     "domain": "claytonwramsey.com",
-    "points": 6,
+    "points": 15,
     "shortId": "ju4q1u",
     "url": "https://claytonwramsey.com/blog/dumpster/"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 7,
     "frontPage": 0,
-    "points": 6
+    "points": 15
    },
    "news": {
     "author": "abhin4v",
-    "comments": 3,
+    "comments": 7,
     "createdAt": "2026-10-22T09:49:22.131-05:00",
     "domain": "claytonwramsey.com",
     "hnId": 1199466210,
     "hnUrl": "https://lobste.rs/s/ju4q1u/i_built_garbage_collector_for_rust_2023",
-    "points": 6
+    "points": 15
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T09:49:22.131-05:00",
    "refs": [],
    "relevance": {
@@ -15443,14 +15444,14 @@
     "comments": 0,
     "createdAt": "2026-10-22T10:15:44.372-05:00",
     "domain": "foxio.io",
-    "points": 3,
+    "points": 9,
     "shortId": "l2l50n",
     "url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 3
+    "points": 9
    },
    "news": {
     "author": "typesanitizer",
@@ -15459,9 +15460,9 @@
     "domain": "foxio.io",
     "hnId": 1274135207,
     "hnUrl": "https://lobste.rs/s/l2l50n/header_accordions_qpack_amplification",
-    "points": 3
+    "points": 9
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T10:15:44.372-05:00",
    "refs": [],
    "relevance": {
@@ -15489,28 +15490,28 @@
    "key": "lobsters:m6l6ld",
    "lobsters": {
     "author": "confusedalex",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-22T07:53:26.774-05:00",
     "domain": "unixdigest.com",
-    "points": 10,
+    "points": 20,
     "shortId": "m6l6ld",
     "url": "https://unixdigest.com/tutorials/tell-your-network-to-explain-itself-and-then-some.html"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 8,
     "frontPage": 0,
-    "points": 10
+    "points": 20
    },
    "news": {
     "author": "confusedalex",
-    "comments": 1,
+    "comments": 8,
     "createdAt": "2026-10-22T07:53:26.774-05:00",
     "domain": "unixdigest.com",
     "hnId": 1341321889,
     "hnUrl": "https://lobste.rs/s/m6l6ld/tell_your_network_explain_itself_then",
-    "points": 10
+    "points": 20
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T07:53:26.774-05:00",
    "refs": [],
    "relevance": {
@@ -15538,28 +15539,28 @@
    "key": "lobsters:me75ey",
    "lobsters": {
     "author": "kwas",
-    "comments": 0,
+    "comments": 6,
     "createdAt": "2026-10-22T07:10:48.233-05:00",
     "domain": "pepsipu.com",
-    "points": 33,
+    "points": 34,
     "shortId": "me75ey",
     "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 6,
     "frontPage": 0,
-    "points": 33
+    "points": 34
    },
    "news": {
     "author": "kwas",
-    "comments": 0,
+    "comments": 6,
     "createdAt": "2026-10-22T07:10:48.233-05:00",
     "domain": "pepsipu.com",
     "hnId": 1354104106,
     "hnUrl": "https://lobste.rs/s/me75ey/jailbreaking_switch_2",
-    "points": 33
+    "points": 34
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T07:10:48.233-05:00",
    "refs": [],
    "relevance": {
@@ -15578,7 +15579,8 @@
     "tag:hottest",
     "tag:hardware",
     "tag:reversing",
-    "tag:security"
+    "tag:security",
+    "tag:ai-tooling"
    ],
    "title": "jailbreaking the switch 2",
    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/"
@@ -15592,14 +15594,14 @@
     "comments": 1,
     "createdAt": "2026-10-22T03:09:55.509-05:00",
     "domain": "dcrainmaker.com",
-    "points": 11,
+    "points": 15,
     "shortId": "nbd1cs",
     "url": "https://www.dcrainmaker.com/2026/10/garmin-connect-api-revamps-connect-developer.html"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 11
+    "points": 15
    },
    "news": {
     "author": "pscanf",
@@ -15608,9 +15610,9 @@
     "domain": "dcrainmaker.com",
     "hnId": 1409806108,
     "hnUrl": "https://lobste.rs/s/nbd1cs/garmin_revamps_opens_up_connect",
-    "points": 11
+    "points": 15
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T03:09:55.509-05:00",
    "refs": [],
    "relevance": {
@@ -15638,28 +15640,28 @@
    "key": "lobsters:oeehgs",
    "lobsters": {
     "author": "abhin4v",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-22T09:14:04.653-05:00",
     "domain": "entropicthoughts.com",
-    "points": 7,
+    "points": 17,
     "shortId": "oeehgs",
     "url": "https://entropicthoughts.com/python-dependencies-with-nix"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 2,
     "frontPage": 0,
-    "points": 7
+    "points": 17
    },
    "news": {
     "author": "abhin4v",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-22T09:14:04.653-05:00",
     "domain": "entropicthoughts.com",
     "hnId": 1475378668,
     "hnUrl": "https://lobste.rs/s/oeehgs/script_dependencies_with_nix",
-    "points": 7
+    "points": 17
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-22T09:14:04.653-05:00",
    "refs": [],
    "relevance": {
@@ -15690,14 +15692,14 @@
     "comments": 5,
     "createdAt": "2026-10-21T23:18:37.037-05:00",
     "domain": "corsix.org",
-    "points": 26,
+    "points": 33,
     "shortId": "os7brs",
     "url": "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation"
    },
    "metrics": {
     "comments": 5,
     "frontPage": 0,
-    "points": 26
+    "points": 33
    },
    "news": {
     "author": "fanf",
@@ -15706,9 +15708,9 @@
     "domain": "corsix.org",
     "hnId": 1498559320,
     "hnUrl": "https://lobste.rs/s/os7brs/using_lookup_table_correct",
-    "points": 26
+    "points": 33
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T23:18:37.037-05:00",
    "refs": [],
    "relevance": {
@@ -15839,14 +15841,14 @@
     "comments": 1,
     "createdAt": "2026-10-21T16:06:35.458-05:00",
     "domain": "elonlit.com",
-    "points": 3,
+    "points": 5,
     "shortId": "urfgc9",
     "url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 3
+    "points": 5
    },
    "news": {
     "author": "rrampage",
@@ -15855,9 +15857,9 @@
     "domain": "elonlit.com",
     "hnId": 1860055929,
     "hnUrl": "https://lobste.rs/s/urfgc9/how_run_turing_complete_malware_pytorch_s",
-    "points": 3
+    "points": 5
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T16:06:35.458-05:00",
    "refs": [],
    "relevance": {
@@ -15886,28 +15888,28 @@
    "key": "lobsters:wi4nnl",
    "lobsters": {
     "author": "veverkap",
-    "comments": 9,
+    "comments": 10,
     "createdAt": "2026-10-21T17:31:11.965-05:00",
     "domain": "blog.railway.com",
-    "points": 19,
+    "points": 25,
     "shortId": "wi4nnl",
     "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
    },
    "metrics": {
-    "comments": 9,
+    "comments": 10,
     "frontPage": 0,
-    "points": 19
+    "points": 25
    },
    "news": {
     "author": "veverkap",
-    "comments": 9,
+    "comments": 10,
     "createdAt": "2026-10-21T17:31:11.965-05:00",
     "domain": "blog.railway.com",
     "hnId": 1965368001,
     "hnUrl": "https://lobste.rs/s/wi4nnl/railway_security_disclosure_wednesday",
-    "points": 19
+    "points": 25
    },
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "publishedAt": "2026-10-21T17:31:11.965-05:00",
    "refs": [],
    "relevance": {
@@ -15981,60 +15983,67 @@
   }
  ],
  "date": "2026-10-22",
- "fetchedAt": "2026-10-22T17:08:42.069Z",
+ "fetchedAt": "2026-10-23T06:01:45.107Z",
  "runs": [
   "2026-10-21T17:09:59.681Z",
   "2026-10-22T06:06:34.401Z",
-  "2026-10-22T17:08:42.069Z"
+  "2026-10-22T17:08:42.069Z",
+  "2026-10-23T06:01:45.107Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 59,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "dev-to",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 275,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "count": 316,
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "github-search",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 166,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "count": 167,
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "github-trending",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 74,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "count": 75,
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 98,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "lobsters",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -16042,15 +16051,16 @@
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-22T17:08:42.069Z",
+   "fetchedAt": "2026-10-23T06:01:45.107Z",
    "id": "x-linked",
    "message": "no linked X posts queued",
+   "settledAt": "2026-10-23T06:01:45.107Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-21T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-22T16:00:00.000Z"
  }

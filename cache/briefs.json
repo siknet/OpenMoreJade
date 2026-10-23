@@ -250,28 +250,31 @@
   "brief": {
    "zh": {
     "bullets": [
-     "DeepSeek生态持续升温：DeepSeek推出高性能推理框架DeepInfer支持其模型[repos#2]，社区插件dsh提供免费直连DeepSeek V4.1 Flash模型[repos#5]，而该模型在Hugging Face榜单居首[hf#1]。",
-     "开源Agent平台蓬勃发展：Graphify把代码库转为可查询知识图谱并提供Claude/Google等技能[repos#7]，Orca让用户自行部署多代理编码助手[repos#8]，Omnara则发布可自行运行的Claude Managed Agents替代品[news#4]。",
-     "本地化AI工具热度上升：Filee实现离线批量文件转换[repos#3]，slothd本地离线AI守护进程帮助组织工作空间[devto#3]，SlothDesk提供本地AI下载管理[devto#7]，Lumabri让大型模型跨设备运行[news#6]。",
-     "图像生成模型竞争激烈：Flux‑3的image‑to‑image模型在HF受热捧[hf#3]，Lightricks推出首个image‑to‑video模型LTX‑2.5[hf#4]，OpenMOSS持续发布文本到图像模型系列MOSS‑Image‑Base和SFT[hf#5][hf#6]。"
+     "多款开源项目支持本地或离线 AI：DeepSeek 免费模型插件 (repos#5)、slothd 本地 AI 守护进程 (devto#3)、SlothDesk 本地下载管理 (devto#7)，以及 GKE 上的多模型路由示例 (devto#8)。",
+     "新多模态模型涌现：DeepSeek V4.1 Flash 在图文转文本上表现突出 (hf#1)，Flux‑3 支持图像到图像转换 (hf#3)，Lightricks LTX‑2.5 推出图像到视频能力 (hf#4)，Mistral Large 4 也在 Hacker News 热议 (news#2)。",
+     "开源代理平台快速成长：Omnara 提供持久代理 API (news#4)，Orca 让多种编码代理可自行订阅运行 (repos#8)，Graphify 将代码库转为可查询知识图谱 (repos#7)，Firecrawl 为 AI 代理提供网页抓取功能 (repos#10)。",
+     "开发者社区聚焦最新 AI 交互：Claude Duet 发布引发讨论 (news#1)，OpenAI CLI 新增功能提升使用便捷性 (news#3)，同时多篇 dev.to 文章分享本地 AI 工作流与模型路由技巧 (devto#6 devto#9)。",
+     "开源替代传统 SaaS 的趋势显现：Stackdome 自托管 PaaS (news#5)，Lumabri 跨设备运行大模型 (news#6)，以及 GitHub 上的免费招聘搜索引擎 freehire (repos#6)。"
     ],
-    "headline": "开源AI工具与模型生态加速扩张：DeepSeek推理框架、Agent平台与本地化应用抢占热点"
+    "headline": "开源 AI 工具与多模态模型激增，聚焦本地部署与代理协同"
    }
   },
-  "hash": "fad344f662605796"
+  "hash": "e1b1f7a9d5ac358b"
  },
  "2026-10-23": {
   "brief": {
    "zh": {
     "bullets": [
-     "多个开源项目聚焦 AI 编码代理与平台化：Gentle‑AI、superpowers‑zh（中文增强）以及 repowise，提供持久记忆、技能配置和代码健康评估【repos#3】【repos#4】【repos#2】",
-     "为降低推理成本，新工具出现：rtk‑ai 的 RTK 将开发指令的 LLM token 消耗削减 60‑90%【repos#8】；cheaper‑inference 的 OmniRoute 汇聚 375 家提供商、150+ 免费模型，实现“一站式”推理入口【repos#9】；DeepSeek‑V4.1‑Flash 在 HF 上高分表现，展示高效模型潜力【hf#1】",
-     "大模型生态继续扩张，图像生成模型占据热点：Black‑Forest‑Labs 的 flux‑3‑image‑klein‑comfy 与 flux‑3‑image‑klein 连续高分，OpenMOSS 推出两款 text‑to‑image 模型，Meta 的 Muse‑Spark 进入 image‑text‑to‑text 赛道【hf#2】【hf#9】【hf#6】【hf#7】【hf#8】"
+     "NVIDIA发布OpenShell，提供安全、私有的自主AI代理运行时，受到GitHub和Hacker News关注[repos#1][news#1]。",
+     "社区推出多款防护和调试插件，如Claude Code的agent‑usage‑guard和CATT测试工具，帮助开发者限制使用窗口并在CI中评估代理[news#4][news#5]。",
+     "新的开源网关OmniRoute整合了375个提供商、150+免费模型，包括DeepSeek、Claude等，使开发者可通过单一端点免费访问前沿模型[repos#10][hf#1]。",
+     "多个仓库提供专用插件和指南，例如Claude‑howto可快速创建Agent模板，knowledge‑work‑plugins支持Claude Cowork工作流，进一步简化Agent部署[repos#5][repos#7]。",
+     "研究者在GitHub上发布DeepInfer高性能推理框架以及免费模型插件，免除登录、APIKey即可使用DeepSeek V4.1 Flash等前沿模型[repos#8][repos#9]"
     ],
-    "headline": "AI 编码代理与高效推理工具创新加速，中文本地化与模型生态同步升级"
+    "headline": "开源工具加速安全私有化自主AI代理运行与免费模型接入"
    }
   },
-  "hash": "abbb3d36817ff98e"
+  "hash": "701240bcba829995"
  },
  "2026-W41": {
   "brief": {
@@ -306,15 +309,14 @@
   "brief": {
    "zh": {
     "bullets": [
-     "免费插件 dsh-our-free-model 让用户无需 API 即可本地调用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型 [repos#1]，DeepInfer 框架为 DeepSeek 模型提供高性能推理支持 [repos#6]，新闻也报导了 DeepInfer 项目 [news#1]。",
-     "多模态模型持续发布：Flux‑3 系列（image‑to‑image）[hf#2][hf#9]，Lightricks LTX‑2.5（image‑to‑video）[hf#3]，Meta Muse‑Spark（image‑text‑to‑text）[hf#7]，以及 OpenMOSS 系列图像生成模型 [hf#8][hf#10]，显示竞争加剧。",
-     "代理与工具链快速迭代：Orca 平台整合多种编码代理并支持自有订阅 [repos#4]，Hybrid Reasoning Agents 通过潜在空间推理提升能力 [news#4]，XERJ 自动索引激活代理进行数据搜索 [repos#8]，Graphify 将代码库转为可查询知识图谱 [repos#10]。",
-     "政策冲击显现：DeepSeek 被美国联邦民用机构禁用，官方发布 DHS 禁令 [news#6]，但开源社区仍提供免费本地访问方案，形成技术与监管的对立 [repos#1]。",
-     "AI 求职工具涌现：ai-job-search 基于 Claude Code 自动评估岗位并生成简历 [repos#2]，freehire 开源求职搜索引擎 [repos#3]，展示 AI 在招聘流程的渗透。"
+     "新增插件可免登录直接调用 DeepSeek V4.1 Flash，并配套 DeepInfer 高性能推理框架，实现前沿模型无限免费使用，却因美国联邦禁令被限制使用 [repos#1] [repos#6] [hf#1] [news#1] [news#6]",
+     "AI 代理生态加速：Orca 提供多代理运行环境，REA 用代理逆向工程，XERJ 用智能索引激活数据，且研究推出混合推理代理，Patch the Planet 项目以代理发现全球漏洞 [repos#4] [repos#5] [repos#8] [news#4] [news#7]",
+     "扩散与图像生成工具热度上升：ComfyUI 本地化最快推理 GUI，Flux‑3 系列在图‑图转换表现突出，Lightricks LTX‑2.5 支持图‑视频，MOSS 系列提供高质量文本‑图像生成 [repos#9] [hf#2] [hf#3] [hf#8] [hf#10]",
+     "开源求职 AI 工具链逐步成熟，ai‑job‑search 框架自动评估岗位并生成简历，freehire 提供去中心化招聘搜索，帮助求职者自助匹配职位 [repos#2] [repos#3]"
     ],
-    "headline": "本周开源与本地部署工具激增，DeepSeek 生态尤为活跃"
+    "headline": "DeepSeek免费方案与监管冲突、AI代理平台快速增长、扩散模型工具激活创意"
    }
   },
-  "hash": "5ff1fd1d1efb948e"
+  "hash": "ccb3c19857366de7"
  }
 }

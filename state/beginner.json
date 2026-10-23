@@ -162,7 +162,7 @@
    "sourceKey": "devto:4878848"
   },
   "discovery:gh:ai-job-search-dev/ai-job-search": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:ai-job-search-dev/ai-job-search",
@@ -177,11 +177,11 @@
     "sourceUpdatedAt": "2026-10-21T05:29:11.000Z",
     "summary": {
      "en": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-     "zh": "这是一个在本机运行的 AI 求职框架，基于 Claude Code 自动评估职位、定制简历、撰写求职信并进行面试准备，代码可自行 Fork 使用。"
+     "zh": "一个可在本地运行的 AI 求职框架，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，支持自行 Fork 使用。"
     },
     "title": {
      "en": "ai-job-search-dev/ai-job-search",
-     "zh": ""
+     "zh": "本地运行的 AI 求职框架"
     },
     "topics": [
      "ai",
@@ -270,6 +270,40 @@
    },
    "sourceKey": "gh:apify/apify-mcp-server"
   },
+  "discovery:gh:bowenliang123/dsh-context": {
+   "observedAt": "2026-10-23T06:01:45.107Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:bowenliang123/dsh-context",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-23T06:01:45.107Z",
+    "summary": {
+     "en": "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板、浏览器、侧栏、命令，透视上下文组成、演进、压缩、多 Agent等。",
+     "zh": "该开源 TypeScript 项目为 DeepSeek Harness 提供上下文仪表盘、浏览器、侧栏等可视化功能，帮助用户洞察上下文组成、演进及多 Agent 交互，已获 3427 星。"
+    },
+    "title": {
+     "en": "bowenliang123/dsh-context",
+     "zh": "dsh-context：DeepSeek Harness 上下文可视化插件"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/bowenliang123/dsh-context",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:bowenliang123/dsh-context"
+  },
   "discovery:gh:calesthio/openmontage": {
    "observedAt": "2026-10-14T06:07:58.904Z",
    "resource": {
@@ -306,7 +340,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:cheaper-inference/omniroute": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:cheaper-inference/omniroute",
@@ -318,7 +352,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-22T16:53:45.000Z",
+    "sourceUpdatedAt": "2026-10-23T04:09:16.000Z",
     "summary": {
      "en": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
      "zh": "OmniRoute 是一款免费 MIT 许可的 AI 网关，单一端点统一 375 家供应商（150+ 免费），支持 1,400 多种模型，包括 Kimi、Claude、GPT、Gemini 等，兼容多种 IDE 插件，并具备配额感知自动回退、RTK+Caveman 压缩可节省 15‑95% token，支持桌面和 PWA。"
@@ -382,7 +416,7 @@
    "sourceKey": "gh:comfy-org/comfyui"
   },
   "discovery:gh:deepseek-ai/deepinfer": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:deepseek-ai/deepinfer",
@@ -489,7 +523,7 @@
    "sourceKey": "gh:farion1231/cc-switch"
   },
   "discovery:gh:firecrawl/firecrawl": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:firecrawl/firecrawl",
@@ -564,7 +598,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -1159,7 +1193,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1171,7 +1205,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-22T17:07:41.000Z",
+    "sourceUpdatedAt": "2026-10-23T06:01:36.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1754,7 +1788,7 @@
    "sourceKey": "hn:50168300"
   },
   "discovery:hn:50183892": {
-   "observedAt": "2026-10-22T17:08:42.069Z",
+   "observedAt": "2026-10-23T06:01:45.107Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50183892",
@@ -6486,6 +6520,7 @@
   "https://github.com/anomalyco/opencode": "2026-10-06T09:37:13.355Z",
   "https://github.com/anthropics/claude-quickstarts": "2026-10-18T15:50:57.057Z",
   "https://github.com/apify/apify-mcp-server": "2026-10-14T06:07:58.904Z",
+  "https://github.com/bowenliang123/dsh-context": "2026-10-23T06:01:45.107Z",
   "https://github.com/calesthio/openmontage": "2026-10-06T09:37:13.355Z",
   "https://github.com/canonry/canonry": "2026-10-16T16:36:59.199Z",
   "https://github.com/cheaper-inference/omniroute": "2026-10-22T17:08:42.069Z",

@@ -2341,6 +2341,15 @@
   },
   "hash": "6925a3c92e5231c8"
  },
+ "devto:4851055": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨笔记应用的导出功能，并提出更根本的问题：删除后数据会残留什么，作者提供了一种可完全删除的笔记应用实现思路。",
+    "title": "可删除的笔记应用"
+   }
+  },
+  "hash": "181e82fea4a58787"
+ },
  "devto:4851142": {
   "copy": {
    "zh": {
@@ -4828,6 +4837,15 @@
   },
   "hash": "1f05468213458fe4"
  },
+ "devto:4886731": {
+  "copy": {
+   "zh": {
+    "blurb": "今年在新加坡举行的 Hacktoberfest 线下聚会取得成功，约有 50 多位开发者参与，现场氛围热烈，活动顺利收官。",
+    "title": "Hacktoberfest Singapore 2026 圆满落幕"
+   }
+  },
+  "hash": "e55814c5c4b79ebc"
+ },
  "devto:4886949": {
   "copy": {
    "zh": {
@@ -4993,15 +5011,16 @@
  "devto:4890855": {
   "copy": {
    "zh": {
-    "blurb": "作者开发开源工具，利用传感器实时读取实验室冷却器压力并自动发送提醒，提高实验室运行效率。",
+    "blurb": "作者在实验室中为避免频繁手动检查低温冷却器的压力，开发了一款自动化监测工具，提交于 Hacktoberfest 开源 AI 挑战第 3 周。",
     "points": [
-     "实时获取压力数据并生成警报",
-     "AI 驱动工作流集成，降低人工检查频率"
+     "自动读取传感器数据并实时显示压力",
+     "通过 AI 脚本实现无人值守监控，降低实验室工作负担",
+     "开源代码可在 Dev.to 上获取，支持自定义报警阈值"
     ],
-    "title": "自动监测低温冷却器压力的工具"
+    "title": "构建自动监测低温冷却器压力的工具"
    }
   },
-  "hash": "bf509599ad3dee05"
+  "hash": "2a9d364cef060456"
  },
  "devto:4891397": {
   "copy": {
@@ -5269,6 +5288,181 @@
   },
   "hash": "8bc942d8e3da353f"
  },
+ "devto:4898732": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第 3 周的参赛作品，使用 Gemma 与 TabPFN 构建本地优先的文稿管理系统，帮助用户离线管理与搜索文档。",
+    "points": [
+     "采用本地优先架构，保障数据隐私。",
+     "集成 Gemma 与 TabPFN，实现智能文档分类与检索。",
+     "作为 Hacktoberfest 项目，鼓励社区贡献。"
+    ],
+    "title": "Bill & Document Sloth：本地化 AI 文档管理器"
+   }
+  },
+  "hash": "f549eeecf886f30d"
+ },
+ "devto:4900953": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 项目 paste‑sloth 利用轻量 Gemma 模型在粘贴时自动清理剪贴板文本，提供快捷键 Ctrl+Space+V，实现 AI 驱动的内容整理。",
+    "points": [
+     "仅占 1 位模型，运行成本极低",
+     "支持多语言文本清洗",
+     "可通过快捷键快速调用"
+    ],
+    "title": "paste‑sloth：Ctrl+Space+V 用 1‑bit Gemma 整理粘贴内容"
+   }
+  },
+  "hash": "5e1d9d5695756fd2"
+ },
+ "devto:4902122": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在手机上手绘了一个树形结构的 AI 代理系统概念，随后实现了 swarm‑tree，让多个代理以层级方式协同完成任务。",
+    "title": "我在手机上画了 AI 代理树并实现：认识 swarm‑tree"
+   }
+  },
+  "hash": "cb573131fcb90d5f"
+ },
+ "devto:4902183": {
+  "copy": {
+   "zh": {
+    "blurb": "开源项目 TorchTPU 与 TPU Agent Suite 正式发布，支持在 Google Cloud TPU 上原生运行 PyTorch，实现高效的 TPU 加速与管理。",
+    "title": "[Boost]"
+   }
+  },
+  "hash": "92f337aec3ae184d"
+ },
+ "devto:4902196": {
+  "copy": {
+   "zh": {
+    "blurb": "文章对比了 SGLang 与 vLLM 在多轮对话场景下的缓存策略，指出错误的缓存选择会显著拖慢 LLM 代理的响应速度。",
+    "title": "SGLang vs vLLM：你的代理慢是因为缓存选错了"
+   }
+  },
+  "hash": "1742373ec1c073bf"
+ },
+ "devto:4902232": {
+  "copy": {
+   "zh": {
+    "blurb": "作者询问其 AI 编码代理在构建过程中实际阅读了多少文本，结果发现 32 场会话共计读取 12 亿 token，却大多是之前已经见过的内容。",
+    "title": "我的AI编码代理在32次会话中读取了12亿标记，绝大部分已见过"
+   }
+  },
+  "hash": "d18029a377605517"
+ },
+ "devto:4902321": {
+  "copy": {
+   "zh": {
+    "blurb": "graphloom 是一款开源 Python CLI 与 MCP 服务器，能离线构建代码、SQL、文档等的知识图谱，并在查询时通过 AtmoRouter 将问题发送至轻量模型，返回带文件行号的证据。",
+    "title": "graphloom：为编码代理提供仓库知识图谱"
+   }
+  },
+  "hash": "0e77d3052c6c13f1"
+ },
+ "devto:4902614": {
+  "copy": {
+   "zh": {
+    "blurb": "作者提交了 Hacktoberfest 开源 AI 挑战第 3 周的作品，展示了如何让 CI/CD 发布检查清单在关键步骤上等待人工确认，实现更稳健的发布流程。",
+    "title": "我让发布检查清单等我"
+   }
+  },
+  "hash": "7237c218b5a8d394"
+ },
+ "devto:4902644": {
+  "copy": {
+   "zh": {
+    "blurb": "作者回顾 career‑ops 的存活检查器在 16 次 PR 合并后的表现，展示了在真实职位页面上评估每次修复的方法，并分享了对永久关闭决策的思考。",
+    "points": [
+     "通过真实页面测评发现误判率高于实验室数据。",
+     "修复后需持续监控，以防旧问题复现。",
+     "永久关闭职位时应留有回滚余地。"
+    ],
+    "title": "测量真实页面上的职位发布存活检查器"
+   }
+  },
+  "hash": "08ebe8dce9ad418c"
+ },
+ "devto:4902694": {
+  "copy": {
+   "zh": {
+    "blurb": "通过对比 caveman、ponytail 与 Chisle 三种 token 使用方案，作者阐释了 Chisle 在 Claude Code 场景下的优势，能够更高效地降低 token 消耗。",
+    "title": "caveman vs ponytail vs Chisle：为何我选 Chisle 用于 Claude Code"
+   }
+  },
+  "hash": "e5d527feae1523e7"
+ },
+ "devto:4902697": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Dev.to 分享了 Hush 项目，使用本地部署的 Gemma 大模型对手机通知进行分析，成功检测出 10 条被隐藏的紧急信息。",
+    "points": [
+     "在设备上运行 Gemma 模型，实现离线 AI 分析",
+     "自动扫描通知内容，识别潜在紧急事件",
+     "开源实现展示了边缘 AI 在隐私保护下的实用性"
+    ],
+    "title": "Hush：隐藏的 10 条紧急通知被本地 Gemma OS 发现"
+   }
+  },
+  "hash": "afbf9d26cf3e17e3"
+ },
+ "devto:4902923": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章批评电视剧《VisionQuest》对 AI Vision 的描绘极度不切实际，指出剧中对视觉模型的能力与真实技术相差甚远。",
+    "points": [
+     "误将视觉感知等同于全局智能",
+     "夸大推理和自我意识",
+     "忽视数据和训练限制导致误导观众"
+    ],
+    "title": "为何 Vision 成为流行文化中最蠢的 AI"
+   }
+  },
+  "hash": "00af0c93812cc49b"
+ },
+ "devto:4902956": {
+  "copy": {
+   "zh": {
+    "blurb": "Kaeso 是作者计划中的开源 AI 网关，旨在提供与 LiteLLM 相竞争的功能，聚焦模型调用、费用管理和统一接口。",
+    "points": [
+     "开源实现，方便自托管。",
+     "目标兼容并超越 LiteLLM 的模型路由能力。",
+     "支持统一的费用计量与访问控制。"
+    ],
+    "title": "Kaeso：开源 AI 网关，目标竞争 LiteLLM"
+   }
+  },
+  "hash": "9e4156c1963fad73"
+ },
+ "devto:4903008": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在同一台 Mac 上将旧 Claude 账户的 432 条任务迁移至新账户，过程中 Claude Code 意外删除了 13 条对话记录，反映出迁移风险。",
+    "points": [
+     "账号迁移前需完整备份所有任务和对话。",
+     "Claude Code 在迁移时未提供完整的事务日志。",
+     "迁移后应验证数据完整性，防止信息丢失。"
+    ],
+    "title": "迁移 432 条 Cowork 任务至新 Claude 账户导致 13 条记录被删除"
+   }
+  },
+  "hash": "0cc0e5607789147b"
+ },
+ "devto:4903131": {
+  "copy": {
+   "zh": {
+    "blurb": "作者探讨即使将温度设为 0、固定随机种子，向本地大语言模型发送相同提示仍会得到不同输出的原因。",
+    "points": [
+     "浮点运算的非确定性会导致微小差异。",
+     "模型内部的并行计算可能破坏完全复现。",
+     "确保完全确定性需锁定硬件和库版本。"
+    ],
+    "title": "为什么本地 LLM 在温度 0 时仍给出不同答案"
+   }
+  },
+  "hash": "b4b8380873c7a3bc"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -5322,8 +5516,13 @@
  "gh:ai-job-search-dev/ai-job-search": {
   "copy": {
    "zh": {
-    "blurb": "这是一个在本机运行的 AI 求职框架，基于 Claude Code 自动评估职位、定制简历、撰写求职信并进行面试准备，代码可自行 Fork 使用。",
-    "title": "ai-job-search-dev/ai-job-search"
+    "blurb": "一个可在本地运行的 AI 求职框架，基于 Claude Code 实现职位评估、简历定制、求职信撰写及面试准备，支持自行 Fork 使用。",
+    "points": [
+     "自动评估招聘信息并匹配岗位需求。",
+     "根据职位生成量身定制的简历和求职信。",
+     "提供面试模拟与准备建议。"
+    ],
+    "title": "本地运行的 AI 求职框架"
    }
   },
   "hash": "1048df0b7009d080"
@@ -5431,8 +5630,13 @@
  "gh:anthropics/knowledge-work-plugins": {
   "copy": {
    "zh": {
-    "blurb": "这是一个开源插件库，面向知识工作者，供Claude Cowork使用，提供多种功能提升工作效率。",
-    "title": "anthropics/knowledge-work-plugins：为Claude Cowork的知识工作者插件",
+    "blurb": "Knowledge‑Work‑Plugins 仓库提供面向知识工作者的开源插件，专用于 Claude Cowork 环境，帮助提升生产力。",
+    "points": [
+     "多样插件覆盖文档、搜索与数据处理。",
+     "直接集成到 Claude Cowork，简化工作流。",
+     "完全开源，可自行扩展与定制。"
+    ],
+    "title": "Claude Cowork 知识工作插件合集",
     "why": "在AI助理日益融入工作流时，提供可定制插件可快速提升Claude的实用性。"
    }
   },
@@ -5539,6 +5743,20 @@
    }
   },
   "hash": "ac91bb8ddbb3f458"
+ },
+ "gh:bowenliang123/dsh-context": {
+  "copy": {
+   "zh": {
+    "blurb": "该开源 TypeScript 项目为 DeepSeek Harness 提供上下文仪表盘、浏览器、侧栏等可视化功能，帮助用户洞察上下文组成、演进及多 Agent 交互，已获 3427 星。",
+    "points": [
+     "提供上下文面板、浏览器、侧栏与命令，实现一站式可视化。",
+     "支持上下文统计、压缩、演进细节及多 Agent 团队协作。",
+     "GitHub 上星标 3427，社区活跃。"
+    ],
+    "title": "dsh-context：DeepSeek Harness 上下文可视化插件"
+   }
+  },
+  "hash": "72ab9aee988bdccd"
  },
  "gh:calesthio/openmontage": {
   "copy": {
@@ -6606,6 +6824,20 @@
   },
   "hash": "becf337a0451cb7a"
  },
+ "gh:nvidia/openshell": {
+  "copy": {
+   "zh": {
+    "blurb": "NVIDIA 开源的 OpenShell 项目提供基于 Rust 的安全、私有运行时，专为大规模自主 AI 代理而设计。",
+    "points": [
+     "使用 Rust 实现，确保内存安全和高性能",
+     "为 AI 代理提供隔离执行环境，防止信息泄漏",
+     "支持大规模代理 fleet 的统一管理与部署"
+    ],
+    "title": "OpenShell：面向自主 AI 代理的安全私有运行时"
+   }
+  },
+  "hash": "8a29b9b8f512ce21"
+ },
  "gh:nvlabs/aspire": {
   "copy": {
    "zh": {
@@ -7555,6 +7787,19 @@
    }
   },
   "hash": "21320b87467c6d80"
+ },
+ "hf:comfy-org/moss-image": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hugging Face 上推出的 MOSS-Image 模型，已获 375 次点赞，趋势分 353，排名第 2，首次登上榜单。",
+    "points": [
+     "受社区热捧，点赞数达 375，趋势分 353。",
+     "本周榜单第二名，热度 82/100，首次出现。"
+    ],
+    "title": "Comfy-Org/MOSS-Image 模型"
+   }
+  },
+  "hash": "11d9dbeb6c1e1bf1"
  },
  "hf:convaiinnovations/laya": {
   "copy": {
@@ -10358,6 +10603,103 @@
   },
   "hash": "9e25fb56b04fb688"
  },
+ "hn:50197313": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇在 ModelCompare 上的博客指出，各大 AI 模型在面对人类时都会给出相似且具有争议的回答，反映出模型在价值观和偏见方面的共性。",
+    "points": [
+     "不同模型在描述人类时呈现出统一的争议性立场。",
+     "揭示了模型训练数据和价值观映射的潜在偏差。"
+    ],
+    "title": "所有 AI 模型对人类的“争议”观点相同"
+   }
+  },
+  "hash": "445e45025853ec8e"
+ },
+ "hn:50198675": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacker News 上，OpenShell 再次获得关注，强调其作为安全私有运行时在自主 AI 代理领域的价值。",
+    "points": [
+     "Rust 实现确保安全性和性能",
+     "提供隔离的运行环境以保护代理数据",
+     "支持大规模部署，便于 fleet 管理"
+    ],
+    "title": "OpenShell – 为自主 AI 代理提供安全私有运行时（HN 报道）"
+   }
+  },
+  "hash": "957e901884694b72"
+ },
+ "hn:50198936": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 项目提供一个 Claude Code 的插件，可在代码编辑时限制模型调用次数或时间，帮助开发者避免意外耗尽配额。",
+    "points": [
+     "通过拦截 API 调用实现使用窗口控制",
+     "可自定义阈值和提醒",
+     "开源且易于集成到现有工作流"
+    ],
+    "title": "Show HN：agent-usage-guard —— Claude Code 使用窗口保护插件"
+   }
+  },
+  "hash": "ce54d8ab4279eb2a"
+ },
+ "hn:50201860": {
+  "copy": {
+   "zh": {
+    "blurb": "开源的 Consumer Agent Testing Tool（CATT）让开发者在持续集成环境中对标 Muse 或 Instinct 的虚拟代理进行可重复测试，解决记忆和状态导致的不可重现问题。",
+    "points": [
+     "提供代理模拟，保持会话状态可控",
+     "集成 CI，自动化回归测试",
+     "支持自定义场景以验证服务行为"
+    ],
+    "title": "Show HN：CATT 0.2.1 —— 在 CI 中测试对 Muse/Instinct 类代理的服务"
+   }
+  },
+  "hash": "63a9fb4c090eb671"
+ },
+ "hn:50202217": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 的研究指出，LLM 能快速发现并利用代码漏洞，使形式化软件验证的成本大幅降低，从而在更大规模项目中实现代码零缺陷的保证。",
+    "points": [
+     "LLM 能快速定位并利用代码漏洞，提升安全检测效率。",
+     "形式化软件验证原本需多年专家工作，LLM 大幅降低门槛。",
+     "Anthropic 发布报告，展示其在大规模项目中的应用前景。"
+    ],
+    "title": "LLM 让大规模形式化软件验证成为可能"
+   }
+  },
+  "hash": "0ddd062a029eb982"
+ },
+ "hn:50203836": {
+  "copy": {
+   "zh": {
+    "blurb": "editmd 首次公开发布，是一款小巧的原生 macOS 应用，可实时渲染并原位编辑 Markdown，编辑后直接保存为原始文件，支持 Homebrew 安装。",
+    "points": [
+     "所见即所得的 Markdown 编辑体验。",
+     "原生 macOS 应用，轻量且无需额外依赖。",
+     "通过 brew install --cask 简便安装。"
+    ],
+    "title": "editmd：macOS 上的所见即所得 Markdown 编辑器"
+   }
+  },
+  "hash": "0cd2363676763713"
+ },
+ "lobsters:05xrj8": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在博客中分享了在本地项目中使用 Zig 语言的 Traits 特性，展示其实现方式与实践经验。",
+    "points": [
+     "介绍 Zig Traits 的语法与用途。",
+     "演示在实际代码中如何定义和使用 Traits。",
+     "探讨 Traits 对模块化和抽象的提升。"
+    ],
+    "title": "我们在本地使用 Zig Traits"
+   }
+  },
+  "hash": "4204cea1b98d998b"
+ },
  "lobsters:0aocct": {
   "copy": {
    "zh": {
@@ -10815,6 +11157,19 @@
    }
   },
   "hash": "14832afe3ccaaa0c"
+ },
+ "lobsters:8rkyrl": {
+  "copy": {
+   "zh": {
+    "blurb": "Bernsteinbear 在博客中探讨对象、属性和映射的设计与实现，分析其在语言运行时的表现与优化。",
+    "points": [
+     "解释对象形状（object shapes）对性能的影响。",
+     "讨论属性存取和映射实现的权衡。"
+    ],
+    "title": "对象、属性与映射的深度剖析"
+   }
+  },
+  "hash": "00ca71595ad52ffa"
  },
  "lobsters:9h14un": {
   "copy": {
@@ -11491,6 +11846,15 @@
   },
   "hash": "501952c964747f7c"
  },
+ "lobsters:famrid": {
+  "copy": {
+   "zh": {
+    "blurb": "Mojo 编程语言官方发布 1.2.0 版，提供最新的语言特性与改进，详见官方发布页面。",
+    "title": "Mojo v1.2.0 发布"
+   }
+  },
+  "hash": "398be6e19cb2917d"
+ },
  "lobsters:fbs3k7": {
   "copy": {
    "zh": {
@@ -11567,6 +11931,15 @@
    }
   },
   "hash": "ac8e76d7a48bd9a7"
+ },
+ "lobsters:gftbs5": {
+  "copy": {
+   "zh": {
+    "blurb": "neorepl 为 Clojure 及其生态提供了终端 REPL，支持多语言交互式编程，项目详情与使用指南可在作者博客阅读。",
+    "title": "neorepl：Clojure 等语言的终端 REPL"
+   }
+  },
+  "hash": "7026b0cc8bce16ba"
  },
  "lobsters:ggpwfi": {
   "copy": {
@@ -11950,6 +12323,20 @@
   },
   "hash": "2fe4e9ac0035e743"
  },
+ "lobsters:jgull9": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Lobsters 帖子介绍了一种非常规且不安全的技巧，能够在非 C 环境中跨平台访问全局错误码 errno。实现巧妙但易产生未定义行为，需慎用。",
+    "points": [
+     "利用宏和链接器技巧实现跨语言访问",
+     "便携性依赖特定平台实现",
+     "不建议在生产代码中使用"
+    ],
+    "title": "在 C 之外便携获取 errno 的 hack 方法"
+   }
+  },
+  "hash": "c047352cf72b3c42"
+ },
  "lobsters:jref3l": {
   "copy": {
    "zh": {
@@ -12011,6 +12398,20 @@
    }
   },
   "hash": "4ad7e44c11370d11"
+ },
+ "lobsters:kcyzco": {
+  "copy": {
+   "zh": {
+    "blurb": "文章指出 UUIDv7 在时间排序和唯一性方面的常见误解，阐明其实际行为与部分开发者预期不符。",
+    "points": [
+     "UUIDv7 只保证大致递增，不等同严格时间序列。",
+     "随机性仍然存在，不能用于防冲突的唯一键。",
+     "使用时需了解其生成算法的细节。"
+    ],
+    "title": "UUIDv7 并不具备你想象的属性"
+   }
+  },
+  "hash": "8742343128f007cc"
  },
  "lobsters:kiq0si": {
   "copy": {
@@ -12103,8 +12504,13 @@
  "lobsters:m6l6ld": {
   "copy": {
    "zh": {
-    "blurb": "文章介绍一种让网络自行解释运行状态的技术或工具，可用于深入诊断并提供详细的网络行为报告。",
-    "title": "让你的网络解释自身并更多"
+    "blurb": "该文章探讨了让神经网络提供可解释性的方法和工具，强调在模型部署前后进行解释的重要性。",
+    "points": [
+     "介绍网络可解释性技术，如梯度或注意力可视化",
+     "提供实现示例，帮助开发者在系统中加入解释层",
+     "讨论解释结果在调试和信任构建中的作用"
+    ],
+    "title": "让你的网络解释自身并进一步"
    }
   },
   "hash": "0e294cf72b895cc4"
@@ -12289,6 +12695,34 @@
   },
   "hash": "e6d2008e1071f0a7"
  },
+ "lobsters:mucay8": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提醒开发者在处理网页或代码中的链接时保持谨慎，避免因不当修改导致资源失效或安全隐患。",
+    "points": [
+     "链接完整性直接影响用户访问体验。",
+     "不当改动可能破坏 SEO 与引用关系。",
+     "建议使用统一的链接管理工具。"
+    ],
+    "title": "请勿随意修改链接"
+   }
+  },
+  "hash": "5d8d43d01e75e850"
+ },
+ "lobsters:nb7wkp": {
+  "copy": {
+   "zh": {
+    "blurb": "文章回顾《Sonic 06》在设计与发行过程中的多项失误，分析了导致其口碑受挫的关键因素。",
+    "points": [
+     "时间压力导致关键功能未完善。",
+     "缺乏质量控制导致大量 Bug。",
+     "未充分利用 Sonic 品牌的创新潜力。"
+    ],
+    "title": "《Sonic 06》的众多错失机会"
+   }
+  },
+  "hash": "6a4e108c13b4297a"
+ },
  "lobsters:nbd1cs": {
   "copy": {
    "zh": {
@@ -12325,6 +12759,20 @@
    }
   },
   "hash": "71da58c7ac256927"
+ },
+ "lobsters:nmurnh": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 讨论围绕已下线的 vibecoding 标签展开，询问其是否真的影响内容质量，移除后是否提升或降低了讨论深度。",
+    "points": [
+     "部分用户认为标签帮助聚焦技术细节",
+     "也有观点称标签限制了创意表达",
+     "移除后内容质量变化尚无定论"
+    ],
+    "title": "vibecoding 标签移除后对投稿质量的影响，你怎么看？"
+   }
+  },
+  "hash": "7e7661689d68c7ac"
  },
  "lobsters:nne5uh": {
   "copy": {
@@ -12695,6 +13143,19 @@
    }
   },
   "hash": "81431695bf3035a8"
+ },
+ "lobsters:s0aktw": {
+  "copy": {
+   "zh": {
+    "blurb": "Quad9 宣布其 DNS 解析服务将撤出法国市场，相关细节可在官方博客查看。",
+    "points": [
+     "退出法国后，法国用户需切换至其他 DNS 提供商。",
+     "此举可能影响 Quad9 在欧洲的服务覆盖范围。"
+    ],
+    "title": "Quad9 DNS 解析器将退出法国"
+   }
+  },
+  "hash": "a6e9d9bdbb7494dc"
  },
  "lobsters:s3w7hd": {
   "copy": {
@@ -13364,6 +13825,20 @@
   },
   "hash": "af13b1afddc036f6"
  },
+ "lobsters:xsz9sc": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Lobsters 文章讨论了 Docker 在使用过程中的一些不符合直觉的特性和潜在陷阱。",
+    "points": [
+     "阐述写时复制文件系统导致的意外行为",
+     "解释网络桥接和端口映射的常见误区",
+     "提供调试技巧帮助开发者规避这些奇怪现象"
+    ],
+    "title": "Docker 的奇特行为"
+   }
+  },
+  "hash": "0bfcbc25ba5add09"
+ },
  "lobsters:xwng6u": {
   "copy": {
    "zh": {
@@ -13399,6 +13874,15 @@
    }
   },
   "hash": "a8eca133c528f539"
+ },
+ "lobsters:ydmw6s": {
+  "copy": {
+   "zh": {
+    "blurb": "《Hibernate 起源故事（外部视角版）》回顾了 Hibernate ORM 的诞生与演进，作者以局外人视角叙述其历史背景与关键里程碑。",
+    "title": "Hibernate 起源故事（外部视角版）"
+   }
+  },
+  "hash": "4f11dba3015650bc"
  },
  "lobsters:ydo1wi": {
   "copy": {
