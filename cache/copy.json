@@ -5254,8 +5254,13 @@
  "devto:4897244": {
   "copy": {
    "zh": {
-    "blurb": "本文展示了如何在 483 KB 的零 WebKit macOS 通用二进制和单文件 Ubuntu HUD 中构建一个多智能体 Token 使用监控小部件，兼顾体积与跨平台可用性。",
-    "title": "500KB 内实现多智能体 Token 使用监控小部件"
+    "blurb": "作者在 500 KB 以下实现了跨多模型的令牌使用监控小组件，包含 483 KB 的 macOS 通用二进制以及单文件 Ubuntu HUD，零 WebKit 依赖。",
+    "points": [
+     "体积仅 483 KB，适合轻量部署",
+     "支持 macOS 与 Ubuntu 的跨平台 UI",
+     "实时展示多 Agent 的 token 消耗"
+    ],
+    "title": "500 KB 以下的多 Agent 令牌使用小组件"
    }
   },
   "hash": "118026a8a053f0e3"
@@ -5611,8 +5616,13 @@
  "devto:4906089": {
   "copy": {
    "zh": {
-    "blurb": "该项目利用 Gemma 4 模型实时阅读志愿者群聊内容，Python 负责日期解析，用户只需给出简单的“是”或“否”确认，实现低门槛交互，参加 Hacktoberfest AI 挑战。",
-    "title": "Availazy：Gemma 4 读取志愿者群聊，Python 处理日期，我只做是/否"
+    "blurb": "Availazy 项目演示了在笔记本上使用 Gemma 4 阅读志愿者群聊，Python 负责日期解析，用户仅需对提议作出 Yes/No 回应，实现了低代码的 AI 助手。",
+    "points": [
+     "使用 Gemma 4 大模型进行自然语言理解",
+     "Python 处理日期和时间逻辑",
+     "交互仅需简单的 Yes/No 确认"
+    ],
+    "title": "Availazy：Gemma 4 读取群聊，Python 处理日期，用户只答是或否"
    }
   },
   "hash": "69f186429a2ef055"
@@ -5658,6 +5668,183 @@
    }
   },
   "hash": "3b7e660ab167496a"
+ },
+ "devto:4907047": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude Code 插件 Token Beggar 更新至 0.3.0，除了解决 18 项真实 bug，还将代币消耗降低至原来的 70%，而测试覆盖率保持不变。",
+    "points": [
+     "代币使用降低 1.42 倍",
+     "修复 18 条真实 bug",
+     "保持测试结果一致性"
+    ],
+    "title": "Token Beggar 0.3.0：修复 18 个 Bug，令代币消耗降低 1.42 倍"
+   }
+  },
+  "hash": "fb49107694db8f52"
+ },
+ "devto:4907389": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章宣布第2周“Side Hustle”赛道的获胜者，表彰社区在开源 AI 项目中的创新与贡献。",
+    "points": [
+     "表彰个人/团队在侧项目中的 AI 创新",
+     "鼓励开源贡献，提升社区活跃度",
+     "提供获奖项目链接，供其他开发者参考"
+    ],
+    "title": "Hacktoberfest 开源 AI 挑战第2周获奖名单公布"
+   }
+  },
+  "hash": "df19feca71b0c6be"
+ },
+ "devto:4907995": {
+  "copy": {
+   "zh": {
+    "blurb": "Bridge 是一个 LCARS 风格的控制中心项目，为 PC 提供星际迷航主题的交互界面，让用户拥有指挥舰的体验。",
+    "title": "Bridge：把你的电脑变成《星际迷航》指挥台"
+   }
+  },
+  "hash": "396a5acee48f6df2"
+ },
+ "devto:4908055": {
+  "copy": {
+   "zh": {
+    "blurb": "作为 Hacktoberfest 开源 AI 挑战的作品，Sloth Inbox 提供慢速稳健的本地 AI 邮箱助理，帮助用户过滤并减少待办任务。",
+    "title": "Sloth Inbox：本地 AI，帮你减轻待办事项"
+   }
+  },
+  "hash": "851dcd3cc1fbcff1"
+ },
+ "devto:4908311": {
+  "copy": {
+   "zh": {
+    "blurb": "作者演示 Claude Code 能读取 .env 文件，提醒将 API 密钥迁移至更安全的位置以防泄露。",
+    "points": [
+     "展示 Claude Code 使用 .env 调试项目的过程。",
+     "提供将密钥存放在安全存储的最佳实践。"
+    ],
+    "title": "编码助手可读取 .env：API 密钥的安全存放建议"
+   }
+  },
+  "hash": "c6d5409bb9f3ac90"
+ },
+ "devto:4908322": {
+  "copy": {
+   "zh": {
+    "blurb": "文章剖析了八字计算中时区、节气以及数据来源的细微差异，说明这些因素如何导致不同算命程序产生不一致的结果。",
+    "points": [
+     "时区处理差异影响出生时间换算",
+     "节气计算方法不同导致星座差异",
+     "数据源和算法实现不同引发结果不一致"
+    ],
+    "title": "为何八字算命软件对同一生日给出不同结果？"
+   }
+  },
+  "hash": "34834c331bfdd338"
+ },
+ "devto:4908327": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享将《魔兽世界》插件内容转化为播客的全过程，包括技术实现、内容策划与发布经验。",
+    "title": "我的《艾泽拉斯生活》是如何制作的：从 WoW 插件到播客"
+   }
+  },
+  "hash": "b39a758f04d644dd"
+ },
+ "devto:4908335": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战第 3 周提交的项目，Mimu 旨在通过 AI 自动化笔记记录，减轻手动记笔记的负担。",
+    "points": [
+     "基于 AI 的自动笔记生成",
+     "开源提交 Hacktoberfest 项目",
+     "定位为降低日常笔记工作量"
+    ],
+    "title": "我构建了 Mimu——让笔记不再繁琐"
+   }
+  },
+  "hash": "b36db5552733d6bf"
+ },
+ "devto:4908352": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 第3周的慢速稳健赛道中，Gemma 项目使用 AI 分析个人 WhatsApp 对话，筛选出可被遗忘的内容。",
+    "points": [
+     "利用自然语言处理识别聊天中的冗余信息",
+     "帮助用户管理个人记忆，提升信息检索效率",
+     "作为开源项目提交，示例 AI 与日常工具的结合"
+    ],
+    "title": "‘Baad mein’——Gemma 读取你的 WhatsApp 聊天并提醒可忘信息"
+   }
+  },
+  "hash": "875ea93c847a64de"
+ },
+ "devto:4908394": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目针对 Hacktoberfest 2026 挑战，提供开源模型自动审查游戏聊天，帮助家长过滤不良信息，保障儿童安全。",
+    "title": "Night Guard：开源模型守护，监控游戏聊天保护儿童"
+   }
+  },
+  "hash": "61836a85324701dc"
+ },
+ "devto:4908401": {
+  "copy": {
+   "zh": {
+    "blurb": "开源工具 MarketMirror 用于批量测试广告、定价、文案和销售话术。作者模拟了2999名潜在买家，比较三种AI模型，发现回答买家提问的模型对转化率影响更大。",
+    "title": "使用三种AI模型模拟2999名买家：回答模型的影响更大"
+   }
+  },
+  "hash": "6974ddc09ab29289"
+ },
+ "devto:4908427": {
+  "copy": {
+   "zh": {
+    "blurb": "schemagate 是一个开源的 text‑to‑SQL 接入层，旨在从自然语言问题直接生成 SQL。作者分享一个月公开基准测试，展示其在多种数据集上的表现与局限。",
+    "title": "一个月公开基准评测：我的text-to-SQL访问层表现"
+   }
+  },
+  "hash": "8a523ea719f1c8d9"
+ },
+ "devto:4908531": {
+  "copy": {
+   "zh": {
+    "blurb": "Knovum 是基于 Tauri 2 与 Vue 3 构建的本地优先无限画布工作区，旨在让笔记不被层层文件夹埋没。集成 AI 助手，支持实时协作与无限画布浏览。",
+    "title": "Knovum：基于Tauri 2与Vue 3的本地优先无限画布AI工作区"
+   }
+  },
+  "hash": "c90633a50d79eb34"
+ },
+ "devto:4908581": {
+  "copy": {
+   "zh": {
+    "blurb": "AgentMesh 项目在 Hacktoberfest 开源 AI 挑战中展示，允许将空闲电脑用于运行 AI 模型，实现资源共享。",
+    "points": [
+     "通过代理网络调度空闲机器执行模型推理。",
+     "在低负载时自动分配任务，提高利用率。"
+    ],
+    "title": "AgentMesh：让闲置电脑运行 AI 模型"
+   }
+  },
+  "hash": "8dac5b219392bbd6"
+ },
+ "devto:4908648": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Windows 上尝试运行 Looking Ahead 1.3 B 参数的图像‑到‑视频示例，最初因 ImportError 卡住，随后通过环境配置和依赖调整成功实现推理。",
+    "title": "从ImportError到视频：在Windows上运行Looking Ahead"
+   }
+  },
+  "hash": "7a7b56e9c143d546"
+ },
+ "devto:4908684": {
+  "copy": {
+   "zh": {
+    "blurb": "提供一个免费、免钥匙的远程 MCP 服务器，让 Claude、Cursor 或 VS Code 直接查询 SEC EDGAR 数据，包括 Form 4 内部交易、文件聚类、XBRL 财务报表和全文检索。",
+    "title": "为AI代理提供SEC EDGAR数据：免费远程MCP服务器"
+   }
+  },
+  "hash": "f162b9f1f4e1f060"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -5766,6 +5953,15 @@
    }
   },
   "hash": "f2fcc7b4eda3158a"
+ },
+ "gh:anil-matcha/open-duet": {
+  "copy": {
+   "zh": {
+    "blurb": "Open-duet 是自托管的 Claude Duet 替代方案，提供具指令、记忆、例程的 AI 同事（agents），拥有独立计算环境，执行前需用户批准。还能替代 OpenAI Dots、Meta Muse 等。",
+    "title": "Open-duet：自托管的Claude Duet替代品"
+   }
+  },
+  "hash": "c7dd435c1b587aff"
  },
  "gh:anomalyco/opencode": {
   "copy": {
@@ -7346,6 +7542,20 @@
    }
   },
   "hash": "ba89d5a6721716ac"
+ },
+ "gh:snailsploit/claude-red": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude-Red 是为 Claude AI 体系打造的攻击技能库，每个技能以结构化的 SKILL.md 文件呈现，涵盖从 SQL 注入到 shellcode、EDR 绕过等多种攻击面，方便 AI 调用专业方法。",
+    "points": [
+     "每个攻击手法都有标准化的 SKILL.md 描述",
+     "覆盖广泛的安全场景，包括漏洞利用和防御规避",
+     "可直接喂给 Claude，实现专家级渗透指导"
+    ],
+    "title": "Claude-Red：Claude 的进攻技能库"
+   }
+  },
+  "hash": "c3d0ed2940227bcb"
  },
  "gh:stablyai/orca": {
   "copy": {
@@ -10978,6 +11188,62 @@
   },
   "hash": "704c5a9fbe0ac8dc"
  },
+ "hn:50212065": {
+  "copy": {
+   "zh": {
+    "blurb": "Kimi.ai 在博客中推出 K3.1 Pro 大模型及其高速变体，支持中文代码生成，提供公开模型文档和对比页面，获得 HN 社区高热度。",
+    "points": [
+     "大规模语言模型，针对中文任务优化",
+     "高速版提升推理吞吐，实现更快响应",
+     "开放模型文档，便于开发者对比与使用"
+    ],
+    "title": "Kimi K3.1 Pro 与 K3.1 Pro 高速版发布"
+   }
+  },
+  "hash": "37070a86234ce04d"
+ },
+ "hn:50214427": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 项目集合了 Apple 设计指南智能助手、用于更新 DocC 文档的 CLI 工具以及 MCP 服务器，实现开发流程自动化。",
+    "points": [
+     "HIG Agent 可对话式查询 Apple 设计规范",
+     "DocC 更新 CLI 自动同步文档，提升维护效率",
+     "MCP 服务器提供跨平台通信接口，便于工具集成"
+    ],
+    "title": "Show HN：Apple 设计 HIG Agent、DocC 更新 CLI 与 MCP 服务器"
+   }
+  },
+  "hash": "1a44ec8da68ea2ea"
+ },
+ "hn:50214578": {
+  "copy": {
+   "zh": {
+    "blurb": "Dánwò 是一款使用 TypeScript 编写的 Apache‑2.0 开源框架，提供面向网页和移动端的端到端测试，支持通过仿真器和故障注入验证后端行为，并可使用普通英文或定位器让 LLM 代理执行每一步。",
+    "points": [
+     "支持 Web 与移动端的全链路测试",
+     "集成仿真器和故障注入以捕获后台错误",
+     "使用 LLM 代理执行英文或定位器步骤"
+    ],
+    "title": "Show HN：Dánwò – 基于仿真器与故障注入的开源端到端测试框架"
+   }
+  },
+  "hash": "69dd9ab4ea363816"
+ },
+ "hn:50218142": {
+  "copy": {
+   "zh": {
+    "blurb": "Inference Cooperative 是一个由用户共同治理的 AI 推理平台，提供社区决定的模型选择与资源分配，旨在实现去中心化的推理服务。",
+    "points": [
+     "用户共同决定模型和资源分配",
+     "去中心化的推理服务架构",
+     "开放平台鼓励社区贡献"
+    ],
+    "title": "Show HN：Inference Cooperative——用户治理的 AI 平台"
+   }
+  },
+  "hash": "150fca9d09029922"
+ },
  "lobsters:05xrj8": {
   "copy": {
    "zh": {
@@ -11231,8 +11497,13 @@
  "lobsters:5hoqzj": {
   "copy": {
    "zh": {
-    "blurb": "博客展示了 Zig 语言的 @xkcdRandom 内置函数，用于生成随机数并引用 xkcd 颜色表，提供使用示例和实现细节。",
-    "title": "惊艳的 @xkcdRandom Zig 内置函数"
+    "blurb": "这篇博文介绍了 Zig 语言新增的 @xkcdRandom 内建函数，它基于 xkcd 的随机数生成器，提供轻量且可预测的随机数，适合教学或玩笑用途。",
+    "points": [
+     "内建函数直接调用，无需外部库",
+     "实现基于 xkcd 漫画的随机算法",
+     "适用于快速原型和学习随机数"
+    ],
+    "title": "Zig 语言的 @xkcdRandom 内建函数"
    }
   },
   "hash": "15069177a66d7dea"
@@ -11263,6 +11534,20 @@
    }
   },
   "hash": "44f832f2cdbe2ec2"
+ },
+ "lobsters:5xzuff": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 分享的博文警示开发者未定义行为的潜在风险，呼吁在代码中避免依赖 UB。",
+    "points": [
+     "未定义行为可能导致不可预测的运行时错误",
+     "建议使用安全的编程实践和严格的编译检查",
+     "强调代码可移植性和可靠性的重要性"
+    ],
+    "title": "提醒：认为未定义行为（UB）无妨的人"
+   }
+  },
+  "hash": "335fb6e8f770a298"
  },
  "lobsters:5zbbd0": {
   "copy": {
@@ -11326,6 +11611,20 @@
    }
   },
   "hash": "47098531bc188271"
+ },
+ "lobsters:6utrvz": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇博文介绍了增量计算图的概念，阐述了通过记录依赖关系，仅重新计算改变部分，从而提升计算效率的原理。",
+    "points": [
+     "通过依赖追踪实现局部重算",
+     "显著降低重复计算开销",
+     "适用于需要频繁更新的计算场景"
+    ],
+    "title": "增量计算图"
+   }
+  },
+  "hash": "a6fbe393830058c4"
  },
  "lobsters:6vjx1k": {
   "copy": {
@@ -11398,7 +11697,12 @@
  "lobsters:7me8wm": {
   "copy": {
    "zh": {
-    "blurb": "这篇文章探讨了纯函数式编程语言在性能上能否逼近 C，分析了编译器优化、内存模型以及实际基准测试结果，提供了对比视角。",
+    "blurb": "文章探讨了纯函数式编程语言在性能上能否逼近 C，分析了基准测试、编译器优化和运行时开销，给出两者差距的量化结果。",
+    "points": [
+     "对比多种纯函数式语言的基准",
+     "讨论编译器与 GC 对性能的影响",
+     "评估在特定场景下接近 C 的可行性"
+    ],
     "title": "纯函数式编程能接近 C 的性能吗？"
    }
   },
@@ -11894,6 +12198,20 @@
    }
   },
   "hash": "4f19f91cc7bb4d3a"
+ },
+ "lobsters:d1snfg": {
+  "copy": {
+   "zh": {
+    "blurb": "该论文提出 Next-Concept Modeling 框架，实现快速并行的粗到细文本生成，兼顾生成质量。",
+    "points": [
+     "引入概念层次的并行生成流程，将粗粒度结构先行生成，再细化文本",
+     "在保持流畅度和一致性的同时，大幅提升生成速度",
+     "在多项文本生成基准上达到或超过现有最优性能"
+    ],
+    "title": "Next-Concept Modeling：快速并行的粗到细文本生成"
+   }
+  },
+  "hash": "00fd57035df9d81a"
  },
  "lobsters:d7m5j1": {
   "copy": {
@@ -12467,8 +12785,13 @@
  "lobsters:hd72yt": {
   "copy": {
    "zh": {
-    "blurb": "文章指出软件性能瓶颈主要来自糟糕的架构与设计，而不是使用的编程语言本身，倡导通过优化设计提升速度。",
-    "title": "软件慢是设计问题，而非语言慢"
+    "blurb": "该文章指出，软件性能瓶颈往往源于糟糕的架构和实现，而非所使用的编程语言本身，强调应从设计层面进行优化。",
+    "points": [
+     "性能问题多由算法与结构不当导致",
+     "切换更快语言难以根本提升速度",
+     "应优先进行代码剖析和良好设计"
+    ],
+    "title": "软件慢并非语言慢，而是设计不佳"
    }
   },
   "hash": "c1c8a635dcc12b5b"
@@ -12486,6 +12809,19 @@
    }
   },
   "hash": "db51a8975a05b43f"
+ },
+ "lobsters:hmtqfl": {
+  "copy": {
+   "zh": {
+    "blurb": "该 ACM 论文提出一种增量式构建即时编译（JIT）的方法，旨在逐步生成并优化代码以降低启动开销。",
+    "points": [
+     "分阶段生成和优化代码块。",
+     "显著降低 JIT 编译的启动时延。"
+    ],
+    "title": "增量式 JIT 构建方法"
+   }
+  },
+  "hash": "53eee4dd2dc018de"
  },
  "lobsters:hounpx": {
   "copy": {
@@ -12514,6 +12850,19 @@
    }
   },
   "hash": "31ca58c815e7ddea"
+ },
+ "lobsters:hq3tu8": {
+  "copy": {
+   "zh": {
+    "blurb": "Railway 在官方博客发布了关于 10 月 21 日安全事件的初步报告，概述了事件背景和初步响应。",
+    "points": [
+     "报告概述事件背景、影响范围及应急措施。",
+     "提供后续调查与修复计划的时间表。"
+    ],
+    "title": "Railway 初步报告：10 月 21 日安全事件"
+   }
+  },
+  "hash": "ce82ac5c36627021"
  },
  "lobsters:hty1qk": {
   "copy": {
@@ -13386,6 +13735,19 @@
   },
   "hash": "ad6e33b87d6eb1d4"
  },
+ "lobsters:pvfzhq": {
+  "copy": {
+   "zh": {
+    "blurb": "Bitflux 在系列博客第三篇中分析了内存相对慢、磁盘更快的性能特性及其对系统设计的影响。",
+    "points": [
+     "阐明内存瓶颈的根本原因。",
+     "提出利用磁盘加速的策略。"
+    ],
+    "title": "Memory is slow, Disk is fast"
+   }
+  },
+  "hash": "e49d924b210ce793"
+ },
  "lobsters:q0wobg": {
   "copy": {
    "zh": {
@@ -13673,6 +14035,15 @@
    }
   },
   "hash": "5c8656804d1b402f"
+ },
+ "lobsters:tq5cxv": {
+  "copy": {
+   "zh": {
+    "blurb": "该视频探讨创作事物的动机与方法，阐释“为何制造”和“如何制造”的思考路径。",
+    "title": "How to Make Things, and Why"
+   }
+  },
+  "hash": "a50191ed246070e6"
  },
  "lobsters:tsfina": {
   "copy": {
@@ -14289,6 +14660,20 @@
   },
   "hash": "9c252d27602e58db"
  },
+ "lobsters:yusomz": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 收录的文章快速带你了解 systemd-nspawn 容器的工作原理、使用场景及部署技巧。",
+    "points": [
+     "轻量级容器，基于 systemd 实现进程隔离",
+     "提供快速创建、管理容器的命令示例",
+     "适合在服务器上进行安全的开发与测试环境"
+    ],
+    "title": "2025 年 systemd-nspawn 容器速览"
+   }
+  },
+  "hash": "03e5e00c4ba28620"
+ },
  "lobsters:yxnovw": {
   "copy": {
    "zh": {
@@ -14324,6 +14709,19 @@
    }
   },
   "hash": "646e5a6c05c3dad0"
+ },
+ "lobsters:zug8xv": {
+  "copy": {
+   "zh": {
+    "blurb": "调查发现印度部分政府网站仍在提供已撤销的 eMudhra 证书，可能导致安全风险并破坏信任。",
+    "points": [
+     "列出受影响的政府站点。",
+     "呼吁尽快更新证书以恢复安全和信任。"
+    ],
+    "title": "印度政府网站使用已撤销的 eMudhra 证书"
+   }
+  },
+  "hash": "422777eb83c643e5"
  },
  "lobsters:zytoux": {
   "copy": {

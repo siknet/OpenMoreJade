@@ -162,7 +162,7 @@
    "sourceKey": "devto:4878848"
   },
   "discovery:gh:ai-job-search-dev/ai-job-search": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:ai-job-search-dev/ai-job-search",
@@ -271,7 +271,7 @@
    "sourceKey": "gh:apify/apify-mcp-server"
   },
   "discovery:gh:bowenliang123/dsh-context": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:bowenliang123/dsh-context",
@@ -340,7 +340,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:cheaper-inference/omniroute": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:cheaper-inference/omniroute",
@@ -352,7 +352,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-23T04:09:16.000Z",
+    "sourceUpdatedAt": "2026-10-24T00:40:22.000Z",
     "summary": {
      "en": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
      "zh": "OmniRoute 是一款免费 MIT 许可的 AI 网关，单一端点统一 375 家供应商（150+ 免费），支持 1,400 多种模型，包括 Kimi、Claude、GPT、Gemini 等，兼容多种 IDE 插件，并具备配额感知自动回退、RTK+Caveman 压缩可节省 15‑95% token，支持桌面和 PWA。"
@@ -416,7 +416,7 @@
    "sourceKey": "gh:comfy-org/comfyui"
   },
   "discovery:gh:deepseek-ai/deepinfer": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:deepseek-ai/deepinfer",
@@ -598,7 +598,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -1193,7 +1193,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-23T06:01:45.107Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1205,7 +1205,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-22T17:07:41.000Z",
+    "sourceUpdatedAt": "2026-10-24T05:50:38.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1344,7 +1344,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:xerj-org/xerj": {
-   "observedAt": "2026-10-23T17:05:11.325Z",
+   "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:xerj-org/xerj",
