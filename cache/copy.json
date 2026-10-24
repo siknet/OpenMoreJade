@@ -4888,6 +4888,15 @@
   },
   "hash": "19c5d381003401c5"
  },
+ "devto:4888051": {
+  "copy": {
+   "zh": {
+    "blurb": "作者对 25 台 MCP 服务器进行深入分析，汇总了安全、性能和配置方面的常见问题与最佳实践，提供了实用的改进建议。",
+    "title": "我们审查了 25 台 MCP 服务器，发现如下"
+   }
+  },
+  "hash": "3b2e32443237622a"
+ },
  "devto:4888280": {
   "copy": {
    "zh": {
@@ -5846,6 +5855,144 @@
   },
   "hash": "f162b9f1f4e1f060"
  },
+ "devto:4909233": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 开源 AI 挑战周提交，使用开源模型离线处理用户的稍后阅读列表，夜间筛选并朗读精选文章，省时省力。",
+    "points": [
+     "使用开源 LLM 在本地离线运行。",
+     "夜间批处理阅读列表并挑选优质内容。",
+     "自动朗读精选文章，提升阅读效率。"
+    ],
+    "title": "Sloth Reads：开源模型在夜间阅读我的稍后阅读列表，并挑选出好文章"
+   }
+  },
+  "hash": "1031dd88beb1b395"
+ },
+ "devto:4909647": {
+  "copy": {
+   "zh": {
+    "blurb": "Humanizer 在公开任务中拥有约 6 万星，作者的 ai‑slop‑linter 插件在 12 项任务中以 58.67/60 的成绩领先 Humanizer，提升 2.67 分。",
+    "points": [
+     "Humanizer 拥有约 6 万星的社区认可",
+     "ai‑slop‑linter 在 12 项任务中得分 58.67/60",
+     "比 Humanizer 提升 2.67 分，表现领先"
+    ],
+    "title": "Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher"
+   }
+  },
+  "hash": "c856740f767e9b18"
+ },
+ "devto:4909724": {
+  "copy": {
+   "zh": {
+    "blurb": "《Doomscroll Derailer & Naptime Narrator》是一款离线 AI 睡前故事工具，旨在通过有趣的故事中断无意义滚动，奖励用户的懒散行为，适用于 Hacktoberfest 开源项目。",
+    "title": "Doomscroll 终止器 & Naptime 讲述者：离线 AI 睡前故事奖励懒散"
+   }
+  },
+  "hash": "aa80eeaf97e2e8f8"
+ },
+ "devto:4909942": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目将笔记自动转换为离线自评闪卡，利用开源模型实现懒人式学习，帮助用户在不花额外时间制作卡片的情况下进行高效复习。",
+    "title": "懒人学习教练：将笔记离线转化为自评闪卡"
+   }
+  },
+  "hash": "f83109980f4ef4b1"
+ },
+ "devto:4910225": {
+  "copy": {
+   "zh": {
+    "blurb": "SARAS AI 是一款学习辅助平台，利用生成式 AI 将教材转化为可交互的记忆卡片，帮助用户一次学习后通过智能复现提升长期记忆效果。",
+    "title": "SARAS AI：一次学习，多次记忆"
+   }
+  },
+  "hash": "b08bd815a542073f"
+ },
+ "devto:4910233": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在构建面向新创作者的社交平台 Crowdwide 时，发现 UI 打磨远比预期困难，需投入大量时间进行细节优化，以提升用户体验。",
+    "points": [
+     "Crowdwide 定位新创作者社交平台",
+     "UI 细节调优耗时远超预期",
+     "持续迭代提升用户体验"
+    ],
+    "title": "Crowdwide 第22天：UI 打磨远比想象难"
+   }
+  },
+  "hash": "a0e37d1da555e006"
+ },
+ "devto:4910380": {
+  "copy": {
+   "zh": {
+    "blurb": "BloomDisk 是一款开源的 Mac 磁盘分析器，可可视化展示磁盘空间占用，支持快速扫描与交互式浏览，帮助用户找出大文件和冗余数据。",
+    "points": [
+     "可视化磁盘使用情况，快速定位大文件。",
+     "支持实时扫描与交互式浏览。",
+     "完全开源，适用于所有 macOS 版本。"
+    ],
+    "title": "BloomDisk：开源 Mac 磁盘分析工具"
+   }
+  },
+  "hash": "629d15d027a0a633"
+ },
+ "devto:4910803": {
+  "copy": {
+   "zh": {
+    "blurb": "文章介绍 Fud AI 的 Live Voice，利用统一的工具契约在 iOS、Android 与 Cloudflare Worker 上接入六家实时语音提供商，并通过受限中继保障安全。",
+    "points": [
+     "统一工具契约跨平台（iOS、Android、Cloudflare）。",
+     "支持六家实时语音提供商，易于切换。",
+     "通过受限中继确保数据安全与低延迟。"
+    ],
+    "title": "Live Voice 构建实录：统一工具契约与六大实时语音提供商"
+   }
+  },
+  "hash": "06bbf0299d86f541"
+ },
+ "devto:4910822": {
+  "copy": {
+   "zh": {
+    "blurb": "文章发起一次安全挑战，邀请用户尝试绕过 AI 的提示注入防护，评估系统在 Taintgate 场景下的鲁棒性，并提供改进反馈。",
+    "title": "能否突破我们的 AI 安全防御？帮忙测试隐藏注入与 Taintgate"
+   }
+  },
+  "hash": "f9a0d20209db25ac"
+ },
+ "devto:4910882": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 LexGLUE UNFAIR‑ToS 基准上，用 Tinker 微调 Qwen 4B，实现 9,000 字合同的 30 秒扫描，自动识别仲裁放弃、单方面修改和责任上限等不公平条款。",
+    "points": [
+     "Qwen 4B 与 Tinker 联合微调",
+     "在 UNFAIR‑ToS 基准取得高准确率",
+     "30 秒处理 9k 字合同，快速检测不公平条款"
+    ],
+    "title": "微调 4B 模型捕捉不公平服务条款，仅需 30 秒"
+   }
+  },
+  "hash": "8c01fc9064f64059"
+ },
+ "devto:4910985": {
+  "copy": {
+   "zh": {
+    "blurb": "ContextKeeper 是一款基于 AI 的笔记检索工具，支持语义搜索，帮助用户通过描述或上下文快速定位之前的笔记，而无需记住确切标题。",
+    "title": "ContextKeeper：帮你找回记忆中的内容，而非仅凭名称"
+   }
+  },
+  "hash": "18c3436e951ea90d"
+ },
+ "devto:4911175": {
+  "copy": {
+   "zh": {
+    "blurb": "SlothAudit 是一款开源工具，利用 AI 分析账单和邮件，自动识别潜在的忘记取消的订阅服务，帮助用户降低不必要的支出。",
+    "title": "SlothAudit：发现你忘记的订阅费用"
+   }
+  },
+  "hash": "60d053b239e55863"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -6067,6 +6214,20 @@
    }
   },
   "hash": "02e7bdb1145aa673"
+ },
+ "gh:basketikun/infinite-canvas": {
+  "copy": {
+   "zh": {
+    "blurb": "Infinite Canvas 是一款面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等功能，并兼容 OpenAI 接口生态，可通过 chatgpt2api 等渠道接入。",
+    "points": [
+     "集成 AI 生图、视频生成、Agent 助手等多模态创作能力",
+     "支持多 Agent 协同与可视化创作流程，兼容 OpenAI 接口生态",
+     "使用 TypeScript 开发，已获 8958 星，热度 61.3"
+    ],
+    "title": "Infinite Canvas：面向 AI 创作的开源无限画布工作台"
+   }
+  },
+  "hash": "c2875ab859f1a7cf"
  },
  "gh:berriai/litellm": {
   "copy": {
@@ -6666,6 +6827,15 @@
   },
   "hash": "8aee81a4e360b83a"
  },
+ "gh:hkuds/deeptutor": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepTutor 是一个面向终身学习的个性化辅导平台，提供持续的 AI 驱动教学支持，帮助学生根据个人需求自适应学习。",
+    "title": "DeepTutor：终身个性化辅导"
+   }
+  },
+  "hash": "4dfb24907875a02d"
+ },
  "gh:hkuds/nanobot": {
   "copy": {
    "zh": {
@@ -7229,6 +7399,20 @@
    }
   },
   "hash": "becf337a0451cb7a"
+ },
+ "gh:nutlope/hallmark": {
+  "copy": {
+   "zh": {
+    "blurb": "hallmark 是一个开源工具，帮助 Claude Code、Cursor 与 Codex 生成更规范的代码，提供防 AI 低质量代码的设计建议，已获数万星标。",
+    "points": [
+     "检测并纠正 AI 生成代码中的低质量模式。",
+     "与 Claude Code、Cursor、Codex 集成使用。",
+     "开源且拥有超过 3 万星标，社区活跃。"
+    ],
+    "title": "Nutlope/hallmark：针对 Claude Code、Cursor 与 Codex 的防 AI 低质量代码设计技能"
+   }
+  },
+  "hash": "af37213f4ea4c997"
  },
  "gh:nvidia/openshell": {
   "copy": {
@@ -11202,6 +11386,20 @@
   },
   "hash": "37070a86234ce04d"
  },
+ "hn:50213337": {
+  "copy": {
+   "zh": {
+    "blurb": "Kimi K3.1 在 Artificial Analysis 基准测试中取得 55 分，位于 Pareto 前沿，展示了在性能与成本之间的优秀平衡。",
+    "points": [
+     "Kimi K3.1 在 Artificial Analysis 得分 55",
+     "位列 Pareto 前沿，兼顾性能与成本",
+     "显示新一代大模型的竞争优势"
+    ],
+    "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
+   }
+  },
+  "hash": "7f24278afbf356ac"
+ },
  "hn:50214427": {
   "copy": {
    "zh": {
@@ -11243,6 +11441,20 @@
    }
   },
   "hash": "150fca9d09029922"
+ },
+ "hn:50218633": {
+  "copy": {
+   "zh": {
+    "blurb": "一名黑客逆向三星电视，发现其内置 AI 监听功能，并使用了 OpenAI 账户，但该账户已被暂停，引发对智能电视隐私的担忧。",
+    "points": [
+     "逆向三星电视发现内置 AI 监听功能",
+     "使用的 OpenAI 账户已被暂停",
+     "凸显智能电视隐私安全风险"
+    ],
+    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended"
+   }
+  },
+  "hash": "088fa8e857993c4d"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -11963,6 +12175,15 @@
   },
   "hash": "c028b1b0bd9df944"
  },
+ "lobsters:al3yyf": {
+  "copy": {
+   "zh": {
+    "blurb": "近期发现的 node2shell Brotli 漏洞 CVE‑2026‑111497 可通过 Python 包以及其他使用 Brotli 解压的库触发，攻击者可执行任意代码。建议尽快升级相关依赖并审计项目。",
+    "title": "本周 \"node2shell\" Brotli 漏洞 (CVE-2026-111497) 可在 Python 及其他 Brotli 使用者中被利用"
+   }
+  },
+  "hash": "fce8c2f5b6070b92"
+ },
  "lobsters:awjqvn": {
   "copy": {
    "zh": {
@@ -12277,6 +12498,15 @@
    }
   },
   "hash": "bc4edd28aa1c34f2"
+ },
+ "lobsters:dfieqa": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客阐述了 uv（微观视角）与 ty（宏观时序）在系统设计中的协同方法，提出统一的抽象层以简化跨层交互，实现更高效的开发流程。",
+    "title": "将 uv 与 ty 融合在一起"
+   }
+  },
+  "hash": "4a2a9d3f2efc892a"
  },
  "lobsters:dl4h2a": {
   "copy": {
@@ -13828,6 +14058,15 @@
   },
   "hash": "1e9fcd3f6039c67c"
  },
+ "lobsters:qzfohf": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了在极低主频（约 12.5–16 MHz）的硬件上运行城市建设类游戏的技巧，包括代码优化、资源压缩以及自定义渲染管线，以实现流畅体验。",
+    "title": "如何在 16 MHz 处理器上运行城市建造游戏"
+   }
+  },
+  "hash": "3e307fe80d7add17"
+ },
  "lobsters:rhy5zp": {
   "copy": {
    "zh": {
@@ -13852,6 +14091,20 @@
   },
   "hash": "e0e710ffd7d1da45"
  },
+ "lobsters:rl0dz5": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客提醒开发者审视日志内容，防止敏感信息泄露，推荐使用过滤和审计工具来保障安全。",
+    "points": [
+     "定期审查日志防止泄露敏感信息。",
+     "使用脱敏和过滤工具清除隐私数据。",
+     "采用日志审计提升安全合规性。"
+    ],
+    "title": "关注日志内容安全"
+   }
+  },
+  "hash": "67b5f8654114f1b3"
+ },
  "lobsters:rpiwtb": {
   "copy": {
    "zh": {
@@ -13865,6 +14118,15 @@
    }
   },
   "hash": "8d4f04b10a8a6c0c"
+ },
+ "lobsters:rqefcw": {
+  "copy": {
+   "zh": {
+    "blurb": "本文回顾了 SQLite 在过去十二年里的分布式化历程，梳理关键技术挑战、架构演进以及社区贡献，展示了其在多节点环境中的应用经验。",
+    "title": "SQLite 分布式化十二年回顾"
+   }
+  },
+  "hash": "87b01ff899dabc0a"
  },
  "lobsters:rrazyb": {
   "copy": {
@@ -14260,6 +14522,15 @@
   },
   "hash": "fa0821f6d89cc56c"
  },
+ "lobsters:vh8l3t": {
+  "copy": {
+   "zh": {
+    "blurb": "该页面探讨了当前 AI 技术面临的伦理、可靠性和社会影响等核心问题，提醒人们审视技术发展的潜在风险与局限。",
+    "title": "人工智能的问题何在？"
+   }
+  },
+  "hash": "faa231f07d74cee8"
+ },
  "lobsters:vidyh0": {
   "copy": {
    "zh": {
@@ -14287,6 +14558,20 @@
    }
   },
   "hash": "f34cfb47df8941e4"
+ },
+ "lobsters:vulvk7": {
+  "copy": {
+   "zh": {
+    "blurb": "Wild 项目发布 0.11.0 版本，带来若干功能改进和错误修复，提升链接器的可靠性与性能。",
+    "points": [
+     "引入新功能提升链接器灵活性。",
+     "修复已知 bug，增强稳定性。",
+     "性能优化减少构建时间。"
+    ],
+    "title": "Wild 0.11.0 版本发布"
+   }
+  },
+  "hash": "f69796a28ad7ba9d"
  },
  "lobsters:vvtzdj": {
   "copy": {
@@ -14560,6 +14845,20 @@
   },
   "hash": "ca730da83c2d41aa"
  },
+ "lobsters:xgih2x": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在博客中诉说周三被工作占满的无奈，分享恢复周三自由时间的技巧和心态调整方法，呼吁重视工作与生活的平衡。",
+    "points": [
+     "作者抱怨周三被工作占满",
+     "分享恢复周三自由时间的实用技巧",
+     "倡导工作与生活的时间平衡"
+    ],
+    "title": "I want my Wednesday back"
+   }
+  },
+  "hash": "20b1d1a13f4a9b36"
+ },
  "lobsters:xiq59t": {
   "copy": {
    "zh": {
@@ -14632,6 +14931,20 @@
    }
   },
   "hash": "6dad49871593e496"
+ },
+ "lobsters:yczems": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了 Emacs 最近的折叠改进，借助 Kirigami UI 实现更直观、可定制的代码块折叠，让编辑体验大幅提升。",
+    "points": [
+     "使用 Kirigami 构建折叠界面",
+     "支持灵活的折叠层级和快捷键",
+     "提升代码浏览和编辑效率"
+    ],
+    "title": "Emacs 折叠功能终于符合我的需求"
+   }
+  },
+  "hash": "105b61d30c6c77b4"
  },
  "lobsters:ydmw6s": {
   "copy": {

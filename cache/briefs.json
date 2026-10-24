@@ -280,17 +280,16 @@
   "brief": {
    "zh": {
     "bullets": [
-     "OmniRoute 提供单一端点接入 375 家提供商、150+ 免费模型，支持 Claude、Gemini 等，覆盖 1,400+ 模型，实现统一代码调用。[repos#6]",
-     "dsh-our-free-model 插件让用户无需登录即可在 dsh 中直接使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，完全免费且不限流量。[repos#5]",
-     "free LLM API 将 34 家免费提供商与 635 个模型端点统一到 /v1 接口，提供智能路由、自动故障转移和加密传输。[repos#10]",
-     "Hugging Face 上的 DeepSeek-V4.1-Flash 与 Qwen3.8-27B 等高性能模型持续受热，为上述网关提供丰富的模型资源。[hf#1] [hf#4]",
-     "Inference Cooperative 在 Hacker News 推出用户治理的推理协作平台，鼓励社区共同维护免费推理服务。[news#5]",
-     "OpenShell 为自主 AI 代理提供安全、私有的运行时环境，配合统一网关实现安全可靠的模型部署。[repos#4]"
+     "多个GitHub项目提供免费或开源的模型接入插件/网关，降低使用门槛，如 dsh 免费模型插件、OmniRoute 统一入口、OpenShell 私有运行时 [repos#4] [repos#8] [repos#6]",
+     "Hugging Face 上高分多模态模型集中涌现，DeepSeek‑V4.1‑Flash、Qwen3.8‑27B、Flux‑3‑image‑Klein 等推动图像生成与理解能力提升 [hf#1] [hf#4] [hf#6]",
+     "Kimi 系列新型号发布，K3.1 Pro 与高速版登场并在 Artificial Analysis 评测中得分55，位于Pareto线，显示国产大模型竞争力提升 [news#1] [news#3]",
+     "开源AI创作与检索工具持续丰富，infinite‑canvas 集成多Agent工作流、xerj 提供本地搜索、Hallmark 为Claude等模型防止AI生成垃圾代码 [repos#1] [repos#5] [repos#7]",
+     "安全隐私仍受关注，黑客逆向三星电视发现内置AI监听功能，引发对消费设备中AI监控的担忧 [news#2]"
     ],
-    "headline": "多家开源项目推出免费统一的 LLM 推理网关，加速模型接入与部署"
+    "headline": "开源AI工具与免费模型层出不穷，国产大模型成绩亮眼，隐私安全仍受关注"
    }
   },
-  "hash": "4b275484c7705515"
+  "hash": "46942f850992a83e"
  },
  "2026-W41": {
   "brief": {

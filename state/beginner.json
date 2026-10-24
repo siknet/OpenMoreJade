@@ -270,6 +270,40 @@
    },
    "sourceKey": "gh:apify/apify-mcp-server"
   },
+  "discovery:gh:basketikun/infinite-canvas": {
+   "observedAt": "2026-10-24T15:55:42.824Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:basketikun/infinite-canvas",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-24T15:55:42.824Z",
+    "summary": {
+     "en": "面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。",
+     "zh": "Infinite Canvas 是一款面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等功能，并兼容 OpenAI 接口生态，可通过 chatgpt2api 等渠道接入。"
+    },
+    "title": {
+     "en": "basketikun/infinite-canvas",
+     "zh": "Infinite Canvas：面向 AI 创作的开源无限画布工作台"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/basketikun/infinite-canvas",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:basketikun/infinite-canvas"
+  },
   "discovery:gh:bowenliang123/dsh-context": {
    "observedAt": "2026-10-24T05:50:40.239Z",
    "resource": {
@@ -340,7 +374,7 @@
    "sourceKey": "gh:calesthio/openmontage"
   },
   "discovery:gh:cheaper-inference/omniroute": {
-   "observedAt": "2026-10-24T05:50:40.239Z",
+   "observedAt": "2026-10-24T15:55:42.824Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:cheaper-inference/omniroute",
@@ -416,7 +450,7 @@
    "sourceKey": "gh:comfy-org/comfyui"
   },
   "discovery:gh:deepseek-ai/deepinfer": {
-   "observedAt": "2026-10-24T05:50:40.239Z",
+   "observedAt": "2026-10-24T15:55:42.824Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:deepseek-ai/deepinfer",
@@ -639,7 +673,7 @@
    "sourceKey": "gh:graphify-labs/graphify"
   },
   "discovery:gh:hbai-ltd/toonflow-app": {
-   "observedAt": "2026-10-21T06:01:24.167Z",
+   "observedAt": "2026-10-24T15:55:42.824Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:hbai-ltd/toonflow-app",
@@ -1193,7 +1227,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-24T05:50:40.239Z",
+   "observedAt": "2026-10-24T15:55:42.824Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1205,7 +1239,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-24T05:50:38.000Z",
+    "sourceUpdatedAt": "2026-10-24T15:54:48.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1344,7 +1378,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:xerj-org/xerj": {
-   "observedAt": "2026-10-24T05:50:40.239Z",
+   "observedAt": "2026-10-24T15:55:42.824Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:xerj-org/xerj",
@@ -1356,7 +1390,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-23T16:33:08.000Z",
+    "sourceUpdatedAt": "2026-10-24T15:42:41.000Z",
     "summary": {
      "en": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
      "zh": "Rust实现的本地搜索引擎，支持代码、文档、日志、JSONL/CSV、PDF等多种格式的BM25、向量和混合检索，兼容Elasticsearch API，提供Agent记忆与RAG功能。"
@@ -6590,6 +6624,7 @@
   "https://github.com/anomalyco/opencode": "2026-10-06T09:37:13.355Z",
   "https://github.com/anthropics/claude-quickstarts": "2026-10-18T15:50:57.057Z",
   "https://github.com/apify/apify-mcp-server": "2026-10-14T06:07:58.904Z",
+  "https://github.com/basketikun/infinite-canvas": "2026-10-24T15:55:42.824Z",
   "https://github.com/bowenliang123/dsh-context": "2026-10-23T06:01:45.107Z",
   "https://github.com/calesthio/openmontage": "2026-10-06T09:37:13.355Z",
   "https://github.com/canonry/canonry": "2026-10-16T16:36:59.199Z",
