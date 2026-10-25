@@ -5924,6 +5924,20 @@
   },
   "hash": "f83109980f4ef4b1"
  },
+ "devto:4910111": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨在 Android 上为 Zed、Bun、Ghostty 等桌面软件进行硬核打包的难点，需模拟完整的 Linux 桌面环境，包括 GPU 加载器、共享内存和多进程等。",
+    "points": [
+     "处理 GPU 加载器、共享内存等桌面依赖",
+     "展示在移动平台实现完整 Linux 堆栈的技术挑战",
+     "适用于高性能开发工具的 Android 移植方案"
+    ],
+    "title": "Zed、Bun、Ghostty：Android 上的硬核打包挑战"
+   }
+  },
+  "hash": "c34ac52bfe7ee85c"
+ },
  "devto:4910225": {
   "copy": {
    "zh": {
@@ -6220,6 +6234,143 @@
   },
   "hash": "e2d26ad2bc21dcfc"
  },
+ "devto:4913674": {
+  "copy": {
+   "zh": {
+    "blurb": "作者因写提交信息慢而开发 Sloth 模型，模型嵌入二进制以自动生成一行摘要，庆祝国际...相关活动。",
+    "title": "Sloth：来自二进制模型的提交信息"
+   }
+  },
+  "hash": "72f4a827d2aa5c78"
+ },
+ "devto:4914951": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示在代理平台里，将每个作为 Kubernetes Job 的编码代理通过 oauth2‑proxy 与 Forgejo 账户绑定，实现基于 OAuth 的身份认证和权限管理。",
+    "title": "给 Kubernetes ServiceAccount 在 Forgejo 中通过 oauth2‑proxy 赋予身份"
+   }
+  },
+  "hash": "494f6ea34f279c7c"
+ },
+ "devto:4915205": {
+  "copy": {
+   "zh": {
+    "blurb": "SettleSloth 利用 Gemma 4 模型从群聊中提取费用信息，并对每一分钱进行确定性代码审计，作为 Hacktoberfest 开源 AI 挑战的提交。",
+    "points": [
+     "使用 Gemma 4 高效抽取群聊费用",
+     "实现对每笔支出的确定性代码审计",
+     "作为 Hacktoberfest 开源 AI 项目发布"
+    ],
+    "title": "SettleSloth：用 Gemma 4 提取群聊费用并进行确定性审计"
+   }
+  },
+  "hash": "97b435139d2a029f"
+ },
+ "devto:4915260": {
+  "copy": {
+   "zh": {
+    "blurb": "LazyWins 是一款利用 AI 为用户提供懒人式自动化建议的开源项目，旨在通过智能化操作降低日常任务的手动成本。",
+    "points": [
+     "AI 自动生成最省力的工作流或快捷键。",
+     "通过积分系统鼓励用户使用懒人技巧。",
+     "开源且可自定义插件，扩展多种场景。"
+    ],
+    "title": "LazyWins：AI 为懒惰加分"
+   }
+  },
+  "hash": "7edba7987a13b478"
+ },
+ "devto:4915466": {
+  "copy": {
+   "zh": {
+    "blurb": "参加 Hacktoberfest 开源 AI 挑战第 3 周的作品，主题为“慢而稳”，作者让树懒在夜间处理 GitHub 收件箱。",
+    "title": "雇佣树懒在我睡觉时阅读 GitHub 收件箱"
+   }
+  },
+  "hash": "5dd91f345e135903"
+ },
+ "devto:4915537": {
+  "copy": {
+   "zh": {
+    "blurb": "Thooriga 是一款基于 Gemma 大模型的图片筛选工具，帮助用户在海量照片中快速定位合适素材，简化面包店等业务的视觉挑选流程。",
+    "points": [
+     "利用 Gemma 的多模态检索，实现自然语言驱动的图片搜索。",
+     "交互式界面可即时预览并批量标记，显著提升选图效率。",
+     "开源实现，可自行部署并集成自定义数据集。"
+    ],
+    "title": "Thooriga：使用 Gemma 将海量图片搜索转为 AI 辅助挑选"
+   }
+  },
+  "hash": "f25d23441d858383"
+ },
+ "devto:4915595": {
+  "copy": {
+   "zh": {
+    "blurb": "Bubbles是一种新型软件概念，用户在 X 上回复 @grok bubbles 并简要描述应用后，Grok 会返回链接并启动对应的运行栈，实现一条回复即触发完整程序。",
+    "points": [
+     "单条回复即可启动完整的运行堆栈",
+     "结合 Grok 自动生成链接并执行应用",
+     "旨在简化跨平台应用的启动与交互"
+    ],
+    "title": "Bubbles：一条回复触发运行栈的新型软件"
+   }
+  },
+  "hash": "742de4a09b222017"
+ },
+ "devto:4915649": {
+  "copy": {
+   "zh": {
+    "blurb": "作者利用 Whisper 转录音频、Gemma 生成课堂笔记，实现自动听课与笔记，适用于 Hacktoberfest 开源 AI 挑战。",
+    "title": "LectureAI：让 Whisper 与 Gemma 代你上课"
+   }
+  },
+  "hash": "960e8c43038e233e"
+ },
+ "devto:4915702": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在生成的 OpenSpec 命令中加入本地备注，查询更新会做什么，验证首个‘不写任何内容’的更新行为，以确保安全且无副作用。",
+    "points": [
+     "通过本地注释测试 OpenSpec 更新行为",
+     "验证空更新是否安全且无副作用"
+    ],
+    "title": "OpenSpec 首个空更新的期待"
+   }
+  },
+  "hash": "a5e2b3051185b013"
+ },
+ "devto:4915841": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨技术应当帮助人们放慢节奏、留出闲暇，提出通过 AI 自动化繁琐任务，让用户拥有更多无所事事的时间。",
+    "points": [
+     "主张以“慢”为设计原则，避免过度即时化。",
+     "AI 可承担重复性工作，释放人类注意力。",
+     "倡导构建支持休息与沉思的技术生态。"
+    ],
+    "title": "🦥 慢即是好：技术如何为闲适争取时间"
+   }
+  },
+  "hash": "3e38f946d4b75b2f"
+ },
+ "devto:4915934": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战中提交的项目，提供 AI 自动摘要功能，帮助用户快速抓取文章要点，节省阅读时间。",
+    "title": "LazyBrief AI 🦥——让你不必阅读所有内容"
+   }
+  },
+  "hash": "3c1c25f5d5f79e46"
+ },
+ "devto:4916143": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 开源 AI 挑战中推出，旨在让 AI 自动执行重复性任务，提高工作效率。",
+    "title": "LazyFlow AI：让 AI 处理重复工作 🦥"
+   }
+  },
+  "hash": "e522351e3ff693e4"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -6229,6 +6380,15 @@
    }
   },
   "hash": "9f0ca6132b06fc31"
+ },
+ "gh:aaif-goose/goose": {
+  "copy": {
+   "zh": {
+    "blurb": "开源、可扩展的 AI 代理，超越代码建议，支持使用任意大语言模型进行安装、执行、编辑和测试。",
+    "title": "aaif-goose/goose 开源可扩展 AI 代理"
+   }
+  },
+  "hash": "7f8e957d82c1e93b"
  },
  "gh:addyosmani/agent-skills": {
   "copy": {
@@ -6259,6 +6419,15 @@
    }
   },
   "hash": "cd43bb92c47d6418"
+ },
+ "gh:agricidaniel/claude-seo": {
+  "copy": {
+   "zh": {
+    "blurb": "为 Claude 提供的 SEO 技能集合，含 26 项子技能和 19 个子代理，覆盖技术 SEO、E‑E‑A‑T、结构化数据、地域/国际 SEO、链接建设、电子商务等，并支持实时数据扩展。",
+    "title": "Claude SEO 通用技能库"
+   }
+  },
+  "hash": "9710cf4c3d87d861"
  },
  "gh:ai-dynamo/dynamo": {
   "copy": {
@@ -6407,6 +6576,20 @@
    }
   },
   "hash": "b56a1c37467f6f03"
+ },
+ "gh:anthropics/sandbox-runtime": {
+  "copy": {
+   "zh": {
+    "blurb": "anthropics 的 sandbox-runtime 是轻量级的 OS 级沙箱工具，可在无需容器的情况下为任意进程施加文件系统和网络访问限制。",
+    "points": [
+     "在操作系统层面实现细粒度权限控制",
+     "无需 Docker 等容器即可快速隔离进程",
+     "支持 TypeScript 开发，易于集成到现有工作流"
+    ],
+    "title": "anthropics/sandbox-runtime：轻量级 OS 沙箱工具"
+   }
+  },
+  "hash": "cf96395784226b1f"
  },
  "gh:apify/apify-mcp-server": {
   "copy": {
@@ -6643,6 +6826,20 @@
   },
   "hash": "47c626d1cf47b66f"
  },
+ "gh:cporter202/api-mega-list": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 上的强大 API 列表，可直接用于从简易自动化到完整应用的构建，是最有价值的 API 汇总之一。",
+    "points": [
+     "涵盖数千个可直接使用的 API",
+     "支持快速构建从脚本到全栈应用",
+     "累计 8191 星，排名第3，热度 36.7"
+    ],
+    "title": "API‑mega‑list：一站式 API 集合"
+   }
+  },
+  "hash": "dc404a706bb9ced2"
+ },
  "gh:croffasia/itsaplan": {
   "copy": {
    "zh": {
@@ -6855,6 +7052,34 @@
    }
   },
   "hash": "d2e912af28504677"
+ },
+ "gh:evomap/evolver": {
+  "copy": {
+   "zh": {
+    "blurb": "使用基因表达式编程（GEP）驱动的自我进化引擎，提供基因、胶囊和事件的可审计演化，适用于 AI 代理。",
+    "points": [
+     "GEP 实现代理的自我进化",
+     "基因、胶囊、事件全链路审计",
+     "累计 8701 星，热度 28.1"
+    ],
+    "title": "Evolver：基于 GEP 的自进化 AI 代理引擎"
+   }
+  },
+  "hash": "b556634a3154526d"
+ },
+ "gh:experientiallabs/experiential": {
+  "copy": {
+   "zh": {
+    "blurb": "Experiential 是一款开源的零标记网关，支持 BYOK、自托管以及超过 1000 种模型市场。它通过分析流量自动降本、推荐更佳模型，并可训练专属模型，全部归用户所有。",
+    "points": [
+     "根据实际流量自动优化模型选择并降低推理成本",
+     "支持自训练专属模型，实现完全所有权",
+     "兼容 1000+ 市场模型，零标记集成"
+    ],
+    "title": "Experiential：开源零标记 BYOK 网关"
+   }
+  },
+  "hash": "8eb08f802209fae5"
  },
  "gh:falkordb/falkordb": {
   "copy": {
@@ -8352,12 +8577,11 @@
  "gh:unslothai/unsloth": {
   "copy": {
    "zh": {
-    "blurb": "Unsloth 提供本地 UI，用于运行和训练大型语言模型及扩散模型，支持 GGUF、MLX、Qwen3.8、DeepSeek‑V4、MiniMax‑H3、Gemma 4、FLUX 等多种模型。",
-    "title": "Unsloth：本地 UI 运行与训练 LLM 与扩散模型",
-    "why": "让用户在本地即可使用最新模型，降低硬件门槛并加速实验。"
+    "blurb": "提供本地图形界面，可运行和微调大语言模型及扩散模型，兼容 GGUF、MLX、Qwen3.8、DeepSeek‑V4.1、MiniMax‑H3、Gemma 4、FLUX 等多种格式。",
+    "title": "unslothai/unsloth 本地 UI，支持多种模型"
    }
   },
-  "hash": "0c1ef1bf7bdb2df7"
+  "hash": "03527f4bc3346f2a"
  },
  "gh:usememos/memos": {
   "copy": {
@@ -8526,6 +8750,20 @@
    }
   },
   "hash": "02f3f2ac0502d2e2"
+ },
+ "gh:zseven-w/openpencil": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenPencil 是首个开源 AI 原生矢量设计工具，支持并发 Agent 团队，实现 Design‑as‑Code，用户可直接在实时画布上通过提示生成 UI，提供现代化的 Pencil 替代方案。",
+    "points": [
+     "AI 原生向量设计，支持并发 Agent 团队",
+     "Design‑as‑Code：提示直接在画布生成 UI",
+     "基于 Rust 的高星标项目，替代传统 Pencil"
+    ],
+    "title": "OpenPencil：AI 原生矢量设计工具，支持并发 Agent 团队"
+   }
+  },
+  "hash": "1c1cf3cfc190578e"
  },
  "hf:abenzerps/qwen-image-2.1-uncensored-gguf": {
   "copy": {
@@ -11818,6 +12056,62 @@
   },
   "hash": "87fd4a8380ba9afc"
  },
+ "hn:50227356": {
+  "copy": {
+   "zh": {
+    "blurb": "Cerebras 在自研的 Wafer‑Scale Engine 上成功部署了万亿参数的前沿模型，展示了单机大模型推理的可行性与高效性。",
+    "points": [
+     "利用 Wafer‑Scale 芯片实现万亿参数模型的并行计算",
+     "通过层切分和流水线技术降低推理延迟",
+     "在单机上运行前沿模型，突破传统算力瓶颈"
+    ],
+    "title": "Cerebras 部署万亿参数 AI 模型"
+   }
+  },
+  "hash": "c58d08881016d4d4"
+ },
+ "hn:50228167": {
+  "copy": {
+   "zh": {
+    "blurb": "五个基于 Qwen‑3.8‑27B 的模型在使用 GVS5H 框架后，在 Fable‑5 基准上取得与原模型相当的成绩，展示了大模型的高效微调能力。",
+    "points": [
+     "使用 GVS5H 框架微调 Qwen‑3.8‑27B，达成 Fable‑5 水平",
+     "提供开源实现，便于复现和进一步优化",
+     "证明了大模型在特定任务上的适配性"
+    ],
+    "title": "五个 Qwen3.8‑27B 模型使用 GVS5H 达到 Fable‑5 水平"
+   }
+  },
+  "hash": "de1d770a1fed13fe"
+ },
+ "hn:50229028": {
+  "copy": {
+   "zh": {
+    "blurb": "Hindsight 是一款免费开源的 Windows 与 macOS 活动记录工具，自动捕获当前运行的应用与窗口标题，并提供日、周、月的可视化统计和跨设备同步。",
+    "points": [
+     "无需手动启动计时，后台自动记录活动。",
+     "详细图表展示各应用使用时长，支持深度钻取。",
+     "支持跨平台数据同步，界面简洁轻量。"
+    ],
+    "title": "Show HN：Hindsight — 跨平台轻量活动追踪器"
+   }
+  },
+  "hash": "9ab52f1d57882e04"
+ },
+ "hn:50231486": {
+  "copy": {
+   "zh": {
+    "blurb": "该开源网络安全平台借助 AI 代理自动检测威胁并提供防护，面向企业用户，代码公开便于自部署和二次开发。",
+    "points": [
+     "基于多智能体架构实现自动化威胁检测与响应",
+     "集成大语言模型提供实时分析和建议",
+     "完全开源，企业可自行部署并定制功能"
+    ],
+    "title": "开源网络安全平台：AI 代理护航企业"
+   }
+  },
+  "hash": "7088636ecb99a907"
+ },
  "lobsters:05xrj8": {
   "copy": {
    "zh": {
@@ -12108,6 +12402,15 @@
    }
   },
   "hash": "44f832f2cdbe2ec2"
+ },
+ "lobsters:5ullyu": {
+  "copy": {
+   "zh": {
+    "blurb": "2021 年一次 glibc 升级意外破坏 Chromium 音频子系统，导致播放失败，文章回顾问题根源、影响及社区的修复方案。",
+    "title": "glibc 更新意外导致 Chromium 音频失效（2021）"
+   }
+  },
+  "hash": "9a32b4ffa694a883"
  },
  "lobsters:5xzuff": {
   "copy": {
@@ -12785,6 +13088,20 @@
    }
   },
   "hash": "34727039bff98cfc"
+ },
+ "lobsters:cxwpil": {
+  "copy": {
+   "zh": {
+    "blurb": "Vim Classic 项目在浏览器或现代平台上重新实现了传统 Vim 编辑器的核心功能与键位布局，旨在提供熟悉的编辑体验且无需额外安装。",
+    "points": [
+     "完全兼容原生 Vim 的键位映射和模式。",
+     "基于 Web 技术，无需本地安装即可使用。",
+     "体积小、启动快，适合作为轻量编辑器。"
+    ],
+    "title": "Vim Classic：复刻经典 Vim 的轻量化实现"
+   }
+  },
+  "hash": "4c6b4ce24eb792e7"
  },
  "lobsters:d0bbhd": {
   "copy": {
@@ -13670,6 +13987,15 @@
   },
   "hash": "a0fa930204cddf6f"
  },
+ "lobsters:jdczl6": {
+  "copy": {
+   "zh": {
+    "blurb": "Matrix 2026 大会的演示稿，探讨面向未来的时间线设计与实现，链接提供完整 PDF。",
+    "title": "下一代时间线的愿景"
+   }
+  },
+  "hash": "44ade55637a60ad1"
+ },
  "lobsters:jecehj": {
   "copy": {
    "zh": {
@@ -13796,6 +14122,19 @@
    }
   },
   "hash": "8742343128f007cc"
+ },
+ "lobsters:kiivg2": {
+  "copy": {
+   "zh": {
+    "blurb": "《Partial Order Precedence》讨论了 Zig 语言中部分顺序的优先级规则，阐述其实现方式及对编译器行为的影响。",
+    "points": [
+     "介绍 Zig 中部分顺序的实现机制",
+     "说明该机制对编译器可读性和性能的影响"
+    ],
+    "title": "Partial Order Precedence（部分顺序优先级）"
+   }
+  },
+  "hash": "e9fd5eb49ac0bf35"
  },
  "lobsters:kiq0si": {
   "copy": {
@@ -14481,6 +14820,15 @@
   },
   "hash": "56fd862aeb9d67b2"
  },
+ "lobsters:qsmmke": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍在 ESP32‑S3（约 2 美元）上利用 SIMD 指令实现高速计算机视觉处理的技术博客。",
+    "title": "$2 微控制器上的 SIMD 加速计算机视觉"
+   }
+  },
+  "hash": "a41cffc7b459b3a5"
+ },
  "lobsters:qvomvk": {
   "copy": {
    "zh": {
@@ -14743,6 +15091,20 @@
    }
   },
   "hash": "328c7cbc2ed12e06"
+ },
+ "lobsters:tbbiqb": {
+  "copy": {
+   "zh": {
+    "blurb": "文章揭示 POSIX 标准函数 wordexp 在解析通配符和 shell 扩展时可能执行任意代码，提醒开发者慎用并提供安全替代方案。",
+    "points": [
+     "wordexp 会在解析过程中触发 shell 命令，导致代码注入。",
+     "在不受信任的输入上使用极易产生安全漏洞。",
+     "推荐使用手动解析或安全库替代。"
+    ],
+    "title": "POSIX wordexp(3) 的安全隐患"
+   }
+  },
+  "hash": "acdb0d55b022360c"
  },
  "lobsters:tehays": {
   "copy": {
@@ -15496,6 +15858,20 @@
    }
   },
   "hash": "37cba323968fd5c5"
+ },
+ "lobsters:zfoiw1": {
+  "copy": {
+   "zh": {
+    "blurb": "Slurptop 是一款自制的可携带电脑，采用电动工具电池供电，兼具便携性与性能，适合移动工作者使用。",
+    "points": [
+     "使用电动工具电池实现长时间供电",
+     "模块化设计便于自行组装和升级",
+     "在重量与性能之间取得平衡，适合现场使用"
+    ],
+    "title": "Slurptop：自制可携带电脑，使用电动工具电池供电"
+   }
+  },
+  "hash": "630038dc4947e67b"
  },
  "lobsters:zitobg": {
   "copy": {
