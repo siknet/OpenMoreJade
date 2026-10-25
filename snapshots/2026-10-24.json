@@ -11140,21 +11140,21 @@
    "category": "discussion",
    "key": "hn:50212065",
    "metrics": {
-    "comments": 612,
+    "comments": 655,
     "frontPage": 0,
-    "points": 1012
+    "points": 1064
    },
    "news": {
     "author": "Jowsey",
-    "comments": 612,
+    "comments": 655,
     "createdAt": "2026-10-23T16:59:08.000Z",
     "domain": "kimi.ai",
     "hnId": 50212065,
     "hnUrl": "https://news.ycombinator.com/item?id=50212065",
-    "points": 1012,
+    "points": 1064,
     "showRank": 1
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T16:59:08.000Z",
    "refs": [
     "url:kimi.ai/blog/kimi-k3-1-pro"
@@ -11181,7 +11181,7 @@
    "metrics": {
     "comments": 41,
     "frontPage": 0,
-    "points": 119
+    "points": 120
    },
    "news": {
     "author": "theanonymousone",
@@ -11190,10 +11190,10 @@
     "domain": "artificialanalysis.ai",
     "hnId": 50213337,
     "hnUrl": "https://news.ycombinator.com/item?id=50213337",
-    "points": 119,
-    "showRank": 58
+    "points": 120,
+    "showRank": 55
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T18:24:54.000Z",
    "refs": [
     "url:artificialanalysis.ai/models/kimi-k3-1-pro"
@@ -11212,6 +11212,47 @@
    "tags": [],
    "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
    "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50214416",
+   "metrics": {
+    "comments": 120,
+    "frontPage": 0,
+    "points": 119
+   },
+   "news": {
+    "author": "pretext",
+    "comments": 120,
+    "createdAt": "2026-10-23T19:50:56.000Z",
+    "domain": "openai.com",
+    "hnId": 50214416,
+    "hnUrl": "https://news.ycombinator.com/item?id=50214416",
+    "points": 119,
+    "showRank": 56
+   },
+   "observedAt": "2026-10-25T06:05:51.247Z",
+   "publishedAt": "2026-10-23T19:50:56.000Z",
+   "refs": [
+    "url:openai.com/index/securing-our-frontier-model-training-environment"
+   ],
+   "relevance": {
+    "reasons": [
+     "domain:openai.com",
+     "weak:model",
+     "weak:training",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
   },
   {
    "board": "news",
@@ -11371,6 +11412,46 @@
    "tags": [],
    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
    "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50219700",
+   "metrics": {
+    "comments": 68,
+    "frontPage": 0,
+    "points": 215
+   },
+   "news": {
+    "author": "fragebogen",
+    "comments": 68,
+    "createdAt": "2026-10-24T09:58:27.000Z",
+    "domain": "github.com",
+    "hnId": 50219700,
+    "hnUrl": "https://news.ycombinator.com/item?id=50219700",
+    "points": 215,
+    "showRank": 27
+   },
+   "observedAt": "2026-10-25T06:05:51.247Z",
+   "publishedAt": "2026-10-24T09:58:27.000Z",
+   "refs": [
+    "gh:zagitta/gpu-unlock"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:gpu",
+     "weak:nvidia",
+     "cat:board"
+    ],
+    "score": 0.4
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock"
   },
   {
    "board": "devto",
@@ -11745,14 +11826,14 @@
     "createdAt": "2026-10-23T20:18:31Z",
     "domain": "dev.to",
     "id": 4907389,
-    "points": 47,
+    "points": 59,
     "url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-2-side-hustle-winners-2i33"
    },
    "key": "devto:4907389",
    "metrics": {
     "comments": 10,
     "frontPage": 0,
-    "points": 47
+    "points": 59
    },
    "news": {
     "author": "Jem",
@@ -11761,9 +11842,9 @@
     "domain": "dev.to",
     "hnId": 4907389,
     "hnUrl": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-2-side-hustle-winners-2i33",
-    "points": 47
+    "points": 59
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T20:18:31Z",
    "refs": [],
    "relevance": {
@@ -13246,29 +13327,29 @@
    "category": "tool",
    "devto": {
     "author": "Efe Genc",
-    "comments": 10,
+    "comments": 15,
     "createdAt": "2026-10-24T09:32:54Z",
     "domain": "dev.to",
     "id": 4909647,
-    "points": 6,
+    "points": 11,
     "url": "https://dev.to/efe_genc/humanizer-has-about-60000-stars-on-12-public-tasks-my-linter-plugin-scored-267-higher-2cdg"
    },
    "key": "devto:4909647",
    "metrics": {
-    "comments": 10,
+    "comments": 15,
     "frontPage": 0,
-    "points": 6
+    "points": 11
    },
    "news": {
     "author": "Efe Genc",
-    "comments": 10,
+    "comments": 15,
     "createdAt": "2026-10-24T09:32:54Z",
     "domain": "dev.to",
     "hnId": 4909647,
     "hnUrl": "https://dev.to/efe_genc/humanizer-has-about-60000-stars-on-12-public-tasks-my-linter-plugin-scored-267-higher-2cdg",
-    "points": 6
+    "points": 11
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T09:32:54Z",
    "refs": [],
    "relevance": {
@@ -13558,7 +13639,7 @@
    "category": "engineering",
    "devto": {
     "author": "Puneet-Kumar2010",
-    "comments": 10,
+    "comments": 20,
     "createdAt": "2026-10-24T11:37:01Z",
     "domain": "dev.to",
     "id": 4910233,
@@ -13567,20 +13648,20 @@
    },
    "key": "devto:4910233",
    "metrics": {
-    "comments": 10,
+    "comments": 20,
     "frontPage": 0,
     "points": 20
    },
    "news": {
     "author": "Puneet-Kumar2010",
-    "comments": 10,
+    "comments": 20,
     "createdAt": "2026-10-24T11:37:01Z",
     "domain": "dev.to",
     "hnId": 4910233,
     "hnUrl": "https://dev.to/puneetkumar2010/day-22-of-building-crowdwide-i-thought-ui-polish-would-be-easy-but-i-was-wronggggg-27jk",
     "points": 20
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T11:37:01Z",
    "refs": [],
    "relevance": {
@@ -14287,28 +14368,28 @@
    "key": "lobsters:5xzuff",
    "lobsters": {
     "author": "abareplace",
-    "comments": 49,
+    "comments": 58,
     "createdAt": "2026-10-23T15:47:58.255-05:00",
     "domain": "blog.habets.se",
-    "points": 55,
+    "points": 69,
     "shortId": "5xzuff",
     "url": "https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html"
    },
    "metrics": {
-    "comments": 49,
+    "comments": 58,
     "frontPage": 0,
-    "points": 55
+    "points": 69
    },
    "news": {
     "author": "abareplace",
-    "comments": 49,
+    "comments": 58,
     "createdAt": "2026-10-23T15:47:58.255-05:00",
     "domain": "blog.habets.se",
     "hnId": 359430603,
     "hnUrl": "https://lobste.rs/s/5xzuff/attention_people_who_think_ub_is_fine",
-    "points": 55
+    "points": 69
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T15:47:58.255-05:00",
    "refs": [],
    "relevance": {
@@ -14340,14 +14421,14 @@
     "comments": 3,
     "createdAt": "2026-10-23T16:35:45.952-05:00",
     "domain": "dziban.net",
-    "points": 10,
+    "points": 11,
     "shortId": "6utrvz",
     "url": "https://dziban.net/posts/incremental-computation-graph/"
    },
    "metrics": {
     "comments": 3,
     "frontPage": 0,
-    "points": 10
+    "points": 11
    },
    "news": {
     "author": "marcecoll",
@@ -14356,9 +14437,9 @@
     "domain": "dziban.net",
     "hnId": 414574703,
     "hnUrl": "https://lobste.rs/s/6utrvz/incremental_computation_graphs",
-    "points": 10
+    "points": 11
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T16:35:45.952-05:00",
    "refs": [],
    "relevance": {
@@ -14386,28 +14467,28 @@
    "key": "lobsters:al3yyf",
    "lobsters": {
     "author": "hoistbypetard",
-    "comments": 1,
+    "comments": 10,
     "createdAt": "2026-10-24T06:01:27.896-05:00",
     "domain": "aikido.dev",
-    "points": 5,
+    "points": 8,
     "shortId": "al3yyf",
     "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 10,
     "frontPage": 0,
-    "points": 5
+    "points": 8
    },
    "news": {
     "author": "hoistbypetard",
-    "comments": 1,
+    "comments": 10,
     "createdAt": "2026-10-24T06:01:27.896-05:00",
     "domain": "aikido.dev",
     "hnId": 640118967,
     "hnUrl": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
-    "points": 5
+    "points": 8
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T06:01:27.896-05:00",
    "refs": [],
    "relevance": {
@@ -14507,7 +14588,7 @@
     "hnUrl": "https://lobste.rs/s/d1snfg/next_concept_modeling_fast_parallel",
     "points": 3
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T12:25:34.960-05:00",
    "refs": [
     "arxiv:2610.14162"
@@ -14539,14 +14620,14 @@
     "comments": 0,
     "createdAt": "2026-10-24T10:27:34.811-05:00",
     "domain": "astral.sh",
-    "points": 4,
+    "points": 36,
     "shortId": "dfieqa",
     "url": "https://astral.sh/blog/uv-ty-integration"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 4
+    "points": 36
    },
    "news": {
     "author": "uds",
@@ -14555,9 +14636,9 @@
     "domain": "astral.sh",
     "hnId": 812113426,
     "hnUrl": "https://lobste.rs/s/dfieqa/bringing_uv_ty_together",
-    "points": 4
+    "points": 36
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T10:27:34.811-05:00",
    "refs": [],
    "relevance": {
@@ -14735,28 +14816,28 @@
    "key": "lobsters:qzfohf",
    "lobsters": {
     "author": "Yogthos",
-    "comments": 1,
+    "comments": 14,
     "createdAt": "2026-10-24T09:18:48.714-05:00",
     "domain": "larstofus.com",
-    "points": 4,
+    "points": 11,
     "shortId": "qzfohf",
     "url": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 14,
     "frontPage": 0,
-    "points": 4
+    "points": 11
    },
    "news": {
     "author": "Yogthos",
-    "comments": 1,
+    "comments": 14,
     "createdAt": "2026-10-24T09:18:48.714-05:00",
     "domain": "larstofus.com",
     "hnId": 1631638707,
     "hnUrl": "https://lobste.rs/s/qzfohf/how_run_city_builder_on_16_mhz",
-    "points": 4
+    "points": 11
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T09:18:48.714-05:00",
    "refs": [],
    "relevance": {
@@ -14787,14 +14868,14 @@
     "comments": 1,
     "createdAt": "2026-10-24T05:42:05.453-05:00",
     "domain": "fireborn.mataroa.blog",
-    "points": 19,
+    "points": 30,
     "shortId": "rl0dz5",
     "url": "https://fireborn.mataroa.blog/blog/be-aware-of-whats-in-your-logs/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 19
+    "points": 30
    },
    "news": {
     "author": "robalex",
@@ -14803,9 +14884,9 @@
     "domain": "fireborn.mataroa.blog",
     "hnId": 1667876801,
     "hnUrl": "https://lobste.rs/s/rl0dz5/be_aware_what_s_your_logs",
-    "points": 19
+    "points": 30
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T05:42:05.453-05:00",
    "refs": [],
    "relevance": {
@@ -14836,14 +14917,14 @@
     "comments": 1,
     "createdAt": "2026-10-24T01:41:52.308-05:00",
     "domain": "philipotoole.com",
-    "points": 10,
+    "points": 16,
     "shortId": "rqefcw",
     "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 10
+    "points": 16
    },
    "news": {
     "author": "tomas",
@@ -14852,9 +14933,9 @@
     "domain": "philipotoole.com",
     "hnId": 1676929856,
     "hnUrl": "https://lobste.rs/s/rqefcw/twelve_years_distributed_sqlite",
-    "points": 10
+    "points": 16
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T01:41:52.308-05:00",
    "refs": [],
    "relevance": {
@@ -14882,28 +14963,28 @@
    "key": "lobsters:vh8l3t",
    "lobsters": {
     "author": "prayerie",
-    "comments": 1,
+    "comments": 24,
     "createdAt": "2026-10-24T07:09:40.853-05:00",
     "domain": "homepage.farm",
-    "points": 6,
+    "points": 30,
     "shortId": "vh8l3t",
     "url": "https://homepage.farm/ai.html"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 24,
     "frontPage": 0,
-    "points": 6
+    "points": 30
    },
    "news": {
     "author": "prayerie",
-    "comments": 1,
+    "comments": 24,
     "createdAt": "2026-10-24T07:09:40.853-05:00",
     "domain": "homepage.farm",
     "hnId": 1903405529,
     "hnUrl": "https://lobste.rs/s/vh8l3t/what_s_wrong_with_ai",
-    "points": 6
+    "points": 30
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T07:09:40.853-05:00",
    "refs": [],
    "relevance": {
@@ -14933,28 +15014,28 @@
    "key": "lobsters:vulvk7",
    "lobsters": {
     "author": "patchunwrap",
-    "comments": 4,
+    "comments": 7,
     "createdAt": "2026-10-24T05:11:35.679-05:00",
     "domain": "github.com",
-    "points": 15,
+    "points": 31,
     "shortId": "vulvk7",
     "url": "https://github.com/wild-linker/wild/releases/tag/0.11.0"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 7,
     "frontPage": 0,
-    "points": 15
+    "points": 31
    },
    "news": {
     "author": "patchunwrap",
-    "comments": 4,
+    "comments": 7,
     "createdAt": "2026-10-24T05:11:35.679-05:00",
     "domain": "github.com",
     "hnId": 1925860615,
     "hnUrl": "https://lobste.rs/s/vulvk7/wild_version_0_11_0_released",
-    "points": 15
+    "points": 31
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T05:11:35.679-05:00",
    "refs": [
     "gh:wild-linker/wild"
@@ -14986,28 +15067,28 @@
    "key": "lobsters:xgih2x",
    "lobsters": {
     "author": "lucasluitjes",
-    "comments": 20,
+    "comments": 30,
     "createdAt": "2026-10-24T05:09:28.059-05:00",
     "domain": "blog.luitjes.it",
-    "points": 61,
+    "points": 102,
     "shortId": "xgih2x",
     "url": "https://blog.luitjes.it/posts/i-want-my-wednesday-back/"
    },
    "metrics": {
-    "comments": 20,
+    "comments": 30,
     "frontPage": 0,
-    "points": 61
+    "points": 102
    },
    "news": {
     "author": "lucasluitjes",
-    "comments": 20,
+    "comments": 30,
     "createdAt": "2026-10-24T05:09:28.059-05:00",
     "domain": "blog.luitjes.it",
     "hnId": 2023119609,
     "hnUrl": "https://lobste.rs/s/xgih2x/i_want_my_wednesday_back",
-    "points": 61
+    "points": 102
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T05:09:28.059-05:00",
    "refs": [],
    "relevance": {
@@ -15036,28 +15117,28 @@
    "key": "lobsters:yczems",
    "lobsters": {
     "author": "ehamberg",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-24T03:45:01.682-05:00",
     "domain": "jointhefreeworld.org",
-    "points": 18,
+    "points": 25,
     "shortId": "yczems",
     "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-folding-kirigami/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 18
+    "points": 25
    },
    "news": {
     "author": "ehamberg",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-24T03:45:01.682-05:00",
     "domain": "jointhefreeworld.org",
     "hnId": 2077657300,
     "hnUrl": "https://lobste.rs/s/yczems/emacs_finally_folds_my_liking",
-    "points": 18
+    "points": 25
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-24T03:45:01.682-05:00",
    "refs": [],
    "relevance": {
@@ -15134,28 +15215,28 @@
    "key": "lobsters:zug8xv",
    "lobsters": {
     "author": "adityaathalye",
-    "comments": 8,
+    "comments": 13,
     "createdAt": "2026-10-23T23:06:06.412-05:00",
     "domain": "captnemo.in",
-    "points": 42,
+    "points": 62,
     "shortId": "zug8xv",
     "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 13,
     "frontPage": 0,
-    "points": 42
+    "points": 62
    },
    "news": {
     "author": "adityaathalye",
-    "comments": 8,
+    "comments": 13,
     "createdAt": "2026-10-23T23:06:06.412-05:00",
     "domain": "captnemo.in",
     "hnId": 2167462723,
     "hnUrl": "https://lobste.rs/s/zug8xv/indian_government_sites_are_serving",
-    "points": 42
+    "points": 62
    },
-   "observedAt": "2026-10-24T15:55:42.824Z",
+   "observedAt": "2026-10-25T06:05:51.247Z",
    "publishedAt": "2026-10-23T23:06:06.412-05:00",
    "refs": [],
    "relevance": {
@@ -15179,60 +15260,67 @@
   }
  ],
  "date": "2026-10-24",
- "fetchedAt": "2026-10-24T15:55:42.824Z",
+ "fetchedAt": "2026-10-25T06:05:51.247Z",
  "runs": [
   "2026-10-23T17:05:11.325Z",
   "2026-10-24T05:50:40.239Z",
-  "2026-10-24T15:55:42.824Z"
+  "2026-10-24T15:55:42.824Z",
+  "2026-10-25T06:05:51.247Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "dev-to",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 319,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "count": 321,
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "github-search",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 170,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "github-trending",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 75,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "count": 73,
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 98,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "lobsters",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15240,16 +15328,17 @@
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-24T15:55:42.824Z",
+   "fetchedAt": "2026-10-25T06:05:51.247Z",
    "id": "x-linked",
    "message": "no linked X posts queued",
+   "settledAt": "2026-10-25T06:05:51.247Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-23T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
-  "to": "2026-10-24T15:55:42.824Z"
+  "to": "2026-10-24T16:00:00.000Z"
  }
 }

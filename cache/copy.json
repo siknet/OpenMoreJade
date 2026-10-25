@@ -4952,6 +4952,15 @@
   },
   "hash": "9771ae291ee87c26"
  },
+ "devto:4890242": {
+  "copy": {
+   "zh": {
+    "blurb": "JANISSARY 7.3.0 正式发布，单命令即可复现 F1 0.921 的结果，包含代码冻结和最新性能改进，方便研究者快速验证。",
+    "title": "JANISSARY 7.3.0：F1 0.921，仅一条命令即可复现"
+   }
+  },
+  "hash": "ccdf8bc8a82b3f6e"
+ },
  "devto:4890265": {
   "copy": {
    "zh": {
@@ -5222,6 +5231,20 @@
    }
   },
   "hash": "ed4dec4c19b3b806"
+ },
+ "devto:4895062": {
+  "copy": {
+   "zh": {
+    "blurb": "Dark Matter Engine 是作者构建的一个在深夜自动搜索缺失答案的系统，依据已有规范（spec）生成作者可能提出的问题并提供答案，类似“树懒”般缓慢却可靠的查询引擎。",
+    "points": [
+     "利用大型语言模型根据 spec 自动生成问答。",
+     "专注于填补文档或规范中的空白，适合深夜调试。",
+     "以树懒形象比喻低调但持久的搜索策略。"
+    ],
+    "title": "Dark Matter Engine：深夜寻找缺失答案的树懒"
+   }
+  },
+  "hash": "bb61a83982e3dd82"
  },
  "devto:4896619": {
   "copy": {
@@ -5938,6 +5961,20 @@
   },
   "hash": "629d15d027a0a633"
  },
+ "devto:4910670": {
+  "copy": {
+   "zh": {
+    "blurb": "Still 是一款可以自行写日记的 AI 应用，作者在 Hacktoberfest Open‑Source AI Challenge 第三周提交，利用本地模型在树莓派上实时生成日记内容，展示了低功耗设备上的 AI 创作潜力。",
+    "points": [
+     "使用本地 LLM 在树莓派上实时生成日记文本。",
+     "面向 Hacktoberfest AI 挑战，强调开源与可复制性。",
+     "展示了在资源受限硬件上运行生成式 AI 的可行性。"
+    ],
+    "title": "Still：自写日记，速度快到树莓派思考的极限"
+   }
+  },
+  "hash": "1d540b3e20e17872"
+ },
  "devto:4910803": {
   "copy": {
    "zh": {
@@ -5992,6 +6029,196 @@
    }
   },
   "hash": "60d053b239e55863"
+ },
+ "devto:4911653": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 文章介绍 SlothOps，这是一款运行在本地的 AI 助手，帮助开发者审查代码、生成文档、自动化常规任务，旨在提升代码质量且不泄露代码。",
+    "points": [
+     "离线运行，确保代码安全。",
+     "深度集成 Git，自动在 PR 上提供建议。",
+     "支持多语言代码分析与自动文档生成。"
+    ],
+    "title": "SlothOps：为代码库提供本地 AI 看护者"
+   }
+  },
+  "hash": "ab3a332f5fd66c66"
+ },
+ "devto:4911807": {
+  "copy": {
+   "zh": {
+    "blurb": "作者虽非 DEV 团队成员，却在公开代码中定位并修复了缺失徽章的 bug，首次测试因误判导致错误。",
+    "points": [
+     "展示了无需内部权限也能排查产品缺陷。",
+     "强调了对公开代码的审计价值。",
+     "提醒测试用例需严谨验证。"
+    ],
+    "title": "我不在 DEV 团队，却调试了他们的缺失徽章"
+   }
+  },
+  "hash": "734eca8690948e71"
+ },
+ "devto:4911966": {
+  "copy": {
+   "zh": {
+    "blurb": "该 Dev.to 文章逆向 Google Antigravity Science Plugin（v1.3.1），利用开源 3D WebGL 生物分子工作室，构建了 5 条多技能流水线和 3 个自定义插件，实现古代文字到蛋白质结构的可视化。",
+    "points": [
+     "基于 WebGL 实现交互式 3D 蛋白质展示。",
+     "构建多技能流水线，将文本、图像、结构数据串联。",
+     "发布自定义插件，扩展 Antigravity 平台功能。"
+    ],
+    "title": "从古代碑文到 3D 蛋白质：Google Antigravity 插件与 MCP Sidecars 构建实践"
+   }
+  },
+  "hash": "01de19987be9b3ea"
+ },
+ "devto:4912424": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇 Hacktoberfest 开源 AI 挑战周三的 Dev.to 文章，介绍了 knowledge-gate 项目。它通过语音把 AI 的思考写进个人笔记，支持离线运行，帮助用户在不在电脑前时捕捉灵感。",
+    "points": [
+     "使用语音交互，将 AI 生成的内容直接写入本地笔记本。",
+     "完全离线运行，保护隐私且无需云服务。",
+     "可自定义笔记格式，适配多种笔记软件。"
+    ],
+    "title": "knowledge-gate：在我睡觉时让 AI 对我的笔记进行语音输入"
+   }
+  },
+  "hash": "4fea55b7a380e1cf"
+ },
+ "devto:4912570": {
+  "copy": {
+   "zh": {
+    "blurb": "一款完全离线运行的YouTube语音遥控工具，能够通过语音指令控制播放，并支持Pidgin语言理解。",
+    "points": [
+     "离线AI语音控制",
+     "支持Pidgin语言解析"
+    ],
+    "title": "离线YouTube语音遥控（支持Pidgin）"
+   }
+  },
+  "hash": "2397924e981a2e52"
+ },
+ "devto:4912893": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目为 Hacktoberfest 开源 AI 挑战第 3 周的提交，旨在提供一种在离线环境下运行的通知系统，避免用户被弹窗打扰，实现低功耗、即时提醒。",
+    "title": "Unison：零干扰离线通知引擎"
+   }
+  },
+  "hash": "50dde93621a56275"
+ },
+ "devto:4913033": {
+  "copy": {
+   "zh": {
+    "blurb": "tastelint 提供 17 条针对 HTML、CSS、JSX/TSX、Vue、Svelte 与 Tailwind 的确定性规则，输出 0‑100 味道评分，可在 CI 中阻止构建，亦可通过低成本 AI API 进行审查。",
+    "title": "tastelint：检测 AI 生成 UI 失误的离线味觉 Linter"
+   }
+  },
+  "hash": "3d964d8da6e7a0d8"
+ },
+ "devto:4913103": {
+  "copy": {
+   "zh": {
+    "blurb": "作者放弃传统软件开发，创办 RM Psyllium 车前草粉磨坊，并推出一个帮助原料采购方的 Python 包，以简化采购流程。",
+    "title": "从软件工程师到车前草粉厂——发布面向买家的 pip 包"
+   }
+  },
+  "hash": "9c285508a402162e"
+ },
+ "devto:4913147": {
+  "copy": {
+   "zh": {
+    "blurb": "作者基于 Rust 的 Iced 渲染库实现了 Pyzed，使 Python 能够创建跨平台的原生桌面 GUI，摆脱 Tkinter 的局限，提供简洁的 Python API 与高性能渲染。",
+    "points": [
+     "使用 Rust Iced 进行底层绘制，确保流畅渲染和低延迟。",
+     "提供 Python 包装层，开发者可直接使用 Python 编写界面。",
+     "跨 Windows、macOS、Linux 的原生窗口支持。"
+    ],
+    "title": "我构建了 Pyzed：在 Python 中使用 Rust Iced 绘制原生桌面 GUI"
+   }
+  },
+  "hash": "627209ecbbc761c0"
+ },
+ "devto:4913213": {
+  "copy": {
+   "zh": {
+    "blurb": "croak 是一款安全工具，能够在安装仓库或依赖前模拟执行并评估潜在风险，已在真实代码库中进行测试验证。",
+    "title": "croak：在实际仓库上运行的安全评估工具"
+   }
+  },
+  "hash": "72abcbb89fe36bae"
+ },
+ "devto:4913266": {
+  "copy": {
+   "zh": {
+    "blurb": "作者为 #TestSprite Hackathon 第四季开发了一个在线测试平台（ninety-coral.vercel.app），并实现了让欧盟委员会自动评分的功能。",
+    "title": "一次欧盟边境的误会——让欧委会为我的测试打分"
+   }
+  },
+  "hash": "d78dc6b72dd2c169"
+ },
+ "devto:4913393": {
+  "copy": {
+   "zh": {
+    "blurb": "AI测试用例生成器可将需求文档自动转换为可直接导入TestRail的测试用例，并提供免费使用的提示词。",
+    "points": [
+     "从需求生成TestRail格式用例",
+     "提供免费Prompt示例"
+    ],
+    "title": "AI测试用例生成器：需求转TestRail（免费Prompt）"
+   }
+  },
+  "hash": "f03cfefe0c43baeb"
+ },
+ "devto:4913394": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战中，作者使用 Gemma 大模型自动记录会议内容并生成纪要，用户可在会议期间小憩，提升效率。",
+    "title": "懒虫秘书🦥：让 Gemma 记录会议纪要，我可以小憩"
+   }
+  },
+  "hash": "767de145c0db1f51"
+ },
+ "devto:4913421": {
+  "copy": {
+   "zh": {
+    "blurb": "作者开发了一个小型开源模型，能够在纸质书籍被标记后自动转录摘录文本，甚至在用户睡眠时完成排版，实现无缝数字化笔记。",
+    "title": "我标记纸质书籍：一个小型开源模型在我睡觉时录入我的引用"
+   }
+  },
+  "hash": "8413fac994d725f4"
+ },
+ "devto:4913542": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在机器启动 38 小时后扫描系统，发现 Claude Code 在 Windows 上留下的后台进程占用 3001 端口，提供定位和清理方法。",
+    "title": "在 Windows 上查找 Claude Code 留下的进程"
+   }
+  },
+  "hash": "1616b174d35d65b9"
+ },
+ "devto:4913576": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨让 AI 保持跨会话记忆的设想，提出持久化状态或外部记忆库，以避免每天重新训练或加载，实现更连贯的交互体验。",
+    "title": "如果你的 AI 每天早晨无需重新开始会怎样？"
+   }
+  },
+  "hash": "8fc29b81511d6116"
+ },
+ "devto:4913633": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享在Hacktoberfest期间学到的Git、GitHub使用技巧以及开源协作的经验教训。",
+    "points": [
+     "总结实战Git操作要点",
+     "分享开源合作流程与心得"
+    ],
+    "title": "Hacktoberfest心得：Git、GitHub与开源协作"
+   }
+  },
+  "hash": "e2d26ad2bc21dcfc"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -6214,6 +6441,20 @@
    }
   },
   "hash": "02e7bdb1145aa673"
+ },
+ "gh:aws/agent-toolkit-for-aws": {
+  "copy": {
+   "zh": {
+    "blurb": "AWS 官方推出的 Agent Toolkit，提供基于 MCP 的服务器、技能和插件，帮助在 AWS 上快速构建 AI 代理。",
+    "points": [
+     "包含 Python 实现的 MCP 服务器。",
+     "提供丰富的技能库和插件生态。",
+     "直接集成 AWS 云服务，便于部署。"
+    ],
+    "title": "AWS Agent Toolkit：官方 AI 代理服务器与插件"
+   }
+  },
+  "hash": "ef428da30848d138"
  },
  "gh:basketikun/infinite-canvas": {
   "copy": {
@@ -6710,6 +6951,20 @@
    }
   },
   "hash": "32a8ad7d766f7ab1"
+ },
+ "gh:google-gemini/gemini-cli": {
+  "copy": {
+   "zh": {
+    "blurb": "gemini-cli 是 Google Gemini 开源的终端 AI 代理，使用 TypeScript 编写，可直接在命令行与 Gemini 模型交互，支持多轮对话与工具调用。",
+    "points": [
+     "一键安装后在终端打开 Gemini 对话，体验即时响应。",
+     "支持插件式工具调用，扩展功能如搜索、代码生成。",
+     "基于 TypeScript，易于二次开发和社区贡献。"
+    ],
+    "title": "google-gemini/gemini-cli：终端版 Gemini AI 代理"
+   }
+  },
+  "hash": "88cad6af7bde3737"
  },
  "gh:google/artemis": {
   "copy": {
@@ -7385,6 +7640,15 @@
   },
   "hash": "5e76d82b4e2fb4f2"
  },
+ "gh:narcooo/inkos": {
+  "copy": {
+   "zh": {
+    "blurb": "inkos 是一个基于 TypeScript 的开源 AI 代理，支持小说、剧本、翻译、互动游戏以及知识产权内容的自动生成，已累计获得 10 684 星。",
+    "title": "inkos：面向小说、剧本和交互内容的故事创作 AI 代理"
+   }
+  },
+  "hash": "55e0fc418e98ac8d"
+ },
  "gh:niko1221/strata": {
   "copy": {
    "zh": {
@@ -7427,6 +7691,20 @@
    }
   },
   "hash": "8a29b9b8f512ce21"
+ },
+ "gh:nvidia/skillspector": {
+  "copy": {
+   "zh": {
+    "blurb": "SkillSpector 是 NVIDIA 开源的安全扫描工具，专门检测 AI 代理技能（Claude Code、Codex、MCP）中的漏洞、恶意模式、提示注入、数据泄露和供应链风险，帮助在部署前进行安全审计。",
+    "points": [
+     "支持多种技能格式，包括 Claude Code、Codex 与 MCP。",
+     "基于 Python 实现，拥有 21384+ 星标，易于集成。",
+     "自动生成安全报告，覆盖漏洞、恶意行为及供应链风险。"
+    ],
+    "title": "NVIDIA/SkillSpector：AI 代理技能安全扫描器"
+   }
+  },
+  "hash": "9531c08838aae578"
  },
  "gh:nvlabs/aspire": {
   "copy": {
@@ -7659,6 +7937,20 @@
    }
   },
   "hash": "f62494b8c943fb1e"
+ },
+ "gh:sgl-project/sglang": {
+  "copy": {
+   "zh": {
+    "blurb": "GitHub 项目 SGLang 提供面向大型语言模型和多模态模型的高效推理服务，支持低延迟调度、异步批处理和多卡并行，适合生产环境部署。",
+    "points": [
+     "实现 Tensor 并行和流水线并行，提升吞吐。",
+     "异步批处理降低请求等待时间。",
+     "提供统一 API 支持文本、图像等多模态输入。"
+    ],
+    "title": "sgl-project/sglang：高性能大模型与多模态服务框架"
+   }
+  },
+  "hash": "0a42bd582cdd1e70"
  },
  "gh:shanraisshan/claude-code-best-practice": {
   "copy": {
@@ -8560,6 +8852,20 @@
    }
   },
   "hash": "81a1ee32da83d572"
+ },
+ "hf:minimaxai/minimax-m3.1-flash": {
+  "copy": {
+   "zh": {
+    "blurb": "MiniMaxAI 发布的 MiniMax‑M3.1‑Flash 模型，专注图像‑文本转文本任务，支持快速推理。",
+    "points": [
+     "支持图像与文本混合输入，输出文本。",
+     "采用 Flash 推理技术，提升响应速度。",
+     "在 Hugging Face 上获 323 赞，热度高。"
+    ],
+    "title": "MiniMax-M3.1-Flash：图文转文本模型"
+   }
+  },
+  "hash": "61509a70a22a5433"
  },
  "hf:openbmb/minicpm-v-4.7-35b-a3b": {
   "copy": {
@@ -11400,6 +11706,20 @@
   },
   "hash": "7f24278afbf356ac"
  },
+ "hn:50214416": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenAI 在博客中阐述了为前沿模型训练环境设计的安全框架，涵盖隔离、审计、访问控制等措施，以防止数据泄露和滥用。",
+    "points": [
+     "采用硬件隔离和安全容器，确保训练过程与外部系统隔绝。",
+     "实现细粒度访问控制和实时审计日志，提升可追溯性。",
+     "引入模型安全评估流程，提前发现潜在风险。"
+    ],
+    "title": "保障前沿模型训练环境的安全"
+   }
+  },
+  "hash": "b5f395fe188225fb"
+ },
  "hn:50214427": {
   "copy": {
    "zh": {
@@ -11455,6 +11775,48 @@
    }
   },
   "hash": "088fa8e857993c4d"
+ },
+ "hn:50219700": {
+  "copy": {
+   "zh": {
+    "blurb": "GPU-unlock 是一个开源工具，测量 Nvidia RTX 3000 系列显卡在 FP16/BF16 模式下的指令发射率，帮助开发者优化算子性能。",
+    "points": [
+     "提供 FP/BF16 指令发射率基准，量化硬件吞吐上限。",
+     "支持自定义 kernel 测试，定位性能瓶颈。",
+     "兼容多种 Nvidia 3000 卡，便于跨平台对比。"
+    ],
+    "title": "GPU-unlock：Nvidia 3000 系列卡的 FP/BF16 指令发射率"
+   }
+  },
+  "hash": "5c9803404c1acd3e"
+ },
+ "hn:50223759": {
+  "copy": {
+   "zh": {
+    "blurb": "由 Microsoft 开源的 Agentsh 项目，提供去中心化的多智能体协作框架，支持大规模 agent 部署与调度。",
+    "points": [
+     "采用去中心化拓扑，降低单点瓶颈。",
+     "支持水平扩展，能管理成千上万的 agents。",
+     "提供统一的接口与工具链，便于快速构建 multi‑agent 系统。"
+    ],
+    "title": "Agentsh：去中心化、可扩展的多智能体框架"
+   }
+  },
+  "hash": "925223582e3e2868"
+ },
+ "hn:50225806": {
+  "copy": {
+   "zh": {
+    "blurb": "Call4me 是一个 ChatGPT 插件，允许模型代表用户拨打电话，扩展了对话系统的交互能力。",
+    "points": [
+     "集成电话拨号功能，自动完成通话。",
+     "通过插件方式无缝接入 ChatGPT。",
+     "演示了 LLM 与外部服务的协作潜力。"
+    ],
+    "title": "Call4me：让 ChatGPT 替你拨打电话的插件"
+   }
+  },
+  "hash": "87fd4a8380ba9afc"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -11892,6 +12254,19 @@
   },
   "hash": "752bd391945fe7ef"
  },
+ "lobsters:7byfjv": {
+  "copy": {
+   "zh": {
+    "blurb": "针对Apple Network Server的macOS扩展包 v1.0，提供一系列系统级插件，提升服务器功能。",
+    "points": [
+     "包含多种macOS系统插件",
+     "专为Apple Network Server设计"
+    ],
+    "title": "MacOS Extensions Pack for Apple Network Server v1.0"
+   }
+  },
+  "hash": "6320fd7c4e899ce4"
+ },
  "lobsters:7d1swo": {
   "copy": {
    "zh": {
@@ -11983,6 +12358,20 @@
    }
   },
   "hash": "14832afe3ccaaa0c"
+ },
+ "lobsters:8h9sey": {
+  "copy": {
+   "zh": {
+    "blurb": "Dan Luu 在 Lobsters 上发表的观点文章，呼吁开发者在软件设计上追求更高的目标，关注长期价值、系统性问题以及基础设施的可持续演进。",
+    "points": [
+     "强调软件的长期影响而非短期功能。",
+     "倡导构建可复用、可扩展的基础设施。",
+     "提醒业界避免仅为赶潮流而做表面创新。"
+    ],
+    "title": "我们应当对所构建的软件更具野心"
+   }
+  },
+  "hash": "f25a40886aa9617d"
  },
  "lobsters:8rkyrl": {
   "copy": {
@@ -12502,8 +12891,13 @@
  "lobsters:dfieqa": {
   "copy": {
    "zh": {
-    "blurb": "该博客阐述了 uv（微观视角）与 ty（宏观时序）在系统设计中的协同方法，提出统一的抽象层以简化跨层交互，实现更高效的开发流程。",
-    "title": "将 uv 与 ty 融合在一起"
+    "blurb": "这篇博客介绍了将 uv（轻量级 HTTP 客户端库）与 ty（类型安全框架）结合的实现方式，以提升网络请求的可组合性和类型安全。",
+    "points": [
+     "uv 提供高效的异步请求底层，实现低延迟。",
+     "ty 通过强类型定义，确保请求/响应结构正确。",
+     "两者融合后可在 Rust 项目中构建安全且可复用的 API 层。"
+    ],
+    "title": "将 uv 与 ty 融合"
    }
   },
   "hash": "4a2a9d3f2efc892a"
@@ -12998,6 +13392,20 @@
   },
   "hash": "e23e6293113fa23d"
  },
+ "lobsters:gzpdsk": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨了在十几种编程语言中实现同一规范的测试挑战，分析了维护测试套件的难度以及跨语言一致性的价值。",
+    "points": [
+     "展示不同语言实现同一规范的差异。",
+     "讨论维护多语言测试套件的成本。",
+     "提出工具和方法以提升跨语言一致性。"
+    ],
+    "title": "多语言程序员的困境：在多种语言中进行规范一致性测试"
+   }
+  },
+  "hash": "5b39b89b04292161"
+ },
  "lobsters:h0eate": {
   "copy": {
    "zh": {
@@ -13285,6 +13693,20 @@
   },
   "hash": "c047352cf72b3c42"
  },
+ "lobsters:jqjioq": {
+  "copy": {
+   "zh": {
+    "blurb": "Scrawl 是一款面向 AI 代理的可视化工具，帮助开发者把问题或任务以图形方式呈现给代理，以提升其理解和执行的准确性，提供基于网页的交互界面。",
+    "points": [
+     "提供交互式网页界面展示任务或问题。",
+     "帮助 AI 代理更好地捕获上下文信息。",
+     "可用于调试和改进代理的任务执行流程。"
+    ],
+    "title": "Scrawl：向代理展示问题"
+   }
+  },
+  "hash": "d6ca461a86275886"
+ },
  "lobsters:jref3l": {
   "copy": {
    "zh": {
@@ -13320,6 +13742,20 @@
    }
   },
   "hash": "fa646fd40a583294"
+ },
+ "lobsters:k3dymf": {
+  "copy": {
+   "zh": {
+    "blurb": "访谈Michal Wallace，讨论叙事式编程的概念以及在LLM能够自动生成代码的背景下，学习J语言的意义。",
+    "points": [
+     "阐释叙事编程理念",
+     "分析LLM代码生成冲击",
+     "探讨J语言学习价值"
+    ],
+    "title": "Narrative Programming访谈：LLM时代为何仍学J？"
+   }
+  },
+  "hash": "c6df89db12b6d921"
  },
  "lobsters:k5omum": {
   "copy": {
@@ -14061,8 +14497,13 @@
  "lobsters:qzfohf": {
   "copy": {
    "zh": {
-    "blurb": "文章展示了在极低主频（约 12.5–16 MHz）的硬件上运行城市建设类游戏的技巧，包括代码优化、资源压缩以及自定义渲染管线，以实现流畅体验。",
-    "title": "如何在 16 MHz 处理器上运行城市建造游戏"
+    "blurb": "本文演示如何在仅 16 MHz 的低频处理器上运行城市建造类游戏，涉及算法简化、资源压缩和实时渲染优化等技巧。",
+    "points": [
+     "使用离散事件模拟替代实时计算，降低 CPU 负担。",
+     "通过位图压缩和渐进式加载减少内存占用。",
+     "在极限硬件上实现可玩性，展示极致性能调优。"
+    ],
+    "title": "如何在 16 MHz 上运行城市建造游戏"
    }
   },
   "hash": "3e307fe80d7add17"
@@ -14104,6 +14545,20 @@
    }
   },
   "hash": "67b5f8654114f1b3"
+ },
+ "lobsters:rlrfew": {
+  "copy": {
+   "zh": {
+    "blurb": "C++26 的标准化投票已完成，但被国家标准机构否决，这在语言历史上极为少见。",
+    "points": [
+     "C++26 提案被否决，未进入下一阶段。",
+     "否决原因尚未公开，导致社区惊讶。",
+     "可能延迟后续特性在语言中的实现。"
+    ],
+    "title": "C++26 提案投票失败"
+   }
+  },
+  "hash": "22412344ab22d1ef"
  },
  "lobsters:rpiwtb": {
   "copy": {
@@ -14525,8 +14980,13 @@
  "lobsters:vh8l3t": {
   "copy": {
    "zh": {
-    "blurb": "该页面探讨了当前 AI 技术面临的伦理、可靠性和社会影响等核心问题，提醒人们审视技术发展的潜在风险与局限。",
-    "title": "人工智能的问题何在？"
+    "blurb": "《AI 的问题何在？》一文梳理了当前人工智能面临的技术局限、伦理争议和监管缺失，呼吁业界审慎发展。",
+    "points": [
+     "指出模型偏见和可解释性不足导致的社会风险。",
+     "批评缺乏统一监管框架，容易出现滥用。",
+     "倡导透明研发和多方参与的治理模式。"
+    ],
+    "title": "AI 的问题何在？"
    }
   },
   "hash": "faa231f07d74cee8"
@@ -14691,6 +15151,20 @@
    }
   },
   "hash": "994f0e01a38c1c15"
+ },
+ "lobsters:whgofc": {
+  "copy": {
+   "zh": {
+    "blurb": "本文介绍在 Go 语言中利用 SIMD 指令提升计算密集型代码性能的思路与实现，涵盖 Go 汇编、intrinsics 调用以及性能对比示例。",
+    "points": [
+     "展示了使用 Go 汇编或 intrinsics 调用 SIMD 指令的实践方法。",
+     "对比了普通循环和 SIMD 加速代码的运行时，提升可达数倍。",
+     "提供可直接复制的示例代码，便于项目快速集成。"
+    ],
+    "title": "SIMD 与 Go"
+   }
+  },
+  "hash": "32f06a8d19a110d2"
  },
  "lobsters:wi4nnl": {
   "copy": {
@@ -14910,6 +15384,20 @@
   },
   "hash": "8c40af2d3eed20dd"
  },
+ "lobsters:y26mhi": {
+  "copy": {
+   "zh": {
+    "blurb": "本文比较 Nim 与 Rust 两种系统语言，指出在实际开发中语言的一致性（coherence）比纯粹的性能更关键，分别阐述两者的语法一致性、所有权模型和生态成熟度。",
+    "points": [
+     "Nim 强调语法一致性和灵活的宏系统。",
+     "Rust 注重所有权安全和庞大的生态支持。",
+     "在多数应用场景下，两者的性能差异可忽略不计。"
+    ],
+    "title": "Nim vs Rust：语言选择关乎“一致性”而非“性能”"
+   }
+  },
+  "hash": "2c740f55a44c9a3c"
+ },
  "lobsters:y65egs": {
   "copy": {
    "zh": {
@@ -14972,6 +15460,19 @@
    }
   },
   "hash": "9c252d27602e58db"
+ },
+ "lobsters:ysah7i": {
+  "copy": {
+   "zh": {
+    "blurb": "发布2026年Ruby on Rails社区调查，统计开发者使用情况、满意度以及常用工具等信息。",
+    "points": [
+     "概览Rails 7的采用率与趋势",
+     "提供社区满意度和痛点统计"
+    ],
+    "title": "2026 Ruby on Rails 社区调查结果"
+   }
+  },
+  "hash": "372050524d9b348d"
  },
  "lobsters:yusomz": {
   "copy": {
