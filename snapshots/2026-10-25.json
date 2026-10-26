@@ -11203,24 +11203,64 @@
   },
   {
    "board": "news",
+   "category": "tool",
+   "key": "hn:50227330",
+   "metrics": {
+    "comments": 25,
+    "frontPage": 0,
+    "points": 58
+   },
+   "news": {
+    "author": "Gcarter08",
+    "comments": 25,
+    "createdAt": "2026-10-25T01:30:13.000Z",
+    "domain": "huggingface.co",
+    "hnId": 50227330,
+    "hnUrl": "https://news.ycombinator.com/item?id=50227330",
+    "points": 58,
+    "showRank": 5
+   },
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "publishedAt": "2026-10-25T01:30:13.000Z",
+   "refs": [
+    "hf:destined/hurston-1"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:open source",
+     "domain:huggingface.co",
+     "cat:show hn"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI. Since 2021, I’ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136…",
+   "tags": [],
+   "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+   "url": "https://huggingface.co/destined/hurston-1"
+  },
+  {
+   "board": "news",
    "category": "discussion",
    "key": "hn:50227356",
    "metrics": {
-    "comments": 94,
+    "comments": 132,
     "frontPage": 0,
-    "points": 276
+    "points": 355
    },
    "news": {
     "author": "gmays",
-    "comments": 94,
+    "comments": 132,
     "createdAt": "2026-10-25T01:33:49.000Z",
     "domain": "cerebras.ai",
     "hnId": 50227356,
     "hnUrl": "https://news.ycombinator.com/item?id=50227356",
-    "points": 276,
-    "showRank": 20
+    "points": 355,
+    "showRank": 15
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T01:33:49.000Z",
    "refs": [
     "url:cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
@@ -11247,21 +11287,21 @@
    "category": "discussion",
    "key": "hn:50228167",
    "metrics": {
-    "comments": 63,
+    "comments": 73,
     "frontPage": 0,
-    "points": 175
+    "points": 183
    },
    "news": {
     "author": "rzk",
-    "comments": 63,
+    "comments": 73,
     "createdAt": "2026-10-25T03:56:01.000Z",
     "domain": "github.com",
     "hnId": 50228167,
     "hnUrl": "https://news.ycombinator.com/item?id=50228167",
-    "points": 175,
-    "showRank": 33
+    "points": 183,
+    "showRank": 32
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T03:56:01.000Z",
    "refs": [
     "gh:slee-persis/gvs5h"
@@ -11629,29 +11669,29 @@
    "category": "engineering",
    "devto": {
     "author": "Dhruv Jani",
-    "comments": 23,
+    "comments": 24,
     "createdAt": "2026-10-24T18:12:54Z",
     "domain": "dev.to",
     "id": 4911807,
-    "points": 41,
+    "points": 46,
     "url": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo"
    },
    "key": "devto:4911807",
    "metrics": {
-    "comments": 23,
+    "comments": 24,
     "frontPage": 0,
-    "points": 41
+    "points": 46
    },
    "news": {
     "author": "Dhruv Jani",
-    "comments": 23,
+    "comments": 24,
     "createdAt": "2026-10-24T18:12:54Z",
     "domain": "dev.to",
     "hnId": 4911807,
     "hnUrl": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
-    "points": 41
+    "points": 46
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-24T18:12:54Z",
    "refs": [],
    "relevance": {
@@ -12688,7 +12728,7 @@
     "hnUrl": "https://dev.to/ishaan-jindal/sloth-commit-messages-from-a-model-that-lives-in-the-binary-1930",
     "points": 6
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T06:17:57Z",
    "refs": [],
    "relevance": {
@@ -12764,6 +12804,57 @@
    ],
    "title": "Sloth Sorter: an offline, low-RAM file tidier with undo",
    "url": "https://dev.to/jainil26/sloth-sorter-an-offline-low-ram-file-tidier-with-undo-2nj0"
+  },
+  {
+   "board": "devto",
+   "category": "engineering",
+   "devto": {
+    "author": "Khushighosh",
+    "comments": 7,
+    "createdAt": "2026-10-25T06:45:27Z",
+    "domain": "dev.to",
+    "id": 4913730,
+    "points": 16,
+    "url": "https://dev.to/khushighosh/let-it-die-the-lazy-email-agent-on-tabpfn-gemma-and-temporal-10o0"
+   },
+   "key": "devto:4913730",
+   "metrics": {
+    "comments": 7,
+    "frontPage": 0,
+    "points": 16
+   },
+   "news": {
+    "author": "Khushighosh",
+    "comments": 7,
+    "createdAt": "2026-10-25T06:45:27Z",
+    "domain": "dev.to",
+    "hnId": 4913730,
+    "hnUrl": "https://dev.to/khushighosh/let-it-die-the-lazy-email-agent-on-tabpfn-gemma-and-temporal-10o0",
+    "points": 16
+   },
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "publishedAt": "2026-10-25T06:45:27Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:board"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
+   "tags": [
+    "source:dev-to",
+    "tag:devchallenge",
+    "tag:hf26challenge",
+    "tag:ai",
+    "tag:webdev"
+   ],
+   "title": "Let It Die: The Lazy Email Agent on TabPFN, Gemma and Temporal",
+   "url": "https://dev.to/khushighosh/let-it-die-the-lazy-email-agent-on-tabpfn-gemma-and-temporal-10o0"
   },
   {
    "board": "devto",
@@ -13294,14 +13385,14 @@
     "createdAt": "2026-10-25T13:28:17Z",
     "domain": "dev.to",
     "id": 4915466,
-    "points": 5,
+    "points": 7,
     "url": "https://dev.to/vignesh_one/i-hired-a-sloth-to-read-my-github-inbox-while-i-sleep-50lb"
    },
    "key": "devto:4915466",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 5
+    "points": 7
    },
    "news": {
     "author": "vigneshwar",
@@ -13310,9 +13401,9 @@
     "domain": "dev.to",
     "hnId": 4915466,
     "hnUrl": "https://dev.to/vignesh_one/i-hired-a-sloth-to-read-my-github-inbox-while-i-sleep-50lb",
-    "points": 5
+    "points": 7
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T13:28:17Z",
    "refs": [],
    "relevance": {
@@ -13967,28 +14058,28 @@
    "key": "lobsters:5ullyu",
    "lobsters": {
     "author": "seb",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-25T10:34:21.618-05:00",
     "domain": "refi64.dev",
-    "points": 1,
+    "points": 15,
     "shortId": "5ullyu",
     "url": "https://refi64.dev/posts/chromium-audio-break.html"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 2,
     "frontPage": 0,
-    "points": 1
+    "points": 15
    },
    "news": {
     "author": "seb",
-    "comments": 0,
+    "comments": 2,
     "createdAt": "2026-10-25T10:34:21.618-05:00",
     "domain": "refi64.dev",
     "hnId": 353727606,
     "hnUrl": "https://lobste.rs/s/5ullyu/when_glibc_update_accidentally_breaks",
-    "points": 1
+    "points": 15
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T10:34:21.618-05:00",
    "refs": [],
    "relevance": {
@@ -14021,14 +14112,14 @@
     "comments": 0,
     "createdAt": "2026-10-24T20:22:45.850-05:00",
     "domain": "oldvcr.blogspot.com",
-    "points": 10,
+    "points": 14,
     "shortId": "7byfjv",
     "url": "http://oldvcr.blogspot.com/2026/10/macos-extensions-pack-for-apple-network.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 10
+    "points": 14
    },
    "news": {
     "author": "classichasclass",
@@ -14037,9 +14128,9 @@
     "domain": "oldvcr.blogspot.com",
     "hnId": 443345467,
     "hnUrl": "https://lobste.rs/s/7byfjv/macos_extensions_pack_for_apple_network",
-    "points": 10
+    "points": 14
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-24T20:22:45.850-05:00",
    "refs": [],
    "relevance": {
@@ -14117,28 +14208,28 @@
    "key": "lobsters:cxwpil",
    "lobsters": {
     "author": "datboi",
-    "comments": 5,
+    "comments": 28,
     "createdAt": "2026-10-25T10:05:45.735-05:00",
     "domain": "vim-classic.org",
-    "points": 13,
+    "points": 53,
     "shortId": "cxwpil",
     "url": "https://vim-classic.org/"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 28,
     "frontPage": 0,
-    "points": 13
+    "points": 53
    },
    "news": {
     "author": "datboi",
-    "comments": 5,
+    "comments": 28,
     "createdAt": "2026-10-25T10:05:45.735-05:00",
     "domain": "vim-classic.org",
     "hnId": 782547501,
     "hnUrl": "https://lobste.rs/s/cxwpil/vim_classic",
-    "points": 13
+    "points": 53
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T10:05:45.735-05:00",
    "refs": [],
    "relevance": {
@@ -14216,28 +14307,28 @@
    "key": "lobsters:jdczl6",
    "lobsters": {
     "author": "JadedBlueEyes",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-25T10:03:10.879-05:00",
     "domain": "media.ccc.de",
-    "points": 2,
+    "points": 12,
     "shortId": "jdczl6",
     "url": "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 2
+    "points": 12
    },
    "news": {
     "author": "JadedBlueEyes",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-25T10:03:10.879-05:00",
     "domain": "media.ccc.de",
     "hnId": 1171298346,
     "hnUrl": "https://lobste.rs/s/jdczl6/vision_for_next_generation_timeline",
-    "points": 2
+    "points": 12
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T10:03:10.879-05:00",
    "refs": [],
    "relevance": {
@@ -14364,28 +14455,28 @@
    "key": "lobsters:kiivg2",
    "lobsters": {
     "author": "liberty",
-    "comments": 2,
+    "comments": 14,
     "createdAt": "2026-10-25T09:18:21.661-05:00",
     "domain": "ziglang.org",
-    "points": 2,
+    "points": 39,
     "shortId": "kiivg2",
     "url": "https://ziglang.org/devlog/2026/#2026-10-24"
    },
    "metrics": {
-    "comments": 2,
+    "comments": 14,
     "frontPage": 0,
-    "points": 2
+    "points": 39
    },
    "news": {
     "author": "liberty",
-    "comments": 2,
+    "comments": 14,
     "createdAt": "2026-10-25T09:18:21.661-05:00",
     "domain": "ziglang.org",
     "hnId": 1240437170,
     "hnUrl": "https://lobste.rs/s/kiivg2/partial_order_precedence",
-    "points": 2
+    "points": 39
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T09:18:21.661-05:00",
    "refs": [],
    "relevance": {
@@ -14416,14 +14507,14 @@
     "comments": 0,
     "createdAt": "2026-10-25T09:57:20.484-05:00",
     "domain": "shraiwi.com",
-    "points": 2,
+    "points": 11,
     "shortId": "qsmmke",
     "url": "https://shraiwi.com/blog/simd-fast-esp32s3/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 2
+    "points": 11
    },
    "news": {
     "author": "nrposner",
@@ -14432,9 +14523,9 @@
     "domain": "shraiwi.com",
     "hnId": 1620205502,
     "hnUrl": "https://lobste.rs/s/qsmmke/simd_accelerated_computer_vision_on_2",
-    "points": 2
+    "points": 11
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T09:57:20.484-05:00",
    "refs": [],
    "relevance": {
@@ -14462,28 +14553,28 @@
    "key": "lobsters:rlrfew",
    "lobsters": {
     "author": "mond",
-    "comments": 22,
+    "comments": 27,
     "createdAt": "2026-10-24T13:00:36.212-05:00",
     "domain": "linkedin.com",
-    "points": 43,
+    "points": 51,
     "shortId": "rlrfew",
     "url": "https://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL"
    },
    "metrics": {
-    "comments": 22,
+    "comments": 27,
     "frontPage": 0,
-    "points": 43
+    "points": 51
    },
    "news": {
     "author": "mond",
-    "comments": 22,
+    "comments": 27,
     "createdAt": "2026-10-24T13:00:36.212-05:00",
     "domain": "linkedin.com",
     "hnId": 1669138376,
     "hnUrl": "https://lobste.rs/s/rlrfew/balloting_has_completed_for_c_26",
-    "points": 43
+    "points": 51
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-24T13:00:36.212-05:00",
    "refs": [],
    "relevance": {
@@ -14511,28 +14602,28 @@
    "key": "lobsters:tbbiqb",
    "lobsters": {
     "author": "yossarian",
-    "comments": 4,
+    "comments": 16,
     "createdAt": "2026-10-25T10:09:29.815-05:00",
     "domain": "yossarian.net",
-    "points": 10,
+    "points": 56,
     "shortId": "tbbiqb",
     "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 16,
     "frontPage": 0,
-    "points": 10
+    "points": 56
    },
    "news": {
     "author": "yossarian",
-    "comments": 4,
+    "comments": 16,
     "createdAt": "2026-10-25T10:09:29.815-05:00",
     "domain": "yossarian.net",
     "hnId": 1772532371,
     "hnUrl": "https://lobste.rs/s/tbbiqb/posix_wordexp_3_is_dangerous",
-    "points": 10
+    "points": 56
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T10:09:29.815-05:00",
    "refs": [],
    "relevance": {
@@ -14564,14 +14655,14 @@
     "comments": 0,
     "createdAt": "2026-10-24T18:11:40.472-05:00",
     "domain": "internals-for-interns.com",
-    "points": 8,
+    "points": 9,
     "shortId": "whgofc",
     "url": "https://internals-for-interns.com/posts/go-simd/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 8
+    "points": 9
    },
    "news": {
     "author": "rcalixte",
@@ -14580,9 +14671,9 @@
     "domain": "internals-for-interns.com",
     "hnId": 1964249256,
     "hnUrl": "https://lobste.rs/s/whgofc/simd_go",
-    "points": 8
+    "points": 9
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-24T18:11:40.472-05:00",
    "refs": [],
    "relevance": {
@@ -14709,28 +14800,28 @@
    "key": "lobsters:zfoiw1",
    "lobsters": {
     "author": "hoistbypetard",
-    "comments": 5,
+    "comments": 26,
     "createdAt": "2026-10-25T08:43:11.758-05:00",
     "domain": "slurpburgers.com",
-    "points": 32,
+    "points": 97,
     "shortId": "zfoiw1",
     "url": "https://slurpburgers.com/slurpbuilds/the-slurptop/"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 26,
     "frontPage": 0,
-    "points": 32
+    "points": 97
    },
    "news": {
     "author": "hoistbypetard",
-    "comments": 5,
+    "comments": 26,
     "createdAt": "2026-10-25T08:43:11.758-05:00",
     "domain": "slurpburgers.com",
     "hnId": 2142654625,
     "hnUrl": "https://lobste.rs/s/zfoiw1/slurptop_home_built_luggable_runs_on",
-    "points": 32
+    "points": 97
    },
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "publishedAt": "2026-10-25T08:43:11.758-05:00",
    "refs": [],
    "relevance": {
@@ -14755,59 +14846,66 @@
   }
  ],
  "date": "2026-10-25",
- "fetchedAt": "2026-10-25T16:14:31.157Z",
+ "fetchedAt": "2026-10-26T06:10:43.950Z",
  "runs": [
   "2026-10-25T06:05:51.247Z",
-  "2026-10-25T16:14:31.157Z"
+  "2026-10-25T16:14:31.157Z",
+  "2026-10-26T06:10:43.950Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "dev-to",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 319,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "github-search",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 171,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "count": 172,
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "github-trending",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 73,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "count": 74,
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 98,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "lobsters",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -14815,15 +14913,16 @@
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-25T16:14:31.157Z",
+   "fetchedAt": "2026-10-26T06:10:43.950Z",
    "id": "x-linked",
    "message": "no linked X posts queued",
+   "settledAt": "2026-10-26T06:10:43.950Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-24T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-25T16:00:00.000Z"
  }

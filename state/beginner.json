@@ -162,7 +162,7 @@
    "sourceKey": "devto:4878848"
   },
   "discovery:gh:ai-job-search-dev/ai-job-search": {
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:ai-job-search-dev/ai-job-search",
@@ -271,7 +271,7 @@
    "sourceKey": "gh:apify/apify-mcp-server"
   },
   "discovery:gh:aws/agent-toolkit-for-aws": {
-   "observedAt": "2026-10-25T16:14:31.157Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:aws/agent-toolkit-for-aws",
@@ -707,7 +707,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-24T05:50:40.239Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -719,7 +719,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-22T16:19:38.000Z",
+    "sourceUpdatedAt": "2026-10-23T17:59:28.000Z",
     "summary": {
      "en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
      "zh": "Graphify 项目将任意代码库连同文档、SQL 模式、配置和 PDF 转化为结构化知识图谱，提供本地确定性 AST 解析，无需向量库，支持多种 LLM。"
@@ -1226,6 +1226,40 @@
    },
    "sourceKey": "gh:mudler/localai"
   },
+  "discovery:gh:nightly-labs/openbot": {
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "resource": {
+    "freshnessBasis": "first-observed",
+    "id": "discovery:gh:nightly-labs/openbot",
+    "level": "starter",
+    "scores": {
+     "authority": 5,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-26T06:10:43.950Z",
+    "summary": {
+     "en": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+     "zh": "Openbot 是一款本地桌面应用，为 AI 伙伴提供持久工作区，可运行 Codex、Claude、Grok，支持任务队列、文件共享、浏览器控制以及代理间协作。"
+    },
+    "title": {
+     "en": "nightly-labs/openbot",
+     "zh": "nightly‑labs/openbot：本地‑优先的持久 AI 同事桌面工作空间"
+    },
+    "topics": [
+     "trend:daily"
+    ],
+    "type": "repo",
+    "url": "https://github.com/nightly-labs/openbot",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "gh:nightly-labs/openbot"
+  },
   "discovery:gh:panniantong/agent-reach": {
    "observedAt": "2026-10-11T02:50:04.564Z",
    "resource": {
@@ -1302,7 +1336,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-25T06:05:51.247Z",
+   "observedAt": "2026-10-26T06:10:43.950Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1314,7 +1348,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-24T15:54:48.000Z",
+    "sourceUpdatedAt": "2026-10-26T06:08:49.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
@@ -1928,6 +1962,105 @@
     }
    },
    "sourceKey": "hn:50183892"
+  },
+  "discovery:hn:50227330": {
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50227330",
+    "level": "starter",
+    "publishedAt": "2026-10-25T01:30:13.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "huggingface.co",
+    "sourceUpdatedAt": "2026-10-25T01:30:13.000Z",
+    "summary": {
+     "en": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI. Since 2021, I’ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136…",
+     "zh": "Hurston‑1 是一款基于 Apache‑2.0 的窄带语音合成模型，专注于美国南部和非洲地区英语口音，使用超过 20,000 人、1 M 条音频数据进行训练，提升了地区口音的自然度。"
+    },
+    "title": {
+     "en": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+     "zh": "Hurston‑1 开源 TTS：支持南方美式与非洲英语口音"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://huggingface.co/destined/hurston-1",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50227330"
+  },
+  "discovery:hn:50237291": {
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50237291",
+    "level": "starter",
+    "publishedAt": "2026-10-26T00:02:39.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 4,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "sketchagent.dev",
+    "sourceUpdatedAt": "2026-10-26T00:02:39.000Z",
+    "summary": {
+     "en": "When GPT-6/Gemini launched recently, a lot of the 3D demos used blender-mcp (https://github.com/ahujasid/blender-mcp). It's cool, but you have to install blender locally and wire up plugins just to try a prompt or share a run. I built a browser-based 3D mesh playground so you can hook up your own coding agent over MCP (or run in-browser) directly in a tab. It runs on three.js + manifold-3d for blender-like boolean/mesh editing in JS, and gives the agent a render_preview tool to take multi-view screenshots (front/right/top/iso + custom camera angles + clay mode). That way the agent can look…",
+     "zh": "一个浏览器端的 3D 网格 playground，使用 three.js 与 manifold‑3d 实现 Blender 类布尔/网格编辑，提供 render_preview 多视角截图，让编码代理可直接在页面上进行交互和观察。"
+    },
+    "title": {
+     "en": "Show HN: A 3D mesh playground for coding agents (three.js + manifold-3d)",
+     "zh": "Show HN：基于 three.js 与 manifold‑3d 的 3D 网格编程代理沙盒"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://sketchagent.dev/s/yfYU6LhT",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50237291"
+  },
+  "discovery:hn:50237813": {
+   "observedAt": "2026-10-26T06:10:43.950Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50237813",
+    "level": "starter",
+    "publishedAt": "2026-10-26T01:13:43.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "freehire.me",
+    "sourceUpdatedAt": "2026-10-26T01:13:43.000Z",
+    "summary": {
+     "en": "freehire is a filterable, job board aggregator, job tracker, and AI-assisted resume tailoring tool. Saving your skills and preferences changes which jobs appear and how your resume gets tailored. I've looked at a lot of these solutions over the years and found it really hard to find the right mix of tools in an open-source offering. I've contributed to a few issues now and worked closely with the maintainer. I've watched this evolve over the last few months. I feel it's ready for everyone to check out and stress test. Source: github.com/strelov1/freehire",
+     "zh": "Freehire 是一个开源的岗位聚合平台，可从公司招聘页面抓取并筛选 300 万以上的技术职位，提供职位追踪、过滤以及 AI 辅助的简历定制功能。"
+    },
+    "title": {
+     "en": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+     "zh": "Freehire：开源聚合 300 万+ 技术岗位并提供 AI 简历定制"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://freehire.me/",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50237813"
   }
  },
  "dynamicHistory": {
@@ -6829,6 +6962,7 @@
   "https://elevenlabs.io/": "2026-10-06T09:37:13.355Z",
   "https://elicit.com/": "2026-10-06T09:37:13.355Z",
   "https://firefly.adobe.com/": "2026-10-06T09:37:13.355Z",
+  "https://freehire.me/": "2026-10-26T06:10:43.950Z",
   "https://gamma.app/": "2026-10-06T09:37:13.355Z",
   "https://gemini.google.com/": "2026-10-06T09:37:13.355Z",
   "https://github.com/1panel-dev/maxkb": "2026-10-06T09:37:13.355Z",
@@ -6892,6 +7026,7 @@
   "https://github.com/mlabonne/llm-course": "2026-10-19T06:11:28.804Z",
   "https://github.com/modelcontextprotocol/inspector": "2026-10-06T09:37:13.355Z",
   "https://github.com/mudler/localai": "2026-10-20T17:00:45.974Z",
+  "https://github.com/nightly-labs/openbot": "2026-10-26T06:10:43.950Z",
   "https://github.com/omnara-ai/omnara": "2026-10-22T06:06:34.401Z",
   "https://github.com/open-webui/open-webui": "2026-10-06T09:37:13.355Z",
   "https://github.com/openai/codex": "2026-10-06T09:37:13.355Z",
@@ -6913,6 +7048,7 @@
   "https://github.com/zhulinsen/daily_stock_analysis": "2026-10-07T18:56:50.962Z",
   "https://gradio.app/guides/quickstart": "2026-10-06T09:37:13.355Z",
   "https://hailuoai.com/": "2026-10-06T09:37:13.355Z",
+  "https://huggingface.co/destined/hurston-1": "2026-10-26T06:10:43.950Z",
   "https://huggingface.co/docs/datasets/quickstart": "2026-10-06T09:37:13.355Z",
   "https://huggingface.co/docs/hub/model-cards": "2026-10-06T09:37:13.355Z",
   "https://huggingface.co/docs/hub/spaces-overview": "2026-10-06T09:37:13.355Z",
@@ -6944,6 +7080,7 @@
   "https://qianwen.com/": "2026-10-06T09:37:13.355Z",
   "https://recraft.ai/": "2026-10-06T09:37:13.355Z",
   "https://runwayml.com/": "2026-10-06T09:37:13.355Z",
+  "https://sketchagent.dev/s/yfYU6LhT": "2026-10-26T06:10:43.950Z",
   "https://spark.xfyun.cn/": "2026-10-06T09:37:13.355Z",
   "https://suno.com/": "2026-10-06T09:37:13.355Z",
   "https://v0.app/": "2026-10-06T09:37:13.355Z",
