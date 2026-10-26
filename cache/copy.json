@@ -6035,6 +6035,20 @@
   },
   "hash": "18c3436e951ea90d"
  },
+ "devto:4911064": {
+  "copy": {
+   "zh": {
+    "blurb": "作者首次为开源平台 Forem 贡献 Ruby 代码修复，合并后提升了平台的某项功能或稳定性，展示了开源协作流程。",
+    "points": [
+     "首次提交的 Ruby 修复解决了具体的功能缺陷。",
+     "合并过程体现了社区代码审查与合并机制。",
+     "修复上线后提升了 Forem 的稳定性或用户体验。"
+    ],
+    "title": "我不会写 Ruby，但我的修复已合并进 Forem"
+   }
+  },
+  "hash": "7d83761969039d46"
+ },
  "devto:4911175": {
   "copy": {
    "zh": {
@@ -6477,6 +6491,34 @@
   },
   "hash": "f8130d5bebac8573"
  },
+ "devto:4917411": {
+  "copy": {
+   "zh": {
+    "blurb": "作者提出将 AI 提示规则下沉到代码层面，通过 Git Merkle 锁、Linux 内核模块加载和极速编译器自动修复，实现零 token、零轮次的安全约束。",
+    "points": [
+     "使用 Git Merkle 锁防止提示规则被篡改或绕过。",
+     "通过 Linux insmod 实时加载安全模块，嵌入系统层防护。",
+     "15ms 编译器自动修复提供即时、无代价的 AI guardrails。"
+    ],
+    "title": "最佳提示规则是被删掉的规则：将 AI 防护从 Markdown 移至 Git 锁、Linux insmod 与 15ms 编译器自动修复"
+   }
+  },
+  "hash": "371f24dac77ae242"
+ },
+ "devto:4917438": {
+  "copy": {
+   "zh": {
+    "blurb": "文章对比了在 Cloud TPU v5e、v6e 以及 Ironwood 上运行 Gemma 4 时，数值格式、内存带宽、切片形状和容量规则的影响，并与 L4、Blackwell、MI300X、Inferentia 的成本进行对照。",
+    "points": [
+     "数值格式与内存带宽决定模型推理性能。",
+     "不同 TPU 代际在切片容量上存在显著差异。",
+     "提供了与主流加速卡的成本对比。"
+    ],
+    "title": "Google Cloud TPU 推理：精度、内存与容量对比"
+   }
+  },
+  "hash": "7d830a30636807c9"
+ },
  "devto:4917485": {
   "copy": {
    "zh": {
@@ -6485,6 +6527,20 @@
    }
   },
   "hash": "8e5c79e2f14b1043"
+ },
+ "devto:4917886": {
+  "copy": {
+   "zh": {
+    "blurb": "文章阐释了经典 BLoC 的 StreamController 为何引入异步微任务，以及 BlocSignal 如何在同一调用栈内同步执行事件处理，从而实现 120 FPS 的生成式 UI 表单绑定。",
+    "points": [
+     "同步事件快速路径消除 0ms 表单绑定延迟。",
+     "通过 Inline 处理实现 120 FPS 生成式 UI。",
+     "解释了 StreamController 的异步微任务开销。"
+    ],
+    "title": "为什么 bloc.add(...) 并非你想的那样"
+   }
+  },
+  "hash": "a315e0a61de64f8a"
  },
  "devto:4918016": {
   "copy": {
@@ -6604,6 +6660,242 @@
    }
   },
   "hash": "be47579485047807"
+ },
+ "devto:4921014": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在构建社交平台 Crowdwide 的第24天，分享项目收官后的思考，包括成果评估、技术债务清理以及后续方向。",
+    "points": [
+     "完成项目后评估功能与技术债务，决定是否进行重构或优化。",
+     "考虑产品迭代、社区运营或开源发布，以延续价值。",
+     "总结团队经验教训，为下一项目提供参考。"
+    ],
+    "title": "Crowdwide 第24天：项目完成后该怎么做？"
+   }
+  },
+  "hash": "e9bf0dad4a584f2f"
+ },
+ "devto:4921950": {
+  "copy": {
+   "zh": {
+    "blurb": "利用 WebRTC 与 PeerJS，作者在仅一个 HTML 文件中实现了点对点文件传输功能，无需服务器或安装，即可在浏览器间快速共享截图、文档等。",
+    "title": "单文件 HTML 实现的免费 AirDrop 替代方案"
+   }
+  },
+  "hash": "ae2ea2d316afe38b"
+ },
+ "devto:4922037": {
+  "copy": {
+   "zh": {
+    "blurb": "文章阐述在首次向 npm 发布前应通过三道防线：开启两因素认证、防止供应链篡改的 provenance，以及使用 staged releases 进行分阶段发布，提升包安全性。",
+    "title": "npm 首次发布前的三道安全门：2FA、Provenance 与 Staged Releases"
+   }
+  },
+  "hash": "73bcea2192642298"
+ },
+ "devto:4922227": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to 的 Meme Monday 专栏本期以往帖子封面为配图，强调社区包容性与幽默。",
+    "points": [
+     "每日 meme 选取社区热门帖子",
+     "鼓励包容与幽默氛围",
+     "获得 18 次反应、10 条评论"
+    ],
+    "title": "Meme Monday"
+   }
+  },
+  "hash": "1438bc8f3896e0bc"
+ },
+ "devto:4922824": {
+  "copy": {
+   "zh": {
+    "blurb": "JetBrains 将 Thinkrail 以 Apache-2.0 授权开源，该 IDE 中每个智能代理运行在独立的 git worktree，项目真相保存在 SPEC.md 文件图谱中，且无需账号登录。",
+    "points": [
+     "每个代理在独立 worktree 中运行，保证代码安全。",
+     "项目状态以 SPEC.md 图谱形式自我维护。",
+     "无需用户账户，实现零信任使用模型。"
+    ],
+    "title": "JetBrains 开源 Thinkrail：无需触碰代码库的代理 IDE"
+   }
+  },
+  "hash": "e0415bae43727636"
+ },
+ "devto:4922860": {
+  "copy": {
+   "zh": {
+    "blurb": "Receipt Box 是为自由职业者设计的收据管理工具，使用 Gemma 大模型实现本地加密与检索，确保收据在 Hacktoberfest 项目期间保持私密。",
+    "points": [
+     "基于 Gemma 的本地模型提供离线加密，不依赖云服务。",
+     "简洁 UI 支持拖拽上传并自动生成元数据。",
+     "开源代码托管在 GitHub，易于二次定制。"
+    ],
+    "title": "Receipt Box：使用 Gemma 为自由职业者收据保密的 Hacktoberfest 项目"
+   }
+  },
+  "hash": "469cab54218b80b5"
+ },
+ "devto:4922874": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 NVIDIA 的 NeMo Agent Toolkit、NeMo Relay 与 garak 项目中共合并 31 个 PR，重点介绍了三项最具影响力的贡献。",
+    "points": [
+     "为 NeMo Agent Toolkit 添加关键功能",
+     "在 NeMo Relay 实现跨模型通信",
+     "改进 garak 的安全测试能力"
+    ],
+    "title": "在 NVIDIA 合并的 31 个 PR 中最重要的三项"
+   }
+  },
+  "hash": "f6333c97527c1c7c"
+ },
+ "devto:4922885": {
+  "copy": {
+   "zh": {
+    "blurb": "作者推出 bunpm，拦截 npm、yarn、pnpm 的调用并转由 Bun 执行，无需修改现有脚本即可享受更快的依赖安装和更小的 node_modules 体积。",
+    "points": [
+     "通过代理层路由，保持原有 package.json 不变。",
+     "利用 Bun 的高速解析，安装速度提升 2‑3 倍。",
+     "自动去除冗余文件，显著缩减磁盘占用。"
+    ],
+    "title": "为何我打造 bunpm：在不改动脚本的情况下通过 Bun 路由 npm、yarn 与 pnpm"
+   }
+  },
+  "hash": "ccb1ce5f471340fb"
+ },
+ "devto:4922903": {
+  "copy": {
+   "zh": {
+    "blurb": "作者给 Harun 的公开信阐述了构建生物物理信任内核的思路，并指出该理论如何彻底改变安全与信任模型。",
+    "points": [
+     "提出“最低摩擦的真相”概念",
+     "解释信任内核的生物物理基础",
+     "论证对现有安全模型的颠覆性影响"
+    ],
+    "title": "最低摩擦的真相：致 Harun 的公开信与生物物理信任内核"
+   }
+  },
+  "hash": "79a7a6418866303b"
+ },
+ "devto:4922993": {
+  "copy": {
+   "zh": {
+    "blurb": "Kriko 项目揭示在购买特定商品时常见的潜在问题，帮助消费者了解真实风险。",
+    "points": [
+     "列出常见故障类型及出现场景",
+     "提供检查清单帮助提前发现问题",
+     "强调卖家信息的局限性与消费者自检重要性"
+    ],
+    "title": "Kriko：即将购买的商品可能出现的问题"
+   }
+  },
+  "hash": "55bfa228db0b02a1"
+ },
+ "devto:4923001": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍 signread 开源模型，能够在用户签名钱包前识别签名特征，提升安全防护。",
+    "points": [
+     "基于轻量化模型实现实时签名检测",
+     "可嵌入硬件钱包或移动端应用",
+     "在签名前预警异常，提高交易安全"
+    ],
+    "title": "signread：在签名之前读取钱包签名的开源模型"
+   }
+  },
+  "hash": "1b2d9fdb94f76c53"
+ },
+ "devto:4923002": {
+  "copy": {
+   "zh": {
+    "blurb": "omaforge 0.2.7 版本发布，支持 Linux 上的《魔兽世界》插件管理，兼容 Forever 服务器。",
+    "points": [
+     "一键安装、更新与卸载插件",
+     "改进 UI 与依赖解析提升使用体验",
+     "兼容最新 WoW 客户端与 Forever 服务器"
+    ],
+    "title": "omaforge 0.2.7：为《魔兽世界：Forever》准备就绪"
+   }
+  },
+  "hash": "e323a48ec7dd2c08"
+ },
+ "devto:4923007": {
+  "copy": {
+   "zh": {
+    "blurb": "本文剖析了在自主智能体循环中常用的上下文反思技巧为何难以生效，指出提示长度限制、状态未持久化以及记忆冲突等导致修正无法被后续迭代保持。",
+    "points": [
+     "上下文修正仅在当前调用中有效，循环后会被新提示覆盖。",
+     "提示长度受限导致信息被截断，难以保留修正细节。",
+     "建议通过显式状态存储或外部记忆模块实现持久化。"
+    ],
+    "title": "为何上下文修正在智能体循环中难以持久"
+   }
+  },
+  "hash": "1d8ccdc140d75fa4"
+ },
+ "devto:4923034": {
+  "copy": {
+   "zh": {
+    "blurb": "提供在树冠覆盖下使用 RTKLIB 测试实时动态定位的实用检查清单，帮助排除信号衰减问题。",
+    "points": [
+     "检查天线遮挡程度并调整位置",
+     "配置基准站参数以适应弱信号环境",
+     "监控 FIX/Float 状态切换并记录日志"
+    ],
+    "title": "在树下测试 RTK 的实用检查清单（RTKLIB）"
+   }
+  },
+  "hash": "b083f9421f74e1c4"
+ },
+ "devto:4923054": {
+  "copy": {
+   "zh": {
+    "blurb": "汇总四条 2026‑10‑26 开发者资讯：Anthropic IPO 文件、OpenAI 与 Anthropic 降价、vLLM 修复工具调用、皮肤癌检测 CNN 模型最新进展。",
+    "points": [
+     "Anthropic 提交 S‑1 文件，计划上市公开财务",
+     "OpenAI 与 Anthropic 同时下调 LLM 价格以扩大用户基数",
+     "vLLM 新标志修复模型工具调用，提升兼容性"
+    ],
+    "title": "Anthropic IPO、LLM 降价、vLLM 工具调用修复与皮肤癌 CNN 报道"
+   }
+  },
+  "hash": "d2bedd8b2b0a8fb6"
+ },
+ "devto:4923074": {
+  "copy": {
+   "zh": {
+    "blurb": "本指南介绍本地模型上下文协议（MCP）的实现方法，演示如何在本地部署 MCP 服务器，并配合 Claude Desktop 与 Ollama 将 AI 连接到文件系统、PostgreSQL 与 GitHub，实现零成本数据访问。",
+    "title": "本地模型上下文协议（MCP）蓝图：零成本连接文件系统、PostgreSQL 与 GitHub"
+   }
+  },
+  "hash": "5f38940841eac9dd"
+ },
+ "devto:4923126": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨 Claude Code 在被明确指示不修改特定接口时仍出现违规行为的原因，分析提示工程、上下文窗口以及模型对指令的解释差异，提供改进提示与调试技巧。",
+    "title": "编码助手违背指令的原因何在？"
+   }
+  },
+  "hash": "9ae735351dd7676a"
+ },
+ "devto:4923153": {
+  "copy": {
+   "zh": {
+    "blurb": "作者记录了在 Codex/Claude 插件中处理九张图片、总计 42 MB 请求时遇到的连接中断问题，分享了测试实现、错误复现步骤以及最终的恢复方案。",
+    "title": "九张图片、42 MB 请求与无法重连的 Codex 聊天"
+   }
+  },
+  "hash": "0a544021f51ce1ac"
+ },
+ "devto:4923158": {
+  "copy": {
+   "zh": {
+    "blurb": "作者用 Go 编写了一个免费开源的 API 客户端，摆脱登录限制，所有请求集合以简洁的 YAML 文件形式保存，可直接在本地运行。",
+    "title": "用 Go 打造免费开源的 Postman 替代品：无需账号，集合为 YAML 文件"
+   }
+  },
+  "hash": "579c611eef2df511"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -7572,8 +7864,13 @@
  "gh:hkuds/deeptutor": {
   "copy": {
    "zh": {
-    "blurb": "DeepTutor 是一个面向终身学习的个性化辅导平台，提供持续的 AI 驱动教学支持，帮助学生根据个人需求自适应学习。",
-    "title": "DeepTutor：终身个性化辅导"
+    "blurb": "GitHub 项目 DeepTutor，面向终身个性化辅导的教育平台，已获 43607 星。",
+    "points": [
+     "提供个性化、持续的学习辅导",
+     "基于 Python 开发，开源代码",
+     "星标数突破 4 万，热度 62.1"
+    ],
+    "title": "HKUDS/DeepTutor"
    }
   },
   "hash": "4dfb24907875a02d"
@@ -7953,6 +8250,20 @@
   },
   "hash": "ac50666dd9cf1776"
  },
+ "gh:makecindy/cindy": {
+  "copy": {
+   "zh": {
+    "blurb": "cindy 是用 TypeScript 编写的开源 AI 代理，提供即装即用的功能，帮助用户快速部署智能助手。",
+    "points": [
+     "完全开源，社区可贡献",
+     "零配置即能运行",
+     "基于 TypeScript，易于集成"
+    ],
+    "title": "makecindy/cindy：开箱即用的开源 AI Agent"
+   }
+  },
+  "hash": "4a7743103012d042"
+ },
  "gh:manaflow-ai/cmux": {
   "copy": {
    "zh": {
@@ -8107,6 +8418,15 @@
    }
   },
   "hash": "781be2883232b929"
+ },
+ "gh:mvanhorn/last30days-skill": {
+  "copy": {
+   "zh": {
+    "blurb": "last30days-skill 是一个 Python AI 代理技能，能够在 Reddit、X、YouTube、HN、Polymarket 与全网检索信息，随后生成有依据的摘要，帮助快速获取最近30天的热点。",
+    "title": "last30days-skill：跨平台 AI 代理技能"
+   }
+  },
+  "hash": "92d77ea236be1d41"
  },
  "gh:nandhakishorm/laya": {
   "copy": {
@@ -8481,11 +8801,11 @@
  "gh:sickn33/agentic-awesome-skills": {
   "copy": {
    "zh": {
-    "blurb": "AAS Core 是本地、以智能体为中心的控制平面，提供目录发现、智能体自主选择、堆栈验证与规划，支撑 2600+ 智能体技能，包含 CLI、MCP、本地目录、插件和工作台。",
-    "title": "sickn33/agentic-awesome-skills"
+    "blurb": "AAS Core 是面向本地的代理优先控制平面，支持完整目录发现、代理拥有的技能选择、堆栈验证与计划，内置 CLI、MCP、目录、插件和 Workbench，聚合超 2,750 项 agentic 技能。",
+    "title": "agentic-awesome-skills：本地 Agent‑first 控制平面，拥有 2,750+ 技能"
    }
   },
-  "hash": "601a31f261b61f75"
+  "hash": "6c7e2938fe3a24a0"
  },
  "gh:skyhook-io/radar": {
   "copy": {
@@ -9300,6 +9620,20 @@
    }
   },
   "hash": "3d539cc4dde1d930"
+ },
+ "hf:ista-daslab/deepseek-v4.1-flash-1017-gsq-rco-gguf": {
+  "copy": {
+   "zh": {
+    "blurb": "IST A-DASLab 在 Hugging Face 发布的 DeepSeek-V4.1 Flash 模型，面向文本生成，已获 334 喜欢。",
+    "points": [
+     "文本生成模型，支持 GGUF 格式",
+     "基于 DeepSeek V4.1 的 Flash 优化",
+     "在 Hugging Face 获 334 喜欢，热度 81"
+    ],
+    "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+   }
+  },
+  "hash": "a16503b956dad226"
  },
  "hf:jialinyyzz/humanizer": {
   "copy": {
@@ -12533,6 +12867,20 @@
   },
   "hash": "7911ef054600fdbf"
  },
+ "hn:50238739": {
+  "copy": {
+   "zh": {
+    "blurb": "PaperPilot 是用 Rust 编写的 PDF 处理引擎，支持在浏览器的 WebAssembly 环境及多核并行（MCP）下离线运行，实现零云部署。",
+    "points": [
+     "全 Rust 实现，保证内存安全并提供高性能。",
+     "通过 WebAssembly 在浏览器中本地处理 PDF，无需云服务。",
+     "利用多核并行（MCP）提升解析和渲染速度。"
+    ],
+    "title": "PaperPilot：零云、纯 Rust 的 PDF 引擎，支持 WASM 与 MCP"
+   }
+  },
+  "hash": "5ba905a323ae674d"
+ },
  "hn:50238751": {
   "copy": {
    "zh": {
@@ -12546,6 +12894,43 @@
    }
   },
   "hash": "2a7e0b34a3a962af"
+ },
+ "hn:50242226": {
+  "copy": {
+   "zh": {
+    "blurb": "Rostr 是一款轻量工具，允许为软件代理分配易记名称，并记录每个代理的职责和当前工作状态，提升团队协作可视化。",
+    "title": "Rostr：为你的代理命名并追踪任务"
+   }
+  },
+  "hash": "6e08cf57b06f8c39"
+ },
+ "hn:50242939": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 在 SEC 提交的 S-1 注册声明，首次登上 Hacker News，获 1155 点、1068 条评论。",
+    "points": [
+     "SEC 公开公司首次公开募股（IPO）文件",
+     "在 Hacker News 获 1155 点高热度",
+     "首次进入该版面，热度 81/100"
+    ],
+    "title": "Anthropic S-1"
+   }
+  },
+  "hash": "fd2ddec5ac1d8bea"
+ },
+ "hn:50245138": {
+  "copy": {
+   "zh": {
+    "blurb": "Sebastian Raschka 在个人杂志推出从零构建推理模型的视频课程，已获 321 点。",
+    "points": [
+     "全程手写实现推理模型",
+     "适合机器学习入门者",
+     "在 Hacker News 获 321 点、46 条评论"
+    ],
+    "title": "Sebastian Raschka's from-scratch video course on building reasoning models"
+   }
+  },
+  "hash": "c6703ad1caa9be59"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -12583,6 +12968,15 @@
   },
   "hash": "9af4f9398d862d2e"
  },
+ "lobsters:0ta2mv": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨在 Common Lisp 中使用 EQUALP 进行数值哈希的技巧，展示了自定义散列函数如何提升集合操作性能以及避免冲突。",
+    "title": "EQUALP 下数值哈希的奇妙之处"
+   }
+  },
+  "hash": "39ec9905753b5d46"
+ },
  "lobsters:16tsvr": {
   "copy": {
    "zh": {
@@ -12610,6 +13004,20 @@
    }
   },
   "hash": "9745c4fceb7638a2"
+ },
+ "lobsters:1h5kuj": {
+  "copy": {
+   "zh": {
+    "blurb": "Pharo 14 正式发布，带来全新 UI、改进的垃圾回收以及对多核并发的增强，提升了开发者的交互体验和运行性能。",
+    "points": [
+     "引入现代化窗口系统，改进工具栏与代码浏览。",
+     "GC 优化显著降低内存抖动，提高大规模应用稳定性。",
+     "支持更细粒度的并发模型，简化多线程编程。"
+    ],
+    "title": "Pharo 14 正式发布"
+   }
+  },
+  "hash": "69ff74ed3cb8ffae"
  },
  "lobsters:1iin5o": {
   "copy": {
@@ -12839,6 +13247,20 @@
   },
   "hash": "1c23a889411b0096"
  },
+ "lobsters:5u7gjd": {
+  "copy": {
+   "zh": {
+    "blurb": "M‑Vave FM‑1 是一款体积小巧、价格亲民的口袋合成器，采用 FM 合成技术，可随时随地进行音乐创作。",
+    "points": [
+     "采用 FM 合成实现丰富音色",
+     "体积口袋大小，便携易用",
+     "价格实惠，适合入门和现场使用"
+    ],
+    "title": "从冲动购买到口袋工作室：M‑Vave FM‑1 合成器"
+   }
+  },
+  "hash": "6782df85c318cb9c"
+ },
  "lobsters:5ucftp": {
   "copy": {
    "zh": {
@@ -12933,6 +13355,20 @@
    }
   },
   "hash": "27c11cf8fbd9d414"
+ },
+ "lobsters:6ntoqr": {
+  "copy": {
+   "zh": {
+    "blurb": "知名前端站点 CSS‑Tricks 宣布已被新所有者收购，预计在保持内容质量的同时，引入新的运营和商业模式。",
+    "points": [
+     "新所有者正式接管网站",
+     "内容质量和社区氛围有望保持",
+     "可能推出新的付费或合作模式"
+    ],
+    "title": "CSS‑Tricks 更换新所有者"
+   }
+  },
+  "hash": "d27e3fa1e4e1f338"
  },
  "lobsters:6tbd2o": {
   "copy": {
@@ -13415,6 +13851,20 @@
   },
   "hash": "c617bad0483fb26f"
  },
+ "lobsters:c0yniy": {
+  "copy": {
+   "zh": {
+    "blurb": "Stalwart 是用 Rust 开发的邮件服务器，宣称在性能和延迟上领先业界，支持完整的 IMAP/SMTP 功能。",
+    "points": [
+     "使用 Rust 实现极致性能",
+     "支持 IMAP、SMTP 等完整协议",
+     "针对延迟和吞吐量进行专门优化"
+    ],
+    "title": "Stalwart v1.0：全球最快的邮件服务器"
+   }
+  },
+  "hash": "253319c61287144c"
+ },
  "lobsters:c2ouz0": {
   "copy": {
    "zh": {
@@ -13441,6 +13891,15 @@
    }
   },
   "hash": "016ab40707aab768"
+ },
+ "lobsters:cf8mdy": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenLDK 是一个桥接库，使得 Common Lisp 能直接调用 Java 类和方法，提供包装和自动内存管理，帮助 Lisp 开发者利用 Java 生态系统。",
+    "title": "OpenLDK：在 Common Lisp 中使用 Java"
+   }
+  },
+  "hash": "818ebacd8b26fbcf"
  },
  "lobsters:cjdy6d": {
   "copy": {
@@ -13919,6 +14378,20 @@
    }
   },
   "hash": "fedb120b1996c83d"
+ },
+ "lobsters:eyrbup": {
+  "copy": {
+   "zh": {
+    "blurb": "本文技术性追踪 Contabo GmbH 的爬虫行为，分析其请求特征、来源 IP 与频率，并提供检测与防御的实用方法。",
+    "points": [
+     "识别特定 User‑Agent 与请求路径模式。",
+     "利用日志关联多次访问，定位爬虫服务器。",
+     "提出基于速率限制和验证码的防御建议。"
+    ],
+    "title": "网页爬虫追踪：追溯 Contabo GmbH 的请求"
+   }
+  },
+  "hash": "a3c8b0a213472914"
  },
  "lobsters:ezucf0": {
   "copy": {
@@ -15132,6 +15605,20 @@
   },
   "hash": "56bffebf21097aa9"
  },
+ "lobsters:nxfown": {
+  "copy": {
+   "zh": {
+    "blurb": "文章公布 C++26 DIS（Defect and Issue Subcommittee）投票结果，列出通过的提案及其对语言新特性的影响，如模块改进和合约支持。",
+    "points": [
+     "多数提案获多数票通过，强化模块系统。",
+     "合约（contracts）相关议题被采纳，进入草案阶段。",
+     "对编译器实现提出具体兼容性要求。"
+    ],
+    "title": "C++26 DIS 投票结果公布"
+   }
+  },
+  "hash": "87aa2b0364cab105"
+ },
  "lobsters:o0ixth": {
   "copy": {
    "zh": {
@@ -15163,6 +15650,20 @@
    }
   },
   "hash": "2f1dd41d29466e79"
+ },
+ "lobsters:olnqh2": {
+  "copy": {
+   "zh": {
+    "blurb": "Brennen Puth 撰写的博客《网站应当可打印》讨论如何让网页在打印时保持可读性，已在 Lobsters 获 44 点。",
+    "points": [
+     "提出网页可打印性的设计建议",
+     "强调 CSS @media print 的使用",
+     "在 Lobsters 获 44 点、11 条评论"
+    ],
+    "title": "Websites Should Be Printable"
+   }
+  },
+  "hash": "204297d2ba98971d"
  },
  "lobsters:oq6nhr": {
   "copy": {
@@ -15218,6 +15719,19 @@
    }
   },
   "hash": "d0c161f2c5f2bc2a"
+ },
+ "lobsters:p9obkt": {
+  "copy": {
+   "zh": {
+    "blurb": "Gram 3.4.0 正式上线，详见 Gram 官方发布页面。此次发布首次登上 Lobsters 排行榜，热度 56.9/100。",
+    "points": [
+     "首次在 Lobsters 版面出现，获 30 分热度。",
+     "热度评分 56.9/100，显示社区关注度较高。"
+    ],
+    "title": "Gram 3.4.0 发布"
+   }
+  },
+  "hash": "c5df89f68f591304"
  },
  "lobsters:pcirxi": {
   "copy": {
@@ -15309,6 +15823,20 @@
    }
   },
   "hash": "ed54f4de4bc77189"
+ },
+ "lobsters:q5dung": {
+  "copy": {
+   "zh": {
+    "blurb": "讲述将百万行固件压缩至仅 300 行汇编的极致代码精简过程，展示高效实现技术。",
+    "points": [
+     "手写汇编替代高层代码实现核心功能",
+     "大幅降低存储与运行时开销",
+     "保持功能完整性并提升执行效率"
+    ],
+    "title": "Less Is More：从 100 万行固件到 300 行汇编"
+   }
+  },
+  "hash": "4c779b06db6aa7f4"
  },
  "lobsters:qcjvlw": {
   "copy": {
@@ -15496,6 +16024,20 @@
    }
   },
   "hash": "81431695bf3035a8"
+ },
+ "lobsters:ryjnyi": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨电子邮件背后的基础设施、服务器、带宽、反垃圾邮件及安全防护等多方面费用，解释为何大规模发送会昂贵。",
+    "points": [
+     "邮件服务器维护、存储和带宽是主要成本来源。",
+     "反垃圾邮件、病毒扫描和安全合规增加额外支出。",
+     "大规模发送时计费模型和服务商收费结构导致费用升高。"
+    ],
+    "title": "为何发送电子邮件成本如此高？"
+   }
+  },
+  "hash": "8396b4b85f06331f"
  },
  "lobsters:s0aktw": {
   "copy": {
@@ -15735,6 +16277,15 @@
   },
   "hash": "109b4bc354945ba7"
  },
+ "lobsters:twdnpy": {
+  "copy": {
+   "zh": {
+    "blurb": "Akku.scm 是面向 Scheme 的构建系统，1.2.0 版本加入了依赖自动检测、并行构建以及改进的错误报告，提升项目编译效率。",
+    "title": "Akku.scm 1.2.0 发布"
+   }
+  },
+  "hash": "7e0f58bfe043d20f"
+ },
  "lobsters:u4vlin": {
   "copy": {
    "zh": {
@@ -15886,6 +16437,15 @@
    }
   },
   "hash": "fa0821f6d89cc56c"
+ },
+ "lobsters:vgq0mf": {
+  "copy": {
+   "zh": {
+    "blurb": "Wails 是基于 Go 的跨平台桌面应用框架，v3.0.0 带来全新渲染层、改进的前端集成以及更简洁的 API，提升开发者体验并降低二进制体积。",
+    "title": "Wails v3.0.0 正式发布"
+   }
+  },
+  "hash": "63328ada93254743"
  },
  "lobsters:vh8l3t": {
   "copy": {
@@ -16271,6 +16831,15 @@
   },
   "hash": "af13b1afddc036f6"
  },
+ "lobsters:xmnhbt": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在博客中展示了用 x86 汇编编写的数独求解算法，演示了位运算和回溯搜索在低层语言中的高效实现。",
+    "title": "汇编实现的简易数独求解器"
+   }
+  },
+  "hash": "6d61ec24bc8e9308"
+ },
  "lobsters:xsz9sc": {
   "copy": {
    "zh": {
@@ -16299,6 +16868,19 @@
   },
   "hash": "91dfa131efbb67f4"
  },
+ "lobsters:xxdda9": {
+  "copy": {
+   "zh": {
+    "blurb": "社区发起的开放话题，邀请大家分享本周计划或状态，亦鼓励完全不做任何事的自由。",
+    "points": [
+     "鼓励成员分享工作进度或休息状态。",
+     "明确表示不做事也是一种有效参与方式。"
+    ],
+    "title": "本周你在做什么？"
+   }
+  },
+  "hash": "396bb2489aa4ed37"
+ },
  "lobsters:xz6sst": {
   "copy": {
    "zh": {
@@ -16307,6 +16889,20 @@
    }
   },
   "hash": "8c40af2d3eed20dd"
+ },
+ "lobsters:xzp4m0": {
+  "copy": {
+   "zh": {
+    "blurb": "苹果官方披露 eMudhra 中间 CA 被攻破，影响信任链安全，提示用户及时更新系统并撤销受影响证书。",
+    "points": [
+     "公布受影响的中间 CA 列表并执行证书撤销。",
+     "潜在影响 iOS/macOS 的证书验证与安全通信。",
+     "建议用户立即更新系统或手动移除受影响证书。"
+    ],
+    "title": "eMudhra 中间证书机构被泄露的情况说明"
+   }
+  },
+  "hash": "93954d06a8ffc546"
  },
  "lobsters:y26mhi": {
   "copy": {
@@ -16397,6 +16993,19 @@
    }
   },
   "hash": "372050524d9b348d"
+ },
+ "lobsters:ysyqnt": {
+  "copy": {
+   "zh": {
+    "blurb": "通过视频及补充链接，探讨了小型网页在整体互联网中的规模与影响，提供演讲者页面与额外阅读资源。",
+    "points": [
+     "展示了小型网页在整体网络中的庞大体量。",
+     "提供演讲者页面和补充博客供深入了解。"
+    ],
+    "title": "小型网页的巨大价值"
+   }
+  },
+  "hash": "803d2a2fcf8a29d1"
  },
  "lobsters:yusomz": {
   "copy": {
