@@ -1,9 +1,4 @@
 {
- "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/": {
-  "at": "2026-10-12T21:16:13.810Z",
-  "summary": "Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code. But coders making use of those tools also know better than to trust the accuracy of that code, meaning substantial effort needs to be spent reviewing any AI-generated output. A recent study of actual coding practices across hundreds of firms finds that human code review forms a significant “bottleneck” for the overall efficiency of AI coding tools, resulting in “little evidence that firms increase soft",
-  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
- },
  "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
   "at": "2026-10-17T15:32:02.493Z",
   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -11,6 +6,9 @@
  },
  "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/": {
   "at": "2026-10-23T06:01:45.107Z"
+ },
+ "https://openai.com/index/introducing-gpt-6-1-terra/": {
+  "at": "2026-10-27T06:15:26.926Z"
  },
  "https://openai.com/index/openai-models-google-cloud/": {
   "at": "2026-10-23T06:01:45.107Z"

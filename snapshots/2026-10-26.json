@@ -11333,21 +11333,21 @@
    "category": "discussion",
    "key": "hn:50233779",
    "metrics": {
-    "comments": 265,
+    "comments": 270,
     "frontPage": 0,
-    "points": 647
+    "points": 657
    },
    "news": {
     "author": "sungam",
-    "comments": 265,
+    "comments": 270,
     "createdAt": "2026-10-25T17:15:38.000Z",
     "domain": "lynchlab.net",
     "hnId": 50233779,
     "hnUrl": "https://news.ycombinator.com/item?id=50233779",
-    "points": 647,
-    "showRank": 3
+    "points": 657,
+    "showRank": 4
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T17:15:38.000Z",
    "refs": [
     "url:lynchlab.net/llm-skin-cancer"
@@ -11414,21 +11414,21 @@
    "category": "discussion",
    "key": "hn:50236102",
    "metrics": {
-    "comments": 406,
+    "comments": 429,
     "frontPage": 0,
-    "points": 399
+    "points": 422
    },
    "news": {
     "author": "minimaxir",
-    "comments": 406,
+    "comments": 429,
     "createdAt": "2026-10-25T21:11:31.000Z",
     "domain": "minimaxir.com",
     "hnId": 50236102,
     "hnUrl": "https://news.ycombinator.com/item?id=50236102",
-    "points": 399,
-    "showRank": 15
+    "points": 422,
+    "showRank": 14
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T21:11:31.000Z",
    "refs": [
     "url:minimaxir.com/2026/10/cheap-llms"
@@ -11449,6 +11449,45 @@
    "tags": [],
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://minimaxir.com/2026/10/cheap-llms/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50236681",
+   "metrics": {
+    "comments": 57,
+    "frontPage": 0,
+    "points": 194
+   },
+   "news": {
+    "author": "zdw",
+    "comments": 57,
+    "createdAt": "2026-10-25T22:29:47.000Z",
+    "domain": "shraiwi.com",
+    "hnId": 50236681,
+    "hnUrl": "https://news.ycombinator.com/item?id=50236681",
+    "points": 194,
+    "showRank": 38
+   },
+   "observedAt": "2026-10-27T06:15:26.926Z",
+   "publishedAt": "2026-10-25T22:29:47.000Z",
+   "refs": [
+    "url:shraiwi.com/blog/simd-fast-esp32s3"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:computer vision",
+     "cat:board"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "SIMD-accelerated computer vision on a $2 microcontroller",
+   "url": "https://shraiwi.com/blog/simd-fast-esp32s3/"
   },
   {
    "board": "news",
@@ -11496,21 +11535,21 @@
    "category": "tool",
    "key": "hn:50237813",
    "metrics": {
-    "comments": 5,
+    "comments": 8,
     "frontPage": 0,
-    "points": 27
+    "points": 29
    },
    "news": {
     "author": "i_strelov",
-    "comments": 5,
+    "comments": 8,
     "createdAt": "2026-10-26T01:13:43.000Z",
     "domain": "freehire.me",
     "hnId": 50237813,
     "hnUrl": "https://news.ycombinator.com/item?id=50237813",
-    "points": 27,
-    "showRank": 6
+    "points": 29,
+    "showRank": 9
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T01:13:43.000Z",
    "refs": [
     "url:freehire.me"
@@ -11535,21 +11574,21 @@
    "category": "industry",
    "key": "hn:50238088",
    "metrics": {
-    "comments": 312,
+    "comments": 327,
     "frontPage": 0,
-    "points": 403
+    "points": 417
    },
    "news": {
     "author": "Betelbuddy",
-    "comments": 312,
+    "comments": 327,
     "createdAt": "2026-10-26T01:47:46.000Z",
     "domain": "theregister.com",
     "hnId": 50238088,
     "hnUrl": "https://news.ycombinator.com/item?id=50238088",
-    "points": 403,
-    "showRank": 13
+    "points": 417,
+    "showRank": 15
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T01:47:46.000Z",
    "refs": [
     "url:theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
@@ -11654,21 +11693,21 @@
    "category": "discussion",
    "key": "hn:50238739",
    "metrics": {
-    "comments": 79,
+    "comments": 84,
     "frontPage": 0,
-    "points": 222
+    "points": 230
    },
    "news": {
     "author": "vardhan1237",
-    "comments": 79,
+    "comments": 84,
     "createdAt": "2026-10-26T03:29:05.000Z",
     "domain": "github.com",
     "hnId": 50238739,
     "hnUrl": "https://news.ycombinator.com/item?id=50238739",
-    "points": 222,
-    "showRank": 30
+    "points": 230,
+    "showRank": 32
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T03:29:05.000Z",
    "refs": [
     "gh:krushnavardhanreddy/paperpilot"
@@ -11772,23 +11811,62 @@
   {
    "board": "news",
    "category": "discussion",
+   "key": "hn:50242870",
+   "metrics": {
+    "comments": 66,
+    "frontPage": 0,
+    "points": 161
+   },
+   "news": {
+    "author": "coffeemug",
+    "comments": 66,
+    "createdAt": "2026-10-26T12:59:48.000Z",
+    "domain": "ubicloud.com",
+    "hnId": 50242870,
+    "hnUrl": "https://news.ycombinator.com/item?id=50242870",
+    "points": 161,
+    "showRank": 50
+   },
+   "observedAt": "2026-10-27T06:15:26.926Z",
+   "publishedAt": "2026-10-26T12:59:48.000Z",
+   "refs": [
+    "url:ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:vllm",
+     "cat:board"
+    ],
+    "score": 0.6
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Fixing Tool-Call Accuracy in vLLM",
+   "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
    "key": "hn:50242939",
    "metrics": {
-    "comments": 1068,
+    "comments": 1502,
     "frontPage": 0,
-    "points": 1155
+    "points": 1561
    },
    "news": {
     "author": "SiNTEx",
-    "comments": 1068,
+    "comments": 1502,
     "createdAt": "2026-10-26T13:04:50.000Z",
     "domain": "sec.gov",
     "hnId": 50242939,
     "hnUrl": "https://news.ycombinator.com/item?id=50242939",
-    "points": 1155,
+    "points": 1561,
     "showRank": 0
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T13:04:50.000Z",
    "refs": [
     "url:sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
@@ -11813,21 +11891,21 @@
    "category": "discussion",
    "key": "hn:50245138",
    "metrics": {
-    "comments": 46,
+    "comments": 91,
     "frontPage": 0,
-    "points": 321
+    "points": 645
    },
    "news": {
     "author": "sgiannopoulos",
-    "comments": 46,
+    "comments": 91,
     "createdAt": "2026-10-26T15:11:59.000Z",
     "domain": "magazine.sebastianraschka.com",
     "hnId": 50245138,
     "hnUrl": "https://news.ycombinator.com/item?id=50245138",
-    "points": 321,
-    "showRank": 18
+    "points": 645,
+    "showRank": 5
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T15:11:59.000Z",
    "refs": [
     "url:magazine.sebastianraschka.com/p/building-reasoning-models"
@@ -12166,29 +12244,29 @@
    "category": "engineering",
    "devto": {
     "author": "Hemapriya Kanagala",
-    "comments": 6,
+    "comments": 9,
     "createdAt": "2026-10-25T18:28:32Z",
     "domain": "dev.to",
     "id": 4917021,
-    "points": 51,
+    "points": 57,
     "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n"
    },
    "key": "devto:4917021",
    "metrics": {
-    "comments": 6,
+    "comments": 9,
     "frontPage": 0,
-    "points": 51
+    "points": 57
    },
    "news": {
     "author": "Hemapriya Kanagala",
-    "comments": 6,
+    "comments": 9,
     "createdAt": "2026-10-25T18:28:32Z",
     "domain": "dev.to",
     "hnId": 4917021,
     "hnUrl": "https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n",
-    "points": 51
+    "points": 57
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T18:28:32Z",
    "refs": [],
    "relevance": {
@@ -12321,7 +12399,7 @@
    "category": "engineering",
    "devto": {
     "author": "Randal L. Schwartz",
-    "comments": 7,
+    "comments": 8,
     "createdAt": "2026-10-25T20:19:06Z",
     "domain": "dev.to",
     "id": 4917411,
@@ -12330,20 +12408,20 @@
    },
    "key": "devto:4917411",
    "metrics": {
-    "comments": 7,
+    "comments": 8,
     "frontPage": 0,
     "points": 6
    },
    "news": {
     "author": "Randal L. Schwartz",
-    "comments": 7,
+    "comments": 8,
     "createdAt": "2026-10-25T20:19:06Z",
     "domain": "dev.to",
     "hnId": 4917411,
     "hnUrl": "https://dev.to/gde/the-best-prompt-rule-is-the-one-you-delete-moving-ai-guardrails-out-of-markdown-and-into-git-5a5h",
     "points": 6
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T20:19:06Z",
    "refs": [],
    "relevance": {
@@ -12394,7 +12472,7 @@
     "hnUrl": "https://dev.to/gde/inference-on-google-cloud-precision-memory-and-capacity-on-tpu-from-v5e-to-ironwood-5dlf",
     "points": 8
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T23:02:38Z",
    "refs": [],
    "relevance": {
@@ -12475,29 +12553,29 @@
    "category": "discussion",
    "devto": {
     "author": "Randal L. Schwartz",
-    "comments": 3,
+    "comments": 4,
     "createdAt": "2026-10-25T23:44:27Z",
     "domain": "dev.to",
     "id": 4917886,
-    "points": 8,
+    "points": 9,
     "url": "https://dev.to/gde/why-blocadd-isnt-what-you-think-synchronous-event-fast-paths-and-0ms-form-bindings-6o"
    },
    "key": "devto:4917886",
    "metrics": {
-    "comments": 3,
+    "comments": 4,
     "frontPage": 0,
-    "points": 8
+    "points": 9
    },
    "news": {
     "author": "Randal L. Schwartz",
-    "comments": 3,
+    "comments": 4,
     "createdAt": "2026-10-25T23:44:27Z",
     "domain": "dev.to",
     "hnId": 4917886,
     "hnUrl": "https://dev.to/gde/why-blocadd-isnt-what-you-think-synchronous-event-fast-paths-and-0ms-form-bindings-6o",
-    "points": 8
+    "points": 9
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T23:44:27Z",
    "refs": [],
    "relevance": {
@@ -14085,29 +14163,29 @@
    "category": "engineering",
    "devto": {
     "author": "Ben Halpern",
-    "comments": 10,
+    "comments": 18,
     "createdAt": "2026-10-26T14:05:12Z",
     "domain": "dev.to",
     "id": 4922227,
-    "points": 18,
+    "points": 25,
     "url": "https://dev.to/ben/meme-monday-18k"
    },
    "key": "devto:4922227",
    "metrics": {
-    "comments": 10,
+    "comments": 18,
     "frontPage": 0,
-    "points": 18
+    "points": 25
    },
    "news": {
     "author": "Ben Halpern",
-    "comments": 10,
+    "comments": 18,
     "createdAt": "2026-10-26T14:05:12Z",
     "domain": "dev.to",
     "hnId": 4922227,
     "hnUrl": "https://dev.to/ben/meme-monday-18k",
-    "points": 18
+    "points": 25
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T14:05:12Z",
    "refs": [],
    "relevance": {
@@ -14295,14 +14373,14 @@
     "comments": 0,
     "createdAt": "2026-10-26T10:40:59.802-05:00",
     "domain": "turtleware.eu",
-    "points": 7,
+    "points": 9,
     "shortId": "0ta2mv",
     "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 7
+    "points": 9
    },
    "news": {
     "author": "jackdaniel",
@@ -14311,9 +14389,9 @@
     "domain": "turtleware.eu",
     "hnId": 49178839,
     "hnUrl": "https://lobste.rs/s/0ta2mv/heavenly_delights_hashing_numbers_under",
-    "points": 7
+    "points": 9
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T10:40:59.802-05:00",
    "refs": [],
    "relevance": {
@@ -14394,28 +14472,28 @@
    "key": "lobsters:5u7gjd",
    "lobsters": {
     "author": "gnafuthegreat",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-26T07:55:44.716-05:00",
     "domain": "arstechnica.com",
-    "points": 8,
+    "points": 12,
     "shortId": "5u7gjd",
     "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 6,
     "frontPage": 0,
-    "points": 8
+    "points": 12
    },
    "news": {
     "author": "gnafuthegreat",
-    "comments": 4,
+    "comments": 6,
     "createdAt": "2026-10-26T07:55:44.716-05:00",
     "domain": "arstechnica.com",
     "hnId": 353067385,
     "hnUrl": "https://lobste.rs/s/5u7gjd/from_impulse_purchase_pocket_studio_m",
-    "points": 8
+    "points": 12
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T07:55:44.716-05:00",
    "refs": [],
    "relevance": {
@@ -14599,14 +14677,14 @@
     "comments": 8,
     "createdAt": "2026-10-25T18:13:40.605-05:00",
     "domain": "bsandro.tech",
-    "points": 47,
+    "points": 53,
     "shortId": "hzrmwz",
     "url": "https://bsandro.tech/posts/simple-netbsd-webserver/"
    },
    "metrics": {
     "comments": 8,
     "frontPage": 0,
-    "points": 47
+    "points": 53
    },
    "news": {
     "author": "bsandro",
@@ -14615,9 +14693,9 @@
     "domain": "bsandro.tech",
     "hnId": 1088000963,
     "hnUrl": "https://lobste.rs/s/hzrmwz/simple_netbsd_webserver",
-    "points": 47
+    "points": 53
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T18:13:40.605-05:00",
    "refs": [],
    "relevance": {
@@ -14696,28 +14774,28 @@
    "key": "lobsters:mu3xcd",
    "lobsters": {
     "author": "FedericoSchonborn",
-    "comments": 8,
+    "comments": 13,
     "createdAt": "2026-10-25T22:06:36.927-05:00",
     "domain": "unix.dog",
-    "points": 27,
+    "points": 31,
     "shortId": "mu3xcd",
     "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html"
    },
    "metrics": {
-    "comments": 8,
+    "comments": 13,
     "frontPage": 0,
-    "points": 27
+    "points": 31
    },
    "news": {
     "author": "FedericoSchonborn",
-    "comments": 8,
+    "comments": 13,
     "createdAt": "2026-10-25T22:06:36.927-05:00",
     "domain": "unix.dog",
     "hnId": 1380827533,
     "hnUrl": "https://lobste.rs/s/mu3xcd/writing_about_pratt_parsing_so_i_remember",
-    "points": 27
+    "points": 31
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T22:06:36.927-05:00",
    "refs": [],
    "relevance": {
@@ -14797,28 +14875,28 @@
    "key": "lobsters:olnqh2",
    "lobsters": {
     "author": "zk",
-    "comments": 11,
+    "comments": 17,
     "createdAt": "2026-10-26T07:02:58.798-05:00",
     "domain": "brennenputh.me",
-    "points": 44,
+    "points": 68,
     "shortId": "olnqh2",
     "url": "https://brennenputh.me/blog/printable-websites/"
    },
    "metrics": {
-    "comments": 11,
+    "comments": 17,
     "frontPage": 0,
-    "points": 44
+    "points": 68
    },
    "news": {
     "author": "zk",
-    "comments": 11,
+    "comments": 17,
     "createdAt": "2026-10-26T07:02:58.798-05:00",
     "domain": "brennenputh.me",
     "hnId": 1487567558,
     "hnUrl": "https://lobste.rs/s/olnqh2/websites_should_be_printable",
-    "points": 44
+    "points": 68
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T07:02:58.798-05:00",
    "refs": [],
    "relevance": {
@@ -14847,28 +14925,28 @@
    "key": "lobsters:p9obkt",
    "lobsters": {
     "author": "FedericoSchonborn",
-    "comments": 4,
+    "comments": 11,
     "createdAt": "2026-10-26T06:47:25.669-05:00",
     "domain": "gram-editor.com",
-    "points": 30,
+    "points": 57,
     "shortId": "p9obkt",
     "url": "https://gram-editor.com/posts/release-3.4.0/"
    },
    "metrics": {
-    "comments": 4,
+    "comments": 11,
     "frontPage": 0,
-    "points": 30
+    "points": 57
    },
    "news": {
     "author": "FedericoSchonborn",
-    "comments": 4,
+    "comments": 11,
     "createdAt": "2026-10-26T06:47:25.669-05:00",
     "domain": "gram-editor.com",
     "hnId": 1527905693,
     "hnUrl": "https://lobste.rs/s/p9obkt/gram_3_4_0_released",
-    "points": 30
+    "points": 57
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T06:47:25.669-05:00",
    "refs": [],
    "relevance": {
@@ -14946,28 +15024,28 @@
    "key": "lobsters:ryjnyi",
    "lobsters": {
     "author": "wolfadex",
-    "comments": 18,
+    "comments": 29,
     "createdAt": "2026-10-26T08:25:41.253-05:00",
     "domain": "evancz.dev",
-    "points": 28,
+    "points": 51,
     "shortId": "ryjnyi",
     "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email"
    },
    "metrics": {
-    "comments": 18,
+    "comments": 29,
     "frontPage": 0,
-    "points": 28
+    "points": 51
    },
    "news": {
     "author": "wolfadex",
-    "comments": 18,
+    "comments": 29,
     "createdAt": "2026-10-26T08:25:41.253-05:00",
     "domain": "evancz.dev",
     "hnId": 1690611210,
     "hnUrl": "https://lobste.rs/s/ryjnyi/why_is_it_so_expensive_send_email",
-    "points": 28
+    "points": 51
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T08:25:41.253-05:00",
    "refs": [],
    "relevance": {
@@ -14998,14 +15076,14 @@
     "comments": 1,
     "createdAt": "2026-10-26T06:09:16.758-05:00",
     "domain": "weinholt.se",
-    "points": 7,
+    "points": 8,
     "shortId": "twdnpy",
     "url": "https://weinholt.se/articles/akku-scm-1-2-0/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 7
+    "points": 8
    },
    "news": {
     "author": "FedericoSchonborn",
@@ -15014,9 +15092,9 @@
     "domain": "weinholt.se",
     "hnId": 1807904086,
     "hnUrl": "https://lobste.rs/s/twdnpy/akku_scm_1_2_0_released",
-    "points": 7
+    "points": 8
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T06:09:16.758-05:00",
    "refs": [],
    "relevance": {
@@ -15048,14 +15126,14 @@
     "comments": 0,
     "createdAt": "2026-10-26T06:30:37.582-05:00",
     "domain": "v3.wails.io",
-    "points": 7,
+    "points": 8,
     "shortId": "vgq0mf",
     "url": "https://v3.wails.io/blog/wails-v3-released/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 7
+    "points": 8
    },
    "news": {
     "author": "rcalixte",
@@ -15064,9 +15142,9 @@
     "domain": "v3.wails.io",
     "hnId": 1902539175,
     "hnUrl": "https://lobste.rs/s/vgq0mf/wails_v3_0_0_released",
-    "points": 7
+    "points": 8
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T06:30:37.582-05:00",
    "refs": [],
    "relevance": {
@@ -15095,28 +15173,28 @@
    "key": "lobsters:x1s5oq",
    "lobsters": {
     "author": "ubernostrum",
-    "comments": 27,
+    "comments": 42,
     "createdAt": "2026-10-25T19:23:42.695-05:00",
     "domain": "fishbowl.pastiche.org",
-    "points": 34,
+    "points": 41,
     "shortId": "x1s5oq",
     "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills"
    },
    "metrics": {
-    "comments": 27,
+    "comments": 42,
     "frontPage": 0,
-    "points": 34
+    "points": 41
    },
    "news": {
     "author": "ubernostrum",
-    "comments": 27,
+    "comments": 42,
     "createdAt": "2026-10-25T19:23:42.695-05:00",
     "domain": "fishbowl.pastiche.org",
     "hnId": 1998377162,
     "hnUrl": "https://lobste.rs/s/x1s5oq/ai_skills_are_worthless_2026",
-    "points": 34
+    "points": 41
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-25T19:23:42.695-05:00",
    "refs": [],
    "relevance": {
@@ -15194,28 +15272,28 @@
    "key": "lobsters:xxdda9",
    "lobsters": {
     "author": "caius",
-    "comments": 16,
+    "comments": 26,
     "createdAt": "2026-10-26T06:35:18.042-05:00",
     "domain": "lobste.rs",
-    "points": 12,
+    "points": 15,
     "shortId": "xxdda9",
     "url": "https://lobste.rs/s/xxdda9/what_are_you_doing_this_week"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 26,
     "frontPage": 0,
-    "points": 12
+    "points": 15
    },
    "news": {
     "author": "caius",
-    "comments": 16,
+    "comments": 26,
     "createdAt": "2026-10-26T06:35:18.042-05:00",
     "domain": "lobste.rs",
     "hnId": 2051434881,
     "hnUrl": "https://lobste.rs/s/xxdda9/what_are_you_doing_this_week",
-    "points": 12
+    "points": 15
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T06:35:18.042-05:00",
    "refs": [],
    "relevance": {
@@ -15244,28 +15322,28 @@
    "key": "lobsters:xzp4m0",
    "lobsters": {
     "author": "freddyb",
-    "comments": 20,
+    "comments": 32,
     "createdAt": "2026-10-26T04:58:55.217-05:00",
     "domain": "support.apple.com",
-    "points": 29,
+    "points": 50,
     "shortId": "xzp4m0",
     "url": "https://support.apple.com/en-us/149555"
    },
    "metrics": {
-    "comments": 20,
+    "comments": 32,
     "frontPage": 0,
-    "points": 29
+    "points": 50
    },
    "news": {
     "author": "freddyb",
-    "comments": 20,
+    "comments": 32,
     "createdAt": "2026-10-26T04:58:55.217-05:00",
     "domain": "support.apple.com",
     "hnId": 2055342744,
     "hnUrl": "https://lobste.rs/s/xzp4m0/about_compromised_emudhra_intermediate",
-    "points": 29
+    "points": 50
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T04:58:55.217-05:00",
    "refs": [],
    "relevance": {
@@ -15294,28 +15372,28 @@
    "key": "lobsters:ysyqnt",
    "lobsters": {
     "author": "mhm",
-    "comments": 3,
+    "comments": 4,
     "createdAt": "2026-10-26T06:34:43.215-05:00",
     "domain": "archive.org",
-    "points": 19,
+    "points": 32,
     "shortId": "ysyqnt",
     "url": "https://archive.org/download/small_web/11787-48384.mp4"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 4,
     "frontPage": 0,
-    "points": 19
+    "points": 32
    },
    "news": {
     "author": "mhm",
-    "comments": 3,
+    "comments": 4,
     "createdAt": "2026-10-26T06:34:43.215-05:00",
     "domain": "archive.org",
     "hnId": 2104500089,
     "hnUrl": "https://lobste.rs/s/ysyqnt/small_web_is_huge",
-    "points": 19
+    "points": 32
    },
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "publishedAt": "2026-10-26T06:34:43.215-05:00",
    "refs": [],
    "relevance": {
@@ -15340,60 +15418,67 @@
   }
  ],
  "date": "2026-10-26",
- "fetchedAt": "2026-10-26T18:41:01.183Z",
+ "fetchedAt": "2026-10-27T06:15:26.926Z",
  "runs": [
   "2026-10-25T16:14:31.157Z",
   "2026-10-26T06:10:43.950Z",
-  "2026-10-26T18:41:01.183Z"
+  "2026-10-26T18:41:01.183Z",
+  "2026-10-27T06:15:26.926Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 60,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "dev-to",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 318,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "count": 319,
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "github-search",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 174,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "github-trending",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 73,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "count": 74,
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 95,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "count": 97,
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "lobsters",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15401,15 +15486,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-26T18:41:01.183Z",
+   "fetchedAt": "2026-10-27T06:15:26.926Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-27T06:15:26.926Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-25T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-26T16:00:00.000Z"
  }

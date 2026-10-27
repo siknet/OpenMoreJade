@@ -1227,7 +1227,7 @@
    "sourceKey": "gh:mudler/localai"
   },
   "discovery:gh:nightly-labs/openbot": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:nightly-labs/openbot",
@@ -1261,7 +1261,7 @@
    "sourceKey": "gh:nightly-labs/openbot"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -1336,7 +1336,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1487,7 +1487,7 @@
    "sourceKey": "gh:unslothai/unsloth"
   },
   "discovery:gh:xerj-org/xerj": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:xerj-org/xerj",
@@ -1997,7 +1997,7 @@
    "sourceKey": "hn:50227330"
   },
   "discovery:hn:50237291": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50237291",
@@ -2030,7 +2030,7 @@
    "sourceKey": "hn:50237291"
   },
   "discovery:hn:50237813": {
-   "observedAt": "2026-10-26T18:41:01.183Z",
+   "observedAt": "2026-10-27T06:15:26.926Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50237813",
@@ -2061,6 +2061,39 @@
     }
    },
    "sourceKey": "hn:50237813"
+  },
+  "discovery:hn:50246238": {
+   "observedAt": "2026-10-27T06:15:26.926Z",
+   "resource": {
+    "freshnessBasis": "published",
+    "id": "discovery:hn:50246238",
+    "level": "starter",
+    "publishedAt": "2026-10-26T16:12:29.000Z",
+    "scores": {
+     "authority": 3,
+     "clarity": 3,
+     "foundation": 3,
+     "practice": 4
+    },
+    "sourceName": "github.com",
+    "sourceUpdatedAt": "2026-10-26T16:12:29.000Z",
+    "summary": {
+     "en": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses open-weight models (currently Gemma 4 and gpt-oss). All your chats and files never leave your system. The only things that go online are web search (can be turned off in settings) and any MCP connectors you add yourself. Main features: - Automatically finds the best open-weight model for your hardware…",
+     "zh": "Hob 是一个跨平台桌面应用，使用 Gemma 4、gpt-oss 等开源模型在本机离线运行，实现文件编辑和聊天功能，所有对话和文件均不离开本地，仅可选网络搜索。"
+    },
+    "title": {
+     "en": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+     "zh": "Show HN：Hob——本地运行的开源 Claude/ChatGPT 替代品"
+    },
+    "topics": [],
+    "type": "article",
+    "url": "https://github.com/FrigadeHQ/hob",
+    "why": {
+     "en": "Automatic selection: A concrete AI use case with an accessible tool. Check the original source for access requirements.",
+     "zh": "自动候选：提供明确的 AI 使用场景与可运行工具。请打开原文确认使用条件。"
+    }
+   },
+   "sourceKey": "hn:50246238"
   }
  },
  "dynamicHistory": {
@@ -7065,6 +7098,7 @@
   "https://github.com/finereli/whatsapp-mcp": "2026-10-19T06:11:28.804Z",
   "https://github.com/firecrawl/firecrawl": "2026-10-22T17:08:42.069Z",
   "https://github.com/flowiseai/flowise": "2026-10-06T09:37:13.355Z",
+  "https://github.com/frigadehq/hob": "2026-10-27T06:15:26.926Z",
   "https://github.com/gentleman-programming/gentle-ai": "2026-10-11T17:41:07.692Z",
   "https://github.com/ggml-org/llama.cpp": "2026-10-06T09:37:13.355Z",
   "https://github.com/google-gemini/gemini-cli": "2026-10-06T09:37:13.355Z",
