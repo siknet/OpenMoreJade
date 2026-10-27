@@ -5729,6 +5729,20 @@
   },
   "hash": "df19feca71b0c6be"
  },
+ "devto:4907519": {
+  "copy": {
+   "zh": {
+    "blurb": "本文列出五款开源的 LLM 网关项目，提供统一的接口让应用连接不同模型，简化部署并提升可扩展性，是构建 AI 服务的关键组件。",
+    "points": [
+     "统一接入多模型的网关框架",
+     "简化部署并提升可扩展性",
+     "开源社区提供丰富插件与示例"
+    ],
+    "title": "5 大最佳开源 LLM 网关"
+   }
+  },
+  "hash": "622f078d81cd580a"
+ },
  "devto:4907995": {
   "copy": {
    "zh": {
@@ -6897,6 +6911,20 @@
   },
   "hash": "579c611eef2df511"
  },
+ "devto:4923596": {
+  "copy": {
+   "zh": {
+    "blurb": "DEV 编辑团队每周挑选七篇受欢迎的技术帖子，涵盖开发趋势、工具使用和最佳实践，提供社区互动数据以帮助读者快速定位高质量内容。",
+    "points": [
+     "编辑精选的七篇高质量技术文章",
+     "覆盖多领域的最新开发趋势",
+     "提供链接与社区互动数据"
+    ],
+    "title": "本周精选 7 篇 DEV 文章"
+   }
+  },
+  "hash": "f893990c3b18445a"
+ },
  "devto:4923705": {
   "copy": {
    "zh": {
@@ -6998,6 +7026,223 @@
    }
   },
   "hash": "8954444c720d038d"
+ },
+ "devto:4928308": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一篇 Hacktoberfest 开源 AI 挑战第 4 周的作品，Gemma 4 自动生成卡片内容并通过 git 对每句引用进行校验，展示了 AI 与代码管理的融合。",
+    "title": "向仍在运行的代码致敬：Gemma 4 在我的笔记本上写卡片，git 校验每句话"
+   }
+  },
+  "hash": "46dbca3855b770dc"
+ },
+ "devto:4928687": {
+  "copy": {
+   "zh": {
+    "blurb": "作者构建了 Stepswitch，一个免费、MIT 许可证的编码代理编排器，能够将任务拆分为多个步骤，以帮助在本地运行 gpt-oss-120b 时诊断和解决出现的故障。",
+    "title": "在本地运行 gpt-oss-120b 编码代理时会出现哪些问题"
+   }
+  },
+  "hash": "a1ded42395419573"
+ },
+ "devto:4929053": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章展示了使用本地大模型对可疑脚本进行安全分析的工作流，帮助开发者快速定位潜在恶意代码并给出修复建议，属于 Hacktoberfest 开源 AI 挑战第 4 周项目。",
+    "points": [
+     "结合本地大模型对脚本进行行为分析，发现潜在威胁。",
+     "通过提示工程让 AI 给出解释与修复建议。",
+     "示例代码可直接用于 Hacktoberfest 开源 AI 挑战。"
+    ],
+    "title": "Rootkit Exorcist：本地 AI 检测可疑脚本"
+   }
+  },
+  "hash": "8cb3d7d578283415"
+ },
+ "devto:4929296": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacktoberfest 开源 AI 挑战的第四周，作者实现了 Ghost BASIC 语言的运行环境，并使用 Gemma 模型解析和翻译其独特的方言语法。",
+    "points": [
+     "复活已停产的 Ghost BASIC 语言并实现运行环境。",
+     "通过 Gemma 模型学习并翻译其方言语法。",
+     "作为 Hacktoberfest 开源 AI 挑战的创新项目。"
+    ],
+    "title": "Ghost BASIC：让已死语言复活，Gemma 学习其方言"
+   }
+  },
+  "hash": "1246ff17b840a447"
+ },
+ "devto:4929415": {
+  "copy": {
+   "zh": {
+    "blurb": "2026年10月27日的四则开发者报道：Cohere 发现 Qwen 模型尝试从沙盒上传探针文件；Open3DLab 报告名为 Robl 的爬虫；Python 的 JIT 编译被移除；Debian 发布多款大模型的审查报告。",
+    "points": [
+     "Qwen模型在沙盒尝试上传探针文件，引发安全关注。",
+     "Open3DLab披露名为Robl的爬虫活动。",
+     "Python JIT 被移除，对性能调优产生影响。"
+    ],
+    "title": "Qwen 上传探针、Roblox 爬虫、Python JIT 移除 与 Debian LLM 评测概览"
+   }
+  },
+  "hash": "807cfaa7bce541d9"
+ },
+ "devto:4929644": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了在 Hacktoberfest 2026 第四周项目中，如何利用本地开源大模型和浏览器的 Web Speech API 打造一个带语音交互的“闹鬼”终端。",
+    "points": [
+     "使用本地开源大模型实现终端交互，保持数据私密。",
+     "结合 Web Speech API 添加语音输入/输出，营造闹鬼氛围。",
+     "项目适合作为 Hacktoberfest 创意示例。"
+    ],
+    "title": "构建幽灵终端：本地开源 AI 与 Web Speech API 的结合"
+   }
+  },
+  "hash": "97bbd7d951577436"
+ },
+ "devto:4929664": {
+  "copy": {
+   "zh": {
+    "blurb": "DEV 平台为文章分享生成的预览图片焕然一新，采用全新视觉设计，可在社交媒体中更醒目地展示帖子内容。",
+    "points": [
+     "重新设计的卡片提升视觉吸引力",
+     "在分享链接时自动使用新卡片",
+     "帮助提高文章点击率和互动"
+    ],
+    "title": "DEV 帖子全新分享卡片"
+   }
+  },
+  "hash": "56485c707f209a89"
+ },
+ "devto:4929684": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目利用本地 AI 创建私密的数字祭祀空间，纪念亡者并在 Día de los Muertos 期间提供交互式记忆体验。",
+    "points": [
+     "完全离线运行，保护用户隐私",
+     "结合文化元素的 AI 交互",
+     "开源项目，适合 Hacktoberfest 贡献"
+    ],
+    "title": "La Ofrenda Digital：本地 AI 虚拟祭坛"
+   }
+  },
+  "hash": "30d1385eab75569f"
+ },
+ "devto:4929702": {
+  "copy": {
+   "zh": {
+    "blurb": "作者介绍了从实际映射需求出发构建轻量级的浏览器端路由器 roadgraph-router-v2 的全过程，并展示了其在真实项目中的使用案例。",
+    "points": [
+     "自研 roadgraph-router-v2 为特定映射需求提供轻量路由。",
+     "完全在浏览器中运行，无需后端服务。",
+     "已在真实应用中集成，提升路径计算效率。"
+    ],
+    "title": "自研 OpenStreetMap 路由引擎并在实际应用中落地"
+   }
+  },
+  "hash": "512eddc51741d0c4"
+ },
+ "devto:4929734": {
+  "copy": {
+   "zh": {
+    "blurb": "resilience4cata 在编译阶段注入断路器代码，避免运行时装饰开销，使得健康断路器的延迟约为两纳秒，提升 Java 高吞吐系统的弹性。",
+    "points": [
+     "resilience4cata 在编译阶段注入断路器代码，避免运行时装饰开销。",
+     "实现的断路器延迟约为 1.9 纳秒，远低于传统库。",
+     "适用于 Java，提升高吞吐系统的弹性。"
+    ],
+    "title": "1.9 ns 电路断路器：编译时生成的弹性"
+   }
+  },
+  "hash": "4081d2d7b929dde0"
+ },
+ "devto:4929752": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 DEV 文章讲述了一个被称为“幽灵药店”的项目，旨在通过数字化手段保存并展示传统药方的历史与配方。",
+    "title": "药剂师的幽灵：让古老疗方重现历史"
+   }
+  },
+  "hash": "9168e1da40b39ea2"
+ },
+ "devto:4929763": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第 4 周的提交，提供一个在本地机器上运行的‘闹鬼’Shell，演示 AI 与终端交互的创意实现。",
+    "points": [
+     "本地执行，无需外部服务器。",
+     "通过 AI 生成幽灵式的终端响应，营造恐怖氛围。",
+     "作为开源项目可供社区改进和二次创作。"
+    ],
+    "title": "Echoes of the Terminal：本机运行的幽灵终端"
+   }
+  },
+  "hash": "89d283e6c4e3c795"
+ },
+ "devto:4929977": {
+  "copy": {
+   "zh": {
+    "blurb": "在 leantext 之后，DEV·TV 的商业广告时段已播放来自开发者工具 living‑canvas 的广告，并计划开放社区免费投放，实现平台与创作者的双向推广。",
+    "points": [
+     "采用真实广告位，提升平台商业化能力。",
+     "通过 living‑canvas 示例展示开发者工具的可视化编辑。",
+     "未来将允许社区自行提交免费广告，降低推广门槛。"
+    ],
+    "title": "DEV·TV 第二条正式广告上线，下一条或许是你的"
+   }
+  },
+  "hash": "395b2fb85bacec6e"
+ },
+ "devto:4929991": {
+  "copy": {
+   "zh": {
+    "blurb": "文章探讨了在 AI 驱动的创作平台中，如何将生成过程视作独立线程而非简单的身份冒充，以提升协作与可追溯性。",
+    "title": "Afterlight — 幽灵是线程，而非冒名"
+   }
+  },
+  "hash": "3e46529de7ebefeb"
+ },
+ "devto:4929992": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍了 QuickTube 项目，提供无广告、免登录的 Android 应用，可离线保存视频和音频，源码完全开源。",
+    "title": "QuickTube：在 Android 上免费开源下载视频与音乐"
+   }
+  },
+  "hash": "39f603b0f71dd43b"
+ },
+ "devto:4930003": {
+  "copy": {
+   "zh": {
+    "blurb": "这是一篇针对 Hacktoberfest 开源 AI 挑战第 4 周 “Ghost in the Machine” 的投稿，展示了一个本地保存记忆的灯笼项目，数据不离设备，旨在实现离线 AI 记忆存储。",
+    "title": "我构建了一个永不离开设备的记忆灯笼"
+   }
+  },
+  "hash": "e672d29908f7d8c4"
+ },
+ "devto:4930018": {
+  "copy": {
+   "zh": {
+    "blurb": "作者对 You.com、Tavily、Exa、Parallel 四种搜索 API 进行了 30 条代理式查询的实测，覆盖 GTM、保险和金融场景，揭示各自的优势与适用领域。",
+    "points": [
+     "You.com 在通用查询上返回最丰富的摘要。",
+     "Tavily 在保险和金融领域表现最佳。",
+     "Exa 在 GTM 场景下检索速度最快。"
+    ],
+    "title": "AI 代理的四大网页搜索 API 基准测试报告"
+   }
+  },
+  "hash": "1fff79d8faf2a22a"
+ },
+ "devto:4930025": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章介绍了在 Hacktoberfest 开源 AI 挑战第 4 周 “Ghost in the Machine” 中的一个本地 AI 终端实现，以幽灵主题包装，提供离线交互式 AI 助手。",
+    "title": "闹鬼终端：本地 AI 灵魂（Ghost in the Machine）"
+   }
+  },
+  "hash": "7dd9956c293737b5"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -7429,6 +7674,15 @@
   },
   "hash": "03745b77508d9d4c"
  },
+ "gh:chromedevtools/chrome-devtools-mcp": {
+  "copy": {
+   "zh": {
+    "blurb": "Chrome DevTools 的扩展项目，旨在为构建代码生成代理提供调试与交互工具，使用 TypeScript 开发，已获 54,272 星。",
+    "title": "面向编码代理的 Chrome DevTools"
+   }
+  },
+  "hash": "2f0442c36206ca44"
+ },
  "gh:code-yeongyu/oh-my-openagent": {
   "copy": {
    "zh": {
@@ -7850,8 +8104,13 @@
  "gh:gitroomhq/postiz-app": {
   "copy": {
    "zh": {
-    "blurb": "开源 TypeScript 项目，利用 AI 代理自动化内容生成、时间规划与多平台发布，提升社交媒体运营效率。",
-    "title": "postiz‑app：终极智能社交媒体排程工具"
+    "blurb": "Postiz 是一款开源的社交媒体排程平台，使用 TypeScript 构建，内置 AI 代理帮助自动生成、优化并安排内容，支持多平台同步发布并提供可视化日历。",
+    "points": [
+     "基于 TypeScript，提供 AI 代理自动生成排程内容。",
+     "支持多平台同步发布，配有直观的日历视图。",
+     "已获 39 k+ 星标，社区活跃，持续迭代。"
+    ],
+    "title": "Postiz：全能代理式社交媒体排程工具"
    }
   },
   "hash": "f407acea928ba727"
@@ -8624,6 +8883,20 @@
    }
   },
   "hash": "af37213f4ea4c997"
+ },
+ "gh:nvidia/auto-ontology": {
+  "copy": {
+   "zh": {
+    "blurb": "Auto Ontology 是一套 Python 框架，帮助在数据上构建基于语义图的推理层，实现确定性查询生成、上下文检索优化以及对 LLM 与智能体工作流的可解释性提升。",
+    "points": [
+     "确定性查询生成与语义图构建",
+     "提升上下文检索与可解释性",
+     "适配 LLM 与智能体的工作流"
+    ],
+    "title": "Auto Ontology：用于构建语义图推理层的 Python 框架"
+   }
+  },
+  "hash": "d3d899ace695837b"
  },
  "gh:nvidia/openshell": {
   "copy": {
@@ -13230,6 +13503,146 @@
   },
   "hash": "7b7c407850248868"
  },
+ "hn:50252159": {
+  "copy": {
+   "zh": {
+    "blurb": "Cloudflare 在其 GLM‑5.3 Workers AI 模型中发现跨请求 KV 缓存泄露问题，导致不同请求间可能共享机密数据。博客详细说明了漏洞成因并提供了隔离键空间、强化访问控制等修复方案。",
+    "points": [
+     "漏洞允许不同请求共享 KV 缓存数据，造成信息泄漏。",
+     "通过隔离缓存键空间并强化访问控制实现修复。",
+     "提供补丁和安全最佳实践，帮助开发者防范类似风险。"
+    ],
+    "title": "跨请求 KV 缓存泄露修复：GLM‑5.3 Workers AI 模型"
+   }
+  },
+  "hash": "a05ff1e6cf195dfb"
+ },
+ "hn:50256985": {
+  "copy": {
+   "zh": {
+    "blurb": "Roblox 从公开模型库一次性下载约 145GB 数据，其中包含成人内容，且未事先征得作者同意，引发对平台内容审查和数据使用政策的担忧。",
+    "points": [
+     "大规模未授权数据下载",
+     "包含成人内容导致监管风险",
+     "凸显平台内容审查与授权机制的不足"
+    ],
+    "title": "Roblox 未经授权下载 145GB 模型（含成人内容）"
+   }
+  },
+  "hash": "358649a918faa522"
+ },
+ "hn:50259406": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨用户数据在大模型训练中的使用情况，分析隐私政策、数据授权机制以及对个人信息安全的潜在影响。",
+    "points": [
+     "阐述数据用于模型训练的法律与政策",
+     "解析用户授权与匿名化流程",
+     "评估对个人隐私的潜在风险"
+    ],
+    "title": "我的数据是否被用于模型训练？"
+   }
+  },
+  "hash": "60d49c3617fd75f7"
+ },
+ "hn:50260571": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目实现了先写规格再生成代码的开发方式，已累计超过 1000 条规格，自动生成约 50 万行代码，提供 IDE 插件实时验证规格一致性，提升代理系统的可维护性。",
+    "points": [
+     "先编写规格再生成代码，提升可维护性与一致性。",
+     "已生成约 50 万行代码，覆盖 1000+ 规格。",
+     "插件集成 IDE，实时检测规格与实现的匹配。"
+    ],
+    "title": "Specification‑First 代理开发插件与验证框架"
+   }
+  },
+  "hash": "9c5092db7eb885b7"
+ },
+ "hn:50260969": {
+  "copy": {
+   "zh": {
+    "blurb": "Sectr 提供一站式的后端即服务，抽象出消息流、持久化、计费及人类审批等系统需求，使 AI 代理的部署与扩展无需自行搭建复杂基础设施，支持直接 curl 访问开发服务器。",
+    "points": [
+     "统一 API 处理消息流、持久化与计费。",
+     "自动伸缩并支持人类审批工作流，简化部署。",
+     "无需注册，可通过 curl 直接使用开发服务器。"
+    ],
+    "title": "Sectr：无服务器 AI 代理后端即服务平台"
+   }
+  },
+  "hash": "318d7e84e6c47478"
+ },
+ "hn:50261319": {
+  "copy": {
+   "zh": {
+    "blurb": "DeepMind 发布的 Genie 4 是新一代大规模多模态世界模拟模型，具备更长时序推理能力，可在强化学习、因果推断等任务中提供更真实的物理与社会环境模拟。",
+    "points": [
+     "采用更大规模 Transformer 与多模态输入，提升模拟真实性。",
+     "支持长时序推理，适用于强化学习与因果推断。",
+     "在多项基准上超越前代模型，展示更强通用性。"
+    ],
+    "title": "Genie 4：下一代世界模拟模型"
+   }
+  },
+  "hash": "a7ff7cee4091c8f0"
+ },
+ "hn:50261376": {
+  "copy": {
+   "zh": {
+    "blurb": "Aigent-OS 是一个基于 Claude Code 的代理框架，作者使用四个代理（Titus、Pheme、Davinci、Metis）自动完成新闻稿、AI 课程、视频生成、广告投放等业务流程，并通过机制保持多代理的一致性。",
+    "points": [
+     "四个专职代理分别负责写稿、校对、内容生成、任务调度。",
+     "实现了任务的自动化流水线，从仓库精选到 Instagram 视频。",
+     "通过‘清除与恢复’机制解决多代理上下文漂移问题。"
+    ],
+    "title": "Aigent-OS：Claude Code 多代理协作系统"
+   }
+  },
+  "hash": "475e430703d38557"
+ },
+ "hn:50262290": {
+  "copy": {
+   "zh": {
+    "blurb": "AgenticBench 是一个基准套件，针对 25 个 AI 编码代理执行 9 项安全相关测试，评估它们在代码生成过程中的漏洞防护和安全行为。",
+    "points": [
+     "覆盖注入、信息泄露、权限提升等常见安全风险。",
+     "提供统一的评分指标，帮助比较不同模型的安全表现。",
+     "开源平台便于社区添加新测试和代理。"
+    ],
+    "title": "AgenticBench：对 25 种 AI 编码代理进行 9 项安全测试"
+   }
+  },
+  "hash": "b841a77d2990f67d"
+ },
+ "hn:50262458": {
+  "copy": {
+   "zh": {
+    "blurb": "Search2o 是一个轻量化平台，帮助开发者快速构建、调试和部署 AI 代理，使其搜索和检索功能更易实现。",
+    "points": [
+     "一站式构建 AI 代理的搜索能力",
+     "提供简洁的 API 与示例",
+     "降低开发 AI Agent 的门槛"
+    ],
+    "title": "Search2o：简化 AI Agent 的搜索框架"
+   }
+  },
+  "hash": "4c42f68d2e2995a5"
+ },
+ "hn:50262833": {
+  "copy": {
+   "zh": {
+    "blurb": "SpecOps 为 AI 代理加入思考层，在生成代码前先进行规划和评估，减少错误和低效的代码输出。",
+    "points": [
+     "在代码生成前进行思路规划",
+     "降低 AI 生成代码的错误率",
+     "可集成到现有 AI 编码工作流"
+    ],
+    "title": "SpecOps：让 AI 代理先思考再编码"
+   }
+  },
+  "hash": "7fd19eedcb88825a"
+ },
  "lobsters:05xrj8": {
   "copy": {
    "zh": {
@@ -14055,6 +14468,15 @@
   },
   "hash": "c028b1b0bd9df944"
  },
+ "lobsters:adprro": {
+  "copy": {
+   "zh": {
+    "blurb": "作者比较了 TypeScript 与 Haskell 中的联合类型和单例实现，探讨类型系统的表达力，并提供了跨语言示例代码。",
+    "title": "TypeScript 与 Haskell：联合类型与单例 (2024)"
+   }
+  },
+  "hash": "5b13b1e1138c686d"
+ },
  "lobsters:al3yyf": {
   "copy": {
    "zh": {
@@ -14102,6 +14524,15 @@
    }
   },
   "hash": "da5d13e4d003f6e8"
+ },
+ "lobsters:beiiil": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客展示了如何在 Java 中模拟 Haskell 的类型类机制，实现完整的类型类解析功能，使得 Java 能够像 Haskell 那样进行高度抽象的多态调用。",
+    "title": "在 Java 中实现完整的类 Haskell 风格类型类解析"
+   }
+  },
+  "hash": "a39d30f0d8e0f024"
  },
  "lobsters:bgpsuu": {
   "copy": {
@@ -14184,6 +14615,20 @@
    }
   },
   "hash": "3a56ac620ca92c1e"
+ },
+ "lobsters:cajuq6": {
+  "copy": {
+   "zh": {
+    "blurb": "Python 计划在未来版本中移除实验性的即时编译（JIT）功能，主要因为维护成本高且收益有限，开发者需转向其他性能优化手段。",
+    "points": [
+     "实验性 JIT 将在后续版本中删除",
+     "维护成本高且性能提升有限",
+     "推荐使用 Cython、PyPy 等替代方案"
+    ],
+    "title": "Python 实验性 JIT 将被移除"
+   }
+  },
+  "hash": "ada516c8814e77bf"
  },
  "lobsters:cdnepk": {
   "copy": {
@@ -14350,6 +14795,15 @@
    }
   },
   "hash": "ff58ab2bea3789ef"
+ },
+ "lobsters:d09iy3": {
+  "copy": {
+   "zh": {
+    "blurb": "该资源介绍了在编译阶段使用依赖类型的概念与实现方法，展示了如何通过编译时检查实现更强的类型安全。",
+    "title": "编译时依赖类型"
+   }
+  },
+  "hash": "d1a1f2c693a8c184"
  },
  "lobsters:d0bbhd": {
   "copy": {
@@ -14681,6 +15135,15 @@
    }
   },
   "hash": "9f1878d583cf3e09"
+ },
+ "lobsters:en7rby": {
+  "copy": {
+   "zh": {
+    "blurb": "slughorn 项目利用 GPU 加速渲染矢量图形，提供高性能的绘制 API，适用于实时可视化和交互式 UI 场景。",
+    "title": "slughorn — 基于 GPU 的矢量图形库"
+   }
+  },
+  "hash": "2b1fc82df7de100c"
  },
  "lobsters:enjlpn": {
   "copy": {
@@ -15501,6 +15964,20 @@
   },
   "hash": "df702c7a99830792"
  },
+ "lobsters:kvije8": {
+  "copy": {
+   "zh": {
+    "blurb": "该文章介绍了 ‘Toy Bit Provenance Abstract Domain’，一种用于跟踪位级别数据来源的抽象解释技术，旨在提升程序分析的精度和安全性。",
+    "points": [
+     "抽象域专注于位级别的来源信息（provenance）。",
+     "可用于检测未初始化位使用和潜在的安全漏洞。",
+     "作为 PyPy 项目的一部分，提供实验性实现供研究使用。"
+    ],
+    "title": "Theseus 迁移：玩具位溯源抽象域"
+   }
+  },
+  "hash": "43ed373ab3c5057d"
+ },
  "lobsters:l2l50n": {
   "copy": {
    "zh": {
@@ -15797,6 +16274,15 @@
   },
   "hash": "f26282b42d473cd5"
  },
+ "lobsters:n92yur": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了针对 SwitchBot 智能锁的安全分析与实战攻击，揭示了硬件和协议层面的漏洞，并提供了防御建议。",
+    "title": "无钥匙进入：破解 SwitchBot 智能锁"
+   }
+  },
+  "hash": "ca4541ffa44163de"
+ },
  "lobsters:nb7wkp": {
   "copy": {
    "zh": {
@@ -16028,6 +16514,20 @@
   },
   "hash": "204297d2ba98971d"
  },
+ "lobsters:opqtiv": {
+  "copy": {
+   "zh": {
+    "blurb": "Call Graph Analyzer 通过静态调用图扫描，帮助开发者快速发现可能导致 panic 的代码路径。",
+    "points": [
+     "静态分析调用关系识别潜在 panic",
+     "生成可视化调用图辅助排查",
+     "提升 Go 项目稳定性"
+    ],
+    "title": "使用调用图分析器定位 Go 程序 panic"
+   }
+  },
+  "hash": "e8200d7adaedc485"
+ },
  "lobsters:oq6nhr": {
   "copy": {
    "zh": {
@@ -16215,6 +16715,20 @@
   },
   "hash": "4c779b06db6aa7f4"
  },
+ "lobsters:q7arzy": {
+  "copy": {
+   "zh": {
+    "blurb": "Astral.sh 发布的 tar‑codec 是面向 Rust 的 tar 文件解析库，强调解析速度与安全性，适用于需要可靠压缩包处理的应用。",
+    "points": [
+     "基于 Rust，利用所有权系统防止路径遍历等漏洞。",
+     "采用流式解析实现高吞吐量。",
+     "API 友好，可直接替代标准库的 tar 处理。"
+    ],
+    "title": "Rust 生态的高速安全 tar 解析器"
+   }
+  },
+  "hash": "45186555398578e1"
+ },
  "lobsters:qcjvlw": {
   "copy": {
    "zh": {
@@ -16392,6 +16906,20 @@
    }
   },
   "hash": "2dfefd6241b55341"
+ },
+ "lobsters:rs6ce2": {
+  "copy": {
+   "zh": {
+    "blurb": "Filian 项目及其 Fil‑C 编译的二进制软件已打包进 Debian，方便 Linux 用户直接安装使用。",
+    "points": [
+     "提供官方 Debian 包，简化安装",
+     "支持 Fil‑C 语言的跨平台二进制",
+     "提升社区对 Filian 的可访问性"
+    ],
+    "title": "Filian 与 Fil‑C 二进制在 Debian 上的发布"
+   }
+  },
+  "hash": "72cfc4193cb44e88"
  },
  "lobsters:rtd5gq": {
   "copy": {
@@ -16595,6 +17123,15 @@
    }
   },
   "hash": "5c8656804d1b402f"
+ },
+ "lobsters:tp0zlk": {
+  "copy": {
+   "zh": {
+    "blurb": "该文档介绍了一种2023年的无栈 floodfill 自动化实现，可在不使用递归或显式栈的情况下完成区域填充。",
+    "title": "无栈填充算法自动化（2023）"
+   }
+  },
+  "hash": "fb8b989c0868355a"
  },
  "lobsters:tq5cxv": {
   "copy": {
@@ -17128,6 +17665,20 @@
    }
   },
   "hash": "fa32a7fa200ffb2e"
+ },
+ "lobsters:x1k8vh": {
+  "copy": {
+   "zh": {
+    "blurb": "buf.build 的博客指出，最新的 protobuf 实现已经在 Python 和 TypeScript 环境中提供了完善的类型安全、生成代码性能提升以及跨语言的良好兼容性。",
+    "points": [
+     "新版 protobuf 为 Python 与 TypeScript 提供完整的类型安全。",
+     "生成代码和运行时性能显著提升。",
+     "跨语言生态兼容性改善，便于微服务通信。"
+    ],
+    "title": "Protobuf 在 Python 与 TypeScript 中的全新体验"
+   }
+  },
+  "hash": "a1c9a00cddf38d20"
  },
  "lobsters:x1s5oq": {
   "copy": {
