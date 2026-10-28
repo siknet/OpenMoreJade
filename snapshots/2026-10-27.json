@@ -11310,21 +11310,21 @@
    "category": "tool",
    "key": "hn:50246238",
    "metrics": {
-    "comments": 38,
+    "comments": 42,
     "frontPage": 0,
-    "points": 161
+    "points": 168
    },
    "news": {
     "author": "pancomplex",
-    "comments": 38,
+    "comments": 42,
     "createdAt": "2026-10-26T16:12:29.000Z",
     "domain": "github.com",
     "hnId": 50246238,
     "hnUrl": "https://news.ycombinator.com/item?id=50246238",
-    "points": 161,
-    "showRank": 57
+    "points": 168,
+    "showRank": 6
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T16:12:29.000Z",
    "refs": [
     "gh:frigadehq/hob"
@@ -11351,21 +11351,21 @@
    "category": "release",
    "key": "hn:50246658",
    "metrics": {
-    "comments": 124,
+    "comments": 128,
     "frontPage": 0,
-    "points": 314
+    "points": 326
    },
    "news": {
     "author": "matthieu_bl",
-    "comments": 124,
+    "comments": 128,
     "createdAt": "2026-10-26T16:35:44.000Z",
     "domain": "cohere.com",
     "hnId": 50246658,
     "hnUrl": "https://news.ycombinator.com/item?id=50246658",
-    "points": 314,
-    "showRank": 27
+    "points": 326,
+    "showRank": 23
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T16:35:44.000Z",
    "refs": [
     "url:cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
@@ -11391,21 +11391,21 @@
    "category": "discussion",
    "key": "hn:50247630",
    "metrics": {
-    "comments": 94,
+    "comments": 95,
     "frontPage": 0,
-    "points": 259
+    "points": 262
    },
    "news": {
     "author": "cdrnsf",
-    "comments": 94,
+    "comments": 95,
     "createdAt": "2026-10-26T17:32:16.000Z",
     "domain": "404media.co",
     "hnId": 50247630,
     "hnUrl": "https://news.ycombinator.com/item?id=50247630",
-    "points": 259,
-    "showRank": 37
+    "points": 262,
+    "showRank": 34
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T17:32:16.000Z",
    "refs": [
     "url:404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems"
@@ -11430,21 +11430,21 @@
    "category": "discussion",
    "key": "hn:50248124",
    "metrics": {
-    "comments": 403,
+    "comments": 422,
     "frontPage": 0,
-    "points": 615
+    "points": 628
    },
    "news": {
     "author": "meetpateltech",
-    "comments": 403,
+    "comments": 422,
     "createdAt": "2026-10-26T18:01:17.000Z",
     "domain": "openai.com",
     "hnId": 50248124,
     "hnUrl": "https://news.ycombinator.com/item?id=50248124",
-    "points": 615,
-    "showRank": 7
+    "points": 628,
+    "showRank": 9
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T18:01:17.000Z",
    "refs": [
     "url:openai.com/index/introducing-gpt-6-1-terra"
@@ -11549,21 +11549,21 @@
    "category": "discussion",
    "key": "hn:50251344",
    "metrics": {
-    "comments": 632,
+    "comments": 664,
     "frontPage": 0,
-    "points": 1097
+    "points": 1134
    },
    "news": {
     "author": "jonluca",
-    "comments": 632,
+    "comments": 664,
     "createdAt": "2026-10-26T21:35:28.000Z",
     "domain": "openai.com",
     "hnId": 50251344,
     "hnUrl": "https://news.ycombinator.com/item?id=50251344",
-    "points": 1097,
+    "points": 1134,
     "showRank": 1
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T21:35:28.000Z",
    "refs": [
     "hn:50251661",
@@ -11629,21 +11629,21 @@
    "category": "discussion",
    "key": "hn:50252159",
    "metrics": {
-    "comments": 71,
+    "comments": 78,
     "frontPage": 0,
-    "points": 175
+    "points": 178
    },
    "news": {
     "author": "wondersky",
-    "comments": 71,
+    "comments": 78,
     "createdAt": "2026-10-26T22:41:48.000Z",
     "domain": "blog.cloudflare.com",
     "hnId": 50252159,
     "hnUrl": "https://news.ycombinator.com/item?id=50252159",
-    "points": 175,
-    "showRank": 54
+    "points": 178,
+    "showRank": 49
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T22:41:48.000Z",
    "refs": [
     "url:blog.cloudflare.com/kv-cache-exposure-remediation"
@@ -11670,21 +11670,21 @@
    "category": "discussion",
    "key": "hn:50256985",
    "metrics": {
-    "comments": 242,
+    "comments": 269,
     "frontPage": 0,
-    "points": 422
+    "points": 464
    },
    "news": {
     "author": "choult",
-    "comments": 242,
+    "comments": 269,
     "createdAt": "2026-10-27T10:27:50.000Z",
     "domain": "open3dlab.com",
     "hnId": 50256985,
     "hnUrl": "https://news.ycombinator.com/item?id=50256985",
-    "points": 422,
+    "points": 464,
     "showRank": 17
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T10:27:50.000Z",
    "refs": [
     "url:open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites"
@@ -11708,23 +11708,63 @@
   {
    "board": "news",
    "category": "discussion",
+   "key": "hn:50258868",
+   "metrics": {
+    "comments": 91,
+    "frontPage": 0,
+    "points": 166
+   },
+   "news": {
+    "author": "adrq",
+    "comments": 91,
+    "createdAt": "2026-10-27T13:23:22.000Z",
+    "domain": "blog.adrq.dev",
+    "hnId": 50258868,
+    "hnUrl": "https://news.ycombinator.com/item?id=50258868",
+    "points": 166,
+    "showRank": 53
+   },
+   "observedAt": "2026-10-28T06:50:41.386Z",
+   "publishedAt": "2026-10-27T13:23:22.000Z",
+   "refs": [
+    "url:blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work"
+   ],
+   "relevance": {
+    "reasons": [
+     "weak:agent",
+     "weak:agents",
+     "cat:?"
+    ],
+    "score": 0.4
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Here be monsters: What do you still need to know when agents do the work?",
+   "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
    "key": "hn:50259406",
    "metrics": {
-    "comments": 75,
+    "comments": 102,
     "frontPage": 0,
-    "points": 177
+    "points": 217
    },
    "news": {
     "author": "jonpizza",
-    "comments": 75,
+    "comments": 102,
     "createdAt": "2026-10-27T13:56:15.000Z",
     "domain": "privacy.claude.com",
     "hnId": 50259406,
     "hnUrl": "https://news.ycombinator.com/item?id=50259406",
-    "points": 177,
-    "showRank": 53
+    "points": 217,
+    "showRank": 40
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T13:56:15.000Z",
    "refs": [
     "url:privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"
@@ -11750,21 +11790,21 @@
    "category": "tool",
    "key": "hn:50260571",
    "metrics": {
-    "comments": 1,
+    "comments": 25,
     "frontPage": 0,
-    "points": 14
+    "points": 28
    },
    "news": {
     "author": "hleichsenring",
-    "comments": 1,
+    "comments": 25,
     "createdAt": "2026-10-27T15:12:20.000Z",
     "domain": "spec-first.dev",
     "hnId": 50260571,
     "hnUrl": "https://news.ycombinator.com/item?id=50260571",
-    "points": 14,
-    "showRank": 1
+    "points": 28,
+    "showRank": 4
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T15:12:20.000Z",
    "refs": [
     "url:spec-first.dev"
@@ -11783,6 +11823,46 @@
    "tags": [],
    "title": "Show HN: Specification First Agentic Development Plugin and Prove",
    "url": "https://spec-first.dev/"
+  },
+  {
+   "board": "news",
+   "category": "discussion",
+   "key": "hn:50260814",
+   "metrics": {
+    "comments": 270,
+    "frontPage": 0,
+    "points": 504
+   },
+   "news": {
+    "author": "car",
+    "comments": 270,
+    "createdAt": "2026-10-27T15:28:26.000Z",
+    "domain": "stanforddaily.com",
+    "hnId": 50260814,
+    "hnUrl": "https://news.ycombinator.com/item?id=50260814",
+    "points": 504,
+    "showRank": 13
+   },
+   "observedAt": "2026-10-28T06:50:41.386Z",
+   "publishedAt": "2026-10-27T15:28:26.000Z",
+   "refs": [
+    "url:stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude"
+   ],
+   "relevance": {
+    "reasons": [
+     "kw:anthropic",
+     "kw:claude",
+     "cat:board"
+    ],
+    "score": 0.7
+   },
+   "sources": [
+    "hacker-news"
+   ],
+   "summary": "",
+   "tags": [],
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/"
   },
   {
    "board": "news",
@@ -12611,29 +12691,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jem",
-    "comments": 11,
+    "comments": 19,
     "createdAt": "2026-10-27T13:00:00Z",
     "domain": "dev.to",
     "id": 4923596,
-    "points": 36,
+    "points": 56,
     "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-2h0f"
    },
    "key": "devto:4923596",
    "metrics": {
-    "comments": 11,
+    "comments": 19,
     "frontPage": 0,
-    "points": 36
+    "points": 56
    },
    "news": {
     "author": "Jem",
-    "comments": 11,
+    "comments": 19,
     "createdAt": "2026-10-27T13:00:00Z",
     "domain": "dev.to",
     "hnId": 4923596,
     "hnUrl": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-2h0f",
-    "points": 36
+    "points": 56
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T13:00:00Z",
    "refs": [],
    "relevance": {
@@ -12660,29 +12740,29 @@
    "category": "engineering",
    "devto": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 12,
     "createdAt": "2026-10-26T19:00:30Z",
     "domain": "dev.to",
     "id": 4923705,
-    "points": 53,
+    "points": 61,
     "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho"
    },
    "key": "devto:4923705",
    "metrics": {
-    "comments": 10,
+    "comments": 12,
     "frontPage": 0,
-    "points": 53
+    "points": 61
    },
    "news": {
     "author": "Jem",
-    "comments": 10,
+    "comments": 12,
     "createdAt": "2026-10-26T19:00:30Z",
     "domain": "dev.to",
     "hnId": 4923705,
     "hnUrl": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho",
-    "points": 53
+    "points": 61
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T19:00:30Z",
    "refs": [],
    "relevance": {
@@ -14166,14 +14246,14 @@
     "createdAt": "2026-10-27T09:54:50Z",
     "domain": "dev.to",
     "id": 4927324,
-    "points": 0,
+    "points": 1,
     "url": "https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp"
    },
    "key": "devto:4927324",
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 0
+    "points": 1
    },
    "news": {
     "author": "Esra Kadah",
@@ -14182,9 +14262,9 @@
     "domain": "dev.to",
     "hnId": 4927324,
     "hnUrl": "https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp",
-    "points": 0
+    "points": 1
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T09:54:50Z",
    "refs": [],
    "relevance": {
@@ -14808,7 +14888,7 @@
     "hnUrl": "https://lobste.rs/s/1h5kuj/pharo_14_released",
     "points": 26
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T12:47:50.928-05:00",
    "refs": [],
    "relevance": {
@@ -14839,14 +14919,14 @@
     "comments": 0,
     "createdAt": "2026-10-27T06:33:23.869-05:00",
     "domain": "alfy.blog",
-    "points": 3,
+    "points": 12,
     "shortId": "3mnrlw",
     "url": "https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 3
+    "points": 12
    },
    "news": {
     "author": "abhin4v",
@@ -14855,9 +14935,9 @@
     "domain": "alfy.blog",
     "hnId": 219458948,
     "hnUrl": "https://lobste.rs/s/3mnrlw/select_should_tell_you_something",
-    "points": 3
+    "points": 12
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T06:33:23.869-05:00",
    "refs": [],
    "relevance": {
@@ -14888,14 +14968,14 @@
     "comments": 2,
     "createdAt": "2026-10-26T12:55:19.365-05:00",
     "domain": "css-tricks.com",
-    "points": 95,
+    "points": 112,
     "shortId": "6ntoqr",
     "url": "https://css-tricks.com/css-tricks-has-a-new-owner/"
    },
    "metrics": {
     "comments": 2,
     "frontPage": 0,
-    "points": 95
+    "points": 112
    },
    "news": {
     "author": "seb",
@@ -14904,9 +14984,9 @@
     "domain": "css-tricks.com",
     "hnId": 402813315,
     "hnUrl": "https://lobste.rs/s/6ntoqr/css_tricks_has_new_owner",
-    "points": 95
+    "points": 112
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T12:55:19.365-05:00",
    "refs": [],
    "relevance": {
@@ -14987,14 +15067,14 @@
     "comments": 1,
     "createdAt": "2026-10-27T05:11:53.368-05:00",
     "domain": "garciat.com",
-    "points": 7,
+    "points": 12,
     "shortId": "beiiil",
     "url": "https://garciat.com/posts/java-type-classes/"
    },
    "metrics": {
     "comments": 1,
     "frontPage": 0,
-    "points": 7
+    "points": 12
    },
    "news": {
     "author": "abhin4v",
@@ -15003,9 +15083,9 @@
     "domain": "garciat.com",
     "hnId": 689506365,
     "hnUrl": "https://lobste.rs/s/beiiil/full_haskell_like_type_class_resolution",
-    "points": 7
+    "points": 12
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T05:11:53.368-05:00",
    "refs": [],
    "relevance": {
@@ -15038,14 +15118,14 @@
     "comments": 2,
     "createdAt": "2026-10-26T16:24:44.071-05:00",
     "domain": "gforth.org",
-    "points": 12,
+    "points": 17,
     "shortId": "bgpsuu",
     "url": "https://gforth.org/manual/1.0/NEWS.html"
    },
    "metrics": {
     "comments": 2,
     "frontPage": 0,
-    "points": 12
+    "points": 17
    },
    "news": {
     "author": "fanf",
@@ -15054,9 +15134,9 @@
     "domain": "gforth.org",
     "hnId": 693205590,
     "hnUrl": "https://lobste.rs/s/bgpsuu/gforth_1_0",
-    "points": 12
+    "points": 17
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T16:24:44.071-05:00",
    "refs": [],
    "relevance": {
@@ -15133,28 +15213,28 @@
    "key": "lobsters:cajuq6",
    "lobsters": {
     "author": "val",
-    "comments": 11,
+    "comments": 20,
     "createdAt": "2026-10-27T01:20:38.106-05:00",
     "domain": "lwn.net",
-    "points": 67,
+    "points": 88,
     "shortId": "cajuq6",
     "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"
    },
    "metrics": {
-    "comments": 11,
+    "comments": 20,
     "frontPage": 0,
-    "points": 67
+    "points": 88
    },
    "news": {
     "author": "val",
-    "comments": 11,
+    "comments": 20,
     "createdAt": "2026-10-27T01:20:38.106-05:00",
     "domain": "lwn.net",
     "hnId": 743316558,
     "hnUrl": "https://lobste.rs/s/cajuq6/python_s_experimental_jit_be_removed",
-    "points": 67
+    "points": 88
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T01:20:38.106-05:00",
    "refs": [],
    "relevance": {
@@ -15182,28 +15262,28 @@
    "key": "lobsters:cxdpiu",
    "lobsters": {
     "author": "cgrinds",
-    "comments": 6,
+    "comments": 8,
     "createdAt": "2026-10-26T19:31:44.980-05:00",
     "domain": "go.dev",
-    "points": 16,
+    "points": 21,
     "shortId": "cxdpiu",
     "url": "https://go.dev/blog/emudhra-incident"
    },
    "metrics": {
-    "comments": 6,
+    "comments": 8,
     "frontPage": 0,
-    "points": 16
+    "points": 21
    },
    "news": {
     "author": "cgrinds",
-    "comments": 6,
+    "comments": 8,
     "createdAt": "2026-10-26T19:31:44.980-05:00",
     "domain": "go.dev",
     "hnId": 781661046,
     "hnUrl": "https://lobste.rs/s/cxdpiu/our_response_emudhra_key_disclosure",
-    "points": 16
+    "points": 21
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T19:31:44.980-05:00",
    "refs": [],
    "relevance": {
@@ -15231,28 +15311,28 @@
    "key": "lobsters:cxxcik",
    "lobsters": {
     "author": "Sean-Der",
-    "comments": 31,
+    "comments": 32,
     "createdAt": "2026-10-26T19:12:16.704-05:00",
     "domain": "shittyscreenshare.com",
-    "points": 62,
+    "points": 75,
     "shortId": "cxxcik",
     "url": "http://shittyscreenshare.com"
    },
    "metrics": {
-    "comments": 31,
+    "comments": 32,
     "frontPage": 0,
-    "points": 62
+    "points": 75
    },
    "news": {
     "author": "Sean-Der",
-    "comments": 31,
+    "comments": 32,
     "createdAt": "2026-10-26T19:12:16.704-05:00",
     "domain": "shittyscreenshare.com",
     "hnId": 782577308,
     "hnUrl": "https://lobste.rs/s/cxxcik/shitty_screenshare",
-    "points": 62
+    "points": 75
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T19:12:16.704-05:00",
    "refs": [],
    "relevance": {
@@ -15281,28 +15361,28 @@
    "key": "lobsters:d09iy3",
    "lobsters": {
     "author": "polywolf",
-    "comments": 0,
+    "comments": 9,
     "createdAt": "2026-10-27T09:40:12.552-05:00",
     "domain": "thenumb.at",
-    "points": 8,
+    "points": 24,
     "shortId": "d09iy3",
     "url": "https://thenumb.at/Syl-Intro/"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 9,
     "frontPage": 0,
-    "points": 8
+    "points": 24
    },
    "news": {
     "author": "polywolf",
-    "comments": 0,
+    "comments": 9,
     "createdAt": "2026-10-27T09:40:12.552-05:00",
     "domain": "thenumb.at",
     "hnId": 786504747,
     "hnUrl": "https://lobste.rs/s/d09iy3/compile_time_dependent_types",
-    "points": 8
+    "points": 24
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T09:40:12.552-05:00",
    "refs": [],
    "relevance": {
@@ -15580,28 +15660,28 @@
    "key": "lobsters:o5to4p",
    "lobsters": {
     "author": "benjoffe",
-    "comments": 5,
+    "comments": 7,
     "createdAt": "2026-10-26T13:44:53.194-05:00",
     "domain": "benjoffe.com",
-    "points": 39,
+    "points": 46,
     "shortId": "o5to4p",
     "url": "https://www.benjoffe.com/fast-floordiv"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 7,
     "frontPage": 0,
-    "points": 39
+    "points": 46
    },
    "news": {
     "author": "benjoffe",
-    "comments": 5,
+    "comments": 7,
     "createdAt": "2026-10-26T13:44:53.194-05:00",
     "domain": "benjoffe.com",
     "hnId": 1460970601,
     "hnUrl": "https://lobste.rs/s/o5to4p/faster_way_compute_signed_64_bit_floor",
-    "points": 39
+    "points": 46
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T13:44:53.194-05:00",
    "refs": [],
    "relevance": {
@@ -15630,28 +15710,28 @@
    "key": "lobsters:pq6ju6",
    "lobsters": {
     "author": "mitsuhiko",
-    "comments": 16,
+    "comments": 28,
     "createdAt": "2026-10-26T19:39:50.510-05:00",
     "domain": "files.mathhelm.org",
-    "points": 42,
+    "points": 52,
     "shortId": "pq6ju6",
     "url": "https://files.mathhelm.org/files/733/The-Exponential-Time-Hypothesis-is-False-October-25-2026.pdf"
    },
    "metrics": {
-    "comments": 16,
+    "comments": 28,
     "frontPage": 0,
-    "points": 42
+    "points": 52
    },
    "news": {
     "author": "mitsuhiko",
-    "comments": 16,
+    "comments": 28,
     "createdAt": "2026-10-26T19:39:50.510-05:00",
     "domain": "files.mathhelm.org",
     "hnId": 1555630062,
     "hnUrl": "https://lobste.rs/s/pq6ju6/exponential_time_hypothesis_is_false_pdf",
-    "points": 42
+    "points": 52
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T19:39:50.510-05:00",
    "refs": [
     "gh:openai/math"
@@ -15733,28 +15813,28 @@
    "key": "lobsters:rwubks",
    "lobsters": {
     "author": "technetium",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-26T14:49:43.492-05:00",
     "domain": "blog.enlyth.com",
-    "points": 59,
+    "points": 72,
     "shortId": "rwubks",
     "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/"
    },
    "metrics": {
-    "comments": 10,
+    "comments": 11,
     "frontPage": 0,
-    "points": 59
+    "points": 72
    },
    "news": {
     "author": "technetium",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-26T14:49:43.492-05:00",
     "domain": "blog.enlyth.com",
     "hnId": 1687749148,
     "hnUrl": "https://lobste.rs/s/rwubks/oldest_gui_application_still_runs_on",
-    "points": 59
+    "points": 72
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-26T14:49:43.492-05:00",
    "refs": [],
    "relevance": {
@@ -15783,28 +15863,28 @@
    "key": "lobsters:tp0zlk",
    "lobsters": {
     "author": "pushcx",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-27T09:56:00.214-05:00",
     "domain": "t3x.org",
-    "points": 8,
+    "points": 24,
     "shortId": "tp0zlk",
     "url": "https://t3x.org/files/floodfill.pdf"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 2,
     "frontPage": 0,
-    "points": 8
+    "points": 24
    },
    "news": {
     "author": "pushcx",
-    "comments": 1,
+    "comments": 2,
     "createdAt": "2026-10-27T09:56:00.214-05:00",
     "domain": "t3x.org",
     "hnId": 1795555640,
     "hnUrl": "https://lobste.rs/s/tp0zlk/stackless_floodfill_automation_2023",
-    "points": 8
+    "points": 24
    },
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "publishedAt": "2026-10-27T09:56:00.214-05:00",
    "refs": [],
    "relevance": {
@@ -15879,60 +15959,67 @@
   }
  ],
  "date": "2026-10-27",
- "fetchedAt": "2026-10-27T17:59:16.356Z",
+ "fetchedAt": "2026-10-28T06:50:41.386Z",
  "runs": [
   "2026-10-26T18:41:01.183Z",
   "2026-10-27T06:15:26.926Z",
-  "2026-10-27T17:59:16.356Z"
+  "2026-10-27T17:59:16.356Z",
+  "2026-10-28T06:50:41.386Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 59,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "dev-to",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 319,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "count": 321,
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "github-search",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "repos",
    "count": 173,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "github-trending",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 75,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "count": 74,
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
    "count": 97,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "lobsters",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15940,15 +16027,16 @@
   {
    "board": "social",
    "count": 1,
-   "fetchedAt": "2026-10-27T17:59:16.356Z",
+   "fetchedAt": "2026-10-28T06:50:41.386Z",
    "id": "x-linked",
    "mode": "syndication",
+   "settledAt": "2026-10-28T06:50:41.386Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-26T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-27T16:00:00.000Z"
  }

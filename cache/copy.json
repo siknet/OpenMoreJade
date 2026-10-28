@@ -7027,6 +7027,15 @@
   },
   "hash": "8954444c720d038d"
  },
+ "devto:4927324": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分享了在使用 Google Genkit Dart 构建的 AI 代理时出现的异常：在确认订单后，代理失去了对其工具的记忆，导致后续操作失败，提示在工具管理和上下文保持上仍有改进空间。",
+    "title": "我批准了订单，却发现我的 Genkit Dart 代理忘记了自己的工具"
+   }
+  },
+  "hash": "6c8c3b477167ab4a"
+ },
  "devto:4928308": {
   "copy": {
    "zh": {
@@ -7243,6 +7252,98 @@
    }
   },
   "hash": "7dd9956c293737b5"
+ },
+ "devto:4930179": {
+  "copy": {
+   "zh": {
+    "blurb": "作者分析了 2026 年各类 GitHub Actions Runner 的定价，计算出运行十万分钟的最低成本，帮助开发者优化 CI 费用。",
+    "points": [
+     "比较不同供应商的 Runner 价格",
+     "给出 100,000 分钟的实际花费",
+     "提供成本优化建议"
+    ],
+    "title": "2026 年最便宜的 GitHub Actions Runner：100,000 分钟费用揭秘"
+   }
+  },
+  "hash": "d977dc99795c186c"
+ },
+ "devto:4930339": {
+  "copy": {
+   "zh": {
+    "blurb": "本文回顾 Maestro 的工作原理，并将其与 Appium、XCUITest、Detox 等工具进行比较，展示在 CI 环境下对 SwiftUI 应用的完整测试流程。",
+    "points": [
+     "提供与 Appium、XCUITest、Detox 的功能对比",
+     "展示在 CI 中使用 Maestro 进行 UI 自动化的完整示例",
+     "支持 SwiftUI 特有的视图层级和状态检查"
+    ],
+    "title": "Maestro 深度解析：SwiftUI 应用端到端测试"
+   }
+  },
+  "hash": "a8da376a351ddcda"
+ },
+ "devto:4930855": {
+  "copy": {
+   "zh": {
+    "blurb": "Linterna 项目参加 Hacktoberfest 开源 AI 挑战赛第 4 周，旨在构建一个能够在长期记忆中检索并合成语音的系统，使 AI 在回顾历史对话时能够以自然语音形式呈现关键信息。",
+    "title": "Linterna：让记忆背后的声音保持可闻"
+   }
+  },
+  "hash": "2b1ccfe1c8759c6a"
+ },
+ "devto:4930869": {
+  "copy": {
+   "zh": {
+    "blurb": "GeoLetter 是 Hacktoberfest 开源 AI 挑战的项目，允许用户在特定地理位置留下文字信息，服务器端的 Gemma 模型会先行读取并呈现，保持数据不离服务器。",
+    "title": "GeoLetter：在现场留下信件，由服务器上的 Gemma 首先读取"
+   }
+  },
+  "hash": "89a2e686c0bd691b"
+ },
+ "devto:4931753": {
+  "copy": {
+   "zh": {
+    "blurb": "本文提供完整的 IoT 开发示例，使用 Docker 运行 FastBee 开源版，实现 ESP32/ESP8266 的 MQTT 连接、容器化部署以及远程设备控制。",
+    "points": [
+     "一步步配置 FastBee Open Source Edition 的 Docker 环境",
+     "演示通过 MQTT 实现设备的实时数据传输与远程指令",
+     "覆盖 ESP32 与 ESP8266 两款芯片的通用设置"
+    ],
+    "title": "ESP32/ESP8266 MQTT 教程：Docker 部署与远程控制"
+   }
+  },
+  "hash": "c62637bd3784948e"
+ },
+ "devto:4931869": {
+  "copy": {
+   "zh": {
+    "blurb": "pgbrake 为使用 Claude Code 或 Codex 等 AI 代理操作 PostgreSQL 的开发者提供事务级撤销功能，类似‘撤销按钮’，可在出现错误时快速回滚数据库更改。",
+    "title": "pgbrake：为 AI 驱动的 PostgreSQL 提供撤销按钮"
+   }
+  },
+  "hash": "2b6192850b9d3177"
+ },
+ "devto:4932281": {
+  "copy": {
+   "zh": {
+    "blurb": "本文批评传统的静态系统设计图忽略了运行时行为，作者用 Web 技术实现了一个 60 FPS 的分布式系统可视化模拟器，能够在浏览器实时演示节点交互、网络延迟和故障恢复。",
+    "points": [
+     "静态图只能展示结构，无法呈现动态时序和故障演化。",
+     "利用 WebGL 与 Canvas，实现浏览器端 60 FPS 实时渲染，大幅提升交互体验。",
+     "通过可交互的模拟器，让架构评审更直观，帮助团队发现潜在瓶颈。"
+    ],
+    "title": "为什么静态系统设计图会误导——以及我如何在浏览器中实现 60 FPS 分布式系统模拟器"
+   }
+  },
+  "hash": "9542475797a6047c"
+ },
+ "devto:4932366": {
+  "copy": {
+   "zh": {
+    "blurb": "本文分享三份用于约束 AI 编码代理的文档模板，并提供免费下载和 Claude Code 技能示例，帮助单人研发团队保持代码质量和可审计性。",
+    "title": "三份保持 AI 编码代理诚实的文档（免费模板 + Claude Code 技能）"
+   }
+  },
+  "hash": "ae4b316f1fb4b718"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -8396,6 +8497,20 @@
   },
   "hash": "e365f25db867a227"
  },
+ "gh:jub0t/concat": {
+  "copy": {
+   "zh": {
+    "blurb": "完全免费、开源、以本地优先设计的跨平台视频编辑器，可通过 JSON‑RPC API 与 MCP 脚本化，实现高度可定制的编辑工作流。",
+    "points": [
+     "离线运行，无需上传至云端，保障隐私和带宽",
+     "Rust 实现，跨 Windows、macOS、Linux 性能一致",
+     "提供 JSON‑RPC 与 MCP 接口，支持自动化批处理"
+    ],
+    "title": "Concat：本地化、跨平台的开源 CapCut 替代品"
+   }
+  },
+  "hash": "42b7fbf7020a4370"
+ },
  "gh:juliusbrussee/caveman": {
   "copy": {
    "zh": {
@@ -8943,8 +9058,13 @@
  "gh:obra/superpowers": {
   "copy": {
    "zh": {
-    "blurb": "Superpowers 是一个面向智能体的技能框架，提供配套的软件开发方法论，帮助开发者构建可组合、可复用的 agent 能力，实现更高效的系统构建。",
-    "title": "obra/superpowers：可行的 Agentic 技能框架与开发方法"
+    "blurb": "Superpowers 是一个面向 AI 代理的技能框架，提供模块化的能力定义与组合方法，帮助开发者构建可复用的智能软件开发流水线。",
+    "points": [
+     "通过技能模块化实现 AI 代理的可组合能力",
+     "提供完整的开发流程示例，支持持续集成",
+     "开源社区活跃，已获 30 万+ 星标"
+    ],
+    "title": "obra/superpowers：代理技能框架与软件开发方法论"
    }
   },
   "hash": "a736f818971918c7"
@@ -9729,16 +9849,16 @@
  "gh:zagitta/gpu-unlock": {
   "copy": {
    "zh": {
-    "blurb": "Zagitta 开源的 gpu-unlock 项目通过修改驱动和内核参数，使 RTX 3000 系列显卡的 FP16/BF16 发射率提升至专业卡水平，从而在深度学习工作负载下获得更高吞吐。",
+    "blurb": "针对 20/30/40 系列 GeForce 显卡的开源补丁，解除 AI 计算半速限制，实现 FP16、BF16、TF32 张量吞吐量提升至两倍。",
     "points": [
-     "自动检测并开启隐藏的指令调度路径。",
-     "支持 FP16 与 BF16 双精度加速，无需额外硬件。",
-     "已在主流深度学习框架中验证性能提升约 20%。"
+     "通过驱动补丁解除显卡在 AI 工作负载下的限速",
+     "支持 FP16、BF16、TF32 等张量精度，提升至 2× 吞吐",
+     "兼容多代显卡，安装简便，适合本地 AI 训练推理"
     ],
-    "title": "gpu-unlock：解锁 Nvidia 3000 系列 FP/BF16 指令速率"
+    "title": "gpu-unlock：提升 GeForce AI 计算速度的工具"
    }
   },
-  "hash": "b473e4bf7a625f7d"
+  "hash": "94f374ce29450c5b"
  },
  "gh:zai-org/zcode": {
   "copy": {
@@ -13531,6 +13651,20 @@
   },
   "hash": "358649a918faa522"
  },
+ "hn:50258868": {
+  "copy": {
+   "zh": {
+    "blurb": "Adrien Q. 的博客探讨了在使用 AI 代理自动化工作时仍需关注的风险、可解释性和监督机制。",
+    "points": [
+     "代理自主决策的潜在风险",
+     "可解释性与人类监督的重要性",
+     "部署前的安全评估需求"
+    ],
+    "title": "当代理执行任务时，你仍需了解的要点"
+   }
+  },
+  "hash": "5d6e05f38408bdb1"
+ },
  "hn:50259406": {
   "copy": {
    "zh": {
@@ -13558,6 +13692,20 @@
    }
   },
   "hash": "9c5092db7eb885b7"
+ },
+ "hn:50260814": {
+  "copy": {
+   "zh": {
+    "blurb": "斯坦福日报报道，Anthropic 被指在未经授权的情况下使用斯坦福教授的书籍数据来训练其大型语言模型 Claude，引发伦理与版权争议。",
+    "points": [
+     "使用未经授权的学术书籍进行模型训练",
+     "引发版权与伦理讨论",
+     "可能影响 Claude 的公众形象"
+    ],
+    "title": "Anthropic 因使用斯坦福教授书籍训练 Claude 引发争议"
+   }
+  },
+  "hash": "71ee1627fc7ce110"
  },
  "hn:50260969": {
   "copy": {
@@ -13642,6 +13790,48 @@
    }
   },
   "hash": "7fd19eedcb88825a"
+ },
+ "hn:50264853": {
+  "copy": {
+   "zh": {
+    "blurb": "Survival LLM 提供可在个人电脑离线运行的语言模型助手，并附带紧急情况下的文档库，适用于无网络环境。",
+    "points": [
+     "完全本地运行，无需云服务",
+     "集成紧急文档库供离线查询",
+     "轻量化模型适配普通 PC"
+    ],
+    "title": "Survival LLM：本地运行的 AI 助手与应急知识库"
+   }
+  },
+  "hash": "17ecd188b3bb6d75"
+ },
+ "hn:50265609": {
+  "copy": {
+   "zh": {
+    "blurb": "Anthropic 生命科学团队近期与六家医药公司合作，探索 Claude 在药物发现中的辅助作用，涵盖文献检索、假设生成等环节，并计划进一步扩展此工作。",
+    "points": [
+     "与 BigHat Biosciences、Bristol Myers Squibb 等六家机构开展深度合作",
+     "Claude 能加速文献综述、靶点识别等药物研发关键步骤",
+     "团队将继续改进 Claude，以实现医学领域更大潜能"
+    ],
+    "title": "Claude 加速药物研发的早期进展"
+   }
+  },
+  "hash": "7f46c4afe2a29445"
+ },
+ "hn:50265699": {
+  "copy": {
+   "zh": {
+    "blurb": "一个开源工具，将 Anthropic 的 Claude 与 OpenAI 的 Codex 结合，在单一 UI 画布中实现实时协同写代码，适用于交互式编码与教学。",
+    "points": [
+     "Claude 负责将自然语言指令转化为代码草稿",
+     "Codex 提供代码补全与即时执行反馈",
+     "统一画布 UI 支持多人同步编辑与审阅"
+    ],
+    "title": "CleanCode：Claude 与 Codex 在同一画布上协同编程"
+   }
+  },
+  "hash": "ccdcde28954553a6"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -13835,6 +14025,15 @@
    }
   },
   "hash": "af91a673c02eb744"
+ },
+ "lobsters:3mnrlw": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 Lobsters 贴子讨论了 HTML select 或 SQL SELECT 语句的设计原则，强调选择控件的标签、默认值和可访问性应当向用户明确传递意图与约束。",
+    "title": "Select 元素应当传递信息"
+   }
+  },
+  "hash": "5e93145ac07f5741"
  },
  "lobsters:42zgmq": {
   "copy": {
@@ -14158,6 +14357,15 @@
   },
   "hash": "752bd391945fe7ef"
  },
+ "lobsters:7bbzjf": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 1992 年的经典安全论文记录了作者如何引诱并分析当时著名的破解程序 Berferd，揭示其攻击手法和漏洞利用策略，对后续的恶意软件研究具有重要参考价值。",
+    "title": "与 Berferd 的夜晚：诱捕、折磨与研究（1992）"
+   }
+  },
+  "hash": "2642aaca294502e8"
+ },
  "lobsters:7byfjv": {
   "copy": {
    "zh": {
@@ -14248,6 +14456,20 @@
    }
   },
   "hash": "54217b3d459a77df"
+ },
+ "lobsters:87iesc": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 社区提醒纽约线下聚会时间与地点，提供到达方式、餐饮信息，并说明可自行调节到达时间。",
+    "points": [
+     "地点靠近 Canal St 地铁站，步行即可到达",
+     "现场提供餐饮和饮料，适合社交交流",
+     "如有时间或地点变动，将实时在帖子更新"
+    ],
+    "title": "提醒：Lobsters NYC 聚会明天下午5:30 于 Walker's"
+   }
+  },
+  "hash": "bba1bd445b3e26b2"
  },
  "lobsters:8ejwsp": {
   "copy": {
@@ -14667,6 +14889,20 @@
   },
   "hash": "c58490e7e6a550f3"
  },
+ "lobsters:cpaibp": {
+  "copy": {
+   "zh": {
+    "blurb": "Netmeister 博客批评当前 DDoS 防御方式成本高、扩展性差，提出基于主动挑战的更可持续防御思路，呼吁社区共享防御经验。",
+    "points": [
+     "传统流量清洗费用昂贵且难以随攻击规模弹性扩展",
+     "作者主张使用主动挑战验证合法流量，降低资源消耗",
+     "倡议行业共享防御策略以提升整体抗 DDoS 能力"
+    ],
+    "title": "这不可持续：DDoS 防御现状分析"
+   }
+  },
+  "hash": "310b6dea7d08962b"
+ },
  "lobsters:cq7wn7": {
   "copy": {
    "zh": {
@@ -14799,7 +15035,12 @@
  "lobsters:d09iy3": {
   "copy": {
    "zh": {
-    "blurb": "该资源介绍了在编译阶段使用依赖类型的概念与实现方法，展示了如何通过编译时检查实现更强的类型安全。",
+    "blurb": "该文章介绍了一种在编译阶段利用依赖类型的技术，旨在提升代码的安全性和表达能力。",
+    "points": [
+     "在编译期进行类型约束检查",
+     "提高程序的正确性保证",
+     "示例实现可在函数式语言中使用"
+    ],
     "title": "编译时依赖类型"
    }
   },
@@ -15204,6 +15445,15 @@
    }
   },
   "hash": "501952c964747f7c"
+ },
+ "lobsters:f3jpq3": {
+  "copy": {
+   "zh": {
+    "blurb": "Gentoo 博客作者探讨了当前软件供应链安全面临的新挑战，指出在持续集成与自动化部署环境中，漏洞传播速度加快，呼吁社区加强审计与防护措施。",
+    "title": "安全地狱的下一环"
+   }
+  },
+  "hash": "403431e5da40cd2e"
  },
  "lobsters:famrid": {
   "copy": {
@@ -16482,6 +16732,20 @@
   },
   "hash": "202d34c5cbc964e2"
  },
+ "lobsters:o6vpqb": {
+  "copy": {
+   "zh": {
+    "blurb": "Ghostty 1.4.0 版本更新，包含多项功能改进与错误修复，提升静态站点生成与主题自定义的体验。",
+    "points": [
+     "新增主题配置灵活性和构建速度优化",
+     "修复已知的渲染错误并改进插件兼容性",
+     "提供更完善的文档和升级指南"
+    ],
+    "title": "Ghostty 1.4.0 发布"
+   }
+  },
+  "hash": "a285a5d07f948574"
+ },
  "lobsters:oeehgs": {
   "copy": {
    "zh": {
@@ -16738,6 +17002,20 @@
   },
   "hash": "4e89095c16298a10"
  },
+ "lobsters:qd0hc9": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Twitch 直播中，作者使用 Pidgin 项目现场创作并发布 1,447 个自定义 emoji，展示了实时渲染与批量生成的工作流。",
+    "points": [
+     "利用 Pidgin 的批量生成脚本一次性生成上千表情",
+     "直播演示从设计到发布的完整流程",
+     "展示了 emoji 资源在聊天平台的即时部署"
+    ],
+    "title": "实时生成 1,447 个表情符号"
+   }
+  },
+  "hash": "1eb45ae60c71ed1a"
+ },
  "lobsters:qflytl": {
   "copy": {
    "zh": {
@@ -16781,6 +17059,20 @@
    }
   },
   "hash": "56fd862aeb9d67b2"
+ },
+ "lobsters:qr59sa": {
+  "copy": {
+   "zh": {
+    "blurb": "本文回顾作者使用 Zig 语言四个月的经验，讨论其在系统编程中的优势与挑战。",
+    "points": [
+     "Zig 的安全与简洁特性",
+     "在项目中的实际应用案例",
+     "遇到的性能与生态限制"
+    ],
+    "title": "四个月的 Zig 之旅"
+   }
+  },
+  "hash": "c65e4f705d2c442d"
  },
  "lobsters:qsmmke": {
   "copy": {
@@ -16920,6 +17212,20 @@
    }
   },
   "hash": "72cfc4193cb44e88"
+ },
+ "lobsters:rswyzt": {
+  "copy": {
+   "zh": {
+    "blurb": "Google Project Zero 对比传统模糊测试工具 Fuzzilli 与 AI 生成模型 BigSleep，在 JavaScript 引擎上生成测试用例的效率与覆盖率表现。",
+    "points": [
+     "Fuzzilli 通过随机指令序列发现底层内存错误",
+     "BigSleep 利用生成模型产生更具语义的高质量用例",
+     "实验显示两者在覆盖率和漏洞发现上互为补充"
+    ],
+    "title": "模糊测试 vs AI：Fuzzilli 与 BigSleep 在 JavaScript 引擎上的对比"
+   }
+  },
+  "hash": "03e1e0a731de8011"
  },
  "lobsters:rtd5gq": {
   "copy": {

@@ -1009,7 +1009,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-22T06:06:34.401Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -1021,7 +1021,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-20T22:04:30.000Z",
+    "sourceUpdatedAt": "2026-10-28T06:03:44.000Z",
     "summary": {
      "en": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
      "zh": "taste-skill 为代码生成代理添加艺术指导、参考图片和浏览器检查等‘品味’技能，使用 JavaScript 实现，可直接在 GitHub 下载，提升生成代码的上下文感知和质量。"
@@ -1227,7 +1227,7 @@
    "sourceKey": "gh:mudler/localai"
   },
   "discovery:gh:nightly-labs/openbot": {
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:nightly-labs/openbot",
@@ -1262,7 +1262,7 @@
    "sourceKey": "gh:nightly-labs/openbot"
   },
   "discovery:gh:nvidia/auto-ontology": {
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:nvidia/auto-ontology",
@@ -1296,7 +1296,7 @@
    "sourceKey": "gh:nvidia/auto-ontology"
   },
   "discovery:gh:panniantong/agent-reach": {
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:panniantong/agent-reach",
@@ -2098,7 +2098,7 @@
    "sourceKey": "hn:50237813"
   },
   "discovery:hn:50246238": {
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50246238",
@@ -2131,7 +2131,7 @@
    "sourceKey": "hn:50246238"
   },
   "discovery:hn:50260969": {
-   "observedAt": "2026-10-27T17:59:16.356Z",
+   "observedAt": "2026-10-28T06:50:41.386Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:hn:50260969",
