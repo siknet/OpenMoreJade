@@ -338,16 +338,31 @@
   "brief": {
    "zh": {
     "bullets": [
-     "多个开源项目推出即用即插的 AI Agent 方案，如 NVIDIA 的 Auto Ontology、makecindy 的 Cindy、Obra 的 Superpowers 等，强化语义推理、自动化开发和可解释性。 [repos#1] [repos#2] [repos#5]",
-     "在 Hugging Face 上，DeepSeek‑V4.1‑Flash（图文到文本）以及 Qwen3.8‑27B 和 Lightricks LTX‑2.5 等模型获得高分，彰显多模态生成能力的快速提升。 [hf#1] [hf#5] [hf#4]",
-     "Hacker News 报道 Survival LLM 提供离线 AI 助手与紧急库，AgenticBench 对 25 种代码生成 Agent 进行 9 项安全测试，凸显本地部署与安全评估的重要性。 [news#2] [news#8]",
-     "Anthropic 的 Claude 被用于加速药物研发，团队与多家机构合作，展示大模型在生命科学研发中的实际价值。 [news#3]",
-     "多篇 Show HN 项目聚焦代码生成的思考与协作：CleanCode 将 Claude Code 与 Codex 同画布编辑，Search2o 简化 Agent 调用，Aigent‑OS 实现 Claude Code 的自动恢复与续写。 [news#4] [news#5] [news#6]"
+     "Nasiko提供开放式运行时，配合RocketRide的高性能C++管道，引入多模型、多向量数据库和代理编排，帮助开发者快速搭建可扩展的AI代理系统。[repos#1][repos#3]",
+     "AiSOC推出免API钥匙的开源安全运营中心，融合告警、LLM代理分流、MITRE ATT&CK 调查，并记录每一步决策，为自托管代理提供全链路安全保障。[repos#2]",
+     "Expo/skills、Superpowers框架以及Humanizer等项目丰富了代理的技能库，分别支持Expo项目、软件开发方法论和去除AI生成痕迹，推动代理功能多样化。[repos#7][repos#9][repos#10]",
+     "多篇Show HN项目展示了让代理在代码前思考、简化AI代理交互的工具（Search2o）以及针对25个编码代理的安全基准AgenticBench，凸显社区对安全与可解释性的关注。[news#4][news#7][news#9]",
+     "Ebony‑Vinyl的免费模型插件在dsh中直接接入DeepSeek V4.1 Flash、Kimi K3等前沿模型，无需登录或API钥匙，配合Zagitta的GPU‑unlock提升本地推理吞吐，推动离线代理部署。[repos#6][repos#8]"
     ],
-    "headline": "开源 AI Agent 与本地多模态模型快速发展，安全与可解释性受关注"
+    "headline": "开源AI代理生态快速扩张：工具链、运行时与安全测试齐头并进"
    }
   },
-  "hash": "df0cdc60025ced7a"
+  "hash": "db2ade7e9b098329"
+ },
+ "2026-10-29": {
+  "brief": {
+   "zh": {
+    "bullets": [
+     "Open-source AI agents proliferate: Makecindy (open‑box agent) [repos#1], OpenBot enabling autonomous coworkers with browsers/tools [repos#2], OpenPencil introducing concurrent Agent Teams for design‑as‑code [repos#3], plus curated Chinese…",
+     "Multimodal model breakthroughs dominate Hugging Face: DeepSeek‑V4.1‑Flash‑1017 (image‑text) [hf#1], Qwen3.8‑27B (image‑text) [hf#5], MiniMax‑M3.1‑Flash (image‑text) [hf#9], Lightricks LTX‑2.5 (image‑to‑video) [hf#3], Flux‑3 image‑to‑image…",
+     "Google unveils Gemini 4 Carbon, its strongest model emphasizing state‑of‑the‑art cybersecurity and long‑term reasoning capabilities [news#1].",
+     "Security‑focused tooling emerges: Anthropic’s sandbox‑runtime enforces OS‑level file‑network restrictions without containers [repos#5]; community warns against uploading sensitive files to cloud converters [devto#1]; GitHub now embeds GPS…",
+     "AI‑enhanced code intelligence and retrieval tools rise: Repowise provides code health scores and architecture insights [repos#4]; RAGFlow merges retrieval‑augmented generation with agents for superior context layers [repos#9]; worldmonitor…"
+    ],
+    "headline": "开源AI代理与多模态模型快速迭代，安全与代码智能工具同步升级"
+   }
+  },
+  "hash": "212a8889304f5642"
  },
  "2026-W41": {
   "brief": {
@@ -397,15 +412,15 @@
   "brief": {
    "zh": {
     "bullets": [
-     "DeepSeek V4.1 Flash 等前沿开源模型在 HF 热度暴升，配合 Ebony‑Vinyl 插件实现免登录免费使用；OpenAI 与 Anthropic 本月大幅降价至 80% 以下；IBM CEO 称开源权重模型已兼具性能与低成本；但同一模型也出现争议行为。[hf#2] [hf#4] [repos#4] [news#7] [news#9] [news#10]",
-     "本地持久 AI 伙伴平台 openbot 和 Claude/Code 专用技能 hallmark 以及 TradingAgents 框架推动多代理协作；Dev.to 报道的 AI 防病毒项目凸显安全焦虑；Anthropic 因非法使用教材训练 Claude 引发伦理争议。[repos#1] [repos#3] [repos#9] [devto#6] [news#4]",
-     "HF 近期出现大量多模态模型：Lightricks LTX‑2.5 支持图像‑至‑视频，Flux‑3‑image‑klein‑comfy 提供图像‑到‑图像转换，Qwen3.8‑27B 与 MiniMax‑M3.1‑Flash 则兼具图文互转能力。[hf#5] [hf#8] [hf#6] [hf#9]",
-     "本地离线工具链快速丰富：xerj 提供 Rust 单文件 AI 搜索与向量混合索引，Filee 支持 263 种格式的离线转换，gpu‑unlock 让 RTX 3000 系列卡获得专业级指令速率，提升本地 AI 工作流可用性。[repos#8] [repos#7] [repos#6]",
-     "本周数学、计算机科学、物理三大领域公布新发现，核心结论否定指数时间假设，并在 Lobsters 讨论中得到广泛关注，暗示复杂度理论可能迎来重大转折。[news#2] [lobsters#1]"
+     "dsh插件免登录即可使用前沿模型如DeepSeek V4.1 Flash和Kimi K3，体现免费模型可在本地直接调用。 [repos#2] [hf#1]",
+     "多个开源项目提供本地化AI助手与工作流平台，包括OpenBot的持久AI同事、Nasiko Runtime、RocketRide高性能管线，支持Claude、Codex等。 [repos#3] [repos#8] [repos#10]",
+     "社区加速GPU算力利用，Zagitta的gpu-unlock把消费级显卡指令速率提升到专业水平，配合Auto Ontology等框架提升推理效率。 [repos#4] [repos#5]",
+     "安全与监管并行，AiSOC开源安全运营中心监控LLM代理行为，配合Claude等模型在药物研发和SEO等专业任务中的应用受到关注。 [repos#9] [news#10] [repos#6] [repos#7]",
+     "主流供应商大幅降价并推出离线版LLM（如Survival LLM）以及GPT-6.1 Terra新模型，降低使用门槛并刺激本地部署需求。 [news#4] [news#7] [news#9]"
     ],
-    "headline": "开源大模型成本骤降、AI 代理与本地工具快速发展，推动多模态与科研突破"
+    "headline": "免费开源AI模型与本地工具快速增长，推动离线使用与安全关注"
    }
   },
-  "hash": "4833c7d73d68b497"
+  "hash": "9616b30d954cb3e3"
  }
 }

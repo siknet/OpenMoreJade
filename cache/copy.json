@@ -41,6 +41,20 @@
   },
   "hash": "04824c5cf7e12123"
  },
+ "devto:4766472": {
+  "copy": {
+   "zh": {
+    "blurb": "在 dev.to 社区的欢迎帖，邀请用户自我介绍，分享加入社区的原因。",
+    "points": [
+     "鼓励新成员互动，提升社区活跃度",
+     "提供开放讨论空间",
+     "已收到 17 赞和 40 条评论"
+    ],
+    "title": "欢迎帖 - v399"
+   }
+  },
+  "hash": "6108e34f71df876a"
+ },
  "devto:4766820": {
   "copy": {
    "zh": {
@@ -2770,6 +2784,20 @@
    }
   },
   "hash": "bb45c2b8a0ef0c52"
+ },
+ "devto:4857910": {
+  "copy": {
+   "zh": {
+    "blurb": "前端工程师 nyaomaru 在 Dev.to 上发表文章，对比了六款流行的 TypeScript 验证库，阐述了各自的使用感受与意外发现。",
+    "points": [
+     "涵盖 schema、runtime 与编译时验证的主流库",
+     "基于易用性、性能、类型安全三维度进行评测",
+     "揭示某些库在实际项目中表现出乎意料的优势或局限"
+    ],
+    "title": "比较 6 种 TypeScript 验证库的体验与惊喜"
+   }
+  },
+  "hash": "f5cd71d7b83470b0"
  },
  "devto:4857913": {
   "copy": {
@@ -5631,6 +5659,20 @@
   },
   "hash": "f152bb2a643d593b"
  },
+ "devto:4905950": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Dev.to 分享了首次在本地笔记本上运行 AI 模型的经验，指出本地推理可以显著降低云端费用。",
+    "points": [
+     "展示了在消费级笔记本上运行主流模型的可行性",
+     "对比云端 API 费用，成本下降数十倍",
+     "提供了环境配置与性能基准的实战指南"
+    ],
+    "title": "你的笔记本电脑或可替代大部分 AI 费用"
+   }
+  },
+  "hash": "5f62f2a85bfe6cf1"
+ },
  "devto:4906035": {
   "copy": {
    "zh": {
@@ -7345,6 +7387,233 @@
   },
   "hash": "ae4b316f1fb4b718"
  },
+ "devto:4933796": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Dev.to 系列文章中，Florian Rappl 介绍了 Codegen 项目，展示了其自动生成代码结构的功能与设计理念。",
+    "points": [
+     "通过配置文件快速生成项目脚手架",
+     "支持多语言模板，降低重复编码工作",
+     "开源实现便于社区自定义与扩展"
+    ],
+    "title": "我的开源项目：Codegen 代码生成工具"
+   }
+  },
+  "hash": "73a6241eea13d31a"
+ },
+ "devto:4934081": {
+  "copy": {
+   "zh": {
+    "blurb": "作者记录了在构建社交媒体平台 Crowdwide 时，对用户界面进行极简化的过程。",
+    "points": [
+     "强调简洁 UI 提升用户体验",
+     "分享实现细节与设计决策",
+     "收获社区互动（25 赞，29 评论）"
+    ],
+    "title": "第25–26天：构建 Crowdwide — UI 极简化"
+   }
+  },
+  "hash": "c03f9f2a96dc70cd"
+ },
+ "devto:4935157": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第 4 周“机器中的幽灵”赛题的参赛作品，旨在为已关闭的 1999 年网站提供 AI 驱动的侦探功能。",
+    "title": "Last Witness：为已停运的 1999 年网站提供 AI 侦探"
+   }
+  },
+  "hash": "36cc37d214ff8167"
+ },
+ "devto:4935180": {
+  "copy": {
+   "zh": {
+    "blurb": "GhostShell 是一款为 Hacktoberfest 2026 开源 AI 挑战第 4 周打造的幽灵主题终端，融合 AI 辅助的命令行交互体验。",
+    "points": [
+     "AI 驱动的交互式终端工具",
+     "使用幽灵主题呈现“闹鬼”效果",
+     "作为 Hacktoberfest 开源挑战的提交项目"
+    ],
+    "title": "GhostShell：2026 年 Hacktoberfest 的幽灵 AI 终端"
+   }
+  },
+  "hash": "e821a9015a233972"
+ },
+ "devto:4935418": {
+  "copy": {
+   "zh": {
+    "blurb": "本文评估 Gemma 4 E2B 在 Tesla T4 上从 BF16 到 Q2_K 的量化效果，使用 250 条 GSM8K 题目逐层比较，发现 Q5_K_M 及以上保持原分数，Q3_K_M 失分 38，Q2_K 仅 3 题正确。",
+    "points": [
+     "Q5_K_M 及以上的量化保持原始 BF16 准确度。",
+     "Q3_K_M 下降显著，错误数增加 38。",
+     "开启思考模式后，Q3_K_M 可恢复 17 分。"
+    ],
+    "title": "Gemma 4 E2B 量化对比：BF16 与 Q2_K"
+   }
+  },
+  "hash": "8e2179b5754575eb"
+ },
+ "devto:4935676": {
+  "copy": {
+   "zh": {
+    "blurb": "文章展示了在 Lattice 框架中如何让 AI 助手忘记已被删除的目标，并探讨了忘记机制对系统安全性的影响。",
+    "points": [
+     "演示在 Lattice 中撤销目标记忆的实现",
+     "分析忘记功能对 AI 安全性的意义",
+     "提供可复现的代码示例"
+    ],
+    "title": "教 AI 助手忘记已删除的 Lattice 目标"
+   }
+  },
+  "hash": "3dd9412f3ab19cb6"
+ },
+ "devto:4935811": {
+  "copy": {
+   "zh": {
+    "blurb": "文章分析了近年来 Agent 架构的复杂化，指出传统记忆系统在面对原始检索时表现不佳，强调检索式方法的优势。",
+    "points": [
+     "现代 Agent 记忆系统趋于复杂，但检索式方法仍更高效。",
+     "原始检索在信息获取上超越了内部记忆模块。",
+     "建议重新审视记忆系统的设计，结合检索机制。"
+    ],
+    "title": "为何 Agent 记忆系统输给原始检索"
+   }
+  },
+  "hash": "84ad5ce4fdbcfd25"
+ },
+ "devto:4935815": {
+  "copy": {
+   "zh": {
+    "blurb": "本文列出超过 100 种可在本地运行的 WebAssembly 转换工具，帮助开发者避免将 JWT、SQL、PDF 等敏感文件上传至云端转换服务。",
+    "points": [
+     "提供 100+ 本地 WebAssembly 转换方案",
+     "防止敏感数据泄露至第三方服务器",
+     "附带安全使用的实用指南"
+    ],
+    "title": "2026 客户端 WebAssembly 转换工具速查表（100+）"
+   }
+  },
+  "hash": "e297f4d3d9eb66b6"
+ },
+ "devto:4935866": {
+  "copy": {
+   "zh": {
+    "blurb": "Stillwright 作为轻量级开源层嵌入现有 AI Agent（如 Claude Code），对比编排器与普通 Agent 的性能与可靠性。",
+    "points": [
+     "Stillwright 作为轻量编排层嵌入现有 Agent",
+     "对比两者在响应速度和稳定性上的差异",
+     "揭示哪些改进有效，哪些未达预期"
+    ],
+    "title": "测评我的 Agent 编排器与普通 Agent 的差异"
+   }
+  },
+  "hash": "8fe8e753b3c5eb45"
+ },
+ "devto:4935976": {
+  "copy": {
+   "zh": {
+    "blurb": "本文指出在使用冻结模型进行基准测试时，更换 Agent harness 会混淆接口能力与策略不匹配，导致性能评估失真。",
+    "points": [
+     "更换 harness 会导致接口能力与模型策略不一致。",
+     "这种不匹配会在冻结模型上产生误导性的基准结果。",
+     "强调在评估时保持 harness 与模型的一致性。"
+    ],
+    "title": "为何更换 Agent Harness 会破坏冻结模型"
+   }
+  },
+  "hash": "71d650a9840551b8"
+ },
+ "devto:4935985": {
+  "copy": {
+   "zh": {
+    "blurb": "命令行工具遍历 Git 历史，找出所有被删除的文件，为每个“幽灵”生成叙事并构建祭坛，可本地运行 Gemma 生成内容。",
+    "points": [
+     "遍历 Git 历史定位所有删除文件",
+     "为每个文件生成“幽灵”叙事文本",
+     "本地运行 Gemma 生成祭坛内容"
+    ],
+    "title": "git-séance：让已删除代码的“幽灵”在 Git 中发声"
+   }
+  },
+  "hash": "e662c8abb764f58b"
+ },
+ "devto:4935995": {
+  "copy": {
+   "zh": {
+    "blurb": "交互式幽灵 PDP‑11 终端通过 Google's Gemma 2 接管用户 Shell，作为 Hacktoberfest 2026 的创意项目发布。",
+    "points": [
+     "模拟 PDP‑11 幽灵终端并接管用户 Shell",
+     "后端使用 Google Gemma 2 生成交互内容",
+     "Hacktoberfest 2026 项目，具创意趣味"
+    ],
+    "title": "Room 404：被幽灵占领的交互式终端"
+   }
+  },
+  "hash": "7a7c49690d4cf091"
+ },
+ "devto:4936024": {
+  "copy": {
+   "zh": {
+    "blurb": "通过导出银行账单 CSV，使用本地开源 Gemma‑4 模型和简易 Python 脚本，自动识别忘记的循环费用，包括涨价、试用转付费以及重复扣费。",
+    "points": [
+     "本地运行 Gemma‑4 模型，无需上传敏感账单数据，保障用户隐私。",
+     "自动检测常见重复费用模式，如价格上涨、试用转付费及双重扣费。",
+     "只需几行 Python 代码，即可完成 CSV 导入、费用聚类与可视化报告。"
+    ],
+    "title": "Ghost Charges：本地 Gemma 4 揭示仍在银行账单上徘徊的订阅费用"
+   }
+  },
+  "hash": "1660cf61a765f536"
+ },
+ "devto:4936082": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在 Dev.to 分享项目 Pitr Smriti，展示使用 14 盏 Diyas 与开源权重 AI 交互的方式，并提供 Render 上的实时演示链接。",
+    "title": "Pitr Smriti：通过 14 盏灯与开源 AI 传递祖传智慧"
+   }
+  },
+  "hash": "a2ad8c21d15929de"
+ },
+ "devto:4936096": {
+  "copy": {
+   "zh": {
+    "blurb": "在 GitHub Issue 中上传图片时，系统会保留 EXIF 中的 GPS 数据，可能导致上传者的位置信息被泄露。",
+    "points": [
+     "EXIF GPS 信息未被自动剥离",
+     "上传图片可能暴露真实位置",
+     "需使用工具自行清除或注意隐私风险"
+    ],
+    "title": "GitHub 在问题附件照片中保留 GPS 位置信息"
+   }
+  },
+  "hash": "e7ec2b02f84956b3"
+ },
+ "devto:4936200": {
+  "copy": {
+   "zh": {
+    "blurb": "文章说明使用 Apple ID 与应用专用密码上传 IPA 时出现错误‑22938 的原因，并提供利用官方 Build Uploads API 完整上传步骤。",
+    "title": "Apple 阻止应用专用密码上传（错误‑22938），教程使用官方 Build Uploads API 上传 IPA"
+   }
+  },
+  "hash": "6c45c7bbcae6ab79"
+ },
+ "devto:4936261": {
+  "copy": {
+   "zh": {
+    "blurb": "作者展示为 Claude Code 等 AI 编码助手添加视觉身份的技巧，提升交互体验并减少任务挂起时间。",
+    "title": "为 AI 编码代理配上头像，让它们不再等待"
+   }
+  },
+  "hash": "9fb964ebd63e64de"
+ },
+ "devto:4936263": {
+  "copy": {
+   "zh": {
+    "blurb": "一位巴基斯坦教师非专业程序员，借助AI工具自行开发了全免费的AI营销套件，以对抗Predis.ai每月高达249美元的收费。",
+    "title": "我用AI免费打造营销套件，取代每月$249的Predis.ai"
+   }
+  },
+  "hash": "d9632049681b2c44"
+ },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
    "zh": {
@@ -7655,6 +7924,20 @@
   },
   "hash": "c2875ab859f1a7cf"
  },
+ "gh:beenuar/aisoc": {
+  "copy": {
+   "zh": {
+    "blurb": "开源 AI 安全运营中心，提供告警融合、LLM 代理分流、MITRE ATT&CK 调查及可回放决策日志。无需 API 密钥，MIT 许可证。",
+    "points": [
+     "支持 Claude、Cursor、Continue 的 MCP 服务器",
+     "自托管，完整安全运营功能",
+     "Python 实现，星标 4,806，热度 61.9"
+    ],
+    "title": "beenuar/AiSOC"
+   }
+  },
+  "hash": "f2d4949bcd387a34"
+ },
  "gh:berriai/litellm": {
   "copy": {
    "zh": {
@@ -7826,6 +8109,20 @@
    }
   },
   "hash": "9b2f6bd445875bdc"
+ },
+ "gh:copilotkit/openbot": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenBot 是开源的 AI 同事框架，每个代理拥有独立的浏览器、文件系统和工具，所有操作在执行前由模型决定并在执行后记录，可直接接入任意 AG‑UI 代理。",
+    "points": [
+     "每个 AI 同事拥有完整的计算环境（浏览器、文件、工具），实现真正的自治。",
+     "行为在执行前由模型预判、执行后自动记录，便于审计和调试。",
+     "支持接入任何符合 AG‑UI 接口的代理，扩展性强。"
+    ],
+    "title": "OpenBot – 开源 AI 同事，拥有独立浏览器、文件和工具"
+   }
+  },
+  "hash": "d68f0dec98834836"
  },
  "gh:copilotkit/openintelligentui": {
   "copy": {
@@ -8105,6 +8402,20 @@
    }
   },
   "hash": "8eb08f802209fae5"
+ },
+ "gh:expo/skills": {
+  "copy": {
+   "zh": {
+    "blurb": "expo/skills 汇集了用于操作 Expo 项目和 Expo Application Services 的 AI 代理技能，方便在移动应用开发流程中调用。",
+    "points": [
+     "提供即插即用的 AI 技能集合",
+     "支持 Expo 项目和 EAS 的自动化任务",
+     "开源项目已获 3473 星赞"
+    ],
+    "title": "Expo AI技能库"
+   }
+  },
+  "hash": "9162fdcf8f87b632"
  },
  "gh:falkordb/falkordb": {
   "copy": {
@@ -8956,6 +9267,20 @@
   },
   "hash": "55e0fc418e98ac8d"
  },
+ "gh:nasiko-labs/nasiko": {
+  "copy": {
+   "zh": {
+    "blurb": "面向 AI 代理的开放运行时，使用 Rust 实现，拥有 10,159 星，热度 62.4，排名第一。",
+    "points": [
+     "Rust 编写，提供高性能、模块化的代理运行环境",
+     "支持多种 AI 模型和工具的集成",
+     "社区活跃，星标快速增长"
+    ],
+    "title": "Nasiko-Labs/nasiko"
+   }
+  },
+  "hash": "98b7178f261a8439"
+ },
  "gh:nightly-labs/openbot": {
   "copy": {
    "zh": {
@@ -9214,6 +9539,20 @@
    }
   },
   "hash": "e4b416da313e626f"
+ },
+ "gh:rocketride-org/rocketride-server": {
+  "copy": {
+   "zh": {
+    "blurb": "高性能 AI 流水线引擎，核心 C++，提供 50+ 可通过 Python 扩展的节点，支持 13+ 模型提供商、8+ 向量数据库及代理编排，配套 VS Code 插件、SDK 与 Docker。",
+    "points": [
+     "C++ 核心实现，提供极低延迟",
+     "统一管理多模型和向量库",
+     "IDE 集成与多语言 SDK，易于部署"
+    ],
+    "title": "rocketride-org/rocketride-server"
+   }
+  },
+  "hash": "aa64827153e12f11"
  },
  "gh:rohitg00/ai-engineering-from-scratch": {
   "copy": {
@@ -9779,6 +10118,20 @@
   },
   "hash": "7be7882f6083d562"
  },
+ "gh:wenyuchiou/awesome-agentic-ai-zh": {
+  "copy": {
+   "zh": {
+    "blurb": "提供 240 多条精选资源和实操示例，覆盖从 LLM 基础到多智能体系统的全链路学习，支持繁体、简体与英文三语。",
+    "points": [
+     "覆盖 LLM 基础到多智能体系统全阶段",
+     "收录 240+ 资源并提供动手案例",
+     "支持繁体、简体、英文三语言阅读"
+    ],
+    "title": "awesome-agentic-ai-zh：中文/繁体/英文的 Agentic AI 学习路线图"
+   }
+  },
+  "hash": "135d1a4d11ab5553"
+ },
  "gh:wheresryan22/anatomy": {
   "copy": {
    "zh": {
@@ -10242,6 +10595,20 @@
    }
   },
   "hash": "16bf264a8b4ea69f"
+ },
+ "hf:liquidai/lfm3-1.7b": {
+  "copy": {
+   "zh": {
+    "blurb": "LiquidAI 推出的 1.7B 参数文本生成模型，属于 text-generation 类别，受欢迎程度高，热度 81.6。",
+    "points": [
+     "1.7B 参数，适用于多种文本生成任务",
+     "在 Hugging Face 获 349 点赞，趋势分 346",
+     "可直接通过 Transformers 使用"
+    ],
+    "title": "LiquidAI/LFM3-1.7B"
+   }
+  },
+  "hash": "d6fe62ed835e4e96"
  },
  "hf:meta-models/muse-spark-open-816b-a42b": {
   "copy": {
@@ -13833,6 +14200,48 @@
   },
   "hash": "ccdcde28954553a6"
  },
+ "hn:50272515": {
+  "copy": {
+   "zh": {
+    "blurb": "在 Hacker News 上展示的 Popkern 项目提供了一个开源的 CAD 内核，具备 G2 圆角混合功能，并配备基于浏览器的 IDE，便于在线建模。",
+    "points": [
+     "实现了高质量的 G2 圆角混合算法",
+     "完整的浏览器 IDE 支持实时渲染与编辑",
+     "可作为自定义 CAD 工具链的基础组件"
+    ],
+    "title": "Popkern：支持 G2 圆角混合的开源 CAD 内核与浏览器 IDE"
+   }
+  },
+  "hash": "193fe69adddf7351"
+ },
+ "hn:50276792": {
+  "copy": {
+   "zh": {
+    "blurb": "Gemini 4 Carbon 是 Google 最新的旗舰模型，具备业界领先的网络安全防御和长时序推理能力，在 SEC‑bench Pro、ExploitGym 等基准上居首。",
+    "points": [
+     "在网络安全任务上取得显著提升",
+     "长时序推理能力支持更复杂的代理任务",
+     "SEC‑bench Pro 88.2% 领先，ExploitGym 54.8%"
+    ],
+    "title": "Gemini 4 Carbon：Google 最强安全与长时序模型"
+   }
+  },
+  "hash": "06f31dc0e7dc9bdd"
+ },
+ "hn:50277662": {
+  "copy": {
+   "zh": {
+    "blurb": "OpenTaxRate 提供按街道地址查询美国销售税率的开源数据库，克服传统仅支持 ZIP 码的黑盒 API，覆盖 24 个 SST 成员州的季度税率及边界信息。",
+    "points": [
+     "通过精确街道地址定位税率，避免 ZIP 码导致的地区误差。",
+     "包含 24 个州的季度税率和税率边界数据，开源可自行部署。",
+     "解决现有税率 API 的透明度和准确性问题。"
+    ],
+    "title": "OpenTaxRate – 按街道地址获取美国销售税率的开源库"
+   }
+  },
+  "hash": "41be31cc0deacef6"
+ },
  "lobsters:05xrj8": {
   "copy": {
    "zh": {
@@ -13868,6 +14277,20 @@
    }
   },
   "hash": "9af4f9398d862d2e"
+ },
+ "lobsters:0gomue": {
+  "copy": {
+   "zh": {
+    "blurb": "Ars Technica 报道的 UEFI 固件代码执行缺陷可能影响地球上大多数服务器，攻击者可利用该缺陷远程执行恶意代码。",
+    "points": [
+     "UEFI 固件存在可远程代码执行的严重漏洞",
+     "几乎所有服务器平台均受影响",
+     "需立即部署厂商提供的固件补丁"
+    ],
+    "title": "UEFI 固件代码执行漏洞威胁全球服务器"
+   }
+  },
+  "hash": "539379d9e2b05288"
  },
  "lobsters:0ta2mv": {
   "copy": {
@@ -14061,6 +14484,15 @@
    }
   },
   "hash": "8c8827ec095a6f98"
+ },
+ "lobsters:46sc07": {
+  "copy": {
+   "zh": {
+    "blurb": "提供入门资源与实践指南，帮助开发者快速上手图论及其在软件工程中的应用。",
+    "title": "开始学习图论"
+   }
+  },
+  "hash": "7543bb1187307fc4"
  },
  "lobsters:4ehrkn": {
   "copy": {
@@ -14708,6 +15140,15 @@
   },
   "hash": "fce8c2f5b6070b92"
  },
+ "lobsters:ansfvi": {
+  "copy": {
+   "zh": {
+    "blurb": "Orange Tech 的博客展示如何仅利用逻辑缺陷在 Edge 浏览器中实现完整的攻击链，揭示其安全弱点。",
+    "title": "仅凭逻辑漏洞打造 Microsoft Edge 完整链路"
+   }
+  },
+  "hash": "a0b5a8eb71cde08e"
+ },
  "lobsters:awjqvn": {
   "copy": {
    "zh": {
@@ -15083,6 +15524,15 @@
   },
   "hash": "00fd57035df9d81a"
  },
+ "lobsters:d3ubhd": {
+  "copy": {
+   "zh": {
+    "blurb": "介绍在 C++ 中构建可实现十亿级查询吞吐的高效查找表技术与实现细节。",
+    "title": "每秒十亿查询的 C++ 查找表"
+   }
+  },
+  "hash": "dea4c6e6440fc987"
+ },
  "lobsters:d7m5j1": {
   "copy": {
    "zh": {
@@ -15417,6 +15867,20 @@
    }
   },
   "hash": "fedb120b1996c83d"
+ },
+ "lobsters:exwlmn": {
+  "copy": {
+   "zh": {
+    "blurb": "该博客文章批评在 C 语言中使用 goto 进行错误处理的做法，倡导采用更结构化的错误处理模式并给出示例对比。",
+    "points": [
+     "指责 C 语言中 goto 用于错误处理的风险",
+     "推荐使用结构化的错误返回或清理宏",
+     "提供代码示例展示改进前后差异"
+    ],
+    "title": "GOTO 被视为 C 语言错误处理的坏习惯"
+   }
+  },
+  "hash": "f276cb2c4e1670c2"
  },
  "lobsters:eyrbup": {
   "copy": {
@@ -16288,6 +16752,19 @@
   },
   "hash": "965f0188a6349aab"
  },
+ "lobsters:m3gsln": {
+  "copy": {
+   "zh": {
+    "blurb": "Hoot 0.10.0 版本正式发布，带来若干功能改进与错误修复，提升了系统的稳定性与性能。",
+    "points": [
+     "版本升级至 0.10.0，包含多项功能改进。",
+     "修复若干已知错误，提高系统稳定性。"
+    ],
+    "title": "Hoot 0.10.0 正式发布"
+   }
+  },
+  "hash": "4ba1a3777b82a66f"
+ },
  "lobsters:m6l6ld": {
   "copy": {
    "zh": {
@@ -16352,6 +16829,15 @@
   },
   "hash": "1ebad23545157afa"
  },
+ "lobsters:mgy3tr": {
+  "copy": {
+   "zh": {
+    "blurb": "作者正在处理 Lobsters 项目中的长期 issue（#1165）并已提交 PR（#2229），希望与他人配对编程，以便更好地重构代码并帮助新贡献者。",
+    "title": "寻找伙伴共同实现 Lobste.rs 功能"
+   }
+  },
+  "hash": "79037a5d52de6522"
+ },
  "lobsters:miwcai": {
   "copy": {
    "zh": {
@@ -16379,6 +16865,15 @@
    }
   },
   "hash": "83c41116c5592ff1"
+ },
+ "lobsters:ml4m9a": {
+  "copy": {
+   "zh": {
+    "blurb": "Daniel Haxx 的博文回顾 0xabadbabe 的身份与动机，探讨其在开源社区的影响。",
+    "title": "谁是 0xabadbabe？（2011）"
+   }
+  },
+  "hash": "a5549d083c84a384"
  },
  "lobsters:ml9xrb": {
   "copy": {
@@ -17314,6 +17809,15 @@
   },
   "hash": "a77c593fd410751d"
  },
+ "lobsters:smtpje": {
+  "copy": {
+   "zh": {
+    "blurb": "探讨当前机器学习基准测试面临的可靠性和可重复性问题。",
+    "title": "基准测试危机"
+   }
+  },
+  "hash": "a73fde6c3ef6573c"
+ },
  "lobsters:sozl9e": {
   "copy": {
    "zh": {
@@ -17666,6 +18170,15 @@
    }
   },
   "hash": "edfd9a27b47085b9"
+ },
+ "lobsters:vekgyd": {
+  "copy": {
+   "zh": {
+    "blurb": "PortSwigger 研究报告，分析一种利用可扩展向量数据结构进行大规模攻击的技术细节。",
+    "title": "可扩展向量 Grief"
+   }
+  },
+  "hash": "06aa04422f6512aa"
  },
  "lobsters:vemho2": {
   "copy": {
@@ -18138,6 +18651,20 @@
   },
   "hash": "396bb2489aa4ed37"
  },
+ "lobsters:xybmsj": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 报道指出，Apple 的 Git 实现仍然信任已被攻击者篡改的 eMudhra 证书，可能导致代码签名验证被绕过。",
+    "points": [
+     "受影响的 Git 客户端仍使用旧版根证书链",
+     "攻击者可利用伪造证书进行中间人攻击",
+     "提醒用户尽快升级或手动移除受信任的 eMudhra 证书"
+    ],
+    "title": "Apple 的 git 仍信任已被泄露的 eMudhra 证书"
+   }
+  },
+  "hash": "6d36f97bcff34fa8"
+ },
  "lobsters:xz6sst": {
   "copy": {
    "zh": {
@@ -18286,6 +18813,20 @@
    }
   },
   "hash": "37cba323968fd5c5"
+ },
+ "lobsters:yxuvie": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters 收录的 AlpineBSD 项目是基于 Alpine Linux 思想的 BSD 系统，强调轻量化与安全性。",
+    "points": [
+     "采用 musl libc 与 busybox，保持最小化体积",
+     "默认启用安全强化措施，如堆栈保护",
+     "适合作为容器或嵌入式设备的底层系统"
+    ],
+    "title": "AlpineBSD：轻量安全的 BSD 系统"
+   }
+  },
+  "hash": "649bdd75a2177ca0"
  },
  "lobsters:zfoiw1": {
   "copy": {

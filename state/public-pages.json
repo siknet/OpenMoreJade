@@ -1,4 +1,9 @@
 {
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/": {
+  "at": "2026-10-28T18:20:27.916Z",
+  "summary": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CW",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+ },
  "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/": {
   "at": "2026-10-27T17:59:16.356Z",
   "summary": "",
@@ -13,7 +18,7 @@
   "at": "2026-10-23T06:01:45.107Z"
  },
  "https://openai.com/index/introducing-gpt-6-1-terra/": {
-  "at": "2026-10-28T06:50:41.386Z"
+  "at": "2026-10-28T18:20:27.916Z"
  },
  "https://openai.com/index/openai-models-google-cloud/": {
   "at": "2026-10-23T06:01:45.107Z"
