@@ -338,31 +338,28 @@
   "brief": {
    "zh": {
     "bullets": [
-     "Nasiko提供开放式运行时，配合RocketRide的高性能C++管道，引入多模型、多向量数据库和代理编排，帮助开发者快速搭建可扩展的AI代理系统。[repos#1][repos#3]",
-     "AiSOC推出免API钥匙的开源安全运营中心，融合告警、LLM代理分流、MITRE ATT&CK 调查，并记录每一步决策，为自托管代理提供全链路安全保障。[repos#2]",
-     "Expo/skills、Superpowers框架以及Humanizer等项目丰富了代理的技能库，分别支持Expo项目、软件开发方法论和去除AI生成痕迹，推动代理功能多样化。[repos#7][repos#9][repos#10]",
-     "多篇Show HN项目展示了让代理在代码前思考、简化AI代理交互的工具（Search2o）以及针对25个编码代理的安全基准AgenticBench，凸显社区对安全与可解释性的关注。[news#4][news#7][news#9]",
-     "Ebony‑Vinyl的免费模型插件在dsh中直接接入DeepSeek V4.1 Flash、Kimi K3等前沿模型，无需登录或API钥匙，配合Zagitta的GPU‑unlock提升本地推理吞吐，推动离线代理部署。[repos#6][repos#8]"
+     "多个开源项目提供完整的 AI 代理运行时和技能库，如 Nasiko Runtime、Expo Skills、Obra Superpowers、Humanizer 等，且 HN 上出现 AI 代理思考、搜索与代码协作工具的展示 [repos#1] [repos#7] [repos#9] [repos#10] [news#7] [news#9] [news#10]",
+     "免费前沿模型可直接本地使用，dsh 插件免 API Key，DeepSeek‑V4.1‑Flash、LFM3‑1.7B 等模型在 HF 高分排名，Survival LLM 进一步实现离线 AI 助手，Nvidia Nemotron 3.5 Transcribe 支持 40 语言 [repos#6] [hf#1] [hf#2] [news#2] [news#5]",
+     "AI 正向细分行业渗透：DeepTutor 提供终身个性化辅导，Dayjob Tax 评测 50 项税务任务，Claude 加速药物研发，Nemotron 实时转录，AiSOC 构建自托管安全运营中心 [repos#4] [repos#2] [news#3] [news#4] [news#5]",
+     "底层性能与推理工具快速迭代，RocketRide Server 用 C++ 核心加速 LLM 流程，GPU‑Unlock 恢复 GeForce 半速上限，Nvidia Auto‑Ontology 增强语义推理，Nasiko 进一步开放代理运行时 [repos#3] [repos#8] [repos#5] [repos#1]"
     ],
-    "headline": "开源AI代理生态快速扩张：工具链、运行时与安全测试齐头并进"
+    "headline": "AI 代理框架与免费大模型激增，专业助理与性能工具同步崛起"
    }
   },
-  "hash": "db2ade7e9b098329"
+  "hash": "73612cc64b372531"
  },
  "2026-10-29": {
   "brief": {
    "zh": {
     "bullets": [
-     "Open-source AI agents proliferate: Makecindy (open‑box agent) [repos#1], OpenBot enabling autonomous coworkers with browsers/tools [repos#2], OpenPencil introducing concurrent Agent Teams for design‑as‑code [repos#3], plus curated Chinese…",
-     "Multimodal model breakthroughs dominate Hugging Face: DeepSeek‑V4.1‑Flash‑1017 (image‑text) [hf#1], Qwen3.8‑27B (image‑text) [hf#5], MiniMax‑M3.1‑Flash (image‑text) [hf#9], Lightricks LTX‑2.5 (image‑to‑video) [hf#3], Flux‑3 image‑to‑image…",
-     "Google unveils Gemini 4 Carbon, its strongest model emphasizing state‑of‑the‑art cybersecurity and long‑term reasoning capabilities [news#1].",
-     "Security‑focused tooling emerges: Anthropic’s sandbox‑runtime enforces OS‑level file‑network restrictions without containers [repos#5]; community warns against uploading sensitive files to cloud converters [devto#1]; GitHub now embeds GPS…",
-     "AI‑enhanced code intelligence and retrieval tools rise: Repowise provides code health scores and architecture insights [repos#4]; RAGFlow merges retrieval‑augmented generation with agents for superior context layers [repos#9]; worldmonitor…"
+     "GitHub 上多款开源 AI 代理项目发布，包括 pbakaus/impeccable、makecindy/cindy、DeepTutor、rea、taste‑skill、expo/skills、OpenBot 等，提供代码审查、逆向、技能库等功能，推动代理生态快速扩张。[repos#1] [repos#2] [repos#3] [repos#4] [repos#5] [repos#7] [repos#8]",
+     "Hugging Face 新榜单显示 DeepSeek‑V4.1‑Flash、Qwen3.8‑27B、Flux‑3‑image‑klein‑comfy、LTX‑2.5 等跨文本、图像、视频多模态模型得分均在 75 分以上，标志生成模型竞争进入新阶段。[hf#2] [hf#6] [hf#8] [hf#4]",
+     "Google 公布 Gemini 4 Carbon，宣称具备最强网络安全防护和长时程能力；Claude Code 则将每个后台代理的对话记录发送至模型，引发对数据隐私的讨论。[news#1] [news#2]"
     ],
-    "headline": "开源AI代理与多模态模型快速迭代，安全与代码智能工具同步升级"
+    "headline": "开源 AI 代理工具与模型热潮来袭，安全与可用性成为焦点"
    }
   },
-  "hash": "212a8889304f5642"
+  "hash": "39f08b690591ef77"
  },
  "2026-W41": {
   "brief": {
@@ -412,15 +409,13 @@
   "brief": {
    "zh": {
     "bullets": [
-     "dsh插件免登录即可使用前沿模型如DeepSeek V4.1 Flash和Kimi K3，体现免费模型可在本地直接调用。 [repos#2] [hf#1]",
-     "多个开源项目提供本地化AI助手与工作流平台，包括OpenBot的持久AI同事、Nasiko Runtime、RocketRide高性能管线，支持Claude、Codex等。 [repos#3] [repos#8] [repos#10]",
-     "社区加速GPU算力利用，Zagitta的gpu-unlock把消费级显卡指令速率提升到专业水平，配合Auto Ontology等框架提升推理效率。 [repos#4] [repos#5]",
-     "安全与监管并行，AiSOC开源安全运营中心监控LLM代理行为，配合Claude等模型在药物研发和SEO等专业任务中的应用受到关注。 [repos#9] [news#10] [repos#6] [repos#7]",
-     "主流供应商大幅降价并推出离线版LLM（如Survival LLM）以及GPT-6.1 Terra新模型，降低使用门槛并刺激本地部署需求。 [news#4] [news#7] [news#9]"
+     "本周涌现多款本地化 AI 代理平台：OpenBot（[repos#3]）、Nasiko（[repos#8]）和 AI‑SOC（[repos#9]），并配套高性能流水线 RocketRide（[repos#10]）与安全防护方案（[devto#10]），展示了社区对可控、可审计 AI 助手的强烈需求。",
+     "大型多模态模型持续登场，DeepSeek‑V4.1‑Flash（[hf#1]）、Qwen3.8‑27B（[hf#5]）以及 Lightricks LTX‑2.5（[hf#4]）等在 Hugging Face 热度飙升；OpenAI 发布 GPT‑6.1 Terra（[news#3]），Anthropic 推出 Genie 4（[news#4]），标志着商业与开源双轨并进。",
+     "行业竞争导致价格剧烈波动，OpenAI 与 Anthropic 在数月内将模型费用削减最高 80%（[news#9]），而 Anthropic 也因使用未经授权的教材训练 Claude 引发伦理争议（[news#5]），凸显商业与合规的紧张平衡。"
     ],
-    "headline": "免费开源AI模型与本地工具快速增长，推动离线使用与安全关注"
+    "headline": "AI 代理与多模态模型快速迭代，开源工具爆发 同时行业价格和伦理争议加剧"
    }
   },
-  "hash": "9616b30d954cb3e3"
+  "hash": "0ba94398033ffba2"
  }
 }

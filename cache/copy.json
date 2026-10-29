@@ -7069,6 +7069,19 @@
   },
   "hash": "8954444c720d038d"
  },
+ "devto:4926163": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇针对Hacktoberfest的作品，介绍了GHOSTBYTE项目的概念及实现细节。",
+    "points": [
+     "将记忆抽象为可持续的虚拟实体",
+     "提供开源实现，鼓励社区贡献"
+    ],
+    "title": "GHOSTBYTE 👻：永恒记忆的Hacktoberfest提交"
+   }
+  },
+  "hash": "02802e3f7d68d0bc"
+ },
  "devto:4927324": {
   "copy": {
    "zh": {
@@ -7387,6 +7400,32 @@
   },
   "hash": "ae4b316f1fb4b718"
  },
+ "devto:4933239": {
+  "copy": {
+   "zh": {
+    "blurb": "作者修复了torchTitan快速启动脚本中download_hf_assets.py的元组错误和列表变异问题。",
+    "points": [
+     "解决tuple‑shape错误防止下载失败",
+     "修复列表变异提升脚本稳定性"
+    ],
+    "title": "TorchTitan 十月更新：快速启动脚本两处Bug修复"
+   }
+  },
+  "hash": "ab50dd43f184f45c"
+ },
+ "devto:4933248": {
+  "copy": {
+   "zh": {
+    "blurb": "在GTC Berlin发布后，发现Isaac Lab 3.0在Windows上未关闭日志句柄导致文件锁定，28小时内提交修复。",
+    "points": [
+     "未关闭的log handler导致文件被锁定",
+     "单行补丁快速解决，确保跨平台稳定运行"
+    ],
+    "title": "Isaac Lab 3.0 正式版：Windows日志文件锁定问题快速修复"
+   }
+  },
+  "hash": "da3261d4bcdb0fa8"
+ },
  "devto:4933796": {
   "copy": {
    "zh": {
@@ -7418,8 +7457,13 @@
  "devto:4935157": {
   "copy": {
    "zh": {
-    "blurb": "该项目是 Hacktoberfest 开源 AI 挑战第 4 周“机器中的幽灵”赛题的参赛作品，旨在为已关闭的 1999 年网站提供 AI 驱动的侦探功能。",
-    "title": "Last Witness：为已停运的 1999 年网站提供 AI 侦探"
+    "blurb": "这是Hacktoberfest开源AI挑战第4周的项目，利用AI检测已失效网站的残留内容并进行评估。",
+    "points": [
+     "针对已关闭的1999年网站进行内容恢复与分析",
+     "结合AI检测‘幽灵’页面并给出评分",
+     "作为开源挑战作品提交"
+    ],
+    "title": "Last Witness：为1999年已停站网站的AI侦探"
    }
   },
   "hash": "36cc37d214ff8167"
@@ -7437,6 +7481,20 @@
    }
   },
   "hash": "e821a9015a233972"
+ },
+ "devto:4935346": {
+  "copy": {
+   "zh": {
+    "blurb": "在Hacktoberfest AI挑战第4周的Dev.to投稿，作者使用AI对Git的request库进行‘降神’，探讨其失效原因并要求输出引用来源。",
+    "points": [
+     "展示AI对代码库进行逆向分析",
+     "实现自动追踪已删除函数的来源",
+     "结合Git历史提升调试效率"
+    ],
+    "title": "git séance：我询问`request`的幽灵为何死亡，并让它引用来源"
+   }
+  },
+  "hash": "f43c0af3bc646a0c"
  },
  "devto:4935418": {
   "copy": {
@@ -7613,6 +7671,29 @@
    }
   },
   "hash": "d9632049681b2c44"
+ },
+ "devto:4936683": {
+  "copy": {
+   "zh": {
+    "blurb": "Dev.to文章介绍‘Calavera’项目，一个只引用已删除仓库原始代码的Gemma模型，以纪念被遗弃的代码库。",
+    "title": "每个已废弃的仓库都以句中止。我构建了只能引用它的Gemma"
+   }
+  },
+  "hash": "f05d089f2841d4b1"
+ },
+ "devto:4938868": {
+  "copy": {
+   "zh": {
+    "blurb": "尽管该模型在社区中广受欢迎，但其许可证明确限制商业用途，开发者在产品化时需注意合规风险。",
+    "points": [
+     "模型许可证禁止任何商业化部署",
+     "对基于该模型的产品构成法律限制",
+     "使用前需审查许可证条款以避免侵权"
+    ],
+    "title": "最流行的开源语音克隆模型禁止商业使用"
+   }
+  },
+  "hash": "542cd045f1c2f75c"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -9516,6 +9597,20 @@
   },
   "hash": "23057b1f9280e72a"
  },
+ "gh:pbakaus/impeccable": {
+  "copy": {
+   "zh": {
+    "blurb": "该Rust项目提供用于引导AI编码助手的设计词汇，包括指令、审查和纠错等功能，帮助在代码生成前过滤AI错误。",
+    "points": [
+     "提供“polish”“bolder”等指令以微调生成代码",
+     "包含审查与审计工具捕获AI缺陷",
+     "旨在提升AI编码助手的可靠性"
+    ],
+    "title": "impeccable：为编码代理设计的指令词库"
+   }
+  },
+  "hash": "047fac5d36972f66"
+ },
  "gh:quantumnous/new-api": {
   "copy": {
    "zh": {
@@ -10737,6 +10832,20 @@
    }
   },
   "hash": "3fdac052adc9c962"
+ },
+ "hf:tencent/hy-simulmt-30b-a3b-fp8": {
+  "copy": {
+   "zh": {
+    "blurb": "该模型是腾讯发布的30B参数多语言翻译模型，采用FP8量化实现高效推理，适用于大规模机器翻译。",
+    "points": [
+     "30B参数、FP8量化显著降低计算成本",
+     "专注多语言翻译任务",
+     "在Hugging Face上可直接使用"
+    ],
+    "title": "Hy‑SimulMT‑30B‑A3B‑FP8：腾讯的高效30B翻译模型"
+   }
+  },
+  "hash": "32880eedd2ec4cd0"
  },
  "hf:venastine-research/xing4.0-29b-a4b-gguf": {
   "copy": {
@@ -14214,6 +14323,34 @@
   },
   "hash": "193fe69adddf7351"
  },
+ "hn:50275128": {
+  "copy": {
+   "zh": {
+    "blurb": "该模型是开源、可提示的，提供转录、说话人分离、翻译和音频问答功能，已在 Hugging Face 与 ModelScope 发布。",
+    "points": [
+     "一次性实现转录、说话人标注、翻译和音频QA",
+     "支持40种语言并可通过提示自定义输出",
+     "开放权重便于二次开发与部署"
+    ],
+    "title": "Nvidia Nemotron 3.5 Transcribe：支持40种语言的开源语音识别"
+   }
+  },
+  "hash": "6178d1cbee8c8392"
+ },
+ "hn:50275626": {
+  "copy": {
+   "zh": {
+    "blurb": "Dayjob项目推出Tax基准，使用50个真实税务工作任务测试AI代理的准确性和合规性。",
+    "points": [
+     "涵盖报税、税收筹划等专业场景",
+     "衡量模型的法规遵循与计算准确度",
+     "提供统一评估框架促进税务AI研发"
+    ],
+    "title": "Dayjob: Tax – 在50项专业税务任务上评估AI代理"
+   }
+  },
+  "hash": "f231be97e0bef034"
+ },
  "hn:50276792": {
   "copy": {
    "zh": {
@@ -14241,6 +14378,34 @@
    }
   },
   "hash": "41be31cc0deacef6"
+ },
+ "hn:50282838": {
+  "copy": {
+   "zh": {
+    "blurb": "Qwen3.5 通过 Qwenputer 项目在语言模型内部实现了完整的 RISC‑V 指令集，能够进行确定性、可复现的 CPU 运算。",
+    "points": [
+     "在 LLM 中嵌入完整的 RISC‑V ISA",
+     "执行结果确定且可重复",
+     "展示了 LLM 充当虚拟硬件的潜力"
+    ],
+    "title": "Qwenputer：在 Qwen3.5 中实现确定性的 RISC‑V CPU"
+   }
+  },
+  "hash": "d08a808ed15162c8"
+ },
+ "hn:50284255": {
+  "copy": {
+   "zh": {
+    "blurb": "Claude Code 会周期性地把每个后台代理的对话转录提交给核心模型，以便模型获取上下文信息并持续更新。",
+    "points": [
+     "后台代理的对话转录被统一送入 Claude 模型",
+     "模型可据此保持最新的上下文状态",
+     "此机制可能涉及隐私与数据安全考量"
+    ],
+    "title": "Claude Code 定期将后台代理的对话记录发送至模型"
+   }
+  },
+  "hash": "40ac5822a17b1af9"
  },
  "lobsters:05xrj8": {
   "copy": {
@@ -14448,6 +14613,20 @@
    }
   },
   "hash": "af91a673c02eb744"
+ },
+ "lobsters:2zsjwt": {
+  "copy": {
+   "zh": {
+    "blurb": "GitLab 遭遇一次针对 CVE‑2026‑97229 漏洞的利用尝试，事件由 Alpine Linux 公布，提醒用户及时打补丁。",
+    "points": [
+     "攻击者尝试利用 GitLab 的 CVE‑2026‑97229",
+     "事件由 Alpine Linux 官方披露",
+     "强调及时更新和补丁的重要性"
+    ],
+    "title": "GitLab 安全事件：尝试利用 CVE‑2026‑97229"
+   }
+  },
+  "hash": "c19ee07057c7c514"
  },
  "lobsters:3mnrlw": {
   "copy": {
@@ -14848,6 +15027,20 @@
   },
   "hash": "7d5329190890b6ed"
  },
+ "lobsters:7qaac6": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇Lobsters文章围绕‘狐狸说了什么’的主题展开，可能涉及声音识别或网络实验。",
+    "points": [
+     "探讨声音识别模型的局限性",
+     "展示对动物叫声的生成实验",
+     "分析模型在非语言音频上的表现"
+    ],
+    "title": "What the fox say?"
+   }
+  },
+  "hash": "9cb599419177b2b8"
+ },
  "lobsters:7qhwfi": {
   "copy": {
    "zh": {
@@ -14957,6 +15150,15 @@
    }
   },
   "hash": "e387e31b264339da"
+ },
+ "lobsters:9h6lc4": {
+  "copy": {
+   "zh": {
+    "blurb": "报告指出ACL模型在多主体交互时无法保留必要信息，导致点击劫持和CSRF等攻击的逻辑错误。",
+    "title": "ACL模型的局限（2009）"
+   }
+  },
+  "hash": "b8b1f8e863382b9a"
  },
  "lobsters:9jgl3x": {
   "copy": {
@@ -15237,6 +15439,19 @@
    }
   },
   "hash": "706826b2aa979ef8"
+ },
+ "lobsters:brdwr2": {
+  "copy": {
+   "zh": {
+    "blurb": "Redox OS发布环形缓冲区实现的项目总结，阐述其设计目标与性能优势。",
+    "points": [
+     "零拷贝设计提升I/O效率",
+     "跨平台兼容性与安全性并重"
+    ],
+    "title": "Redox 环形缓冲区项目概览"
+   }
+  },
+  "hash": "4d199efb0f8b280d"
  },
  "lobsters:brrnpm": {
   "copy": {
@@ -15527,8 +15742,13 @@
  "lobsters:d3ubhd": {
   "copy": {
    "zh": {
-    "blurb": "介绍在 C++ 中构建可实现十亿级查询吞吐的高效查找表技术与实现细节。",
-    "title": "每秒十亿查询的 C++ 查找表"
+    "blurb": "文章展示在C++中构建高性能查找表，达到每秒十亿次查询的速度。",
+    "points": [
+     "利用CPU缓存友好布局实现极致查询速率",
+     "提供实现细节与性能基准",
+     "适用于大规模实时数据检索"
+    ],
+    "title": "C++实现每秒十亿查询的查找表"
    }
   },
   "hash": "dea4c6e6440fc987"
@@ -15692,6 +15912,19 @@
    }
   },
   "hash": "113bd93f6cf2a7b6"
+ },
+ "lobsters:dqexzg": {
+  "copy": {
+   "zh": {
+    "blurb": "v12.sh博客解析了一个仅9位密钥的AES实现，展示了其安全缺陷及攻击方法。",
+    "points": [
+     "仅9位密钥导致密码空间极小，易被穷举",
+     "演示了实际破解步骤，强调完整密钥长度的重要性"
+    ],
+    "title": "9位AES密钥案例研究"
+   }
+  },
+  "hash": "6fdc5751e0bcd22a"
  },
  "lobsters:dtwbpu": {
   "copy": {
@@ -16154,6 +16387,20 @@
   },
   "hash": "c5293381d5051bf3"
  },
+ "lobsters:gvy5gz": {
+  "copy": {
+   "zh": {
+    "blurb": "一段用于设备指纹识别的脚本被指可能被改用于生物武器研发，引发对技术滥用的担忧。",
+    "points": [
+     "脚本原本用于收集设备唯一标识",
+     "被担忧可被恶意改造用于生物武器设计",
+     "呼吁对此类技术的使用进行伦理审查"
+    ],
+    "title": "指纹脚本为何会被用于制造生物武器？"
+   }
+  },
+  "hash": "08e2c07525918f6e"
+ },
  "lobsters:gwuebx": {
   "copy": {
    "zh": {
@@ -16285,6 +16532,15 @@
    }
   },
   "hash": "ce82ac5c36627021"
+ },
+ "lobsters:hqcvyj": {
+  "copy": {
+   "zh": {
+    "blurb": "Lobsters分享的新闻，讨论树莓派即将推出Zero 3 W和Pi 4 Model A两款新硬件的可能性及规格。",
+    "title": "Raspberry Pi Zero 3 W 与 Pi 4 Model A 将问世？"
+   }
+  },
+  "hash": "1b1ab9786cb92c4b"
  },
  "lobsters:hty1qk": {
   "copy": {
@@ -16518,6 +16774,20 @@
    }
   },
   "hash": "c047352cf72b3c42"
+ },
+ "lobsters:jmbjlu": {
+  "copy": {
+   "zh": {
+    "blurb": "一篇Lobsters讨论指出Rust中Future trait未保留必要状态，导致异步实现潜在问题。",
+    "points": [
+     "缺少内部状态导致Future不可复用",
+     "可能影响异步任务调度的正确性",
+     "提出改进建议以显式管理状态"
+    ],
+    "title": "Future特性缺失状态"
+   }
+  },
+  "hash": "23f29f622cdad582"
  },
  "lobsters:jqjioq": {
   "copy": {
@@ -17873,6 +18143,19 @@
   },
   "hash": "2656b030f706ec2e"
  },
+ "lobsters:ssp7ug": {
+  "copy": {
+   "zh": {
+    "blurb": "Tetralogical推出面向无障碍开发的组件库，提供符合WCAG标准的UI元素。",
+    "points": [
+     "预设ARIA属性简化可访问性实现",
+     "组件可直接在React/Vue等框架中使用"
+    ],
+    "title": "可访问组件库发布"
+   }
+  },
+  "hash": "25614cb691b35d28"
+ },
  "lobsters:staj2z": {
   "copy": {
    "zh": {
@@ -18082,6 +18365,20 @@
    }
   },
   "hash": "c06e2b8d132be7d8"
+ },
+ "lobsters:uimyck": {
+  "copy": {
+   "zh": {
+    "blurb": "编辑器 EMACS 底层自 1976 年诞生至今已走过半个世纪，仍凭可扩展性和强大社区活跃于现代开发。",
+    "points": [
+     "EMACS 已历经 50 年发展历史",
+     "高度可定制和插件化是其核心优势",
+     "持续的社区贡献保持其活力"
+    ],
+    "title": "EMACS 迎来 50 周年"
+   }
+  },
+  "hash": "d1ae1767498189b2"
  },
  "lobsters:uiulqe": {
   "copy": {

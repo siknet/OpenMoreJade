@@ -707,7 +707,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-26T06:10:43.950Z",
+   "observedAt": "2026-10-29T07:02:17.211Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -719,7 +719,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-23T17:59:28.000Z",
+    "sourceUpdatedAt": "2026-10-27T18:15:35.000Z",
     "summary": {
      "en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
      "zh": "Graphify 项目将任意代码库连同文档、SQL 模式、配置和 PDF 转化为结构化知识图谱，提供本地确定性 AST 解析，无需向量库，支持多种 LLM。"
@@ -1009,7 +1009,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-28T18:20:27.916Z",
+   "observedAt": "2026-10-29T07:02:17.211Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -1021,7 +1021,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-28T16:37:45.000Z",
+    "sourceUpdatedAt": "2026-10-29T03:44:25.000Z",
     "summary": {
      "en": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
      "zh": "taste-skill 为代码生成代理添加艺术指导、参考图片和浏览器检查等‘品味’技能，使用 JavaScript 实现，可直接在 GitHub 下载，提升生成代码的上下文感知和质量。"
@@ -1262,7 +1262,7 @@
    "sourceKey": "gh:nightly-labs/openbot"
   },
   "discovery:gh:nvidia/auto-ontology": {
-   "observedAt": "2026-10-28T18:20:27.916Z",
+   "observedAt": "2026-10-29T07:02:17.211Z",
    "resource": {
     "freshnessBasis": "first-observed",
     "id": "discovery:gh:nvidia/auto-ontology",
@@ -1371,7 +1371,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-27T06:15:26.926Z",
+   "observedAt": "2026-10-29T07:02:17.211Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",
@@ -1383,7 +1383,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-26T18:40:36.000Z",
+    "sourceUpdatedAt": "2026-10-29T07:01:42.000Z",
     "summary": {
      "en": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
      "zh": "支持管理一组编程代理（如 Grok Bot、Claude Code），可在桌面、移动和远程运行，使用个人订阅。"
