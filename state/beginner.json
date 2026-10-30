@@ -162,7 +162,7 @@
    "sourceKey": "devto:4878848"
   },
   "discovery:devto:4942264": {
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "resource": {
     "freshnessBasis": "published",
     "id": "discovery:devto:4942264",
@@ -747,7 +747,7 @@
    "sourceKey": "gh:gentleman-programming/gentle-ai"
   },
   "discovery:gh:graphify-labs/graphify": {
-   "observedAt": "2026-10-29T07:02:17.211Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:graphify-labs/graphify",
@@ -1049,7 +1049,7 @@
    "sourceKey": "gh:langgenius/dify"
   },
   "discovery:gh:leonxlnx/taste-skill": {
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:leonxlnx/taste-skill",
@@ -1061,7 +1061,7 @@
      "practice": 4
     },
     "sourceName": "github.com",
-    "sourceUpdatedAt": "2026-10-29T17:14:24.000Z",
+    "sourceUpdatedAt": "2026-10-30T06:21:31.000Z",
     "summary": {
      "en": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
      "zh": "taste-skill 为代码生成代理添加艺术指导、参考图片和浏览器检查等‘品味’技能，使用 JavaScript 实现，可直接在 GitHub 下载，提升生成代码的上下文感知和质量。"
@@ -1411,7 +1411,7 @@
    "sourceKey": "gh:router-for-me/cliproxyapi"
   },
   "discovery:gh:stablyai/orca": {
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "resource": {
     "freshnessBasis": "repo-updated",
     "id": "discovery:gh:stablyai/orca",

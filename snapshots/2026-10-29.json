@@ -11306,21 +11306,21 @@
    "category": "discussion",
    "key": "hn:50276792",
    "metrics": {
-    "comments": 791,
+    "comments": 797,
     "frontPage": 0,
-    "points": 990
+    "points": 1006
    },
    "news": {
     "author": "acossta",
-    "comments": 791,
+    "comments": 797,
     "createdAt": "2026-10-28T17:01:23.000Z",
     "domain": "blog.google",
     "hnId": 50276792,
     "hnUrl": "https://news.ycombinator.com/item?id=50276792",
-    "points": 990,
-    "showRank": 3
+    "points": 1006,
+    "showRank": 6
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T17:01:23.000Z",
    "refs": [
     "url:blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
@@ -11384,21 +11384,21 @@
    "category": "discussion",
    "key": "hn:50282838",
    "metrics": {
-    "comments": 140,
+    "comments": 145,
     "frontPage": 0,
-    "points": 666
+    "points": 682
    },
    "news": {
     "author": "csmantle",
-    "comments": 140,
+    "comments": 145,
     "createdAt": "2026-10-29T00:25:45.000Z",
     "domain": "divagr.com",
     "hnId": 50282838,
     "hnUrl": "https://news.ycombinator.com/item?id=50282838",
-    "points": 666,
-    "showRank": 6
+    "points": 682,
+    "showRank": 8
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T00:25:45.000Z",
    "refs": [
     "url:divagr.com/blog/qwenputer"
@@ -11423,21 +11423,21 @@
    "category": "discussion",
    "key": "hn:50284255",
    "metrics": {
-    "comments": 216,
+    "comments": 229,
     "frontPage": 0,
-    "points": 538
+    "points": 566
    },
    "news": {
     "author": "NikZaal",
-    "comments": 216,
+    "comments": 229,
     "createdAt": "2026-10-29T03:33:42.000Z",
     "domain": "gist.github.com",
     "hnId": 50284255,
     "hnUrl": "https://news.ycombinator.com/item?id=50284255",
-    "points": 538,
-    "showRank": 8
+    "points": 566,
+    "showRank": 10
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T03:33:42.000Z",
    "refs": [
     "url:gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
@@ -11464,21 +11464,21 @@
    "category": "discussion",
    "key": "hn:50288019",
    "metrics": {
-    "comments": 232,
+    "comments": 240,
     "frontPage": 0,
-    "points": 311
+    "points": 331
    },
    "news": {
     "author": "theHocineSaad",
-    "comments": 232,
+    "comments": 240,
     "createdAt": "2026-10-29T12:41:56.000Z",
     "domain": "artificialanalysis.ai",
     "hnId": 50288019,
     "hnUrl": "https://news.ycombinator.com/item?id=50288019",
-    "points": 311,
+    "points": 331,
     "showRank": 22
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T12:41:56.000Z",
    "refs": [
     "url:artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
@@ -11503,21 +11503,21 @@
    "category": "release",
    "key": "hn:50289418",
    "metrics": {
-    "comments": 194,
+    "comments": 366,
     "frontPage": 0,
-    "points": 738
+    "points": 1351
    },
    "news": {
     "author": "kuberwastaken",
-    "comments": 194,
+    "comments": 366,
     "createdAt": "2026-10-29T14:13:21.000Z",
     "domain": "mistral.ai",
     "hnId": 50289418,
     "hnUrl": "https://news.ycombinator.com/item?id=50289418",
-    "points": 738,
-    "showRank": 4
+    "points": 1351,
+    "showRank": 2
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T14:13:21.000Z",
    "refs": [
     "url:mistral.ai/news/mistral-large-4-oss"
@@ -11542,21 +11542,21 @@
    "category": "discussion",
    "key": "hn:50290177",
    "metrics": {
-    "comments": 61,
+    "comments": 221,
     "frontPage": 0,
-    "points": 118
+    "points": 431
    },
    "news": {
     "author": "ibobev",
-    "comments": 61,
+    "comments": 221,
     "createdAt": "2026-10-29T14:57:55.000Z",
     "domain": "martinfowler.com",
     "hnId": 50290177,
     "hnUrl": "https://news.ycombinator.com/item?id=50290177",
-    "points": 118,
-    "showRank": 53
+    "points": 431,
+    "showRank": 15
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T14:57:55.000Z",
    "refs": [
     "url:martinfowler.com/bliki/LLM-Voice.html"
@@ -11811,7 +11811,7 @@
     "hnUrl": "https://dev.to/gde/accuracy-vs-speed-gemma-4-e2b-quantization-tradeoffs-bf16-to-q2k-aea",
     "points": 9
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T16:02:20Z",
    "refs": [],
    "relevance": {
@@ -13762,29 +13762,29 @@
    "category": "engineering",
    "devto": {
     "author": "Puneet Kumar Mishra",
-    "comments": 17,
+    "comments": 21,
     "createdAt": "2026-10-29T10:38:05Z",
     "domain": "dev.to",
     "id": 4940419,
-    "points": 18,
+    "points": 19,
     "url": "https://dev.to/puneetkumar2010/day-27-of-building-crowdwide-the-solution-was-so-simple-why-didnt-i-think-of-it-earlier-3edi"
    },
    "key": "devto:4940419",
    "metrics": {
-    "comments": 17,
+    "comments": 21,
     "frontPage": 0,
-    "points": 18
+    "points": 19
    },
    "news": {
     "author": "Puneet Kumar Mishra",
-    "comments": 17,
+    "comments": 21,
     "createdAt": "2026-10-29T10:38:05Z",
     "domain": "dev.to",
     "hnId": 4940419,
     "hnUrl": "https://dev.to/puneetkumar2010/day-27-of-building-crowdwide-the-solution-was-so-simple-why-didnt-i-think-of-it-earlier-3edi",
-    "points": 18
+    "points": 19
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T10:38:05Z",
    "refs": [],
    "relevance": {
@@ -14018,6 +14018,57 @@
   },
   {
    "board": "devto",
+   "category": "product",
+   "devto": {
+    "author": "Yong Yu",
+    "comments": 3,
+    "createdAt": "2026-10-29T13:14:48Z",
+    "domain": "dev.to",
+    "id": 4941314,
+    "points": 4,
+    "url": "https://dev.to/yong_yu_f98e15562e9b120a0/gemini-4-carbon-is-1-on-aa-index-still-fairwind-only-cyber-benches-210-420-and-what-to-b66"
+   },
+   "key": "devto:4941314",
+   "metrics": {
+    "comments": 3,
+    "frontPage": 0,
+    "points": 4
+   },
+   "news": {
+    "author": "Yong Yu",
+    "comments": 3,
+    "createdAt": "2026-10-29T13:14:48Z",
+    "domain": "dev.to",
+    "hnId": 4941314,
+    "hnUrl": "https://dev.to/yong_yu_f98e15562e9b120a0/gemini-4-carbon-is-1-on-aa-index-still-fairwind-only-cyber-benches-210-420-and-what-to-b66",
+    "points": 4
+   },
+   "observedAt": "2026-10-30T07:04:56.994Z",
+   "publishedAt": "2026-10-29T13:14:48Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:api"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Google DeepMind’s Gemini 4 Carbon (Oct 28) claims AA Index v5.0 #1 at 59 and SOTA cyber benches — still Fairwind/cyber-defenders first, no public model ID. Intro $2/$10 → $4/$20, 95% cache off, builder checklist before the API.",
+   "tags": [
+    "source:dev-to",
+    "tag:ai",
+    "tag:llm",
+    "tag:google",
+    "tag:cybersecurity"
+   ],
+   "title": "Gemini 4 Carbon Is #1 on AA Index — Still Fairwind-Only: Cyber Benches, $2/$10 $4/$20, and What to Do Before the API",
+   "url": "https://dev.to/yong_yu_f98e15562e9b120a0/gemini-4-carbon-is-1-on-aa-index-still-fairwind-only-cyber-benches-210-420-and-what-to-b66"
+  },
+  {
+   "board": "devto",
    "category": "engineering",
    "devto": {
     "author": "xbill",
@@ -14043,7 +14094,7 @@
     "hnUrl": "https://dev.to/gde/performance-vs-quality-gemma-4-e2b-quantization-on-an-nvidia-l4-and-a-tesla-t4-4b90",
     "points": 6
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T14:39:09Z",
    "refs": [],
    "relevance": {
@@ -14432,6 +14483,57 @@
    "url": "https://dev.to/linqiangmax/i-paid-9x-more-for-the-smarter-llm-it-got-exactly-the-same-answers-right-1hdk"
   },
   {
+   "board": "devto",
+   "category": "release",
+   "devto": {
+    "author": "Joske Vermeulen",
+    "comments": 0,
+    "createdAt": "2026-10-29T15:57:07Z",
+    "domain": "dev.to",
+    "id": 4942213,
+    "points": 7,
+    "url": "https://dev.to/ai_made_tools/ai-dev-weekly-32-gpt-61-terra-gemini-carbon-kimi-k31-and-copilot-fusion-3mpi"
+   },
+   "key": "devto:4942213",
+   "metrics": {
+    "comments": 0,
+    "frontPage": 0,
+    "points": 7
+   },
+   "news": {
+    "author": "Joske Vermeulen",
+    "comments": 0,
+    "createdAt": "2026-10-29T15:57:07Z",
+    "domain": "dev.to",
+    "hnId": 4942213,
+    "hnUrl": "https://dev.to/ai_made_tools/ai-dev-weekly-32-gpt-61-terra-gemini-carbon-kimi-k31-and-copilot-fusion-3mpi",
+    "points": 7
+   },
+   "observedAt": "2026-10-30T07:04:56.994Z",
+   "publishedAt": "2026-10-29T15:57:07Z",
+   "refs": [],
+   "relevance": {
+    "reasons": [
+     "channel:dev-to",
+     "cat:launches"
+    ],
+    "score": 1
+   },
+   "sources": [
+    "dev-to"
+   ],
+   "summary": "Week of Oct 23-29: GPT-6.1 Terra, restricted Gemini Carbon access, Kimi K3.1 Pro, Copilot Fusion and GitHub's agentic workflow launches.",
+   "tags": [
+    "source:dev-to",
+    "tag:aidevweekly",
+    "tag:gpt61terra",
+    "tag:gemini4carbon",
+    "tag:kimik31"
+   ],
+   "title": "AI Dev Weekly #32: GPT-6.1 Terra, Gemini Carbon, Kimi K3.1 and Copilot Fusion",
+   "url": "https://dev.to/ai_made_tools/ai-dev-weekly-32-gpt-61-terra-gemini-carbon-kimi-k31-and-copilot-fusion-3mpi"
+  },
+  {
    "board": "lobsters",
    "category": "discussion",
    "key": "lobsters:25dapz",
@@ -14440,14 +14542,14 @@
     "comments": 2,
     "createdAt": "2026-10-29T06:44:45.788-05:00",
     "domain": "var0xyz.github.io",
-    "points": 2,
+    "points": 3,
     "shortId": "25dapz",
     "url": "https://var0xyz.github.io/syrinx/"
    },
    "metrics": {
     "comments": 2,
     "frontPage": 0,
-    "points": 2
+    "points": 3
    },
    "news": {
     "author": "var0xyz",
@@ -14456,9 +14558,9 @@
     "domain": "var0xyz.github.io",
     "hnId": 129950855,
     "hnUrl": "https://lobste.rs/s/25dapz/syrinx_censorship_resistant",
-    "points": 2
+    "points": 3
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T06:44:45.788-05:00",
    "refs": [
     "gh:var0xyz/syrinx"
@@ -14489,28 +14591,28 @@
    "key": "lobsters:2zsjwt",
    "lobsters": {
     "author": "durrendal",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-28T18:01:26.314-05:00",
     "domain": "alpinelinux.org",
-    "points": 40,
+    "points": 46,
     "shortId": "2zsjwt",
     "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"
    },
    "metrics": {
-    "comments": 5,
+    "comments": 6,
     "frontPage": 0,
-    "points": 40
+    "points": 46
    },
    "news": {
     "author": "durrendal",
-    "comments": 5,
+    "comments": 6,
     "createdAt": "2026-10-28T18:01:26.314-05:00",
     "domain": "alpinelinux.org",
     "hnId": 181051085,
     "hnUrl": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-    "points": 40
+    "points": 46
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T18:01:26.314-05:00",
    "refs": [],
    "relevance": {
@@ -14539,28 +14641,28 @@
    "key": "lobsters:4x3ten",
    "lobsters": {
     "author": "toastal",
-    "comments": 3,
+    "comments": 6,
     "createdAt": "2026-10-29T08:45:55.892-05:00",
     "domain": "nixtamal.toast.al",
-    "points": 5,
+    "points": 8,
     "shortId": "4x3ten",
     "url": "https://nixtamal.toast.al/cookbook/nixos-using-nixtamal/"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 6,
     "frontPage": 0,
-    "points": 5
+    "points": 8
    },
    "news": {
     "author": "toastal",
-    "comments": 3,
+    "comments": 6,
     "createdAt": "2026-10-29T08:45:55.892-05:00",
     "domain": "nixtamal.toast.al",
     "hnId": 297470111,
     "hnUrl": "https://lobste.rs/s/4x3ten/building_nixos_using_nixtamal",
-    "points": 5
+    "points": 8
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T08:45:55.892-05:00",
    "refs": [],
    "relevance": {
@@ -14588,28 +14690,28 @@
    "key": "lobsters:7qaac6",
    "lobsters": {
     "author": "kqr",
-    "comments": 10,
+    "comments": 12,
     "createdAt": "2026-10-29T01:42:40.796-05:00",
     "domain": "entropicthoughts.com",
-    "points": 41,
+    "points": 59,
     "shortId": "7qaac6",
     "url": "https://entropicthoughts.com/what-the-fox-say"
    },
    "metrics": {
-    "comments": 10,
+    "comments": 12,
     "frontPage": 0,
-    "points": 41
+    "points": 59
    },
    "news": {
     "author": "kqr",
-    "comments": 10,
+    "comments": 12,
     "createdAt": "2026-10-29T01:42:40.796-05:00",
     "domain": "entropicthoughts.com",
     "hnId": 467413206,
     "hnUrl": "https://lobste.rs/s/7qaac6/what_fox_say",
-    "points": 41
+    "points": 59
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T01:42:40.796-05:00",
    "refs": [],
    "relevance": {
@@ -14736,28 +14838,28 @@
    "key": "lobsters:dqexzg",
    "lobsters": {
     "author": "riking",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-28T21:13:24.028-05:00",
     "domain": "v12.sh",
-    "points": 33,
+    "points": 39,
     "shortId": "dqexzg",
     "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key"
    },
    "metrics": {
-    "comments": 0,
+    "comments": 1,
     "frontPage": 0,
-    "points": 33
+    "points": 39
    },
    "news": {
     "author": "riking",
-    "comments": 0,
+    "comments": 1,
     "createdAt": "2026-10-28T21:13:24.028-05:00",
     "domain": "v12.sh",
     "hnId": 830427532,
     "hnUrl": "https://lobste.rs/s/dqexzg/case_9_bit_aes_key",
-    "points": 33
+    "points": 39
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T21:13:24.028-05:00",
    "refs": [],
    "relevance": {
@@ -14786,28 +14888,28 @@
    "key": "lobsters:eccbci",
    "lobsters": {
     "author": "icefox",
-    "comments": 17,
+    "comments": 40,
     "createdAt": "2026-10-29T09:39:51.453-05:00",
     "domain": "lobste.rs",
-    "points": 16,
+    "points": 30,
     "shortId": "eccbci",
     "url": "https://lobste.rs/s/eccbci/shared_password_manager_for_families"
    },
    "metrics": {
-    "comments": 17,
+    "comments": 40,
     "frontPage": 0,
-    "points": 16
+    "points": 30
    },
    "news": {
     "author": "icefox",
-    "comments": 17,
+    "comments": 40,
     "createdAt": "2026-10-29T09:39:51.453-05:00",
     "domain": "lobste.rs",
     "hnId": 867256434,
     "hnUrl": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
-    "points": 16
+    "points": 30
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T09:39:51.453-05:00",
    "refs": [],
    "relevance": {
@@ -14885,28 +14987,28 @@
    "key": "lobsters:gvy5gz",
    "lobsters": {
     "author": "haze",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-28T13:55:15.090-05:00",
     "domain": "nullpt.rs",
-    "points": 101,
+    "points": 115,
     "shortId": "gvy5gz",
     "url": "https://nullpt.rs/fingerprinting-bioweapons"
    },
    "metrics": {
-    "comments": 10,
+    "comments": 11,
     "frontPage": 0,
-    "points": 101
+    "points": 115
    },
    "news": {
     "author": "haze",
-    "comments": 10,
+    "comments": 11,
     "createdAt": "2026-10-28T13:55:15.090-05:00",
     "domain": "nullpt.rs",
     "hnId": 1021120307,
     "hnUrl": "https://lobste.rs/s/gvy5gz/why_is_this_fingerprinting_script",
-    "points": 101
+    "points": 115
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T13:55:15.090-05:00",
    "refs": [],
    "relevance": {
@@ -14938,14 +15040,14 @@
     "comments": 0,
     "createdAt": "2026-10-29T09:37:32.398-05:00",
     "domain": "synthtopia.com",
-    "points": 4,
+    "points": 13,
     "shortId": "j4ntsz",
     "url": "https://www.synthtopia.com/content/2026/10/28/will-open-firmware-become-the-next-big-trend-in-electronic-music-gear/"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 4
+    "points": 13
    },
    "news": {
     "author": "snej",
@@ -14954,9 +15056,9 @@
     "domain": "synthtopia.com",
     "hnId": 1156687523,
     "hnUrl": "https://lobste.rs/s/j4ntsz/will_open_firmware_become_next_big_trend",
-    "points": 4
+    "points": 13
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T09:37:32.398-05:00",
    "refs": [],
    "relevance": {
@@ -14988,14 +15090,14 @@
     "comments": 3,
     "createdAt": "2026-10-28T23:24:28.224-05:00",
     "domain": "blog.yoshuawuyts.com",
-    "points": 18,
+    "points": 23,
     "shortId": "jmbjlu",
     "url": "https://blog.yoshuawuyts.com/the-future-trait-has-a-missing-state"
    },
    "metrics": {
     "comments": 3,
     "frontPage": 0,
-    "points": 18
+    "points": 23
    },
    "news": {
     "author": "fanf",
@@ -15004,9 +15106,9 @@
     "domain": "blog.yoshuawuyts.com",
     "hnId": 1186347522,
     "hnUrl": "https://lobste.rs/s/jmbjlu/future_trait_has_missing_state",
-    "points": 18
+    "points": 23
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T23:24:28.224-05:00",
    "refs": [],
    "relevance": {
@@ -15034,28 +15136,28 @@
    "key": "lobsters:ldvd3n",
    "lobsters": {
     "author": "icefox",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-29T09:48:09.298-05:00",
     "domain": "entropicthoughts.com",
-    "points": 3,
+    "points": 9,
     "shortId": "ldvd3n",
     "url": "https://entropicthoughts.com/history-of-pdp-computers"
    },
    "metrics": {
-    "comments": 1,
+    "comments": 5,
     "frontPage": 0,
-    "points": 3
+    "points": 9
    },
    "news": {
     "author": "icefox",
-    "comments": 1,
+    "comments": 5,
     "createdAt": "2026-10-29T09:48:09.298-05:00",
     "domain": "entropicthoughts.com",
     "hnId": 1293088019,
     "hnUrl": "https://lobste.rs/s/ldvd3n/extremely_brief_history_pdp_computers",
-    "points": 3
+    "points": 9
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T09:48:09.298-05:00",
    "refs": [],
    "relevance": {
@@ -15087,14 +15189,14 @@
     "comments": 5,
     "createdAt": "2026-10-28T11:47:10.029-05:00",
     "domain": "spritely.institute",
-    "points": 44,
+    "points": 49,
     "shortId": "m3gsln",
     "url": "https://spritely.institute/news/hoot-0-10-0-released.html"
    },
    "metrics": {
     "comments": 5,
     "frontPage": 0,
-    "points": 44
+    "points": 49
    },
    "news": {
     "author": "FedericoSchonborn",
@@ -15103,9 +15205,9 @@
     "domain": "spritely.institute",
     "hnId": 1336078283,
     "hnUrl": "https://lobste.rs/s/m3gsln/hoot_0_10_0_released",
-    "points": 44
+    "points": 49
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T11:47:10.029-05:00",
    "refs": [],
    "relevance": {
@@ -15134,28 +15236,28 @@
    "key": "lobsters:m6fw0x",
    "lobsters": {
     "author": "luke8086",
-    "comments": 14,
+    "comments": 26,
     "createdAt": "2026-10-29T06:58:00.549-05:00",
     "domain": "mastodon.sdf.org",
-    "points": 24,
+    "points": 46,
     "shortId": "m6fw0x",
     "url": "https://mastodon.sdf.org/@netbsd/117518160563539748"
    },
    "metrics": {
-    "comments": 14,
+    "comments": 26,
     "frontPage": 0,
-    "points": 24
+    "points": 46
    },
    "news": {
     "author": "luke8086",
-    "comments": 14,
+    "comments": 26,
     "createdAt": "2026-10-29T06:58:00.549-05:00",
     "domain": "mastodon.sdf.org",
     "hnId": 1341074913,
     "hnUrl": "https://lobste.rs/s/m6fw0x/netbsd_adds_new_emacs_like_text_editor",
-    "points": 24
+    "points": 46
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T06:58:00.549-05:00",
    "refs": [],
    "relevance": {
@@ -15234,28 +15336,28 @@
    "key": "lobsters:uimyck",
    "lobsters": {
     "author": "facundoolano",
-    "comments": 9,
+    "comments": 11,
     "createdAt": "2026-10-28T18:57:12.852-05:00",
     "domain": "technologyreview.com",
-    "points": 66,
+    "points": 80,
     "shortId": "uimyck",
     "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/"
    },
    "metrics": {
-    "comments": 9,
+    "comments": 11,
     "frontPage": 0,
-    "points": 66
+    "points": 80
    },
    "news": {
     "author": "facundoolano",
-    "comments": 9,
+    "comments": 11,
     "createdAt": "2026-10-28T18:57:12.852-05:00",
     "domain": "technologyreview.com",
     "hnId": 1845289316,
     "hnUrl": "https://lobste.rs/s/uimyck/emacs_turns_50",
-    "points": 66
+    "points": 80
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-28T18:57:12.852-05:00",
    "refs": [],
    "relevance": {
@@ -15287,14 +15389,14 @@
     "comments": 0,
     "createdAt": "2026-10-29T07:07:26.400-05:00",
     "domain": "nim-lang.org",
-    "points": 4,
+    "points": 12,
     "shortId": "vfllme",
     "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html"
    },
    "metrics": {
     "comments": 0,
     "frontPage": 0,
-    "points": 4
+    "points": 12
    },
    "news": {
     "author": "durrendal",
@@ -15303,9 +15405,9 @@
     "domain": "nim-lang.org",
     "hnId": 1900653494,
     "hnUrl": "https://lobste.rs/s/vfllme/nim_version_2_4_0_released",
-    "points": 4
+    "points": 12
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T07:07:26.400-05:00",
    "refs": [],
    "relevance": {
@@ -15333,28 +15435,28 @@
    "key": "lobsters:x6n380",
    "lobsters": {
     "author": "hongminhee",
-    "comments": 3,
+    "comments": 12,
     "createdAt": "2026-10-29T10:44:47.220-05:00",
     "domain": "redmonk.com",
-    "points": 2,
+    "points": 9,
     "shortId": "x6n380",
     "url": "https://redmonk.com/kholterhoff/2026/10/27/js-runtime-monoculture/"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 12,
     "frontPage": 0,
-    "points": 2
+    "points": 9
    },
    "news": {
     "author": "hongminhee",
-    "comments": 3,
+    "comments": 12,
     "createdAt": "2026-10-29T10:44:47.220-05:00",
     "domain": "redmonk.com",
     "hnId": 2006538768,
     "hnUrl": "https://lobste.rs/s/x6n380/web_can_t_afford_javascript_runtime",
-    "points": 2
+    "points": 9
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T10:44:47.220-05:00",
    "refs": [],
    "relevance": {
@@ -15382,28 +15484,28 @@
    "key": "lobsters:zftely",
    "lobsters": {
     "author": "ndr",
-    "comments": 3,
+    "comments": 6,
     "createdAt": "2026-10-29T05:00:04.439-05:00",
     "domain": "divagr.com",
-    "points": 24,
+    "points": 40,
     "shortId": "zftely",
     "url": "https://divagr.com/blog/qwenputer"
    },
    "metrics": {
-    "comments": 3,
+    "comments": 6,
     "frontPage": 0,
-    "points": 24
+    "points": 40
    },
    "news": {
     "author": "ndr",
-    "comments": 3,
+    "comments": 6,
     "createdAt": "2026-10-29T05:00:04.439-05:00",
     "domain": "divagr.com",
     "hnId": 2142882358,
     "hnUrl": "https://lobste.rs/s/zftely/qwenputer_fully_functioning",
-    "points": 24
+    "points": 40
    },
-   "observedAt": "2026-10-29T18:27:38.601Z",
+   "observedAt": "2026-10-30T07:04:56.994Z",
    "publishedAt": "2026-10-29T05:00:04.439-05:00",
    "refs": [],
    "relevance": {
@@ -15427,60 +15529,67 @@
   }
  ],
  "date": "2026-10-29",
- "fetchedAt": "2026-10-29T18:27:38.601Z",
+ "fetchedAt": "2026-10-30T07:04:56.994Z",
  "runs": [
   "2026-10-28T18:20:27.916Z",
   "2026-10-29T07:02:17.211Z",
-  "2026-10-29T18:27:38.601Z"
+  "2026-10-29T18:27:38.601Z",
+  "2026-10-30T07:04:56.994Z"
  ],
  "schema": 2,
  "sources": [
   {
    "board": "devto",
    "count": 59,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "dev-to",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 314,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "count": 313,
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "github-search",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "repos",
-   "count": 176,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "count": 178,
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "github-trending",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "news",
-   "count": 75,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "count": 74,
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "hacker-news",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "hf",
    "count": 10,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "hf-trending",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "lobsters",
-   "count": 93,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "count": 95,
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "lobsters",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   },
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "x",
    "message": "disabled in config",
    "state": "skipped"
@@ -15488,15 +15597,16 @@
   {
    "board": "social",
    "count": 0,
-   "fetchedAt": "2026-10-29T18:27:38.601Z",
+   "fetchedAt": "2026-10-30T07:04:56.994Z",
    "id": "x-linked",
    "message": "no linked X posts queued",
+   "settledAt": "2026-10-30T07:04:56.994Z",
    "state": "ok"
   }
  ],
  "window": {
   "from": "2026-10-28T16:00:00.000Z",
-  "settled": false,
+  "settled": true,
   "timezone": "Asia/Shanghai",
   "to": "2026-10-29T16:00:00.000Z"
  }

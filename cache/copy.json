@@ -7382,6 +7382,15 @@
   },
   "hash": "dfe953c6443151d1"
  },
+ "devto:4931555": {
+  "copy": {
+   "zh": {
+    "blurb": "当你基于公共数据集构建应用时，新的版本迟早会出现，你必须处理不间断空格、重复行和键名更改等问题。",
+    "title": "在 Python 中对比混乱 CSV 的两个快照：不间断空格、重复行与键名更改"
+   }
+  },
+  "hash": "ba73885ce081b78b"
+ },
  "devto:4931753": {
   "copy": {
    "zh": {
@@ -7482,6 +7491,15 @@
   },
   "hash": "c03f9f2a96dc70cd"
  },
+ "devto:4934564": {
+  "copy": {
+   "zh": {
+    "blurb": "iOS 26 引入 Liquid Glass 后，团队通常只在 Info.plist 添加一个键即可。但在 iOS 27 SDK 中，UIDesignRequiresCompatibility 已被移除，导致部分代码仍在渲染覆盖层。本文介绍如何定位并清理这些仍在绘制 Liquid Glass 的实现。",
+    "title": "UIDesignRequiresCompatibility 在 iOS 27 SDK 中结束：追踪覆盖 Liquid Glass 的代码"
+   }
+  },
+  "hash": "1f673199384dc288"
+ },
  "devto:4935157": {
   "copy": {
    "zh": {
@@ -7537,6 +7555,19 @@
    }
   },
   "hash": "8e2179b5754575eb"
+ },
+ "devto:4935495": {
+  "copy": {
+   "zh": {
+    "blurb": "Prompt Pad由Rosendo Pili发起，提供精选AI提示技巧与案例，帮助忙碌的从业者在碎片时间快速掌握最新AI方法。",
+    "points": [
+     "汇集实用Prompt技巧，帮助用户快速上手最新AI方法。",
+     "由Rosendo Pili策划，提供案例、模板及社区反馈。"
+    ],
+    "title": "Prompt Pad：AI 提示技巧指南"
+   }
+  },
+  "hash": "3b2b7023988440aa"
  },
  "devto:4935497": {
   "copy": {
@@ -7779,6 +7810,20 @@
   },
   "hash": "78813c390cf7fcec"
  },
+ "devto:4941314": {
+  "copy": {
+   "zh": {
+    "blurb": "Google DeepMind的Gemini 4 Carbon在AA指数v5.0中得分59位居首位，刷新网络安全基准。但仅向Fairwind/网络防御者开放，暂无公开模型ID。定价从$2/$10升至$4/$20，缓存关闭95%，提供API前的构建清单。",
+    "points": [
+     "AA指数v5.0得分59，居榜首，创下网络安全基准新纪录。",
+     "仅对Fairwind/网络防御者开放，未公布公开模型ID。",
+     "付费从$2/$10提升至$4/$20，缓存关闭95%，提供API前的检查清单。"
+    ],
+    "title": "Gemini 4 Carbon登榜AA指数第一，仍限Fairwind用户"
+   }
+  },
+  "hash": "ee2bce2e8ca413eb"
+ },
  "devto:4941529": {
   "copy": {
    "zh": {
@@ -7829,6 +7874,20 @@
    }
   },
   "hash": "ee2b922ee74e6c9b"
+ },
+ "devto:4942213": {
+  "copy": {
+   "zh": {
+    "blurb": "本周（10月23‑29日）重点包括OpenAI发布的GPT‑6.1 Terra，Gemini Carbon仍限访问，Kimi K3.1 Pro上线，GitHub推出Copilot Fusion与agentic工作流。",
+    "points": [
+     "OpenAI推出GPT‑6.1 Terra，提升大规模推理与多模态能力。",
+     "Gemini Carbon访问仍受限，仅面向Fairwind用户。",
+     "Kimi K3.1 Pro提升本地推理性能；GitHub发布Copilot Fusion及自动化工作流。"
+    ],
+    "title": "AI Dev Weekly #32：GPT‑6.1 Terra、Gemini Carbon、Kimi K3.1 与 Copilot Fusion"
+   }
+  },
+  "hash": "9c18431941e27f8d"
  },
  "devto:4942264": {
   "copy": {
@@ -7963,6 +8022,93 @@
    }
   },
   "hash": "2b7f9e1369f294e9"
+ },
+ "devto:4943171": {
+  "copy": {
+   "zh": {
+    "blurb": "该项目在 Hacktoberfest 开源 AI 挑战第 4 周中提交，结合本地大模型 Gemma（via Ollama）和 Temporal 编排，实现 AI 代理在崩溃后自动重启并记录观察结果。",
+    "points": [
+     "结合 Gemma 与 Ollama 实现本地大模型推理",
+     "利用 Temporal 编排实现代理的容错重启",
+     "自动记录并输出重新启动前的感知信息"
+    ],
+    "title": "Undead Agent——我的 AI 代理死亡复活并报告所见（Gemma + Ollama + Temporal）"
+   }
+  },
+  "hash": "a2c76f32fda79fae"
+ },
+ "devto:4943288": {
+  "copy": {
+   "zh": {
+    "blurb": "作者每日在 Markdown 文件中记录笔记、规范和计划，因而开发了 Splat，这是一款基于 Rust 的原生 macOS 编辑器，专注高效、流畅的 Markdown 编写体验。",
+    "points": [
+     "基于 Rust 实现高性能原生 macOS 应用",
+     "专注 Markdown 编写，提供流畅的编辑体验",
+     "面向开发者社区的轻量化工具"
+    ],
+    "title": "Splat——为 vibecoders 打造的原生 macOS Markdown 编辑器，使用 Rust 编写"
+   }
+  },
+  "hash": "db7bf745b7b5f13d"
+ },
+ "devto:4943641": {
+  "copy": {
+   "zh": {
+    "blurb": "这篇 Hacktoberfest 开源 AI 挑战第 4 周的提交回顾了 Express 项目中仍在运行的数千行 Holowaychuk 早期代码，并引用 Gemma 将其长期未改动的提交形容为数千年的沉默。",
+    "points": [
+     "Express 项目仍保留数千行 Holowaychuk 早期代码",
+     "Gemma 将其长期未改动的提交形容为数千年的沉默",
+     "体现开源项目对历史代码的依赖与持续维护"
+    ],
+    "title": "TJ Holowaychuk 于 2014 年离开 Express，仍有 6,483 行代码在运行，Gemma 称其提交为“3527 静默年”。"
+   }
+  },
+  "hash": "a47ff7824764c35c"
+ },
+ "devto:4943878": {
+  "copy": {
+   "zh": {
+    "blurb": "这是 Hacktoberfest 开源 AI 挑战第 4 周（Ghost in the Machine）的参赛作品，展示链接检查器误判导致八个链接指向赌场。",
+    "title": "被占据：你的链接检查器显示通过，但八个链接指向赌场"
+   }
+  },
+  "hash": "7ed62f33b90faaf1"
+ },
+ "devto:4944298": {
+  "copy": {
+   "zh": {
+    "blurb": "本文探讨了“本体论”一词在当前 AI 语境中的广泛滥用，指出许多所谓的本体实际上是临时数据结构或标签系统。",
+    "points": [
+     "本体论应描述概念层次，却常被用于一次性方案",
+     "呼吁更精准的术语使用以避免概念混淆",
+     "列举常见误用场景并提供纠正建议"
+    ],
+    "title": "“Ontology”是当下 AI 中最被误用的词吗？"
+   }
+  },
+  "hash": "931acbac19997c48"
+ },
+ "devto:4944551": {
+  "copy": {
+   "zh": {
+    "blurb": "上周，我们将开源的 BugTraceAI 安全扫描代理指向自身的依赖树，10 分钟内发现个人信息泄漏，但随后停止运行。",
+    "title": "我们让 AI 代理扫描自己的依赖树，10 分钟发现 PII 泄漏，随后停止，原因何在"
+   }
+  },
+  "hash": "930df66d971b6a49"
+ },
+ "devto:4944637": {
+  "copy": {
+   "zh": {
+    "blurb": "使用本地 Google Gemma 2 的隔离取证终端仪式，数字化纪念已删除函数和埋藏的 git 历史，零 pip 依赖。",
+    "points": [
+     "零 pip 依赖，仅需本地 Gemma 2。",
+     "热度 18.6/100，排名第10。"
+    ],
+    "title": "John Carmack 于 1999 年删除了 fast_inverse_sqrt()，在提交 c51b980a 中替换了 0x5f3759df。我们进行了一场隔离仪式与其幽灵对话。"
+   }
+  },
+  "hash": "51125474ae1e34b3"
  },
  "gh:0x4m4/hexstrike-ai": {
   "copy": {
@@ -9518,8 +9664,12 @@
  "gh:mempalace/mempalace": {
   "copy": {
    "zh": {
-    "blurb": "提供高性能的 AI 长期记忆库，开源且免费，已通过多项基准测试验证。",
-    "title": "MemPalace：最佳基准开源 AI 记忆系统",
+    "blurb": "最佳基准测试的开源 AI 记忆系统，免费提供。",
+    "points": [
+     "Python 实现，拥有 6 万+ 星标。",
+     "排名第10，热度 48.5/100。"
+    ],
+    "title": "MemPalace/mempalace",
     "why": "解决 LLM 记忆瓶颈，提升上下文持续性与任务表现。"
    }
   },
@@ -10522,17 +10672,11 @@
  "gh:vincentwei1021/video-shotcraft": {
   "copy": {
    "zh": {
-    "blurb": "Vincentwei1021 开源的 video-shotcraft 为 Claude Code & Codex 提供 AI 视频技能，支持 152 条镜头配方卡、209 条运动预览及可直接使用的 Remotion 模板，累计 10863 星。",
-    "points": [
-     "提供 152 条镜头配方卡",
-     "209 条运动预览",
-     "Remotion 模板可直接生产视频"
-    ],
-    "title": "Video Shotcraft – AI 视频制作",
-    "why": "降低高质量产品视频制作门槛，促进 AI 在创意媒体中的应用。"
+    "blurb": "面向 Claude Code 与 Codex 的 AI 视频技能，使用 Remotion 生成可编辑的电影级产品宣传片，提供 124 种镜头配方卡、150 个运动预览、节拍同步、音效设计、Motion Workbench 与剪映（CapCut CN）导出。",
+    "title": "Vincentwei1021/video-shotcraft"
    }
   },
-  "hash": "2757d9e31a7e1ed1"
+  "hash": "8f750560d55d3324"
  },
  "gh:vllm-project/vllm": {
   "copy": {
@@ -10804,6 +10948,19 @@
    }
   },
   "hash": "1e123d26e41e52df"
+ },
+ "hf:baidu/unlimited-ocr-2": {
+  "copy": {
+   "zh": {
+    "blurb": "Unlimited-OCR-2是百度在Hugging Face发布的图像转文本OCR模型，属于image‑text‑to‑text类目，获425点赞，热度83，排名第一，显示出社区高度关注。",
+    "points": [
+     "专注图像到文本的OCR，支持高分辨率中英文识别。",
+     "在Hugging Face上获425点赞，热度83，排名榜首，受社区热烈追捧。"
+    ],
+    "title": "百度 Unlimited-OCR-2 模型"
+   }
+  },
+  "hash": "69fb7e650178c1f4"
  },
  "hf:black-forest-labs/flux-3-image-klein": {
   "copy": {
@@ -14858,6 +15015,61 @@
   },
   "hash": "d2511a99d993a441"
  },
+ "hn:50296486": {
+  "copy": {
+   "zh": {
+    "blurb": "Y Combinator实验室展示了在Minecraft和Mindustry两款沙盒游戏中部署大规模AI代理群体，实现协同建造与对抗，验证多智能体系统的可扩展性。",
+    "points": [
+     "在Minecraft和Mindustry中部署数十个AI代理，实现协同建造与对抗。",
+     "展示大规模多智能体系统的可扩展性与实时策略学习潜力。"
+    ],
+    "title": "我们在Minecraft和Mindustry中运行AI代理群体"
+   }
+  },
+  "hash": "976c41aa50099868"
+ },
+ "hn:50296793": {
+  "copy": {
+   "zh": {
+    "blurb": "InputConfig 是一款开源工具，允许用户将任何游戏控制器映射到 macOS，实现键盘鼠标功能，免除硬件限制。",
+    "points": [
+     "支持多种控制器并可自定义映射",
+     "完全免费、开源，适配最新 macOS",
+     "简洁 UI，易于上手"
+    ],
+    "title": "InputConfig：在 Mac 上使用任意手柄的免费开源应用"
+   }
+  },
+  "hash": "e61b27c85cddca64"
+ },
+ "hn:50297053": {
+  "copy": {
+   "zh": {
+    "blurb": "Charter 是一个开源库，提供对智能体在访问客户账户时的字段级别权限管理，帮助防止数据泄露并满足合规要求。",
+    "points": [
+     "支持基于字段的访问策略",
+     "可与主流 LLM 框架快速集成",
+     "记录审计日志以便追溯"
+    ],
+    "title": "Charter：细粒度控制 AI 代理对客户账户的调用"
+   }
+  },
+  "hash": "eef63c561f961168"
+ },
+ "hn:50297697": {
+  "copy": {
+   "zh": {
+    "blurb": "DOOMFORMER 使用 DOOM 游戏机制实现矩阵运算，构建了一个基于游戏的 Transformer，可识别地图上手写的 MNIST 数字、进行简易对话和决策，展示了游戏系统的图灵完备性。",
+    "points": [
+     "利用 DOOM 游戏机制实现矩阵运算，构建替代 NumPy 的计算后端",
+     "基于游戏的 Transformer 能在地图上识别手写 MNIST 数字",
+     "支持基础对话和决策推理，演示游戏系统的图灵完备性"
+    ],
+    "title": "Show HN：我把 DOOM 变成了 Transformer"
+   }
+  },
+  "hash": "4c63eed172b2247b"
+ },
  "lobsters:05xrj8": {
   "copy": {
    "zh": {
@@ -15000,6 +15212,20 @@
   },
   "hash": "fb2d4f9a56f17aee"
  },
+ "lobsters:1r7enm": {
+  "copy": {
+   "zh": {
+    "blurb": "安全研究员披露了 yarr RSS 阅读器存在的 XSS 漏洞，攻击者可通过特制的 feed 条目执行任意 JavaScript，需对输入进行过滤。",
+    "points": [
+     "漏洞利用方式为在 RSS 条目中注入脚本",
+     "建议对标题、内容等字段进行 HTML 转义",
+     "已向项目维护者提交修复补丁"
+    ],
+    "title": "yarr RSS 阅读器跨站脚本（XSS）漏洞报告"
+   }
+  },
+  "hash": "541ecc9d19efbd35"
+ },
  "lobsters:1s3dve": {
   "copy": {
    "zh": {
@@ -15064,6 +15290,20 @@
    }
   },
   "hash": "32179afbf9de4fac"
+ },
+ "lobsters:2matgw": {
+  "copy": {
+   "zh": {
+    "blurb": "博客文章分析了 C2PA 标准在 eMudhra 项目中的应用，探讨了内容认证与信任链的行业挑战，并提供对数字内容防伪机制的深度见解。",
+    "points": [
+     "分析 C2PA 标准在 eMudhra 项目中的应用",
+     "探讨信任与内容认证的行业挑战",
+     "提供对数字内容防伪机制的深度见解"
+    ],
+    "title": "C2PA 的 eMudhra 时刻"
+   }
+  },
+  "hash": "7dc23f0dcec487fd"
  },
  "lobsters:2mlkhe": {
   "copy": {
@@ -15359,6 +15599,20 @@
    }
   },
   "hash": "d27e3fa1e4e1f338"
+ },
+ "lobsters:6ole9g": {
+  "copy": {
+   "zh": {
+    "blurb": "作者在博客中呼吁读者为自己喜欢的网站做备份，提醒网站内容易失，提供静态镜像或抓取工具的实用建议，倡导社区共同保存网络文化遗产。",
+    "points": [
+     "强调网站内容的易失性，倡导个人备份",
+     "提供静态镜像或抓取工具的实用建议",
+     "呼吁社区共同保存网络文化遗产"
+    ],
+    "title": "如果你喜欢一个网站，请为它备份"
+   }
+  },
+  "hash": "e1a02eae768f092b"
  },
  "lobsters:6tbd2o": {
   "copy": {
@@ -16394,6 +16648,19 @@
    }
   },
   "hash": "6fdc5751e0bcd22a"
+ },
+ "lobsters:dsrruj": {
+  "copy": {
+   "zh": {
+    "blurb": "社区成员发起在伦敦组织线下AI聚会的提议，邀请本地用户表明是否参加并投票最佳聚会日期，人数足够将安排市中心交流活动。",
+    "points": [
+     "呼吁伦敦地区成员表明是否参加，并投票最佳聚会日期。",
+     "若报名人数足够，将在市中心安排线下交流活动。"
+    ],
+    "title": "伦敦AI聚会提议"
+   }
+  },
+  "hash": "20c037d92798b8af"
  },
  "lobsters:dtwbpu": {
   "copy": {
@@ -18354,6 +18621,20 @@
   },
   "hash": "56fd862aeb9d67b2"
  },
+ "lobsters:qqelq1": {
+  "copy": {
+   "zh": {
+    "blurb": "文章阐述在软件界面设计中应优先考虑功能实现和用户任务，而不是仅仅追求用户对既有布局的熟悉度，倡导以可用性为核心。",
+    "points": [
+     "功能导向布局提升工作效率",
+     "避免因模仿传统 UI 产生认知负担",
+     "强调用户测试验证设计有效性"
+    ],
+    "title": "界面设计应聚焦功能而非熟悉感"
+   }
+  },
+  "hash": "d884845f9f49c65f"
+ },
  "lobsters:qr59sa": {
   "copy": {
    "zh": {
@@ -18381,6 +18662,20 @@
    }
   },
   "hash": "a41cffc7b459b3a5"
+ },
+ "lobsters:qsvspv": {
+  "copy": {
+   "zh": {
+    "blurb": "即时通讯客户端 Pidgin 推出 3.0 Alpha 4 版本（内部号 2.98.0），带来 UI 改进、插件 API 更新以及对新协议的实验性支持。",
+    "points": [
+     "插件系统重构，提升扩展性",
+     "实验性支持 Matrix 等新协议",
+     "细节 UI 优化，提升使用体验"
+    ],
+    "title": "Pidgin 3.0 Alpha 4 2.98.0 正式发布"
+   }
+  },
+  "hash": "b927f1aa17f5bd53"
  },
  "lobsters:qvomvk": {
   "copy": {
