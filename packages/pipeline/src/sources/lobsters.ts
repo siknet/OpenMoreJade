@@ -1,8 +1,7 @@
-import type { Config } from '../config.ts'
-import type { RawLobsters, Source } from '../types.ts'
-import { clip, hostOf, plain, refsOf } from './util.ts'
+import { fetchJson } from '../http.ts'
+import type { BoardConfig, Item, SubChannelData } from '../types.ts'
 
-export interface LobstersStory {
+interface LobstersStory {
   short_id: string
   created_at: string
   title: string
@@ -13,101 +12,72 @@ export interface LobstersStory {
   description_plain?: string
   submitter_user?: string
   tags?: string[]
-  short_id_url?: string
   comments_url?: string
 }
 
-export function mapLobstersStory(story: LobstersStory, sourceTag: string): RawLobsters {
-  const key = `lobsters:${story.short_id}`
-  const title = plain(story.title)
-  const url = story.url || story.comments_url || `https://lobste.rs/s/${story.short_id}`
-  const summary = clip(plain(story.description_plain || story.description))
-  const createdAt = story.created_at || new Date().toISOString()
-  const points = story.score ?? 0
-  const comments = story.comment_count ?? 0
-  const tagsList = (story.tags ?? []).map((t) => `tag:${t.toLowerCase()}`)
-  const tags = ['source:lobsters', `tag:${sourceTag}`, ...tagsList]
+export async function fetchLobsters(boardConfig: BoardConfig): Promise<{ items: Item[]; channels: SubChannelData[] }> {
+  const options = boardConfig.options || {}
+  const channelsConfig = options.channels || [
+    { id: 'release', name: 'Release 版本', url: 'https://lobste.rs/t/release.json', limit: 15 },
+    { id: 'ai', name: 'AI 议题', url: 'https://lobste.rs/t/ai.json', limit: 15 },
+    { id: 'show', name: 'Show 作品', url: 'https://lobste.rs/t/show.json', limit: 15 },
+  ]
 
-  const domain = hostOf(url) || 'lobste.rs'
-  const author = story.submitter_user
+  const channels: SubChannelData[] = []
+  const allItems: Item[] = []
 
-  return {
-    key,
-    board: 'lobsters',
-    title,
-    url,
-    summary,
-    tags: [...new Set(tags)],
-    publishedAt: createdAt,
-    sources: ['lobsters'],
-    refs: refsOf(key, url, summary),
-    metrics: { points, comments, frontPage: 0 },
-    lobsters: {
-      shortId: story.short_id,
-      url,
-      domain,
-      author,
-      points,
-      comments,
-      createdAt,
-    },
-    news: {
-      hnId: parseInt(story.short_id, 36) || 0,
-      hnUrl: story.comments_url || `https://lobste.rs/s/${story.short_id}`,
-      domain,
-      author,
-      points,
-      comments,
-      createdAt,
-    },
-  }
-}
+  for (const ch of channelsConfig) {
+    const limit = ch.limit || 15
+    const url = ch.url || `https://lobste.rs/t/${ch.id}.json`
 
-export function lobsters(config: Config): Source {
-  void config
-  return {
-    id: 'lobsters',
-    board: 'lobsters',
-    async fetch(ctx) {
-      // Primary feed: hottest stories, followed by recent and topic tags
-      const [hottestRes, recentRes, releaseRes, aiRes, showRes] = await Promise.all([
-        ctx.http.json<LobstersStory[]>('https://lobste.rs/hottest.json').catch(() => []),
-        ctx.http.json<LobstersStory[]>('https://lobste.rs/recent.json').catch(() => []),
-        ctx.http.json<LobstersStory[]>('https://lobste.rs/t/release.json').catch(() => []),
-        ctx.http.json<LobstersStory[]>('https://lobste.rs/t/ai.json').catch(() => []),
-        ctx.http.json<LobstersStory[]>('https://lobste.rs/t/show.json').catch(() => []),
-      ])
+    try {
+      const stories = await fetchJson<LobstersStory[]>(url, { timeoutMs: 12000 })
+      const list = Array.isArray(stories) ? stories : []
 
-      const hottestStories = Array.isArray(hottestRes) ? hottestRes : []
-      const recentStories = Array.isArray(recentRes) ? recentRes : []
-      const releaseStories = Array.isArray(releaseRes) ? releaseRes : []
-      const aiStories = Array.isArray(aiRes) ? aiRes : []
-      const showStories = Array.isArray(showRes) ? showRes : []
+      const channelItems: Item[] = []
+      for (const story of list.slice(0, limit)) {
+        if (!story || !story.short_id || !story.title) continue
 
-      const items = new Map<string, RawLobsters>()
-
-      const addStories = (list: LobstersStory[], tag: string) => {
-        for (const story of list) {
-          if (!story || !story.short_id || !story.title) continue
-          const existing = items.get(`lobsters:${story.short_id}`)
-          if (existing) {
-            if (tag && !existing.tags.includes(`tag:${tag}`)) {
-              existing.tags.push(`tag:${tag}`)
-            }
-          } else {
-            const mapped = mapLobstersStory(story, tag)
-            items.set(mapped.key, mapped)
-          }
+        const mapped: Item = {
+          id: `lobsters:${story.short_id}`,
+          title: story.title.trim(),
+          url: story.url || story.comments_url || `https://lobste.rs/s/${story.short_id}`,
+          summary: (story.description_plain || story.description || '').trim(),
+          source: 'lobsters',
+          subChannel: ch.id,
+          author: story.submitter_user || 'Lobste.rs User',
+          tags: story.tags || [],
+          publishedAt: story.created_at || new Date().toISOString(),
+          metrics: {
+            points: story.score || 0,
+            comments: story.comment_count || 0,
+          },
+          extra: {
+            commentsUrl: story.comments_url,
+          },
         }
+
+        channelItems.push(mapped)
+        allItems.push(mapped)
       }
 
-      addStories(hottestStories, 'hottest')
-      addStories(recentStories, 'recent')
-      addStories(releaseStories, 'release')
-      addStories(aiStories, 'ai')
-      addStories(showStories, 'show')
+      channels.push({
+        id: ch.id,
+        name: ch.name,
+        items: channelItems,
+      })
+    } catch (err: any) {
+      console.warn(`[Lobste.rs] Failed to fetch channel ${ch.id}: ${err.message}`)
+      channels.push({
+        id: ch.id,
+        name: ch.name,
+        items: [],
+      })
+    }
+  }
 
-      return [...items.values()]
-    },
+  return {
+    items: allItems,
+    channels,
   }
 }

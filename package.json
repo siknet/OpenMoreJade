@@ -41,20 +41,13 @@
     "node": ">=22.16.0"
   },
   "scripts": {
+    "start": "node --experimental-strip-types server.js",
     "pipeline": "pnpm --filter @resonance/pipeline run cli",
     "daily": "pnpm pipeline run",
-    "publish:data": "pnpm pipeline publish",
     "dev": "pnpm --filter @resonance/web run dev",
     "build": "pnpm --filter @resonance/web run build",
     "preview": "pnpm --filter @resonance/web run preview",
-    "start": "pnpm pipeline serve",
-    "mcp": "pnpm --filter @resonance/channels run mcp",
-    "typecheck": "pnpm -r run typecheck",
-    "test": "pnpm -r run test",
-    "lint": "biome check .",
-    "format": "biome check --write .",
-    "check": "pnpm lint && pnpm typecheck && pnpm test",
-    "mail": "pnpm --filter @resonance/channels run mail"
+    "typecheck": "pnpm -r run typecheck"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.14"

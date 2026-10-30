@@ -1,0 +1,21 @@
+services:
+  open-more-jade:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: open-more-jade
+    restart: unless-stopped
+    ports:
+      # 宿主机端口:容器内端口（可根据需要修改为 80:3000 或 8080:3000）
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
+      - TZ=Asia/Shanghai
+    volumes:
+      # 1. 密钥配置文件持久化挂载（保存在宿主机，防止泄露）
+      - ./.env:/app/.env:ro
+      # 2. 爬虫抓取规则与定时策略配置
+      - ./config.yaml:/app/config.yaml:ro
+      # 3. 每日生成的日报数据文件（持久化存储，容器重启不丢失数据）
+      - ./packages/web/public/data:/app/packages/web/public/data

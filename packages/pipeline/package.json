@@ -2,20 +2,19 @@
   "name": "@resonance/pipeline",
   "version": "0.1.0",
   "private": true,
-  "description": "fetch → classify → link → snapshot → score → trend → enrich → publish. Runs in GitHub Actions or locally.",
+  "description": "Clean, modular fetch & enrichment pipeline driven by config.yaml",
   "type": "module",
   "scripts": {
     "cli": "node src/cli.ts",
+    "run": "node src/cli.ts run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "test": "vitest run --maxWorkers=2"
   },
   "dependencies": {
-    "@resonance/schema": "workspace:*",
     "fast-xml-parser": "^5.11.1",
     "node-html-parser": "^9.0.4",
     "yaml": "catalog:",
-    "zod": "catalog:",
-    "@resonance/channels": "workspace:*"
+    "zod": "catalog:"
   },
   "devDependencies": {
     "@types/node": "catalog:",

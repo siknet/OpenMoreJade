@@ -1,37 +1,30 @@
 <!doctype html>
-<html lang="en" data-preset="titanium" data-mode="dark">
+<html lang="zh-CN">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src *; font-src 'self' data:; worker-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'"
-    />
-    <meta name="referrer" content="no-referrer" />
-    <meta name="color-scheme" content="dark light" />
-    <!-- Titanium page colours until the app sets the active preset's --bg (theme/prefs.ts › startAppearance). -->
-    <meta name="theme-color" content="#07080b" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
-    <meta
-      name="description"
-      content="AI 日报与入门推荐：跨来源事件、透明热度、分类检索和每日更新。Daily AI radar and a curated beginner learning library."
-    />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-    <!-- iOS ignores SVG touch icons. -->
-    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
-    <title>AI Resonance · AI 日报与入门推荐</title>
-    <!-- SITE_METADATA -->
-    <!-- Applies the saved theme before first paint; a classic external script because the CSP forbids inline ones. -->
-    <script src="./boot.js"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>摸玉日报 - AI & 技术精选雷达</title>
+    <meta name="description" content="每日技术与开源精选雷达：GitHub Trending、Hacker News、Dev.to、Lobste.rs、Product Hunt" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('site_theme');
+          // 默认白天模式，除非用户手动点击切换为 dark
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
-  <body>
+  <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-violet-500 selection:text-white min-h-screen transition-colors duration-150">
     <div id="app"></div>
-    <noscript>交互式日报需要 JavaScript。<a href="./learn/">阅读入门推荐</a>，或<a href="./api/v1/digest.zh.md">查看最新日报正文</a>。</noscript>
-    <!-- Fork-level overrides: loaded after the bundled styles so it always wins (see docs/CUSTOMIZE.md). -->
-    <link rel="stylesheet" href="./custom.css" />
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
